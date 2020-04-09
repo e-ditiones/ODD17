@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- Le header sera traité plus tard -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <!-- Encodage qui comprend l'ensemble des éléments utilisés par les 3 niveaux.
+   Les attributs ainsi que leurs valeurs, à définir seront ajoutés manuellement.
+   Il sera décidé plus tard si l'on doit contraindre ou non l'enchaînement de certains éléments/attributs.
+   -->
+   <text>
+      <front>
+         <p>Blabla</p>
+      </front>
+      <body>
+         <div>
+            <head>Pièce de théâtre</head>
+            <div>
+               <head>ACTE I</head>
+               <sp>
+                  <speaker>XY</speaker>
+                  <l>Blablabla, <persName>A</persName> goes to <placeName>C</placeName></l>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <opener>From <persName>A</persName> to <persName>B</persName>,
+               <placeName>C</placeName></opener>
+            <p>Blabla <list>
+                  <item>1</item>
+                  <item>2</item>
+               </list>
+            </p>
+            <closer>See you soon</closer>
+         </div>
+         <div>
+            <head>Roman</head>
+            <p>Blabla <fw>Poème</fw>
+               <l>Blabla</l>
+            </p>
+         </div>
+      </body>
+      <back>
+         <p>Blabla final</p>
+      </back>
+   </text>
+</TEI>
