@@ -20,8 +20,10 @@
    <text>
       <body>
          <schemaSpec ident="ed1" source="Mother-compiled.xml" start="text">
+            <moduleRef key="tei"/>
             <moduleRef key="textstructure" include="text body"/>
-            <moduleRef key="core" include="p"/>
+            <moduleRef key="core"  include="p lb"/>
+            <moduleRef key="transcr" include="fw"/>
          </schemaSpec>
       </body>
    </text>

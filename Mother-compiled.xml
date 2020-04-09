@@ -4468,7 +4468,8 @@ one initial.</desc>
       <p>Pour des détails complets, voir ISO 8601 <title>Data elements and interchange formats —
         Information interchange — Representation of dates and times</title>.</p>
   </remarks>
-</dataSpec><elementSpec module="core" ident="p">
+</dataSpec>
+           <elementSpec module="core" ident="p">
   <gloss versionDate="2005-01-14" xml:lang="en">paragraph</gloss>
   <gloss versionDate="2007-12-20" xml:lang="ko">문단</gloss>
   <gloss versionDate="2007-05-02" xml:lang="zh-TW">段落</gloss>
