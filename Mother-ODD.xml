@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,13 +14,13 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 1 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 3 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <schemaSpec ident="oddbyexample" start="TEI ">
+         <schemaSpec ident="oddbyexample" start="TEI">
             <moduleRef key="tei"/>
             <!--Checking module textcrit-->
             <classRef key="att.textCritical"/>
@@ -37,20 +41,24 @@
             <moduleRef key="namesdates" include="persName placeName"/>
             <elementSpec ident="persName" mode="change">
                <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
                      </valList>
                   </attDef>
+                  <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="placeName" mode="change">
                <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
                      </valList>
                   </attDef>
+                  <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <!--Checking module dictionaries-->
@@ -76,16 +84,124 @@
             <!--Checking module tagdocs-->
             <classRef key="att.combinable"/>
             <classRef key="att.identified"/>
+            <classRef key="att.namespaceable"/>
+            <classRef key="att.repeatable"/>
             <classRef key="model.contentPart"/>
-            <classSpec ident="att.combinable" type="atts" mode="change">
+            <moduleRef key="tagdocs"
+                       include="classRef elementRef moduleRef schemaSpec elementSpec classSpec attList attDef valItem valList"/>
+            <elementSpec ident="classRef" mode="change">
                <attList>
+                  <attDef ident="expand" mode="delete"/>
+                  <attDef ident="include" mode="delete"/>
+                  <attDef ident="except" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="minOccurs" mode="delete"/>
+                  <attDef ident="maxOccurs" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="elementRef" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="moduleRef" mode="change">
+               <attList>
+                  <attDef ident="prefix" mode="delete"/>
+                  <attDef ident="except" mode="delete"/>
+                  <attDef ident="url" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="schemaSpec" mode="change">
+               <attList>
+                  <attDef ident="prefix" mode="delete"/>
+                  <attDef ident="targetLang" mode="delete"/>
+                  <attDef ident="docLang" mode="delete"/>
+                  <attDef ident="mode" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="add"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="elementSpec" mode="change">
+               <attList>
+                  <attDef ident="prefix" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="predeclare" mode="delete"/>
+                  <attDef ident="mode" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="change"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="ns" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="classSpec" mode="change">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="atts"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="generate" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="predeclare" mode="delete"/>
+                  <attDef ident="mode" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="change"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="atts"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="attList" mode="change">
+               <attList>
+                  <attDef ident="org" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="attDef" mode="change">
+               <attList>
+                  <attDef ident="usage" mode="delete"/>
+                  <attDef ident="ns" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="predeclare" mode="delete"/>
+                  <attDef ident="mode" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="change"/>
+                        <valItem ident="delete"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="valItem" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="delete"/>
                </attList>
-            </classSpec>
+            </elementSpec>
+            <elementSpec ident="valList" mode="change">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="closed"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="mode" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="add"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
             <classSpec ident="att.identified" type="atts" mode="change">
                <attList>
-                  <attDef ident="ident" mode="delete"/>
-                  <attDef ident="predeclare" mode="delete"/>
                   <attDef ident="module" mode="delete"/>
                </attList>
             </classSpec>
@@ -134,6 +250,17 @@
                   <attDef ident="nymRef" mode="delete"/>
                </attList>
             </classSpec>
+            <classSpec ident="att.typed" type="atts" mode="change">
+               <attList>
+                  <attDef ident="subtype" mode="delete"/>
+               </attList>
+            </classSpec>
+            <classSpec ident="att.pointing" type="atts" mode="change">
+               <attList>
+                  <attDef ident="targetLang" mode="delete"/>
+                  <attDef ident="evaluate" mode="delete"/>
+               </attList>
+            </classSpec>
             <classSpec ident="att.pointing.group" type="atts" mode="change">
                <attList>
                   <attDef ident="domains" mode="delete"/>
@@ -164,9 +291,10 @@
                </attList>
             </classSpec>
             <!--Checking module core-->
-            <moduleRef key="core" include="p list item head title l sp speaker"/>
+            <moduleRef key="core" include="p ref list item head lb title l sp speaker"/>
             <elementSpec ident="p" mode="change">
                <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="part" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="N"/>
@@ -174,19 +302,55 @@
                   </attDef>
                </attList>
             </elementSpec>
+            <elementSpec ident="ref" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
             <elementSpec ident="list" mode="change">
                <attList>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="item" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="head" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="lb" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="title" mode="change">
                <attList>
                   <attDef ident="level" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="short"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="short"/>
+                     </valList>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="l" mode="change">
                <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="part" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="N"/>
@@ -194,12 +358,43 @@
                   </attDef>
                </attList>
             </elementSpec>
+            <elementSpec ident="sp" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="speaker" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
             <!--Checking module figures-->
             <!--Checking module header-->
             <moduleRef key="header"
                        include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/>
+            <elementSpec ident="teiHeader" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="fileDesc" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="titleStmt" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="publicationStmt" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
             <elementSpec ident="sourceDesc" mode="change">
                <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="default" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="false"/>
@@ -214,6 +409,8 @@
             <elementSpec ident="fw" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <!--Checking module linking-->
@@ -224,10 +421,24 @@
             <elementSpec ident="TEI" mode="change">
                <attList>
                   <attDef ident="version" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="text" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="body" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="div" mode="change">
                <attList>
+                  <attDef ident="source" mode="delete"/>
                   <attDef ident="org" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="uniform"/>
@@ -243,6 +454,27 @@
                         <valItem ident="N"/>
                      </valList>
                   </attDef>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="opener" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="closer" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="front" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="back" mode="change">
+               <attList>
+                  <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
          </schemaSpec>

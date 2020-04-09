@@ -33,6 +33,9 @@
                <sp>
                   <speaker>XY</speaker>
                   <l>Blablabla, <persName>A</persName> goes to <placeName>C</placeName></l>
+                  <p>Voici un premier
+                     <lb/>exemple pas très ori-<lb break="no"/>nal.
+                  </p>
                </sp>
             </div>
          </div>
