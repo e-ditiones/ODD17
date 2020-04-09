@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD de niveau 2</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <schemaSpec ident="ed2" source="Mother-compiled.xml" start="text">
+                <moduleRef key="tei"/>
+                <moduleRef key="textstructure" include="text body front back div opener closer"/>
+                <moduleRef key="core"  include="p lb sp speaker l list item head"/>
+                <moduleRef key="transcr" include="fw"/>
+                <moduleRef key="namesdates" include="persName placeName"/>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
+
+
