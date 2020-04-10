@@ -25,6 +25,34 @@
                 <moduleRef key="core"  include="p lb sp speaker l lg list item head"/>
                 <moduleRef key="transcr" include="fw"/>
                 <moduleRef key="namesdates" include="persName placeName"/>
+                
+                <!-- Contraintes de valeurs d'attributs -->
+                <elementSpec ident="lb" mode="change">
+                    <attList>
+                        <attDef ident="break" mode="change">
+                            <valList mode="add" type="closed">
+                                <valItem ident="no"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+               
+                <elementSpec ident="div" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change">
+                            <valList mode="add" type="closed">
+                                <valItem ident="play"/>
+                                <valItem ident="act"/>
+                                <valItem ident="scene"/>
+                                <valItem ident="castList"/>
+                                <valItem ident="book"/>
+                                <valItem ident="part"/>
+                                <valItem ident="letter"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                
             </schemaSpec>
         </body>
     </text>
