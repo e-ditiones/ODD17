@@ -24,6 +24,18 @@
             <moduleRef key="textstructure" include="text body"/>
             <moduleRef key="core"  include="p lb"/>
             <moduleRef key="transcr" include="fw"/>
+                        
+            <!-- Contraintes de valeurs d'attributs -->
+            <elementSpec ident="lb" mode="change">
+               <attList>
+                  <attDef ident="break" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="no"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
          </schemaSpec>
       </body>
    </text>
