@@ -22,7 +22,7 @@
             <schemaSpec ident="ed2" source="Mother-compiled.xml" start="text">
                 <moduleRef key="tei"/>
                 <moduleRef key="textstructure" include="text body front back div opener closer"/>
-                <moduleRef key="core"  include="p lb sp speaker l list item head"/>
+                <moduleRef key="core"  include="p lb sp speaker l lg list item head"/>
                 <moduleRef key="transcr" include="fw"/>
                 <moduleRef key="namesdates" include="persName placeName"/>
             </schemaSpec>

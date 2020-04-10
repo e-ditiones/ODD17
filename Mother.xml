@@ -52,7 +52,9 @@
          <div>
             <head>Roman</head>
             <p>Blabla <fw>Poème</fw>
+               <lg>
                <l>Blabla</l>
+               </lg>
             </p>
          </div>
       </body>

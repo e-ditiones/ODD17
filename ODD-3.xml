@@ -22,11 +22,11 @@
          <schemaSpec ident="ed3" source="Mother-compiled.xml" start="text">
             <moduleRef key="tei"/>
             <moduleRef key="textstructure" include="text body front back div opener closer"/>
-            <moduleRef key="core"  include="p lb sp speaker l list item head lg"/>
+            <moduleRef key="core"  include="p lb sp speaker l list item head lg choice orig reg"/>
             <moduleRef key="transcr" include="fw"/>
             <moduleRef key="namesdates" include="persName placeName"/>
             <moduleRef key="analysis" include="w"/>
-            <moduleRef key="linking" include="seg"></moduleRef>
+            <moduleRef key="linking" include="seg"/>
          </schemaSpec>
       </body>
    </text>
