@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 7 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 9 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -37,6 +37,7 @@
             <moduleRef key="namesdates" include="persName placeName"/>
             <elementSpec ident="persName" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
@@ -49,6 +50,7 @@
             </elementSpec>
             <elementSpec ident="placeName" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
@@ -87,27 +89,28 @@
             <classRef key="att.repeatable"/>
             <classRef key="model.contentPart"/>
             <moduleRef key="tagdocs"
-                       include="att code gi ident tag val classRef elementRef macroRef moduleRef moduleSpec schemaSpec elementSpec classSpec dataSpec macroSpec remarks listRef exemplum classes memberOf content sequence alternate constraint constraintSpec attList attDef datatype dataRef dataFacet defaultVal valItem valList textNode empty"/>
+                       include="att code gi ident tag val classRef elementRef macroRef moduleRef moduleSpec schemaSpec elementSpec classSpec dataSpec macroSpec remarks listRef exemplum classes memberOf content sequence alternate constraint constraintSpec attList attDef datatype dataRef dataFacet defaultVal valItem valList textNode anyElement empty"/>
             <elementSpec ident="att" mode="change">
                <attList>
-                  <attDef ident="scheme" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="code" mode="change">
                <attList>
-                  <attDef ident="lang" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="gi" mode="change">
                <attList>
-                  <attDef ident="scheme" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="ident" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
@@ -121,14 +124,26 @@
             </elementSpec>
             <elementSpec ident="tag" mode="change">
                <attList>
-                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="comment"/>
+                        <valItem ident="end"/>
+                     </valList>
+                  </attDef>
                   <attDef ident="scheme" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="comment"/>
+                        <valItem ident="end"/>
+                     </valList>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="val" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -137,21 +152,30 @@
                   <attDef ident="expand" mode="delete"/>
                   <attDef ident="include" mode="delete"/>
                   <attDef ident="except" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="elementRef" mode="change">
+               <attList>
+                  <attDef ident="cert" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="macroRef" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="moduleRef" mode="change">
                <attList>
                   <attDef ident="prefix" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="moduleSpec" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="predeclare" mode="delete"/>
                   <attDef ident="module" mode="delete"/>
@@ -168,6 +192,7 @@
                <attList>
                   <attDef ident="targetLang" mode="delete"/>
                   <attDef ident="docLang" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="module" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
@@ -180,13 +205,13 @@
             <elementSpec ident="elementSpec" mode="change">
                <attList>
                   <attDef ident="prefix" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="change"/>
                      </valList>
                   </attDef>
-                  <attDef ident="validUntil" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="classSpec" mode="change">
@@ -198,6 +223,7 @@
                      </valList>
                   </attDef>
                   <attDef ident="generate" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
@@ -215,6 +241,7 @@
             </elementSpec>
             <elementSpec ident="dataSpec" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="predeclare" mode="delete"/>
                   <attDef ident="mode" mode="delete"/>
@@ -223,6 +250,7 @@
             </elementSpec>
             <elementSpec ident="macroSpec" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="predeclare" mode="delete"/>
                   <attDef ident="mode" mode="delete"/>
@@ -232,6 +260,7 @@
             <elementSpec ident="remarks" mode="change">
                <attList>
                   <attDef ident="ident" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="delete"/>
                   <attDef ident="validUntil" mode="delete"/>
@@ -239,12 +268,14 @@
             </elementSpec>
             <elementSpec ident="listRef" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="exemplum" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
@@ -252,6 +283,7 @@
             <elementSpec ident="classes" mode="change">
                <attList>
                   <attDef ident="mode" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -260,28 +292,33 @@
                   <attDef ident="mode" mode="delete"/>
                   <attDef ident="max" mode="delete"/>
                   <attDef ident="min" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="content" mode="change">
                <attList>
                   <attDef ident="autoPrefix" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="sequence" mode="change">
                <attList>
                   <attDef ident="preserveOrder" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="alternate" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="constraint" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -292,6 +329,7 @@
                         <valItem ident="deprecationWarning"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="predeclare" mode="delete"/>
                   <attDef ident="module" mode="delete"/>
@@ -311,6 +349,7 @@
                         <valItem ident="group"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -323,12 +362,14 @@
                         <valItem ident="req"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="module" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="change"/>
                         <valItem ident="delete"/>
+                        <valItem ident="replace"/>
                      </valList>
                   </attDef>
                   <attDef ident="validUntil" mode="delete"/>
@@ -336,12 +377,14 @@
             </elementSpec>
             <elementSpec ident="datatype" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="dataRef" mode="change">
                <attList>
                   <attDef ident="ref" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -349,14 +392,18 @@
                <attList>
                   <attDef ident="name" mode="change">
                      <valList mode="add" type="closed">
+                        <valItem ident="maxInclusive"/>
+                        <valItem ident="minInclusive"/>
                         <valItem ident="pattern"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="defaultVal" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="delete"/>
                   <attDef ident="validUntil" mode="delete"/>
@@ -364,6 +411,7 @@
             </elementSpec>
             <elementSpec ident="valItem" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
@@ -382,6 +430,7 @@
                         <valItem ident="semi"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
@@ -393,11 +442,20 @@
             </elementSpec>
             <elementSpec ident="textNode" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="anyElement" mode="change">
+               <attList>
+                  <attDef ident="except" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="empty" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -431,6 +489,11 @@
                <attList>
                   <attDef ident="calendar" mode="delete"/>
                   <attDef ident="period" mode="delete"/>
+               </attList>
+            </classSpec>
+            <classSpec ident="att.global.responsibility" type="atts" mode="change">
+               <attList>
+                  <attDef ident="resp" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.editLike" type="atts" mode="change">
@@ -498,9 +561,10 @@
             </classSpec>
             <!--Checking module core-->
             <moduleRef key="core"
-                       include="p foreign emph quote q cit mentioned soCalled desc gloss term choice abbr expan ptr ref list item label head lb title l lg sp speaker"/>
+                       include="p foreign emph quote q cit mentioned soCalled desc gloss term choice abbr expan ptr ref list item label head lb title l lg sp speaker stage"/>
             <elementSpec ident="p" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="part" mode="change">
                      <valList mode="add" type="closed">
@@ -511,39 +575,51 @@
             </elementSpec>
             <elementSpec ident="foreign" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="emph" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="quote" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="q" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="who" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="cit" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="example"/>
+                        <valItem ident="translation"/>
+                     </valList>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="mentioned" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="soCalled" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -554,6 +630,7 @@
                         <valItem ident="deprecationInfo"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
@@ -564,23 +641,24 @@
             </elementSpec>
             <elementSpec ident="gloss" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
-                  <attDef ident="target" mode="delete"/>
                   <attDef ident="cRef" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="term" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="target" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
-                  <attDef ident="ref" mode="delete"/>
                   <attDef ident="cRef" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="choice" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
@@ -593,20 +671,22 @@
             </elementSpec>
             <elementSpec ident="expan" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="instant" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="ptr" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="mimeType" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
-                  <attDef ident="cRef" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="ref" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
@@ -617,17 +697,20 @@
                      <valList mode="add" type="closed">
                         <valItem ident="gloss"/>
                         <valItem ident="litany"/>
+                        <valItem ident="ordered"/>
                         <valItem ident="speakers"/>
                         <valItem ident="syllogism"/>
                         <valItem ident="unordered"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="sortKey" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="gloss"/>
                         <valItem ident="litany"/>
+                        <valItem ident="ordered"/>
                         <valItem ident="speakers"/>
                         <valItem ident="syllogism"/>
                         <valItem ident="unordered"/>
@@ -637,25 +720,28 @@
             </elementSpec>
             <elementSpec ident="item" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="sortKey" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="label" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
-                  <attDef ident="place" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="head" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="lb" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
@@ -676,6 +762,7 @@
                         <valItem ident="sub"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
@@ -689,6 +776,7 @@
             </elementSpec>
             <elementSpec ident="l" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="part" mode="change">
                      <valList mode="add" type="closed">
@@ -700,6 +788,7 @@
             </elementSpec>
             <elementSpec ident="lg" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="org" mode="change">
                      <valList mode="add" type="closed">
@@ -720,19 +809,38 @@
                   </attDef>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
+                        <valItem ident="free"/>
+                        <valItem ident="quatrain"/>
                         <valItem ident="stanza"/>
+                        <valItem ident="tercet"/>
                      </valList>
                   </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="sp" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="speaker" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="stage" mode="change">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="delivery"/>
+                        <valItem ident="演講或歌唱"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="who" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="place" mode="delete"/>
                </attList>
             </elementSpec>
             <!--Checking module figures-->
@@ -741,26 +849,31 @@
                        include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/>
             <elementSpec ident="teiHeader" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="fileDesc" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="titleStmt" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="publicationStmt" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="sourceDesc" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="default" mode="change">
                      <valList mode="add" type="closed">
@@ -786,6 +899,7 @@
                         <valItem ident="sig"/>
                      </valList>
                   </attDef>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
@@ -801,23 +915,27 @@
                        include="TEI text body div opener closer front back"/>
             <elementSpec ident="TEI" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="text" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="body" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="div" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="org" mode="change">
                      <valList mode="add" type="closed">
@@ -856,6 +974,7 @@
                         <valItem ident="preambule"/>
                         <valItem ident="preface"/>
                         <valItem ident="section"/>
+                        <valItem ident="sonnet"/>
                         <valItem ident="subsection"/>
                         <valItem ident="verse"/>
                      </valList>
@@ -864,21 +983,25 @@
             </elementSpec>
             <elementSpec ident="opener" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="closer" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="front" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="back" mode="change">
                <attList>
+                  <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
             </elementSpec>

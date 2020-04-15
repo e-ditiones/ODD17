@@ -30,6 +30,7 @@
             <head>Pièce de théâtre</head>
             <div>
                <head>ACTE I</head>
+               <stage>Acteur.rice.s</stage>
                <sp>
                   <speaker>XY</speaker>
                   <l>Blablabla, <persName>A</persName> goes to <placeName>C</placeName></l>
