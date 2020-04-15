@@ -17,18 +17,24 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <schemaSpec ident="ed2" source="Mother-compiled.xml" start="text">
                 <moduleRef key="tei"/>
                 <moduleRef key="textstructure" include="text body front back div opener closer"/>
-                <moduleRef key="core"  include="p lb sp stage speaker l lg list item head"/>
+                <moduleRef key="core" include="p lb sp stage speaker l lg list item head"/>
                 <moduleRef key="transcr" include="fw"/>
                 <moduleRef key="namesdates" include="persName placeName"/>
-                
+
                 <!-- Règles générales -->
-                
+
+                <elementSpec ident="text" mode="change">
+                    <attList>
+                        <attDef ident="xml:id" mode="change" usage="req"/>
+                    </attList>
+                </elementSpec>
+
                 <elementSpec ident="lb" mode="change">
                     <attList>
                         <attDef ident="break" mode="change">
@@ -38,7 +44,7 @@
                         </attDef>
                     </attList>
                 </elementSpec>
-               
+
                 <elementSpec ident="div" mode="change">
                     <attList>
                         <attDef ident="type" mode="change">
@@ -52,13 +58,34 @@
                                 <valItem ident="letter"/>
                             </valList>
                         </attDef>
+                        <attDef ident="n" mode="change" usage="req"/>
+                        <attDef ident="xml:id" mode="change" usage="req"/>
+                    </attList>
+                </elementSpec>
+
+                <elementSpec ident="lg" mode="change">
+                    <attList>
+                        <attDef ident="n" mode="change" usage="req"/>
+                        <attDef ident="xml:id" mode="change" usage="req"/>
                     </attList>
                 </elementSpec>
                 
+                <elementSpec ident="l" mode="change">
+                    <attList>
+                        <attDef ident="n" mode="change" usage="req"/>
+                        <attDef ident="xml:id" mode="change" usage="req"/>
+                    </attList>
+                </elementSpec>
                 
+                <elementSpec ident="sp" mode="change">
+                    <attList>
+                        <attDef ident="n" mode="change" usage="req"/>
+                        <attDef ident="xml:id" mode="change" usage="req"/>
+                    </attList>
+                </elementSpec>
+                
+
             </schemaSpec>
         </body>
     </text>
 </TEI>
-
-

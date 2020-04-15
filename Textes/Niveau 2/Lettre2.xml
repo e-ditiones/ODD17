@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../out/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<text xmlns="http://www.tei-c.org/ns/1.0">
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_001">
  <body>
-  <div type="letter">
+  <div type="letter" xml:id="EDI_001-1" n="1">
    <head>A <persName>MONSEIGNEVR LE DVC D’ESPERNON</persName>. <lb/>Lettre I.</head>
    
    <p>
@@ -57,7 +57,6 @@
     que i’ay fait, eſtãt encore les meſmes, Ie ſuis veritablement comme i’ay touſiours eſté.
      <lb/><persName>MONSEIGNEVR</persName>, Voſtre tres-humble &amp; tres-obeiſſant ſeruiteur.
    </p>
-   
    <closer>
     <persName>Balzac.</persName>
     <lb/>A <placeName>Rome</placeName> le 7. <lb/>de Iuin 1621.
