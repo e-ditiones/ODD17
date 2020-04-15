@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-04-14T13:08:08Z. .
+Schema generated from ODD source 2020-04-15T17:21:46Z. .
 TEI Edition: 
 TEI Edition Location: http://www.tei-c.org/Vault/P5//
   
@@ -79,18 +79,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.global.responsibility.attribute.resp">
-      <optional>
-         <attribute name="resp">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI"/>
-               </oneOrMore>
-            </list>
          </attribute>
       </optional>
    </define>
@@ -924,8 +912,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.declaring.attributes"/>
          <ref name="att.written.attributes"/>
          <optional>
@@ -957,8 +943,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.edition.attributes"/>
          <ref name="att.spanning.attributes"/>
          <optional>
@@ -987,7 +971,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
                <ref name="model.global"/>
             </zeroOrMore>
          </group>
-         <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.attribute.xmllang"/>
          <ref name="att.global.attribute.xmlbase"/>
@@ -997,10 +980,12 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.declaring.attributes"/>
          <ref name="att.written.attributes"/>
+         <attribute name="xml:id">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
+            <data type="ID"/>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -1112,8 +1097,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.declaring.attributes"/>
          <empty/>
       </element>
@@ -1156,8 +1139,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.placement.attributes"/>
          <ref name="att.written.attributes"/>
          <optional>
