@@ -26,6 +26,7 @@
             <moduleRef key="transcr" include="fw"/>
                         
             <!-- Contraintes de valeurs d'attributs -->
+            
             <elementSpec ident="lb" mode="change">
                <attList>
                   <attDef ident="break" mode="change">
@@ -35,7 +36,7 @@
                   </attDef>
                </attList>
             </elementSpec>
-            
+                  
          </schemaSpec>
       </body>
    </text>
