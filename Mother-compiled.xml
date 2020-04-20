@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 9 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 10 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -1802,8 +1802,12 @@ ressource informatique selon une taxinomie normalisée.</desc>
   <listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html#DIBO">9.1. Dictionary Body and Overall Structure</ref>
   </listRef>
-</classSpec><classSpec rend="change" module="tei" type="atts" ident="att.edition"><desc versionDate="2013-01-11" xml:lang="en">provides attributes identifying the source edition from which
-  some encoded feature derives.</desc><desc versionDate="2009-05-28" xml:lang="fr">fournit des attributs identifiant l'édition source dont provient une quelconque caractéristique encodée.</desc><classes/><attList><attDef ident="ed" usage="opt">
+</classSpec><classSpec module="tei" type="atts" ident="att.edition">
+  <desc versionDate="2013-01-11" xml:lang="en">provides attributes identifying the source edition from which
+  some encoded feature derives.</desc>
+  <desc versionDate="2009-05-28" xml:lang="fr">fournit des attributs identifiant l'édition source dont provient une quelconque caractéristique encodée.</desc>
+  <attList>
+    <attDef ident="ed" usage="opt">
       <gloss versionDate="2013-01-11" xml:lang="en">edition</gloss>
       <gloss versionDate="2009-05-28" xml:lang="fr">édition</gloss>
       <desc versionDate="2013-11-22" xml:lang="en">supplies a sigil or other arbitrary identifier for the source edition in which
@@ -1812,13 +1816,23 @@ ressource informatique selon une taxinomie normalisée.</desc>
       <desc versionDate="2009-05-28" xml:lang="fr">fournit un identifiant arbitraire pour l'édition source dans laquelle la caractéristique associée 
         (par exemple, une page, une colonne ou un saut de ligne) apparaît à ce point du texte.</desc>
       <datatype maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
-    </attDef></attList><exemplum xml:lang="en">
+    </attDef>
+    <attDef ident="edRef" usage="opt">
+      <gloss versionDate="2013-01-11" xml:lang="en">edition reference</gloss>
+      <desc versionDate="2013-01-11" xml:lang="en">provides a pointer to the source edition in which
+      the associated feature (for example, a  page, column, or line
+      break) occurs at this point in the text.</desc>
+      <datatype maxOccurs="unbounded"><dataRef key="teidata.pointer"/></datatype>
+    </attDef>
+  </attList>
+  <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <l>Of Mans First Disobedience,<lb ed="1674"/> and<lb ed="1667"/> the Fruit</l>
       <l>Of that Forbidden Tree, whose<lb ed="1667 1674"/> mortal tast</l>
       <l>Brought Death into the World,<lb ed="1667"/> and all<lb ed="1674"/> our woe,</l>
     </egXML>
-  </exemplum><exemplum xml:lang="en">
+  </exemplum>
+  <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <listBibl>
         <bibl xml:id="stapledon1937"><author>Olaf Stapledon</author>,
@@ -1835,7 +1849,8 @@ ressource informatique selon une taxinomie normalisée.</desc>
 	  preserving, though with increasing difficulty, my lucid
 	  con-<pb n="291" edRef="#stapledon1937"/>sciousness;</p>
     </egXML>
-  </exemplum></classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" module="tei" type="atts" ident="att.spanning">
+  </exemplum>
+</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" module="tei" type="atts" ident="att.spanning">
   <desc versionDate="2006-01-05" xml:lang="en">provides attributes for elements which delimit a span of text by pointing mechanisms rather than by enclosing it.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">포함보다는 포인터 메카니즘을 통하여 구분된 텍스트 구간을 나타내는 요소의 속성을 제공한다.</desc>
   <desc versionDate="2007-05-02" xml:lang="zh-TW">提供元素的屬性，這些元素使用參照機制來限定某一文字段，而非包含此文字段。</desc>
@@ -6089,11 +6104,252 @@ entre les Romains.</label>
   </remarks><listRef>
     
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSHD">4.2.1. Headings and Trailers</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="note"><gloss versionDate="2017-06-25" xml:lang="de">Anmerkung</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a note or annotation.</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une note ou une annotation</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una nota o aclaración</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含附註或註釋。</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una nota o un'annotazione</desc><desc versionDate="2006-10-28" xml:lang="ja">注釈・コメント．</desc><desc versionDate="2017-06-25" xml:lang="de">enthält eine Anmerkung oder Annotation.</desc><classes><memberOf key="att.global"/><memberOf key="model.noteLike"/><memberOf key="att.placement"/><memberOf key="att.pointing"/><memberOf key="att.typed"/><memberOf key="att.written"/></classes><content><macroRef key="macro.specialPara"/></content><attList><attDef ident="cert" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="target" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="anchored" usage="opt">
+      <gloss versionDate="2017-06-25" xml:lang="de">verankert</gloss>
+      <desc versionDate="2005-01-14" xml:lang="en">indicates whether the copy text shows the exact place of reference for the note.</desc>
+      <desc versionDate="2009-01-06" xml:lang="fr">indique si l'exemplaire du texte montre l'emplacement
+        de référence exact pour la note</desc>
+      <desc versionDate="2007-05-04" xml:lang="es">indica si el texto de copia muestra el lugar exacto
+        de referencia para una nota.</desc>
+      <desc versionDate="2007-05-02" xml:lang="zh-TW">說明來源文件是否指出附註的確切參照位置。</desc>
+      <desc versionDate="2007-01-21" xml:lang="it">indica se il testo copia mostra l'esatta posizione di
+        riferimento della nota.</desc>
+      <desc versionDate="2006-10-28" xml:lang="ja">当該注釈がある場所への参照は，正確にその場所を示しているかどうか．</desc>
+      <desc versionDate="2017-06-25" xml:lang="de">gibt an, ob eine Vorlage den exakten Referenzort der Anmerkung anzeigt.</desc>
+      <datatype><dataRef key="teidata.truthValue"/></datatype>
+      <defaultVal>true</defaultVal>
+      <remarks versionDate="2007-04-22" xml:lang="en">
+        <p>In modern texts, notes are usually anchored by means of explicit footnote or endnote
+          symbols. An explicit indication of the phrase or line annotated may however be used
+          instead (e.g. <q>page 218, lines 3–4</q>). The <att>anchored</att> attribute indicates
+          whether any explicit location is given, whether by symbol or by prose cross-reference. The
+          value <val>true</val> indicates that such an explicit location is indicated in the copy
+          text; the value <val>false</val> indicates that the copy text does not indicate a specific
+          place of attachment for the note. If the specific symbols used in the copy text at the
+          location the note is anchored are to be recorded, use the <att>n</att> attribute.</p>
+      </remarks>
+      <remarks xml:lang="fr" versionDate="2007-06-12">
+        <p>Dans des textes modernes, les notes sont habituellement ancrées au moyen d’appels de
+          notes explicites (pour des notes de bas de page ou des notes de fin de texte). A la place, une indication explicite de
+          l'expression ou de la ligne annotée peut cependant être employée (par exemple <q>page 218,
+            lignes 3–4</q>). L'attribut <att>anchored</att> indique si un emplacement est donné
+          explicitement ou s'il est exprimé par un symbole ou par un renvoi. La valeur
+          <val>true</val> indique qu'un endroit explicite est indiqué dans le texte ; la valeur
+            <val>false</val> indique que le texte n'indique pas un endroit spécifique d'attachement
+          pour la note. Si des symboles spécifiques utilisés dans le texte à l'endroit où la note
+          est ancrée doivent être enregistrés, l'attribut <att>n</att> sera utilisé.</p>
+      </remarks>
+      <remarks versionDate="2017-06-25" xml:lang="de">
+        <p>In modernen Texten wird auf Anmerkungen üblicherweise durch explizite Fuß- oder Endnotensymbole
+          verwiesen. Stattdessen kann aber auch ein expliziter Hinweis auf die Phrase oder Zeile verwendet
+          werden (z. B. <q>Seite 218, Zeile 3–4</q>). Das <att>anchored</att>-Attribut gibt an, ob ein
+          expliziter Ort durch ein Symbol oder einen Querverweis angegeben ist. Der Wert <val>true</val>
+          gibt an, dass ein expliziter Ort in der Vorlage angegeben ist; der Wert <val>false</val> gibt
+          an, dass die Vorlage kein spezifisches Verweisziel für die Anmerkung angibt. Zur Verzeichnung
+          von spezifischen Referenzzeichen, die in der Vorlage verwendet werden, wird das
+          <att>n</att>-Attribut benutzt.</p>
+      </remarks>
+    </attDef><attDef ident="targetEnd" mode="delete"/></attList><exemplum xml:lang="en">
+    <p>In the following example, the translator has supplied a footnote
+      containing an explanation of the term translated as "painterly":</p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NOTE-eg">And yet it is not only
+in the great line of Italian renaissance art, but even in the
+painterly <note place="bottom" type="gloss" resp="#MDMH"><term xml:lang="de">Malerisch</term>. This word has, in the German, two
+distinct meanings, one objective, a quality residing in the object,
+the other subjective, a mode of apprehension and creation.  To avoid
+confusion, they have been distinguished in English as
+<mentioned>picturesque</mentioned> and
+<mentioned>painterly</mentioned> respectively.</note> style of the
+Dutch genre painters of the seventeenth century that drapery has this
+psychological significance. 
+  <!-- elsewhere in the document -->
+  
+  <respStmt xml:id="MDMH">
+    <resp>translation from German to English</resp>
+    <name>Hottinger, Marie Donald Mackie</name>
+  </respStmt>  
+</egXML>
+    <p>For this example to be valid, the
+      code <ident>MDMH</ident> must be defined elsewhere, for example by
+      means of a responsibility statement in the associated TEI header.</p>
+  </exemplum><exemplum xml:lang="de" versionDate="2017-06-26">
+    <p>Im folgenden Beispiel hat der Übersetzer eine Fußnote mit einer Erklärung des als "painterly"
+      übersetzten Begriffs "Malerisch" bereitgestellt:</p>
+     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NOTE-eg">And yet it is not only
+        in the great line of Italian renaissance art, but even in the
+        painterly <note place="bottom" type="gloss" resp="#MDMH-1"><term xml:lang="de">Malerisch</term>. This word has, in the German, two
+          distinct meanings, one objective, a quality residing in the object,
+          the other subjective, a mode of apprehension and creation.  To avoid
+          confusion, they have been distinguished in English as
+          <mentioned>picturesque</mentioned> and
+          <mentioned>painterly</mentioned> respectively.</note> style of the
+        Dutch genre painters of the seventeenth century that drapery has this
+        psychological significance. 
+        
+        <!-- elsewhere in the document -->
+     
+       <respStmt xml:id="MDMH-1">
+         <resp>translation from German to English</resp>
+         <name>Hottinger, Marie Donald Mackie</name>
+       </respStmt>
+     </egXML>
+    <p>Damit dieses Beispiel valide ist, muss der Code <ident>MDMH-1</ident>
+      an anderer Stelle definiert werden, beispielsweise durch die Angabe der Verantwortlichkeit im 
+    <gi>respStmt</gi>-Element des zugehörigen TEI-Headers.</p>
+    
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#fr-ex-Perec-esp">
+      <p>J'écris dans la<lb/> marge...<lb/> Je vais<lb/> à la ligne.<lb/> Je renvoie à une
+            note<note type="gloss" place="foot"> J'aime beaucoup les renvois en bas de page, même si
+            je n'ai rien de particulier à y préciser.</note>en bas de page.</p>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples"> 爾時王園精舍有比丘尼，名曰毘梨<note type="gloss">毘梨，秦言雄也。</note>時彼國人一切共為俱蜜頭星會 </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#biblzh-tw_n14">此片的膠片已不存在，但《明星月報》刊登的艾霞電影腳本大綱，仍可供我們咀嚼艾霞的創作旨趣。<note n="35" anchored="true">
+        此時電影很少有完整的腳本，多是類似早期新劇的「幕表」
+    ，也就是大綱，因為是默片，台詞也很簡單，主要依靠導演指示，演員臨場作戲。</note>從她的文字風格語主題特色裡，...</egXML>
+  </exemplum><exemplum xml:lang="en">
+    <p>The global <att>n</att> attribute may be used to supply the symbol or number used to mark the
+      note's point of attachment in the source text, as in the
+    following example: </p>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">Mevorakh b. Saadya's mother, the matriarch of the
+        family during the second half of the eleventh century, <note n="126" anchored="true"> The
+          alleged mention of Judah Nagid's mother in a letter from 1071 is, in fact, a reference to
+          Judah's children; cf. above, nn. 111 and 54. </note> is well known from Geniza documents
+        published by Jacob Mann.</egXML>
+    <p>However, if notes are numbered in sequence and their
+      numbering can be reconstructed automatically by processing software, it may well be considered
+      unnecessary to record the note numbers.</p>
+  </exemplum><exemplum xml:lang="de" versionDate="2017-06-25">
+    <p>Das globale <att>n</att>-Attribut kann verwendet werden, um das Symbol oder die Nummer anzugeben,
+      die verwendet wird, um den Bezugspunkt der Anmerkung im Quelltext zu markieren, wie im folgenden
+      Beispiel:</p>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">Mevorakh b. Saadya's mother, the matriarch of the
+      family during the second half of the eleventh century, <note n="126" anchored="true"> The
+        alleged mention of Judah Nagid's mother in a letter from 1071 is, in fact, a reference to
+        Judah's children; cf. above, nn. 111 and 54. </note> is well known from Geniza documents
+      published by Jacob Mann.</egXML>
+    <p>Wenn jedoch Anmerkungen sequenziell nummeriert sind und deren Nummerierung durch die
+      elektronische Verarbeitung automatisch rekonstruiert werden kann, kann es als unnötig angesehen
+      werden, die Nummerierung anzugeben.</p>
+  </exemplum><remarks xml:lang="fr" versionDate="2007-06-12">
+    <p>L'attribut global<att>n</att> indique le
+    symbole ou le nombre utilisé pour marquer le point d'insertion
+    dans le texte source, comme dans l'exemple suivant :
+<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="en">Mevorakh b. Saadya's
+    mother, the matriarch of the family during the second half of the
+    eleventh century, <note n="126" anchored="true"> The alleged
+    mention of Judah Nagid's mother in a letter from 1071 is, in fact,
+    a reference to Judah's children; cf. above, nn. 111 and
+    54. </note> is well known from Geniza documents published by Jacob
+    Mann.</egXML> Cependant, si les notes sont ordonnées et numérotées
+    et qu’on veuille reconstruire automatiquement leur numérotation
+    par un traitement informatique, il est inutile d’enregistrer le
+    numéro des notes.</p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONONO">3.8.1. Notes and Simple Annotation</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD27">2.2.6. The Notes Statement</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICON">3.11.2.8. Notes and Statement of Language</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html#DITPNO">9.3.5.4. Notes within Entries</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="pb"><gloss versionDate="2017-06-14" xml:lang="en">page beginning</gloss><gloss versionDate="2007-12-20" xml:lang="ko">페이지 바꿈</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">分頁</gloss><gloss versionDate="2009-01-06" xml:lang="fr">saut de page</gloss><gloss versionDate="2007-05-04" xml:lang="es">cambio de página</gloss><gloss versionDate="2007-01-21" xml:lang="it">interruzione di pagina</gloss><gloss versionDate="2017-06-25" xml:lang="de">Seitenanfang</gloss><desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc><desc versionDate="2007-12-20" xml:lang="ko">표준 참조 시스템에서 텍스트 페이지와 다음 페이지 사이의 경계를 표지한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">以標準參照系統來標記頁與頁之間的分界線。</desc><desc versionDate="2008-04-05" xml:lang="ja">テキストのページ境界を，標準的な参照システム示す．</desc><desc xml:lang="fr" versionDate="2007-06-12">marque le début d'une
+  page de texte dans un document paginé.</desc><desc versionDate="2007-05-04" xml:lang="es">marca la frontera entre una página de un texto y la
+    siguiente en un sistema de referencia estándard.</desc><desc versionDate="2007-01-21" xml:lang="it">indica il limite tra una pagina di un testo e la
+    successiva in un sistema di riferimento standard</desc><desc versionDate="2017-06-25" xml:lang="de">markiert den Anfang 
+    einer neuen Seite in einem Dokument mit Seitenzahlen</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="cert" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="ed" mode="delete"/><attDef ident="break" mode="delete"/></attList><exemplum xml:lang="en">
+    <p>Page numbers may vary in different editions of a text.</p>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <p> ... <pb n="145" ed="ed2"/>
+            <!-- Page 145 in edition "ed2" starts here --> ... <pb n="283" ed="ed1"/>
+            <!-- Page 283 in edition "ed1" starts here--> ... </p>
+    </egXML>
+  </exemplum><exemplum xml:lang="de" versionDate="2017-06-25">
+    <p>Die Seitenzahlen können in verschiedenen Ausgaben eines Textes variieren.</p>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <p> ... <pb n="145" ed="ed2"/>
+        <!-- Seite 145 in Ausgabe "ed2" beginnt hier --> ... <pb n="283" ed="ed1"/>
+        <!-- Seite 283 in Ausgabe "ed1" beginnt hier --> ... </p>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <p>A page break may be associated with a facsimile image of the page it introduces by means of
+      the <att>facs</att> attribute</p>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
+      <body>
+        <pb n="1" facs="page1.png"/>
+        <!-- page1.png contains an image of the page;
+                        the text it contains is encoded here -->
+        <p>
+          <!-- ... -->
+        </p>
+        <pb n="2" facs="page2.png"/>
+        <!-- similarly, for page 2 -->
+        <p>
+          <!-- ... -->
+        </p>
+      </body>
+    </egXML>
+  </exemplum><exemplum xml:lang="de" versionDate="2017-06-25">
+    <p>Ein Seitenumbruch kann über das <att>facs</att>-Attribut mit einem Faksimile der Seite verknüpft
+      werden.</p>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
+      <body>
+        <pb n="1" facs="page1.png"/>
+        <!-- page1.png enthält eine Abbildung der Seite;
+                        der enthaltene Text ist hier kodiert -->
+        <p>
+          <!-- ... -->
+        </p>
+        <pb n="2" facs="page2.png"/>
+        <!-- dasselbe gilt für Seite 2 -->
+        <p>
+          <!-- ... -->
+        </p>
+      </body>
+    </egXML>
+  </exemplum><remarks versionDate="2016-11-29" xml:lang="en">
+    <p>A <gi>pb</gi> element should appear at the start of the page
+    which it identifies. The global <att>n</att> attribute indicates
+    the number or other value associated with this page. This will
+    normally be the page number or signature printed on it, since the
+    physical sequence number is implicit in the presence of the
+    <gi>pb</gi> element itself. </p>
+    <p>The <att>type</att> attribute may be used to characterize 
+      the page break in any respect. The more specialized attributes 
+      <att>break</att>, <att>ed</att>, or <att>edRef</att> should be 
+      preferred when the intent is to indicate whether or not the 
+      page break is word-breaking, or to note the source from 
+      which it derives.</p>
+  </remarks><remarks xml:lang="fr" versionDate="2007-06-12">
+    <p>Un élément <gi>pb</gi> apparaît au début de la page à laquelle
+    il se rapporte. L'attribut global <att>n</att> donne un numéro ou
+    une autre valeur associée à cette page. Ce sera normalement le
+    numéro de page ou la signature qui y est imprimée, puisque le
+    numéro d'ordre matériel est implicite avec l'élément <gi>pb</gi>
+    lui-même.</p>
+    <p> L' attribut <att>type</att> sera employé pour indiquer toutes ses
+      caractéristiques du saut de page, par exemple comme coupure de mot ou non. </p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p> 当該要素にあるグローバル属性<att>n</att>は，当該要素<gi>pb</gi>があ る場所に続いてあるページと関連する数値を示す．符号化する人は，改ペー
+      ジと関連する数値が，物理的な一連の番号になるのか，または印刷されてい る番号になるのかについて，明確で一貫した方針を採るべきである．
+      一般には，要素<gi>pb</gi>は，参照するページの始めに置かれるべきである． </p>
+  </remarks><remarks versionDate="2016-11-29" xml:lang="de">
+    <p>Ein <gi>pb</gi>-Element soll am Beginn der Seite stehen, die es kennzeichnet. 
+      Das globale <att>n</att>-Attribut gibt die Zahl (oder einen anderen Wert) an, 
+      der mit dieser Seite verbunden ist. Üblicherweise ist das die Seitenzahl 
+      oder eine auf der Seite abgedruckte Signatur, da die Position in der 
+      physikalischen Sequenz durch das <gi>pb</gi>-Element implizit ist. </p>
+    <p>Das <att>type</att>-Attribut kann verwendet werden, den Seitenumbruch 
+      näher zu beschreiben, wenn nicht die speziellen Attribute 
+      <att>break</att> (Worttrennung), <att>ed</att> oder <att>edRef</att> 
+      (Textzeuge, in dem der Seitenumbruch vorkommt) verwendet werden können.</p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS5">3.10.3. Milestone
+Elements</ref>
   </listRef></elementSpec><elementSpec rend="change" module="core" ident="lb"><gloss versionDate="2017-06-14" xml:lang="en">line beginning</gloss><gloss versionDate="2007-12-20" xml:lang="ko">행 바꿈</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">分行</gloss><gloss versionDate="2009-01-06" xml:lang="fr">saut de ligne</gloss><gloss versionDate="2007-05-04" xml:lang="es">salto de línea</gloss><gloss versionDate="2007-01-21" xml:lang="it">interruzione di riga</gloss><gloss versionDate="2017-06-25" xml:lang="de">Zeilenanfang</gloss><desc versionDate="2005-01-14" xml:lang="en">marks the beginning of a new (typographic) line in some edition or version of a text.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트의 편집 또는 버전에서 새로운 (인쇄상의) 행 시작을 표지한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">標記某版本文本裡 (在印刷上) 的新起行。</desc><desc versionDate="2008-04-05" xml:lang="ja">ある版における新しい(印刷上の)行の始まりを示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">marque le début d'une nouvelle ligne (typographique) dans
     une édition ou dans une version d'un texte.</desc><desc versionDate="2007-05-04" xml:lang="es">marca el comienzo de una nueva línea (topográfica) en
     alguna edición o versión del texto.</desc><desc versionDate="2007-01-21" xml:lang="it">segna l'inizio di una nuova riga (tipografica) in qualche
     edizione o versione di un testo.</desc><desc versionDate="2017-06-25" xml:lang="de">markiert den Anfang einer neuen typographischen 
-    Zeile in einer bestimmten Auflage oder Version eines Textes.</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="cert" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+    Zeile in einer bestimmten Auflage oder Version eines Textes.</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="cert" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="edRef" mode="delete"/></attList><exemplum xml:lang="en">
     <p>This example shows typographical line breaks within metrical lines, where they occur at different
       places in different editions:</p>
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -6630,7 +6886,7 @@ epistemology, methodology and history of
   </listRef></elementSpec><elementSpec rend="change" module="core" ident="stage"><gloss versionDate="2005-01-14" xml:lang="en">stage direction</gloss><gloss versionDate="2007-12-20" xml:lang="ko">무대지시</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">舞台指示</gloss><gloss versionDate="2009-01-06" xml:lang="fr">indication scénique</gloss><gloss versionDate="2007-05-04" xml:lang="es">acotación</gloss><gloss versionDate="2007-01-21" xml:lang="it">direttiva di scena</gloss><gloss versionDate="2017-06-13" xml:lang="de">Regieanweisung</gloss><desc versionDate="2005-01-14" xml:lang="en">contains any kind of stage direction within a dramatic text or fragment.</desc><desc versionDate="2007-12-20" xml:lang="ko">극적 텍스트나 부분 내에 무대지시를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含劇本中任何一種舞台場景或演出動作指示。</desc><desc versionDate="2008-04-05" xml:lang="ja">舞台芸術テキスト中にある，ト書き相当を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient tout type d'indication scénique à l'intérieur
         d'un texte ou fragment de texte écrit pour le théâtre.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene cualquier tipo de acotación que aparece en un
         texto o fragmento dramático.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene qualsiasi tipo di didascalie e direttive di
-        scena all'interno di un testo o di un frammento di testo drammatico.</desc><desc versionDate="2017-06-13" xml:lang="de">enthält jegliche Regieanweisung in einem Dramentext oder -fragment.</desc><classes><memberOf key="att.ascribed.directed"/><memberOf key="att.global"/><memberOf key="att.placement"/><memberOf key="model.stageLike"/></classes><content><macroRef key="macro.specialPara"/></content><attList><attDef ident="who" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="place" mode="delete"/><attDef ident="type" usage="rec"><desc versionDate="2005-01-14" xml:lang="en">indicates the kind of stage direction.</desc><desc versionDate="2007-12-20" xml:lang="ko">무대지시의 유형을 나타낸다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">指出舞台指示的種類。</desc><desc versionDate="2008-04-05" xml:lang="ja">ト書きの種類を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">indique le type d'indication scénique</desc><desc versionDate="2007-05-04" xml:lang="es">indica el tipo de acotación.</desc><desc versionDate="2007-01-21" xml:lang="it">indica il tipo di direttiva di scena</desc><desc versionDate="2017-06-13" xml:lang="de">beschreibt die Art der Regieanweisung.</desc><datatype maxOccurs="unbounded" minOccurs="0"><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="delivery"/><valItem ident="演講或歌唱"/></valList><remarks versionDate="2016-11-04" xml:lang="en"><p>If the value <val>mixed</val> is used, it must be the only value. Multiple values may however be supplied
+        scena all'interno di un testo o di un frammento di testo drammatico.</desc><desc versionDate="2017-06-13" xml:lang="de">enthält jegliche Regieanweisung in einem Dramentext oder -fragment.</desc><classes><memberOf key="att.ascribed.directed"/><memberOf key="att.global"/><memberOf key="att.placement"/><memberOf key="model.stageLike"/></classes><content><macroRef key="macro.specialPara"/></content><attList><attDef ident="who" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" usage="rec"><desc versionDate="2005-01-14" xml:lang="en">indicates the kind of stage direction.</desc><desc versionDate="2007-12-20" xml:lang="ko">무대지시의 유형을 나타낸다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">指出舞台指示的種類。</desc><desc versionDate="2008-04-05" xml:lang="ja">ト書きの種類を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">indique le type d'indication scénique</desc><desc versionDate="2007-05-04" xml:lang="es">indica el tipo de acotación.</desc><desc versionDate="2007-01-21" xml:lang="it">indica il tipo di direttiva di scena</desc><desc versionDate="2017-06-13" xml:lang="de">beschreibt die Art der Regieanweisung.</desc><datatype maxOccurs="unbounded" minOccurs="0"><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="business"/><valItem ident="delivery"/><valItem ident="entrance"/><valItem ident="exit"/><valItem ident="location"/><valItem ident="modifier"/><valItem ident="novelistic"/><valItem ident="setting"/><valItem ident="演講或歌唱"/></valList><remarks versionDate="2016-11-04" xml:lang="en"><p>If the value <val>mixed</val> is used, it must be the only value. Multiple values may however be supplied
       if a single stage direction performs multiple functions, for example is both an entrance and a modifier. </p></remarks><remarks versionDate="2017-06-13" xml:lang="de"><p>Der Wert <val>mixed</val> kann nur alleine benutzt werden. Mehrere Werte können in Kombination
         eingesetzt werden, wenn eine einzelne Regieanweisung unterschiedliche Funktionen erfüllt, z. B.
         sowohl einen Auftritt als auch eine Figurenbeschreibung.</p></remarks></attDef></attList><exemplum xml:lang="en">
@@ -8810,7 +9066,28 @@ class is a member or subclass.</desc><desc versionDate="2007-12-20" xml:lang="ko
       <datatype minOccurs="1" maxOccurs="unbounded">
         <dataRef key="teidata.namespace"/>
       </datatype>
-    </attDef><attDef ident="except" mode="delete"/></attList></attList><exemplum xml:lang="en">
+    </attDef><attDef ident="except">
+      <desc versionDate="2016-11-28" xml:lang="en">supplies a list of namespaces or prefixed element 
+        names which are not permitted.</desc>
+      <desc xml:lang="ja" versionDate="2018-12-28">許可されていない名前空間または接頭辞付きの要素名のリストを提供する。</desc>
+      <datatype minOccurs="1" maxOccurs="unbounded">
+        <dataRef key="teidata.namespaceOrName"/>
+      </datatype>
+      <remarks versionDate="2017-05-11" xml:lang="en">
+        <p>When RELAX NG DTD Compatibility Mode is turned on,
+        validation requires that any elements which may take an
+        <att>xml:id</att> be excluded from the content of
+        <ident>anyName</ident> name classes. For normal TEI purposes,
+        this includes anything in the TEI namespace and the
+        <gi>egXML</gi> element. Default elements and namespaces to be
+        excluded are set on the <att>defaultExceptions</att> attribute
+        of the <gi>schemaSpec</gi>. <att>except</att> may be used when
+        the exceptions need to be locally specified. Element prefixes
+        must be declared using a namespace declaration on the parent
+        or an ancestor element.</p>
+      </remarks>
+      <remarks xml:lang="ja" versionDate="2018-12-28"><p>RELAX NG DTD互換モードが有効になっている場合，<att>xml:id</att>を<ident>anyName</ident>ネームクラスのコンテンツから除外する要素が必要．通常のTEIの目的では，これにはTEI名前空間と<gi> egXML</gi>要素のすべてが含まれる．除外されるデフォルトの要素と名前空間は，<gi>schemaSpec</gi>の<att>defaultExceptions</att>属性で設定される．例外をローカルに指定する必要がある場合は，<att>except</att>を使用できる．要素接頭辞は，親要素または祖先要素の名前空間宣言を使用して宣言する必要がある．</p></remarks>
+    </attDef></attList></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
       <content>
         <anyElement except="http://www.tei-c.org/ns/1.0"/>
@@ -9717,11 +9994,13 @@ TEI namespace <code>http://www.tei-c.org/ns/1.0</code> on it, using
                   </attDef><attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="abstract"/>
+                        <valItem ident="act"/>
                         <valItem ident="advert"/>
                         <valItem ident="appendice"/>
                         <valItem ident="appendix"/>
                         <valItem ident="avertissement"/>
                         <valItem ident="bibl"/>
+                        <valItem ident="castList"/>
                         <valItem ident="chapitre"/>
                         <valItem ident="chapter"/>
                         <valItem ident="dedication"/>
@@ -9731,8 +10010,10 @@ TEI namespace <code>http://www.tei-c.org/ns/1.0</code> on it, using
                         <valItem ident="oeuvre"/>
                         <valItem ident="part"/>
                         <valItem ident="partie"/>
+                        <valItem ident="play"/>
                         <valItem ident="preambule"/>
                         <valItem ident="preface"/>
+                        <valItem ident="scene"/>
                         <valItem ident="section"/>
                         <valItem ident="sonnet"/>
                         <valItem ident="subsection"/>

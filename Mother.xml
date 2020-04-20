@@ -34,27 +34,27 @@
                <sp>
                   <speaker>XY</speaker>
                   <l>Blablabla, <persName>A</persName> goes to <placeName>C</placeName></l>
-                  <p>Voici un premier
-                     <lb/>exemple pas très ori-<lb break="no"/>nal.
-                  </p>
+                  <p>Voici un premier <lb/>exemple pas très ori-<lb break="no"/>nal. </p>
                </sp>
             </div>
          </div>
          <div>
             <opener>From <persName>A</persName> to <persName>B</persName>,
                <placeName>C</placeName></opener>
-            <p>Blabla <list>
-                  <item>1</item>
-                  <item>2</item>
-               </list>
-            </p>
+            <list>
+               <item>1</item>
+               <item>2</item>
+            </list>
+            <p>Blabla</p>
+            <pb/>
+            <note>Note</note>
             <closer>See you soon</closer>
          </div>
          <div>
             <head>Roman</head>
             <p>Blabla <fw>Poème</fw>
                <lg>
-               <l>Blabla</l>
+                  <l>Blabla</l>
                </lg>
             </p>
          </div>

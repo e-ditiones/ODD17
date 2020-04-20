@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 9 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 10 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -448,7 +448,6 @@
             </elementSpec>
             <elementSpec ident="anyElement" mode="change">
                <attList>
-                  <attDef ident="except" mode="delete"/>
                   <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
@@ -536,11 +535,6 @@
                   <attDef ident="function" mode="delete"/>
                </attList>
             </classSpec>
-            <classSpec ident="att.edition" type="atts" mode="change">
-               <attList>
-                  <attDef ident="edRef" mode="delete"/>
-               </attList>
-            </classSpec>
             <classSpec ident="att.timed" type="atts" mode="change">
                <attList>
                   <attDef ident="start" mode="delete"/>
@@ -561,7 +555,7 @@
             </classSpec>
             <!--Checking module core-->
             <moduleRef key="core"
-                       include="p foreign emph quote q cit mentioned soCalled desc gloss term choice abbr expan ptr ref list item label head lb title l lg sp speaker stage"/>
+                       include="p foreign emph quote q cit mentioned soCalled desc gloss term choice abbr expan ptr ref list item label head note pb lb title l lg sp speaker stage"/>
             <elementSpec ident="p" mode="change">
                <attList>
                   <attDef ident="cert" mode="delete"/>
@@ -739,11 +733,30 @@
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
+            <elementSpec ident="note" mode="change">
+               <attList>
+                  <attDef ident="targetEnd" mode="delete"/>
+                  <attDef ident="cert" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="target" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="pb" mode="change">
+               <attList>
+                  <attDef ident="cert" mode="delete"/>
+                  <attDef ident="source" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="ed" mode="delete"/>
+                  <attDef ident="break" mode="delete"/>
+               </attList>
+            </elementSpec>
             <elementSpec ident="lb" mode="change">
                <attList>
                   <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
+                  <attDef ident="edRef" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="title" mode="change">
@@ -833,14 +846,20 @@
                <attList>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
+                        <valItem ident="business"/>
                         <valItem ident="delivery"/>
+                        <valItem ident="entrance"/>
+                        <valItem ident="exit"/>
+                        <valItem ident="location"/>
+                        <valItem ident="modifier"/>
+                        <valItem ident="novelistic"/>
+                        <valItem ident="setting"/>
                         <valItem ident="演講或歌唱"/>
                      </valList>
                   </attDef>
                   <attDef ident="who" mode="delete"/>
                   <attDef ident="cert" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
-                  <attDef ident="place" mode="delete"/>
                </attList>
             </elementSpec>
             <!--Checking module figures-->
@@ -957,11 +976,13 @@
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="abstract"/>
+                        <valItem ident="act"/>
                         <valItem ident="advert"/>
                         <valItem ident="appendice"/>
                         <valItem ident="appendix"/>
                         <valItem ident="avertissement"/>
                         <valItem ident="bibl"/>
+                        <valItem ident="castList"/>
                         <valItem ident="chapitre"/>
                         <valItem ident="chapter"/>
                         <valItem ident="dedication"/>
@@ -971,8 +992,10 @@
                         <valItem ident="oeuvre"/>
                         <valItem ident="part"/>
                         <valItem ident="partie"/>
+                        <valItem ident="play"/>
                         <valItem ident="preambule"/>
                         <valItem ident="preface"/>
+                        <valItem ident="scene"/>
                         <valItem ident="section"/>
                         <valItem ident="sonnet"/>
                         <valItem ident="subsection"/>

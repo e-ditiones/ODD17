@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-04-16T12:57:51Z. .
+Schema generated from ODD source 2020-04-20T11:43:00Z. .
 TEI Edition: 
 TEI Edition Location: http://www.tei-c.org/Vault/P5//
   
@@ -441,9 +441,6 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
    </pattern>
-   <define name="att.edition.attributes">
-      <ref name="att.edition.attribute.ed"/>
-   </define>
    <define name="att.edition.attribute.ed">
       <optional>
          <attribute name="ed">
@@ -453,6 +450,18 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                   <data type="token">
                      <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.edition.attribute.edRef">
+      <optional>
+         <attribute name="edRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition reference) provides a pointer to the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
                </oneOrMore>
             </list>
          </attribute>
@@ -684,6 +693,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <define name="model.milestoneLike">
       <choice>
+         <ref name="pb"/>
          <ref name="lb"/>
          <ref name="fw"/>
       </choice>
@@ -808,7 +818,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </oneOrMore>
    </define>
    <define name="model.noteLike">
-      <notAllowed/>
+      <choice>
+         <ref name="note"/>
+      </choice>
    </define>
    <define name="model.lLike">
       <choice>
@@ -1360,6 +1372,53 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <empty/>
       </element>
    </define>
+   <define name="note">
+      <element name="note">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a note or annotation. [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
+         <ref name="macro.specialPara"/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.global.rendition.attribute.style"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.change.attribute.change"/>
+         <ref name="att.placement.attributes"/>
+         <ref name="att.written.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="anchored"
+                       a:defaultValue="true">
+               <a:documentation>indicates whether the copy text shows the exact place of reference for the note.</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="pb">
+      <element name="pb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page beginning) marks the beginning of a new page in a paginated document. [3.10.3. Milestone
+Elements]</a:documentation>
+         <empty/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.global.rendition.attribute.style"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.change.attribute.change"/>
+         <ref name="att.edition.attribute.edRef"/>
+         <ref name="att.spanning.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="lb">
       <element name="lb">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.10.3. Milestone
@@ -1375,7 +1434,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.edition.attributes"/>
+         <ref name="att.edition.attribute.ed"/>
          <ref name="att.spanning.attributes"/>
          <optional>
             <attribute name="break">
@@ -1642,13 +1701,28 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
+         <ref name="att.placement.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the kind of stage direction.</a:documentation>
                <list>
                   <zeroOrMore>
                      <choice>
+                        <value>business</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>delivery</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>entrance</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>exit</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>location</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>modifier</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>novelistic</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>setting</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>演講或歌唱</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -1955,6 +2029,12 @@ Elements 7.2.5. Speech Contents]</a:documentation>
                   <value>scene</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>castList</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>titlePage</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>privilege</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>liminal</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>book</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
