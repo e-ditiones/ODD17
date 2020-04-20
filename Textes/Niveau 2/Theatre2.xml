@@ -3,12 +3,12 @@
 
 <!-- Les metadata se trouvent dans un autre fichier -->
 
-<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_002">
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0002">
    <front>
       <head>
          <lb/>LILLVSION <lb/>COMIQVE <lb/>COMEDIE.</head>
-      <p>
-         <lb/>A PARIS, <lb/>Chez FRANCOIS TARGA, au <lb/>premier pillier de la grand'Salle du
+      <div type="titlePage" n="1" xml:id="EDI_0002-0-1">
+         <p n="1" xml:id="EDI_0002-0-1-1"><lb/>A PARIS, <lb/>Chez FRANCOIS TARGA, au <lb/>premier pillier de la grand'Salle du
          Palais, <lb/>deuant la Chapelle, au Soleil d'or. <lb/>M. DC. XXXIX. <lb/>AVEC PRIVILEGE DV
          ROY. <lb/>A <lb/>MADAMOISELLE <lb/>M.F.D.R. <lb/>MADAMOISELLE, <lb/>Voicy vn éſtrange
          <lb/>monſtre que ie vous <lb/>dédie. Le premier Acte n’eſt qu’vn Prolo¬<lb break="no"/>gue, les trois ſuiuants font vne Comedie <lb/>imparfaicte, le dernier eſt vne
@@ -30,8 +30,9 @@
          corriger ce <lb/>que vous trouuerez marqué en ſuite de <lb/>cette Epiſtre. Ce n’eſt pas que
          i’y aye em¬<lb break="no"/>ployé toutes les fautes qui s’y ſont coulées <lb/>le nõbre en eſt ſi grand qu’il euſt
          eſpouuen¬<lb break="no"/>té le Lecteur, i’ay ſeulement choiſy celles <lb/>qui peuuent apporter quelque
-         corruption</p>
-      <p>
+         corruption</p></div>
+      <div type="liminal" n="2" xml:id="EDI_0002-0-2">
+         <p n="2" xml:id="EDI_0002-0-2-1">
          <lb/>EPISTRE. <lb/>notable au ſens, &amp; qu’on ne peut pas deui¬<lb break="no"/>
          ner ayſement. Pour les autres qui ne ſont <lb/>que contre la Rime, ou l’Orthographe,
          <lb/>ou la punctuation, i’ay creu que le Lecteur <lb/>iudicieux y ſuppleeroit ſans beaucoup
@@ -41,7 +42,9 @@
          le cy, toute deſchiree qu’elle eſt, &amp; vous <lb/>m’obligerez d’autant plus à
          demeurer <lb/>toute ma vie, <lb/>MADAMOISELLE, <lb/>Le plus fidelle &amp; le plus paſſionné
          <lb/>de vos ſeruiteurs, CORNEILLE.</p>
-      <p>
+      </div>
+      <div type="liminal" n="3" xml:id="EDI_0002-0-3">
+         <p n="1" xml:id="EDI_0002-0-3-1">
          <lb/>Fautes Notables ſuruenues à l'Impreßion. <lb/>PAg.3. vers 6. la Muſe, la Siene. liſez
          la Meuſe, &amp; la Seine. <lb/>gig. õ vers ;. Et que rien n’eſt ſecret. liſez à qui rien
          n’eſt ſecret. <lb/>pag. 8. vers 9. Fleurs, parfums, liſez leurs parfums. <lb/>pag. 12 vers
@@ -62,7 +65,9 @@
          liſez l’effort. <lb/>pag. 112. vers 1. desbaraſſes, liſez desbaraſſée. <lb/>pag. 118. vers
          3. à voſtre amour, liſez &amp; voſtre amour. <lb/>pag. 121 vers 9. ſuiure, liſez
          ſuiués.</p>
-      <p>
+      </div>
+      <div type="privilege" n="4" xml:id="EDI_0002-0-4">
+         <p n="1" xml:id="EDI_0002-0-4-1">
          <lb/>Extraict du Priuilege du Roy. <lb/>PAR grace &amp; Priuilege du Roy, il eſt permis à
          <lb/>François Targa, Marchand Libraire à Paris, d’im¬<lb break="no"/>primer ou faire imprimer, 
          &amp; expoſer en vente, vn <lb/>Liure intitulé l'IlluſionComique Comedie par Mr. 
@@ -75,12 +80,13 @@
          <lb/>plaires qui ſe trouueront contrefaits, &amp; de tous deſpens, dom¬<lb break="no"/>mages &amp; 
          intereſts, ainſi qu’il eſt contenu plus au long auſdites <lb/>Lettres de
          Priuilege. Donné a Paris le vnzieſme Feurier ſix cens <lb/>trente neuf. <lb/>Par le Roy en
-         ſon Conſeil. <lb/>Signé, CONRART.</p>
-      <p>
+         ſon Conſeil. <lb/>Signé, CONRART.</p></div>
+      <div type="liminal" n="5" xml:id="EDI_0002-0-5">
+         <p n="1" xml:id="EDI_0002-0-5-1">
          <lb/>Acheué d'imprimer ce 16. Mars 1639. <lb/>Les Exemplaires ont eſté fournis ainſi qu’il
          eſt porté <lb/>par le Priuilege.</p>
-      <div type="castList" xml:id="EDI_002-0" n="1">
-
+      </div>
+      <div type="castList" xml:id="EDI_0002-0-6" n="6">
          <lb/>
          <head>ACTEVRS.</head>
          <list>
@@ -121,14 +127,14 @@
       </div>
    </front>
    <body>
-      <div type="play" xml:id="EDI_002-1" n="1">
+      <div type="play" xml:id="EDI_0002-1" n="1">
          <head>
             <lb/>L’ILLVSION <lb/>COMIQVE <lb/>COMEDIE</head>
-         <div type="act" xml:id="EDI_002-1-1" n="1">
+         <div type="act" xml:id="EDI_0002-1-1" n="1">
 
             <lb/>
             <head>ACTE PREMIER.</head>
-            <div type="scene" xml:id="EDI_002-1-1-1" n="1">
+            <div type="scene" xml:id="EDI_0002-1-1-1" n="1">
 
                <lb/>
                <head>SCENE PREMIERE.</head>
@@ -137,9 +143,9 @@
                <stage>PRIDAMANT, DORANTE.</stage>
 
                <lb/>
-               <sp n="1" xml:id="EDI_002-1-1-1-1">
+               <sp n="1" xml:id="EDI_0002-1-1-1-1">
                   <speaker>DORANTE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-1-1">
                      <lb/>CE grand Mage dont l'art commande <lb/>à la nature <lb/>N'a choiſi pour
                      palais que cette grotte <lb/>obſcure; <lb/>La nuit qu'il entretient ſur cet
                         af¬<lb break="no"/>freux ſeiour <lb/>N'ouurant ſon voile espais qu'aux raions d’vn 
@@ -154,11 +160,11 @@
                      Alcandre attendent ſon loiſir, <lb/>Chaque iour il ſe monſtre, &amp; nous
                      touchons à l'heure <lb/>Que pour ſe diuertir il ſort de ſa demeure.</p>
                </sp>
-               <sp n="2" xml:id="EDI_002-1-1-1-2">
+               <sp n="2" xml:id="EDI_0002-1-1-1-2">
 
                   <lb/>
                   <speaker>PRIDAMANT.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-2-1">
                      <lb/>J'en atends peu de choſes &amp; bruſle de le voir, <lb/>J'ay de
                      l'impatience &amp; ie manque d'eſpoir, <lb/>Cefils, ce cherobiet de mes
                      inquietudes, <lb/>Qu'ont eſloigné de moy des traitements trop rudes, <lb/>Et
@@ -181,10 +187,10 @@
                      deuient muet quand il me faut reſpondre <lb/>Ou ne me reſpond rien qu'à-fin de
                      me confondre.</p>
                </sp>
-               <sp n="3" xml:id="EDI_002-1-1-1-3">
+               <sp n="3" xml:id="EDI_0002-1-1-1-3">
                   <speaker>
                      <lb/>DORANTE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-3-1">
                      <lb/>Ne traites pas Alcandre en homme du commun, <lb/>Ce qu'il ſçait en ſon art
                      n'eſt conneu de pas vn. <lb/>Ie ne vous diray point qu'il commande au tonnerre,
                      <lb/>Qu'il fait enfler les mers, qu'il fait trembler la terre, <lb/>Que de
@@ -201,30 +207,30 @@
                      <lb/>Et ie fus eſtonné d'entendre les diſcours <lb/>Des traits les plus cachez
                      de mes ieunes amours.</p>
                </sp>
-               <sp n="4" xml:id="EDI_002-1-1-1-4">
+               <sp n="4" xml:id="EDI_0002-1-1-1-4">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-4-1">
                      <lb/>Vous m'en dites beaucoup.</p>
                </sp>
-               <sp n="5" xml:id="EDI_002-1-1-1-5">
+               <sp n="5" xml:id="EDI_0002-1-1-1-5">
                   <speaker>
                      <lb/>DORANTE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-5-1">
                      <lb/>I'en ay veu dauantage.</p>
                </sp>
-               <sp n="6" xml:id="EDI_002-1-1-1-6">
+               <sp n="6" xml:id="EDI_0002-1-1-1-6">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-6-1">
                      <lb/>Vous eſſayez en vain de me donner courage, <lb/>Mes ſoins, &amp; mes
                      trauaux verrõt ſans aucun fruict <lb/>Clore mes triſtes iours d'vne eternelle
                      nuict.</p>
                </sp>
-               <sp n="7" xml:id="EDI_002-1-1-1-7">
+               <sp n="7" xml:id="EDI_0002-1-1-1-7">
                   <speaker>
                      <lb/>DORANTE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-7-1">
                      <lb/>De puis que i'ay quitté le ſeiour de Bretaigne <lb/>Pour venir faire icy
                      le Noble de Campagne, <fw>
                         <lb/>5 <lb/>COMEDIE</fw>
@@ -235,16 +241,16 @@
                      m'obliger, <lb/>Et i'oſe me vanter qu'vn peu de mes prieres <lb/>Vous obtiendra
                      de luy des faueurs ſingulieres.</p>
                </sp>
-               <sp n="8" xml:id="EDI_002-1-1-1-8">
+               <sp n="8" xml:id="EDI_0002-1-1-1-8">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-8-1">
                      <lb/>Le ſort m'eſt trop cruel pour deuenir ſi doux.</p>
                </sp>
-               <sp n="9" xml:id="EDI_002-1-1-1-9">
+               <sp n="9" xml:id="EDI_0002-1-1-1-9">
                   <speaker>
                      <lb/>DORANTE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-1-9-1">
                      <lb/>Eſperes mieux, il ſort, &amp; s'auance vers vous. <lb/>Regardez le
                      marcher, ce viſage ſi graue <lb/>Dont le rare ſçauoir tient la nature eſclaue
                      <lb/>N'a ſauué toutefois des rauages du temps <lb/>Qu'vn peu d'os &amp; de
@@ -256,17 +262,17 @@
             </div>
             <fw>
                <lb/>A iij <lb/>6 L’ILLVSION COMIQ.</fw>
-            <div type="scene" xml:id="EDI_002-1-1-2" n="2">
+            <div type="scene" xml:id="EDI_0002-1-1-2" n="2">
 
                <lb/>
                <head>SCENE II.</head>
                <stage>
                   <lb/>ALCANDRE, PRIDAMANT, <lb/>DORANTE,</stage>
-               <sp n="1" xml:id="EDI_002-1-1-2-1">
+               <sp n="1" xml:id="EDI_0002-1-1-2-1">
 
                   <lb/>
                   <speaker>DORANTE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-2-1-1">
                      <lb/>GRand Demon du ſçauoir de qui les do¬<lb break="no"/>ctes veilles 
                      <lb/>Produiſent chaque iour de nouuelles <lb/>merueilles,
                      <lb/>Et que rien n’eſt ſecret dans nos intentions <lb/>Et qui vois ſans nous
@@ -279,11 +285,11 @@
                </sp>
                <fw>
                   <lb/>7 <lb/>COMEDIE</fw>
-               <sp n="2" xml:id="EDI_002-1-1-2-2">
+               <sp n="2" xml:id="EDI_0002-1-1-2-2">
 
                   <lb/>
                   <speaker>ALCANDRE.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-2-1">
                      <lb/>Dorante c'eſt aſſez, ie ſçait ce qui l'amene, <lb/>Ce fils eſt auiourd'huy
                      le ſuiet de ſa peine! <lb/>Veillard, n'eſt-il pas vray que ſon eſloignement
                      <lb/>Par vn iuſte remors te geſne inceſſamment, <lb/>Qu'vne obſtination a te
@@ -291,10 +297,10 @@
                      vain au repentir de ta ſeuerité <lb/>Tu cherches en tous lieux ce fils ſi mal
                      traité?</p>
                </sp>
-               <sp n="3" xml:id="EDI_002-1-1-2-3">
+               <sp n="3" xml:id="EDI_0002-1-1-2-3">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-3-1">
                      <lb/>Oracle de nos iours qui connoit toutes choſes, <lb/>En vain de ma douleur
                      ie cacherois les cauſes, <lb/>Tu ſçais trop quelle fut mon iniuſte rigueur,
                      <lb/>Et vois trop clairement les ſecrets de mon cœur: <lb/>Il eſt vray, i'ay
@@ -307,10 +313,10 @@
                </sp>
                <fw>
                   <lb/>8 L’ILLVSION COMIQ.</fw>
-               <sp n="4" xml:id="EDI_002-1-1-2-4">
+               <sp n="4" xml:id="EDI_0002-1-1-2-4">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-4-1">
                      <lb/>Commences d'eſperer, vous ſçaurez par mes charmes <lb/>Ce que le Ciel
                      vangeur refuſoit à vos larmes, <lb/>Vous reuerrez ce fils plain de vie &amp;
                      d'honneur, <lb/>De ſon banniſſement il tire ſon bon heur. <lb/>C'eſt peu de
@@ -326,91 +332,91 @@
                      voſtre fils par vn tel eſquipage. <lb/>Et bien celuy d'vn Prince à t'il plus de
                      ſplendeur? <lb/>Et pouuez vous encor douter de ſa grandeur ?</p>
                </sp>
-               <sp n="5" xml:id="EDI_002-1-1-2-5">
+               <sp n="5" xml:id="EDI_0002-1-1-2-5">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-5-1">
                      <lb/>D'vn amour paternel vous flattez, les tendreſſes, <lb/>Mon fils n'eſt
                      point du rang à porter ces richeſſes, <lb/>Et ſa condition ne ſçauroit endurer
                      <lb/>Qu'auecque tant de pompe il oſe ſe parer.</p>
                </sp>
-               <sp n="6" xml:id="EDI_002-1-1-2-6">
+               <sp n="6" xml:id="EDI_0002-1-1-2-6">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-6-1">
                      <lb/>Sous vn meilleur deſtin ſa fortune rangée <lb/>Et ſa condition auec le
                      temps changée, <lb/>Perſonne <fw>
                         <lb/>COMEDIE. 9</fw>
                      <lb/>Perſonne maintenant n'a dequoy murmurer <lb/>Qu'en public de la ſorte il
                      oſe ſe parer.</p>
                </sp>
-               <sp n="7" xml:id="EDI_002-1-1-2-7">
+               <sp n="7" xml:id="EDI_0002-1-1-2-7">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-7-1">
                      <lb/>A cet eſpoir ſi doux i'abandonne mon ame, <lb/>Mais par my ces habits ie
                      vois ceux d'vne femme <lb/>Seroit-il marié?</p>
                </sp>
-               <sp n="8" xml:id="EDI_002-1-1-2-8">
+               <sp n="8" xml:id="EDI_0002-1-1-2-8">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-8-1">
                      <lb/>Ie vay de ſes amours <lb/>Et de tous ſes hazards vous faire le diſcours,
                      <lb/>Toute fois ſi voſtre ame eſtoit aſſez hardie <lb/>Sous vne illuſion vous
                      pourriez voir ſa vie, <lb/>Et tous ſes accidens deuant vous exprimez <lb/>Par
                      des ſpectres pareils a des corps animées; <lb/>Il ne leur manquera ny geſte, ny
                      parole.</p>
                </sp>
-               <sp n="9" xml:id="EDI_002-1-1-2-9">
+               <sp n="9" xml:id="EDI_0002-1-1-2-9">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-9-1">
                      <lb/>Ne me ſoupçonnes point d'vne crainte friuole, <lb/>Le portrait de celuy
                      que ie cherche en tous lieux <lb/>Pourroit-il par ſa veuë eſpouuenter mes
                      yeux?</p>
                </sp>
-               <sp n="10" xml:id="EDI_002-1-1-2-010">
+               <sp n="10" xml:id="EDI_0002-1-1-2-10">
                   <speaker>
                      <lb/>ALCANDRE</speaker>
                   <stage>à Dorante</stage>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-10-1">
                      <lb/>Mon Caualier de grace il faut faire retraicte, <lb/>Et ſouffrir qu'entre
                      nous l'hiſtoire en ſoit ſecrete,</p>
                </sp>
                <fw>
                   <lb/>B <lb/>10 L’ILLVSION COMIQ.</fw>
-               <sp n="11" xml:id="EDI_002-1-1-2-11">
+               <sp n="11" xml:id="EDI_0002-1-1-2-11">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-11-1">
                      <lb/>Pour vn ſi bon amy ie nay point de ſecrets.</p>
                </sp>
-               <sp n="12" xml:id="EDI_002-1-1-2-12">
+               <sp n="12" xml:id="EDI_0002-1-1-2-12">
                   <speaker>
                      <lb/>DORANTE.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-12-1">
                      <lb/>Il vous faut ſans replique accepter ſes arreſts <lb/>Ie vous atends chez
                      moy.</p>
                </sp>
-               <sp n="13" xml:id="EDI_002-1-1-2-13">
+               <sp n="13" xml:id="EDI_0002-1-1-2-13">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p  n="1" xml:id="EDI_0002-1-1-2-13-1">
                      <lb/>Ce ſoir ſi bon luy ſemble <lb/>Il vousapprendra tout quand vous ſerez
                      enſemble.</p>
                </sp>
             </div>
-            <div type="scene" xml:id="EDI_002-1-1-3" n="3">
+            <div type="scene" xml:id="EDI_0002-1-1-3" n="3">
 
                <lb/>
                <head>SCENE III.</head>
 
                <lb/>
                <stage>ALCANDRE, PRIDAMANT.</stage>
-               <sp n="1" xml:id="EDI_002-1-1-3-1">
+               <sp n="1" xml:id="EDI_0002-1-1-3-1">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-3-1-1">
                      <lb/>Voſtre fils tout d'vn coup ne fut pas grand <lb/>ſeigneur, <lb/>Toutes ſes
                      actions ne vous font pas hon¬<lb break="no"/>
                      <lb/>neur, <lb/>Et ie ſerois marry d'expoſer ſa miſere <lb/>En ſpectacle a des
@@ -432,18 +438,18 @@
                      &amp; Guſman ne prirent tant de formes, <lb/>C'eſtoit la pour Dorante vn
                      honneſte entretient</p>
                </sp>
-               <sp n="2" xml:id="EDI_002-1-1-3-2">
+               <sp n="2" xml:id="EDI_0002-1-1-3-2">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-3-2-1">
                      <lb/>Que ie vous ſuis tenu de ce qu'il n'en ſçait rien!</p>
                </sp>
                <fw>
                   <lb/>B ij <lb/>12 L’ILLVSION COMIQ.</fw>
-               <sp n="3" xml:id="EDI_002-1-1-3-3">
+               <sp n="3" xml:id="EDI_0002-1-1-3-3">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-3-3-1">
                      <lb/>Sans vous faire rien voir, ie vous en fais vn conte <lb/>Dont le peu de
                      longueur eſpargne voſtre honte: <lb/>Las de tant de meſtiers ſans honneur &amp;
                      ſans fruit <lb/>Quelque meilleur deſtin à Bordeaux la conduit, <lb/>Et là comme
@@ -456,16 +462,16 @@
                      d'eſclat &amp; de gloire. <lb/>Et la meſme action qu'il pratique
                      auiourd'huy.</p>
                </sp>
-               <sp n="4" xml:id="EDI_002-1-1-3-4">
+               <sp n="4" xml:id="EDI_0002-1-1-3-4">
                   <speaker>
                      <lb/>PRIDAMANT.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-3-4-1">
                      <lb/>Que deſia cet eſpoir ſoulage mon ennuy?</p>
                </sp>
-               <sp n="5" xml:id="EDI_002-1-1-3-5">
+               <sp n="5" xml:id="EDI_0002-1-1-3-5">
                   <speaker>
                      <lb/>ALCANDRE.</speaker>
-                  <p>
+                  <p n="1" xml:id="EDI_0002-1-1-3-5-1">
                      <lb/>Il a caché ſon nom en battant la campagne <lb/>Et s'eſt fait de Clindor le
                      ſieur de la Montagne, <lb/>C'eſt ainſi que tantoſt vous l'entendrez nommer
                      <lb/>Voyez tout ſans rien dire, &amp; ſans vous alarmer, <fw>

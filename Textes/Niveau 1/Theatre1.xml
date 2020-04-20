@@ -3,7 +3,7 @@
 
 <!-- Les metadata se trouvent dans un autre fichier -->
 
-<text xmlns="http://www.tei-c.org/ns/1.0">
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0002">
       <body>
          <p>
             <lb/>LILLVSION
@@ -21,25 +21,25 @@
             <lb/>MADAMOISELLE,
             <lb/>Voicy vn éſtrange
             <lb/>monſtre que ie vous
-            <lb/>dédie. Le premier Acte n’eſt qu’vn Prolo¬<lb break="no"/><lb/>gue, les trois ſuiuants font vne Comedie
+            <lb/>dédie. Le premier Acte n’eſt qu’vn Prolo¬<lb break="no" rend="¬"/><lb/>gue, les trois ſuiuants font vne Comedie
             <lb/>imparfaicte, le dernier eſt vne Tragedie,
-            <lb/>&amp; tout cela couſu enſemble faict vne Co¬<lb break="no"/><lb/>medie. Qu'on en nomme l’inuention bijar¬<lb break="no"/><lb/>re &amp; extrauagante tant qu’on voudra, elle
-            <lb/>eſt nouuelle, &amp; ſouuent la grace de la nou¬<lb break="no"/><lb/>EPISTRE.
-            <lb/>ueauté parmy nos Frãçois n’eſt pas vn pe¬<lb break="no"/><lb/>tit degré de bõté. Son ſuccez ne m’a point
+            <lb/>&amp; tout cela couſu enſemble faict vne Co¬<lb break="no" rend="¬"/><lb/>medie. Qu'on en nomme l’inuention bijar¬<lb break="no" rend="¬"/><lb/>re &amp; extrauagante tant qu’on voudra, elle
+            <lb/>eſt nouuelle, &amp; ſouuent la grace de la nou¬<lb break="no" rend="¬"/><lb/>EPISTRE.
+            <lb/>ueauté parmy nos Frãçois n’eſt pas vn pe¬<lb break="no" rend="¬"/><lb/>tit degré de bõté. Son ſuccez ne m’a point
             <lb/>fait de honte ſur le Theatre, &amp; i'oſe dire
-            <lb/>que la repreſentation de cette piece capri¬<lb break="no"/><lb/>cieuſe ne vous a point deſpleu, puiſque
-            <lb/>vous m’aues commandé de vous en adreſ¬<lb break="no"/><lb/>ſer l’Epiſtre quand elle iroit ſoubs la preſ¬<lb break="no"/><lb/>ſe. Ie ſuis au deſeſpoir de vous la preſenter
-            <lb/>en ſi mauuais eſtat, qu’elle en eſt meſco¬<lb break="no"/><lb/>gnoiſſable: la quantité de fautes que l’Im¬<lb break="no"/><lb/>primeur a adiouſtées aux miennes la deſ¬<lb break="no"/><lb/>guiſe, ou pour mieux dire, la change entie¬<lb break="no"/><lb/>rement. C’eſt l’effet de mon abſence de
+            <lb/>que la repreſentation de cette piece capri¬<lb break="no" rend="¬"/><lb/>cieuſe ne vous a point deſpleu, puiſque
+            <lb/>vous m’aues commandé de vous en adreſ¬<lb break="no" rend="¬"/><lb/>ſer l’Epiſtre quand elle iroit ſoubs la preſ¬<lb break="no" rend="¬"/><lb/>ſe. Ie ſuis au deſeſpoir de vous la preſenter
+            <lb/>en ſi mauuais eſtat, qu’elle en eſt meſco¬<lb break="no" rend="¬"/><lb/>gnoiſſable: la quantité de fautes que l’Im¬<lb break="no" rend="¬"/><lb/>primeur a adiouſtées aux miennes la deſ¬<lb break="no" rend="¬"/><lb/>guiſe, ou pour mieux dire, la change entie¬<lb break="no" rend="¬"/><lb/>rement. C’eſt l’effet de mon abſence de
             <lb/>Paris, d’ou mes affaires m’ont r’appellé ſur
             <lb/>le point qu’il l’imprimoit, &amp; m’ont obligé
-            <lb/>d’en abandonner les eſpreuues à ſa diſcre¬<lb break="no"/><lb/>tion. Ie vous coniure de ne la lire point que
+            <lb/>d’en abandonner les eſpreuues à ſa diſcre¬<lb break="no" rend="¬"/><lb/>tion. Ie vous coniure de ne la lire point que
             <lb/>vous n’ayez pris la peine de corriger ce
             <lb/>que vous trouuerez marqué en ſuite de
-            <lb/>cette Epiſtre. Ce n’eſt pas que i’y aye em¬<lb break="no"/><lb/>ployé toutes les fautes qui s’y ſont coulées
-            <lb/>le nõbre en eſt ſi grand qu’il euſt eſpouuen¬<lb break="no"/><lb/>té le Lecteur, i’ay ſeulement choiſy celles
+            <lb/>cette Epiſtre. Ce n’eſt pas que i’y aye em¬<lb break="no" rend="¬"/><lb/>ployé toutes les fautes qui s’y ſont coulées
+            <lb/>le nõbre en eſt ſi grand qu’il euſt eſpouuen¬<lb break="no" rend="¬"/><lb/>té le Lecteur, i’ay ſeulement choiſy celles
             <lb/>qui peuuent apporter quelque corruption
             <lb/>EPISTRE.
-            <lb/>notable au ſens, &amp; qu’on ne peut pas deui¬<lb break="no"/><lb/>ner ayſement. Pour les autres qui ne ſont
+            <lb/>notable au ſens, &amp; qu’on ne peut pas deui¬<lb break="no" rend="¬"/><lb/>ner ayſement. Pour les autres qui ne ſont
             <lb/>que contre la Rime, ou l’Orthographe,
             <lb/>ou la punctuation, i’ay creu que le Lecteur
             <lb/>iudicieux y ſuppleeroit ſans beaucoup de
@@ -47,7 +47,7 @@
             <lb/>d’en charger cette premiere fueille. Cela
             <lb/>m’apprendra à ne hazarder plus de pieces
             <lb/>à l’Impreſſion durant mon abſence. Ayez
-            <lb/>aſſez de bonté pour ne deſdaigner pas cel¬<lb break="no"/><lb/>le cy, toute deſchiree qu’elle eſt, &amp; vous
+            <lb/>aſſez de bonté pour ne deſdaigner pas cel¬<lb break="no" rend="¬"/><lb/>le cy, toute deſchiree qu’elle eſt, &amp; vous
             <lb/>m’obligerez d’autant plus à demeurer
             <lb/>toute ma vie,
             <lb/>MADAMOISELLE,
@@ -67,7 +67,7 @@
             <lb/>pag. 39 vers 1. &amp; croy trop Iſabelle, liſez &amp; croy trop d’Iſabelle.
             <lb/>pag. 4t. vers 9. Ie verra pour le mieux, liſez ſe verra pour te mieux.
             <lb/>pag. 5o vers 5. qui vous tient, liſez ne vous tient.
-            <lb/>pag. 55. vers 12. la fortune &amp; ſes perfections, liſez, ſa fortune &amp; tes per¬<lb break="no"/><lb/>fections.
+            <lb/>pag. 55. vers 12. la fortune &amp; ſes perfections, liſez, ſa fortune &amp; tes per¬<lb break="no" rend="¬"/><lb/>fections.
             <lb/>pag. 63 vers 1. me veuillent, liſez ne veuillent.
             <lb/>pag. 64 vers 4. d’y parler liſez de parler.
             <lb/>pag. 66. verss. tres vaillant, liſez tout vaillant.
@@ -85,11 +85,11 @@
             <lb/>pag. 121 vers 9. ſuiure, liſez ſuiués.
             <lb/>Extraict du Priuilege du Roy.
             <lb/>PAR grace &amp; Priuilege du Roy, il eſt permis à
-            <lb/>François Targa, Marchand Libraire à Paris, d’im¬<lb break="no"/><lb/>primer ou faire imprimer, &amp; expoſer en vente, vn
+            <lb/>François Targa, Marchand Libraire à Paris, d’im¬<lb break="no" rend="¬"/><lb/>primer ou faire imprimer, &amp; expoſer en vente, vn
             <lb/>Liure intitulé l'Illuſion Comique Comedie par Mr.
-            <lb/>CORNEILLE: Et defences ſont faites à tous Impri¬<lb break="no"/><lb/>meurs Libraires, &amp; autres, d’imprimer, ny faire imprimer ledit
-            <lb/>Liure ſans ſa permiſſion, ou de ceux qui auront droit de luy, &amp; ce¬<lb break="no"/><lb/>pendant le temps de ſept ans à compter du jour que ledit Liure
-            <lb/>ſera acheué d’imprimer pour la premiere fois, à peine aux con¬<lb break="no"/><lb/>treuenans, de trois mil liures d’amende, confiſcation des exem¬<lb break="no"/><lb/>plaires qui ſe trouueront contrefaits, &amp; de tous deſpens, dom¬<lb break="no"/><lb/>mages &amp; intereſts, ainſi qu’il eſt contenu plus au long auſdites
+            <lb/>CORNEILLE: Et defences ſont faites à tous Impri¬<lb break="no" rend="¬"/><lb/>meurs Libraires, &amp; autres, d’imprimer, ny faire imprimer ledit
+            <lb/>Liure ſans ſa permiſſion, ou de ceux qui auront droit de luy, &amp; ce¬<lb break="no" rend="¬"/><lb/>pendant le temps de ſept ans à compter du jour que ledit Liure
+            <lb/>ſera acheué d’imprimer pour la premiere fois, à peine aux con¬<lb break="no" rend="¬"/><lb/>treuenans, de trois mil liures d’amende, confiſcation des exem¬<lb break="no" rend="¬"/><lb/>plaires qui ſe trouueront contrefaits, &amp; de tous deſpens, dom¬<lb break="no" rend="¬"/><lb/>mages &amp; intereſts, ainſi qu’il eſt contenu plus au long auſdites
             <lb/>Lettres de Priuilege. Donné a Paris le vnzieſme Feurier ſix cens
             <lb/>trente neuf.
             <lb/>Par le Roy en ſon Conſeil.
@@ -105,7 +105,7 @@
             <lb/>amoureux d’Iſabelle.
             <lb/>CLINDOR, ſuiuant du Capitan &amp;
             <lb/>amant d’Iſabelle.
-            <lb/>ADRASTE, Gentilhomme amou¬<lb break="no"/><lb/>reux d’Iſabelle.
+            <lb/>ADRASTE, Gentilhomme amou¬<lb break="no" rend="¬"/><lb/>reux d’Iſabelle.
             <lb/>GERONTE, pere d’Iſabelle.
             <lb/>ISABELLE, fille de Geronte
             <lb/>LISE, ſeruante d'Iſabelle.
@@ -115,7 +115,7 @@
             <lb/>femme de Florilame.
             <lb/>ERASTE, Eſcuyer de Florilame.
             <lb/>TROVPE, de Domeſtiques d’Adraſte.
-            <lb/>TROVPE, de Domeſtiques de Flo¬<lb break="no"/><lb/>rilame.
+            <lb/>TROVPE, de Domeſtiques de Flo¬<lb break="no" rend="¬"/><lb/>rilame.
             <lb/>1
             <lb/>L’ILLVSION
             <lb/>COMIQVE
@@ -128,7 +128,7 @@
             <lb/>à la nature
             <lb/>N'a choiſi pour palais que cette grotte
             <lb/>obſcure;
-            <lb/>La nuit qu'il entretient ſur cet af¬<lb break="no"/><lb/>freux ſeiour
+            <lb/>La nuit qu'il entretient ſur cet af¬<lb break="no" rend="¬"/><lb/>freux ſeiour
             <lb/>N'ouurant ſon voile espais qu'aux raions d’vn
             <lb/>faux iour,
             <lb/>A
@@ -238,7 +238,7 @@
             <lb/>ALCANDRE, PRIDAMANT,
             <lb/>DORANTE,
             <lb/>DORANTE.
-            <lb/>GRand Demon du ſçauoir de qui les do¬<lb break="no"/><lb/>ctes veilles
+            <lb/>GRand Demon du ſçauoir de qui les do¬<lb break="no" rend="¬"/><lb/>ctes veilles
             <lb/>Produiſent chaque iour de nouuelles
             <lb/>merueilles,
             <lb/>Et que rien n’eſt ſecret dans nos intentions
@@ -268,7 +268,7 @@
             <lb/>Tu ſçais trop quelle fut mon iniuſte rigueur,
             <lb/>Et vois trop clairement les ſecrets de mon cœur:
             <lb/>Il eſt vray, i'ay failly, mes pour mes iniuſtices
-            <lb/>Tant de trauaux en vain ſont d'aſſez grands ſup¬<lb break="no"/><lb/>plices,
+            <lb/>Tant de trauaux en vain ſont d'aſſez grands ſup¬<lb break="no" rend="¬"/><lb/>plices,
             <lb/>Donne en fin quelque borne à mes regrets cuiſants,
             <lb/>Rends moy lunique appuy de mes debilles ans,
             <lb/>Ie le tiendray rendu ſi i'en ſçay des nouuelles,
@@ -298,8 +298,8 @@
             <lb/>lequel sõt
             <lb/>en parade
             <lb/>les plus
-            <lb/>beaux ha¬<lb break="no"/><lb/>bits des
-            <lb/>Come¬<lb break="no"/><lb/>diens.
+            <lb/>beaux ha¬<lb break="no" rend="¬"/><lb/>bits des
+            <lb/>Come¬<lb break="no" rend="¬"/><lb/>diens.
             <lb/>ma baguette à la main i'en feray dauantage,
             <lb/>Iugez de voſtre fils par vn tel eſquipage.
             <lb/>Et bien celuy d'vn Prince à t'il plus de ſplendeur?
@@ -350,7 +350,7 @@
             <lb/>ALCANDRE.
             <lb/>Voſtre fils tout d'vn coup ne fut pas grand
             <lb/>ſeigneur,
-            <lb/>Toutes ſes actions ne vous font pas hon¬<lb break="no"/><lb/>neur,
+            <lb/>Toutes ſes actions ne vous font pas hon¬<lb break="no" rend="¬"/><lb/>neur,
             <lb/>Et ie ſerois marry d'expoſer ſa miſere
             <lb/>En ſpectacle a des yeux autrés que ceux d'vn pere,
             <lb/>COMEDIE. 11
@@ -368,7 +368,7 @@
             <lb/>Enrichit les chanteurs de la Samaritaine:
             <lb/>Son ſtile prit apres de plus beaux ornements,
             <lb/>Il ſe haZarda meſme a faire des Romants,
-            <lb/>Des chanſons pour Gautier, des pointes pour Guil¬<lb break="no"/><lb/>laume,
+            <lb/>Des chanſons pour Gautier, des pointes pour Guil¬<lb break="no" rend="¬"/><lb/>laume,
             <lb/>De puis il trafica de chapelets de bauſme,
             <lb/>Vendit du Mitridat en maiſtre Operateur,
             <lb/>Reuint dans le Palais &amp; fut Solliciteur,
@@ -417,9 +417,9 @@
             <lb/>ALCANDRE.
             <lb/>QUoy qui s'offre à vos yeux n'en ayeZ
             <lb/> point d’effroy
-            <lb/>De ma grotte ſur tout ne ſorteZ qu'à¬<lb break="no"/><lb/>pres moy,
+            <lb/>De ma grotte ſur tout ne ſorteZ qu'à¬<lb break="no" rend="¬"/><lb/>pres moy,
             <lb/>Sinon, vous eſtes mort, voyez deſia paroiſtre
-            <lb/>Sous deux fantoſmes vains voſtre fils &amp; ſou Mai¬<lb break="no"/><lb/>ſtre.
+            <lb/>Sous deux fantoſmes vains voſtre fils &amp; ſou Mai¬<lb break="no" rend="¬"/><lb/>ſtre.
             <lb/>PRIDAMANT.
             <lb/>O Dieux! ie ſens mon ame apres luy s'enuoler.
             <lb/>ALCANDRE.
@@ -431,7 +431,7 @@
             <lb/>CLINDOR.
             <lb/>QVoy? Monſieur, vous reſuez! &amp; cette
             <lb/>ame hautaine
-            <lb/>Apres tant de beaux faits ſemble eſtre en¬<lb break="no"/><lb/>cor en peine!
+            <lb/>Apres tant de beaux faits ſemble eſtre en¬<lb break="no" rend="¬"/><lb/>cor en peine!
             <lb/>N'eſtes vous point laſſé d'abatre des guerriers:
             <lb/>Soupirez vous apres quelques nouueaux lauriers;
             <lb/>MATAMORE.
@@ -467,7 +467,7 @@
             <lb/>Qui m'aſſacre, d'eſtruit, briſe, bruſle, extermine,
             <lb/>Et penſant au bel œil qui tient ma liberté
             <lb/>Ie ne ſuis plus qu'amour, que grace, que beauté.
-            <lb/>CIN¬<lb break="no"/><lb/>COMEDIE 17
+            <lb/>CIN¬<lb break="no" rend="¬"/><lb/>COMEDIE 17
             <lb/>CLINDOR.
             <lb/>O Dieux! en vn moment que tout vous eſt poßible!
             <lb/>Ie vous vois außi beau que vous eſtes terrible,
@@ -612,7 +612,7 @@
             <lb/>Ie ne ſçay pas, Monſieur, de quoy vous me blaſmez.
             <lb/>Ie me cognois aymable, &amp; croy que vous m'aymées.
             <lb/>Dans vos ſoûpirs ardants i'en voy trop d'apparence,
-            <lb/>Et quand bien de leur part i'aurois moins d’aſſeu¬<lb break="no"/><lb/>rance,
+            <lb/>Et quand bien de leur part i'aurois moins d’aſſeu¬<lb break="no" rend="¬"/><lb/>rance,
             <lb/>Pour peu qu'vn honneſte homme ays vers moy de
             <lb/>credit,
             <lb/>Ie luy fais la faueur de croire ce qu'il dis.
@@ -702,7 +702,7 @@
             <lb/>meſme inſtant?
             <lb/>ISABELLE.
             <lb/>Ce n'eſt pas honte à luy, les Rois en font autant,
-            <lb/>Au moins ſi ce grand bruit qui court de vos mer¬<lb break="no"/><lb/>ueilles D ij
+            <lb/>Au moins ſi ce grand bruit qui court de vos mer¬<lb break="no" rend="¬"/><lb/>ueilles D ij
             <lb/>Elle monſtre
             <lb/>Clindor.
             <lb/>28 L’ILLVSION COMIQ.
@@ -734,7 +734,7 @@
             <lb/>MATAMORE.
             <lb/>Vous aueZ Dieu me ſauue, vn esprit à ma mode,
             <lb/>Vous trouuez comme moy la grandeur incommode,
-            <lb/>Les ſceptres les plus beaux n'ont rien pour moy d'ex¬<lb break="no"/><lb/>9
+            <lb/>Les ſceptres les plus beaux n'ont rien pour moy d'ex¬<lb break="no" rend="¬"/><lb/>9
             <lb/>Ie les rends außi toſt que ie les ay conquis,
             <lb/>Et me ſuis veu charmer quantité de Princeſſes
             <lb/>Sans que iamais mon cœur acceptaſt ces maiſtreſſes.
@@ -804,17 +804,17 @@
             <lb/>SCEIE V.
             <lb/>CLINDOR, ISABELLE,
             <lb/>CLINDOR.
-            <lb/>Ugez pluſtoſt par là, l'humeur du per¬<lb break="no"/><lb/>ſonnage.
-            <lb/>Ce Page n'eſt chez luy que pour ce ba¬<lb break="no"/><lb/>dinage,
+            <lb/>Ugez pluſtoſt par là, l'humeur du per¬<lb break="no" rend="¬"/><lb/>ſonnage.
+            <lb/>Ce Page n'eſt chez luy que pour ce ba¬<lb break="no" rend="¬"/><lb/>dinage,
             <lb/>Et venir d'heure en heure aduertir ſa grandeur,
-            <lb/>D'vn Courrier, d'vn Agent, ou d'vn Ambaſſa¬<lb break="no"/><lb/>deur.
+            <lb/>D'vn Courrier, d'vn Agent, ou d'vn Ambaſſa¬<lb break="no" rend="¬"/><lb/>deur.
             <lb/>ISABELLE.
             <lb/>Ce meſſage me plaiſt bien plus qu'il ne luy ſemble:
             <lb/>Il me defait d'vn fou pour rous laiſſer enſemble.
             <lb/>CLINDOR.
             <lb/>Ce diſcours fauorable enhardira mes feux
             <lb/>A bien vſer d'vn temps ſi propice à mes vœux.
-            <lb/>ISA¬<lb break="no"/><lb/>33
+            <lb/>ISA¬<lb break="no" rend="¬"/><lb/>33
             <lb/>ISABELLE.
             <lb/>Que m'allez vous conter?
             <lb/>CLINDOR.
@@ -829,7 +829,7 @@
             <lb/>C'eſt aux commencements des foibles paßions
             <lb/>As amuſerencor aux protestations,
             <lb/>Il ſuffit de nous voir au point ou ſont les noſtres,
-            <lb/>Vn clin d'œil vaut pour vous tout le diſcours des au¬<lb break="no"/><lb/>tres.
+            <lb/>Vn clin d'œil vaut pour vous tout le diſcours des au¬<lb break="no" rend="¬"/><lb/>tres.
             <lb/>CLINDOR.
             <lb/>Dieux qui l'euſt iamais creu que mon ſort rigoureux
             <lb/>Se rendiſt ſi facile à mon cœur amoureux!
@@ -862,7 +862,7 @@
             <lb/>Voicy mon importun, ſouffrées que ie l'euite.
             <lb/>ADRASTE, CLINDOR.
             <lb/>ADRASTE.
-            <lb/>Ve vous eſtes heureux&amp; quel mal¬<lb break="no"/><lb/>heur me ſuit!
+            <lb/>Ve vous eſtes heureux&amp; quel mal¬<lb break="no" rend="¬"/><lb/>heur me ſuit!
             <lb/>Ma maiſtreſſe vous ſouffre, &amp; l'ingrate
             <lb/>&amp;
             <lb/>Quelque gouſt qu'elle prenne en voſtre compagnie
@@ -1010,12 +1010,12 @@
             <lb/>22 L’ILLVSION COMIQ.
             <lb/>DCENEVIII
             <lb/>LISE.
-            <lb/>Arrogant croyt deſia tenir ville gai¬<lb break="no"/><lb/>gnéë,
-            <lb/>Mais il ſera puny de m'auoir deſ¬<lb break="no"/><lb/>daignée.
+            <lb/>Arrogant croyt deſia tenir ville gai¬<lb break="no" rend="¬"/><lb/>gnéë,
+            <lb/>Mais il ſera puny de m'auoir deſ¬<lb break="no" rend="¬"/><lb/>daignée.
             <lb/>Par-ce qu'il eſt aymable il fait le petit Dieu,
             <lb/>Et ne veut s'adreſſer qu'aux filles de bon lieu,
             <lb/>Ie ne merite pas l'honneur de ſes carreſſes:
-            <lb/>Vrayment c'eſt pour ſon nez, il luy faut des mai¬<lb break="no"/><lb/>ſtreſſes.
+            <lb/>Vrayment c'eſt pour ſon nez, il luy faut des mai¬<lb break="no" rend="¬"/><lb/>ſtreſſes.
             <lb/>Je ne ſuis que ſeruante, &amp; qu'eſt-il que valet?
             <lb/>Si ſon viſage eſt beau, le mien n'eſt pas trop laid.
             <lb/>Il ſedit riche &amp; noble, &amp; cela me fait rire,
@@ -1112,7 +1112,7 @@
             <lb/>GERONTE.
             <lb/>Va preſent la ieuneſſe à d'eſtranges
             <lb/>manies!
-            <lb/>Les regles du deuoir luy ſont des tyran¬<lb break="no"/><lb/>nies,
+            <lb/>Les regles du deuoir luy ſont des tyran¬<lb break="no" rend="¬"/><lb/>nies,
             <lb/>Et les droits les plus ſaincts deuiennent impuiſſants
             <lb/>Al'empeſcher de courre apres ſon propre ſens:
             <lb/>Mais ceſt l'humeur du ſexe, il ayme à contredire,
@@ -1125,11 +1125,11 @@
             <lb/>Par force, ou paradreſſe il me le faut chaſſer.
             <lb/>L’ILLVSION COMIQ.
             <lb/>MiE, i A.iM, ſi sf tosſa Mr, &amp;, A, ftyfashas ARes fsEA
-            <lb/>u&amp; io af mxgãa M4f: vi: cœie voi;te¬<lb break="no"/><lb/>SCENE IIa
+            <lb/>u&amp; io af mxgãa M4f: vi: cœie voi;te¬<lb break="no" rend="¬"/><lb/>SCENE IIa
             <lb/>GERONTE, MATAMORE,
             <lb/>CLINDOR.
             <lb/>MATAMORE à Clindor.
-            <lb/>Auras tu point en fin pitié de ma for¬<lb break="no"/><lb/>tune?
+            <lb/>Auras tu point en fin pitié de ma for¬<lb break="no" rend="¬"/><lb/>tune?
             <lb/>Le grand Viſir encor de nouueau
             <lb/>m'importune.
             <lb/>ailleurs m'appelle à ſon ſecours
@@ -1148,7 +1148,7 @@
             <lb/>Mais quelle émotion paroiſt ſur ce viſage?
             <lb/>Ou ſont vos ennemis que i'en face vn carnage?
             <lb/>GERONTE.
-            <lb/>Monſieur, graces aux Dieux ie n'ay point d'enne¬<lb break="no"/><lb/>mis.
+            <lb/>Monſieur, graces aux Dieux ie n'ay point d'enne¬<lb break="no" rend="¬"/><lb/>mis.
             <lb/>MATAMORE.
             <lb/>Mais graces à ce bras qui vous les a ſoubmis.
             <lb/>GERONTE.
@@ -1213,13 +1213,13 @@
             <lb/>Ha viſible demon, vieux ſpectre decharné,
             <lb/>Vray ſuppoſt de Satan medaille de damné.
             <lb/>Tu m'oſes donc bannir &amp; meſme auec menaces:
-            <lb/>Moy de qui tous les Rois briguent les bonnes gra¬<lb break="no"/><lb/>&amp;.
+            <lb/>Moy de qui tous les Rois briguent les bonnes gra¬<lb break="no" rend="¬"/><lb/>&amp;.
             <lb/>CLINDOR.
             <lb/>Tandis qu'il eſt dehors alleZdez auiourd'huy
             <lb/>Cauſer de vos amours &amp; vous mocquer de luy.
             <lb/>MATAMORE.
             <lb/>Cadediou, ſes valets feroient quelque inſolence.
-            <lb/>re¬<lb break="no"/><lb/>53.
+            <lb/>re¬<lb break="no" rend="¬"/><lb/>53.
             <lb/>COMEDIE
             <lb/>CLINDOR.
             <lb/>Ce fera trop dequoy dompter leur violence.
@@ -1227,14 +1227,14 @@
             <lb/>Ouy, mais les feux qu'il iette en ſortant de priſon.
             <lb/>Auroient en vn moment embrazé la maiſon.
             <lb/>Deuoré tout à l'heure ardoiſes, &amp; goutieres.
-            <lb/>Faites, lattes, cheurons, montants, courbes, fillie¬<lb break="no"/><lb/>res,
+            <lb/>Faites, lattes, cheurons, montants, courbes, fillie¬<lb break="no" rend="¬"/><lb/>res,
             <lb/>Entretoiſes, ſommiers, colomnes, ſoliueaux,
             <lb/>Parnes, ſoles, appuis, iambages, traueteaux,
             <lb/>Portes, grilles, verroux, ſerrures, thuilles, pierre,
             <lb/>Plomb, fer, plaſtre, cimen, peinture, marbre, verre,
-            <lb/>Caues, puits, cours, perrons, ſalles, chambres, gre¬<lb break="no"/><lb/>ni
+            <lb/>Caues, puits, cours, perrons, ſalles, chambres, gre¬<lb break="no" rend="¬"/><lb/>ni
             <lb/>Offices, cabinets, terraſſes, eſcaliers,
-            <lb/>Iuge vn peu quel deſordre aux yeux de ma char¬<lb break="no"/><lb/>me
+            <lb/>Iuge vn peu quel deſordre aux yeux de ma char¬<lb break="no" rend="¬"/><lb/>me
             <lb/>Ces feux eſtoufferoient ſon ardeur amoureuſe,
             <lb/>Va luy parler pour moy, toy qui n'es pas vaillant,
             <lb/>Tu puniras à moins vn valet inſolent,
@@ -1288,7 +1288,7 @@
             <lb/>Penſes-tu qu'en effet ie l'aime plus que toy?
             <lb/>16 L’ILLVSION COMIQ.
             <lb/>L'amour &amp; l'Hymenée ont diuerſe methode
-            <lb/>L'vn court au plus aymable, &amp; l'autre au plus com¬<lb break="no"/><lb/>mode.
+            <lb/>L'vn court au plus aymable, &amp; l'autre au plus com¬<lb break="no" rend="¬"/><lb/>mode.
             <lb/>Ie ſuis dans la miſere &amp; tu n'as point de bien,
             <lb/>Un rien s’aſſemble mal auec vn autre rien.
             <lb/>Mais ſi tu meſnageois ma flame auec adreſſe,
@@ -1310,7 +1310,7 @@
             <lb/>Un peu de tes faueurs me rendroit plus content.
             <lb/>LISE.
             <lb/>Ma maiſtreſſe la haut eſt ſeule &amp; vous attend.
-            <lb/>CLIN¬<lb break="no"/><lb/>57
+            <lb/>CLIN¬<lb break="no" rend="¬"/><lb/>57
             <lb/>COMEDIE.
             <lb/>CLINDOR.
             <lb/>Tu me chaſſes ainſi!
@@ -1337,7 +1337,7 @@
             <lb/>LISE.
             <lb/>L'Ingrat! il trouue enfin mon viſage
             <lb/>charmant,
-            <lb/>Et pour me ſuborner il contrefait l'a¬<lb break="no"/><lb/>mant:
+            <lb/>Et pour me ſuborner il contrefait l'a¬<lb break="no" rend="¬"/><lb/>mant:
             <lb/>Qui hait ma ſaincte ardeur m'ayme dans l'infamie,
             <lb/>Me deſdaigne pour femme, &amp; me veut pour amie!
             <lb/>Perfide, quas tu veu dedans mes actions
@@ -1353,7 +1353,7 @@
             <lb/>Va traiſtre; ayme en tous lieux, &amp; partage ton
             <lb/>ame,
             <lb/>COMEDIE. 59
-            <lb/>Choisy qui tu voudras pour maiſtreſſe &amp; pour fem¬<lb break="no"/><lb/>me,
+            <lb/>Choisy qui tu voudras pour maiſtreſſe &amp; pour fem¬<lb break="no" rend="¬"/><lb/>me,
             <lb/>Donne à l'vne ton cœur; donne à l'autre ta foy,
             <lb/>Mais ne croy plus tromper Iſabelle, ny moy.
             <lb/>Ce long calme bien toſt va tourner en tempeſte,
@@ -1408,7 +1408,7 @@
             <lb/>MATAMORE.
             <lb/>ISABELLE.
             <lb/>TOut ſe prepare mal du coſté de mon pere,
-            <lb/>Je ne le vis iamais d'vne humeur ſi ſe¬<lb break="no"/><lb/>uere,
+            <lb/>Je ne le vis iamais d'vne humeur ſi ſe¬<lb break="no" rend="¬"/><lb/>uere,
             <lb/>Il ne ſouffrira plus voſtre maiſtre ny
             <lb/>vous,
             <lb/>Noſtre baron d'ailleurs est deuenu ialoux,
@@ -1445,7 +1445,7 @@
             <lb/>Vn riual par mon pere attaque en vain ma foy,
             <lb/>Voſtre amour ſeul adroit de triompher de moy,
             <lb/>COMEDIE 63
-            <lb/>Qu'vn pere &amp; ce riual me veuillent vous contrain¬<lb break="no"/><lb/>ISABELLE.
+            <lb/>Qu'vn pere &amp; ce riual me veuillent vous contrain¬<lb break="no" rend="¬"/><lb/>ISABELLE.
             <lb/>I'en ſçay bien le remede, &amp; croyez qu'en ce cas.
             <lb/>L'vn aura moins d'effet que l'autre n'a d’appas,
             <lb/>Ie ne vous diray point ou ie ſuis reſoluë,
@@ -1530,7 +1530,7 @@
             <lb/>CLINDOR.
             <lb/>67
             <lb/>A ce rare preſent d'aiſe le cœur me bat,
-            <lb/>Protecteur des grands Roys, guerrier trop magna¬<lb break="no"/><lb/>ni
+            <lb/>Protecteur des grands Roys, guerrier trop magna¬<lb break="no" rend="¬"/><lb/>ni
             <lb/>Puiſſe tout l'vniuers bruire de voſtre eſtime.
             <lb/>DAR ARARgeMte A graes
             <lb/>SCENE X.
@@ -1538,12 +1538,12 @@
             <lb/>CLINDOR.
             <lb/>ISABELLE.
             <lb/>„a fain:e &amp; due jasrrinos euits Tiex,
-            <lb/>Erends graces au Ciel de ce qu'il à per¬<lb break="no"/><lb/>B
+            <lb/>Erends graces au Ciel de ce qu'il à per¬<lb break="no" rend="¬"/><lb/>B
             <lb/>Qu'à la fin ſans combat ie vous voy
             <lb/>bons amis.
             <lb/>MATAMORE,
             <lb/>Ne penſeZ plus, ma Reine, à l'honneur que ma flame
-            <lb/>Vous deuoit faire vn iour de vous prendre pour fem¬<lb break="no"/><lb/>me.
+            <lb/>Vous deuoit faire vn iour de vous prendre pour fem¬<lb break="no" rend="¬"/><lb/>me.
             <lb/>I'ij
             <lb/>68 L’ILLVSION COMIQ.
             <lb/>Pour quelque occaſion iay changé de deſſain,
@@ -1568,7 +1568,7 @@
             <lb/>COMEDIE
             <lb/>euãgne: võqu.c: &amp; vis E d voßgéfede iiga aßaßu vß Ee: ad
             <lb/>SCENE XI
-            <lb/>GERONTE, ADRASTE, MATA¬<lb break="no"/><lb/>MORE, CLINDOR, ISABELLE,
+            <lb/>GERONTE, ADRASTE, MATA¬<lb break="no" rend="¬"/><lb/>MORE, CLINDOR, ISABELLE,
             <lb/>LISE, Troupes de Domeſtiques.
             <lb/>ADRASTE.
             <lb/>Ce baiſer te va couter la vie,
@@ -2206,8 +2206,8 @@
             <lb/>SCENE X
             <lb/>AL CANDRE, PRIDAMANT,
             <lb/>LCANDRE.
-            <lb/>Ecraignez plus poureux ny perils ny diſ¬<lb break="no"/><lb/>grace,
-            <lb/>RBeaucoup les pourſuiurons mais ſans trou¬<lb break="no"/><lb/>uer leurs traces.
+            <lb/>Ecraignez plus poureux ny perils ny diſ¬<lb break="no" rend="¬"/><lb/>grace,
+            <lb/>RBeaucoup les pourſuiurons mais ſans trou¬<lb break="no" rend="¬"/><lb/>uer leurs traces.
             <lb/>PRIDAMANT.
             <lb/>A la fin ie reſpire.
             <lb/>ALCANDRE.
@@ -2231,7 +2231,7 @@
             <lb/>SCENE PREMIERE.
             <lb/>ALCANDRE PRIDAMANT.
             <lb/>PRIDAMANT.
-            <lb/>V'Iſabelle eſt changée &amp; qu'elle eſt eſ¬<lb break="no"/><lb/>clatante
+            <lb/>V'Iſabelle eſt changée &amp; qu'elle eſt eſ¬<lb break="no" rend="¬"/><lb/>clatante
             <lb/>ALCANDRE.
             <lb/>L’iſe marche apres elle &amp; luy ſert de
             <lb/>ſuiuante,
@@ -2261,8 +2261,8 @@
             <lb/>La Princeſſe Roſine &amp; mon perfide eſpoux
             <lb/>Durant qu'il eſt abſent en font leur rende vous,
             <lb/>Ie l'attends au paſſage &amp; luy feray cognoiſtre
-            <lb/>Que ie ne ſuis pas femme à rien ſouffrir d'vn trai¬<lb break="no"/><lb/>ſere.
-            <lb/>1¬<lb break="no"/><lb/>OI
+            <lb/>Que ie ne ſuis pas femme à rien ſouffrir d'vn trai¬<lb break="no" rend="¬"/><lb/>ſere.
+            <lb/>1¬<lb break="no" rend="¬"/><lb/>OI
             <lb/>COMEDIE. 
             <lb/>LISE.
             <lb/>Madame, croyez moy, loin de le quereller
@@ -2286,7 +2286,7 @@
             <lb/>La chaſteté n'eſt plus la vertu d'vn mary,
             <lb/>La Princeſſe du voſtre à fait ſon fauory,
             <lb/>Sa reputation croiſtra par ſes carreſſes,
-            <lb/>L'honneur d'vn galand homme eſt d'auoir des mai¬<lb break="no"/><lb/>ſtreſſes. Niij:
+            <lb/>L'honneur d'vn galand homme eſt d'auoir des mai¬<lb break="no" rend="¬"/><lb/>ſtreſſes. Niij:
             <lb/>102 L’ILLVSION COMIQ.
             <lb/>YSABELLE.
             <lb/>Oſte moy cet honneur &amp; cêtte vanité,
@@ -2316,7 +2316,7 @@
             <lb/>Deuoit eſtre prodigue à ma reception?
             <lb/>Voicy l'heure &amp; le lieu, l'occaßion eſt belle,
             <lb/>Ie ſuis ſeul, vous n'auez que cette Damoiſelle
-            <lb/>Dont la d'exterité meſnagea nos amours; e¬<lb break="no"/><lb/>Le temps eſt precieux &amp; vous fuyez touſiours.
+            <lb/>Dont la d'exterité meſnagea nos amours; e¬<lb break="no" rend="¬"/><lb/>Le temps eſt precieux &amp; vous fuyez touſiours.
             <lb/>Vous vouleZ, ie m'aſſeure, auec ces artifices
             <lb/>Que les difficultez augmentent nos delices,
             <lb/>A la fin ie vous tiens, quoy vous me repouſſez!
@@ -2488,7 +2488,7 @@
             <lb/>C'eſt vn feu que le temps pourra ſeul moderer,
             <lb/>C'eſt vn torrent qui paſſe &amp; ne ſçauroit durer.
             <lb/>YSABELLE.
-            <lb/>Et bien, court au treſpas, quis qu'il a tant de char¬<lb break="no"/><lb/> A
+            <lb/>Et bien, court au treſpas, quis qu'il a tant de char¬<lb break="no" rend="¬"/><lb/> A
             <lb/>Etne glige ta vie außi bien que mes larmes
             <lb/>110 L’ILLVSION COMIQ
             <lb/>Penſes tu que ce Prince apres vn telforfaict
@@ -2549,7 +2549,7 @@
             <lb/>ROSINE.
             <lb/>Eſbarraſſez en fin d'vne importune
             <lb/>ſuite
-            <lb/>Ie remets à l'amour le ſoin de ma con¬<lb break="no"/><lb/>Az
+            <lb/>Ie remets à l'amour le ſoin de ma con¬<lb break="no" rend="¬"/><lb/>Az
             <lb/>Et pour trouuer l'autheur de ma felicité
             <lb/>Ie prends vn guide aueugle en cette obſcurité.
             <lb/>Mais que ſon eſpaiſſeur me deſrobbe la veuë!
@@ -2594,7 +2594,7 @@
             <lb/>ROSINE.
             <lb/>Ie la quitte pour toy, mais Dieux: que ie m'abuſe,
             <lb/>De ne voir pas encor qu'vn ingrat me refuſe,
-            <lb/>Son cœur n'eſt plus que glace, &amp; mon aueugle ar¬<lb break="no"/><lb/>deur
+            <lb/>Son cœur n'eſt plus que glace, &amp; mon aueugle ar¬<lb break="no" rend="¬"/><lb/>deur
             <lb/>Impute à deffiance vn execes de froideur.
             <lb/>Va traiſtre, va pariure, apres m'auoinſeduite
             <lb/>Ce ſont la des diſcours d'vne mauuaiſe, ſuite,
@@ -2615,7 +2615,7 @@
             <lb/>D'adorer vne femme &amp; s'en voir ſi chery
             <lb/>Et craindre au rende-vous d'offencer vn mary!
             <lb/>COMEDIE. 115
-            <lb/>Traiſtre, il n'en eſt plus temps, quand tu me fis pa¬<lb break="no"/><lb/>roiſtre,
+            <lb/>Traiſtre, il n'en eſt plus temps, quand tu me fis pa¬<lb break="no" rend="¬"/><lb/>roiſtre,
             <lb/>Cét execeßiue amour qui commençoit à naiſtre,
             <lb/>Et que le doux appas d'vn diſcours ſuborneur
             <lb/>Auec vn faux merite attaqu'à mon honneur
@@ -2662,7 +2662,7 @@
             <lb/>Ces vieux contes d'honneur n'ont point d'impreßions
             <lb/>Qui puiſſent arreſter les fortes paßions?
             <lb/>Perfide, eſt-ce de moy que tu le dois apprendre?
-            <lb/>Dieux! iuſques ou l'amour ne me fait point deſcen¬<lb break="no"/><lb/>ERE
+            <lb/>Dieux! iuſques ou l'amour ne me fait point deſcen¬<lb break="no" rend="¬"/><lb/>ERE
             <lb/>COMEDIE 1i7
             <lb/>Ie luy tiens des diſcours qu'il me deuroit tenir,
             <lb/>Et toute mon ardeur ne peut rien obtenir.
@@ -2788,7 +2788,7 @@
             <lb/>vn rideau
             <lb/>&amp; on voit
             <lb/>tous les
-            <lb/>Come¬<lb break="no"/><lb/>diens qui
+            <lb/>Come¬<lb break="no" rend="¬"/><lb/>diens qui
             <lb/>partagẽt
             <lb/>leur
             <lb/>argent.
