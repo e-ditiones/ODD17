@@ -25,7 +25,7 @@
                 <moduleRef key="textstructure" include="text body front back div opener closer"/>
                 <moduleRef key="core" include="p lb sp stage speaker l lg list item head note pb"/>
                 <moduleRef key="transcr" include="fw"/>
-                <moduleRef key="namesdates" include="persName placeName"/>
+                <moduleRef key="namesdates" include="persName placeName orgName"/>
 
                 <!-- Règles générales -->
 
@@ -38,9 +38,7 @@
                 <elementSpec ident="lb" mode="change">
                     <attList>
                         <attDef ident="break" mode="change">
-                            <valList mode="add" type="closed">
-                                <valItem ident="no"/>
-                            </valList>
+                            <valList mode="add" type="closed"/>
                         </attDef>
                         <attDef ident="rend" mode="change">
                             <valList mode="add" type="closed">
