@@ -40,6 +40,17 @@
                         <valItem ident="no"/>
                      </valList>
                   </attDef>
+                  <attDef ident="rend" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="¬"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="pb" mode="change">
+               <attList>
+                  <attDef ident="n" mode="change" usage="req"/>
                </attList>
             </elementSpec>
                   

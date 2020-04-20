@@ -42,8 +42,21 @@
                                 <valItem ident="no"/>
                             </valList>
                         </attDef>
+                        <attDef ident="rend" mode="change">
+                            <valList mode="add" type="closed">
+                                <valItem ident="¬"/>
+                            </valList>
+                        </attDef>
                     </attList>
                 </elementSpec>
+                
+                <elementSpec ident="pb" mode="change">
+                    <attList>
+                        <attDef ident="n" mode="change" usage="req"/>
+                    </attList>
+                </elementSpec>
+                
+                <!-- Balisage sémantique -->
 
                 <elementSpec ident="div" mode="change">
                     <attList>
@@ -56,8 +69,8 @@
                                 <valItem ident="titlePage"/>
                                 <valItem ident="privilege"/>
                                 <valItem ident="liminal"/>
-                                <valItem ident="book"/>
                                 <valItem ident="part"/>
+                                <valItem ident="subPart"/>
                                 <valItem ident="letter"/>
                             </valList>
                         </attDef>
@@ -87,7 +100,13 @@
                     </attList>
                 </elementSpec>
                 
-
+                <elementSpec ident="p" mode="change">
+                    <attList>
+                        <attDef ident="n" mode="change" usage="req"/>
+                        <attDef ident="xml:id" mode="change" usage="req"/>
+                    </attList>
+                </elementSpec>
+                
             </schemaSpec>
         </body>
     </text>
