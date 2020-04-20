@@ -38,7 +38,10 @@
                 <elementSpec ident="lb" mode="change">
                     <attList>
                         <attDef ident="break" mode="change">
-                            <valList mode="add" type="closed"/>
+                            <valList mode="add" type="closed">
+                                <valItem ident="yes"/>
+                                <valItem ident="no"/>
+                            </valList>
                         </attDef>
                         <attDef ident="rend" mode="change">
                             <valList mode="add" type="closed">
@@ -58,7 +61,7 @@
 
                 <elementSpec ident="div" mode="change">
                     <attList>
-                        <attDef ident="type" mode="change">
+                        <attDef ident="type" mode="change" usage="req">
                             <valList mode="add" type="closed">
                                 <valItem ident="play"/>
                                 <valItem ident="act"/>
