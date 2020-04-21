@@ -22,9 +22,9 @@
          <schemaSpec ident="ed3" source="Mother-compiled.xml" start="text">
             <moduleRef key="tei"/>
             <moduleRef key="textstructure" include="text body front back div opener closer"/>
-            <moduleRef key="core"  include="p lb sp speaker l list item head lg choice orig reg"/>
+            <moduleRef key="core"  include="p pb lb sp stage speaker l list item head lg note choice orig reg"/>
             <moduleRef key="transcr" include="fw"/>
-            <moduleRef key="namesdates" include="persName placeName"/>
+            <moduleRef key="namesdates" include="persName placeName orgName"/>
             <moduleRef key="analysis" include="w"/>
             <moduleRef key="linking" include="seg"/>
          </schemaSpec>
