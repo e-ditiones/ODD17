@@ -33,7 +33,7 @@
                     <moduleRef key="transcr" include="fw"/>
                     <moduleRef key="namesdates" include="persName placeName orgName"/>
 
-                    <!-- Règles générales -->
+                    <!-- Common rules from the first level -->
 
                     <elementSpec ident="text" mode="change">
                         <attList>
@@ -63,7 +63,7 @@
                         </attList>
                     </elementSpec>
 
-                    <!-- Balisage sémantique -->
+                    <!-- New attribute value constraints -->
 
                     <elementSpec ident="div" mode="change">
                         <attList>

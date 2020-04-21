@@ -30,7 +30,7 @@
                <moduleRef key="core" include="p lb pb"/>
                <moduleRef key="transcr" include="fw"/>
 
-               <!-- Contraintes de valeurs d'attributs -->
+               <!-- Attribute value constraints -->
 
                <elementSpec ident="text" mode="change">
                   <attList>
