@@ -3,112 +3,119 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ODD de niveau 2</title>
+                <title>Encoding guidelines for e-ditiones - level 2</title>
+                <author>Alexandre Bartz</author>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <p>Not published yet (work still in progess)</p>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <p>It's a born digital edition</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
     <text>
-        <body>
-            <schemaSpec ident="ed2" source="Mother-compiled.xml" start="text">
-                <moduleRef key="tei"/>
-                <moduleRef key="textstructure" include="text body front back div opener closer"/>
-                <moduleRef key="core" include="p lb sp stage speaker l lg list item head note pb"/>
-                <moduleRef key="transcr" include="fw"/>
-                <moduleRef key="namesdates" include="persName placeName orgName"/>
 
-                <!-- Règles générales -->
+        <xi:include href="ODD-body.xml"/>
 
-                <elementSpec ident="text" mode="change">
-                    <attList>
-                        <attDef ident="xml:id" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
+        <back>
+            <div>
+                <schemaSpec ident="ed2" source="Mother-compiled.xml" start="text">
+                    <moduleRef key="tei"/>
+                    <moduleRef key="textstructure" include="text body front back div opener closer"/>
+                    <moduleRef key="core"
+                        include="p lb sp stage speaker l lg list item head note pb"/>
+                    <moduleRef key="transcr" include="fw"/>
+                    <moduleRef key="namesdates" include="persName placeName orgName"/>
 
-                <elementSpec ident="lb" mode="change">
-                    <attList>
-                        <attDef ident="break" mode="change">
-                            <valList mode="add" type="closed">
-                                <valItem ident="yes"/>
-                                <valItem ident="no"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="rend" mode="change">
-                            <valList mode="add" type="closed">
-                                <valItem ident="¬"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                
-                <elementSpec ident="pb" mode="change">
-                    <attList>
-                        <attDef ident="n" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
-                
-                <!-- Balisage sémantique -->
+                    <!-- Règles générales -->
 
-                <elementSpec ident="div" mode="change">
-                    <attList>
-                        <attDef ident="type" mode="change" usage="req">
-                            <valList mode="add" type="closed">
-                                <valItem ident="play"/>
-                                <valItem ident="act"/>
-                                <valItem ident="scene"/>
-                                <valItem ident="castList"/>
-                                <valItem ident="titlePage"/>
-                                <valItem ident="privilege"/>
-                                <valItem ident="liminal"/>
-                                <valItem ident="part"/>
-                                <valItem ident="subPart"/>
-                                <valItem ident="letter"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="n" mode="change" usage="req"/>
-                        <attDef ident="xml:id" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
+                    <elementSpec ident="text" mode="change">
+                        <attList>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
 
-                <elementSpec ident="lg" mode="change">
-                    <attList>
-                        <attDef ident="n" mode="change" usage="req"/>
-                        <attDef ident="xml:id" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
-                
-                <elementSpec ident="l" mode="change">
-                    <attList>
-                        <attDef ident="n" mode="change" usage="req"/>
-                        <attDef ident="xml:id" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
-                
-                <elementSpec ident="sp" mode="change">
-                    <attList>
-                        <attDef ident="n" mode="change" usage="req"/>
-                        <attDef ident="xml:id" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
-                
-                <elementSpec ident="p" mode="change">
-                    <attList>
-                        <attDef ident="n" mode="change" usage="req"/>
-                        <attDef ident="xml:id" mode="change" usage="req"/>
-                    </attList>
-                </elementSpec>
-                
-            </schemaSpec>
-        </body>
+                    <elementSpec ident="lb" mode="change">
+                        <attList>
+                            <attDef ident="break" mode="change">
+                                <valList mode="add" type="closed">
+                                    <valItem ident="yes"/>
+                                    <valItem ident="no"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="rend" mode="change">
+                                <valList mode="add" type="closed">
+                                    <valItem ident="¬"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="pb" mode="change">
+                        <attList>
+                            <attDef ident="n" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+
+                    <!-- Balisage sémantique -->
+
+                    <elementSpec ident="div" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="change" usage="req">
+                                <valList mode="add" type="closed">
+                                    <valItem ident="play"/>
+                                    <valItem ident="act"/>
+                                    <valItem ident="scene"/>
+                                    <valItem ident="castList"/>
+                                    <valItem ident="titlePage"/>
+                                    <valItem ident="privilege"/>
+                                    <valItem ident="liminal"/>
+                                    <valItem ident="part"/>
+                                    <valItem ident="subPart"/>
+                                    <valItem ident="letter"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="n" mode="change" usage="req"/>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="lg" mode="change">
+                        <attList>
+                            <attDef ident="n" mode="change" usage="req"/>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="l" mode="change">
+                        <attList>
+                            <attDef ident="n" mode="change" usage="req"/>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="sp" mode="change">
+                        <attList>
+                            <attDef ident="n" mode="change" usage="req"/>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+
+                    <elementSpec ident="p" mode="change">
+                        <attList>
+                            <attDef ident="n" mode="change" usage="req"/>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+
+                </schemaSpec>
+            </div>
+        </back>
     </text>
 </TEI>
