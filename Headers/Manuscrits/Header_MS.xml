@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../ODD/E-ditiones/out/ODD-header_MS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+        <titleStmt>            
+            <title>Princeton, C0710, vol. 3.</title>
+            <respStmt>
+                <persName ref="#COL_000001">Simon Gabay</persName>
+                <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+        </titleStmt>
+        <!-- Retirer editionStmt -->
+        <extent>7KB</extent>
+        <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+                <licence  target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+        </publicationStmt>
+        <notesStmt>
+            <note/>
+        </notesStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <country>Etats-Unis</country>
+                    <settlement>Princeton</settlement>
+                    <institution>Princeton University Library</institution>
+                    <repository>Manuscripts Division, Department of Rare Books and Special Collections</repository>
+                    <collection>John Hinsdale Scheide Collection of Three Centuries of French History</collection>
+                    <idno type="shelfmark">C0710, vol. 3</idno>
+                </msIdentifier>
+                <head/>
+                <msContents>
+                    <p/>
+                </msContents>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>
+                                <objectType rend="composite">recueil composite.</objectType>
+                                <material>papier.</material>
+                            </support>
+                            <extent>
+                                <measure unit="page" n="unk"/>
+                            </extent>
+                            <foliation>Les pages ne sont pas numérotées.</foliation>
+                        </supportDesc>
+                    </objectDesc>
+                    <bindingDesc>
+                        <binding>
+                            <p/>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <p>Ancienne collection John Hinsdale Scheide</p>
+                </history>
+                <additional>
+                    <surrogates>
+                        <!-- ajouter les images ici -->
+                        <graphic source="local" url="chemin"/>
+                    </surrogates>
+                    <listBibl>
+                        <listBibl type="catalogue">
+                            <bibl>
+                                <ptr type="other" target="http://findingaids.princeton.edu/collections/C0710/c0241"/>
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="L1">
+                            <bibl>La Fayette, <title>Œuvres complètes</title>, C. Esmein-Sarrazin (éd.), Paris: Gallimard, lettre n°70-1.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </additional>
+                <msPart xml:id="MS_000001_p81">
+                    <msIdentifier>
+                        <idno>Princeton, Scheide, vol.3, p. 81</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus scheme="page" n="81">p. 81</locus>
+                            <author>
+                                <persName ref="#PER000010">Jean-Louis Guez de Balzac</persName>
+                            </author>
+                            <docDate when="0001-06-21">21 juin</docDate>
+                            <incipit>Vous recevrez à la fin ce que vous méritâtes le jour de votre naissance</incipit>
+                            <explicit>et que c'était avec respect qu'il faisait justice</explicit>
+                            <!-- @type: autograph, copy, draft -->
+                            <filiation type="autograph">autographe, probablement une copie.</filiation>
+                            <!-- Prévoir   <decoNote><p></p></decoNote> à cet endroit, pour les manuscrits d'apparat. -->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType rend="compositeItem">monté.</objectType>
+                                    <material>papier.</material>
+                                </support>
+                                <extent>
+                                    <measure unit="bifolio" n="1"/>
+                                    <measure unit="page" n="4"/>
+                                    <height unit="mm" n="267"/>
+                                    <width unit="mm" n="206"/>
+                                </extent>  
+                                <condition>Bon.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msPart>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+            <author>Auteur</author>
+            <editor>Éditeur</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition></edition>
+            <respStmt>
+               <resp></resp>
+               <name><persName></persName></name>
+            </respStmt>
+         </editionStmt>
+         <extent>Nombre de mots</extent>
+         <publicationStmt>
+            <authority>e-ditiones</authority>
+            <availability>
+               <licence>CC BY 2.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Auteur</author>
+               <title>Titre</title>
+               <publisher>Editeur</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date>2020</date>
+               <ptr/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p></p>
+        </projectDesc>
+        <editorialDecl>
+           <correction>
+              <p></p>
+           </correction>
+           <hyphenation>
+              <p></p>
+           </hyphenation>
+           <normalization>
+              <p></p>
+           </normalization>
+           <quotation>
+              <p></p>
+           </quotation>
+           <punctuation>
+              <p></p>
+           </punctuation>
+           <interpretation>
+              <p></p>
+           </interpretation>
+           <segmentation>
+              <p>
+                 <list>
+                    <item></item>
+                 </list>
+              </p>
+           </segmentation>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+        <change></change>
+     </revisionDesc>
+  </teiHeader>
+   <text><body><p></p></body></text>
+</TEI>
+
+
