@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding guidelines of the teiHeader for editiones - level 1</title>
+            <author>Alexandre Bartz</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Not published yet (work still in progess)</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>It's a born digital edition</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <schemaSpec ident="header1" source="Mother-compiled.xml" start="teiHeader">
+            <moduleRef key="tei"/>
+            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence"/>
+            <moduleRef key="namesdates" include="forename surname persName"/>
+            <elementRef key="availability"/>
+            <elementRef key="p"/>
+            <elementRef key="title"/>
+            <elementRef key="author"/>
+            <elementRef key="bibl"/>
+            <elementRef key="pubPlace"/>
+            <elementRef key="respStmt"/>
+            <elementRef key="resp"/>
+            <elementRef key="name"/>
+            <elementRef key="publisher"/>
+            <elementRef key="date"/>
+            <elementRef key="ptr"/>
+      </schemaSpec>
+      </body>
+  </text>
+</TEI>
