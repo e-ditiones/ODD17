@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../out/ODD-header1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Les lettres de Guez de Balzac (1624)</title>
+      </titleStmt>
+      <editionStmt>
+         <edition/>
+         <respStmt>
+            <resp>Conception scientifique</resp>
+            <name><persName>Suzanne Duval</persName> et <persName>Simon Gabay</persName></name>
+         </respStmt>
+         <respStmt>
+            <resp>Transcription</resp>
+            <name><persName>Simon Gabay</persName></name>
+         </respStmt>
+         <respStmt>
+            <resp>Encodage TEI</resp>
+            <name><persName>Simon Gabay</persName></name>
+         </respStmt>
+      </editionStmt>
+      <publicationStmt>
+         <publisher>Unil et Unine</publisher>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+            <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <bibl>
+            <author>
+               <forename>Jean-Louis</forename>
+               <surname>Guez de Balzac</surname>
+            </author>
+            <title type="orig">LETTRES DV SIEVR DE BALZAC</title>
+            <title type="reg">Lettres du sieur de Balzac</title>
+            <pubPlace>Paris</pubPlace>
+            <publisher>Toussaint du Bray</publisher>
+            <date when="1624">1624</date>
+            <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b86262420"/>
+         </bibl>
+      </sourceDesc>
+   </fileDesc>
+</teiHeader>
+
+
