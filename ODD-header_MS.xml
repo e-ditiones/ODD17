@@ -20,30 +20,11 @@
       <body>
          <schemaSpec ident="header_MS" start="teiHeader">
             <moduleRef key="tei"/>
-            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt"/>
+            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt availability"/>
             <moduleRef key="namesdates" include="forename surname persName country settlement"/>
             <moduleRef key="msdescription" include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material foliation bindingDesc binding history additional surrogates msPart msContents msItem locus incipit explicit filiation height width condition decoNote"/>
-            <elementRef key="editor"/>
-            <elementRef key="list"/>
-            <elementRef key="item"/>
-            <elementRef key="availability"/>
-            <elementRef key="p"/>
-            <elementRef key="title"/>
-            <elementRef key="author"/>
-            <elementRef key="listBibl"/>
-            <elementRef key="bibl"/>
-            <elementRef key="pubPlace"/>
-            <elementRef key="respStmt"/>
-            <elementRef key="resp"/>
-            <elementRef key="name"/>
-            <elementRef key="publisher"/>
-            <elementRef key="date"/>
-            <elementRef key="ptr"/>
-            <elementRef key="measure"/>
-            <elementRef key="graphic"/>
-            <elementRef key="docDate"/>
-            <elementRef key="head"/>
-            <elementRef key="note"/>
+            <moduleRef key="core" include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ptr date name respStmt resp"/>
+            <moduleRef key="textstructure" include="docDate"/>
       </schemaSpec>
       </body>
   </text>

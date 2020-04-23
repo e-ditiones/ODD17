@@ -22,23 +22,9 @@
       <body>
          <schemaSpec ident="header_printed" start="teiHeader">
             <moduleRef key="tei"/>
-            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change"/>
+            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change availability"/>
             <moduleRef key="namesdates" include="forename surname persName"/>
-            <elementRef key="editor"/>
-            <elementRef key="list"/>
-            <elementRef key="item"/>
-            <elementRef key="availability"/>
-            <elementRef key="p"/>
-            <elementRef key="title"/>
-            <elementRef key="author"/>
-            <elementRef key="bibl"/>
-            <elementRef key="pubPlace"/>
-            <elementRef key="respStmt"/>
-            <elementRef key="resp"/>
-            <elementRef key="name"/>
-            <elementRef key="publisher"/>
-            <elementRef key="date"/>
-            <elementRef key="ptr"/>
+            <moduleRef key="core" include="editor listBibl bibl list item p title author pubPlace publisher note head ptr date name respStmt resp"/>
       </schemaSpec>
       </body>
   </text>
