@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 10 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 13 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -80,10 +80,54 @@
         group or individual.</desc><classes><memberOf key="att.ascribed"/></classes><attList/><listRef>
         <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQQ">3.3.3. Quotation</ref>
         <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TS.html#TSBA">8.3. Elements Unique to Spoken Texts</ref>
-    </listRef></classSpec><classSpec rend="change" module="tei" type="atts" ident="att.canonical"><desc versionDate="2008-09-05" xml:lang="en">provides attributes which can be used to associate a representation such as a name or title
-    with canonical information about the object being named or referenced.</desc><desc versionDate="2009-05-25" xml:lang="fr">fournit des attributs qui peuvent être utilisés pour
+    </listRef></classSpec><classSpec module="tei" type="atts" ident="att.canonical">
+  <desc versionDate="2008-09-05" xml:lang="en">provides attributes which can be used to associate a representation such as a name or title
+    with canonical information about the object being named or referenced.</desc>
+  <desc versionDate="2009-05-25" xml:lang="fr">fournit des attributs qui peuvent être utilisés pour
     associer une représentation telle qu'un nom ou un titre à l'information canonique concernant
-    l'objet nommé ou auquel il est fait référence.</desc><desc xml:lang="ja" versionDate="2018-12-31">名前やタイトルのような表現を参照対象についての典拠情報と関連付けるのに利用する属性を提供する．</desc><classes/><attList><attDef ident="ref" usage="opt">
+    l'objet nommé ou auquel il est fait référence.</desc>
+  <desc xml:lang="ja" versionDate="2018-12-31">名前やタイトルのような表現を参照対象についての典拠情報と関連付けるのに利用する属性を提供する．</desc>
+  <attList>
+    <attDef ident="key" usage="opt">
+      <desc versionDate="2008-09-05" xml:lang="en">provides an externally-defined means of identifying the entity (or entities) being
+        named, using a coded value of some kind.</desc>
+      <desc versionDate="2009-05-25" xml:lang="fr"> fournit un moyen, défini de façon externe,
+        d'identifier l'entité (ou les entités) nommé(es), en utilisant une valeur codée
+        d'un certain type.</desc>
+      <desc xml:lang="ja" versionDate="2018-12-31">何らかのコード化された値を用いて，名付けられたエンティティを識別する外部的に定義された手段を提供する．</desc>
+      <datatype><dataRef key="teidata.text"/></datatype>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="en" source="#NONE">
+          <author>
+            <name key="name 427308" type="organisation">[New Zealand Parliament, Legislative Council]</name>
+          </author>
+        </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="fr" source="#NONE">
+          <author>
+            <name key="Hugo, Victor (1802-1885)" ref="http://www.idref.fr/026927608">Victor Hugo</name>
+          </author>
+        </egXML>
+      </exemplum>
+      <remarks versionDate="2013-06-20" xml:lang="en">
+        <p>The value may be a unique identifier from a database, or any other externally-defined
+          string identifying the referent. </p>
+        <p>No particular syntax is proposed for the values of the <att>key</att> attribute, since 
+          its form will depend entirely on practice within a given project. For the same reason, this 
+          attribute is not recommended in data interchange, since there is no way of ensuring 
+          that the values used by one project are distinct from those used by another. In such
+          a situation, a preferable approach for magic tokens which follows standard practice 
+          on the Web is to use a <att>ref</att> attribute whose value is a tag URI as defined in 
+          <ref target="#RFC4151">RFC 4151</ref>.</p>
+      </remarks>
+      <remarks versionDate="2009-05-25" xml:lang="fr">
+        <p>La valeur peut être un identifiant unique dans une base de données, ou toute autre chaîne
+          définie de façon externe identifiant le référent. </p>
+      </remarks>
+      <remarks xml:lang="ja" versionDate="2018-12-31"><p>値はデータベースにおけるユニークな識別子や、外部で定義された指示対象を特定するなんらかの文字列であってよい。<att>key</att>属性の値に関してさだまった構文は提案されていない。なぜならば、それぞれのプロジェクトのやりかたに完全に依存するからである。同様の理由によって、データの相互交換においてこの属性は推奨されない。在るプロジェクトで用いられた値が他のプロジェクトの値と異なることを保証できないからである。そのような場面における魔法石的対処は、<ref target="#RFC4151">RFC4151</ref>に定義されるタグURIを値とする<att>ref</att>属性を用いて、標準的なウェブにおける習慣にしたがってmagic tokenを使うことである。</p></remarks>
+    </attDef>
+    <attDef ident="ref" usage="opt">
       <gloss versionDate="2008-09-05" xml:lang="en">reference</gloss>
       <gloss versionDate="2009-05-25" xml:lang="fr">référence</gloss>
       <gloss xml:lang="ja" versionDate="2018-12-31">参照</gloss>
@@ -105,9 +149,57 @@
         <p>La valeur doit pointer directement vers un ou plusieurs éléments XML au moyen d'un ou plusieurs URIs, séparés par un espace. Si plus d'un URI est fourni, cela implique que le nom identifie plusieurs entités distinctes.</p>
       </remarks>
       <remarks xml:lang="ja" versionDate="2018-12-31"><p>値は1つまたは複数のXML要素あるいは、空白によって区切られた1つまたは複数のURIを指し示すものでなければならない。1つ以上の値が与えられているときは、その名前が複数の異るエンティティに対応することを示唆する。</p></remarks>
-    </attDef></attList><listRef>
+    </attDef>
+  </attList>
+  <listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDATTSnr">13.1.1. Linking Names and Their Referents</ref>
-  </listRef></classSpec><classSpec module="tei" type="atts" ident="att.written">
+  </listRef>
+</classSpec><classSpec module="tei" type="atts" ident="att.ranging">
+  <desc versionDate="2009-06-05" xml:lang="en">provides attributes for describing numerical ranges.</desc>
+  <attList>
+    <attDef ident="atLeast">
+      <desc versionDate="2009-06-29" xml:lang="en">gives a minimum estimated value for the approximate measurement.</desc>
+      <desc versionDate="2009-05-25" xml:lang="fr">donne une estimation de la valeur minimum pour la
+        mesure.</desc>
+      <datatype><dataRef key="teidata.numeric"/></datatype>
+    </attDef>
+    <attDef ident="atMost">
+      <desc versionDate="2009-06-29" xml:lang="en">gives a maximum estimated value for the approximate measurement.</desc>
+      <desc versionDate="2009-05-25" xml:lang="fr">donne une estimation de la valeur maximum pour la
+        mesure.</desc>
+      <datatype><dataRef key="teidata.numeric"/></datatype>
+    </attDef>
+    <attDef ident="min">
+      <desc versionDate="2009-06-29" xml:lang="en">where the measurement summarizes more than one observation
+      or a range, supplies the minimum value
+        observed.</desc>
+      <desc versionDate="2009-05-25" xml:lang="fr">lorsque la mesure résume plus d'une observation,
+        fournit la valeur minimum observée.</desc>
+      <datatype><dataRef key="teidata.numeric"/></datatype>
+    </attDef>
+    <attDef ident="max">
+      <desc versionDate="2009-06-29" xml:lang="en">where the measurement summarizes more than one observation
+        or a range, supplies the maximum value
+        observed.</desc>
+      <desc versionDate="2009-05-25" xml:lang="fr">lorsque la mesure résume plus d'une observation,
+        fournit la valeur maximum observée.</desc>
+      <datatype><dataRef key="teidata.numeric"/></datatype>
+    </attDef>
+    <attDef ident="confidence">
+      <desc versionDate="2012-12-27" xml:lang="en">specifies the degree of statistical confidence (between zero and one) that a value falls within the range
+        specified by <att>min</att> and <att>max</att>, or the proportion of observed values that fall within that range.</desc>
+      <datatype><dataRef key="teidata.probability"/></datatype>
+    </attDef>
+  </attList>
+  <exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+The MS. was lost in transmission by mail from <del rend="overstrike"><gap reason="illegible" extent="one or two letters" atLeast="1" atMost="2" unit="chars"/></del> Philadelphia to the Graphic office, New York.
+    </egXML>
+  </exemplum>
+</classSpec><classSpec rend="change" module="tei" type="atts" ident="att.dimensions"><desc versionDate="2007-08-05" xml:lang="en">provides attributes for describing the size of physical objects.</desc><desc versionDate="2007-12-20" xml:lang="ko">물리적 대상의 크기를 기술하는 속성을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供符合某種度量值的屬性值。</desc><desc versionDate="2008-04-05" xml:lang="ja">物理的対象の大きさを表す属性を示す． </desc><desc versionDate="2009-05-25" xml:lang="fr">fournit des attributs
+  pour décrire la taille des objets    physiques</desc><desc versionDate="2007-11-06" xml:lang="it">assegna degli attributi che descrivono la grandezza di
+    oggetti fisici</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona atributos que califican una determinata
+    medición.</desc><classes><memberOf key="att.ranging"/></classes><attList/></classSpec><classSpec module="tei" type="atts" ident="att.written">
   <desc versionDate="2018-06-15" xml:lang="en">provides an attribute to indicate the hand in which
     the content of an element was written in the source being transcribed.</desc>
   
@@ -251,41 +343,29 @@ Elements</ref>
       <remarks xml:lang="ja" versionDate="2018-12-31"><p><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SACR">16.2.5. Canonical References</ref> 節での正規化参照を解決するためのアルゴリズムが適用される時にその結果が対象への正しいURI参照となるように， <att>cRef</att> の値は作られるべきである</p> <p> <gi>refsDecl</gi> は <att>decls</att> 属性とともに示されてもよい．現行のガイドラインが <gi>ptr</gi> 要素に渡すのは，単一の符号化された正規化参照のみである．</p></remarks>
     </attDef>
   </attList>
-</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" module="tei" type="atts" ident="att.datable.w3c" xml:id="DATABLEW3C">
-  <desc versionDate="2013-11-22" xml:lang="en">provides attributes for normalization of elements that contain
+</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="tei" type="atts" ident="att.datable.w3c" xml:id="DATABLEW3C"><desc versionDate="2013-11-22" xml:lang="en">provides attributes for normalization of elements that contain
   datable events  conforming to the W3C
-  <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>.</desc>
-  <desc versionDate="2007-12-20" xml:lang="ko">W3C 데이터 유형을 사용하여 날짜가 명기된 사건을 포함하는 요소의 규격화를 위한 속성을 제공한다.</desc>
-  <desc versionDate="2007-05-02" xml:lang="zh-TW">提供用於元素規格化的屬性，這些元素包含以W3C datatypes所定義的日期明確之事件。</desc>
-  <desc versionDate="2008-04-05" xml:lang="ja">W3Cに従い，時間事象の正規化方法を示す属性を示す．</desc>
-  <desc versionDate="2007-06-12" xml:lang="fr">fournit des attributs
+  <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>.</desc><desc versionDate="2007-12-20" xml:lang="ko">W3C 데이터 유형을 사용하여 날짜가 명기된 사건을 포함하는 요소의 규격화를 위한 속성을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供用於元素規格化的屬性，這些元素包含以W3C datatypes所定義的日期明確之事件。</desc><desc versionDate="2008-04-05" xml:lang="ja">W3Cに従い，時間事象の正規化方法を示す属性を示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">fournit des attributs
   pour la normalisation d'éléments qui contiennent des mentions
-  d'événements datés ou susceptibles de l'être</desc>
-  <desc versionDate="2007-11-06" xml:lang="it">indica degli attributi per la normalizzazione di elementi che contengono eventi databili utilizzando i tipi di dati del W3C</desc>
-  <desc versionDate="2007-05-04" xml:lang="es">proporciona atributos para la normalización de elementos que contienen eventos datables.</desc>
-  <constraintSpec ident="att-datable-w3c-when" scheme="schematron">
+  d'événements datés ou susceptibles de l'être</desc><desc versionDate="2007-11-06" xml:lang="it">indica degli attributi per la normalizzazione di elementi che contengono eventi databili utilizzando i tipi di dati del W3C</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona atributos para la normalización de elementos que contienen eventos datables.</desc><classes/><constraintSpec ident="att-datable-w3c-when" scheme="schematron">
     <constraint>
       <sch:rule context="tei:*[@when]">
         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
     </constraint>
-  </constraintSpec>
-  <constraintSpec ident="att-datable-w3c-from" scheme="schematron">
+  </constraintSpec><constraintSpec ident="att-datable-w3c-from" scheme="schematron">
     <constraint>
       <sch:rule context="tei:*[@from]">
         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
     </constraint>
-  </constraintSpec>
-  <constraintSpec ident="att-datable-w3c-to" scheme="schematron">
+  </constraintSpec><constraintSpec ident="att-datable-w3c-to" scheme="schematron">
     <constraint>
       <sch:rule context="tei:*[@to]">
         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
     </constraint>
-  </constraintSpec>
-  <attList>
-    <attDef ident="when" usage="opt">
+  </constraintSpec><attList><attDef ident="when" usage="opt">
       <desc versionDate="2008-07-23" xml:lang="en">supplies the value of the date or time in a standard form,
         e.g. yyyy-mm-dd.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">표준형식으로 날짜 또는 시간의 값을 제공한다.</desc>
@@ -352,8 +432,7 @@ Elements</ref>
           </opener>
         </egXML>
       </exemplum>
-    </attDef>
-    <attDef ident="notBefore" usage="opt">
+    </attDef><attDef ident="notBefore" usage="opt">
       <desc versionDate="2007-04-09" xml:lang="en">specifies the earliest possible date for the event in
         standard form, e.g. yyyy-mm-dd.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">yyyy-mm-dd와 같은 표준 형식으로 사건의 가능한 한 이른 날짜를 명시한다.</desc>
@@ -364,20 +443,7 @@ Elements</ref>
       <desc versionDate="2007-11-06" xml:lang="it">specifica la prima data possibile per un evento nel formato standard aaaa-mm-gg</desc>
       <desc versionDate="2007-05-04" xml:lang="es">especifica la fecha más temprana posible para un evento en un formato estándard, p.ej. aaaa-mm-dd.</desc>
       <datatype><dataRef key="teidata.temporal.w3c"/></datatype>
-    </attDef>
-    <attDef ident="notAfter" usage="opt">
-      <desc versionDate="2007-04-09" xml:lang="en">specifies the latest possible date for the event in
-        standard form, e.g. yyyy-mm-dd.</desc>
-      <desc versionDate="2007-12-20" xml:lang="ko">yyyy-mm-dd와 같은 표준 형식으로 사건의 가능한 한 나중 날짜를 명시한다.</desc>
-      <desc versionDate="2007-05-02" xml:lang="zh-TW">以標準形式標明該事件可能的最晚日期，例如年-月-日。</desc>
-      <desc versionDate="2008-04-05" xml:lang="ja">当該事象の一番新しい日付を，標準形式で示す．例えば，yyyy-mm-dd．</desc>
-      <desc versionDate="2007-06-12" xml:lang="fr">spécifie la date la plus récente possible pour
-        l'événement sous une forme normalisée, par ex. aaaa-mm-jj</desc>
-      <desc versionDate="2007-11-06" xml:lang="it">specifica l'ultima data possibile per un evento nel formato standard aaaa-mm-gg</desc>
-      <desc versionDate="2007-05-04" xml:lang="es">especifica la fecha más tardana posible para un evento en un formato estándard, p.ej. aaaa-mm-dd.</desc>
-      <datatype><dataRef key="teidata.temporal.w3c"/></datatype>
-    </attDef>
-    <attDef ident="from" usage="opt">
+    </attDef><attDef ident="from" usage="opt">
       <desc versionDate="2008-02-10" xml:lang="en">indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">표준 형식으로 기간의 시작 지점을 표시한다.</desc>
       <desc versionDate="2007-05-02" xml:lang="zh-TW">以標準格式表示該段時間的起始點。</desc>
@@ -387,8 +453,7 @@ Elements</ref>
       <desc versionDate="2007-11-06" xml:lang="it">indica l'inizio del periodo nel formato standard</desc>
       <desc versionDate="2007-05-04" xml:lang="es">indica el punto de inicio del período en el formato estándard.</desc>
       <datatype><dataRef key="teidata.temporal.w3c"/></datatype>
-    </attDef>
-    <attDef ident="to" usage="opt">
+    </attDef><attDef ident="to" usage="opt">
       <desc versionDate="2008-02-10" xml:lang="en">indicates the ending point of the period in standard
         form, e.g. yyyy-mm-dd.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">표준 형식으로 기간의 종료 지점을 나타낸다.</desc>
@@ -399,15 +464,11 @@ Elements</ref>
       <desc versionDate="2007-11-06" xml:lang="it">indica la fine del periodo nel formato standard</desc>
       <desc versionDate="2007-05-04" xml:lang="es">indica el punto final de un periodo en formato estándard.</desc>
       <datatype><dataRef key="teidata.temporal.w3c"/></datatype>
-    </attDef>
-  </attList>
-  
-  <exemplum xml:lang="en">
+    </attDef></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <date from="1863-05-28" to="1863-06-01">28 May through 1 June 1863</date>
     </egXML>
-  </exemplum>
-      <remarks versionDate="2008-07-23" xml:lang="en">
+  </exemplum><remarks versionDate="2008-07-23" xml:lang="en">
         <p>The value of these attributes should be a normalized
         representation of the date, time, or combined date &amp; time
         intended, in any of the standard formats specified by <title ref="#XSD2">XML Schema Part 2: Datatypes Second
@@ -421,13 +482,11 @@ Elements</ref>
         <p>Note that this format does not currently permit use of the
         value <val>0000</val> to represent the year 1 BCE; instead the
         value <val>-0001</val> should be used. </p>
-      </remarks>
-      <remarks xml:lang="fr" versionDate="2007-06-12">
+      </remarks><remarks xml:lang="fr" versionDate="2007-06-12">
         <p>La valeur de l'attribut <att>when</att> doit être une représentation normalisée de la date ou de l'heure, ou des deux, dans l'un des formats spécifiés par le <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>, selon le calendrier grégorien.</p>
         <p> Pour la date, le format le plus courant est <code>yyyy-mm-dd</code>, mais on trouve aussi <code>yyyy</code>, <code>--mm</code>, <code>---dd</code>, <code>yyyy-mm</code>, ou <code>--mm-dd</code>. Pour l'heure, on utilise le format <code>hh:mm:ss</code>.</p>
         <p>Il faut noter qu'actuellement ce format ne permet pas d'utiliser la valeur <val>0000</val> pour représenter l'année précédant le début de l'ère chrétienne ; on doit utiliser la valeur <val>-0001</val>.</p>
-      </remarks>
-      <remarks xml:lang="es" versionDate="2008-04-06">
+      </remarks><remarks xml:lang="es" versionDate="2008-04-06">
         <p>El valor del atributo <att>cuando</att> es una serie que representa una fecha o una hora, o ambas, en cualquiera de los siguientes formatos:
 	  <list><item>una fecha en los formatos estándares descritos por la <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>, p.ej. en el formato más común <code>aaaa-mm-dd</code>, pero también
 	  <code>aaaa</code>, <code>--mm</code>, <code>---dd</code>,
@@ -442,8 +501,7 @@ Elements</ref>
         <p>A la hora de esta escritura, W3C no permite el año <val>0000</val>, que sería utilizado normalmente para representar el año 1 antes de nuestra era. Usando el sistema actual de W3C, el año 1 a.C. se indica con <val>-0001</val>, el año 2 a.C. con <val>-0002</val>, etc. <quote>Es la intención del grupo de trabajo del esquema de XML permitir <val>0000</val> como la representación léxica de 1 a.C. (que es un año bisiesto),
 	  <val>-0001</val> se convertiria en la representación léxica de 2 a.C., <val>-0002</val> de 3 a.C., etc.</quote> Así en algunos casos puede ser ventajoso utilizar en su lugar el atributo <att>cuando-ISO</att>
 	  para indicar los años anteriores a nuestra era.</p>
-      </remarks>
-      <remarks xml:lang="ja" versionDate="2008-04-05">
+      </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
         <p>
 	属性<att>when</att>の値は，日付や時間またはその組み合わせによ
         り，以下のような形式の文字列になる．
@@ -479,17 +537,51 @@ Elements</ref>
 	  従って，場合によっては，属性<att>when-iso</att>により紀元前
         を示した方が便利かもしれない．
 	  </p>
-      </remarks>
-  <listRef>
+      </remarks><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONADA">3.5.4. Dates and Times</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDDATE">13.3.7. Dates and Times</ref>
-  </listRef>
-</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="tei" type="atts" xml:id="DATABLE" ident="att.datable"><desc versionDate="2007-06-12" xml:lang="en">provides attributes for normalization of elements that contain
+  </listRef></classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="tei" type="atts" xml:id="DATABLE" ident="att.datable"><desc versionDate="2007-06-12" xml:lang="en">provides attributes for normalization of elements that contain
   dates, times, or datable events.</desc><desc versionDate="2007-12-20" xml:lang="ko">날짜, 시간 또는 날짜 명기
   사건을 포함하는 요소의 규격화에 대한 속성을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供用於元素規格化的屬性，
   這些元素包含日期明確的事件。</desc><desc versionDate="2008-04-05" xml:lang="ja">日付や時間または時間事象を含む要素の正規化手法を示す属性を示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">fournit des attributs
   pour la normalisation d'éléments qui contiennent des mentions
-  d'événements datés ou susceptibles de l'être</desc><desc versionDate="2007-05-04" xml:lang="es">atributos para registrar expresiones temporales normalizadas.</desc><desc versionDate="2007-01-21" xml:lang="it">assegna attributi per la normalizzazione di elementi che contengono eventi databili</desc><classes><memberOf key="att.datable.w3c"/><memberOf key="att.datable.iso"/><memberOf key="att.datable.custom"/></classes><attList/><remarks versionDate="2011-11-25" xml:lang="en">
+  d'événements datés ou susceptibles de l'être</desc><desc versionDate="2007-05-04" xml:lang="es">atributos para registrar expresiones temporales normalizadas.</desc><desc versionDate="2007-01-21" xml:lang="it">assegna attributi per la normalizzazione di elementi che contengono eventi databili</desc><classes><memberOf key="att.datable.w3c"/><memberOf key="att.datable.iso"/><memberOf key="att.datable.custom"/></classes><attList><attDef ident="calendar" usage="opt">
+      <desc versionDate="2011-11-25" xml:lang="en">indicates the system or calendar to which the date represented by the content of this
+        element belongs.</desc>
+      <desc versionDate="2007-12-20" xml:lang="ko">날짜 표현 시스템 또는 달력 표시 형식을 표시한다.</desc>
+      <desc versionDate="2007-05-02" xml:lang="zh-TW">指明該日期表示所使用的曆法計算系統。</desc>
+      <desc versionDate="2008-04-05" xml:lang="ja">当該日付の歴システムを示す．</desc>
+      <desc versionDate="2009-01-06" xml:lang="fr">indique le système ou le calendrier auquel appartient
+        la date exprimée dans le contenu de l'élément.</desc>
+      <desc versionDate="2007-05-04" xml:lang="es">indica el sistema o calendario en que se muestra una
+        fecha.</desc>
+      <desc versionDate="2007-01-21" xml:lang="it">indica il sistema o calendario al quale la data
+        appartiene.</desc>
+      <datatype><dataRef key="teidata.pointer"/></datatype>
+      <constraintSpec ident="calendar" scheme="schematron">
+        <constraint>
+          <sch:rule context="tei:*[@calendar]">
+            <sch:assert test="string-length(.) gt 0">
+@calendar indicates the system or calendar to which the date represented by the content of this element
+belongs, but this <sch:name/> element has no textual content.</sch:assert>
+          </sch:rule>
+        </constraint>
+      </constraintSpec>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">He was born on <date calendar="#gregorian">Feb. 22, 1732</date> 
+          (<date calendar="#julian" when="1732-02-22"> Feb. 11, 1731/32, O.S.</date>).</egXML>
+      </exemplum>
+      <exemplum versionDate="2008-04-06" xml:lang="fr">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#fr-ex-Bouiller_Rapport"> L'année
+          1960 fut, en vertu du calendrier grégorien, bissextile ; le 22 juin tomba ainsi le jour
+          de l'été, le <date calendar="#gregorian">22 juin</date>.
+        </egXML>
+      </exemplum>
+      <remarks xml:lang="en" versionDate="2015-05-29"><p>Note that the <att>calendar</att> attribute (unlike
+        <att>datingMethod</att> defined in <ident type="class">att.datable.custom</ident>) defines
+      the calendar system of the date in the original material defined by the parent element, <emph>not</emph>
+      the calendar to which the date is normalized.</p></remarks>
+    </attDef></attList><remarks versionDate="2011-11-25" xml:lang="en">
     <p>This <soCalled>superclass</soCalled> provides attributes that
     can be used to provide normalized values of temporal information.
     By default, the attributes from the <ident type="class">att.datable.w3c</ident> class are provided. If the
@@ -1696,15 +1788,25 @@ ressource informatique selon une taxinomie normalisée.</desc>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COEDADD">3.4.3. Additions, Deletions, and Omissions</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHAD">11.3.1.4. Additions and Deletions</ref>
   </listRef>
-</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="tei" xml:id="TYPED" type="atts" ident="att.typed"><desc versionDate="2007-10-02" xml:lang="en">provides attributes which can be used to classify or subclassify elements in any way.</desc><desc versionDate="2007-12-20" xml:lang="ko">요소의 분류 또는 하위분류에서 사용될 수 있는 속성을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供可依任何方法將元素分類或次要分類的一般屬性。</desc><desc versionDate="2008-04-05" xml:lang="ja">要素を分類するための属性を示す．
-</desc><desc versionDate="2009-05-29" xml:lang="fr">fournit des attributs qui peuvent être
-      utilisés pour classer ou interclasser des éléments de n'importe quelle façon.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona atributos genéricos utilizables para cualquier clasificación o subclasificación de elementos.</desc><desc versionDate="2007-01-21" xml:lang="it">assegna degli attributi generici utilizzabili per qualsiasi classificazione e sottoclassificazione di elementi</desc><classes/><constraintSpec scheme="schematron" ident="subtypeTyped">
+</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" module="tei" xml:id="TYPED" type="atts" ident="att.typed">
+  <desc versionDate="2007-10-02" xml:lang="en">provides attributes which can be used to classify or subclassify elements in any way.</desc>
+  <desc versionDate="2007-12-20" xml:lang="ko">요소의 분류 또는 하위분류에서 사용될 수 있는 속성을 제공한다.</desc>
+  <desc versionDate="2007-05-02" xml:lang="zh-TW">提供可依任何方法將元素分類或次要分類的一般屬性。</desc>
+  <desc versionDate="2008-04-05" xml:lang="ja">要素を分類するための属性を示す．
+</desc>
+  <desc versionDate="2009-05-29" xml:lang="fr">fournit des attributs qui peuvent être
+      utilisés pour classer ou interclasser des éléments de n'importe quelle façon.</desc>
+  <desc versionDate="2007-05-04" xml:lang="es">proporciona atributos genéricos utilizables para cualquier clasificación o subclasificación de elementos.</desc>
+  <desc versionDate="2007-01-21" xml:lang="it">assegna degli attributi generici utilizzabili per qualsiasi classificazione e sottoclassificazione di elementi</desc>
+  <constraintSpec scheme="schematron" ident="subtypeTyped">
     <constraint>
       <sch:rule context="tei:*[@subtype]">
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
     </constraint>
-  </constraintSpec><attList><attDef ident="type" usage="opt">
+  </constraintSpec>
+  <attList>
+    <attDef ident="type" usage="opt">
       <desc versionDate="2005-10-10" xml:lang="en">characterizes the element in some sense, using any convenient
  classification scheme or typology.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">다양한 분류 스키마 또는 유형을 사용해서 요소의 특성을 기술한다.</desc>
@@ -1734,13 +1836,48 @@ ressource informatique selon une taxinomie normalisée.</desc>
 	elements, not all of which are members of <ident type="class">att.typed</ident>, usually because these elements
 	restrict the possible values for the attribute in a specific way.</p>
       </remarks>
-    </attDef></attList><remarks versionDate="2012-04-21" xml:lang="en">
+    </attDef>
+    <attDef ident="subtype" usage="opt">
+      <gloss versionDate="2009-05-29" xml:lang="fr">sous-type</gloss>
+      <desc versionDate="2005-10-10" xml:lang="en">provides a sub-categorization of the element, if needed</desc>
+      <desc versionDate="2007-12-20" xml:lang="ko">필요하다면 요소의 하위범주를 제시한다.</desc>
+      <desc versionDate="2007-05-02" xml:lang="zh-TW">若有需要，提供該元素的次要分類</desc>
+      <desc versionDate="2008-04-05" xml:lang="ja">必要であれば，当該要素の下位分類を示す．</desc>
+      <desc versionDate="2007-06-12" xml:lang="fr">fournit une sous-catégorisation de l'élément, si
+          c'est nécessaire.</desc>
+      <desc versionDate="2007-05-04" xml:lang="es">proporciona, si es necesario, una subcategorización del elemento.</desc>
+      <desc versionDate="2007-01-21" xml:lang="it">stabilisce, se necessario, una sottocategorizzazione dell'elemento</desc>
+      <datatype><dataRef key="teidata.enumerated"/></datatype>
+      <remarks versionDate="2013-01-13" xml:lang="en">
+        <p>The <att>subtype</att> attribute may be used to provide any
+sub-classification for the element additional to that provided by its
+<att>type</att> attribute.</p>
+      </remarks>
+      <remarks xml:lang="fr" versionDate="2007-06-12">
+        <p>L'attribut <att>subtype</att> peut être employé pour fournir une
+                        sous-classification pour cet élément, en plus de celle fournie par son
+                        propre attribut <att>type</att>.</p>
+      </remarks>
+      <remarks xml:lang="es" versionDate="2008-04-06">
+        <p>El atributo <att>subtype</att> (subtipo) se puede utilizar para proporcionar cualquier subclasificación para el elemento, adicional a ésa proporcionada por su
+<att>type</att> (tipo) de atributo.</p>
+      </remarks>
+      <remarks xml:lang="ja" versionDate="2008-04-05">
+        <p>
+	属性<att>subtype</att>は，属性<att>type</att>に加えて，当該要
+    素の下位分類を示すために使われる．
+    </p>
+      </remarks>
+    </attDef>
+  </attList>
+  <remarks versionDate="2012-04-21" xml:lang="en">
     <p>When appropriate, values from an established typology should be
     used. Alternatively a typology may be defined in the associated
     TEI header. If values are to be taken from a project-specific
     list, this should be defined using the <gi>valList</gi> element in
     the project-specific schema description, as described in <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#MDMDAL">23.3.1.4. Modification of Attribute and Attribute Value Lists</ref> .</p>
-  </remarks><listRef>
+  </remarks>
+  <listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STECAT">1.3.1. Attribute Classes</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html#AILCW">17.1.1. Words and Above</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">3.5.1. Referring Strings</ref>
@@ -1760,7 +1897,8 @@ ressource informatique selon une taxinomie normalisée.</desc>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDTAGCONT">22.5.1.2. Defining Content Models: RELAX NG</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TS.html#TSBA">8.3. Elements Unique to Spoken Texts</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#MDMDAL">23.3.1.4. Modification of Attribute and Attribute Value Lists</ref>
-  </listRef></classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="tei" type="atts" ident="att.pointing"><desc versionDate="2016-01-15" xml:lang="en">provides a set of attributes used by all elements which point
+  </listRef>
+</classSpec><classSpec xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="tei" type="atts" ident="att.pointing"><desc versionDate="2016-01-15" xml:lang="en">provides a set of attributes used by all elements which point
   to other elements by means of one or more URI references.</desc><desc versionDate="2007-12-20" xml:lang="ko">하나 이상의 URI 참조를 통해서 다른 요소를 가리키는 모든 요소에 의해 사용된 속성 집합을 정의한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">定義一組與其他元素相連結的所有元素皆使用的屬性，連結是使用ㄧ個或多個統一資源識別符 (URI) 參照。</desc><desc versionDate="2008-04-05" xml:lang="ja">URIにより要素を参照する要素に共通して付与される属性を定義する．</desc><desc versionDate="2016-02-15" xml:lang="fr">fournit un ensemble d'attributs utilisés par tous les éléments qui pointent vers d'autres éléments au moyen d'une ou de plusieurs références URI.</desc><desc versionDate="2007-05-04" xml:lang="es">define un conjunto de atributos usados por todos los elementos que señalan a otros elementos a través de uno o más URI.</desc><desc versionDate="2007-01-21" xml:lang="it">definisce un insieme di attributi usati da tutti gli elementi che puntano ad altri elementi tramite uno o più URI</desc><classes/><attList><attDef ident="target" usage="opt">
       <desc versionDate="2010-05-02" xml:lang="en">specifies the destination of the reference by supplying one or more URI References</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">하나 혹은 다수의 URI 참조를 제시하여 참조의 목적지를 명시한다.</desc>
@@ -2711,6 +2849,13 @@ niveau dans une entrée de dictionnaire.</desc>
   <listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
   </listRef>
+</classSpec><classSpec module="tei" type="model" ident="model.availabilityPart">
+  <desc versionDate="2013-03-18" xml:lang="en">groups elements such as licences and paragraphs of text which may appear as part of an
+  availability statement</desc>
+  <desc xml:lang="fr" versionDate="2007-06-12">regroupe des éléments tels que les licences ou les paragraphes indiquant la disponibilité d'un ouvrage.</desc>
+  <listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
+  </listRef>
 </classSpec><classSpec module="tei" type="model" ident="model.descLike">
   <desc versionDate="2012-10-07" xml:lang="en">groups elements which contain a description of their function.</desc>
   <desc xml:lang="fr" versionDate="2007-06-12">regroupe des éléments qui contiennent une description de la fonction d'un élément.</desc>
@@ -2772,7 +2917,7 @@ niveau dans une entrée de dictionnaire.</desc>
   <desc versionDate="2007-01-21" xml:lang="it">raggruppa elementi utilizzati per indicare responsabilità
     intellettuale, per esempio all'interno di un elemento bibliografico</desc>
   <classes>
-    
+    <memberOf key="model.biblPart"/>
     
   </classes>
 </classSpec><classSpec module="tei" xml:id="DIVTOP" type="model" ident="model.divWrapper">
@@ -2906,6 +3051,23 @@ fin d'une division de texte.</desc>
   <listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COED">3.4. Simple Editorial Changes</ref>
   </listRef>
+</classSpec><classSpec module="tei" type="model" ident="model.imprintPart">
+  <desc versionDate="2005-11-15" xml:lang="en">groups the bibliographic elements which occur inside imprints.</desc>
+  <desc versionDate="2007-12-20" xml:lang="ko">간기 내에 나타날 수 있는 서지 요소를 모아 놓는다.</desc>
+  <desc versionDate="2007-05-02" xml:lang="zh-TW">匯集出現於版本說明內的書目元素。</desc>
+  <desc versionDate="2008-04-05" xml:lang="ja">刊記にある書誌情報要素をまとめる．</desc>
+  <desc versionDate="2007-06-12" xml:lang="fr">regoupe les éléments bibliographiques qui apparaissent à
+    l'intérieur de documents imprimés.</desc>
+  <desc versionDate="2007-05-04" xml:lang="es">agrupa los elementos bibliográficos que aparecen al
+    interno de las siglas editoriales.</desc>
+  <desc versionDate="2007-01-21" xml:lang="it">raggruppa gli elementi bibliografici che appaiono
+    all'interno delle sigle editoriali</desc>
+  <classes>
+      <memberOf key="model.biblPart"/>
+  </classes>
+  <listRef>
+      <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI">3.11. Bibliographic Citations and References</ref>
+  </listRef>
 </classSpec><classSpec module="tei" type="model" ident="model.addressLike">
   <desc versionDate="2007-10-02" xml:lang="en">groups elements used to represent a postal or email address.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">우편 또는 전자메일 주소를 나타내는 요소를 모아 놓는다.</desc>
@@ -2967,6 +3129,20 @@ fin d'une division de texte.</desc>
     qualsiasi punto di un testo TEI</desc>
   <listRef>
       <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STEC">1.3. The TEI Class System</ref>
+  </listRef>
+</classSpec><classSpec module="tei" xml:id="BIBLPART" type="model" ident="model.biblPart">
+  <desc versionDate="2007-10-02" xml:lang="en">groups elements which represent components of a bibliographic description.</desc>
+  <desc versionDate="2007-12-20" xml:lang="ko">서지 기술의 성분을 표상하는 요소를 모아 놓는다.</desc>
+  <desc versionDate="2007-05-02" xml:lang="zh-TW">匯集可出現於書目引用元素內的元素。</desc>
+  <desc versionDate="2008-04-05" xml:lang="ja">書誌情報の項目を表す要素をまとめる．</desc>
+  <desc versionDate="2007-06-12" xml:lang="fr">regroupe des éléments qui sont des composantes d’une
+    description bibliographique.</desc>
+  <desc versionDate="2007-05-04" xml:lang="es">agrupa los elementos que pueden aparecer al interno citas
+    bibliográficas.</desc>
+  <desc versionDate="2007-01-21" xml:lang="it">raggruppa gli elementi che possono apparire all'interno
+    di elementi di citazioni bibliografiche</desc>
+  <listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI">3.11. Bibliographic Citations and References</ref>
   </listRef>
 </classSpec><classSpec module="tei" xml:id="CLFRONT" type="model" ident="model.frontPart">
   <desc versionDate="2005-10-10" xml:lang="en">groups elements which appear at the level of divisions within front or back matter.</desc>
@@ -3232,6 +3408,34 @@ fin d'une division de texte.</desc>
         <classRef key="model.gLike"/>
         <classRef key="model.qLike"/>
         <classRef key="model.phrase"/>
+        <classRef key="model.global"/>
+      </alternate>
+    
+  </content>
+  <listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STECST">1.4.1. Standard Content Models</ref>
+  </listRef>
+</macroSpec><macroSpec module="tei" ident="macro.phraseSeq.limited">
+  <gloss versionDate="2007-04-14" xml:lang="en">limited phrase sequence</gloss>
+  <gloss versionDate="2007-12-20" xml:lang="ko">한정된 구 연쇄</gloss>
+  <gloss versionDate="2007-05-02" xml:lang="zh-TW">限定詞組序列</gloss>
+  <gloss versionDate="2007-06-12" xml:lang="fr">séquence d'expression délimitée</gloss>
+  <gloss versionDate="2007-05-04" xml:lang="es">secuencia de sintagma limitada</gloss>
+  <desc versionDate="2007-04-14" xml:lang="en">defines a sequence of character data and those phrase-level elements that are not typically
+used for transcribing extant documents.</desc>
+  <desc versionDate="2007-12-20" xml:lang="ko">현존 문서의 전사에 전형적으로 사용되지 않은 문자 테이터 및 구 층위 요소의 연쇄를 정의한다.</desc>
+  <desc versionDate="2007-05-02" xml:lang="zh-TW">定義一連串文字資料與詞組層次元素，通常不用於轉錄現存文件。</desc>
+  <desc versionDate="2008-04-05" xml:lang="ja">一般には，現存資料の転記に使われることはない，一連の文字列と句レベル
+  の要素を定義する．</desc>
+  <desc versionDate="2007-06-12" xml:lang="fr">définit un ordre de données de caractère et ces
+      éléments de niveau d'expression qui ne sont pas typiquement utilisées pour transcrire des
+      documents existants.</desc>
+  <desc versionDate="2007-05-04" xml:lang="es">define una secuencia de caracteres y elementos de tipo sintagmático que no se usan normalmente para transcribir.</desc>
+  <content>
+    
+      <alternate minOccurs="0" maxOccurs="unbounded">
+        <textNode/>
+        <classRef key="model.limitedPhrase"/>
         <classRef key="model.global"/>
       </alternate>
     
@@ -4709,7 +4913,7 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
         포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含敘述者或作者引用自文本以外來源的字 (句) 詞或段落。</desc><desc versionDate="2008-04-05" xml:lang="ja">語り手や著者が，当該テキスト外にあるものに向けた，一節を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une expression ou un passage que le
         narrateur ou l'auteur attribue à une origine extérieure au texte.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una frase o pasaje atribuido por el narrador o
         autor a un agente externo al texto.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una frase o un brano attribuito dall'autore o
-        dal narratore a soggetti esterni al testo</desc><classes><memberOf key="att.global"/><memberOf key="model.quoteLike"/><memberOf key="att.typed"/><memberOf key="att.notated"/></classes><content><macroRef key="macro.specialPara"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+        dal narratore a soggetti esterni al testo</desc><classes><memberOf key="att.global"/><memberOf key="model.quoteLike"/><memberOf key="att.typed"/><memberOf key="att.notated"/></classes><content><macroRef key="macro.specialPara"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COHQQ-eg-29">Lexicography has shown little sign of being affected by the
       work of followers of J.R. Firth, probably best summarized in his
       slogan, <quote>You shall know a word by the company it
@@ -4820,7 +5024,7 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
                         <valItem ident="example"/>
                         <valItem ident="translation"/>
                      </valList>
-                  </attDef></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#DSHD-eg-30">
       <cit>
         <quote>and the breath of the whale is frequently attended with such an insupportable smell,
@@ -4967,7 +5171,7 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
 	type="deprecationInfo"&gt;.</sch:assert>
       </sch:rule>
     </constraint>
-  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="change" rend="change"><valList type="closed"><valItem ident="deprecationInfo"/></valList><valList type="closed"><valItem ident="deprecationInfo"/></valList><exemplum xml:lang="en">
+  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="type" mode="change" rend="change"><valList type="closed"><valItem ident="deprecationInfo"/></valList><valList type="closed"><valItem ident="deprecationInfo"/></valList><exemplum xml:lang="en">
 	<egXML xmlns="http://www.tei-c.org/ns/Examples">
 	  <elementSpec module="core" ident="teiCorpus" validUntil="2027-10-20">
 	    <desc versionDate="2017-02-07" xml:lang="en">contains the
@@ -5018,7 +5222,7 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
     phrase.</desc><desc versionDate="2007-12-20" xml:lang="ko">다른 단어나 구에 대한 해설 또는 정의를 제공할 때 사용되는 구나 단어를 표시한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">標明用來為另一個字詞下定義或提供註解的字詞。</desc><desc versionDate="2008-04-05" xml:lang="ja">語句の説明や定義を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">identifie une expression ou un mot utilisé pour fournir
     une glose ou une définition à quelque autre mot ou expression.</desc><desc versionDate="2007-05-04" xml:lang="es">identifica una locución o palabra usada para proporcionar
     una glosa o definición sobre otra palabra o frase.</desc><desc versionDate="2007-01-21" xml:lang="it">identifica un sintagma o una parola che fornisce una
-    glossa o definizione per qualche altra parola o sintagma.</desc><classes><memberOf key="att.global"/><memberOf key="model.emphLike"/><memberOf key="att.declaring"/><memberOf key="att.translatable"/><memberOf key="att.typed"/><memberOf key="att.pointing"/><memberOf key="att.cReferencing"/><memberOf key="model.glossLike"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="cRef" mode="delete"/></attList><exemplum xml:lang="en">
+    glossa o definizione per qualche altra parola o sintagma.</desc><classes><memberOf key="att.global"/><memberOf key="model.emphLike"/><memberOf key="att.declaring"/><memberOf key="att.translatable"/><memberOf key="att.typed"/><memberOf key="att.pointing"/><memberOf key="att.cReferencing"/><memberOf key="model.glossLike"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="cRef" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COHQU-eg-42">We may define <term xml:id="tdpv" rend="sc">discoursal point of view</term> as <gloss target="#tdpv">the relationship, expressed
         through discourse structure, between the implied author or some other addresser, and the
         fiction.</gloss>
@@ -5048,7 +5252,7 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
     qui est considéré comme un terme technique.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una palabra simple, multipalabra o
     designación simbólica que se considera como un término técnico.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una parola singola, un'unità formata da più
     parole, o una designazione simbolica che è considerata come un termine tecnico</desc><desc versionDate="2016-11-24" xml:lang="de">enthält ein einzelnes Wort, Mehrworttermini 
-        oder symbolische Bezeichnungen, die als Fachbegriffe verstanden werden</desc><classes><memberOf key="att.global"/><memberOf key="model.emphLike"/><memberOf key="att.declaring"/><memberOf key="att.pointing"/><memberOf key="att.typed"/><memberOf key="att.canonical"/><memberOf key="att.sortable"/><memberOf key="att.cReferencing"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="target" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="cRef" mode="delete"/></attList><exemplum xml:lang="en">
+        oder symbolische Bezeichnungen, die als Fachbegriffe verstanden werden</desc><classes><memberOf key="att.global"/><memberOf key="model.emphLike"/><memberOf key="att.declaring"/><memberOf key="att.pointing"/><memberOf key="att.typed"/><memberOf key="att.canonical"/><memberOf key="att.sortable"/><memberOf key="att.cReferencing"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="target" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="cRef" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COHQU-eg-43">A computational device that infers structure
       from grammatical strings of words is known as a <term>parser</term>, and much of the history
       of NLP over the last 20 years has been occupied with the design of parsers.</egXML>
@@ -5213,7 +5417,95 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
       </p>
   </remarks><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COED">3.4. Simple Editorial Changes</ref>
-  </listRef></elementSpec><elementSpec rend="change" module="core" ident="abbr"><gloss versionDate="2005-01-14" xml:lang="en">abbreviation</gloss><gloss versionDate="2007-12-20" xml:lang="ko">약어</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">縮寫</gloss><gloss versionDate="2009-01-06" xml:lang="fr">abréviation</gloss><gloss versionDate="2007-05-04" xml:lang="es">abreviatura</gloss><gloss versionDate="2007-01-21" xml:lang="it">abbreviazione</gloss><gloss versionDate="2016-11-25" xml:lang="de">Abkürzung</gloss><gloss versionDate="2018-12-18" xml:lang="ja">省略形</gloss><desc versionDate="2005-01-14" xml:lang="en">contains an abbreviation of any sort.</desc><desc versionDate="2007-12-20" xml:lang="ko">어떤 종류의 약어를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含任何形式的縮寫。</desc><desc xml:lang="ja" versionDate="2019-01-19">あらゆる種類の名称の省略を一つ含む.</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une abréviation quelconque.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una abreviatura de cualquier clase.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un'abbreviazione di qualsiasi genere.</desc><desc versionDate="2016-11-25" xml:lang="de">enthält eine Abkürzung beliebiger Form.</desc><classes><memberOf key="att.global"/><memberOf key="model.pPart.editorial"/><memberOf key="model.choicePart"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="mul">
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="name"><gloss versionDate="2005-01-14" xml:lang="en">name, proper noun</gloss><gloss versionDate="2007-12-20" xml:lang="ko">이름, 고유명사</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">名稱，特定名稱</gloss><gloss versionDate="2009-01-06" xml:lang="fr">nom, nom propre</gloss><gloss versionDate="2007-05-04" xml:lang="es">nombre, nombre propio</gloss><gloss versionDate="2007-01-21" xml:lang="it">nome, nome proprio</gloss><gloss versionDate="2016-11-24" xml:lang="de">Name, Eigenname</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a proper noun or noun phrase.</desc><desc versionDate="2007-12-20" xml:lang="ko">고유명사 또는 명사구를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個特定名稱 或名詞詞組。</desc><desc versionDate="2008-04-05" xml:lang="ja">固有名詞．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient un nom propre ou un syntagme nominal.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un nombre propio o un sintagma nominal</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un nome proprio o un sintagma nominale.</desc><desc versionDate="2016-11-24" xml:lang="de">enthält einen Eigennamen in Form eines Nomens oder einer Nominalphrase.</desc><classes><memberOf key="att.global"/><memberOf key="model.nameLike.agent"/><memberOf key="att.personal"/><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="yes"/>
+                     </valList>
+                  </attDef><attDef ident="calendar" mode="delete"/><attDef ident="when" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/><attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="org"/>
+                        <valItem ident="organisation"/>
+                        <valItem ident="person"/>
+                        <valItem ident="place"/>
+                     </valList>
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="mul">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
+      <name type="person">Thomas Hoccleve</name>
+      <name type="place">Villingaholt</name>
+      <name type="org">Vetus Latina Institut</name>
+      <name type="person" ref="#HOC001">Occleve</name>
+    </egXML>
+  </exemplum><remarks versionDate="2005-01-14" xml:lang="en">
+    <p>Proper nouns referring to people, places, and organizations may be tagged instead with
+                <gi>persName</gi>, <gi>placeName</gi>, or <gi>orgName</gi>, when the TEI module for
+            names and dates is included.</p>
+  </remarks><remarks xml:lang="fr" versionDate="2007-06-12">
+    <p>Les noms propres relatifs aux personnes, aux lieux et aux organismes peuvent également
+            être balisés à l'aide de <gi>persName</gi>, <gi>placeName</gi>, ou <gi>orgName</gi>,
+            lorsque le module TEI concernant les noms et dates est inclus.</p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p> TEI名前モジュールが使われる場合には，人々，場所，組織を示す固有名 詞は，それぞれ要素<gi>persName</gi>, <gi>placeName</gi>,
+                <gi>orgName</gi>を使い示されるかもしれない． </p>
+  </remarks><remarks xml:lang="de" versionDate="2016-11-24">
+      <p>
+          Eigennamen, die auf Personen, Orte und Organisationen verweisen, können stattdessen auch mit den Elementen 
+          <gi>persName</gi>, <gi>placeName</gi> oder <gi>orgName</gi> ausgezeichnet werden, vorausgesetzt, das TEI-Modul 
+          <ident type="module">namesdates</ident> ist inkludiert.
+      </p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">3.5.1. Referring Strings</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="date"><gloss versionDate="2009-01-06" xml:lang="fr">date</gloss><gloss versionDate="2016-11-25" xml:lang="de">Datum</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a date in any format.</desc><desc versionDate="2007-12-20" xml:lang="ko">다양한 형식의 날짜를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含任何格式的日期表示。</desc><desc versionDate="2008-04-05" xml:lang="ja">日付を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une date exprimée dans n'importe quel format.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una fecha en cualquier formato.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una data in qualsiasi foemato</desc><desc versionDate="2016-11-25" xml:lang="de">enthält ein Datum in beliebigem Format.</desc><classes><memberOf key="att.global"/><memberOf key="model.dateLike"/><memberOf key="model.publicationStmtPart.detail"/><memberOf key="att.canonical"/><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.dimensions"/><memberOf key="att.typed"/></classes><content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><classRef key="model.gLike"/><classRef key="model.phrase"/><classRef key="model.global"/></alternate></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <date when="1980-02">early February 1980</date>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <date when="1980-02">au début de février 1980</date>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#fr-ex-Pascal_Pensees">
+      <date when="1654-11-23">L'an de grâce 1654,<lb/> Lundi, 23 novembre, jour de saint Clément,
+          pape et martyr et autres au martyrologe, <lb/>Veille de saint Chrysogone, martyr, et
+          autres, <lb/> Depuis environ dix heures et demie du soir jusques environ minuit et
+        demi.</date>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <date when="1990-09">septembre
+                mcmxc</date>
+      <date when="--09">septembre</date>
+      <date when="2001-09-11T12:48:00">11
+                septembre, neuf heures moins douze GMT</date>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples"> 他出生於<date calendar="#gregorian">西元2007年12月24日</date> (<date calendar="#chinese" when="2007-12-24"> 丁亥年11月15日</date>).</egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <date when="1980-02">西元1980年2月初</date>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples"><date when="0637-11">貞觀十一年十一月</date>，唐太宗聽說年輕的武則天長得妖媚嬌艷，楚楚動人，便將她納入宮中，封為四品才人，賜號「武媚」。</egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <date when="1990-09">西元1990年9月</date>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">Given on the <date when="1977-06-12">Twelfth Day
+        of June in the Year of Our Lord One Thousand Nine Hundred and Seventy-seven of the Republic
+        the Two Hundredth and first and of the University the Eighty-Sixth.</date>
+      </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <date when="1990-09">September 1990</date>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONADA">3.5.4. Dates and Times</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD6">2.6. The Revision Description</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOI">3.11.2.4. Imprint, Size of a Document, and Reprint Information</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CC.html#CCAHSE">15.2.3. The Setting Description</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDDATE">13.3.7. Dates and Times</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="abbr"><gloss versionDate="2005-01-14" xml:lang="en">abbreviation</gloss><gloss versionDate="2007-12-20" xml:lang="ko">약어</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">縮寫</gloss><gloss versionDate="2009-01-06" xml:lang="fr">abréviation</gloss><gloss versionDate="2007-05-04" xml:lang="es">abreviatura</gloss><gloss versionDate="2007-01-21" xml:lang="it">abbreviazione</gloss><gloss versionDate="2016-11-25" xml:lang="de">Abkürzung</gloss><gloss versionDate="2018-12-18" xml:lang="ja">省略形</gloss><desc versionDate="2005-01-14" xml:lang="en">contains an abbreviation of any sort.</desc><desc versionDate="2007-12-20" xml:lang="ko">어떤 종류의 약어를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含任何形式的縮寫。</desc><desc xml:lang="ja" versionDate="2019-01-19">あらゆる種類の名称の省略を一つ含む.</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une abréviation quelconque.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una abreviatura de cualquier clase.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un'abbreviazione di qualsiasi genere.</desc><desc versionDate="2016-11-25" xml:lang="de">enthält eine Abkürzung beliebiger Form.</desc><classes><memberOf key="att.global"/><memberOf key="model.pPart.editorial"/><memberOf key="model.choicePart"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="mul">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="mul" source="#NONE">
       <choice>
         <expan>North Atlantic Treaty Organization</expan>
@@ -5328,7 +5620,7 @@ Ce ne seroyt que bon que nous rendissiez noz cloches...</egXML>
       <report xmlns="http://purl.oclc.org/dsdl/schematron" test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
     </constraint>
-  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="mimeType" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="und">
+  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="mimeType" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="und">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
       <ptr target="#p143 #p144"/>
       <ptr target="http://www.tei-c.org"/>
@@ -5345,7 +5637,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
 	attributes @target' and @cRef' may be supplied on <name/>
          </report>
     </constraint>
-  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">See especially <ref target="http://www.natcorp.ox.ac.uk/Texts/A02.xml#s2">the second
       sentence</ref> 
       </egXML>
@@ -5381,7 +5673,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
 	<sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
       </sch:rule>
     </constraint>
-  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="sortKey" mode="delete"/><attDef ident="type" mode="change" rend="change" usage="opt"><gloss versionDate="2017-06-25" xml:lang="de">Typ</gloss><desc versionDate="2014-07-29" xml:lang="en">describes the nature of the items in the list.</desc><desc versionDate="2016-11-25" xml:lang="de">beschreibt die Art der Listenpunkte.</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed" mode="add"><valItem ident="gloss"/><valItem ident="litany"/><valItem ident="ordered"/><valItem ident="speakers"/><valItem ident="syllogism"/><valItem ident="unordered"/></valList><valList type="closed" mode="add"><valItem ident="gloss"/><valItem ident="litany"/><valItem ident="ordered"/><valItem ident="speakers"/><valItem ident="syllogism"/><valItem ident="unordered"/></valList><remarks versionDate="2014-07-30" xml:lang="en">
+  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="sortKey" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="type" mode="change" rend="change" usage="opt"><gloss versionDate="2017-06-25" xml:lang="de">Typ</gloss><desc versionDate="2014-07-29" xml:lang="en">describes the nature of the items in the list.</desc><desc versionDate="2016-11-25" xml:lang="de">beschreibt die Art der Listenpunkte.</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed" mode="add"><valItem ident="gloss"/><valItem ident="litany"/><valItem ident="ordered"/><valItem ident="speakers"/><valItem ident="syllogism"/><valItem ident="unordered"/></valList><valList type="closed" mode="add"><valItem ident="gloss"/><valItem ident="litany"/><valItem ident="ordered"/><valItem ident="speakers"/><valItem ident="syllogism"/><valItem ident="unordered"/></valList><remarks versionDate="2014-07-30" xml:lang="en">
         <p>Previous versions of these Guidelines recommended the use
         of <att>type</att> on <gi>list</gi> to encode the rendering or
         appearance of a list (whether it was bulleted, numbered,
@@ -5710,7 +6002,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
     dans les glossaires, il marque le terme qui est défini.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un concepto o enunciado asociado con un ítem en
     una lista; en un glosario marca el término que se define.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene l'etichetta associata ad una voce in una lista;
     nei glossari indica il dermine che viene definito</desc><desc versionDate="2017-06-25" xml:lang="de">enthält ein Label oder eine Überschrift zur 
-    Identifikation eines Textteils, insbesondere in einer Liste oder einem Glossar.</desc><classes><memberOf key="att.global"/><memberOf key="att.typed"/><memberOf key="att.placement"/><memberOf key="att.written"/><memberOf key="model.labelLike"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+    Identifikation eines Textteils, insbesondere in einer Liste oder einem Glossar.</desc><classes><memberOf key="att.global"/><memberOf key="att.typed"/><memberOf key="att.placement"/><memberOf key="att.written"/><memberOf key="model.labelLike"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <p>Labels are commonly used for the headwords in glossary
     lists; note the use of the global <att>xml:lang</att> attribute to
     set the default language of the glossary list to Middle English,
@@ -6011,7 +6303,7 @@ entre les Romains.</label>
     section, ou l'intitulé d'une liste, d'un glossaire, d'une description de manuscrit, etc.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene cualquier tipo de encabezamiento, por ejemplo el
     título de una sección o el encabezado de una lista, glosario, descripción de un manuscrito, etc.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene qualsiasi tipo di titolo, per esempio il titolo
     di una sezione, di una lista, di un glossario, di una descrizione di manoscritto, ecc.</desc><desc versionDate="2016-11-29" xml:lang="de">enthält eine beliebige Art von Überschrift, 
-    z. B. eines Kapitels, einer Liste, eines Glossars oder einer Handschriftenbeschreibung.</desc><classes><memberOf key="att.global"/><memberOf key="att.typed"/><memberOf key="att.placement"/><memberOf key="att.written"/><memberOf key="model.headLike"/><memberOf key="model.pLike.front"/></classes><content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="lg"/><classRef key="model.gLike"/><classRef key="model.phrase"/><classRef key="model.inter"/><classRef key="model.lLike"/><classRef key="model.global"/></alternate></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+    z. B. eines Kapitels, einer Liste, eines Glossars oder einer Handschriftenbeschreibung.</desc><classes><memberOf key="att.global"/><memberOf key="att.typed"/><memberOf key="att.placement"/><memberOf key="att.written"/><memberOf key="model.headLike"/><memberOf key="model.pLike.front"/></classes><content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="lg"/><classRef key="model.gLike"/><classRef key="model.phrase"/><classRef key="model.inter"/><classRef key="model.lLike"/><classRef key="model.global"/></alternate></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <p>The most common use for the <gi>head</gi> element is to mark the headings of sections. In
       older writings, the headings or <term>incipits</term> may be rather longer than usual in
       modern works. If a section has an explicit ending as well as a heading, it should be marked as
@@ -6149,7 +6441,7 @@ entre les Romains.</label>
                      <valList mode="add" type="closed">
                         <valItem ident="gloss"/>
                      </valList>
-                  </attDef><attDef ident="anchored" usage="opt">
+                  </attDef><attDef ident="subtype" mode="delete"/><attDef ident="anchored" usage="opt">
       <gloss versionDate="2017-06-25" xml:lang="de">verankert</gloss>
       <desc versionDate="2005-01-14" xml:lang="en">indicates whether the copy text shows the exact place of reference for the note.</desc>
       <desc versionDate="2009-01-06" xml:lang="fr">indique si l'exemplaire du texte montre l'emplacement
@@ -6301,7 +6593,7 @@ psychological significance.
   page de texte dans un document paginé.</desc><desc versionDate="2007-05-04" xml:lang="es">marca la frontera entre una página de un texto y la
     siguiente en un sistema de referencia estándard.</desc><desc versionDate="2007-01-21" xml:lang="it">indica il limite tra una pagina di un testo e la
     successiva in un sistema di riferimento standard</desc><desc versionDate="2017-06-25" xml:lang="de">markiert den Anfang 
-    einer neuen Seite in einem Dokument mit Seitenzahlen</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="break" mode="delete"/></attList><exemplum xml:lang="en">
+    einer neuen Seite in einem Dokument mit Seitenzahlen</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="break" mode="delete"/></attList><exemplum xml:lang="en">
     <p>Page numbers may vary in different editions of a text.</p>
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <p> ... <pb n="145" ed="ed2"/>
@@ -6394,7 +6686,7 @@ Elements</ref>
     une édition ou dans une version d'un texte.</desc><desc versionDate="2007-05-04" xml:lang="es">marca el comienzo de una nueva línea (topográfica) en
     alguna edición o versión del texto.</desc><desc versionDate="2007-01-21" xml:lang="it">segna l'inizio di una nuova riga (tipografica) in qualche
     edizione o versione di un testo.</desc><desc versionDate="2017-06-25" xml:lang="de">markiert den Anfang einer neuen typographischen 
-    Zeile in einer bestimmten Auflage oder Version eines Textes.</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="edRef" mode="delete"/></attList><exemplum xml:lang="en">
+    Zeile in einer bestimmten Auflage oder Version eines Textes.</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.typed"/><memberOf key="att.edition"/><memberOf key="att.spanning"/><memberOf key="att.breaking"/></classes><content><empty/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="edRef" mode="delete"/></attList><exemplum xml:lang="en">
     <p>This example shows typographical line breaks within metrical lines, where they occur at different
       places in different editions:</p>
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -6500,7 +6792,7 @@ Elements</ref>
     dell'autore (o degli autori), personale o collettivo, di un'opera; è la dichiarazione di
     responsabilità primaria di ciascuna unità bibliografica.</desc><desc versionDate="2017-06-04" xml:lang="de">enthält in einer bibliografischen Referenz den oder die Namen eines Autors eines Werks
     (oder einer für das Werk verantwortlichen Körperschaft); zum Beispiel in der Form, wie sie eine
-    anerkannte bibliografische Instanz anbietet.</desc><classes><memberOf key="att.global"/><memberOf key="att.naming"/><memberOf key="model.respLike"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="ref" mode="delete"/></attList><exemplum xml:lang="en">
+    anerkannte bibliografische Instanz anbietet.</desc><classes><memberOf key="att.global"/><memberOf key="att.naming"/><memberOf key="model.respLike"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COBICOR-eg-251">
       <author>British Broadcasting Corporation</author>
       <author>La Fayette, Marie Madeleine Pioche de la Vergne, comtesse de (1634–1693)</author>
@@ -6569,9 +6861,121 @@ places, in particular where  multiple names are given.</p>
   </remarks><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOR">3.11.2.2. Titles, Authors, and Editors</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD21">2.2.1. The Title Statement</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="respStmt"><gloss versionDate="2005-03-01" xml:lang="en">statement of responsibility</gloss><gloss versionDate="2007-12-20" xml:lang="ko">책임성 진술</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">責任陳述</gloss><gloss versionDate="2007-06-12" xml:lang="fr">mention de responsabilité</gloss><gloss versionDate="2007-05-04" xml:lang="es">declaración de responsabilidad</gloss><gloss versionDate="2007-01-21" xml:lang="it">dichiarazione di responsabilità</gloss><gloss versionDate="2017-06-04" xml:lang="de">Angaben zur Verantwortlichkeit</gloss><desc versionDate="2011-11-16" xml:lang="en">supplies a statement of responsibility for the intellectual content of a text, edition,
+    recording, or series, where the specialized elements for authors, editors, etc. do not suffice
+    or do not apply. May also be used to encode information about individuals or organizations 
+    which have played a role in the production or distribution of a bibliographic work.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트, 편집, 녹음 또는 총서의 지적 내용에 대한 책임성 진술을 제시한다. 여기에서 작가, 편집자
+    등에 대한 특별한 요소는 충분치 않거나 적용되지 않는다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">當未使用作者、編輯者等特定元素，或元素內容不足時，在此補充說明文件、版本、記錄、或是叢書的智慧內容所屬負責人的責任陳述。</desc><desc versionDate="2008-04-05" xml:lang="ja">著者や編集者など特定の役割を示す要素が充分ではない場合に，テキスト， 版，記録などの知的内容に関する責任を示す．</desc><desc versionDate="2008-12-09" xml:lang="fr">indique la responsabilité quant au contenu
+    intellectuel d'un texte, d'une édition, d'un enregistrement ou d'une publication en série,
+    lorsque les éléments spécifiques relatifs aux auteurs, éditeurs, etc. ne suffisent pas ou ne
+    s'appliquent pas.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona la declaración de la responsabilidad para el
+    contenido intelectual de un texto, edición, grabación o serie, donde no basten o no se apliquen
+    los elementos especializados para autores, editores, etc.</desc><desc versionDate="2007-01-21" xml:lang="it">fornisce una dichiarazione di responsabilità per qualcuno
+    responsabile del contenuto intelletuale di un testo, curatela, registrazione o collana, nel caso
+    in cui gli elementi specifici per autore, curatore ecc. non sono sufficienti o non applicabili.</desc><desc versionDate="2017-06-04" xml:lang="de">enthält Angaben zur Verantwortlichkeit für den intellektuellen Inhalt eines Textes, einer
+    Edition, einer Aufnahme oder Reihe, wo die spezialisierten Elemente <gi>author</gi>,
+    <gi>editor</gi> etc. nicht ausreichen oder unzutreffend sind; auch verwendbar für
+    Informationen zu Individuen oder Organisationen, die bei der Produktion oder Verbreitung eines
+    bibliografischen Objekts eine Rolle gespielt.</desc><classes><memberOf key="att.global"/><memberOf key="att.canonical"/><memberOf key="model.respLike"/></classes><content><sequence minOccurs="1" maxOccurs="1"><alternate minOccurs="1" maxOccurs="1"><sequence minOccurs="1" maxOccurs="1"><elementRef key="resp" minOccurs="1" maxOccurs="unbounded"/><classRef key="model.nameLike.agent" minOccurs="1" maxOccurs="unbounded"/></sequence><sequence minOccurs="1" maxOccurs="1"><classRef key="model.nameLike.agent" minOccurs="1" maxOccurs="unbounded"/><elementRef key="resp" minOccurs="1" maxOccurs="unbounded"/></sequence></alternate><elementRef key="note" minOccurs="0" maxOccurs="unbounded"/></sequence></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>transcribed from original ms</resp>
+        <persName>Claus Huitfeldt</persName>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>Nouvelle édition originale</resp>
+        <persName>Geneviève Hasenohr</persName>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>converti en langage SGML</resp>
+        <name>Alan Morrison</name>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>謄寫自原始手稿</resp>
+        <persName>徐大明</persName>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>轉換成SGML編碼</resp>
+        <name>許雁</name>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum versionDate="2012-07-16" xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>converted to XML encoding</resp>
+        <name>Alan Morrison</name>
+      </respStmt>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOR">3.11.2.2. Titles, Authors, and Editors</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD21">2.2.1. The Title Statement</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD22">2.2.2. The Edition Statement</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD26">2.2.5. The Series Statement</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="resp"><gloss versionDate="2007-07-04" xml:lang="en">responsibility</gloss><gloss versionDate="2007-12-20" xml:lang="ko">책임성</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW"/><gloss versionDate="2008-04-06" xml:lang="es">responsabilidad</gloss><gloss versionDate="2007-06-12" xml:lang="fr">responsabilité</gloss><gloss versionDate="2007-11-06" xml:lang="it">responsabilità</gloss><gloss versionDate="2017-06-04" xml:lang="de">Verantwortlichkeit</gloss><desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role 
+    in the production or distribution of a work.</desc><desc versionDate="2007-12-20" xml:lang="ko">개인의 지적 책임성에 관한 특성을 기술하는 구를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個詞彙，來描述個人智慧責任的類型。</desc><desc versionDate="2008-04-05" xml:lang="ja">人物の知的責任の性質を表す一節を示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">contient une expression décrivant la nature de la
+    responsabilité intellectuelle d'une personne.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un sintagma que describe la naturaleza de la
+    responsabilidad intelectual de una persona.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una frase che descrive la natura della
+    responsabilità intellettuale di una persona.</desc><desc versionDate="2017-06-04" xml:lang="de">enthält eine Phrase, die die Art der intellektuellen Verantwortung einer Person oder die
+    Rolle einer Organisation bei der Herstellung oder Distribution eines Werkes beschreibt.</desc><classes><memberOf key="att.global"/><memberOf key="att.canonical"/><memberOf key="att.datable"/></classes><content><macroRef key="macro.phraseSeq.limited"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="calendar" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp ref="http://id.loc.gov/vocabulary/relators/com.html">compiler</resp>
+        <name>Edward Child</name>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>compilateur</resp>
+        <name>Edward Child</name>
+      </respStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respStmt>
+        <resp>編輯</resp>
+        <name>林偉</name>
+      </respStmt>
+    </egXML>
+  </exemplum><remarks versionDate="2016-04-01" xml:lang="en">
+    <p>The attribute <att>ref</att>, inherited from the class <ident type="class">att.canonical</ident> may be used to indicate the kind of responsibility in a normalized
+      form by referring directly to a
+      standardized list of responsibility types, such as that maintained by a naming authority, for
+      example the list maintained at <ptr target="http://www.loc.gov/marc/relators/relacode.html"/>
+      for bibliographic usage.</p>
+  </remarks><remarks versionDate="2008-12-09" xml:lang="fr">
+    <p>Les attributs <att>key</att> or <att>ref</att>, issus de la classe <ident type="class">att.canonical</ident>, peuvent être utilisés pour indiquer le type de responsabilité sous
+      une forme normalisée, en faisant référence directement (par l'utilisation de <att>ref</att>)
+      ou indirectement (par l'utilisation de <att>key</att>) à une liste normalisée contenant des types de
+      responsabilité, comme celle qui est maintenue par une autorité de nommage, par exemple la
+      liste <ptr target="http://www.loc.gov/marc/relators/relacode.html"/> à usage bibliographique.
+    </p>
+  </remarks><remarks versionDate="2017-06-04" xml:lang="de">
+    <p>Das <att>ref</att>-Attribut, das aus der Klasse <ident type="class">att.canonical</ident>
+      vererbt wird, kann benutzt werden, um die Art der Verantwortlichkeit in normalisierter Form zu
+      beschreiben. Es verweist direkt auf eine standardisierte Liste von Verantwortlichkeitstypen, wie
+      sie z. B. in Normdatensätzen gepflegt werden, wie zum Beispiel folgende Liste für
+      bibliografische Zwecke: <ptr target="http://www.loc.gov/marc/relators/relacode.html"/>.</p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOR">3.11.2.2. Titles, Authors, and Editors</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD21">2.2.1. The Title Statement</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD22">2.2.2. The Edition Statement</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD26">2.2.5. The Series Statement</ref>
   </listRef></elementSpec><elementSpec rend="change" module="core" ident="title"><gloss versionDate="2007-06-12" xml:lang="fr">titre</gloss><gloss versionDate="2017-06-04" xml:lang="de">Titel</gloss><desc versionDate="2008-10-25" xml:lang="en">contains a title for any kind of work.</desc><desc versionDate="2007-12-20" xml:lang="ko">다양한 종류의 작업에 대한 전체 제목을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含任何種類作品的完整題名
                     。</desc><desc versionDate="2008-04-05" xml:lang="ja">作品の完全なタイトルを示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">contient le titre complet d'une oeuvre quelconque</desc><desc versionDate="2007-05-04" xml:lang="es">contiene el título completo de una obra de
-                    cualquier tipo.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene il titolo completo di una qualsiaisi                    opera.</desc><desc versionDate="2017-06-04" xml:lang="de">beinhaltet einen Titel eines beliebigen Werks.</desc><classes><memberOf key="att.global"/><memberOf key="model.emphLike"/><memberOf key="att.canonical"/><memberOf key="att.typed"/><memberOf key="att.datable"/></classes><content><macroRef key="macro.paraContent"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="level" usage="opt"><desc versionDate="2005-03-05" xml:lang="en">indicates the bibliographic level for a title, that is, whether
+                    cualquier tipo.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene il titolo completo di una qualsiaisi                    opera.</desc><desc versionDate="2017-06-04" xml:lang="de">beinhaltet einen Titel eines beliebigen Werks.</desc><classes><memberOf key="att.global"/><memberOf key="model.emphLike"/><memberOf key="att.canonical"/><memberOf key="att.typed"/><memberOf key="att.datable"/></classes><content><macroRef key="macro.paraContent"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="calendar" mode="delete"/><attDef ident="when" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/><attDef ident="level" usage="opt"><desc versionDate="2005-03-05" xml:lang="en">indicates the bibliographic level for a title, that is, whether
                                         it identifies an article, book, journal, series, or
                                         unpublished material.</desc><desc versionDate="2007-12-20" xml:lang="ko">제목에 대한 서지적 층위를 나타내어, 논문, 책,
                                         학술지, 총서, 미간행의 여부를 식별한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">指出題名的書目層次，即該題名之所指可以是文章、書籍、期刊、叢書或未出版的項目。</desc><desc versionDate="2008-04-05" xml:lang="ja">タイトルの書誌情報のレベルを示す．例えば，論文，書籍，雑誌，叢書， 非刊行物など．</desc><desc versionDate="2007-06-12" xml:lang="fr">indique le niveau
@@ -6630,7 +7034,7 @@ doit pas être utilisé.</p>
       </remarks></attDef><attDef ident="type" mode="change" rend="change"><desc versionDate="2005-01-14" xml:lang="en">classifies the title according to some convenient typology.</desc><desc versionDate="2007-12-20" xml:lang="ko">어떤 편의적 유형에 따른 제목 분류</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">用合適的分類方法將題名分類。</desc><desc versionDate="2008-04-05" xml:lang="ja">当該タイトルを分類する．</desc><desc versionDate="2007-06-12" xml:lang="fr">caractérise le titre selon
                                         une typologie adaptée.</desc><desc versionDate="2007-05-04" xml:lang="es">clasifica el título de
                                         acuerdo con alguna tipología funcional.</desc><desc versionDate="2007-01-21" xml:lang="it">classifica il titolo seguendo
-                                        una tipologia conveniente.</desc><desc versionDate="2017-06-04" xml:lang="de">klassifiziert den Titel entsprechend einer geeigneten Typologie.</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed" mode="add"><valItem ident="full"/><valItem ident="main"/><valItem ident="short"/><valItem ident="sub"/></valList><valList type="closed" mode="add"><valItem ident="full"/><valItem ident="main"/><valItem ident="short"/><valItem ident="sub"/></valList><remarks versionDate="2005-01-14" xml:lang="en">
+                                        una tipologia conveniente.</desc><desc versionDate="2017-06-04" xml:lang="de">klassifiziert den Titel entsprechend einer geeigneten Typologie.</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed" mode="add"><valItem ident="full"/><valItem ident="main"/><valItem ident="orig"/><valItem ident="reg"/><valItem ident="short"/><valItem ident="sub"/></valList><valList type="closed" mode="add"><valItem ident="full"/><valItem ident="main"/><valItem ident="orig"/><valItem ident="reg"/><valItem ident="short"/><valItem ident="sub"/></valList><remarks versionDate="2005-01-14" xml:lang="en">
         <p>This attribute is provided for convenience in analysing
 titles and processing them according to their
 type; where such specialized processing is not
@@ -6739,6 +7143,146 @@ epistemology, methodology and history of
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOR">3.11.2.2. Titles, Authors, and Editors</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD21">2.2.1. The Title Statement</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD26">2.2.5. The Series Statement</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="publisher"><gloss versionDate="2009-01-06" xml:lang="fr">éditeur</gloss><gloss versionDate="2017-06-13" xml:lang="de">Verlag</gloss><desc versionDate="2005-01-14" xml:lang="en">provides the name of the organization responsible for the publication or distribution of a
+        bibliographic item.</desc><desc versionDate="2007-12-20" xml:lang="ko">서지 항목의 출판이나 배포에 책임이 있는 기구명을 제시한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供負責出版或發行書目項目的機構名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">書誌項目の出版や頒布に責任のある団体の名前を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">donne le nom de l'organisme responsable de la
+        publication ou de la distribution d'un élément de la bibliographie.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona el nombre de la organización responsable de
+        la publicación o la distribución de un elemento bibliográfico.</desc><desc versionDate="2007-01-21" xml:lang="it">fornisce il nome</desc><desc versionDate="2017-06-13" xml:lang="de">gibt den Namen der Organisation an, die für die Veröffentlichung und Verbreitung eines
+    bibliografischen Objekts verantwortlich ist.</desc><classes><memberOf key="att.global"/><memberOf key="att.canonical"/><memberOf key="model.imprintPart"/><memberOf key="model.publicationStmtPart.agency"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <imprint>
+        <pubPlace>Oxford</pubPlace>
+        <publisher>Clarendon Press</publisher>
+        <date>1987</date>
+      </imprint>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <imprint>
+        <pubPlace>Paris</pubPlace>
+        <publisher>Les Éditions de Minuit</publisher>
+        <date>2001</date>
+      </imprint>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <imprint>
+        <pubPlace>上海</pubPlace>
+        <publisher>上海古籍出版社</publisher>
+        <date>2008</date>
+      </imprint>
+    </egXML>
+  </exemplum><remarks versionDate="2005-01-14" xml:lang="en">
+    <p rend="dataDesc">Use the full form of the name by which a company is usually referred to,
+            rather than any abbreviation of it which may appear on a title page</p>
+  </remarks><remarks xml:lang="fr" versionDate="2007-06-12">
+    <p rend="dataDesc">Utiliser la forme développée du nom au moyen duquel l'organisme est
+            habituellement cité, plutôt qu'une abréviation, cette dernière pouvant apparaître sur
+            une page de titre.</p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p rend="dataDesc"> 会社を示す，タイトルページにある省略名ではなく，正式な名前を使う． </p>
+  </remarks><remarks versionDate="2017-06-13" xml:lang="de">
+    <p rend="dataDesc">Außer bei der Transkription von bibliografischen Angaben, ist der vollständige Name des
+      Unternehmens gegenüber einer abgekürzten Version, wie sie etwa auf der gedruckten Titelseite zu
+      finden ist, zu bevorzugen.</p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOI">3.11.2.4. Imprint, Size of a Document, and Reprint Information</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="pubPlace"><gloss versionDate="2007-07-04" xml:lang="en">publication place</gloss><gloss versionDate="2007-12-20" xml:lang="ko">출판지</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW"/><gloss versionDate="2008-04-06" xml:lang="es">lugar de la publicación</gloss><gloss versionDate="2009-01-06" xml:lang="fr">lieu de publication</gloss><gloss versionDate="2007-11-06" xml:lang="it">luogo di pubblicazione</gloss><gloss versionDate="2017-06-13" xml:lang="de">Verlagsort</gloss><desc versionDate="2005-01-14" xml:lang="en">contains the name of the place where a bibliographic item was published.</desc><desc versionDate="2007-12-20" xml:lang="ko">서지 대상이 출판된 장소명을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含書目項目的出版地名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">書誌項目が出版された場所の名前を示す．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient le nom du lieu d'une publication.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene el nombre del lugar de publicación de un
+        elemento bibliográfico.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene il nome del luogo in cui un'unità
+        bibliografica è stata pubblicata</desc><desc versionDate="2017-06-13" xml:lang="de">enthält den Namen des Orts, an dem ein bibliografisches Objekt veröffentlicht wurde.</desc><classes><memberOf key="att.global"/><memberOf key="att.naming"/><memberOf key="model.imprintPart"/><memberOf key="model.publicationStmtPart.detail"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <publicationStmt>
+        <publisher>Oxford University Press</publisher>
+        <pubPlace>Oxford</pubPlace>
+        <date>1989</date>
+      </publicationStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <publicationStmt>
+        <publisher>Editions Denoëll</publisher>
+        <pubPlace>Paris</pubPlace>
+        <date>1975</date>
+      </publicationStmt>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBICOI">3.11.2.4. Imprint, Size of a Document, and Reprint Information</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="bibl"><gloss versionDate="2005-01-14" xml:lang="en">bibliographic citation</gloss><gloss versionDate="2007-12-20" xml:lang="ko">서지 인용</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">書目資料</gloss><gloss versionDate="2009-01-06" xml:lang="fr">référence bibliographique.</gloss><gloss versionDate="2007-05-04" xml:lang="es">cita bibliográfica.</gloss><gloss versionDate="2007-01-21" xml:lang="it">citazione bibliografica</gloss><gloss versionDate="2017-06-13" xml:lang="de">bibliografische Angabe</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a loosely-structured bibliographic citation of which the sub-components may or may
+    not be explicitly tagged.</desc><desc versionDate="2007-12-20" xml:lang="ko">하위 성분이 명시적으로 구분된 또는 그렇지 않은 덜 구조화된 서지 인용을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含結構零散的書目資料，其中次要元件不一定會明確標記。</desc><desc versionDate="2008-04-05" xml:lang="ja">厳密でない構造を持つ書誌情報の引用を含む．下位要素で明示されていたり， いなかったりする．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient une référence bibliographique faiblement
+    structurée dans laquelle les sous-composants peuvent ou non être explicitement balisés.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene una cita bibliográfica estructurada libremente,
+    los componentes de la cual pueden nohaber sido etiquetados explícitamente.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene una citazione bibliografica strutturata
+    liberamente i cui componeneti potrebbero o meno essere codificati esplicitamente.</desc><desc versionDate="2017-06-13" xml:lang="de">enthält eine lose strukturierte bibliografische Angabe, in der einzelne Komponenten explizit
+    ausgezeichnet sein können.</desc><classes><memberOf key="att.global"/><memberOf key="model.biblLike"/><memberOf key="model.biblPart"/><memberOf key="att.declarable"/><memberOf key="att.typed"/><memberOf key="att.sortable"/><memberOf key="att.docStatus"/></classes><content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><classRef key="model.gLike"/><classRef key="model.highlighted"/><classRef key="model.pPart.data"/><classRef key="model.pPart.edit"/><classRef key="model.segLike"/><classRef key="model.ptrLike"/><classRef key="model.biblPart"/><classRef key="model.global"/></alternate></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="default" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="false"/>
+                     </valList>
+                  </attDef><attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="article"/>
+                        <valItem ident="monogr"/>
+                     </valList>
+                  </attDef><attDef ident="sortKey" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl>Blain, Clements and Grundy: Feminist Companion to Literature in English (Yale,
+      1990)</bibl>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl>Mazelier, Roger : Gérard de Nerval et l’Humour divin, Le Mesnil Saint-Denis,
+        1995.</bibl>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl><title level="a">L'Enracinement</title><author>Simone Weil</author>, <title>Prélude à une déclaration des devoirs envers l'être
+            humain </title>. <publisher>Gallimard</publisher><date>1968</date>.</bibl>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl>蕭兵，《神話學引論》。台北：文津，2001。</bibl>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl><title level="a">我的從影經過</title>。收錄於 <author>王漢倫</author>，<title>中國無聲電影</title>.
+          <publisher>北京：中國電影</publisher>
+            <date>1996</date>。</bibl>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl><title level="a">The Interesting story of the Children in the Wood</title>. In
+          <author>Victor E Neuberg</author>, <title>The Penny Histories</title>.
+          <publisher>OUP</publisher><date>1968</date>. </bibl>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <bibl type="article" subtype="book_chapter" xml:id="carlin_2003"><author><name><surname>Carlin</surname>
+          (<forename>Claire</forename>)</name></author>,
+        <title level="a">The Staging of Impotence : France’s last
+          congrès</title> dans
+        <bibl type="monogr"><title level="m">Theatrum mundi : studies in honor of Ronald W.
+            Tobin</title>, éd.
+          <editor><name><forename>Claire</forename><surname>Carlin</surname></name></editor> et
+          <editor><name><forename>Kathleen</forename><surname>Wine</surname></name></editor>,
+          <pubPlace>Charlottesville, Va.</pubPlace>,
+          <publisher>Rookwood Press</publisher>,
+          <date when="2003">2003</date>.
+        </bibl>
+         </bibl>
+    </egXML>
+  </exemplum><remarks versionDate="2017-06-13" xml:lang="en">
+    <p rend="dataDesc">Contains <term>phrase-level</term> elements, together with any combination of elements from the
+      <ident type="class">model.biblPart</ident> class</p>
+  </remarks><remarks xml:lang="fr" versionDate="2007-06-12">
+    <p rend="dataDesc">Cet élément contient des éléments de type expression, ainsi qu'un jeu
+      d'éléments de la classe <ident type="class">model.biblPart</ident>.</p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p rend="dataDesc"><ident type="class">model.biblPart</ident>で規定された要素と共に，句レベルの要素を示す． </p>
+  </remarks><remarks versionDate="2017-06-13" xml:lang="de">
+    <p rend="dataDesc">Enthält <term>Phrasen-Level</term>-Elemente, zusammen mit einer beliebigen Kombination von
+      Elementen der <ident type="class">model.biblPart</ident>-Klasse</p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBITY">3.11.1. Methods of Encoding Bibliographic References and Lists of References</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD3">2.2.7. The Source Description</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CC.html#CCAS2">15.3.2. Declarable Elements</ref>
   </listRef></elementSpec><elementSpec rend="change" module="core" ident="l"><gloss versionDate="2005-01-14" xml:lang="en">verse line</gloss><gloss versionDate="2007-12-20" xml:lang="ko">운문 시행</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">詩行</gloss><gloss versionDate="2009-01-06" xml:lang="fr">vers</gloss><gloss versionDate="2007-05-04" xml:lang="es">verso</gloss><gloss versionDate="2007-01-21" xml:lang="it">verso</gloss><gloss versionDate="2017-06-13" xml:lang="de">Vers(zeile)</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a single, possibly incomplete, line of verse.</desc><desc versionDate="2007-12-20" xml:lang="ko">미완성일 수도 있지만 운문의 하나의 시행을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含詩文的一行，也許是不完整的詩行。</desc><desc versionDate="2008-04-05" xml:lang="ja">韻文中の1行を示す．行として完全でない場合もある．</desc><desc versionDate="2009-01-06" xml:lang="fr">contient un seul vers, éventuellement incomplet.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un único verso, posiblemente incompleto.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un singolo verso, anche incompleto.</desc><desc versionDate="2017-06-13" xml:lang="de">enthält eine einzelne, möglicherweise unvollständige, Verszeile.</desc><classes><memberOf key="att.global"/><memberOf key="model.lLike"/><memberOf key="att.metrical"/><memberOf key="att.fragmentable"/></classes><content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><classRef key="model.gLike"/><classRef key="model.phrase"/><classRef key="model.inter"/><classRef key="model.global"/></alternate></content><constraintSpec ident="abstractModel-structure-l" scheme="schematron">
     <constraint>
       <report xmlns="http://purl.oclc.org/dsdl/schematron" test="ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]">
@@ -6801,7 +7345,7 @@ epistemology, methodology and history of
                         <valItem ident="stanza"/>
                         <valItem ident="tercet"/>
                      </valList>
-                  </attDef></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#CREELEY">
       <lg type="free">
         <l>Let me be my own fool</l>
@@ -7071,256 +7615,16 @@ by the stage direction.</p>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CODR">3.12.2. Core Tags for Drama</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CODV">3.12. Passages of Verse or Drama</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html#DRSTA">7.2.4. Stage Directions</ref>
-  </listRef></elementSpec><classSpec module="namesdates" xml:id="DATABLECUSTOM" type="atts" predeclare="true" ident="att.datable.custom">
-  <desc versionDate="2011-11-11" xml:lang="en">provides attributes for normalization of elements that contain datable events to a custom dating system
-    (i.e. other than the Gregorian used by W3 and ISO).</desc>
-  <attList>
-    <attDef ident="when-custom" usage="opt">
-      <desc versionDate="2014-11-19" xml:lang="en">supplies the value of a date or time in some custom standard form.</desc>
-      <datatype minOccurs="1" maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
-      <exemplum xml:lang="en">
-        <p>The following are examples of custom date or time formats that are <emph>not</emph> valid ISO or W3C format
-                    normalizations, normalized to a different dating system</p>
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <p>Alhazen died in Cairo on the 
-            <date when="1040-03-06" when-custom="431-06-12">
-              12th day of Jumada t-Tania, 430 AH
-            </date>.</p>
-          <p>The current world will end at the 
-            <date when="2012-12-21" when-custom="13.0.0.0.0">end of B'ak'tun 13</date>.</p>
-          <p>The Battle of Meggidu
-            (<date when-custom="Thutmose_III:23">23rd year of reign of Thutmose III</date>).</p>
-          <p>Esidorus bixit in pace annos LXX plus minus sub
-            <date when-custom="Ind:4-10-11">die XI mensis Octobris indictione IIII</date>
-               </p>
-        </egXML>
-        <p>Not all custom date formulations will have Gregorian equivalents.</p>
-        <p>The <att>when-custom</att> attribute and other custom dating are not constrained to a datatype by the TEI, but
-        individual projects are recommended to regularize and document their dating formats.</p>
-      </exemplum>
-    </attDef>
-    <attDef ident="notBefore-custom" usage="opt">
-      <desc versionDate="2011-11-11" xml:lang="en">specifies the earliest possible date for the event in some custom standard form.</desc>
-      <datatype minOccurs="1" maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
-    </attDef>
-    <attDef ident="notAfter-custom" usage="opt">
-      <desc versionDate="2011-11-11" xml:lang="en">specifies the latest possible date for the event in some custom standard form.</desc>
-      <datatype minOccurs="1" maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
-    </attDef>
-    <attDef ident="from-custom" usage="opt">
-      <desc versionDate="2014-11-19" xml:lang="en">indicates the starting point of the period in some custom standard form.</desc>
-      <datatype minOccurs="1" maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
-      <exemplum xml:lang="en">
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <event xml:id="FIRE1" datingMethod="#julian" from-custom="1666-09-02" to-custom="1666-09-05">
-            <head>The Great Fire of London</head>
-            <p>The Great Fire of London burned through a large part 
-          of the city of London.</p>
-          </event>
-        </egXML>
-      </exemplum>
-    </attDef>
-    <attDef ident="to-custom" usage="opt">
-      <desc versionDate="2014-11-19" xml:lang="en">indicates the ending point of the period in some custom standard form.</desc>
-      <datatype minOccurs="1" maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
-    </attDef>
-    <attDef ident="datingPoint" usage="opt">
-      <desc versionDate="2011-11-25" xml:lang="en">supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred</desc>
-      <datatype><dataRef key="teidata.pointer"/></datatype>
-    </attDef>
-    <attDef ident="datingMethod" usage="opt">
-      <desc versionDate="2012-08-15" xml:lang="en">supplies a pointer to a <gi>calendar</gi> element or other
-        means of interpreting the values of the custom dating attributes.</desc>
-      <datatype><dataRef key="teidata.pointer"/></datatype>
-      <exemplum xml:lang="en">
-        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#STOW">Contayning the Originall, Antiquity, Increaſe, Moderne 
-            eſtate, and deſcription of that Citie, written in the yeare 
-            <date when-custom="1598" calendar="#julian" datingMethod="#julian">1598</date>. by Iohn Stow 
-            Citizen of London.</egXML>
-        <p>In this example, the <att>calendar</att> attribute points to a <gi>calendar</gi> element for the 
-          Julian calendar, specifying that the text content of the <gi>date</gi> element is a 
-          Julian date, and the <att>datingMethod</att> attribute also points to the Julian calendar
-          to indicate that the content of the <att>when-custom</att> attribute value is Julian too.</p>
-      </exemplum>
-      <exemplum xml:lang="en">
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <date when="1382-06-28" when-custom="6890-06-20" datingMethod="#creationOfWorld">
-            μηνὶ Ἰουνίου εἰς <num>κ</num> ἔτους <num>ςωϞ</num>
-          </date>
-        </egXML>
-        <p>In this example, a date is given in a Mediaeval text measured "from the creation of the world", which is normalised
-        (in <att>when</att>) to the Gregorian date, but is also normalized (in <att>when-custom</att>) to a
-        machine-actionable, numeric version of the date from the Creation.</p>
-      </exemplum>
-      <remarks xml:lang="en" versionDate="2015-05-29"><p>Note that the <att>datingMethod</att> attribute (unlike
-        <att>calendar</att> defined in <ident type="class">att.datable</ident>) defines
-        the calendar or dating system to which the date described by the parent element is normalized (i.e. in the  
-        <att>when-custom</att> or other <att>X-custom</att> attributes), <emph>not</emph> the calendar of the
-        original date in the element.</p></remarks>
-    </attDef>
-  </attList>
-  <listRef>
-    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDDATE">13.3.7. Dates and Times</ref>
-  </listRef>
-</classSpec><classSpec module="namesdates" xml:id="DATABLEISO" type="atts" predeclare="true" ident="att.datable.iso">
-  <desc versionDate="2007-04-09" xml:lang="en">provides attributes for normalization of elements that contain datable events using the ISO 8601 standard.</desc>
-  <desc versionDate="2007-12-20" xml:lang="ko">ISO 8601 표준을 사용해서 날짜를 추정할 수 있는 사건을 포함하는 요소의 규격화를 위한 속성을 제공한다.</desc>
-  <desc versionDate="2007-05-02" xml:lang="zh-TW">用於紀錄規格化時間的屬性，該規格使用ISO 8601標準</desc>
-  <desc versionDate="2008-04-05" xml:lang="ja">ISO8601に従い，時間事象の正規的方法を示す属性を示す．</desc>
-  <desc versionDate="2009-03-19" xml:lang="fr">fournit des attributs pour la normalisation, selon la norme ISO 8601, d'éléments contenant des évènements
-        datables.</desc>
-  <desc versionDate="2007-11-06" xml:lang="it">indica attributi per la normalizzazione tramite lo standard ISO 8601 di elementi che contengono eventi
-        databili</desc>
-  <desc versionDate="2007-05-04" xml:lang="es">proporciona atributos para la normalización de elementos que contienen eventos datables usando el
-        estándard ISO 8601.</desc>
-  <attList>
-    
-    <attDef ident="when-iso" usage="opt">
-      <desc versionDate="2007-06-12" xml:lang="en">supplies the value of a date or time in a standard form.</desc>
-      <desc versionDate="2007-12-20" xml:lang="ko">표준형의 날짜 또는 시간 값을 제시한다.</desc>
-      <desc versionDate="2008-04-06" xml:lang="es">proporciona el valor de fecha o de tiempo en una forma estándar.</desc>
-      <desc versionDate="2008-04-05" xml:lang="ja">日付や時間を，標準形式で示す．</desc>
-      <desc versionDate="2008-12-09" xml:lang="fr">précise une date exacte pour l'évènement selon la forme normalisée ISO 8601, c'est-à-dire
-                aaaa-mm-jj.</desc>
-      <desc versionDate="2007-11-06" xml:lang="it">indica il valore di una data o di un orario in un formato standard</desc>
-      <datatype><dataRef key="teidata.temporal.iso"/></datatype>
-      <exemplum xml:lang="en">
-        <p>The following are examples of ISO date, time, and date &amp; time formats that are <emph>not</emph> valid W3C format
-                    normalizations.</p>
-        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
-          <date when-iso="1996-09-24T07:25+00">Sept. 24th, 1996 at 3:25 in the morning</date>
-          <date when-iso="1996-09-24T03:25-04">Sept. 24th, 1996 at 3:25 in the morning</date>
-          <time when-iso="1999-01-04T20:42-05">4 Jan 1999 at 8:42 pm</time>
-          <time when-iso="1999-W01-1T20,70-05">4 Jan 1999 at 8:42 pm</time>
-          <date when-iso="2006-05-18T10:03">a few minutes after ten in the morning on Thu 18 May</date>
-          <time when-iso="03:00">3 A.M.</time>
-          <time when-iso="14">around two</time>
-          <time when-iso="15,5">half past three</time>
-        </egXML>
-        <p>All of the examples of the <att>when</att> attribute in the <ident type="class">att.datable.w3c</ident> class are also valid with
-                    respect to this attribute.</p>
-      </exemplum>
-      <exemplum versionDate="2008-04-06" xml:lang="fr">
-        <p>Les exemples qui suivent sont des mentions de date, d'heure, de temps au format ISO qui
-            ne sont <emph> pas </emph>normalisées au format W3C </p>
-        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
-          <date when-iso="1996-09-24T07:25+00">le 24 sept. 1996, à 3 h 25 du matin.</date>
-          <date when-iso="1996-09-24T03:25-04">le 24 sept. 1996, à 3 h 25 du matin.</date>
-          <time when-iso="1999-01-04T20:42-05">le 4 janvier 1999 à 8 h.42 du soir </time>
-          <time when-iso="1999-W01-1T20,70-05">le 4 janvier 1999 à 8 h.42 du soir </time>
-          <date when-iso="2006-05-18T10:03">quelques minutes après 10 heures du matin, le mardi 18
-              mai.</date>
-          <time when-iso="03:00">3 h. du matin.</time>
-          <time when-iso="14">aux alentours de deux heures.</time>
-          <time when-iso="15,5">trois heures et demi.</time>
-        </egXML>
-        <p>Tous les exemples de l’attribut <att>when</att> dans la classe <ident type="class">att.datable.w3c</ident> sont également valides en ce qui concerne cet attribut</p>
-      </exemplum>
-      <exemplum versionDate="2008-04-06" xml:lang="fr">
-        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">Il aime à être ponctuel . J'ai dit<q><time when-iso="12">autour du midi</time></q>, et il est apparu à <time when-iso="12:00:00">midi </time>à l'heure pile.</egXML>
-        <p>La deuxième occurence de <gi>time</gi> a pu être encodée avec l'attribut
-            <att>when</att> , puisque<val>12:00:00</val> est une marque de temps en accord avec la
-            spécification du W3C <title ref="#XSD2">XML Schema Part 2: Datatypes Second
-        Edition</title>. La première occurence
-            ne l'est pas.</p>
-      </exemplum>
-      <exemplum xml:lang="en">
-        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">He likes to be punctual. I said <q><time when-iso="12">around noon</time></q>, and he showed up at <time when-iso="12:00:00">12 O'clock</time> on the dot.</egXML>
-        <p>The second occurence of <gi>time</gi> could have been encoded with the <att>when</att> attribute, as <val>12:00:00</val> is a valid
-                    time with respect to the W3C <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title> specification. The first occurence could not.</p>
-      </exemplum>
-    </attDef>
-    
-    <attDef ident="notBefore-iso" usage="opt">
-      <desc versionDate="2007-04-09" xml:lang="en">specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</desc>
-      <desc versionDate="2007-12-20" xml:lang="ko">yyyy-mm-dd 같은 표준형으로 사건의 시작 날짜를 명시한다.</desc>
-      <desc versionDate="2007-05-02" xml:lang="zh-TW">以標準格式標明該事件可能發生的最早日期，例如年-月-日。</desc>
-      <desc versionDate="2008-04-05" xml:lang="ja">当該事象の一番古い日付を，標準形式で示す．例えば，yyyy-mm-dd．</desc>
-      <desc versionDate="2008-12-09" xml:lang="fr">précise la première date possible pour l'évènement selon la forme normalisée, c'est-à-dire
-                aaaa-mm-jj.</desc>
-      <desc versionDate="2007-11-06" xml:lang="it">specifica la prima data possibile per un evento nel formato standard aaaa-mm-gg</desc>
-      <desc versionDate="2007-05-04" xml:lang="es">indica la fecha más temprana posible para un evento en un formato estándard, p.ej.
-                aaaa-mm-dd.</desc>
-      <datatype><dataRef key="teidata.temporal.iso"/></datatype>
-    </attDef>
-    <attDef ident="notAfter-iso" usage="opt">
-      <desc versionDate="2007-04-09" xml:lang="en">specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</desc>
-      <desc versionDate="2007-12-20" xml:lang="ko">yyyy-mm-dd 같은 표준형으로 사건의 종료 날짜를 명시한다.</desc>
-      <desc versionDate="2007-05-02" xml:lang="zh-TW">以標準格式標明該事件可能發生的最晚日期，例如年-月-日。</desc>
-      <desc versionDate="2008-04-05" xml:lang="ja">当該事象の一番新しい日付を，標準形式で示す．例えば，yyyy-mm-dd．</desc>
-      <desc versionDate="2008-12-09" xml:lang="fr">précise la dernière date possible pour l'évènement selon la forme normalisée, c'est-à-dire
-                aaaa-mm-jj.</desc>
-      <desc versionDate="2007-11-06" xml:lang="it">specifica l'ultima data possibile per un evento nel formato standard aaaa-mm-gg</desc>
-      <desc versionDate="2007-05-04" xml:lang="es">indica la fecha más tardana posible para un evento en un formato estándard, p.ej.
-                aaaa-mm-dd.</desc>
-      <datatype><dataRef key="teidata.temporal.iso"/></datatype>
-    </attDef>
-    <attDef ident="from-iso" usage="opt">
-      <desc versionDate="2007-04-09" xml:lang="en">indicates the starting point of the period in standard form.</desc>
-      <desc versionDate="2007-12-20" xml:lang="ko">표준형으로 기간의 시작 지점을 나타낸다.</desc>
-      <desc versionDate="2007-05-02" xml:lang="zh-TW">以標準格式表示該段時間的起始點。</desc>
-      <desc versionDate="2008-04-05" xml:lang="ja">当該時間幅の，始点を標準形で示す．</desc>
-      <desc versionDate="2008-12-09" xml:lang="fr">Indique le point de départ de la période sous une forme normalisée</desc>
-      <desc versionDate="2007-11-06" xml:lang="it">indica l'inizio del periodo nel formato standard</desc>
-      <desc versionDate="2007-05-04" xml:lang="es">indica el punto de inicio de un periodo de tiempo en formato estándard.</desc>
-      <datatype><dataRef key="teidata.temporal.iso"/></datatype>
-    </attDef>
-    <attDef ident="to-iso" usage="opt">
-      <desc versionDate="2007-04-09" xml:lang="en">indicates the ending point of the period in standard form.</desc>
-      <desc versionDate="2007-12-20" xml:lang="ko">표준형으로 기간의 종료 지점을 나타낸다.</desc>
-      <desc versionDate="2007-05-02" xml:lang="zh-TW">以標準格式表示該段時間的結束點。</desc>
-      <desc versionDate="2008-04-06" xml:lang="es">indica en forma estándard el punto de conclusión de un período.</desc>
-      <desc versionDate="2008-04-05" xml:lang="ja">当該時間幅の，終点を標準形で示す．</desc>
-      <desc versionDate="2008-12-09" xml:lang="fr">Indique le point final de la période sous une forme normalisée</desc>
-      <desc versionDate="2007-11-06" xml:lang="it">indica la fine del periodo nel formato standard</desc>
-      <datatype><dataRef key="teidata.temporal.iso"/></datatype>
-    </attDef>
-    
-  </attList>
-  <remarks versionDate="2008-07-23" xml:lang="en">
-    <p>The value of these attributes should be a normalized
-    representation of the date, time, or combined date &amp; time
-    intended, in any of the standard formats specified by ISO 8601,
-    using the Gregorian calendar.</p>
-  </remarks>
-  <remarks versionDate="2009-03-19" xml:lang="fr">
-    <p>La valeur de <att>when-iso</att> doit être une représentation normalisée de la date, de la durée ou d'une combinaison de date et de
-    durée, dans l'un des formats spécifiés dans ISO 8601, selon le calendrier grégorien.</p>
-  </remarks>
-  <remarks xml:lang="ja" versionDate="2008-04-05">
-    <p> 属性<att>when-iso</att>の値は，ISO8601に従った，日付や時間，ま たはその組み合わせになる．属性<att>calendar</att>がある場合に は，要素内容の歴システムが示される．属<att>calendar</att>は，
-    属性<att>when</att>
-    <att>when-iso</att>の歴システムを示すもので はない．これは普通はグレゴリオ暦になる． </p>
-  </remarks>
-  <remarks versionDate="2007-06-12" xml:lang="en">
-    <p>If both <att>when-iso</att> and <att>dur-iso</att> are specified, the values should be interpreted as indicating a span of time by its
-            starting time (or date) and duration. That is, <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01" dur-iso="P8D"/></egXML> indicates the same time period as <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01/P8D"/></egXML>
-        </p>
-    <p>In providing a <soCalled>regularized</soCalled> form, no claim is made that the form in the source text is incorrect; the regularized form
-            is simply that chosen as the main form for purposes of unifying variant forms under a single heading.</p>
-  </remarks>
-  <remarks versionDate="2009-03-19" xml:lang="fr">
-    <p>Si les attributs <att>when-iso</att> et <att>dur-iso</att> sont tous les deux spécifiés, les valeurs doivent être interprétées comme
-            indiquant un intervalle de temps au moyen de son point de départ (ou date) et de sa durée. C'est à dire, <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01" dur-iso="P8D"/></egXML> indique la même période temporelle que <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01/P8D"/></egXML>
-        </p>
-    <p>En fournissant une forme dite "régularisée", il n'est rien affirmé sur la correction ou l'incorrection de la forme dans le texte source ;
-            la forme régularisée est simplement celle qui est choisie comme forme principale afin de réunir les variantes de forme sous une seule
-            rubrique.</p>
-  </remarks>
-  <remarks xml:lang="ja" versionDate="2008-04-05">
-    <p> 属性<att>when-iso</att>と<att>dur-iso</att>が付与されている場合， 当該属性値は時間幅を示し，それぞれ始点と幅を示すものになる． 例えば，以下のような場合， <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01" dur-iso="P8D"/></egXML> この記述は，以下のようにも書くことができる． <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01/P8D"/></egXML>
-        </p>
-    <p><soCalled>正規化</soCalled>形式ということで，元テキストにある形式 が不正確であるということを含むものではない． ここでいう正規化形式とは，単に，ひとつの項目に同じ値を付与すること を目的とするものである． </p>
-  </remarks>
-  <listRef>
-    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONADA">3.5.4. Dates and Times</ref>
-    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDDATE">13.3.7. Dates and Times</ref>
-  </listRef>
-</classSpec><elementSpec rend="change" module="namesdates" ident="orgName"><gloss versionDate="2005-01-14" xml:lang="en">organization name</gloss><gloss versionDate="2007-12-20" xml:lang="ko">조직명</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">組織名稱</gloss><gloss versionDate="2008-12-09" xml:lang="fr">nom d'organisation</gloss><gloss versionDate="2007-05-04" xml:lang="es">nombre de una organización</gloss><gloss versionDate="2007-01-21" xml:lang="it">nome di organizzazione</gloss><desc versionDate="2005-01-14" xml:lang="en">contains an organizational name.</desc><desc versionDate="2007-12-20" xml:lang="ko">조직명을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個組織名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">組織の名前を示す．</desc><desc versionDate="2009-03-19" xml:lang="fr">contient le nom d'une organisation.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene el nombre de una organización.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene il nome proprio di un'organizzazione</desc><classes><memberOf key="att.global"/><memberOf key="model.nameLike.agent"/><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.personal"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
+  </listRef></elementSpec><elementSpec rend="change" module="namesdates" ident="orgName"><gloss versionDate="2005-01-14" xml:lang="en">organization name</gloss><gloss versionDate="2007-12-20" xml:lang="ko">조직명</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">組織名稱</gloss><gloss versionDate="2008-12-09" xml:lang="fr">nom d'organisation</gloss><gloss versionDate="2007-05-04" xml:lang="es">nombre de una organización</gloss><gloss versionDate="2007-01-21" xml:lang="it">nome di organizzazione</gloss><desc versionDate="2005-01-14" xml:lang="en">contains an organizational name.</desc><desc versionDate="2007-12-20" xml:lang="ko">조직명을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個組織名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">組織の名前を示す．</desc><desc versionDate="2009-03-19" xml:lang="fr">contient le nom d'une organisation.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene el nombre de una organización.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene il nome proprio di un'organizzazione</desc><classes><memberOf key="att.global"/><memberOf key="model.nameLike.agent"/><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.personal"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="calendar" mode="delete"/><attDef ident="when" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/><attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
                      </valList>
-                  </attDef><attDef ident="ref" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="ref" mode="delete"/><attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="regional"/>
+                        <valItem ident="voluntary"/>
+                     </valList>
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">About a year back, a question of considerable interest was agitated in the <orgName key="PAS1" type="voluntary"><placeName key="PEN">Pennsyla.</placeName> Abolition Society</orgName> [...]</egXML>
   </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -7340,11 +7644,11 @@ by the stage direction.</p>
     como un nombre propio, que se refiere a una persona y puede incluir cualquier o todos los
     nombres de pila, apellidos, títulos honoríficos, o nombres añadidos de la persona en cuestión.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un nome proprio o un sintagma identificabile
     come nome proprio, che si riferisce a una persona e può includere qualsiasi o tutti i prenomi,
-    cognomi, titoli onorifici, o nomi aggiunti della persona in questione</desc><classes><memberOf key="att.global"/><memberOf key="model.nameLike.agent"/><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.personal"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
+    cognomi, titoli onorifici, o nomi aggiunti della persona in questione</desc><classes><memberOf key="att.global"/><memberOf key="model.nameLike.agent"/><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.personal"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="calendar" mode="delete"/><attDef ident="when" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/><attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
                      </valList>
-                  </attDef><attDef ident="ref" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <persName><forename>Edward</forename><forename>George</forename><surname type="linked">Bulwer-Lytton</surname>, <roleName>Baron Lytton of
         <placeName>Knebworth</placeName>
@@ -7369,11 +7673,66 @@ by the stage direction.</p>
     </egXML>
   </exemplum><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER">13.2.1. Personal Names</ref>
-  </listRef></elementSpec><elementSpec rend="change" module="namesdates" ident="placeName"><gloss versionDate="2008-12-09" xml:lang="fr">nom de lieu</gloss><desc versionDate="2005-01-14" xml:lang="en">contains an absolute or relative place name.</desc><desc versionDate="2007-12-20" xml:lang="ko">절대적 또는 상대적 위치명을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個確切位置或相對位置的名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">絶対的，相対的場所名を示す．</desc><desc versionDate="2009-03-19" xml:lang="fr">contient un nom de lieu absolu ou relatif.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene la indicación absoluta o relativa de un nombre de lugar.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene l'indicazione assoluta o relativa di un nome di luogo</desc><classes><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.global"/><memberOf key="att.personal"/><memberOf key="att.typed"/><memberOf key="model.placeNamePart"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
+  </listRef></elementSpec><elementSpec rend="change" module="namesdates" ident="surname"><gloss versionDate="2009-03-19" xml:lang="fr">nom de famille</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a family (inherited) name, as opposed to a given, baptismal, or nick name.</desc><desc versionDate="2009-01-05" xml:lang="fr">contient un nom de famille (hérité) par opposition à un nom donné, nom de baptême ou surnom.</desc><desc versionDate="2007-12-20" xml:lang="ko">이름, 세례명, 또는 별명에 반대되는 것으로 (물려받은) 성을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個家族姓氏，並非名字、教名、或綽號。</desc><desc versionDate="2008-04-05" xml:lang="ja">(継承される)苗字を示す．姓名中の名，洗礼名，愛称，別称とは異なる．</desc><desc versionDate="2007-05-04" xml:lang="es">contiene el apellido o nombre de família (heredado), en oposicion a un nombre asignado, un nombre de
+        bautismo o un sobranombre.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un nome di famiglia (ereditato) piuttosto che un nome assegnato, un nome di battesimo o un
+        soprannome</desc><classes><memberOf key="att.global"/><memberOf key="model.persNamePart"/><memberOf key="att.personal"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
                      </valList>
-                  </attDef><attDef ident="ref" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/><attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="combine"/>
+                        <valItem ident="linked"/>
+                     </valList>
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <surname type="combine">St John Stevas</surname>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <surname type="combine">Sidonie Gabrielle Colette</surname>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <surname type="combine">歐陽</surname>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER">13.2.1. Personal Names</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="namesdates" ident="forename"><gloss versionDate="2008-12-09" xml:lang="fr">prénom</gloss><desc versionDate="2005-10-16" xml:lang="en">contains a forename, given or baptismal name.</desc><desc versionDate="2007-12-20" xml:lang="ko">이름 또는 세례명을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含名字或教名。</desc><desc versionDate="2008-04-05" xml:lang="ja">人物に与えられた名前のうち，名の部分，すなわち個人を表す部分を示す．</desc><desc versionDate="2009-03-19" xml:lang="fr">contient un prénom, qu'il soit donné ou un nom de baptême.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene el nombre de pila asignado en el bautismo. </desc><desc versionDate="2007-01-21" xml:lang="it">contiene un prenome assegnato o un nome di battesimo</desc><classes><memberOf key="att.global"/><memberOf key="model.persNamePart"/><memberOf key="att.personal"/><memberOf key="att.typed"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="yes"/>
+                     </valList>
+                  </attDef><attDef ident="key" mode="delete"/><attDef ident="ref" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <persName>
+        <roleName>Ex-President</roleName>
+        <forename>George</forename>
+        <surname>Bush</surname>
+      </persName>
+    </egXML>
+  </exemplum><exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <persName>
+        <roleName>Ex-Président</roleName>
+        <forename>George</forename>
+        <surname>Bush</surname>
+      </persName>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <persName>
+        <roleName>先總統</roleName>
+        <forename>中正</forename>
+        <surname>蔣</surname>
+      </persName>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER">13.2.1. Personal Names</ref>
+  </listRef></elementSpec><elementSpec rend="change" module="namesdates" ident="placeName"><gloss versionDate="2008-12-09" xml:lang="fr">nom de lieu</gloss><desc versionDate="2005-01-14" xml:lang="en">contains an absolute or relative place name.</desc><desc versionDate="2007-12-20" xml:lang="ko">절대적 또는 상대적 위치명을 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個確切位置或相對位置的名稱。</desc><desc versionDate="2008-04-05" xml:lang="ja">絶対的，相対的場所名を示す．</desc><desc versionDate="2009-03-19" xml:lang="fr">contient un nom de lieu absolu ou relatif.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene la indicación absoluta o relativa de un nombre de lugar.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene l'indicazione assoluta o relativa di un nome di luogo</desc><classes><memberOf key="att.datable"/><memberOf key="att.editLike"/><memberOf key="att.global"/><memberOf key="att.personal"/><memberOf key="att.typed"/><memberOf key="model.placeNamePart"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="calendar" mode="delete"/><attDef ident="when" mode="delete"/><attDef ident="notBefore" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="full" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="yes"/>
+                     </valList>
+                  </attDef><attDef ident="ref" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <placeName>
         <settlement>Rochester</settlement>
@@ -7703,7 +8062,7 @@ programming language.</desc><desc versionDate="2007-12-20" xml:lang="ko">프로�
                         <valItem ident="module"/>
                         <valItem ident="ns"/>
                      </valList>
-                  </attDef></attList><exemplum versionDate="2016-11-04" xml:lang="und">
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum versionDate="2016-11-04" xml:lang="und">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <ident type="ns">http://www.tei-c.org/ns/Examples</ident>
     </egXML>
@@ -7735,7 +8094,7 @@ programming language.</desc><desc versionDate="2007-12-20" xml:lang="ko">프로�
     final, posiblemente incluyendo eventuales descripciones de atributos, pero nunca los caracteres
     de delimitación de inicio y fin del marcador.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene il testo completo di un marcatore iniziale o
     finale, ivi comprese eventuali descrizioni di attributi ma esclusi i caratteri di delimitazione
-    di inizio e fine del marcatore</desc><classes><memberOf key="att.global"/><memberOf key="model.phrase.xml"/></classes><content><textNode/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" usage="opt"><desc versionDate="2008-04-05" xml:lang="en">indicates the type of XML tag intended</desc><desc versionDate="2009-01-23" xml:lang="fr">indique quel type de balise XML est prévu.</desc><desc versionDate="2008-04-08" xml:lang="it">indica di quale tipo di marcatore XML si tratta</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="comment"/><valItem ident="end"/></valList><valList type="closed"><valItem ident="comment"/><valItem ident="end"/></valList></attDef><attDef ident="scheme" mode="delete"/></attList><exemplum xml:lang="en">
+    di inizio e fine del marcatore</desc><classes><memberOf key="att.global"/><memberOf key="model.phrase.xml"/></classes><content><textNode/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="type" usage="opt"><desc versionDate="2008-04-05" xml:lang="en">indicates the type of XML tag intended</desc><desc versionDate="2009-01-23" xml:lang="fr">indique quel type de balise XML est prévu.</desc><desc versionDate="2008-04-08" xml:lang="it">indica di quale tipo di marcatore XML si tratta</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="comment"/><valItem ident="end"/></valList><valList type="closed"><valItem ident="comment"/><valItem ident="end"/></valList></attDef><attDef ident="scheme" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">Mark the start of each italicised phrase with a
         <tag>hi rend="it"</tag> tag, and its end with a <tag type="end">hi</tag> tag.<tag type="comment">Example updated on 2008-04-05</tag>
       </egXML>
@@ -7932,7 +8291,7 @@ module, i.e. a named and externally visible group of declarations.</desc><desc v
                      <valList mode="add" type="closed">
                         <valItem ident="core"/>
                      </valList>
-                  </attDef></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <moduleSpec ident="namesdates">
         <altIdent type="FPI">Names and Dates</altIdent>
@@ -8145,7 +8504,7 @@ that is a group of
                      <valList mode="add" type="closed">
                         <valItem ident="change"/>
                      </valList>
-                  </attDef><attDef ident="validUntil" mode="delete"/><attDef ident="type" usage="req"><desc versionDate="2005-10-05" xml:lang="en">indicates whether this is a model class or an attribute class</desc><desc versionDate="2007-12-20" xml:lang="ko">모델 부류 또는 속성 부류 여부를 나타낸다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">指出這是結構元素集或是屬性元素集。</desc><desc versionDate="2008-04-05" xml:lang="ja">当該クラスがモデルクラスか属性クラスかを示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">indique si c'est une classe de modèles ou
+                  </attDef><attDef ident="validUntil" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="type" usage="req"><desc versionDate="2005-10-05" xml:lang="en">indicates whether this is a model class or an attribute class</desc><desc versionDate="2007-12-20" xml:lang="ko">모델 부류 또는 속성 부류 여부를 나타낸다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">指出這是結構元素集或是屬性元素集。</desc><desc versionDate="2008-04-05" xml:lang="ja">当該クラスがモデルクラスか属性クラスかを示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">indique si c'est une classe de modèles ou
 					une classe d'attributs</desc><desc versionDate="2007-05-04" xml:lang="es">indica si se trata de una clase de modelos o de atributos.</desc><desc versionDate="2007-01-21" xml:lang="it">indica se si tratta di una classe di modelli o di attributi</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="atts"/><valItem ident="model"/></valList><valList type="closed"><valItem ident="atts"/><valItem ident="model"/></valList></attDef><attDef ident="generate" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <classSpec module="tei" type="model" ident="model.segLike">
@@ -8268,7 +8627,7 @@ the associated TEI header.</p>
     current document or elsewhere.</desc><desc versionDate="2007-12-20" xml:lang="ko">현 문서 또는 그 밖의 어디든지 이 요소는 논의된 위치에 대한 중요한 참조 목록을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供一個重要參照的列表，這些參照連結到詳述此元素的位置，在此文件裡或是其他地方。</desc><desc versionDate="2008-04-05" xml:lang="ja">場所への参照のリストを示す．当該文書中でも外部文書でもよい．</desc><desc versionDate="2007-06-12" xml:lang="fr">fournit une liste de références signifiantes là où cet
     élément est commenté, dans le document courant ou ailleurs.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona una lista de referencias significativas a
     puntos, en el documento corriente u otro lugar, en el que se discute el elemento en cuestión.</desc><desc versionDate="2007-01-21" xml:lang="it">fornisce una lista di riferimenti significativi a punti,
-    nel documento corrente o altrove, in cui è discusso l'elemento in questione</desc><classes><memberOf key="att.global"/><memberOf key="model.oddDecl"/></classes><content><classRef key="model.ptrLike" minOccurs="1" maxOccurs="unbounded"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="und">
+    nel documento corrente o altrove, in cui è discusso l'elemento in questione</desc><classes><memberOf key="att.global"/><memberOf key="model.oddDecl"/></classes><content><classRef key="model.ptrLike" minOccurs="1" maxOccurs="unbounded"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="und">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
       <listRef>
         <ptr target="#ddc12"/>
@@ -8284,7 +8643,7 @@ the associated TEI header.</p>
     commentary.</desc><desc versionDate="2007-12-20" xml:lang="ko">요소의 사용을 나타내는 단일 예를 포함한다. 수의적으로 논평문단과 함께 나타난다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含說明某一元素使用的單一範例，可任意配合註解段落。</desc><desc versionDate="2008-04-05" xml:lang="ja">要素の使用例をひとつ示す．段落単位の解説を伴うかもしれない．</desc><desc versionDate="2007-06-12" xml:lang="fr">contient un exemple qui montre l'utilisation d'un élément
     avec de possibles paragraphes de commentaires.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un ejemplo demostrativo del uso de un elemento,
     junto a eventuales párrafos explicativos.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un unico esempio che illustra l'utilizzo di un
-    elemento insieme ad eventuali paragrafi di discussione</desc><classes><memberOf key="att.global"/><memberOf key="att.typed"/><memberOf key="att.translatable"/></classes><content><sequence minOccurs="1" maxOccurs="1"><classRef key="model.pLike" minOccurs="0" maxOccurs="unbounded"/><alternate minOccurs="1" maxOccurs="1"><elementRef key="egXML"/><elementRef key="eg"/></alternate><classRef key="model.pLike" minOccurs="0" maxOccurs="unbounded"/></sequence></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+    elemento insieme ad eventuali paragrafi di discussione</desc><classes><memberOf key="att.global"/><memberOf key="att.typed"/><memberOf key="att.translatable"/></classes><content><sequence minOccurs="1" maxOccurs="1"><classRef key="model.pLike" minOccurs="0" maxOccurs="unbounded"/><alternate minOccurs="1" maxOccurs="1"><elementRef key="egXML"/><elementRef key="eg"/></alternate><classRef key="model.pLike" minOccurs="0" maxOccurs="unbounded"/></sequence></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <exemplum xml:lang="en">
         <p>The <gi>name</gi> element can be used for both personal names and place names:</p>
@@ -8625,7 +8984,7 @@ class is a member or subclass.</desc><desc versionDate="2007-12-20" xml:lang="ko
         have an 'assert' or 'report' element without a parent 'rule' element</sch:report>
       </sch:rule>
     </constraint>
-  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="predeclare" mode="delete"/><attDef ident="module" mode="delete"/><attDef ident="mode" mode="delete"/><attDef ident="scheme" usage="req">
+  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="predeclare" mode="delete"/><attDef ident="module" mode="delete"/><attDef ident="mode" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="scheme" usage="req">
       <desc versionDate="2009-06-10" xml:lang="en">supplies the name of the language in which the constraints
       are defined</desc>
       <datatype><dataRef key="teidata.enumerated"/></datatype>
@@ -9555,6 +9914,79 @@ class is a member or subclass.</desc><desc versionDate="2007-12-20" xml:lang="ko
   </exemplum><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD21">2.2.1. The Title Statement</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD2">2.2. The File Description</ref>
+  </listRef></elementSpec><elementSpec xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="header" ident="editionStmt"><gloss versionDate="2005-01-14" xml:lang="en">edition statement</gloss><gloss versionDate="2009-01-05" xml:lang="fr">mention d'édition</gloss><gloss versionDate="2007-12-20" xml:lang="ko">편집 진술</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">版本陳述</gloss><gloss versionDate="2016-11-17" xml:lang="de">Angaben zur Ausgabe</gloss><gloss versionDate="2007-05-04" xml:lang="es">declaración de la edición</gloss><gloss versionDate="2007-01-21" xml:lang="it">dichiarazione sull'edizione</gloss><desc versionDate="2005-01-14" xml:lang="en">groups information relating to one edition of a text.</desc><desc versionDate="2009-01-05" xml:lang="fr">regroupe les informations relatives à l’édition d’un texte.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트의 한 판에 관련된 정보를 모아 놓는다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">匯集文件某一版本的相關資訊。</desc><desc versionDate="2008-04-05" xml:lang="ja">版に関する情報をまとめる．</desc><desc versionDate="2016-11-17" xml:lang="de">umfasst Angaben, die sich auf eine spezifische Ausgabe eines Textes beziehen.</desc><desc versionDate="2007-05-04" xml:lang="es">agrupa la información relativa a la edición de un texto.</desc><desc versionDate="2007-01-21" xml:lang="it">raggruppa le informazioni riguardo una edizione di un testo.</desc><classes><memberOf key="att.global"/></classes><content><alternate minOccurs="1" maxOccurs="1"><classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/><sequence minOccurs="1" maxOccurs="1"><elementRef key="edition"/><classRef key="model.respLike" minOccurs="0" maxOccurs="unbounded"/></sequence></alternate></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <editionStmt>
+        <edition n="S2">Students' edition</edition>
+        <respStmt>
+          <resp>Adapted by </resp>
+          <name>Elizabeth Kirk</name>
+        </respStmt>
+      </editionStmt>
+    </egXML>
+  </exemplum><exemplum versionDate="2010-02-26" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <editionStmt>
+        <edition>Deuxième édition</edition>
+        <respStmt>
+          <resp>réalisée par</resp>
+          <name>L. F.</name>
+        </respStmt>
+      </editionStmt>
+    </egXML>
+  </exemplum><exemplum versionDate="2010-02-26" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <editionStmt>
+        <p>Première édition électronique, Nancy, <date> 2002</date>, réalisée dans le cadre de la
+            base <ref target="http://www.frantext.fr/">FRANTEXT</ref> .</p>
+      </editionStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <editionStmt>
+        <edition n="S2">學生版</edition>
+        <respStmt>
+          <resp>改編自</resp>
+          <name>伊莉莎白．科克</name>
+        </respStmt>
+      </editionStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <editionStmt>
+        <p>初版<date>1991年，上學期</date>
+            </p>
+      </editionStmt>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <editionStmt>
+        <p>First edition, <date>Michaelmas Term, 1991.</date>
+            </p>
+      </editionStmt>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD22">2.2.2. The Edition Statement</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD2">2.2. The File Description</ref>
+  </listRef></elementSpec><elementSpec xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="header" ident="edition"><gloss versionDate="2009-01-05" xml:lang="fr">édition</gloss><gloss versionDate="2007-12-20" xml:lang="ko">편집, 판</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">版本</gloss><gloss versionDate="2016-11-25" xml:lang="de">Ausgabe</gloss><gloss versionDate="2007-05-04" xml:lang="es">edición</gloss><gloss versionDate="2007-01-21" xml:lang="it">Edizione</gloss><desc versionDate="2005-01-14" xml:lang="en">describes the particularities of one edition of a text.</desc><desc versionDate="2009-01-05" xml:lang="fr">décrit les particularités de l’édition d’un texte.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트의 한 판의 특성을 기술한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">描述文件某一版本的特質。</desc><desc versionDate="2008-04-05" xml:lang="ja">テキストの版の詳細を示す．</desc><desc versionDate="2016-11-17" xml:lang="de">beschreibt die Details einer Ausgabe eines Textes.</desc><desc versionDate="2007-05-04" xml:lang="es">describe las particularidades de la edición de un texto.</desc><desc versionDate="2007-01-21" xml:lang="it">descrive le peculiarità di una edizione del testo.</desc><classes><memberOf key="att.global"/><memberOf key="model.biblPart"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <edition>First edition <date>Oct 1990</date>
+         </edition>
+      <edition n="S2">Students' edition</edition>
+    </egXML>
+  </exemplum><exemplum versionDate="2010-02-26" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <edition>Première édition électronique, Nancy <date>2002</date>
+         </edition>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <edition>初版<date>1990年10月</date>
+         </edition>
+      <edition n="S2">學生版</edition>
+    </egXML>
+  </exemplum><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD22">2.2.2. The Edition Statement</ref>
   </listRef></elementSpec><elementSpec xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="header" ident="publicationStmt"><gloss versionDate="2005-01-14" xml:lang="en">publication statement</gloss><gloss versionDate="2009-01-05" xml:lang="fr">mention de publication</gloss><gloss versionDate="2007-12-20" xml:lang="ko">출판 진술</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">出版陳述</gloss><gloss versionDate="2016-11-17" xml:lang="de">Angaben zur Veröffentlichung</gloss><gloss versionDate="2007-05-04" xml:lang="es">declaración de la publicación</gloss><gloss versionDate="2007-01-21" xml:lang="it">dichiarazione sulla pubblicazione</gloss><desc versionDate="2005-01-14" xml:lang="en">groups information concerning the publication or distribution of an electronic or other text.</desc><desc versionDate="2009-01-05" xml:lang="fr"> regroupe des informations concernant la publication ou
     la diffusion d’un texte électronique ou d’un autre type de texte.</desc><desc versionDate="2007-12-20" xml:lang="ko">전자 또는 기타 텍스트의 출판 또는 배포에 관한 정보를 모아 놓는다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">匯集電子文件或其他類型文件的出版或發行相關資訊。</desc><desc versionDate="2008-04-05" xml:lang="ja">電子テキストなどの出版や頒布に関する情報をまとめる．</desc><desc versionDate="2016-11-17" xml:lang="de">umfasst Angaben zu Veröffentlichung oder Vertrieb eines elektronischen oder sonstigen Textes.</desc><desc versionDate="2007-05-04" xml:lang="es">agrupa la información concerniente a la publicación o
     distribución de un texto electrónico u otro texto.</desc><desc versionDate="2007-01-21" xml:lang="it">raggruppa le informazioni riguardo la pubblicazione o la
@@ -9659,6 +10091,136 @@ class is a member or subclass.</desc><desc versionDate="2007-12-20" xml:lang="ko
   </remarks><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD2">2.2. The File Description</ref>
+  </listRef></elementSpec><elementSpec xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="header" ident="availability"><gloss versionDate="2007-06-12" xml:lang="fr">disponibilité</gloss><gloss versionDate="2016-11-17" xml:lang="de">Verfügbarkeit</gloss><desc versionDate="2011-11-17" xml:lang="en">supplies information about the availability of a text, for example any restrictions on its
+    use or distribution, its copyright status, any licence applying to it, etc.</desc><desc versionDate="2009-01-05" xml:lang="fr">renseigne sur la disponibilité du texte, par exemple sur
+    toutes restrictions quant à son usage ou sa diffusion, son copyright, etc.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트 이용에 관한 정보를 제시한다. 예를 들어 사용 또는 배포의 제한, 저작권 상태 등.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供關於文件可利用性的資訊，例如使用或發行上的任何限制、版權狀態等。</desc><desc versionDate="2008-04-06" xml:lang="ja">テキストの利用可能性に関する情報を示す．例えば，その使用や頒布， 著作権に関する制限など．</desc><desc versionDate="2016-11-17" xml:lang="de">liefert Informationen zur Verfügbarkeit eines Textes, zum Beispiel Einschränkungen bezüglich des Gebrauchs oder der Weitergabe, Lizensierungen usw.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona información sobre la disponibilidad de un
+    texto, por ejemplo cualquier restricción en cuanto a su uso o distribución, su copyright, etc.</desc><desc versionDate="2007-01-21" xml:lang="it">fornisce informazioni sulla disponibilità di un testo,
+    per esempio su qualsiasi restrizione che si applica alla sua utilizzazione o distribuzione, il
+    suo statuto in merito al copyright, etc.</desc><classes><memberOf key="att.global"/><memberOf key="model.publicationStmtPart.detail"/><memberOf key="att.declarable"/><memberOf key="model.biblPart"/></classes><content><alternate minOccurs="1" maxOccurs="unbounded"><classRef key="model.availabilityPart"/><classRef key="model.pLike"/></alternate></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="default" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="false"/>
+                     </valList>
+                  </attDef><attDef ident="status" usage="opt"><gloss versionDate="2016-11-25" xml:lang="de">Statuscode</gloss><desc versionDate="2005-01-14" xml:lang="en">supplies a code identifying the current availability of the text.</desc><desc versionDate="2009-01-05" xml:lang="fr">donne un code caractérisant la disponibilité
+        actuelle d’un texte.</desc><desc versionDate="2007-12-20" xml:lang="ko">텍스트의 현재 이용 가능성을 식별하는 부호를 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">提供一個代號，用來確認文件目前的可利用性。</desc><desc versionDate="2008-04-06" xml:lang="ja">当該テキストの，現在の利用可能性を表すコードを示す．</desc><desc versionDate="2016-11-17" xml:lang="de">gibt einen Code an, der die derzeitige Nutzbarkeit eines Textes festlegt.</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona un código identificativo de la
+        disponibilidad actual del texto.</desc><desc versionDate="2007-01-21" xml:lang="it">fornisce un codice che identifica l'attuale
+        disponibilità del testo.</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="free"/><valItem ident="restricted"/></valList></attDef></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <availability status="restricted">
+        <p>Available for academic research purposes only.</p>
+      </availability>
+      <availability status="free">
+        <p>In the public domain</p>
+      </availability>
+      <availability status="restricted">
+        <p>Available under licence from the publishers.</p>
+      </availability>
+    </egXML>
+  </exemplum><exemplum versionDate="2010-02-26" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#fr-ex-Abes">
+      <availability status="restricted">
+        <p>L' ABES a adopté le système Créative Commons pour permettre à tous ceux qui le
+            souhaitent, de reproduire tout ou partie des rubriques du site de l'ABES sur support
+            papier ou support électronique.</p>
+      </availability>
+    </egXML>
+  </exemplum><exemplum xml:lang="zh-TW">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <availability status="restricted">
+        <p>僅供學術研究使用</p>
+      </availability>
+      <availability status="free">
+        <p>用於公共領域</p>
+      </availability>
+      <availability status="restricted">
+        <p>需徵求出版商授權</p>
+      </availability>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <availability>
+        <licence target="http://opensource.org/licenses/MIT">
+          <p>The MIT License
+            applies to this document.</p>
+          <p>Copyright (C) 2011 by The University of Victoria</p>
+          <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+            of this software and associated documentation files (the "Software"), to deal
+            in the Software without restriction, including without limitation the rights
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+            copies of the Software, and to permit persons to whom the Software is
+            furnished to do so, subject to the following conditions:</p>
+          <p>The above copyright notice and this permission notice shall be included in
+            all copies or substantial portions of the Software.</p>
+          <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+            THE SOFTWARE.</p>
+        </licence>
+      </availability>
+    </egXML>
+  </exemplum><remarks versionDate="2005-01-14" xml:lang="en">
+    <p rend="dataDesc">A consistent format should be adopted</p>
+  </remarks><remarks xml:lang="fr" versionDate="2007-06-12">
+    <p rend="dataDesc">On devrait adopter un format de codage reconnu.</p>
+  </remarks><remarks xml:lang="es" versionDate="2008-04-06">
+    <p rend="dataDesc">Se debe adoptar un formato constante</p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p rend="dataDesc"> 永続的な形式で示されるべきである． </p>
+  </remarks><remarks xml:lang="de" versionDate="2016-11-17">
+      <p rend="dataDesc">Es sollte ein einheitliches Format verwendet werden.</p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
+  </listRef></elementSpec><elementSpec xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="header" ident="licence"><desc versionDate="2011-04-25" xml:lang="en">contains information about a licence or other legal agreement
+  applicable to the text.</desc><desc xml:lang="fr" versionDate="2013-02-27">contient des informations
+légales applicables au texte, notamment le contrat de licence
+définissant les droits d'utilisation.</desc><desc xml:lang="de" versionDate="2016-11-17">beinhaltet für den Text gültige Lizenzinformationen oder andere rechtswirksame Vereinbarungen.</desc><classes><memberOf key="att.global"/><memberOf key="att.pointing"/><memberOf key="att.datable"/><memberOf key="model.availabilityPart"/></classes><content><macroRef key="macro.specialPara"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="calendar" mode="delete"/><attDef ident="when" mode="delete"/><attDef ident="from" mode="delete"/><attDef ident="to" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="when-custom" mode="delete"/><attDef ident="datingMethod" mode="delete"/></attList><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <licence target="http://www.nzetc.org/tm/scholarly/tei-NZETC-Help.html#licensing">
+        Licence: Creative Commons Attribution-Share Alike 3.0 New Zealand Licence
+      </licence>
+    </egXML>
+  </exemplum><exemplum xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">
+        Creative Commons Attribution 3.0 non transposé (CC BY 3.0)
+      </licence>
+    </egXML>
+  </exemplum><exemplum xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <licence target="http://creativecommons.org/licenses/by-sa/2.0/"> Ce document
+                        est publié librement sur le web à destination de la communauté scientifique
+                        dans le cadre de la licence Creative Commons « Paternité-Pas d’Utilisation
+                        Commerciale-Partage des Conditions Initiales à l’Identique 2.0 France ».
+                      </licence>
+    </egXML>
+  </exemplum><exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <availability>
+        <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2013-01-01">
+          <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence 
+	  applies to this document.</p>
+          <p>The licence was added on January 1, 2013.</p>
+        </licence>
+      </availability>
+    </egXML>
+  </exemplum><remarks versionDate="2011-04-25" xml:lang="en">
+    <p>A <gi>licence</gi> element should be supplied for each licence
+    agreement applicable to the text in question. The
+    <att>target</att> attribute may be used to reference a full
+    version of the licence. The <att>when</att>, <att>notBefore</att>,
+    <att>notAfter</att>, <att>from</att> or <att>to</att> attributes
+    may be used in combination to indicate the date or dates of
+    applicability of the licence.</p>
+  </remarks><remarks versionDate="2016-11-17" xml:lang="de">
+      <p>
+          Das <gi>licence</gi>-Element soll für jede Lizenzvereinbarung, 
+          die sich auf den Text bezieht, angegeben werden. Das <att>target</att>-Attribut 
+          kann verwendet werden, um auf eine vollständige Version der Lizenz zu referenzieren. Die Attribute <att>when</att>, <att>notBefore</att>, <att>notAfter</att>, <att>from</att> oder <att>to</att> können in Kombination verwendet werden, um den Gültigkeitszeitraum der Lizenz anzugeben. 
+      </p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24">2.2.4. Publication, Distribution, Licensing, etc.</ref>
   </listRef></elementSpec><elementSpec xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0" rend="change" module="header" ident="sourceDesc"><gloss versionDate="2007-07-04" xml:lang="en">source description</gloss><gloss versionDate="2009-01-05" xml:lang="fr">description de la source</gloss><gloss versionDate="2007-12-20" xml:lang="ko">원전 기술</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW"/><gloss versionDate="2008-04-06" xml:lang="es">descripción de la fuente</gloss><gloss versionDate="2007-11-06" xml:lang="it">descrizione della fonte</gloss><gloss versionDate="2016-11-17" xml:lang="de">Beschreibung der Quellen</gloss><desc versionDate="2008-12-09" xml:lang="en">describes the source from which an electronic text was derived or generated, typically a
     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
     for a text which has no previous existence.</desc><desc versionDate="2009-01-05" xml:lang="fr">décrit la source à partir de laquelle un texte électronique a été
@@ -9713,7 +10275,7 @@ associated.</desc>
   </attList>
   
 </classSpec><elementSpec rend="change" module="transcr" ident="fw"><gloss versionDate="2005-01-14" xml:lang="en">forme work</gloss><gloss versionDate="2007-12-20" xml:lang="ko">조판 작업</gloss><gloss versionDate="2007-05-02" xml:lang="zh-TW">印版文字</gloss><gloss versionDate="2007-06-12" xml:lang="fr">élément de mise en page</gloss><gloss versionDate="2007-05-04" xml:lang="es">convenciones gráficas.</gloss><gloss versionDate="2007-01-21" xml:lang="it">convenzioni grafiche</gloss><desc versionDate="2005-01-14" xml:lang="en">contains a running head (e.g. a header, footer), catchword, or
-  similar material appearing on the current page.</desc><desc versionDate="2007-12-20" xml:lang="ko">현 페이지에 나타나는 현 표제부(예, 머리말, 꼬리말), 색인어, 또는 유사 자료를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個欄外標題 (例如頁眉、頁腳) 、標語、或出現在所標記頁面的類似文字。</desc><desc versionDate="2008-04-05" xml:lang="ja">版面の周りにある柱やノンブルを示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">permet d'encoder un titre courant (en haut ou en bas de la page), une réclame ou une autre information comparable, qui apparaît sur la page courante.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un encabezamiento, pie de página, reclamo o similar relativo a la página corriente</desc><desc versionDate="2007-01-21" xml:lang="it">contiene intestazione, piè di pagina, reclamo o simili relativi alla pagina corrente</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.placement"/><memberOf key="att.written"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" usage="rec"><desc versionDate="2005-01-14" xml:lang="en">classifies the material encoded according to some useful typology.</desc><desc versionDate="2007-12-20" xml:lang="ko">유용한 유형에 따라 부호화된 자료를 분류한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">用合適的分類方法將所標記的內容分類。</desc><desc versionDate="2008-04-05" xml:lang="ja">符号化された当該部分を分類する．</desc><desc versionDate="2007-06-12" xml:lang="fr">caractérise l'information encodée conformément à une typologie appropriée.</desc><desc versionDate="2007-05-04" xml:lang="es">clasifica las convenciones usadas según una tipología funcional.</desc><desc versionDate="2007-01-21" xml:lang="it">classifica le convenzioni usate secondo una tipologia funzionale</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="sig"/></valList><valList type="closed"><valItem ident="sig"/></valList></attDef></attList><exemplum xml:lang="en">
+  similar material appearing on the current page.</desc><desc versionDate="2007-12-20" xml:lang="ko">현 페이지에 나타나는 현 표제부(예, 머리말, 꼬리말), 색인어, 또는 유사 자료를 포함한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個欄外標題 (例如頁眉、頁腳) 、標語、或出現在所標記頁面的類似文字。</desc><desc versionDate="2008-04-05" xml:lang="ja">版面の周りにある柱やノンブルを示す．</desc><desc versionDate="2007-06-12" xml:lang="fr">permet d'encoder un titre courant (en haut ou en bas de la page), une réclame ou une autre information comparable, qui apparaît sur la page courante.</desc><desc versionDate="2007-05-04" xml:lang="es">contiene un encabezamiento, pie de página, reclamo o similar relativo a la página corriente</desc><desc versionDate="2007-01-21" xml:lang="it">contiene intestazione, piè di pagina, reclamo o simili relativi alla pagina corrente</desc><classes><memberOf key="att.global"/><memberOf key="model.milestoneLike"/><memberOf key="att.placement"/><memberOf key="att.written"/></classes><content><macroRef key="macro.phraseSeq"/></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="type" usage="rec"><desc versionDate="2005-01-14" xml:lang="en">classifies the material encoded according to some useful typology.</desc><desc versionDate="2007-12-20" xml:lang="ko">유용한 유형에 따라 부호화된 자료를 분류한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">用合適的分類方法將所標記的內容分類。</desc><desc versionDate="2008-04-05" xml:lang="ja">符号化された当該部分を分類する．</desc><desc versionDate="2007-06-12" xml:lang="fr">caractérise l'information encodée conformément à une typologie appropriée.</desc><desc versionDate="2007-05-04" xml:lang="es">clasifica las convenciones usadas según una tipología funcional.</desc><desc versionDate="2007-01-21" xml:lang="it">classifica le convenzioni usate secondo una tipologia funzionale</desc><datatype><dataRef key="teidata.enumerated"/></datatype><valList type="closed"><valItem ident="sig"/></valList><valList type="closed"><valItem ident="sig"/></valList></attDef></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
       <fw type="sig" place="bottom">C3</fw>
     </egXML>
@@ -9761,7 +10323,7 @@ associated.</desc>
     <constraint>
       <ns xmlns="http://purl.oclc.org/dsdl/schematron" prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
     </constraint>
-  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="version" usage="opt">
+  </constraintSpec><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="version" usage="opt">
       <desc versionDate="2018-01-24" xml:lang="en">specifies the version number of the TEI Guidelines against
       which this document is valid.</desc>
       <desc versionDate="2007-12-20" xml:lang="ko">TEI 스키마의 버전</desc>
@@ -9909,7 +10471,7 @@ TEI namespace <code>http://www.tei-c.org/ns/1.0</code> on it, using
     unitario o combinado, p.ej. un texto en verso o teatral, una recopilación de ensayos, una
     novela, un diccionario, o una fragmento de corpus.</desc><desc versionDate="2007-01-21" xml:lang="it">contiene un unico testo di qualsiasi tipo, sia esso
     unitario o composito, per esempio un testo in versi o teatrale, una raccolta di saggi, un
-    romanzo, un dizionario, o una porzione di corpus</desc><classes><memberOf key="att.global"/><memberOf key="att.declaring"/><memberOf key="att.typed"/><memberOf key="att.written"/><memberOf key="model.resourceLike"/></classes><content><sequence minOccurs="1" maxOccurs="1"><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/><sequence minOccurs="0" maxOccurs="1"><elementRef key="front"/><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/></sequence><alternate minOccurs="1" maxOccurs="1"><elementRef key="body"/><elementRef key="group"/></alternate><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/><sequence minOccurs="0" maxOccurs="1"><elementRef key="back"/><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/></sequence></sequence></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/></attList><exemplum xml:lang="en">
+    romanzo, un dizionario, o una porzione di corpus</desc><classes><memberOf key="att.global"/><memberOf key="att.declaring"/><memberOf key="att.typed"/><memberOf key="att.written"/><memberOf key="model.resourceLike"/></classes><content><sequence minOccurs="1" maxOccurs="1"><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/><sequence minOccurs="0" maxOccurs="1"><elementRef key="front"/><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/></sequence><alternate minOccurs="1" maxOccurs="1"><elementRef key="body"/><elementRef key="group"/></alternate><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/><sequence minOccurs="0" maxOccurs="1"><elementRef key="back"/><classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/></sequence></sequence></content><attList><attDef ident="facs" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="type" mode="delete"/><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#lowellAut">
       <text>
         <front>
@@ -10128,7 +10690,7 @@ TEI namespace <code>http://www.tei-c.org/ns/1.0</code> on it, using
                         <valItem ident="titlePage"/>
                         <valItem ident="verse"/>
                      </valList>
-                  </attDef></attList><exemplum xml:lang="en">
+                  </attDef><attDef ident="subtype" mode="delete"/></attList><exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#bentham">
       <body>
         <div type="part">
@@ -10626,7 +11188,151 @@ TEI namespace <code>http://www.tei-c.org/ns/1.0</code> on it, using
   </remarks><listRef>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSBACK">4.7. Back Matter</ref>
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DS">4. Default Text Structure</ref>
-  </listRef></elementSpec><classSpec predeclare="true" module="namesdates" xml:id="PERSPART" type="model" ident="model.persNamePart">
+  </listRef></elementSpec><classSpec rend="change" module="namesdates" xml:id="DATABLECUSTOM" type="atts" predeclare="true" ident="att.datable.custom"><desc versionDate="2011-11-11" xml:lang="en">provides attributes for normalization of elements that contain datable events to a custom dating system
+    (i.e. other than the Gregorian used by W3 and ISO).</desc><classes/><attList><attDef ident="when-custom" usage="opt">
+      <desc versionDate="2014-11-19" xml:lang="en">supplies the value of a date or time in some custom standard form.</desc>
+      <datatype minOccurs="1" maxOccurs="unbounded"><dataRef key="teidata.word"/></datatype>
+      <exemplum xml:lang="en">
+        <p>The following are examples of custom date or time formats that are <emph>not</emph> valid ISO or W3C format
+                    normalizations, normalized to a different dating system</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>Alhazen died in Cairo on the 
+            <date when="1040-03-06" when-custom="431-06-12">
+              12th day of Jumada t-Tania, 430 AH
+            </date>.</p>
+          <p>The current world will end at the 
+            <date when="2012-12-21" when-custom="13.0.0.0.0">end of B'ak'tun 13</date>.</p>
+          <p>The Battle of Meggidu
+            (<date when-custom="Thutmose_III:23">23rd year of reign of Thutmose III</date>).</p>
+          <p>Esidorus bixit in pace annos LXX plus minus sub
+            <date when-custom="Ind:4-10-11">die XI mensis Octobris indictione IIII</date>
+               </p>
+        </egXML>
+        <p>Not all custom date formulations will have Gregorian equivalents.</p>
+        <p>The <att>when-custom</att> attribute and other custom dating are not constrained to a datatype by the TEI, but
+        individual projects are recommended to regularize and document their dating formats.</p>
+      </exemplum>
+    </attDef><attDef ident="datingMethod" usage="opt">
+      <desc versionDate="2012-08-15" xml:lang="en">supplies a pointer to a <gi>calendar</gi> element or other
+        means of interpreting the values of the custom dating attributes.</desc>
+      <datatype><dataRef key="teidata.pointer"/></datatype>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#STOW">Contayning the Originall, Antiquity, Increaſe, Moderne 
+            eſtate, and deſcription of that Citie, written in the yeare 
+            <date when-custom="1598" calendar="#julian" datingMethod="#julian">1598</date>. by Iohn Stow 
+            Citizen of London.</egXML>
+        <p>In this example, the <att>calendar</att> attribute points to a <gi>calendar</gi> element for the 
+          Julian calendar, specifying that the text content of the <gi>date</gi> element is a 
+          Julian date, and the <att>datingMethod</att> attribute also points to the Julian calendar
+          to indicate that the content of the <att>when-custom</att> attribute value is Julian too.</p>
+      </exemplum>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <date when="1382-06-28" when-custom="6890-06-20" datingMethod="#creationOfWorld">
+            μηνὶ Ἰουνίου εἰς <num>κ</num> ἔτους <num>ςωϞ</num>
+          </date>
+        </egXML>
+        <p>In this example, a date is given in a Mediaeval text measured "from the creation of the world", which is normalised
+        (in <att>when</att>) to the Gregorian date, but is also normalized (in <att>when-custom</att>) to a
+        machine-actionable, numeric version of the date from the Creation.</p>
+      </exemplum>
+      <remarks xml:lang="en" versionDate="2015-05-29"><p>Note that the <att>datingMethod</att> attribute (unlike
+        <att>calendar</att> defined in <ident type="class">att.datable</ident>) defines
+        the calendar or dating system to which the date described by the parent element is normalized (i.e. in the  
+        <att>when-custom</att> or other <att>X-custom</att> attributes), <emph>not</emph> the calendar of the
+        original date in the element.</p></remarks>
+    </attDef></attList><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDDATE">13.3.7. Dates and Times</ref>
+  </listRef></classSpec><classSpec rend="change" module="namesdates" xml:id="DATABLEISO" type="atts" predeclare="true" ident="att.datable.iso"><desc versionDate="2007-04-09" xml:lang="en">provides attributes for normalization of elements that contain datable events using the ISO 8601 standard.</desc><desc versionDate="2007-12-20" xml:lang="ko">ISO 8601 표준을 사용해서 날짜를 추정할 수 있는 사건을 포함하는 요소의 규격화를 위한 속성을 제공한다.</desc><desc versionDate="2007-05-02" xml:lang="zh-TW">用於紀錄規格化時間的屬性，該規格使用ISO 8601標準</desc><desc versionDate="2008-04-05" xml:lang="ja">ISO8601に従い，時間事象の正規的方法を示す属性を示す．</desc><desc versionDate="2009-03-19" xml:lang="fr">fournit des attributs pour la normalisation, selon la norme ISO 8601, d'éléments contenant des évènements
+        datables.</desc><desc versionDate="2007-11-06" xml:lang="it">indica attributi per la normalizzazione tramite lo standard ISO 8601 di elementi che contengono eventi
+        databili</desc><desc versionDate="2007-05-04" xml:lang="es">proporciona atributos para la normalización de elementos que contienen eventos datables usando el
+        estándard ISO 8601.</desc><classes/><attList><attDef ident="when-iso" usage="opt">
+      <desc versionDate="2007-06-12" xml:lang="en">supplies the value of a date or time in a standard form.</desc>
+      <desc versionDate="2007-12-20" xml:lang="ko">표준형의 날짜 또는 시간 값을 제시한다.</desc>
+      <desc versionDate="2008-04-06" xml:lang="es">proporciona el valor de fecha o de tiempo en una forma estándar.</desc>
+      <desc versionDate="2008-04-05" xml:lang="ja">日付や時間を，標準形式で示す．</desc>
+      <desc versionDate="2008-12-09" xml:lang="fr">précise une date exacte pour l'évènement selon la forme normalisée ISO 8601, c'est-à-dire
+                aaaa-mm-jj.</desc>
+      <desc versionDate="2007-11-06" xml:lang="it">indica il valore di una data o di un orario in un formato standard</desc>
+      <datatype><dataRef key="teidata.temporal.iso"/></datatype>
+      <exemplum xml:lang="en">
+        <p>The following are examples of ISO date, time, and date &amp; time formats that are <emph>not</emph> valid W3C format
+                    normalizations.</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
+          <date when-iso="1996-09-24T07:25+00">Sept. 24th, 1996 at 3:25 in the morning</date>
+          <date when-iso="1996-09-24T03:25-04">Sept. 24th, 1996 at 3:25 in the morning</date>
+          <time when-iso="1999-01-04T20:42-05">4 Jan 1999 at 8:42 pm</time>
+          <time when-iso="1999-W01-1T20,70-05">4 Jan 1999 at 8:42 pm</time>
+          <date when-iso="2006-05-18T10:03">a few minutes after ten in the morning on Thu 18 May</date>
+          <time when-iso="03:00">3 A.M.</time>
+          <time when-iso="14">around two</time>
+          <time when-iso="15,5">half past three</time>
+        </egXML>
+        <p>All of the examples of the <att>when</att> attribute in the <ident type="class">att.datable.w3c</ident> class are also valid with
+                    respect to this attribute.</p>
+      </exemplum>
+      <exemplum versionDate="2008-04-06" xml:lang="fr">
+        <p>Les exemples qui suivent sont des mentions de date, d'heure, de temps au format ISO qui
+            ne sont <emph> pas </emph>normalisées au format W3C </p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
+          <date when-iso="1996-09-24T07:25+00">le 24 sept. 1996, à 3 h 25 du matin.</date>
+          <date when-iso="1996-09-24T03:25-04">le 24 sept. 1996, à 3 h 25 du matin.</date>
+          <time when-iso="1999-01-04T20:42-05">le 4 janvier 1999 à 8 h.42 du soir </time>
+          <time when-iso="1999-W01-1T20,70-05">le 4 janvier 1999 à 8 h.42 du soir </time>
+          <date when-iso="2006-05-18T10:03">quelques minutes après 10 heures du matin, le mardi 18
+              mai.</date>
+          <time when-iso="03:00">3 h. du matin.</time>
+          <time when-iso="14">aux alentours de deux heures.</time>
+          <time when-iso="15,5">trois heures et demi.</time>
+        </egXML>
+        <p>Tous les exemples de l’attribut <att>when</att> dans la classe <ident type="class">att.datable.w3c</ident> sont également valides en ce qui concerne cet attribut</p>
+      </exemplum>
+      <exemplum versionDate="2008-04-06" xml:lang="fr">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">Il aime à être ponctuel . J'ai dit<q><time when-iso="12">autour du midi</time></q>, et il est apparu à <time when-iso="12:00:00">midi </time>à l'heure pile.</egXML>
+        <p>La deuxième occurence de <gi>time</gi> a pu être encodée avec l'attribut
+            <att>when</att> , puisque<val>12:00:00</val> est une marque de temps en accord avec la
+            spécification du W3C <title ref="#XSD2">XML Schema Part 2: Datatypes Second
+        Edition</title>. La première occurence
+            ne l'est pas.</p>
+      </exemplum>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">He likes to be punctual. I said <q><time when-iso="12">around noon</time></q>, and he showed up at <time when-iso="12:00:00">12 O'clock</time> on the dot.</egXML>
+        <p>The second occurence of <gi>time</gi> could have been encoded with the <att>when</att> attribute, as <val>12:00:00</val> is a valid
+                    time with respect to the W3C <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title> specification. The first occurence could not.</p>
+      </exemplum>
+    </attDef></attList><remarks versionDate="2008-07-23" xml:lang="en">
+    <p>The value of these attributes should be a normalized
+    representation of the date, time, or combined date &amp; time
+    intended, in any of the standard formats specified by ISO 8601,
+    using the Gregorian calendar.</p>
+  </remarks><remarks versionDate="2009-03-19" xml:lang="fr">
+    <p>La valeur de <att>when-iso</att> doit être une représentation normalisée de la date, de la durée ou d'une combinaison de date et de
+    durée, dans l'un des formats spécifiés dans ISO 8601, selon le calendrier grégorien.</p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p> 属性<att>when-iso</att>の値は，ISO8601に従った，日付や時間，ま たはその組み合わせになる．属性<att>calendar</att>がある場合に は，要素内容の歴システムが示される．属<att>calendar</att>は，
+    属性<att>when</att>
+    <att>when-iso</att>の歴システムを示すもので はない．これは普通はグレゴリオ暦になる． </p>
+  </remarks><remarks versionDate="2007-06-12" xml:lang="en">
+    <p>If both <att>when-iso</att> and <att>dur-iso</att> are specified, the values should be interpreted as indicating a span of time by its
+            starting time (or date) and duration. That is, <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01" dur-iso="P8D"/></egXML> indicates the same time period as <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01/P8D"/></egXML>
+        </p>
+    <p>In providing a <soCalled>regularized</soCalled> form, no claim is made that the form in the source text is incorrect; the regularized form
+            is simply that chosen as the main form for purposes of unifying variant forms under a single heading.</p>
+  </remarks><remarks versionDate="2009-03-19" xml:lang="fr">
+    <p>Si les attributs <att>when-iso</att> et <att>dur-iso</att> sont tous les deux spécifiés, les valeurs doivent être interprétées comme
+            indiquant un intervalle de temps au moyen de son point de départ (ou date) et de sa durée. C'est à dire, <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01" dur-iso="P8D"/></egXML> indique la même période temporelle que <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01/P8D"/></egXML>
+        </p>
+    <p>En fournissant une forme dite "régularisée", il n'est rien affirmé sur la correction ou l'incorrection de la forme dans le texte source ;
+            la forme régularisée est simplement celle qui est choisie comme forme principale afin de réunir les variantes de forme sous une seule
+            rubrique.</p>
+  </remarks><remarks xml:lang="ja" versionDate="2008-04-05">
+    <p> 属性<att>when-iso</att>と<att>dur-iso</att>が付与されている場合， 当該属性値は時間幅を示し，それぞれ始点と幅を示すものになる． 例えば，以下のような場合， <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01" dur-iso="P8D"/></egXML> この記述は，以下のようにも書くことができる． <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND"><date when-iso="2007-06-01/P8D"/></egXML>
+        </p>
+    <p><soCalled>正規化</soCalled>形式ということで，元テキストにある形式 が不正確であるということを含むものではない． ここでいう正規化形式とは，単に，ひとつの項目に同じ値を付与すること を目的とするものである． </p>
+  </remarks><listRef>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONADA">3.5.4. Dates and Times</ref>
+    <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDDATE">13.3.7. Dates and Times</ref>
+  </listRef></classSpec><classSpec predeclare="true" module="namesdates" xml:id="PERSPART" type="model" ident="model.persNamePart">
   <desc versionDate="2007-10-03" xml:lang="en">groups elements which form part of a personal name.</desc>
   <desc versionDate="2009-05-27" xml:lang="fr">regroupe des éléments qui font partie d'un nom de
         personne</desc>

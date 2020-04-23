@@ -4,19 +4,50 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <!-- Le header sera traité plus tard -->
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+         <teiHeader>
+            <fileDesc>
+               <titleStmt>
+                  <title>Les lettres de Guez de Balzac (1624)</title>
+                  <author>Guez de Balzac</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+                  <respStmt>
+                     <resp>Conception scientifique</resp>
+                     <name><persName>Suzanne Duval</persName> et <persName>Simon Gabay</persName></name>
+                  </respStmt>
+                  <respStmt>
+                     <resp>Transcription</resp>
+                     <name><persName>Simon Gabay</persName></name>
+                  </respStmt>
+                  <respStmt>
+                     <resp>Encodage TEI</resp>
+                     <name><persName>Simon Gabay</persName></name>
+                  </respStmt>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>Unil et Unine</publisher>
+                  <availability status="restricted" n="cc-by">
+                     <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+                     <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+                  </availability>
+               </publicationStmt>
+               <sourceDesc>
+                  <bibl>
+                     <author>
+                        <forename>Jean-Louis</forename>
+                        <surname>Guez de Balzac</surname>
+                     </author>
+                     <title type="orig">LETTRES DV SIEVR DE BALZAC</title>
+                     <title type="reg">Lettres du sieur de Balzac</title>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Toussaint du Bray</publisher>
+                     <date when="1624">1624</date>
+                     <ptr target="https://gallica.bnf.fr/ark:/12148/btv1b86262420"/>
+                  </bibl>
+               </sourceDesc>
+            </fileDesc>
+         </teiHeader>
    <!-- Encodage qui comprend l'ensemble des éléments utilisés par les 3 niveaux.
    Les attributs ainsi que leurs valeurs, à définir seront ajoutés manuellement.
    Il sera décidé plus tard si l'on doit contraindre ou non l'enchaînement de certains éléments/attributs.
