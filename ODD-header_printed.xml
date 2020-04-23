@@ -20,7 +20,7 @@
   </teiHeader>
   <text>
       <body>
-         <schemaSpec ident="header_printed" start="teiHeader">
+         <schemaSpec ident="header_printed" source="Mother-compiled.xml" start="teiHeader">
             <moduleRef key="tei"/>
             <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change availability"/>
             <moduleRef key="namesdates" include="forename surname persName"/>
