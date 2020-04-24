@@ -7,12 +7,13 @@
       <fileDesc>
          <titleStmt>
             <title>Header for manuscripts</title>
+            <author>Alexandre Bartz</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Not published yet (work still in progess)</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>It's a born digital edition</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
