@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <body xmlns="http://www.tei-c.org/ns/1.0">
-   <p>This document will contain the documentation of the project e-ditiones.</p>
-   <p>The documentation will be entirely drafted in english.</p>
+   <div>
+      <head>Introduction</head>
+      <p>This document provides the specific encodigng principles for manuscripts and printed
+         documents of the project E-ditiones.</p>
+   </div>
+   <div>
+      <head>The encoding</head>
+      <div>
+         <head>Headers encoding</head>
+         <p>First, we choose to identify two differents types of headers : <list>
+               <item>manuscripts</item>
+               <item>printed documents.</item>
+            </list>
+         </p>
+      </div>
+      <div>
+         <head>Text encoding</head>
+         <p>After the OCR of the text, its encoding will be completed in three phases : <list>
+            <item>First, the encoding will distinguish style and content</item>
+            <item>Second, we will add semantic informations</item>
+            <item>Third and last, we will add linguistic informations.</item>
+         </list>
+         </p>
+         <div>
+            <head>First level</head>
+            <p></p>
+         </div>
+         <div>
+            <head>Second level</head>
+            <p></p>
+         </div>
+         <div>
+            <head>Third level</head>
+            <p></p>
+         </div>
+      </div>
+   </div>
 </body>
