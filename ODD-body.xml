@@ -5,6 +5,25 @@
       <head>Introduction</head>
       <p>This document provides the specific encodigng principles for manuscripts and printed
          documents of the project E-ditiones.</p>
+      <div>
+         <head>Document identifiers</head>
+         <p>One of our priorities is to clearly identify the text once encoded. We chose to give to
+            each document an unique identifier consisting of the first three letters of the project,
+            an underscore and a four digit serial number. So, the identifier of the first text
+            encoded will be <code>EDI_0001</code>.</p>
+         <p>For each other subdivision, such as chapter, act, speech, paragraph or line, you just
+            have to concatenat the idenfier of the upper subdivision with a dash and a new number.
+            For example, if the text encoded is a play, the identifier <code>EDI_0001-1-3-4-5</code>
+            can be understood as the fifth speech of the fourth scene, third act of the first play
+            in the document with the identifier <code>EDI_0001</code>.</p>
+         <p>If there is a front, such as a cast list, we decided to add a <code>O</code> between the
+            identifier of the upper subdivision and the new number. For example
+               <code>EDI_0001-0-1</code> indicates that this part is the first subdivision of the
+            front from the document <code>EDI_0001</code>. In this way, we can immediately know the
+            position in the text of one part or another.</p>
+         <p>It might appear a little bit complicated but this method makes sure that every single
+            line or paragraph can be clearly identify.</p>
+      </div>
    </div>
    <div>
       <head>The encoding</head>
@@ -19,22 +38,38 @@
       <div>
          <head>Text encoding</head>
          <p>After the OCR of the text, its encoding will be completed in three phases : <list>
-            <item>First, the encoding will distinguish style and content</item>
-            <item>Second, we will add semantic informations</item>
-            <item>Third and last, we will add linguistic informations.</item>
-         </list>
+               <item>First, the encoding will distinguish form and content</item>
+               <item>Second, we will add semantic informations</item>
+               <item>Third and last, we will add linguistical informations.</item>
+            </list>
          </p>
          <div>
             <head>First level</head>
-            <p></p>
+            <p>The first level purpose is to distinguish between form and content. To do that, we
+               chose to only use a few elements. First, at all levels our edition must contain a
+                  <gi>text</gi> element with the following namespace :
+               @xmlns="http://www.tei-c.org/ns/1.0". It checks the validation of the TEI schema.</p>
+            <p>Then, at this level of encoding, all the text is included in the <gi>body</gi> and in
+               a single <gi>p</gi>. Some informations are added at this point : concerning the
+               content of the text, the element <gi>fw</gi> contains informations such as title,
+               pagination or editor's notes. The other informations added are about the form of the
+               text. We decided to employ the elements <gi>pb</gi> and <gi>lb</gi>. The first one,
+                  <gi>pb</gi>, which marks the point where a new page begins, is useful in the way
+               that it can be used to check the transcription but also to compare our edition with a
+               reference edition. The second one, <gi>lb</gi>, which marks the point where a new
+               line begins, provides graphical informations and can be used for an automatic
+               encoding process. It has tow required attributes : @break and @rend. If a word is cut
+               at the end of a line, @break="no" is useful in that the complete can be establish
+               again and be considere as a token. @rend shows which mark is used (dash or an hyphen
+               for example).</p>
          </div>
          <div>
             <head>Second level</head>
-            <p></p>
+            <p/>
          </div>
          <div>
             <head>Third level</head>
-            <p></p>
+            <p/>
          </div>
       </div>
    </div>
