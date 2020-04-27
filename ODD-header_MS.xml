@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Header for manuscripts</title>
@@ -16,17 +16,25 @@
             <p>It's a born digital edition</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-         <schemaSpec ident="header_MS" source="Mother-compiled.xml" start="teiHeader">
-            <moduleRef key="tei"/>
-            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt availability"/>
-            <moduleRef key="namesdates" include="forename surname persName country settlement"/>
-            <moduleRef key="msdescription" include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material foliation bindingDesc binding history additional surrogates msPart msContents msItem locus incipit explicit filiation height width condition decoNote"/>
-            <moduleRef key="core" include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ptr date name respStmt resp"/>
-            <moduleRef key="textstructure" include="docDate"/>
-      </schemaSpec>
-      </body>
-  </text>
+   </teiHeader>
+   <text>
+
+      <xi:include href="ODD-body.xml"/>
+
+      <back>
+         <div>
+            <schemaSpec ident="header_MS" source="Mother-compiled.xml" start="teiHeader">
+               <moduleRef key="tei"/>
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt availability"/>
+               <moduleRef key="namesdates" include="forename surname persName country settlement"/>
+               <moduleRef key="msdescription"
+                  include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material foliation bindingDesc binding history additional surrogates msPart msContents msItem locus incipit explicit filiation height width condition decoNote"/>
+               <moduleRef key="core"
+                  include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ptr date name respStmt resp"/>
+               <moduleRef key="textstructure" include="docDate"/>
+            </schemaSpec>
+         </div>
+      </back>
+   </text>
 </TEI>

@@ -3,8 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Encoding guidelines of the teiHeader for printed documents</title>
@@ -17,15 +17,23 @@
             <p>It's a born digital edition</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-         <schemaSpec ident="header_printed" source="Mother-compiled.xml" start="teiHeader">
-            <moduleRef key="tei"/>
-            <moduleRef key="header" include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change availability"/>
-            <moduleRef key="namesdates" include="forename surname persName"/>
-            <moduleRef key="core" include="editor listBibl bibl list item p title author pubPlace publisher note head ptr date name respStmt resp"/>
-      </schemaSpec>
-      </body>
-  </text>
+   </teiHeader>
+   <text>
+
+      <xi:include href="ODD-body.xml"/>
+
+      <back>
+         <div>
+            <schemaSpec ident="header_printed" source="Mother-compiled.xml" start="teiHeader">
+               <moduleRef key="tei"/>
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change availability"/>
+               <moduleRef key="namesdates" include="forename surname persName"/>
+               <moduleRef key="core"
+                  include="editor listBibl bibl list item p title author pubPlace publisher note head ptr date name respStmt resp"
+               />
+            </schemaSpec>
+         </div>
+      </back>
+   </text>
 </TEI>
