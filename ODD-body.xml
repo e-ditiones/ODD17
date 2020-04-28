@@ -3,8 +3,32 @@
 <body xmlns="http://www.tei-c.org/ns/1.0">
    <div>
       <head>Introduction</head>
-      <p>This document provides the specific encodigng principles for manuscripts and printed
-         documents of the project E-ditiones.</p>
+      <p>This document provides the specific encoding principles for manuscripts and printed
+         documents of the project e-ditiones.</p>
+      <div>
+         <head>The corpus</head>
+         <p>The project e-ditiones aims to encode severals <date>17th century</date> French
+            manuscripts and printed documents and, later, to present them on a digital library. We
+            chose various literary genres, like drama, letters or novels.</p>
+         <!-- Partie qui doit être discutée avec Simon -->
+      </div>
+      <div>
+         <head>General principles</head>
+         <p>Considering the fact that we have two major types of texts, as a reminder, printed
+            documents and manuscripts, we made the decision to separate metadata from text. This
+            way, we have the possibility to create two schemas, one specific to printed documents,
+            the other to manuscripts. In order to rebuild a complete TEI file, we use
+               <gi>xi:include</gi> which allows us to separate metadata from text and then have a
+            complete final document.</p>
+         <p>Another essential principle of the project is to use a minimal set of elements.</p>
+         <!--  <figure>
+             Simple test, il faut d'abord valider les schémas + rédiger les schémas en anglais 
+            <graphic url=""/>
+            attention au chemin de fichier en raison de l'usage de xi:include, il faut un chemin du type "/../filename"
+            <head>Figure 1 - ODD-chaining</head>
+            <figDesc>Representation of the use of ODD-chaining in the e-ditiones project </figDesc>
+         </figure>-->
+      </div>
       <div>
          <head>Document identifiers</head>
          <p>One of our priorities is to clearly identify the text once encoded. We chose to give to
@@ -20,7 +44,7 @@
             identifier of the upper subdivision and the new number. For example
                <code>EDI_0001-0-1</code> indicates that this part is the first subdivision of the
             front from the document <code>EDI_0001</code>. In this way, we can immediately know the
-            position in the text of one part or another.</p>
+            position of a subvision in the text.</p>
          <p>It might appear a little bit complicated but this method makes sure that every single
             line or paragraph can be clearly identify.</p>
       </div>
@@ -29,25 +53,33 @@
       <head>The encoding</head>
       <div>
          <head>Headers encoding</head>
-         <p>First, we choose to identify two differents types of headers : <list>
+         <p>First, we chose to identify two differents types of headers : <list>
                <item>manuscripts</item>
-               <item>printed documents.</item>
+               <item>printed documents</item>
             </list>
          </p>
+         <div>
+            <head>Manuscripts</head>
+         </div>
+         <div>
+            <head>Printed documents</head>
+         </div>
       </div>
       <div>
          <head>Text encoding</head>
          <p>After the OCR of the text, its encoding will be completed in three phases : <list>
-               <item>First, the encoding will distinguish form and content</item>
-               <item>Second, we will add semantic informations</item>
-               <item>Third and last, we will add linguistical informations.</item>
+               <item>Level 1 : the encoding will distinguish form and content</item>
+               <item>Level 2 : we will add semantic informations</item>
+               <item>Level 3 : we will add linguistical informations</item>
             </list>
          </p>
+         <p>Please note that at each level, all existing elements are still used and new elements
+            are added to the existing ones.</p>
          <div>
             <head>First level</head>
-            <p>The first level purpose is to distinguish between form and content. To do that, we
-               chose to only use a few elements. First, at all levels our edition must contain a
-                  <gi>text</gi> element with the following namespace :
+            <p>The purpose of the first level is to distinguish between form and content. To do
+               that, we chose to only use a few elements. First, at all levels our edition must
+               contain a <gi>text</gi> element with the following namespace :
                @xmlns="http://www.tei-c.org/ns/1.0". It checks the validation of the TEI schema.</p>
             <p>Then, at this level of encoding, all the text is included in the <gi>body</gi> and in
                a single <gi>p</gi>. Some informations are added at this point : concerning the
@@ -58,18 +90,127 @@
                that it can be used to check the transcription but also to compare our edition with a
                reference edition. The second one, <gi>lb</gi>, which marks the point where a new
                line begins, provides graphical informations and can be used for an automatic
-               encoding process. It has tow required attributes : @break and @rend. If a word is cut
-               at the end of a line, @break="no" is useful in that the complete can be establish
-               again and be considere as a token. @rend shows which mark is used (dash or an hyphen
-               for example).</p>
+               encoding process. It has two required attributes : <att>break</att> and
+                  <att>rend</att>. If a word is cut at the end of a line, <att>break</att> with the
+               value "no" is useful in that the complete word can be establish again and be
+               considere as a token. @rend shows which mark is used (a dash or an hyphen for
+               example).</p>
          </div>
          <div>
             <head>Second level</head>
-            <p/>
+            <p>At this level of encoding, we add manually some semantic informations. Considering
+               that we want to use, as mentioned before, a minimal set of elements, we decided to
+               only employ common elements. Despite this, in the case of texts such as plays or
+               letters, the use of a few specific elements is recommended.</p>
+            <div>
+               <head>Common elements</head>
+               <p>It is possible to use the following elements : <table>
+                     <row role="label">
+                        <cell>Element</cell>
+                        <cell>Text type</cell>
+                        <cell>Note</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>front</gi></cell>
+                        <cell>any prefatory matter</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>div</gi></cell>
+                        <cell>any text subdivision</cell>
+                        <cell><att>type</att>,<att>n</att> and <att>xml:id</att> are required</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>back</gi></cell>
+                        <cell>any type of appendix</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>head</gi></cell>
+                        <cell>any type of heading</cell>
+                        <cell>this can be used to clarify <gi>fw</gi></cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>list</gi>and<gi>item</gi></cell>
+                        <cell>any type of list</cell>
+                        <cell><att>n</att> and <att>xml:id</att> are required</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>orgName</gi>, <gi>persName</gi> and <gi>placeName</gi></cell>
+                        <cell>any type of person, place or organisation</cell>
+                        <cell>this can be useful for entity search</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>l</gi> and <gi>lg</gi></cell>
+                        <cell>any type of line or line group</cell>
+                     </row>
+                     <row role="data">
+                        <cell><gi>note</gi></cell>
+                        <cell>any type of note</cell>
+                        <cell>it can be used for a note by the autor, the editor or, rarely, added
+                           during the encoding</cell>
+                     </row>
+                  </table></p>
+            </div>
+            <div>
+               <head>Specific elements</head>
+               <p>There are only two exceptions, drama and letters.</p>
+               <div>
+                  <head>Drama</head>
+                  <p>If the text encoded is a play, three new elements are allowed to be used :<table>
+                        <row role="label">
+                           <cell>Element</cell>
+                           <cell>Text type</cell>
+                           <cell>Note</cell>
+                        </row>
+                        <row role="data">
+                           <cell><gi>sp</gi></cell>
+                           <cell>contains a speech</cell>
+                           <cell><att>n</att> and <att>xml:id</att> are required</cell>
+                        </row>
+                        <row role="data">
+                           <cell><gi>stage</gi></cell>
+                           <cell>any stage direction</cell>
+                           <cell><emph>e.g.</emph> useful to study spoken words</cell>
+                        </row>
+                        <row role="data">
+                           <cell><gi>speaker</gi></cell>
+                           <cell>any speaker in a speech</cell>
+                        </row>
+                     </table></p>
+               </div>
+               <div>
+                  <head>Letters</head>
+                  <p>If the text encoded is a letter, two new elements are allowed to be used :<table>
+                        <row role="label">
+                           <cell>Element</cell>
+                           <cell>Text type</cell>
+                           <cell>Note</cell>
+                        </row>
+                        <row role="data">
+                           <cell><gi>opener</gi></cell>
+                           <cell>any text at the start of a letter</cell>
+                           <cell><emph>e.g.</emph> a salutation or a dateline</cell>
+                        </row>
+                        <row role="data">
+                           <cell><gi>closer</gi></cell>
+                           <cell>any text at the end of a letter</cell>
+                           <cell><emph>e.g.</emph> a salutation or a dateline</cell>
+                        </row>
+                     </table></p>
+               </div>
+            </div>
          </div>
          <div>
             <head>Third level</head>
-            <p/>
+            <p>This level of encoding is automaticaly done. In order to add some linguistical
+               informations, the original version of the text is normalized with the following
+               elements : <gi>choice</gi>, <gi>orig</gi> and <gi>reg</gi>. Then, in order to process
+               tokenization and lemmatization on the text, we decided to split it with <gi>seg</gi>
+               and <gi>w</gi>. The first one, <gi>seg</gi> is used to represent any segmentation of
+               the text. Note that sentences and clauses remain our basic units but we recommand to
+               split a long sentence in several segments. The <gi>w</gi> is used to mark a single
+               token. Regarding ponctuation, we decided to consider the marks as tokens; first,
+               because more precision wouldn't be useful for our analyse and second, because with
+               this choice, our encoding remains compatible with ELTeC.</p>
          </div>
       </div>
    </div>
