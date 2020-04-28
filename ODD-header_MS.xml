@@ -34,6 +34,8 @@
                   include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ptr date name respStmt resp"/>
                <moduleRef key="textstructure" include="docDate"/>
             </schemaSpec>
+            
+            <!-- À discuter avec Simon, mais faire en sorte de contraindre que si le @type sur teiHeader = "MS", contrainte de l'usage de "msDesc" ? -->
          </div>
       </back>
    </text>
