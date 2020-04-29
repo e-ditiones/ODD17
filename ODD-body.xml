@@ -104,6 +104,7 @@
                letters, the use of a few specific elements is recommended.</p>
             <div>
                <head>Common elements</head>
+               <!-- Attention, le premier tableau semble systématiquement "cassé" ; trouver une solution -->
                <p>It is possible to use the following elements : <table>
                      <row role="label">
                         <cell>Element</cell>
@@ -155,7 +156,7 @@
                <p>There are only two exceptions, drama and letters.</p>
                <div>
                   <head>Drama</head>
-                  <p>If the text encoded is a play, three new elements are allowed to be used :<table>
+                  <p>If the text encoded is a play, it is allowed to use three new elements :<table>
                         <row role="label">
                            <cell>Element</cell>
                            <cell>Text type</cell>
@@ -179,7 +180,7 @@
                </div>
                <div>
                   <head>Letters</head>
-                  <p>If the text encoded is a letter, two new elements are allowed to be used :<table>
+                  <p>If the text encoded is a letter, it is allowed to use two new elements :<table>
                         <row role="label">
                            <cell>Element</cell>
                            <cell>Text type</cell>
@@ -211,6 +212,190 @@
                token. Regarding ponctuation, we decided to consider the marks as tokens; first,
                because more precision wouldn't be useful for our analyse and second, because with
                this choice, our encoding remains compatible with ELTeC.</p>
+         </div>
+      </div>
+      <div>
+         <head>The attributes</head>
+         <p>We decided to define a closed of attributes that can be used for the encoding. There are
+            only three of them :<list>
+               <item><att>xml:id</att></item>
+               <item><att>n</att></item>
+               <item><att>type</att></item>
+            </list></p>
+         <p>Please note that all of them are required.</p>
+         <div>
+            <head><att>xml:id</att></head>
+            <p>This attribute is used to identify the document or its subdivisions. Earlier in this
+               document, we presented the way to properly generate identifiers.</p>
+            <p><att>xml:id</att> is required on several elements and a diffetent levels : <table>
+                  <row role="label">
+                     <cell>Element</cell>
+                     <cell>Level of encoding</cell>
+                  </row>
+                  <row role="data">
+                     <cell><gi>text</gi></cell>
+                     <cell>all levels</cell>
+                  </row>
+                  <row role="data">
+                     <cell><gi>div</gi></cell>
+                     <cell>levels 2 and 3</cell>
+                  </row>
+                  <row role="data">
+                     <cell><gi>p</gi></cell>
+                     <cell>levels 2 and 3</cell>
+                  </row>
+                  <row role="data">
+                     <cell><gi>sp</gi></cell>
+                     <cell>levels 2 and 3</cell>
+                  </row>
+                  <row role="data">
+                     <cell><gi>lg</gi></cell>
+                     <cell>levels 2 and 3</cell>
+                  </row>
+                  <row role="data">
+                     <cell><gi>l</gi></cell>
+                     <cell>levels 2 and 3</cell>
+                  </row>
+               </table></p>
+         </div>
+         <div>
+            <head><att>n</att></head>
+            <p>This attribute is used to identify the numbering of its element from the second
+               level. Node children elements are numbered increasingly starting by 1.</p>
+            <p>Note that there are two exceptions :<list>
+                  <item><gi>pb</gi> : numbering starts at the beginning of the edition and continues
+                     until its end</item>
+                  <item><gi>l</gi> : numbering (re)starts at the beginning of each page</item>
+               </list>
+               <note>In this way, it's possible to compare our edition with an reference
+                  edition.</note></p>
+            <table>
+               <row role="label">
+                  <cell>Elements</cell>
+                  <cell>Numbering starts at :</cell>
+               </row>
+               <row role="data">
+                  <cell><gi>div</gi></cell>
+                  <cell>parent node</cell>
+               </row>
+               <row role="data">
+                  <cell><gi>sp</gi></cell>
+                  <cell>parent node</cell>
+               </row>
+               <row role="data">
+                  <cell><gi>p</gi></cell>
+                  <cell>parent node</cell>
+               </row>
+               <row role="data">
+                  <cell><gi>lg</gi></cell>
+                  <cell>parent node</cell>
+               </row>
+               <row role="data">
+                  <cell><gi>l</gi></cell>
+                  <cell>each new page</cell>
+               </row>
+               <row role="data">
+                  <cell><gi>pb</gi></cell>
+                  <cell>beginning of the edition</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head><att>type</att></head>
+            <p>This attribute is used to specify the type of the current <gi>div</gi>.</p>
+            <p>Note that for this attribute, the use of predefined values is restricted.</p>
+            <table>
+               <row role="label">
+                  <cell>Value</cell>
+                  <cell>Usecase</cell>
+               </row>
+               <row role="data">
+                  <cell>titlePage</cell>
+                  <cell>in the <gi>front</gi>, used for the title page of the work</cell>
+               </row>
+               <row role="data">
+                  <cell>privilege</cell>
+                  <cell>in the <gi>front</gi>, used for the privilege of the work</cell>
+               </row>
+               <row role="data">
+                  <cell>castList</cell>
+                  <cell>in the <gi>front</gi>, used for the cast list</cell>
+               </row>
+               <row role="data">
+                  <cell>liminal</cell>
+                  <cell>in the <gi>front</gi>, used for any liminal part of the work</cell>
+               </row>
+               <row role="data">
+                  <cell>play</cell>
+                  <cell>used at the beginning of a new play</cell>
+               </row>
+               <row role="data">
+                  <cell>act</cell>
+                  <cell>used at the beginning of a new act</cell>
+               </row>
+               <row role="data">
+                  <cell>scene</cell>
+                  <cell>used at the beginning of a new scene</cell>
+               </row>
+               <row role="data">
+                  <cell>part</cell>
+                  <cell>used for any part of the work</cell>
+               </row>
+               <row role="data">
+                  <cell>subPart</cell>
+                  <cell>used for any subpart (child of a <att>type</att>="part") of the work</cell>
+               </row>
+               <row role="data">
+                  <cell>letter</cell>
+                  <cell>used for any letter</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>Recap table for attributes</head>
+            <table>
+               <row role="label">
+                  <cell/>
+                  <cell><gi>text</gi></cell>
+                  <cell><gi>div</gi></cell>
+                  <cell><gi>lg</gi></cell>
+                  <cell><gi>l</gi></cell>
+                  <cell><gi>sp</gi></cell>
+                  <cell><gi>p</gi></cell>
+                  <cell><gi>pb</gi></cell>
+               </row>
+               <row>
+                  <cell role="label"><att>xml:id</att></cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">not required</cell>
+               </row>
+               <row>
+                  <cell role="label"><att>n</att></cell>
+                  <cell role="data">not required</cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">required</cell>
+               </row>
+               <row>
+                  <cell role="label"><att>type </att></cell>
+                  <cell role="data">not required</cell>
+                  <cell role="data">required</cell>
+                  <cell role="data">not required</cell>
+                  <cell role="data">not required</cell>
+                  <cell role="data">not required</cell>
+                  <cell role="data">not required</cell>
+                  <cell role="data">not required</cell>
+               </row>
+            </table>
+            <!-- Reste à régler la question des front et back -->
          </div>
       </div>
    </div>
