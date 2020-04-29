@@ -19,4 +19,4 @@ The XML version is available in the file `ODD-body.xml`.
 
 You can find an example for each schema in the folders `Headers`and `Textes`.
 
-**PLEASE NOTE THAT THESE SCHEMAS ARN'T PUBLISHED YET**
+**PLEASE NOTE THAT THESE SCHEMAS AREN'T PUBLISHED YET**
