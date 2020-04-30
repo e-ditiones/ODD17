@@ -52,17 +52,233 @@
    <div>
       <head>The encoding</head>
       <div>
+         <!-- Définir des standards comme ELTeC ?? / mettre un type sur le teiHeader pour contraindre usage de msDesc si @type="MS" ?? -->
          <head>Headers encoding</head>
          <p>First, we chose to identify two differents types of headers : <list>
                <item>manuscripts</item>
                <item>printed documents</item>
             </list>
          </p>
+         <p>Both headers are mostly the same : they contain a <gi>fileDesc</gi>, a
+               <gi>encodingDesc</gi> and a <gi>revisionDesc</gi>. The only difference between the
+            two of them is the addition of the <gi>msDesc</gi> used for the description of a
+            manuscript.</p>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <teiHeader>
+               <fileDesc>
+                  <!-- informations about the encoded document -->
+               </fileDesc>
+               <encodingDesc>
+                  <!-- informations about the relationship between the encoded text and its source -->
+               </encodingDesc>
+               <revisionDesc>
+                  <!-- revision informations  -->
+               </revisionDesc>
+            </teiHeader>
+         </egXML>
          <div>
-            <head>Manuscripts</head>
+            <head>The <gi>fileDesc</gi></head>
+            <p>This part of the header contains at least five other parts : <list>
+                  <item>the <gi>titleStmt</gi></item>
+                  <item>the <gi>editionStmt</gi> ??? </item>
+                  <item>the <gi>extent</gi></item>
+                  <item>the <gi>publicationStmt</gi></item>
+                  <item>the <gi>sourceDesc</gi></item>
+               </list></p>
+            <div>
+               <head>The <gi>titleStmt</gi></head>
+               <p>This part is essential for the presentation of the encoded document. It has to
+                  contain at least one <gi>title</gi>, one <gi>author</gi> and one
+                  <gi>respStmt</gi>.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <titleStmt>
+                     <title>Bérénice</title>
+                     <author>Jean Racine</author>
+                     <respStmt>
+                        <persName>Simon Gabay</persName>
+                        <resp>Éditeur scientifique</resp>
+                     </respStmt>
+                  </titleStmt>
+               </egXML>
+            </div>
+            <!-- Est-ce que cette partie est vraiment utile (on a déjà les informations sur l'éditeur dans le titleStmt et les dates d'encodages sont dans le revisionDesc) ?
+            <div>
+               <head>The <gi>editionStmt</gi></head>
+               <p>This part contains the name of the editor as well as that of the project and the
+                  date of encoding.</p>
+            </div>
+            -->
+            <div>
+               <head>The <gi>extent</gi></head>
+               <p>This part indicates the size of the work and contains the number of words.</p>
+               <!-- Quid du nombre de pages ? Élement <measure> ?? -->
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <extent>12435 words</extent>
+               </egXML>
+            </div>
+            <div>
+               <head>The <gi>publicationStmt</gi></head>
+               <p>This part contains an <gi>authority</gi> element with the name of the project and
+                  an <gi>availability</gi> element with its <att>status</att> and the
+                     <gi>licence</gi>.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <publicationStmt>
+                     <authority>e-ditiones</authority>
+                     <availability status="restricted">
+                        <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution
+                           4.0 International (CC BY 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+               </egXML>
+            </div>
+            <div>
+               <head>The <gi>sourceDesc</gi></head>
+               <p>This part contains one (or more) bibliographical description wich includes
+                  standards TEI elements such as <gi>author</gi>, <gi>title</gi> or
+                  <gi>date</gi>.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <sourceDesc>
+                     <bibl>
+                        <author>Jean Racine</author>
+                        <title>Oeuvres</title>
+                        <publisher>Jean Ribou</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="1676">1676</date>
+                        <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k990581p"/>
+                     </bibl>
+                  </sourceDesc>
+               </egXML>
+               <div>
+                  <head>The <gi>msDesc</gi></head>
+                  <p>As already said, there is a particularity when the text encoded is a
+                     manuscript. To describe the document, we have to use the <gi>msDesc</gi>
+                     element. To ensure a good encoding, severals elements are recommanded : <list>
+                        <item><p><gi>msIdentifier</gi> which contains informations used to properly
+                              identify the manuscript</p><egXML
+                              xmlns="http://www.tei-c.org/ns/Examples">
+                              <msIdentifier>
+                                 <country>Etats-Unis</country>
+                                 <settlement>Princeton</settlement>
+                                 <institution>Princeton University Library</institution>
+                                 <repository>Manuscripts Division, Department of Rare Books and
+                                    Special Collections</repository>
+                                 <collection>John Hinsdale Scheide Collection of Three Centuries of
+                                    French History</collection>
+                                 <idno type="shelfmark">C0710, vol. 3</idno>
+                              </msIdentifier>
+                           </egXML>
+                        </item>
+                        <item><gi>msContent</gi> which contains informations about the intellectual
+                           content of the manuscript</item>
+                        <item><p><gi>physDesc</gi>which contains informations about the physical
+                              description of the document such as the <gi>objectDesc</gi> or the
+                                 <gi>bindingDesc</gi></p><egXML
+                              xmlns="http://www.tei-c.org/ns/Examples">
+                              <physDesc>
+                                 <objectDesc>
+                                    <supportDesc>
+                                       <support>
+                                          <objectType rend="composite">composite
+                                             repository</objectType>
+                                          <material>papier.</material>
+                                       </support>
+                                       <extent>
+                                          <measure unit="page" n="unk"/>
+                                       </extent>
+                                       <foliation>Pages aren't numebered</foliation>
+                                    </supportDesc>
+                                 </objectDesc>
+                                 <bindingDesc>
+                                    <binding>
+                                       <p/>
+                                    </binding>
+                                 </bindingDesc>
+                              </physDesc>
+                           </egXML>
+                        </item>
+                        <item><gi>history</gi> which contains informations about the history of the
+                           manuscript</item>
+                        <item><p><gi>additional</gi>which contains more informations about the
+                              document, such as <gi>surrogates</gi> or bibliographical informations
+                                 (<gi>bibl</gi>)</p><egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <additional>
+                                 <surrogates>
+                                    <!-- add images here -->
+                                    <graphic source="local" url="chemin"/>
+                                 </surrogates>
+                                 <listBibl>
+                                    <listBibl type="L1">
+                                       <bibl>La Fayette, <title>Œuvres complètes</title>, C.
+                                          Esmein-Sarrazin (éd.), Paris: Gallimard, lettre
+                                          n°70-1.</bibl>
+                                    </listBibl>
+                                 </listBibl>
+                              </additional>
+                           </egXML>
+                        </item>
+                        <item><gi>msPart</gi> which might contain the preceding elements is used to
+                           the description of a specific part of the encoded manuscript</item>
+                     </list></p>
+               </div>
+            </div>
          </div>
          <div>
-            <head>Printed documents</head>
+            <head>The <gi>encodingDesc</gi></head>
+            <p>This part describes the relationship between the encoded text and its source. It
+               might contain : <list>
+                  <item><gi>projectDesc</gi> which describes the project</item>
+                  <item><gi>editorialDecl</gi> which contains informations about the editorial
+                     principles such as <gi>correction</gi>, <gi>normalization</gi> or
+                        <gi>interpretation</gi>
+                  </item>
+               </list></p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <encodingDesc>
+                  <projectDesc>
+                     <p>Creation of a NLP tools for 17th French</p>
+                  </projectDesc>
+                  <editorialDecl>
+                     <correction>
+                        <p>Very minor corrections, usually tagged.</p>
+                     </correction>
+                     <hyphenation>
+                        <p>Kept, encoded with <gi>c</gi>
+                        </p>
+                     </hyphenation>
+                     <normalization>
+                        <p>None</p>
+                     </normalization>
+                     <quotation>
+                        <p>Original</p>
+                     </quotation>
+                     <punctuation>
+                        <p>Original</p>
+                     </punctuation>
+                     <interpretation>
+                        <p>None</p>
+                     </interpretation>
+                     <segmentation>
+                        <p>Text is divided in <list>
+                              <item>sentences encoded with <gi>s</gi>
+                              </item>
+                              <item>sub-sentences encoded with <gi>seg</gi> (most or the time based
+                                 on columns and semicolons)</item>
+                           </list> and </p>
+                     </segmentation>
+                  </editorialDecl>
+               </encodingDesc>
+            </egXML>
+         </div>
+         <div>
+            <head>The <gi>revisionDesc</gi></head>
+            <p>This last part of the header contains informations about at least one <gi>change</gi>
+               during the production of the document. <att>when</att> is used to specify the date of
+               the event.</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <revisionDesc>
+                  <change when="20200430">Add documentation</change>
+               </revisionDesc>
+            </egXML>
          </div>
       </div>
       <div>
@@ -95,6 +311,18 @@
                value "no" is useful in that the complete word can be establish again and be
                considere as a token. @rend shows which mark is used (a dash or an hyphen for
                example).</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <text xml:id="EDI_0001">
+                  <body>
+                     <lb/>
+                     <fw>A MONSEIGNEVR LE DVC D’ESPERNON. <lb/>Lettre I.</fw>
+                     <p><lb/>Monseignevr, Quand ie ne ſerois pas nay cõme ie ſuis, voſtre
+                        <lb/>tres-humble ſeruiteur, il faudroit que ie fuſſe mauuais <lb/>François
+                        pour ne me reſioüir pas des contẽtemens de voſtre maiſon, <lb/>puis que ce
+                        ſont des felicités publiques.</p>
+                  </body>
+               </text>
+            </egXML>
          </div>
          <div>
             <head>Second level</head>
@@ -103,9 +331,14 @@
                only employ common elements. Despite this, in the case of texts such as plays or
                letters, the use of a few specific elements is recommended.</p>
             <div>
+
                <head>Common elements</head>
-               <!-- Attention, le premier tableau semble systématiquement "cassé" ; trouver une solution -->
+               <!-- Attention, le premier tableau semble systématiquement "cassé" ; trouver une solution (une des solutions = mettre un tableau vide avant...) -->
                <p>It is possible to use the following elements : <table>
+                     <row>
+                        <cell/>
+                     </row>
+                  </table><table>
                      <row role="label">
                         <cell>Element</cell>
                         <cell>Text type</cell>
@@ -261,7 +494,7 @@
          <div>
             <head><att>n</att></head>
             <p>This attribute is used to identify the numbering of its element from the second
-               level. Node children elements are numbered increasingly starting by 1.</p>
+               level. Node children elements are numbered incrementaly starting with 1.</p>
             <p>Note that there are two exceptions :<list>
                   <item><gi>pb</gi> : numbering starts at the beginning of the edition and continues
                      until its end</item>
@@ -377,7 +610,7 @@
                <row>
                   <cell role="label"><att>n</att></cell>
                   <cell role="data">not required</cell>
-                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell> <!-- Est-ce que ça se fait d'utiliser <hi> pour mettre un élément en gras en html ? -->
                   <cell role="data">required</cell>
                   <cell role="data">required</cell>
                   <cell role="data">required</cell>
