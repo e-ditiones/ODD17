@@ -10,7 +10,6 @@
          <p>The project e-ditiones aims to encode severals <date>17th century</date> French
             manuscripts and printed documents and, later, to present them on a digital library. We
             chose various literary genres, like drama, letters or novels.</p>
-         <!-- Partie qui doit être discutée avec Simon -->
       </div>
       <div>
          <head>General principles</head>
@@ -52,7 +51,6 @@
    <div>
       <head>The encoding</head>
       <div>
-         <!-- Définir des standards comme ELTeC ?? / mettre un type sur le teiHeader pour contraindre usage de msDesc si @type="MS" ?? -->
          <head>Headers encoding</head>
          <p>First, we chose to identify two differents types of headers : <list>
                <item>manuscripts</item>
@@ -80,7 +78,7 @@
             <head>The <gi>fileDesc</gi></head>
             <p>This part of the header contains at least five other parts : <list>
                   <item>the <gi>titleStmt</gi></item>
-                  <item>the <gi>editionStmt</gi> ??? </item>
+                  <item>the <gi>editionStmt</gi></item>
                   <item>the <gi>extent</gi></item>
                   <item>the <gi>publicationStmt</gi></item>
                   <item>the <gi>sourceDesc</gi></item>
@@ -88,32 +86,38 @@
             <div>
                <head>The <gi>titleStmt</gi></head>
                <p>This part is essential for the presentation of the encoded document. It has to
-                  contain at least one <gi>title</gi>, one <gi>author</gi> and one
-                  <gi>respStmt</gi>.</p>
+                  contain at least one <gi>title</gi> and one <gi>author</gi>.</p>
                <egXML xmlns="http://www.tei-c.org/ns/Examples">
                   <titleStmt>
                      <title>Bérénice</title>
                      <author>Jean Racine</author>
+                  </titleStmt>
+               </egXML>
+            </div>
+            <div>
+               <head>The <gi>editionStmt</gi></head>
+               <p>This part contains the name of the editor and the date of encoding.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <editionStmt>
+                     <edition>
+                        <date>30/04/2020</date>
+                     </edition>
                      <respStmt>
                         <persName>Simon Gabay</persName>
                         <resp>Éditeur scientifique</resp>
                      </respStmt>
-                  </titleStmt>
+                  </editionStmt>
                </egXML>
             </div>
-            <!-- Est-ce que cette partie est vraiment utile (on a déjà les informations sur l'éditeur dans le titleStmt et les dates d'encodages sont dans le revisionDesc) ?
-            <div>
-               <head>The <gi>editionStmt</gi></head>
-               <p>This part contains the name of the editor as well as that of the project and the
-                  date of encoding.</p>
-            </div>
-            -->
             <div>
                <head>The <gi>extent</gi></head>
-               <p>This part indicates the size of the work and contains the number of words.</p>
-               <!-- Quid du nombre de pages ? Élement <measure> ?? -->
+               <p>This part indicates the size of the work and contains the number of words and
+                  pages (considering that the number of pages equals the number of <gi>pb</gi>.</p>
                <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                  <extent>12435 words</extent>
+                  <extent>
+                     <measure unit="words">12543</measure>
+                     <measure unit="pages">99</measure>
+                  </extent>
                </egXML>
             </div>
             <div>
@@ -333,8 +337,8 @@
             <div>
 
                <head>Common elements</head>
-               <!-- Attention, le premier tableau semble systématiquement "cassé" ; trouver une solution (une des solutions = mettre un tableau vide avant...) -->
-               <p>It is possible to use the following elements : <table>
+               <p>It is possible to use the following elements : <!-- The following first empty table is only needed because the first table does not render properly after transformation -->
+                  <table>
                      <row>
                         <cell/>
                      </row>
@@ -410,6 +414,70 @@
                            <cell>any speaker in a speech</cell>
                         </row>
                      </table></p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <text xml:id="EDI_0001">
+                        <body>
+                           <div type="letter" xml:id="EDI_0001-1" n="1">
+                              <head>A <persName>MONSEIGNEVR LE DVC D’ESPERNON</persName>.
+                                 <lb/>Lettre I.</head>
+                              <p n="1" xml:id="EDI_0001-1-1">
+                                 <persName>Monseignevr</persName>, Quand ie ne ſerois pas nay cõme
+                                 ie ſuis, voſtre tres-humble ſeruiteur, il faudroit que ie fuſſe
+                                 mauuais François pour ne me reſioüir pas des contẽtemens de voſtre
+                                    <orgName>maiſon</orgName>, puis que ce ſont des felicités
+                                 publiques. <lb/>Nous auõs ſçeu l’heureux ſuccés du voyage que vous
+                                 auez fait en <placeName>Bearn</placeName>
+                              </p>
+                           </div>
+                        </body>
+                     </text>
+                  </egXML>
+                  <p>Example of a letter</p>
+                  <lb/>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <body>
+                        <div type="play" xml:id="EDI_0002-1" n="1">
+                           <head>
+                              <lb/>L’ILLVSION <lb/>COMIQVE <lb/>COMEDIE</head>
+                           <div type="act" xml:id="EDI_0002-1-1" n="1">
+                              <lb/>
+                              <head>ACTE PREMIER.</head>
+                              <div type="scene" xml:id="EDI_0002-1-1-1" n="1">
+                                 <lb/>
+                                 <head>SCENE PREMIERE.</head>
+                                 <lb/>
+                                 <stage><persName>PRIDAMANT</persName>,
+                                    <persName>DORANTE</persName>.</stage>
+                                 <lb/>
+                                 <sp n="1" xml:id="EDI_0002-1-1-1-1">
+                                    <speaker>DORANTE.</speaker>
+                                    <p n="1" xml:id="EDI_0002-1-1-1-1-1">
+                                       <lb/>CE grand Mage dont l'art commande <lb/>à la nature
+                                       <lb/>N'a choiſi pour palais que cette grotte <lb/>obſcure;
+                                       <lb/>La nuit qu'il entretient ſur cet af <lb break="no"
+                                          rend="¬"/>freux ſeiour <lb/>N'ouurant ſon voile espais
+                                       qu'aux raions d’vn <lb/>fauxiour, <fw>
+                                          <lb/>A <lb/>2 L’ILLVSION COMIQ.</fw>
+                                       <lb/>De leur eſclat douteux n'admet en ces lieux ſombres
+                                       <lb/>Que ce qu'en peut ſouffrir le commerce des ombres.
+                                       <lb/>N'auances pas, ſon art au pied de ce Rocher <lb/>A mis
+                                       dequoy punir qui s'en oſe approcher, <lb/>Et cette large
+                                       boucbe eſt vn mur inuiſible, <lb/>Ou l'air en ſa faueur
+                                       deuient inacceßible, <lb/>Et luy fait vn rampart dont les
+                                       funestes bords <lb/>Sur vn peu de poußiere eſtalent mille
+                                       morts. <lb/>Ialoux de ſon repos plus que de ſa deffenſe
+                                       <lb/>Il perd qui l'importune ainſi que qui l'offence, <lb/>Si
+                                       bien que ceux qu'amene vn curieux deſir <lb/>Pour conſulter
+                                          <persName>Alcandre</persName> attendent ſon loiſir,
+                                       <lb/>Chaque iour il ſe monſtre, &amp; nous touchons à l'heure
+                                       <lb/>Que pour ſe diuertir il ſort de ſa demeure.</p>
+                                 </sp>
+                              </div>
+                           </div>
+                        </div>
+                     </body>
+                  </egXML>
+                  <p>Example of a speech</p>
                </div>
                <div>
                   <head>Letters</head>
@@ -445,6 +513,26 @@
                token. Regarding ponctuation, we decided to consider the marks as tokens; first,
                because more precision wouldn't be useful for our analyse and second, because with
                this choice, our encoding remains compatible with ELTeC.</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <p n="1" xml:id="EDI_0002-1-1-1-1-1">
+                  <choice>
+                     <orig><seg><w>N</w><w>'</w><w>a</w>
+                           <w>choiſi</w>
+                           <w>pour</w>
+                           <w>palais</w>
+                           <w>que</w>
+                           <w>cette</w>
+                           <w>grotte</w></seg></orig>
+                     <reg><w>N</w><w>'</w><w>a</w>
+                        <w>choisi</w>
+                        <w>pour</w>
+                        <w>palais</w>
+                        <w>que</w>
+                        <w>cette</w>
+                        <w>grotte</w></reg>
+                  </choice>
+               </p>
+            </egXML>
          </div>
       </div>
       <div>
@@ -599,28 +687,28 @@
                </row>
                <row>
                   <cell role="label"><att>xml:id</att></cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
                   <cell role="data">not required</cell>
                </row>
                <row>
                   <cell role="label"><att>n</att></cell>
                   <cell role="data">not required</cell>
-                  <cell role="data"><hi rend="bold">required</hi></cell> <!-- Est-ce que ça se fait d'utiliser <hi> pour mettre un élément en gras en html ? -->
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
-                  <cell role="data">required</cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
                </row>
                <row>
                   <cell role="label"><att>type </att></cell>
                   <cell role="data">not required</cell>
-                  <cell role="data">required</cell>
+                  <cell role="data"><hi rend="bold">required</hi></cell>
                   <cell role="data">not required</cell>
                   <cell role="data">not required</cell>
                   <cell role="data">not required</cell>
