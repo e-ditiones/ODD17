@@ -48,4 +48,4 @@ This repository is CC-BY.
 
 Alexandre Bartz, Simon Gabay. 2019. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/alexbartz/E-ditiones.
 
-![e-ditiones](logo-1.png | width="200" height="100")
+<img src="logo-1.png" width="40%">
