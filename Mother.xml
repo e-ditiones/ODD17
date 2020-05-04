@@ -2,8 +2,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- This file contains all ellements that wil be used in the encoding. In order to use ODD-chaining, a first XSL transformation is processed on this file, using oddbyexample.xml.
+      The output file is named `Mother-ODD`.
+   -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <!-- Le header sera traité plus tard -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,8 +16,16 @@
                <resp>éditeur scientifique <date when="2019">2019</date></resp>
             </respStmt>
          </titleStmt>
-         <!-- Retirer editionStmt -->
-         <extent>7KB</extent>
+         <editionStmt>
+            <edition>
+               <date>30/04/2020</date>
+            </edition>
+            <respStmt>
+               <persName>Simon Gabay</persName>
+               <resp>Éditeur scientifique</resp>
+            </respStmt>
+         </editionStmt>
+         <extent><measure>7KB</measure></extent>
          <publicationStmt>
             <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
             <availability status="restricted">
@@ -22,9 +33,6 @@
                   (CC BY 2.0)</licence>
             </availability>
          </publicationStmt>
-         <notesStmt>
-            <note/>
-         </notesStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -65,7 +73,7 @@
                </history>
                <additional>
                   <surrogates>
-                     <!-- ajouter les images ici -->
+                     <!-- add images here -->
                      <graphic source="local" url="chemin"/>
                   </surrogates>
                   <listBibl>
@@ -95,9 +103,7 @@
                         <incipit>Vous recevrez à la fin ce que vous méritâtes le jour de votre
                            naissance</incipit>
                         <explicit>et que c'était avec respect qu'il faisait justice</explicit>
-                        <!-- @type: autograph, copy, draft -->
                         <filiation type="autograph">autographe, probablement une copie.</filiation>
-                        <!-- Prévoir   <decoNote><p></p></decoNote> à cet endroit, pour les manuscrits d'apparat. -->
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -157,10 +163,6 @@
          <change/>
       </revisionDesc>
    </teiHeader>
-   <!-- Encodage qui comprend l'ensemble des éléments utilisés par les 3 niveaux.
-   Les attributs ainsi que leurs valeurs, à définir seront ajoutés manuellement.
-   Il sera décidé plus tard si l'on doit contraindre ou non l'enchaînement de certains éléments/attributs.
-   -->
    <text>
       <front>
          <p>Blabla</p>
@@ -196,6 +198,14 @@
                <lg>
                   <l>Blabla</l>
                </lg>
+            </p>
+         </div>
+         <div>
+            <p>
+               <choice>
+                  <orig><seg><w/></seg></orig>
+                  <reg><seg><w/></seg></reg>
+               </choice>
             </p>
          </div>
       </body>
