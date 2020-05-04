@@ -20,13 +20,11 @@
                <gi>xi:include</gi> which allows us to separate metadata from text and then have a
             complete final document.</p>
          <p>Another essential principle of the project is to use a minimal set of elements.</p>
-         <!--  <figure>
-             Simple test, il faut d'abord valider les schémas + rédiger les schémas en anglais 
-            <graphic url=""/>
-            attention au chemin de fichier en raison de l'usage de xi:include, il faut un chemin du type "/../filename"
+         <figure>
+            <graphic url="ODD-chaning.png"/>
             <head>Figure 1 - ODD-chaining</head>
             <figDesc>Representation of the use of ODD-chaining in the e-ditiones project </figDesc>
-         </figure>-->
+         </figure>
       </div>
       <div>
          <head>Document identifiers</head>

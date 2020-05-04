@@ -21,7 +21,7 @@
 
     <text>
 
-        <xi:include href="Documentation/ODD-body.xml"/>
+        <xi:include href="../Documentation/ODD-body.xml"/>
 
         <back>
             <div>

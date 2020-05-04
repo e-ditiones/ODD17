@@ -2,11 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Encoding guidelines for e-ditiones - level 3</title>
+            <title>Encoding guidelines of the teiHeader for printed documents</title>
             <author>Alexandre Bartz</author>
          </titleStmt>
          <publicationStmt>
@@ -17,23 +18,20 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-
    <text>
 
-      <xi:include href="Documentation/ODD-body.xml"/>
+      <xi:include href="../Documentation/ODD-body.xml"/>
 
       <back>
          <div>
-            <head>Encoding specification</head>
-            <schemaSpec ident="ed3" source="Mother-compiled.xml" start="text">
+            <schemaSpec ident="header_printed" source="Mother-compiled.xml" start="teiHeader">
                <moduleRef key="tei"/>
-               <moduleRef key="textstructure" include="text body front back div opener closer"/>
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change availability"/>
+               <moduleRef key="namesdates" include="forename surname persName"/>
                <moduleRef key="core"
-                  include="p pb lb sp stage speaker l list item head lg note choice orig reg"/>
-               <moduleRef key="transcr" include="fw"/>
-               <moduleRef key="namesdates" include="persName placeName orgName"/>
-               <moduleRef key="analysis" include="w"/>
-               <moduleRef key="linking" include="seg"/>
+                  include="editor listBibl bibl list item p title author pubPlace publisher note head ptr date name respStmt resp"
+               />
             </schemaSpec>
          </div>
       </back>
