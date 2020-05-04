@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tei.css" type="text/css"?>
 
 <body xmlns="http://www.tei-c.org/ns/1.0">
    <div>
+      <figure>
+         <graphic url="../logo-1.png" width="300px"/>
+      </figure>
       <head>Introduction</head>
       <p>This document provides the specific encoding principles for manuscripts and printed
          documents of the project e-ditiones.</p>
@@ -21,8 +25,8 @@
             complete final document.</p>
          <p>Another essential principle of the project is to use a minimal set of elements.</p>
          <figure>
-            <graphic url="ODD-chaning.png"/>
-            <head>Figure 1 - ODD-chaining</head>
+            <graphic url="../Documentation/ODD-chaining.png"/>
+            <head>ODD-chaining</head>
             <figDesc>Representation of the use of ODD-chaining in the e-ditiones project </figDesc>
          </figure>
       </div>
@@ -338,9 +342,10 @@
                <p>It is possible to use the following elements : <!-- The following first empty table is only needed because the first table does not render properly after transformation -->
                   <table>
                      <row>
-                        <cell/>
+                        <cell></cell>
                      </row>
-                  </table><table>
+                  </table>
+                  <table>
                      <row role="label">
                         <cell>Element</cell>
                         <cell>Text type</cell>
@@ -349,6 +354,7 @@
                      <row role="data">
                         <cell><gi>front</gi></cell>
                         <cell>any prefatory matter</cell>
+                        <cell/>
                      </row>
                      <row role="data">
                         <cell><gi>div</gi></cell>
@@ -358,6 +364,7 @@
                      <row role="data">
                         <cell><gi>back</gi></cell>
                         <cell>any type of appendix</cell>
+                        <cell/>
                      </row>
                      <row role="data">
                         <cell><gi>head</gi></cell>
@@ -377,6 +384,7 @@
                      <row role="data">
                         <cell><gi>l</gi> and <gi>lg</gi></cell>
                         <cell>any type of line or line group</cell>
+                        <cell/>
                      </row>
                      <row role="data">
                         <cell><gi>note</gi></cell>
@@ -410,6 +418,7 @@
                         <row role="data">
                            <cell><gi>speaker</gi></cell>
                            <cell>any speaker in a speech</cell>
+                           <cell/>
                         </row>
                      </table></p>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
