@@ -9,7 +9,7 @@ To encode those documents, we chose to use ODD-chaining. The following diagram e
 First, we created a file `Mother.xml`containing all the elements that we will use during encoding, then we process a first transformation with `oddbyexample.xml`.
 We process on the output file, `Mother-ODD.xml`, an other transformation with `odd2odd`. The final output file, `Mother-compiled.xml`is used for the ODD-chaining process.
 
-![ODD-chaining](/ODD-chaining.png "ODD-chaining")
+![ODD-chaining](Documentation/ODD-chaining.png "ODD-chaining")
 
 You can learn more about it [here](https://wiki.tei-c.org/index.php/ODD_chaining).
 
@@ -46,3 +46,5 @@ This repository is CC-BY.
 ## Cite this repository
 
 Alexandre Bartz, Simon Gabay. 2019. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/alexbartz/E-ditiones.
+
+![e-ditiones](logo-1.png =250*120)
