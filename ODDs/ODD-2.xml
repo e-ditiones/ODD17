@@ -26,7 +26,7 @@
         <back>
             <div>
                 <head>Encoding specification</head>
-                <schemaSpec ident="ed2" source="Mother-compiled.xml" start="text">
+                <schemaSpec ident="ed2" source="../Mother-compiled.xml" start="text">
                     <moduleRef key="tei"/>
                     <moduleRef key="textstructure" include="text body front back div opener closer"/>
                     <moduleRef key="core"

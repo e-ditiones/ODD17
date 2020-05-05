@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Header for manuscripts</title>
+            <title>Encoding guidelines of the teiHeader for manuscripts</title>
             <author>Alexandre Bartz</author>
          </titleStmt>
          <publicationStmt>
@@ -23,7 +23,7 @@
 
       <back>
          <div>
-            <schemaSpec ident="header_MS" source="Mother-compiled.xml" start="teiHeader">
+            <schemaSpec ident="header_MS" source="../Mother-compiled.xml" start="teiHeader">
                <moduleRef key="tei"/>
                <moduleRef key="header"
                   include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt availability"/>
