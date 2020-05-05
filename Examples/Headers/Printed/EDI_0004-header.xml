@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+        <titleStmt>
+            <title>L'Amour à la mode</title>
+            <author>Thomas Corneille</author>
+            <editor>Simon Gabay</editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>E-Ditiones project</authority>
+            <availability status="restricted" n="cc-by">
+                <licence target="https://creativecommons.org/licenses/by/4.0">
+                    <p>Attribution 4.0 International (CC BY 4.0)</p>
+                </licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl>
+                <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k12803338"/>
+                <publisher>gallica.bnf.fr / Bibliothèque nationale de France</publisher>
+                <author>Corneille, Thomas (1625-1709)</author>
+                <title>L'Amour à la mode, comédie</title>
+                <pubPlace>Rouen</pubPlace>
+                <publisher>L. Maurry</publisher>
+                <pubPlace>Paris</pubPlace>
+                <publisher>G. de Luynes</publisher>
+                <date>1653</date>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>

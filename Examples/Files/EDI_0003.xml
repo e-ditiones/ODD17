@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <xi:include href="../Headers/Printed/EDI_0003-header.xml"/>
+   <xi:include href="../Texts/Level_1/EDI_0003-text.xml"/>
+</TEI>
