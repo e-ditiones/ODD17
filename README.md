@@ -9,7 +9,9 @@ After the OCR of the text, its encoding will be completed in three phases :
 * Level 2 : we will add semantic informations
 * Level 3 : we will add linguistical informations
 <br/>
+
 ![Encoding-levels](Documentation/Encoding_levels.png)
+
 <br/>
 <br/>
 To encode those documents at several levels, we chose to use ODD-chaining. The following diagram explains how we did it :
