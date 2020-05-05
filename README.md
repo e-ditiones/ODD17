@@ -11,10 +11,13 @@ After the OCR of the text, its encoding will be completed in three phases :
 <br/>
 ![Encoding-levels](Documentation/Encoding_levels.png)
 <br/>
+<br/>
 To encode those documents at several levels, we chose to use ODD-chaining. The following diagram explains how we did it :
 
 First, we created a file `Mother.xml`containing all the elements that we will use during encoding, then we process a first transformation with `oddbyexample.xml`.
 We process on the output file, `Mother-ODD.xml`, an other transformation with `odd2odd`. The final output file, `Mother-compiled.xml`is used for the ODD-chaining process.
+<br/>
+<br/>
 <br/>
 
 <img src="Documentation/ODD-chaining.png" width="80%">
