@@ -57,6 +57,7 @@ You can find some examples in the folder [Examples](https://github.com/e-ditione
 Each file is named following this structure : `Identifier_Level-of-encoding_Containt.xml` or `Identifier_header.xml`. For example, `EXP_0001_level_1-text.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
 
 The folder [file](https://github.com/e-ditiones/ODD17/tree/master/Examples/Files) contains final files (metadata and transcription).
+
 **Please note that we are still working on the best way to form a complete file.**
 
 ## Credits
@@ -71,6 +72,6 @@ This repository is CC-BY.
 
 ## Cite this repository
 
-Alexandre Bartz, Simon Gabay. 2019. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/alexbartz/E-ditiones.
+Alexandre Bartz, Simon Gabay. 2019. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/e-ditiones/ODD17.
 
 <img src="logo_e-ditiones.png" width="40%">
