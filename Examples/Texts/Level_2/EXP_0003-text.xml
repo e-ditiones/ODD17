@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../out/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0003">
+<!-- Please note that for now, severals identifiers are missing -->
+
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0003">
    <front>
-      <div type="titlePage" n="1" xml:id="EDI_0003-0-1">
-         <p xml:id="EDI_0003-0-1-1" n="1">
+      <div type="titlePage" n="1" xml:id="EXP_0003-0-1">
+         <p xml:id="EXP_0003-0-1-1" n="1">
             <pb n="1"/><lb/>LA <lb/>COMEDIE <lb/>DES <lb/>ACADEMISTES, <lb/>POVR <lb/>LA
             REFORMATION. <lb/>de la Langue Françoiſe. <lb/>PIECE COMIQVE.</p>
-         <p xml:id="EDI_0003-0-1-2" n="2"><lb/>AVEC LE ROOLE DES <lb/>PRESENTATIONS, FAITES.
+         <p xml:id="EXP_0003-0-1-2" n="2"><lb/>AVEC LE ROOLE DES <lb/>PRESENTATIONS, FAITES.
             <lb/>aux grands Iours de ladite<lb break="no" rend="¬"/>Academie.</p>
-         <p xml:id="EDI_0003-0-1-3" n="3"><lb/>Imprimé l’An de la Reforme.</p>
+         <p xml:id="EXP_0003-0-1-3" n="3"><lb/>Imprimé l’An de la Reforme.</p>
       </div>
 
-      <div type="liminal" xml:id="EDI_0003-0-2" n="2">
-         <p xml:id="EDI_0003-0-2-1" n="1"><lb/>M <lb/>1 <pb n="2"/><lb/>AVX AVTHEVRS DE
+      <div type="liminal" xml:id="EXP_0003-0-2" n="2">
+         <p xml:id="EXP_0003-0-2-1" n="1"><lb/>M <lb/>1 <pb n="2"/><lb/>AVX AVTHEVRS DE
             <lb/>l'Academie, qui ſe meſlent de <lb/>reformer la Langue. <lb/>ESSIEVRS, <lb/>Il eſt
             trés iuſte de <lb/>vous dedier cet ou<lb break="no" rend="¬"/>urage, puis que vous auez
             fourny lé <lb/>ſujet, &amp; qu’il n’y a point de gens au <lb/>monde qui meritent le
@@ -62,7 +64,7 @@
             ſuis de voſtre Reforme, <lb/>Voſtre Seruiteur, <lb/>DES CAVENETS.</p>
       </div>
 
-      <div type="castList" n="3" xml:id="EDI_0003-0-3">
+      <div type="castList" n="3" xml:id="EXP_0003-0-3">
          <list>
             <head><lb/>LES ACTEVRS.</head>
             <item><lb/><persName>TRISTAN</persName>.</item>
@@ -89,14 +91,14 @@
       <fw><lb/>La Scene eſt à Paris.</fw>
    </front>
    <body>
-      <div type="play" n="1" xml:id="EDI_0003-1">
-         <div type="act" n="1" xml:id="EDI_0003-1-1">
+      <div type="play" n="1" xml:id="EXP_0003-1">
+         <div type="act" n="1" xml:id="EXP_0003-1-1">
             <fw><lb/>ACTE PREMIER. ai</fw>
-            <div type="scene" n="1" xml:id="EDI_0003-1-1-1">
+            <div type="scene" n="1" xml:id="EXP_0003-1-1-1">
                <head><lb/>SGENE PREMIERE. 161</head>
                <stage><lb/><persName>TRISTAN</persName>, <persName>SAINT AMAND</persName>, <lb/>qui
                   ſe mocquent de l’Academie.</stage>
-               <sp xml:id="EDI_0003-1-1-1-1" n="1">
+               <sp xml:id="EXP_0003-1-1-1-1" n="1">
                   <speaker><lb/>TRISTAN.</speaker>
                   <p><lb/>? <lb/>MT qui ne riroit de noſtre Aca<lb
                         break="no" rend="¬"/>demie, <lb/>Mallet a'il iamais receu plus d’in<lb
@@ -209,7 +211,7 @@
                   Cabarei.</p></sp>
             </div>
 
-            <div type="scene" n="2" xml:id="EDI_0003-1-2">
+            <div type="scene" n="2" xml:id="EXP_0003-1-2">
                <head><lb/>ACTE PREMIER. <lb/>Ldore SCENE II.</head>
                <stage><lb/><persName>GODEAV</persName>, <persName>COLLETET</persName>.</stage>
                <sp>

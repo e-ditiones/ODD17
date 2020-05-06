@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../out/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0001">
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0001">
  <body>
-  <div type="letter" xml:id="EDI_0001-1" n="1">
+  <div type="letter" xml:id="EXP_0001-1" n="1">
    <head>A <persName>MONSEIGNEVR LE DVC D’ESPERNON</persName>. <lb/>Lettre I.</head>
 
-   <p n="1" xml:id="EDI_0001-1-1">
+   <p n="1" xml:id="EXP_0001-1-1">
     <persName>Monseignevr</persName>, Quand ie ne ſerois pas nay cõme ie ſuis, voſtre tres-humble
     ſeruiteur, il faudroit que ie fuſſe mauuais François pour ne me reſioüir pas des contẽtemens de
     voſtre <orgName>maiſon</orgName>, puis que ce ſont des felicités publiques. <lb/>Nous auõs ſçeu

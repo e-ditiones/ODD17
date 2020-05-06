@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../out/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0002">
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0002">
       <body>
          <p>
             <fw><lb/>LILLVSION
