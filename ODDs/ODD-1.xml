@@ -25,9 +25,9 @@
       <back>
          <div>
             <head>Encoding specification</head>
-            <schemaSpec ident="ed1" source="../Mother-compiled.xml">
+            <schemaSpec ident="ed1" source="../Mother-compiled.xml" start="text">
                <moduleRef key="tei"/>
-               <moduleRef key="textstructure" include="TEI text body"/>
+               <moduleRef key="textstructure" include="text body"/>
                <moduleRef key="core" include="p lb pb"/>
                <moduleRef key="transcr" include="fw"/>
 
