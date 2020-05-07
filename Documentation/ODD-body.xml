@@ -19,9 +19,10 @@
          <p>Considering the fact that we have two major types of texts, as a reminder, printed
             documents and manuscripts, we made the decision to separate metadata from text. This
             way, we have the possibility to create two schemas, one specific to printed documents,
-            the other to manuscripts. In order to rebuild a complete TEI file, we use
+            the other to manuscripts. <!--In order to rebuild a complete TEI file, we use
                <gi>xi:include</gi> which allows us to separate metadata from text and then have a
-            complete final document.</p>
+            complete final document. --></p>
+         <p>Please note that we are still working on the best way to form a complete file.</p>
          <p>Another essential principle of the project is to use a minimal set of elements.</p>
          <figure>
             <graphic url="../Documentation/ODD-chaining.png"/>
