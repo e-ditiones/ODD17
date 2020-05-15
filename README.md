@@ -6,7 +6,7 @@ Schemas and documentation for the encoding of french modern (17th c.) manuscript
 
 We chose to separate metadata (encoded in the `<teiHeader>`) from transcription (encoded in the `<text>`).
 
-This way, we have the possibility to create two schemas for the `<teiHeader>`, one specific to the metadata of printed documents, the other to the metadata of manuscripts.
+This way, we have the possibility to create two schemas for the `<teiHeader>`, one specific to the metadata of printed documents, and another one for the metadata of manuscripts.
 
 After the OCR of the text (as the transcription), its encoding will be completed in three phases : 
 * Level 1 : the encoding will distinguish form and content
@@ -30,14 +30,13 @@ To encode those documents at several levels, we chose to use ODD-chaining. The f
 
 <br/>
 
-First, we created a file `Mother.xml`containing all the elements that we will use during encoding, then we process a first transformation with `oddbyexample.xml`.
-We process on the output file, `Mother-ODD.xml`, an other transformation with `odd2odd`. The final output file, `Mother-compiled.xml`is used for the ODD-chaining process.
+First, we create a file `Mother.xml` containing all the elements that we will use during encoding, and this document is transformed with `oddbyexample.xml` to produce an ODD called `Mother-ODD.xml`. This last document is then transformed with the `odd2odd.xsl` to obtain produce a document called `Mother-compiled.xml`, used by the other sub-ODDs.
 
 You can learn more about it [here](https://wiki.tei-c.org/index.php/ODD_chaining) and [here](https://github.com/TEIC/TEI/tree/e375991d8155fe619f429be5774e3c75022e1e87/Documents/pureODD).
 
 ## Schemas
 
-This repository contains all the schemas in RELAXNG of the project e-ditiones.
+This repository contains all the schemas in RELAXNG of the _E-ditiones_ project.
 Note that all texts must be valid against these schemas.
 
 You will find six specific schemas, there are schemas for :
@@ -57,7 +56,7 @@ You can find the XML version in the file [ODD-body.xml](https://github.com/e-dit
 
 Some examples are available in the folder [Examples](https://github.com/e-ditiones/ODD17/tree/master/Examples).
 
-Each file is named following this structure : `Identifier_Level-of-encoding_Containt.xml` or `Identifier_header.xml`. For example, `EXP_0001_level_1-text.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
+Each file is named according to its encoding : `Identifier_Level-of-encoding_Containt.xml` or `Identifier_header.xml`. For example, `EXP_0001_level_1-text.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
 
 The folder [file](https://github.com/e-ditiones/ODD17/tree/master/Examples/Files) contains final files (metadata and transcription).
 
