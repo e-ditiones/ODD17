@@ -1,19 +1,18 @@
 # Encoding French modern manuscripts and printed documents
 
-Schemas and documentation for the encoding of french modern (17th c.) manuscripts and printed documents.
+Schemas and documentation for the _E-ditiones_ project.
 
-## Introduction
+## Encoding levels
 
-We chose to separate metadata (encoded in the `<teiHeader>`) from transcription (encoded in the `<text>`).
+The metadata and the transcriptions both have their own schemas.
 
-This way, we have the possibility to create two schemas for the `<teiHeader>`, one specific to the metadata of printed documents, and another one for the metadata of manuscripts.
-
-After the OCR of the text (as the transcription), its encoding will be completed in three phases : 
-* Level 1 : the encoding will distinguish form and content
-* Level 2 : we will add semantic informations
-* Level 3 : we will add linguistical informations
-
-Please note that at each level, all existing elements are still used and new elements are added to the existing ones.
+* Two for the `<teiHeader>` (metadata)
+  * One for prints
+  * One for manuscripts
+* Three for the `<text>` (transcription)
+  * Level 1 : the encoding will distinguish form and content
+  * Level 2 : we will add semantic informations
+  * Level 3 : we will add linguistical informations
 
 <br/>
 
@@ -21,7 +20,10 @@ Please note that at each level, all existing elements are still used and new ele
 
 <br/>
 <br/>
-To encode those documents at several levels, we chose to use ODD-chaining. The following diagram explains how we did it.
+
+## ODD-chaining
+
+All these schemas are related to one another thanks to ODD-chaining.
 
 <br/>
 <br/>
@@ -30,14 +32,16 @@ To encode those documents at several levels, we chose to use ODD-chaining. The f
 
 <br/>
 
-First, we create a file `Mother.xml` containing all the elements that we will use during encoding, and this document is transformed with `oddbyexample.xml` to produce an ODD called `Mother-ODD.xml`. This last document is then transformed with the `odd2odd.xsl` to obtain produce a document called `Mother-compiled.xml`, used by the other sub-ODDs.
+All the documents used to create the sub-schemas are available in this repo.
+1. `Mother.xml` contains all the elements that are used in the sub-sechemas. 
+2. `Mother-ODD.xml`: `Mother.xml` transformed with `oddbyexample.xsl`
+3. `Mother-compiled.xml`: `Mother-ODD.xml` transformed with `odd2odd.xsl`
 
-You can learn more about it [here](https://wiki.tei-c.org/index.php/ODD_chaining) and [here](https://github.com/TEIC/TEI/tree/e375991d8155fe619f429be5774e3c75022e1e87/Documents/pureODD).
+You can learn more about the process [here](https://wiki.tei-c.org/index.php/ODD_chaining) and [here](https://github.com/TEIC/TEI/tree/e375991d8155fe619f429be5774e3c75022e1e87/Documents/pureODD).
 
 ## Schemas
 
-This repository contains all the schemas in RELAXNG of the _E-ditiones_ project.
-Note that all texts must be valid against these schemas.
+This repository contains all the schemas of the _E-ditiones_ project in the RELAX NG language.
 
 You will find six specific schemas, there are schemas for :
 * [one for the header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-header_MS.rng) 
@@ -45,7 +49,7 @@ You will find six specific schemas, there are schemas for :
 * [one for the text at level 1](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-1.rng)
 * [one for the text at level 2](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-2.rng)
 * [one for the text at level 3](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-3.rng)
-* [one for the final file (metadata and transcription)](https://github.com/e-ditiones/ODD17/blob/master/out/Mother-ODD.rng)
+* [one for all the possible combinations of the previous schemas](https://github.com/e-ditiones/ODD17/blob/master/out/Mother-ODD.rng)
 
 ## Documentation
 
@@ -56,7 +60,7 @@ You can find the XML version in the file [ODD-body.xml](https://github.com/e-dit
 
 Some examples are available in the folder [Examples](https://github.com/e-ditiones/ODD17/tree/master/Examples).
 
-Each file is named according to its encoding : `Identifier_Level-of-encoding_Containt.xml` or `Identifier_header.xml`. For example, `EXP_0001_level_1-text.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
+Each file is named according to its content : `Identifier_Level-of-encoding_Content.xml` or `Identifier_header.xml`. For example, `EXP_0001_level_1-text.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
 
 The folder [file](https://github.com/e-ditiones/ODD17/tree/master/Examples/Files) contains final files (metadata and transcription).
 
@@ -64,13 +68,13 @@ The folder [file](https://github.com/e-ditiones/ODD17/tree/master/Examples/Files
 
 ## Credits
 
-This repository is developed by Alexandre Bartz with the help of Simon Gabay, as part of the project [e-ditiones](https://github.com/e-ditiones).
+This repository is developed by Alexandre Bartz with the help of Simon Gabay, as part of the [_E-ditiones_](https://github.com/e-ditiones) project.
 
 ## Licence
 
-This repository is CC-BY.
+This repository is CC-BY-SA.
 <br/>
-<a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a>
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/2.0/88x31.png" /></a>
 
 ## Cite this repository
 
