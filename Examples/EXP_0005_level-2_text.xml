@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0005">
+   <front>
+      <div type="titlePage">
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f1.image"/>
+         <p><lb/>ODE</p>
+         <p><lb/>M. DC. XXXXI.</p>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f2.image"/>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f3.image"/>
+      </div>
+   </front>
+   <body>
+      <div type="collection">
+         
+         <head><lb/>A
+            <lb/>MONSEIGNEVR
+            <lb/>LEGRAND</head>
+         <head><lb/>ODE</head>
+         <lg>
+            <l><lb/>HEros ieune &amp; comblé d'honneur,</l>
+            <l><lb/>Pour qui la Gloire &amp; le bon-heur</l>
+            <l><lb/>Ont vne étroite ſympatie;</l>
+            <l><lb/>CINQMARS, c'eſt vn commun diſcours,</l>
+            <l><lb/>Que les Graces &amp; les Amours</l>
+            <l><lb/>Se treuuerent de la partie,</l>
+            <l><lb/>Quand la trame fut aſſortie</l>
+            <l><lb/>Dont <persName>la Parque</persName> fila vos iours.</l>
+         </lg>
+         <fw><lb/>ã ij
+            <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f4.image"/>
+               ODE.</fw>
+         <lg>
+            <l><lb/>Ces Flambeaux qui du Firmament</l>
+            <l><lb/>Reſpandent le temperament</l>
+            <l><lb/>Et le ſort de toutes les choſes;</l>
+            <l><lb/>Les Aſtres qui d'vn Art ſi beau</l>
+            <l><lb/>Font que de feu, de terre &amp; d'eau,</l>
+            <l><lb/>Tant de merueilles ſont écloſes;</l>
+            <l><lb/>Ne firent pleuuoir que des roſes</l>
+            <l><lb/>Sur le tour de voſtre Berçeau.</l>
+         </lg>
+         <lg>
+            <l><lb/>Ces admirables Artiſans</l>
+            <l><lb/>De leurs plus ſuperbes preſens,</l>
+            <l><lb/>Vous ont fait vn riche partage.</l>
+            <l><lb/>Iamais leur celeſte action</l>
+            <l><lb/>Ne peut faire d'impreſſion,</l>
+            <l><lb/>D'eſprit, de grace &amp; de courage,</l>
+            <l><lb/>Qui faſſe éclater vn Ouurage</l>
+            <l><lb/>Auec plus de perfection.</l>
+         </lg>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f5.image"/>
+         <fw><lb/>ODE</fw>
+         <lg>
+            <l><lb/>Tel pouuoit eſtre ce Heros</l>
+            <l><lb/>Que l'on expoſa ſur les flots</l>
+            <l><lb/>Par vne ſi noire pratique.</l>
+            <l><lb/>Ce Prince qui d'vn bras fatal,</l>
+            <l><lb/>Deliura de crainte &amp; de mal</l>
+            <l><lb/>La belle Princeſſe d'<placeName>Affrique</placeName>;</l>
+            <l><lb/>Et ſur la <placeName>Mer Ethiopique</placeName></l>
+            <l><lb/>Fit durcir le premier Coral.</l>
+         </lg>
+         <lg>
+            <l><lb/>Tel peut eſtre repreſenté,</l>
+            <l><lb/>Ce Grec charmant &amp; redouté</l>
+            <l><lb/>De qui la vie eſt ſi brillante:</l>
+            <l><lb/>Lors qu'auant le ſac d'Ilion,</l>
+            <l><lb/>Il alloit ſur le Pelion</l>
+            <l><lb/>Exercer ſon ardeur boüillante;</l>
+            <l><lb/>Et reüenoit la main ſanglante</l>
+            <l><lb/>De la mort de quelque Lion.</l>
+         </lg>
+         <fw><lb/>ã iij
+            <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f6.image"/>
+            <lb/>ODE</fw>
+         <lg>
+            <l><lb/>Voſtre merite glorieux</l>
+            <l><lb/>Eſteint celuy des demy-Dieux</l>
+            <l><lb/>Dont éclate la Poëſie.</l>
+            <l><lb/>Et l'on confeſſe d'vne voix</l>
+            <l><lb/>Que ce fut par vn iuſte choix</l>
+            <l><lb/>Que voſtre Image fut choiſie</l>
+            <l><lb/>Pour entrer dans la fantaiſie</l>
+            <l><lb/>Du plus digne de tous les Rois.</l>
+         </lg>
+         <lg>
+            <l><lb/>Vos immortelles actions</l>
+            <l><lb/>Rendent ſes inclinations</l>
+            <l><lb/>Si iuſtes &amp; ſi raiſonnables,</l>
+            <l><lb/>Que l'Enuie aux fiévreux accés</l>
+            <l><lb/>Qui ſoupire des bons ſuccés,</l>
+            <l><lb/>Treuue ces faueurs equitables;</l>
+            <l><lb/>Où les tient pluſtoſt condemnables</l>
+            <l><lb/>Pour le défaut, que pour l'excés.</l>
+         </lg>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f7.image"/>
+         <fw><lb/>ODE.</fw>
+         <lg>
+            <l><lb/>Diuinité ſans iugement,</l>
+            <l><lb/>Et qui de ton aueuglement</l>
+            <l><lb/>Donnés de ſi viſibles marques;</l>
+            <l><lb/>Toy dont les caprices legers</l>
+            <l><lb/>Qui preſident dans les dangers,</l>
+            <l><lb/>Sauuent &amp; perdent tant de Barques</l>
+            <l><lb/>Donnant des fers à des Monarques,</l>
+            <l><lb/>Et des Sceptres à des Bergers.</l>
+         </lg>
+         <lg>
+            <l><lb/>Inconſtant Demon du hazard,</l>
+            <l><lb/>Fortune, tu n'as point de part</l>
+            <l><lb/>Au bon-heur de ſa Deſtinée.</l>
+            <l><lb/>Quelqu'auantage qu'il ait eu</l>
+            <l><lb/>L'honneur dont il eſt rôueſtu</l>
+            <l><lb/>T'a publiquement entrainée;</l>
+            <l><lb/>Et comme vne Eſclaue enchainée</l>
+            <l><lb/>Tu ſuy le Char de la Vertu.</l>
+         </lg>
+         <p><lb/>TRISTAN.</p>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k15110763/f8.image"/>
+         <p><lb/>NIL SOLIDVM.</p>
+      </div>
+   </body>
+</text>
