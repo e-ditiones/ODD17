@@ -80,6 +80,7 @@
                                     <valItem ident="part"/>
                                     <valItem ident="subPart"/>
                                     <valItem ident="letter"/>
+                                    <valItem ident="collection"/><!-- added -->
                                 </valList>
                             </attDef>
                             <attDef ident="n" mode="change" usage="req"/>
@@ -87,6 +88,7 @@
                         </attList>
                     </elementSpec>
 
+<!-- 
                     <elementSpec ident="lg" mode="change">
                         <attList>
                             <attDef ident="n" mode="change" usage="req"/>
@@ -114,7 +116,8 @@
                             <attDef ident="xml:id" mode="change" usage="req"/>
                         </attList>
                     </elementSpec>
-
+                    
+ -->
                 </schemaSpec>
             </div>
         </back>
