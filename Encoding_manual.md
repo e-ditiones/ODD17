@@ -109,3 +109,22 @@ More significantly, you can find one example encoded for each type of header and
 * text at level 3
 
 You can find even more exemples [here](https://github.com/e-ditiones/ODD17/tree/master/Examples).
+
+## Special cases
+
+You can find here some specific situations that you might be have to deal with (and how to deal with).
+
+### What can I do if...
+
+* **a page splits a word ?**
+Your encoding would probably look like this : 
+```<p>Oracle de nos iours qui connoit toutes choſes, En vain de ma douleur ie cache<pb n="34"/>rois les cauſes</p>```
+But due to our will to analyse the text, we recommend to simply put the `pb`element after the splited word, like this :
+```<p>Oracle de nos iours qui connoit toutes choſes, En vain de ma douleur ie cacherois<pb n="34"/> les cauſes</p>```
+
+* **I have to many elements to count (for `@xml:id`and `@n`) ?**
+In order to be valid against the schemas, severals elements (like *e.g.* `p` or `sp`) have to be contain these attributes `xml:id` and `n` and, as a consequence, have to be count. To helf us to do that, you will find [here]() an XSL stylesheet that adds some elements and adds required attributes.
+You can find more informations about attributes in the [documentation](https://github.com/e-ditiones/ODD17/blob/master/Documentation/ODD-body.xml#L34).
+
+* **my document isn't paginated ?**
+We decided to count each page, starting with the first `pb` element. Anyway, the XSL stylesheet above deals with it.
