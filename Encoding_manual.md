@@ -8,9 +8,9 @@ If you want to encode some texts following our specifications, you have to use s
 
 As aforementioned, headers (metadata) and texts (transcriptions) are encoded separately and merged later.
 
-### Encode a header
+### Header
 
-#### A manuscript
+#### Manuscript
 
 To encode the header of your manuscript and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
 * if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
@@ -24,7 +24,7 @@ To encode the header of your manuscript and check that your encoding is valid ag
             schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
-#### Prints
+#### Print
 
 To encode the header of your print and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
 * if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
@@ -38,7 +38,7 @@ To encode the header of your print and check that your encoding is valid against
             schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
-### Encode a text
+### Text
 
 #### Level 1
 
@@ -96,6 +96,7 @@ First, please note that each first XML-TEI element of your file, either `teiHead
 
 This [folder](https://github.com/e-ditiones/ODD17/tree/master/Documentation) contains the documentation of the project. It explains precisely what elements and attributes we use, when and why we use them.
 You can access to the documentation by clicking [here](https://github.com/e-ditiones/ODD17/blob/master/Documentation/ODD-body.xml).
+
 You can also download the folder [Documentation](https://github.com/e-ditiones/ODD17/tree/master/Documentation) and then have access to the HTML version of the document. There are five HTML files, two concerning the two types of headers and the others concerning each level of encoding.
 
 ### Examples
