@@ -20,8 +20,8 @@ To encode the header of your manuscript and check that your encoding is valid ag
 ```
 * otherwise, insert this :
 ```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng" 
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
 #### Print
@@ -34,8 +34,8 @@ To encode the header of your print and check that your encoding is valid against
 ```
 * otherwise, insert this :
 ```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_printed.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_printed.rng" 
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
 ### Text
@@ -50,8 +50,8 @@ To encode the header of your text at level 1 and check that your encoding is val
 ```
 * otherwise, insert this :
 ```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-1.rng" 
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
 #### Level 2
@@ -64,8 +64,8 @@ To encode the header of your text at level 2 and check that your encoding is val
 ```
 * otherwise, insert this :
 ```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng" 
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
 #### Level 3
@@ -78,8 +78,8 @@ To encode the header of your text at level 3 and check that your encoding is val
 ```
 * otherwise, insert this :
 ```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-3.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-3.rng" 
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
 ## How do I encode each part of my document ?
