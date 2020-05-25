@@ -51,12 +51,16 @@ You will find six specific schemas, there are schemas for :
 * [one for the text at level 3](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-3.rng)
 * [one for all the possible combinations of the previous schemas](https://github.com/e-ditiones/ODD17/blob/master/out/Mother-ODD.rng)
 
-## Documentation
+## Guidelines
+
+You can find [here](https://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) an encoding manual with more details.
+
+### Documentation
 
 The documentation of this project is available in the folder [Documentation](https://github.com/e-ditiones/ODD17/blob/master/Documentation). 
 You can find the XML version in the file [ODD-body.xml](https://github.com/e-ditiones/ODD17/blob/master/Documentation/ODD-body.xml).
 
-## Examples
+### Examples
 
 Some examples are available in the folder [Examples](https://github.com/e-ditiones/ODD17/tree/master/Examples).
 
@@ -73,85 +77,6 @@ Click here to see an exemple of an encoding following each schemas :
 * [text at level 2](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0002_level-2_text.xml)
 * text at level 3
 
-## Getting starded (How do I associate a Relax NG schema to my doc ?)
-
-If you want to encode some texts following our specifications, you have to use schemas in Relax NG ([available in this folder](https://github.com/e-ditiones/ODD17/tree/master/out)). You can either download the preceding folder or use a link.
-
-As aforementioned, headers (metadata) and texts (transcriptions) are encoded separately and merged later.
-
-### Encode a header
-
-#### A manuscript
-
-To encode the header of your manuscript and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-header_MS.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-```
-
-#### Prints
-
-To encode the header of your print and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-header_printed.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_printed.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-```
-
-### Encode a text
-
-#### Level 1
-
-To encode the header of your text at level 1 and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-```
-
-#### Level 2
-
-To encode the header of your text at level 2 and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-2.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-```
-
-#### Level 3
-
-To encode the header of your text at level 3 and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-3.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-3.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-```
 
 ## Credits
 
