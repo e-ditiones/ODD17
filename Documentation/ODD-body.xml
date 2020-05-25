@@ -677,6 +677,10 @@
                   <cell>letter</cell>
                   <cell>used for any letter</cell>
                </row>
+               <row role="data">
+                  <cell>collection</cell>
+                  <cell>used for any type of collection</cell>
+               </row>
             </table>
          </div>
          <div>
