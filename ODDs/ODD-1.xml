@@ -10,7 +10,7 @@
             <author>Alexandre Bartz</author>
          </titleStmt>
          <publicationStmt>
-            <p>Not published yet (work still in progess)</p>
+            <authority>E-ditiones</authority>
          </publicationStmt>
          <sourceDesc>
             <p>It's a born digital edition</p>
@@ -19,6 +19,8 @@
    </teiHeader>
 
    <text>
+      
+      <!-- The body contains the documentation. -->
 
       <xi:include  href="../Documentation/ODD-body.xml"/>
 
@@ -54,10 +56,12 @@
                      </attDef>
                   </attList>
                </elementSpec>
+               
+               <!-- A XSL stylesheet is used to add @n and its value. -->
 
                <elementSpec ident="pb" mode="change">
                   <attList>
-                     <attDef ident="n" mode="change" usage="req"/>
+                     <attDef ident="n" mode="change" usage="rec"/>
                   </attList>
                </elementSpec>
 

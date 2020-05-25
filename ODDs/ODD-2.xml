@@ -11,7 +11,7 @@
                 <author>Alexandre Bartz</author>
             </titleStmt>
             <publicationStmt>
-                <p>Not published yet (work still in progess)</p>
+                <authority>E-ditiones</authority>
             </publicationStmt>
             <sourceDesc>
                 <p>It's a born digital edition</p>
@@ -20,6 +20,8 @@
     </teiHeader>
 
     <text>
+        
+        <!-- The body contains the documentation. -->
 
         <xi:include href="../Documentation/ODD-body.xml"/>
 
@@ -64,7 +66,8 @@
                         </attList>
                     </elementSpec>
 
-                    <!-- New attribute value constraints -->
+                    <!-- New attribute value constraints.
+                        Please note that each @xml:id and @n and their values are add with a XSL stylesheet. -->
 
                     <elementSpec ident="div" mode="change">
                         <attList>
@@ -80,38 +83,39 @@
                                     <valItem ident="part"/>
                                     <valItem ident="subPart"/>
                                     <valItem ident="letter"/>
+                                    <valItem ident="collection"/>
                                 </valList>
                             </attDef>
-                            <attDef ident="n" mode="change" usage="req"/>
-                            <attDef ident="xml:id" mode="change" usage="req"/>
+                            <attDef ident="n" mode="change" usage="rec"/>
+                            <attDef ident="xml:id" mode="change" usage="rec"/>
                         </attList>
                     </elementSpec>
 
                     <elementSpec ident="lg" mode="change">
                         <attList>
-                            <attDef ident="n" mode="change" usage="req"/>
-                            <attDef ident="xml:id" mode="change" usage="req"/>
+                            <attDef ident="n" mode="change" usage="rec"/>
+                            <attDef ident="xml:id" mode="change" usage="rec"/>
                         </attList>
                     </elementSpec>
 
                     <elementSpec ident="l" mode="change">
                         <attList>
-                            <attDef ident="n" mode="change" usage="req"/>
-                            <attDef ident="xml:id" mode="change" usage="req"/>
+                            <attDef ident="n" mode="change" usage="rec"/>
+                            <attDef ident="xml:id" mode="change" usage="rec"/>
                         </attList>
                     </elementSpec>
 
                     <elementSpec ident="sp" mode="change">
                         <attList>
-                            <attDef ident="n" mode="change" usage="req"/>
-                            <attDef ident="xml:id" mode="change" usage="req"/>
+                            <attDef ident="n" mode="change" usage="rec"/>
+                            <attDef ident="xml:id" mode="change" usage="rec"/>
                         </attList>
                     </elementSpec>
 
                     <elementSpec ident="p" mode="change">
                         <attList>
-                            <attDef ident="n" mode="change" usage="req"/>
-                            <attDef ident="xml:id" mode="change" usage="req"/>
+                            <attDef ident="n" mode="change" usage="rec"/>
+                            <attDef ident="xml:id" mode="change" usage="rec"/>
                         </attList>
                     </elementSpec>
 

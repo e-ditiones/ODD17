@@ -11,7 +11,7 @@
             <author>Alexandre Bartz</author>
          </titleStmt>
          <publicationStmt>
-            <p>Not published yet (work still in progess)</p>
+            <authority>E-ditiones</authority>
          </publicationStmt>
          <sourceDesc>
             <p>It's a born digital edition</p>
@@ -19,7 +19,9 @@
       </fileDesc>
    </teiHeader>
    <text>
-
+     
+     <!-- The body contains the documentation. -->
+     
       <xi:include href="../Documentation/ODD-body.xml"/>
 
       <back>
