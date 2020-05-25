@@ -133,4 +133,4 @@ You can find more informations about attributes in the [documentation](https://g
 
 * **my document isn't paginated ?**
 
-We decided to count each page, starting with the first `pb` element. Anyway, the XSL stylesheet above deals with it.
+We decided to count each page, starting with the first `pb` element. Anyway, the XSL stylesheet above-mentioned deals with it.
