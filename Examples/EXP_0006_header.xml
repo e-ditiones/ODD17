@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+   <fileDesc>
+      <titleStmt>
+         <title>L'Amadis de Gaule</title>
+         <author>Marcassus</author>
+         <editor>Simon Gabay</editor>
+      </titleStmt>
+      <publicationStmt>
+         <authority>E-Ditiones project</authority>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0">
+               <p>Attribution 4.0 International (CC BY 4.0)</p>
+            </licence>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <bibl>
+            <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k15108932"/>
+            <publisher>gallica.bnf.fr / Bibliothèque nationale de France</publisher>
+            <author>Marcassus</author>
+            <title>L'Amadis de Gaule</title>
+            <pubPlace>Paris</pubPlace>
+            <publisher>P. Rocolet</publisher>
+            <date when="1629">1629</date>
+         </bibl>
+      </sourceDesc>
+   </fileDesc>
+</teiHeader>
