@@ -1,6 +1,6 @@
-# Encoding manual - project E-ditiones
+# Encoding manual - project *E-ditiones*
 
-This manual explains how to encode documents following the E-ditiones schemas.
+This manual explains how to encode documents following the *E-ditiones* schemas.
 
 ## Getting starded (How do I associate a Relax NG schema to my doc ?)
 

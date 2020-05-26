@@ -37,7 +37,7 @@ All the documents used to create the sub-schemas are available in this repo.
 2. `Mother-ODD.xml`: `Mother.xml` transformed with `oddbyexample.xsl`
 3. `Mother-compiled.xml`: `Mother-ODD.xml` transformed with `odd2odd.xsl`
 
-You can learn more about the process [here](https://wiki.tei-c.org/index.php/ODD_chaining) and [here](https://github.com/TEIC/TEI/tree/e375991d8155fe619f429be5774e3c75022e1e87/Documents/pureODD).
+You can learn more about the process [on wiki.tei-c.org](https://wiki.tei-c.org/index.php/ODD_chaining) or with this [tutorial](https://github.com/TEIC/TEI/tree/e375991d8155fe619f429be5774e3c75022e1e87/Documents/pureODD) by Lou Burnard.
 
 ## Schemas
 
@@ -53,7 +53,7 @@ You will find six specific schemas, there are schemas for :
 
 ## Guidelines
 
-You can find [here](https://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) an encoding manual with more details.
+You can find [here](https://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) an **encoding manual** with more details.
 
 ### Documentation
 
