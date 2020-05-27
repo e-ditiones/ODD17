@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <text  xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
+   <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
       <body>
          <p>
             <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f9"/>
