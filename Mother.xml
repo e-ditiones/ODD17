@@ -27,10 +27,10 @@
          </editionStmt>
          <extent><measure>7KB</measure></extent>
          <publicationStmt>
-            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
-            <availability status="restricted">
-               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic
-                  (CC BY 2.0)</licence>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
             </availability>
          </publicationStmt>
          <sourceDesc>

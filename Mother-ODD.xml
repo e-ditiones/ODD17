@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 35 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 37 files in file:/Users/alexandrebartz/Desktop/Stage/ODD/E-ditiones/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -898,6 +898,7 @@
                   <attDef ident="module" mode="delete"/>
                   <attDef ident="mode" mode="change">
                      <valList mode="add" type="closed">
+                        <valItem ident="add"/>
                         <valItem ident="change"/>
                         <valItem ident="delete"/>
                         <valItem ident="replace"/>
@@ -1043,12 +1044,6 @@
             <classSpec ident="att.editLike" type="atts" mode="change">
                <attList>
                   <attDef ident="evidence" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.media" type="atts" mode="change">
-               <attList>
-                  <attDef ident="height" mode="delete"/>
-                  <attDef ident="scale" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.measurement" type="atts" mode="change">
@@ -1534,7 +1529,6 @@
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="role" mode="delete"/>
                   <attDef ident="key" mode="delete"/>
-                  <attDef ident="ref" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="editor" mode="change">
@@ -1545,7 +1539,6 @@
                   <attDef ident="resp" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="key" mode="delete"/>
-                  <attDef ident="ref" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="respStmt" mode="change">
@@ -1629,7 +1622,6 @@
                   <attDef ident="resp" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="key" mode="delete"/>
-                  <attDef ident="ref" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="pubPlace" mode="change">
@@ -1641,7 +1633,6 @@
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="role" mode="delete"/>
                   <attDef ident="key" mode="delete"/>
-                  <attDef ident="ref" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="bibl" mode="change">
@@ -2290,6 +2281,7 @@
                </attList>
             </classSpec>
             <!--Checking module analysis-->
+            <classRef key="att.linguistic"/>
             <moduleRef key="analysis" include="w c"/>
             <elementSpec ident="w" mode="change">
                <attList>
@@ -2305,8 +2297,19 @@
                         <valItem ident="N"/>
                      </valList>
                   </attDef>
-                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="verb"/>
+                        <valItem ident="動詞"/>
+                     </valList>
+                  </attDef>
                   <attDef ident="subtype" mode="delete"/>
+                  <attDef ident="join" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="left"/>
+                        <valItem ident="right"/>
+                     </valList>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="c" mode="change">
@@ -2322,7 +2325,9 @@
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="brackets"/>
+                        <valItem ident="punctuation"/>
                         <valItem ident="stage"/>
+                        <valItem ident="標點符號"/>
                      </valList>
                   </attDef>
                   <attDef ident="subtype" mode="delete"/>

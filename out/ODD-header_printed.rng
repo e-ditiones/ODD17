@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-05-27T16:38:15Z. .
+Schema generated from ODD source 2020-05-27T16:51:21Z. .
 TEI Edition: 
 TEI Edition Location: http://www.tei-c.org/Vault/P5//
   
@@ -1609,6 +1609,7 @@ Measures]</a:documentation>
          <ref name="att.global.rendition.attribute.rend"/>
          <ref name="att.global.rendition.attribute.style"/>
          <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.canonical.attribute.ref"/>
          <empty/>
       </element>
    </define>
@@ -1625,6 +1626,7 @@ Measures]</a:documentation>
          <ref name="att.global.rendition.attribute.style"/>
          <ref name="att.global.rendition.attribute.rendition"/>
          <ref name="att.naming.attribute.role"/>
+         <ref name="att.canonical.attribute.ref"/>
          <empty/>
       </element>
    </define>
@@ -1684,6 +1686,7 @@ Measures]</a:documentation>
          <ref name="att.global.rendition.attribute.rend"/>
          <ref name="att.global.rendition.attribute.style"/>
          <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.canonical.attribute.ref"/>
          <empty/>
       </element>
    </define>
@@ -1699,6 +1702,7 @@ Measures]</a:documentation>
          <ref name="att.global.rendition.attribute.rend"/>
          <ref name="att.global.rendition.attribute.style"/>
          <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.canonical.attribute.ref"/>
          <empty/>
       </element>
    </define>
