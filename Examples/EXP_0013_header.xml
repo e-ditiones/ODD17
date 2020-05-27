@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiHeader  xmlns="http://www.tei-c.org/ns/1.0">
+   <fileDesc>
+      <titleStmt>
+         <title type="main">Deuxiesme partie des Contes et nouvelles en vers</title>
+         <title type="sub">E-Ditione edition</title>
+         <!-- si un isni existe on le met -->
+         <author ref="isni:0000000120958636">La Fontaine, Jean de</author>
+         <!-- pour les chercheurs sans isni on prend l'ORCID -->
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+      </titleStmt>
+      <extent>
+         <!-- contenu dans les attributs uniquement. ListVal close pour @unit
+            par image j'entends dans le pdf (sinon trop le bordel)
+            Contraindre avec schematron pour un contenu de @n avec des chiffres
+         -->
+         <measure unit="images" n="189"/>
+         <measure unit="words" n="000"/>
+      </extent>
+      <publicationStmt>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <bibl>
+            <ref target="https://catalogue.bnf.fr/ark:/12148/cb30715682t"/>
+            <author ref="isni:0000000120958636">La Fontaine, Jean de</author>
+            <title>Deuxiesme partie des Contes et nouvelles en vers, de M. de La Fontaine</title>
+            <!-- on utilise un référentiel pour les villes aussi. De préférence geonames -->
+            <pubPlace ref="geonames:2988507">Paris</pubPlace>
+            <publisher ref="isni:0000000121252707">C. Barbin</publisher>
+            <date when="1666">1666</date>
+         </bibl>
+      </sourceDesc>
+   </fileDesc>
+   <revisionDesc>
+      <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding according to the new ODD</change>
+   </revisionDesc>
+</teiHeader>
+
