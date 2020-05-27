@@ -175,8 +175,10 @@
                <stage>Acteur.rice.s</stage>
                <sp>
                   <speaker>XY</speaker>
-                  <l>Blablabla, <persName>A</persName> goes to <placeName>C</placeName></l>
-                  <p>Voici un premier <lb/>exemple pas très ori-<lb break="no"/>nal. </p>
+                  <l><hi>B</hi>lablabla, <persName>A</persName> goes to <placeName>C</placeName></l>
+                  <p>Voici un premier <lb/>exemple <choice><sic>pos</sic><corr>pas</corr></choice> très ori-<lb break="no"/>nal. </p>
+                  <p>Exemple de note<ref>1</ref>
+                  <note>Contenu de la note</note></p>
                </sp>
             </div>
          </div>
@@ -189,7 +191,6 @@
             </list>
             <p><orgName>Blabla</orgName></p>
             <pb/>
-            <note>Note</note>
             <closer>See you soon</closer>
          </div>
          <div>

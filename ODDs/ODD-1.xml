@@ -16,6 +16,9 @@
             <p>It's a born digital edition</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2020-05-27">Add a new element : <gi>hi</gi></change>
+      </revisionDesc>
    </teiHeader>
 
    <text>
@@ -26,11 +29,11 @@
 
       <back>
          <div>
-            <head>Encoding specification</head>
+            <head>Encoding specifications</head>
             <schemaSpec ident="ed1" source="../Mother-compiled.xml" start="text">
                <moduleRef key="tei"/>
                <moduleRef key="textstructure" include="text body"/>
-               <moduleRef key="core" include="p lb pb"/>
+               <moduleRef key="core" include="p lb pb hi"/>
                <moduleRef key="transcr" include="fw"/>
 
                <!-- Attribute value constraints -->

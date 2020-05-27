@@ -16,6 +16,9 @@
             <p>It's a born digital edition</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2020-05-27">Add new elements and delete others.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       
@@ -28,12 +31,13 @@
             <schemaSpec ident="header_MS" source="../Mother-compiled.xml" start="teiHeader">
                <moduleRef key="tei"/>
                <moduleRef key="header"
-                  include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt availability"/>
+                  include="teiHeader fileDesc titleStmt sourceDesc publicationStmt licence extent encodingDesc revisionDesc change availability"/>
+               <moduleRef key="core"
+                  include="editor listBibl bibl list item p title author pubPlace publisher note head date name measure graphic"
+               />
                <moduleRef key="namesdates" include="forename surname persName country settlement"/>
                <moduleRef key="msdescription"
                   include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material foliation bindingDesc binding history additional surrogates msPart msContents msItem locus incipit explicit filiation height width condition decoNote"/>
-               <moduleRef key="core"
-                  include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ptr date name respStmt resp"/>
                <moduleRef key="textstructure" include="docDate"/>
             </schemaSpec>
             
