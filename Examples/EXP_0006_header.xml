@@ -8,12 +8,11 @@
          <editor>Simon Gabay</editor>
       </titleStmt>
       <publicationStmt>
-         <authority>E-Ditiones project</authority>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
          <availability status="restricted" n="cc-by">
-            <licence target="https://creativecommons.org/licenses/by/4.0">
-               <p>Attribution 4.0 International (CC BY 4.0)</p>
-            </licence>
-         </availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+         </availability>   
       </publicationStmt>
       <sourceDesc>
          <bibl>

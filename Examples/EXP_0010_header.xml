@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+        <titleStmt>
+            <title>Scipion</title>
+            <author>Nicolas Pradon</author>
+            <editor>Simon Gabay</editor>
+        </titleStmt>
+        <extent>9458 words</extent>
+        <publicationStmt>
+            <authority>e-ditiones</authority>
+            <availability status="restricted">
+                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl status="draft">
+                <author>Nicolas Pradon</author>
+                <title>Oeuvres</title>
+                <publisher>P. Ribou</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1700">1700</date>
+                <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k857200c"/>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Creation of a NLP tools for 17th French</p>
+        </projectDesc>
+        <editorialDecl>
+            <correction method="silent">
+                <p>Very minor corrections, usually tagged.</p>
+            </correction>
+            <normalization method="silent">
+                <p>None</p>
+            </normalization>
+            <quotation>
+                <p>Original</p>
+            </quotation>
+            <punctuation>
+                <p>Original</p>
+            </punctuation>
+            <interpretation>
+                <p>None</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+</teiHeader>
