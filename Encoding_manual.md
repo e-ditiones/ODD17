@@ -14,7 +14,7 @@ As aforementioned, headers (metadata) and texts (transcriptions) are encoded sep
 
 To encode the header of your manuscript and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
 * if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
+```xml
 <?xml-model href="/path/to/ODD-header_MS.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
