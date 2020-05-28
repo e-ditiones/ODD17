@@ -10,8 +10,8 @@
             <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
         <extent>
-            <measure n="9458" unit="words"></measure>
-            <measure n="79" unit="images"></measure>
+            <measure n="9458" unit="words"/>
+            <measure n="79" unit="images"/>
         </extent>
         <publicationStmt>
             <publisher>E-Ditiones project</publisher>
