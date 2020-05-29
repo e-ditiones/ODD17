@@ -357,8 +357,8 @@ We try to keep the `<lb/>` nested at the lowest granularity level, within the `<
 ```
 
 ###  Blank pages
-* Blank pages before the first printed page  **do not have to be encoded ** with `<pb/>`
-* Blank pages after the last printed page  **do not have to be encoded ** with `<pb/>`
+* Blank pages before the first printed page  **do not have to be encoded** with `<pb/>`
+* Blank pages after the last printed page  **do not have to be encoded** with `<pb/>`
 * Blank pages in between printed pages **have to be encoded** with `<pb/>`
 ```xml
 <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f10"/>
