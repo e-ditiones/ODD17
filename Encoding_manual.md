@@ -1,137 +1,366 @@
-# Encoding manual - project *E-ditiones*
+# Encoding guidelines - project *E-ditiones*
 
-This manual explains how to encode documents following the *E-ditiones* schemas.
+How to encode documents according *E-ditiones* schemas.
 
-## Getting starded (How do I associate a Relax NG schema to my doc ?)
+There are 3 different levels
 
-If you want to encode some texts following our specifications, you have to use schemas in Relax NG ([available in this folder](https://github.com/e-ditiones/ODD17/tree/master/out)). You can either download the preceding folder or use a link.
+![100% center](Documentation/Encoding_levels.png)
 
-As aforementioned, headers (metadata) and texts (transcriptions) are encoded separately and merged later.
+There are 5 different levels
 
-### Header
+![80% center](Documentation/ODD-chaining.png)
 
-#### Manuscript
+## Encoding logic
 
-To encode the header of your manuscript and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
+When encoding, we always have to correct small typos, etc. In order to prevent having a different transcription for the same document:
+1. Level 2 encoding is considered the last state of the document
+2. If, and only if, there is no level 2 encoding, it is the level 1 that is considered the master file.
+
+In order to prevent any inconsistency, when a document is entirely encoded in level 2, it is back-converted into level 1 thanks to the [`level2to1.xsl`](https://github.com/e-ditiones/ODD17/blob/master/level2to1.xsl).
+
+## Using the schemas
+
+Schemas can be downloaded and used locally by adjusting the `@href`
+
 ```xml
 <?xml-model href="/path/to/ODD-header_MS.rng"
-            type="application/xml" 
+            type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng" 
+
+It is also possible to link the `xml` file to the schemas online (validation against the schema will be be possible only if the computer is connected to the internet).
+
+```xml
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng"
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
-#### Print
+### `<teiHeader>`
 
-To encode the header of your print and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-header_printed.rng" type="application/xml" 
+For each level, there are five different `<?xml-model>`
+1. Manuscript header
+
+Local version
+
+```xml
+<?xml-model href="/path/to/ODD-header_MS.rng"
+            type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_printed.rng" 
+
+Online version
+```xml
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng"
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
-### Text
+2. Print header
 
-#### Level 1
-
-To encode the header of your text at level 1 and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-1.rng" type="application/xml" 
+Local version
+```xml
+<?xml-model href="/path/to/ODD-header_printed.rng"
+			type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-1.rng" 
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+Online version
+```xml
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_printed.rng"
+			type="application/xml"
+			schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
-#### Level 2
+### `<text>`
 
-To encode the header of your text at level 2 and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-2.rng" type="application/xml" 
+3. Level 1
+
+Local version
+```xml
+<?xml-model href="/path/to/ODD-1.rng"
+			type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
-* otherwise, insert this :
-```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng" 
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+Online version
+```xml
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-1.rng"
+			type="application/xml"
+			schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
 
-#### Level 3
+4. Level 2
 
-To encode the header of your text at level 3 and check that your encoding is valid against an E-ditiones schema insert this at the start of your file :
-* if you have downloaded the folder [out](https://github.com/e-ditiones/ODD17/tree/master/out) :
-```
-<?xml-model href="/path/to/ODD-3.rng" type="application/xml" 
+Local version
+```xml
+<?xml-model href="/path/to/ODD-2.rng"
+			type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
-* otherwise, insert this :
+
+Online version
+```xml
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng"
+			type="application/xml"
+			schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-3.rng" 
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+5. Level 3
+
+Local version
+```xml
+<?xml-model href="/path/to/ODD-3.rng"
+			type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
-## How do I encode each part of my document ?
+Online version
+```xml
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-3.rng"
+			type="application/xml"
+			schematypens="http://relaxng.org/ns/structure/1.0"?>
+```
 
-### Namespace
 
-First, please note that each first XML-TEI element of your file, either `teiHeader`or `text`, must contain this namespace : `xmlns="http://www.tei-c.org/ns/1.0"`. Otherwise, your encoding won't be TEI-conformant.
-* for a header, it will be : 
-`<teiHeader xmlns="http://www.tei-c.org/ns/1.0">`
-* for a text, it will be :
-`<text xmlns="http://www.tei-c.org/ns/1.0">`
+### Example
 
-### Documentation
+We will take the example of Jean de La Fontaine, _Deuxiesme partie des Contes et nouvelles en vers, de M. de La Fontaine_, Paris: C. Barbin, 1666. The book is available online: [ark:/12148/bpt6k319141c](https://gallica.bnf.fr/ark:/12148/bpt6k319141c)
 
-This [folder](https://github.com/e-ditiones/ODD17/tree/master/Documentation) contains the documentation of the project. It explains precisely what elements and attributes we use, when and why we use them.
-You can access to the documentation by clicking [here](https://github.com/e-ditiones/ODD17/blob/master/Documentation/ODD-body.xml).
+![30%](Documentation/bpt6k319141c_f9.jpg) ![30%](Documentation/bpt6k319141c_f10.jpg) ![30%](Documentation/bpt6k319141c_f11.jpg)
 
-You can also download the folder [Documentation](https://github.com/e-ditiones/ODD17/tree/master/Documentation) and then have access to the HTML version of the document. There are five HTML files, two concerning the two types of headers and the others concerning each level of encoding.
 
-### Examples
+---
+### Encoding
 
-More significantly, you can find one example encoded for each type of header and each level of text encoding.
-* [header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0007_header.xml)
-* [header of a print](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0003_header.xml)
-* [text at level 1](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0002_level-1_text.xml)
-* [text at level 2](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0002_level-2_text.xml)
-* text at level 3
+Documents are not encoded in one single file, starting with `<TEI xmlns="http://www.tei-c.org/ns/1.0">` such as
 
-You can find even more exemples [here](https://github.com/e-ditiones/ODD17/tree/master/Examples).
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
 
-## Special cases
+```
 
-You can find here some specific situations that you might be have to deal with (and how to deal with).
+The `<teiHeader>` and the `<text>` are encoded separately:
 
-### What can I do if...
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiHeader  xmlns="http://www.tei-c.org/ns/1.0">
+  …
+</teiHeader>
+```
 
-* **a page splits a word ?**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
+  …
+</text>
+```
 
-Your encoding would probably look like this : 
+---
+### Header
 
-```<p>Oracle de nos iours qui connoit toutes choſes, En vain de ma douleur ie cache<pb n="34"/>rois les cauſes</p>```
+A typical header for a print is the following:
 
-But due to our will to analyse the text, we recommend to simply put the `pb`element after the splited word, like this :
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiHeader  xmlns="http://www.tei-c.org/ns/1.0">
+   <fileDesc>
+      <titleStmt>
+         <title type="main">Deuxiesme partie des Contes et nouvelles en vers</title>
+        <!-- @sub specifies that it is the E-Ditiones edition -->
+         <title type="sub">E-Ditiones edition</title>
+         <!-- We use isni as an ID for people. If it does not exist, we can use VIAF, IDref… -->
+         <author ref="isni:0000000120958636">La Fontaine, Jean de</author>
+         <!-- If an id is not available for a scholar, we can use ORCID -->
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+      </titleStmt>
+      <extent>
+         <!-- for measure, we use the number of images in the pdf -->
+         <measure unit="images" n="189"/>
+         <!-- if available, we add the number of words-->
+        <measure unit="words" n="000"/>
+      </extent>
+     <!-- the publicationStmt is stable -->
+      <publicationStmt>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <bibl>
+            <ref target="https://catalogue.bnf.fr/ark:/12148/cb30715682t"/>
+            <author ref="isni:0000000120958636">La Fontaine, Jean de</author>
+            <title>Deuxiesme partie des Contes et nouvelles en vers, de M. de La Fontaine</title>
+            <!-- for cities, we use geonames as a gazetteer -->
+            <pubPlace ref="geonames:2988507">Paris</pubPlace>
+            <publisher ref="isni:0000000121252707">C. Barbin</publisher>
+            <date when="1666">1666</date>
+         </bibl>
+      </sourceDesc>
+   </fileDesc>
+   <revisionDesc>
+      <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding according to the new ODD</change>
+   </revisionDesc>
+</teiHeader>
+```
 
-```<p>Oracle de nos iours qui connoit toutes choſes, En vain de ma douleur ie cacherois<pb n="34"/> les cauſes</p>```
+---
+### Level 1
 
-* **I have to many elements to count (for `@xml:id`and `@n`) ?**
+Level 1 encoding
 
-In order to be valid against the schemas, severals elements (like *e.g.* `p` or `sp`) have to be contain these attributes `xml:id` and `n` and, as a consequence, have to be count. To helf us to do that, you will find [here]() an XSL stylesheet that adds some elements and adds required attributes.
-You can find more informations about attributes in the [documentation](https://github.com/e-ditiones/ODD17/blob/master/Documentation/ODD-body.xml#L34).
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
+   <body>
+      <p>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f9"/>
+         <lb/>DEVXIESME PARTIE
+         <lb/>DES
+         <lb/>CONTES
+         <lb/>ET NOVVELLES
+         <lb/>ENVERS
+         <lb/>De M. DE LA FONTAINE.
+         <lb/>A PARIS,
+         <lb/>Chez CLAVDE BARBIN, au Palais,
+         <lb/>ſur le ſecond Perron de la Ste Chapelle.
+         <lb/>M. DC. XLVI.
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f10"/>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f11"/>
+         <fw><lb/>3</fw>
+         <lb/>PREFACE
+         <lb/>OICY les derniers ou¬<lb break="no"/>urages de cette nature
+         <lb/>qui partiront des mains
+         <lb/>de l'Auteur; &amp; par con¬<lb break="no"/>ſequent la derniere occaſion de iu¬<lb break="no"/>ſtifier ſes hardieſſes;, &amp; les licences
+         <lb/>qu'il s'eſt données. Nous ne parlons
+         <lb/>point desmauuaiſes rimes, des vers
+         <lb/>qui eniambent, des deux voyelles
+         <lb/>ſans eliſion; ny en general de ces
+         <lb/>ſortes de negligences qu’il ne ſe par¬<lb break="no"/>donneroit pas luy-meſme en vn au¬<lb break="no"/>tre genre de Poëſie; mais qui ſont
+         <lb/>inſeparables, pour ainſi dire, de ce¬<lb break="no"/>luy-cy. Le trop grand ſoin de les:
+         <lb/>euiter ietteroit vn faiſeur de contess
+         <fw><lb/>ã ij
+            <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f12"/>
+            <lb/>4 PREFACE.</fw>
+```
 
-* **my document isn't paginated ?**
+---
+### Level 2
 
-We decided to count each page, starting with the first `pb` element. Anyway, the XSL stylesheet above-mentioned deals with it.
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<text  xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
+   <front>
+      <div type="titlePage">
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f9"/>
+         <p>
+            <lb/>DEVXIESME PARTIE
+            <lb/>DES
+            <lb/>CONTES
+            <lb/>ET NOVVELLES
+            <lb/>ENVERS
+            <lb/>De M. DE LA FONTAINE.
+            <lb/>A PARIS,
+            <lb/>Chez CLAVDE BARBIN, au Palais,
+            <lb/>ſur le ſecond Perron de la Ste Chapelle.
+            <lb/>M. DC. XLVI.
+         </p>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f10"/>
+         <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f11"/>
+      </div>
+   </front>
+   <body>
+      <fw><lb/>3</fw>
+      <div type="liminal">
+         <head><lb/>PREFACE</head>
+         <p>
+            <lb/>OICY les derniers ou¬<lb break="no"/>urages de cette nature
+            <lb/>qui partiront des mains
+            <lb/>de l'Auteur; &amp; par con¬<lb break="no"/>ſequent la derniere occaſion de iu¬<lb break="no"/>ſtifier ſes hardieſſes;, &amp; les licences
+            <lb/>qu'il s'eſt données. Nous ne parlons
+            <lb/>point desmauuaiſes rimes, des vers
+            <lb/>qui eniambent, des deux voyelles
+            <lb/>ſans eliſion; ny en general de ces
+            <lb/>ſortes de negligences qu’il ne ſe par¬<lb break="no"/>donneroit pas luy-meſme en vn au¬<lb break="no"/>tre genre de Poëſie; mais qui ſont
+            <lb/>inſeparables, pour ainſi dire, de ce¬<lb break="no"/>luy-cy. Le trop grand ſoin de les:
+            <lb/>euiter ietteroit vn faiſeur de contess
+            <fw><lb/>ã ij
+               <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f12"/>
+               <lb/>4 PREFACE.</fw>
+```
+
+## Technicalities
+
+### A `<pb>`in the middle of a word
+
+![30%](Documentation/bpt6k3142288_f23.jpg)
+
+
+```xml
+<lb/>d'vn autre Edict? Et ſi ie iuge bien, ſoit
+<lb/>de la diginité, ſoit de la capacité des da¬
+<fw><lb/>B
+	<pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f24"/>
+	<lb/>10 Egalite des Hommes</fw>
+<lb break="no"/>mes, ie ne pretends pas à cette heure de
+```
+Words **are not** reconstituted artificially
+
+```xml
+<lb/>d'vn autre Edict? Et ſi ie iuge bien, ſoit
+<lb/>de la diginité, ſoit de la capacité des dames,
+<fw><lb/>B
+	<pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f24"/>
+	<lb/>10 Egalite des Hommes</fw>
+<lb/>ie ne pretends pas à cette heure de
+```
+### Position of the `<lb/>`
+
+![30%](Documentation/bpt6k3142288_f23.jpg)
+
+We try to keep the `<lb/>` nested at the lowest granularity level, within the `<fw>` for instance.
+
+```xml
+<lb/>d'vn autre Edict? Et ſi ie iuge bien, ſoit
+<lb/>de la diginité, ſoit de la capacité des dames,
+<fw><lb/>B
+	<pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f24"/>
+	<lb/>10 Egalite des Hommes</fw>
+<lb/>ie ne pretends pas à cette heure de
+```
+
+###  Blank pages
+* Blank pages before the first printed page  **do not have to be encoded ** with `<pb/>`
+* Blank pages after the last printed page  **do not have to be encoded ** with `<pb/>`
+* Blank pages in between printed pages **have to be encoded** with `<pb/>`
+```xml
+<pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f10"/>
+<pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f11"/>
+```
