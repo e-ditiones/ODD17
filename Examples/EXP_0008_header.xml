@@ -29,6 +29,7 @@
       </sourceDesc>
    </fileDesc>
    <revisionDesc>
-      <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding according to the new ODD</change>
+      <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding
+         according to the new ODD</change>
    </revisionDesc>
 </teiHeader>

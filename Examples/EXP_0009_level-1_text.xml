@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0009">
+    <body>
+        <p>
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f9.image"/>Extrait du
+            Priuilege du Roy.<lb/>PAr grace &amp; priuilege du Roy, donné <lb/>à Paris le dernier
+            iour de Septembre <lb/>1668. ſigné par le Roy en ſon Conſeil GVI<lb/>TONNEAV. Il eſt
+            permis au Sieur de MO<lb/>LIERE de faire imprimer, vendre &amp; debiter <lb/>vne Comedie
+            par luy composée intitulée Geor<lb/>ge Dandin, ou le mary confondu, pendant <lb/>ſept
+            années, &amp; defenſes ſont faites à tous <lb/>autres de l’imprimer, ny d’autre édition
+            <lb/>que celle de l’Expoſant, ou de ceux qui <lb/>auront droit de luy, à peine de trois
+            mille <lb/>liures d’amende, confiſcation des exem<lb/>plaires contrefaits, &amp; de tous
+            dépens, <lb/>dommages, &amp; intereſts, comme il eſt plus <lb/>amplement porté par
+            leſdites lettres. <lb/>Ledit Sieur de MOLIERE a cedé ſon droit <lb/>de Priuilege à IEAN
+            RIBOV Marchand <lb/>Libraire à Paris, ſuiuant l’accord fait en<lb/>tre eux. Regiſtré ſur
+            le liure de la Communauté. Signé, A. SOVBERON, Syndic. <pb
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f10.image"/>ACTEVRS.GEORGE
+            DANDIN, riche Payſan Ma<lb/> ry d’Angelique.ANGELIQVE, Femme de George Dan<lb/> din,
+            &amp; Fille de Mr de Sotenuille.Mr DE SOTENVILLE, Gentilhomme, Campagnard, Pere
+            d’Angelique.Me DE SOTENVILLE, ſa Femme.CLITANDRE, Amoureux d’Angelique.CLAVDINE,
+            Suiuante d’Angelique.LVBIN, Payſan, ſeruant Clitandre.COLIN, Valet de George Dandin.La
+            Scene eſt deuant la Maiſon de George Dandin.<pb n="1"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f11.image"/>GEORGE DANDIN OV
+            LE MARY CONFONDV.ACTE I.SCENE PREMIERE.GEORGE DANDIN.<lb/>AH! qu’vne femme De<lb/>
+            moiſelle eſt vne étran<lb/> ge affaire, &amp; que mon maria<lb/> ge eſt vne leçon bien par<lb/>
+            <fw>A</fw>
+            <pb n="2" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f12.image"/>
+            <fw>2 George Dandin,</fw> lante à tous les Payſans qui <lb/>veulent s’éleuer au deſſus
+            de <lb/>leur condition, &amp; s’allier cõme <lb/>i’ay fait à la maisõ d’vn Gentil<lb/>
+            homme. La nobleſſe de foy eſt <lb/>bõne: c’eſt vne choſe conſide<lb/> rable aſſurement,
+            mais elle eſt <lb/>acõpagnée de tant de mauuai<lb/>ſes circonſtances, qu’il eſt tres-
+            <lb/>bon de ne s'y point froter. Ie <lb/>ſuis deuenu là-deſſus ſçauant à <lb/>mes
+            dépens, &amp; connois le ſty<lb/> le des Nobles lors qu’ils nous <lb/>font nous autres
+            entrer dans <lb/>leur famille. L’alliance qu’ils <lb/>font eſt petite auec nos per<lb/>
+            ſonnes. C’eſt noſtre bien ſeul <lb/>qu’ils épouſent, &amp; i’aurois <lb/>bien mieux
+            fait, tout riche que <pb n="3"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f13.image"/>
+            <fw>Comedie. 3</fw>
+            <lb/>ie ſuis, de m’allier en bonne &amp; <lb/>franche payſanerie, que de <lb/>prẽdre vne
+            femme qui ſe tient <lb/>au deſſus de moy, s’offence de <lb/>porter mon nom, &amp; penſe
+            <lb/>qu’auec tout mon bien ie n’ay <lb/>pas aſſez acheté la qualité de sõ <lb/>mary.
+            George Dandin, George <lb/>Dandin, vous auez fait vne ſo<lb/>tiſe la plus grande du
+            monde. <lb/>Ma maiſon m’eſt effroyable <lb/>maintenant, &amp; ie n’y rentre <lb/>point
+            ſans y trouuer quelque <lb/>chagrin. <fw>A ij</fw>
+            <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f14.image"/>
+            <fw>GEORGE DANDIN, 4</fw>SCENE II.GEORGE DANDIN, LVBIN.GEORGE DANDIN.Voyant ſortir Lubin
+            de cheZ luy.<lb/>QVe diantre ce drôle-là <lb/>vient-il faire chez moi. LVBIN.<lb/>Voila
+            vn homme qui me re<lb/>garde. GEORGE DANDIN.<lb/>Il ne me connoiſt pas. LVBIN.<lb/>Il ſe
+            doute de quelque choſe. GEORGE DANDIN.<lb/>Oüais! il a grand’ peine à <lb/>ſalüer. <pb
+                n="5" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f15.image"/>
+            <fw>Comedie. 5</fw>LVBIN.<lb/>I’ay peur qu’il n’aille dire <lb/>qu’il m’a veu ſortir de
+            là de<lb/>dans. GEORGE DANDIN.<lb/>Bonjour. LVBIN.<lb/>Seruiteur. GEORGE
+            DANDIN.<lb/>Vous n'eſtes pas d’icy que ie <lb/>croy. LVBIN.<lb/>Non, ie n’y ſuis venu
+            que <lb/>pour voir la Feſte de demain. GEORGE DANDIN.<lb/>Hé dites-moy vn peu, s’il
+            <lb/>vous plaiſt, vous venez de là <lb/>dedans. LVBIN.<lb/>Chut. <fw>A iij 6</fw>
+            <pb n="6" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f16.image"/>
+            <fw>George Dandin,</fw>GEORGE DANDIN.<lb/>Comment. LVBIN.<lb/>Paix. GEORGE
+            DANDIN.<lb/>Quoy donc. LVBIN.<lb/>Motus, il ne faut pas dire <lb/>que vous m’ayez veu
+            ſortir de <lb/>là. GEORGE DANDIN.<lb/>Pourquoy. LVBIN.<lb/>Mon Dieu parce. GEORGE
+            DANDIN.<lb/>Mais encor. LVBIN.<lb/>Doucement. I’ay peur qu’on <lb/>ne nous écoute.
+            GEORGE DANDIN.<lb/>Point, point. <pb n="7"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f17.image"/>
+            <fw>Comedie. 7</fw>LVBIN.<lb/>C’eſt que ie viens de parler à <lb/>la Maiſtreſſe du logis
+            de la part <lb/>d’vn certain Monſieur qui luy <lb/>fait les doux yeux, &amp; il ne faut
+            <lb/>pas qu’on ſçache cela. Enten<lb/>dez-vous. GEORGE DANDIN.<lb/>Oüy. LVBIN.<lb/>Voila
+            la raiſon. On m’a en<lb/>chargé de prendre garde que <lb/>perſonne ne me viſt, &amp; ie
+            vous <lb/>prie au moins de ne pas dire <lb/>que vous m’ayez veu. GEORGE DANDIN.<lb/>Ie
+            n’ay garde. LVBIN.<lb/>Ie ſuis bien aiſe de faire les <lb/>choſes ſecretement comme <pb
+                n="8" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f18.image"/>
+            <fw>8 George Dandin,</fw>
+            <lb/>on m’a recommandé. GEORGE DANDIN.<lb/>C’eſt bien fait. LVBIN.<lb/>Le mary, à ce
+            qu’ils diſent, eſt <lb/>vn ialoux qui ne veut pas <lb/>qu’on faſſe l’amour à ſa
+            fem<lb/>me, &amp; il feroit le diable à qua<lb/>tre ſi cela venoit à ſes oreilles.
+            <lb/>Vous comprenez bien. GEORGE DANDIN.<lb/>Fort bien. LVBIN.<lb/>Il ne faut pas qu’il
+            ſçache rien <lb/>de tout cecy. GEORGE DANDIN.<lb/>Sans doute. LVBIN.<lb/>On le veut
+            tromper tout <lb/>doucement. Vous entendez <lb/>bien. <pb n="9"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f19.image"/>
+            <fw>Comedie. 9</fw>GEORGE DANDIN.<lb/>Le mieux du monde. LVBIN.<lb/>Si vous alliez dire
+            que vous <lb/>m’auez veu ſortir de chez luy, <lb/>vous gaſteriez toute l’affaire.
+            <lb/>Vous comprenez bien. GEORGE DANDIN.<lb/>Aſſurement. Hé comment <lb/>nommez vous
+            celuy qui vous <lb/>a enuoyé là dedans. LVBIN.<lb/>C’eſt le Seigneur de noſtre
+            <lb/>pays, Monſieur le Vicomte de <lb/>choſe... foin ie ne me ſouuiens <lb/>iamais
+            comment diantre ils ba<lb/>ragouynent ce nom là, Mon<lb/>ſieur Cli... Clitande. GEORGE
+            DANDIN.<lb/>Eſt-ce ce ieune Courtiſan qui <lb/>demeure... <pb n="10"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f20.image"/>
+            <fw>10 George Dandin,</fw>LVBIN.<lb/>Oüy. Auprés de ces arbres. GEORGE DANDIN.à
+            part.<lb/>C’eſt pour cela que depuis <lb/>peu ce Damoiſeau poly s’eſt <lb/>venu loger
+            contre moy, i’auois <lb/>bon nez ſans doute, &amp; ſon <lb/>voiſinage déja m'auoit donné
+            <lb/>quelque ſoupçon. LVBIN.<lb/>Teſtigué, c’eſt le plus hon<lb/>neſte homme que vous
+            ayez <lb/>iamais veu. Il m’a donné trois <lb/>pieces d’or pour aller dire ſeu<lb/>lement
+            à la femme qu’il eſt <lb/>amoureux d’elle, &amp; qu’il ſou<lb/>haite fort l’honneur de
+            pou<lb/>voir luy parler. Voyez s'il y a <lb/>là vne grande fatigue pour me <pb n="11"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f21.image"/>
+            <fw>Comedie. 11</fw>
+            <lb/>payer ſi bien, &amp; ce qu’eſt au <lb/>prix de cela vne iournée de <lb/>trauail où
+            ie ne gagne que dix <lb/>ſols. GEORGE DANDIN.<lb/>Hé bien auez-vous fait vo<lb/>ſtre
+            meſſage. LVBIN.<lb/>Oüy, i’ay trouué là dedans <lb/>vne certaine Claudine, qui tout
+            <lb/>du premier coup a compris ce <lb/>que ie voulois, &amp; qui m'a fait <lb/>parler à
+            ſa Maiſtreſſe. GEORGE DANDIN.à part.<lb/>Ah coquine de ſeruante. LVBIN.<lb/>Morguéne
+            cette Claudine là <lb/>eſt tout à fait iolie, elle a ga<lb/>gné mon amitié, &amp; il ne tien<lb/>
+            <pb n="12" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f22.image"/>
+            <fw>12 George Dandin,</fw>
+            <lb/>dra qu’à elle que nous ne ſoyõs <lb/>mariez enſemble. GEORGE DANDIN.<lb/>Mais
+            quelle réponſe a fait la <lb/>Maiſtreſſe à ce Monsieur le <lb/>Courtiſan.
+            LVBIN.<lb/>Elle m’a dit de luy dire... at<lb/>tendez, ie ne ſçay ſi ie me
+            ſou<lb/>viendrez bien de tout cela. <lb/>Qu’elle luy eſt tout à fait obli<lb/>gée de
+            l’affection qu’il a pour <lb/>elle, &amp; qu’à cauſe de ſon ma<lb/>ry qui eſt fantaſque,
+            il garde <lb/>d’en rien faire paroiſtre, &amp; <lb/>qu’il faudra ſonger à chercher
+            <lb/>quelque invention pour ſe <lb/>pouuoir entretenir tous deux. <pb n="13"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f23.image"/>
+            <fw>GEORGE Comedie. 13</fw>GEORGE DANDIN.à part.<lb/>Ah! pendarde de femme.
+            LVBIN.<lb/>Teſtiguiene cela ſera drôle, <lb/>car le mary ne ſe doutera point <lb/>de la
+            manigance, voila ce qui <lb/>eſt de bon. Et il aura vn pied <lb/>de nez auec ſa
+            ialouſie. Eſt ce <lb/>pas. GEORGE DANDIN.<lb/>Cela eſt vray. LVBIN.<lb/>Adieu. Bouche
+            couſuë au <lb/>moins. Gardez bien le ſecret, <lb/>afin que le mary ne le ſçache
+            <lb/>pas. GEORGE DANDIN.<lb/>Oüy, oüy. <pb n="14"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f24.image"/>
+            <fw>B 14 George Dandin,</fw>LVBIN.<lb/>Pour moy ie vais faire ſem<lb/>blant de rien, ie
+            ſuis vn fin ma<lb/>tois, &amp; l’on ne diroit pas que <lb/>i'y touche. SCENE III.GEORGE
+            DANDIN.<lb/>HE bien, George Dandin, <lb/>vous voyez de quel air <lb/>voſtre femme vous
+            traitte. <lb/>Voila ce que c’eſt d’auoir vou<lb/>lu épouſer vne Demoiſelle, <lb/>l’on
+            vous accommode de tou<lb/>tes pièces, ſans que vous puiſ<lb/>
+            <pb n="15" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f25.image"/>
+            <fw>Comedie. 15</fw>
+            <lb/>ſiez vous vanger, &amp; la Gentil<lb/>hommerie vous tient les bras <lb/>liez.
+            L’égalité de condition <lb/>laiſſe du moins à l’honneur <lb/>d’vn mary liberté de
+            reſſenti<lb/>ment, &amp; ſi c’eſtoit vne Païſan<lb/>ne, vous auriez maintenant
+            <lb/>toutes vos coudées franches à <lb/>vous en faire la iuſtice à bons <lb/>coups de
+            baſton. Mais vous <lb/>auez voulu taſter de la Nobleſ<lb/>ſe, &amp; il vous ennuyoit
+            d’eſtre <lb/>maiſtre chez vous. Ah! i'enrage <lb/>de tout mon coeur, &amp; ie me
+            <lb/>donnerois volontiers des ſouf<lb/>flets. Quoy écouter impudem<lb/>ment l’amour d’vn
+            Damoi<lb/>ſeau, &amp; y promettre en meſme <lb/>temps de la correspondance! <fw>B
+                ij</fw>
+            <pb n="16" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f26.image"/>
+            <fw>George Dandin,16</fw>
+            <lb/>Morbleu ie ne veux point <lb/>laiſſer paſſer vne occaſion de <lb/>la ſorte. Il me
+            faut de ce pas al<lb/>ler faire mes plaintes au pere &amp; <lb/>à la mere, &amp; les
+            rendre témoins <lb/>à telle fin que de raiſon, des ſu<lb/>jets de chagrin &amp; de
+            reſſenti<lb/>ment que leur fille me donne. <lb/>Mais les voicy l'vn &amp; l’autre
+            <lb/>fort à propos. SCENE IV.MONSIEVR ET MADAME DE SOTENVILLE, GEORGE DANDIN.Mr DE
+            SOTENVILLE.<lb/>QV'eſt ce, mon gendre? <lb/>vous me paroiſſez tout <lb/>troublé. <pb
+                n="17" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f27.image"/>
+            <fw>Comedie. 17</fw>GEORGE DANDIN.<lb/>Auſſi en ay-ie du ſuiet, &amp; .... Mr DE
+            SOTENVILLE.<lb/>Mon Dieu, noſtre gendre, <lb/>que vous auez peu de ciuilité <lb/>de ne
+            pas ſalüer les gens quand <lb/>vous les approchez. GEORGE DANDIN.<lb/>Ma foy, ma
+            belle-mere, c’eſt <lb/>que i’ay d’autres choſes en teſ<lb/>te, &amp;.. Mr DE
+            SOTENVILLE.<lb/>Encor! eſt il poſſible, noſ<lb/>tre gendre, que vous ſçachiez ſi
+            <lb/>peu voſtre monde, &amp; qu’il n’y <lb/>ait pas moyen de vous inſtrui<lb/>re de la
+            maniere qu'il faut vi<lb/>ure parmy les perſonnes de <lb/>qualité. <fw>B iij</fw>
+            <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f28.image"/>
+            <fw>18 George Dandin,</fw>GEORGE DANDIN.<lb/>Comment. Mr DE SOTENVILLE.<lb/>Ne vous
+            déferez-vous ia<lb/>mais auec moy de la familiari<lb/>té de ce mot de ma belle mere,
+            <lb/>&amp; ne ſçauriez-vous vous ac<lb/>couſtumer à me dire Madame. GEORGE
+            DANDIN.<lb/>Parbleu, ſi vous m'appellez <lb/>voſtre gendre, il me ſemble <lb/>que ie
+            puis vous appeller ma <lb/>belle-mere. Mr DE SOTENVILLE.<lb/>Il y a fort à dire, &amp;
+            les cho<lb/>ſes ne ſont pas égales. Appre<lb/>nez, s'il vous plaiſt, que ce n’eſt
+            <lb/>pas à vous à vous ſeruir de ce <lb/>mot là auec vne perſonne de <pb n="19"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f29.image"/>
+            <fw>Comedie. 19</fw>
+            <lb/>ma condition; Que tout no<lb/>ſtre gendre que vous ſoyez, il y <lb/>a grande
+            difference de vous à <lb/>nous, &amp; que vous deuez vous <lb/>connoiſtre. Mr DE
+            SOTENVILLE.<lb/>C’en eſt aſſez mamour, laiſ<lb/>ſons cela. Mr DE SOTENVILLE.<lb/>Mon
+            Dieu, Monſieur de So<lb/>tenuille, vous auez des indul<lb/>gences qui n’appartiennent
+            <lb/>qu'à vous, &amp; vous ne ſçauez <lb/>pas vous faire rendre par les <lb/>gens ce qui
+            vous eſt deu. Mr DE SOTENVILLE.<lb/>Corbleu, pardonnez-moy, <lb/>on ne peut point me
+            faire de <lb/>leçons là-deſſus, &amp; i'ay ſçeu <pb n="20"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f30.image"/>
+            <fw>20 George Dandin,</fw>
+            <lb/>montrer en ma vie par vingt <lb/>actions de vigueur, que ie ne <lb/>ſuis point
+            homme à démordre <lb/>iamais d’vne partie de mes pre<lb/>tentions. Mais il ſuffit de luy
+            <lb/>auoir donné vn petit auertiſ<lb/>ſement. Sçachons vn peu, mon <lb/>gendre, ce que
+            vous auez dans <lb/>l'eſprit. GEORGE DANDIN.<lb/>Puiſqu’il faut donc parler
+            <lb/>cathegoriquement, ie vous di<lb/>ray, Monſieur de Sotenuille, <lb/>que i’ay lieu
+            de... Mr DE SOTENVILLE.<lb/>Doucement, mon gendre. <lb/>Apprenez qu'il n’eſt pas
+            reſ<lb/>pectueux d’appeller les gens <lb/>par leur nom, &amp; qu'à ceux qui <pb n="21"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f31.image"/>
+            <fw>Comedie. 21</fw>
+            <lb/>ſont au deſſus de nous il faut <lb/>dire Monſieur tout court. GEORGE DANDIN.<lb/>Hé
+            bien, Monſieur tout <lb/>court, &amp; non plus Monſieur <lb/>de Sotenuille, i’ay à vous
+            dire <lb/>que ma femme me donne... Mr DE SOTENVILLE.<lb/>Tout beau. Aprenez auſſi
+            <lb/>que vous ne deuez pas dire ma <lb/>femme, quand vous parlez de <lb/>noſtre fille.
+            GEORGE DANDIN.<lb/>I'enrage. Comment, ma <lb/>femme n’eſt pas femme. Mr DE
+            SOTENVILLE.<lb/>Oüy, noſtre gendre, elle eſt <lb/>voſtre femme, mais il ne vous <lb/>eſt
+            pas permis de l'appeller <pb n="22"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f32.image"/>
+            <fw>22 George Dandin,</fw>
+            <lb/>ainſi, &amp; c'eſt tout ce que vous <lb/>pourriez faire, ſi vous auiez eſ<lb/>pouſé
+            vne de vos pareilles. GEORGE DANDIN.<lb/>Ah! George Dandin, où t’es- <lb/>tu fourré? Et
+            de grace, mettez <lb/>pour vn moment voſtre Gen<lb/>tilhommerie à costé, &amp;
+            ſouf<lb/>frez que ie vous parle mainte<lb/>nant comme ie pourray. Au <lb/>diantre ſoit
+            la tyrannie de tou<lb/>tes ces hiſtoires-là. Ie vous dy <lb/>donc que ie ſuis mal
+            ſatisfait <lb/>de mon mariage. Mr DE SOTENVILLE.<lb/>Et la raiſon, mon gendre. Mr DE
+            SOTENVILLE.<lb/>Quoy parler ainſi d'vne cho<lb/>ſe dont vous auez tiré de ſi <lb/>grands
+            auantages. <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f33.image"/>
+            <fw>Comedie. 23</fw>GEORGE DANDIN.<lb/>Et quels auantages, Madame, <lb/>puiſque Madame y
+            a? L’auan<lb/>ture n’a pas eſté mauuaiſe pour <lb/>vous, car ſans moy vos affaires,
+            <lb/>auec voſtre permiſſiõ, eſtoient <lb/>fort délabrées, &amp; mon argent <lb/>a ſeruy
+            à reboucher d’aſſez <lb/>bons trous; mais moy dequoy <lb/>y ay ie profité, ie vous prie,
+            que <lb/>d’vn alongement de nom, &amp; <lb/>au lieu de George Dandin, <lb/>d'auoir receu
+            par vous le titre <lb/>de Monſieur de la Dandiniere. Mr DE SOTENVILLE.<lb/>Ne
+            contez-vous rien, mon <lb/>gendre, l’auantage d’eſtre allié <lb/>à la maiſon de
+            Sotenuille. Mr DE SOTENVILLE.<lb/>Et à celle de la Prudoterie, <pb n="24"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f34.image"/>
+            <fw>24 George Dandin,</fw>
+            <lb/>dont i’ay l’honneur d’eſtre iſ<lb/>ſuë. Maiſon où le ventre ano<lb/>blit: &amp; qui
+            par ce beau priui<lb/>lege rendra vos enfans Gen<lb/>tilshommes. GEORGE DANDIN.<lb/>Oüy,
+            voila qui eſt bien, mes <lb/>enfans ſeront Gentilshommes, <lb/>mais ie ſeray cocu moy,
+            ſi l’on <lb/>n'y met ordre. Mr DE SOTENVILLE.<lb/>Que veut dire cela, mon gen<lb/>dre.
+            GEORGE DANDIN.<lb/>Cela veut dire que voſtre fille <lb/>ne vit pas comme il faut
+            qu'v<lb/>ne femme viue, &amp; qu'elle fait <lb/>des choſes qui ſont contre
+            <lb/>l’honneur. <pb n="25"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f35.image"/>
+            <fw>Mr Comedie. 25</fw>Mr DE SOTENVILLE.<lb/>Tout beau. Prenez garde à <lb/>ce que vous
+            dites. Ma fille eſt <lb/>d’vne race trop pleine de vertu <lb/>pour ſe porter iamais à
+            faire <lb/>aucune choſe dont l’honneſte<lb/>té ſoit bleſſée, &amp; de la maiſon <lb/>de
+            la Prudoterie, il y a plus de <lb/>trois cens ans qu'on n'a point <lb/>remarqué qu’il y
+            ait eu de fem<lb/>me, Dieu mercy, qui ait fait <lb/>parler d’elle. Mr DE
+            SOTENVILLE.<lb/>Corbleu, dans la maiſon de <lb/>Sotenuille on n’a iamais veu de
+            <lb/>coquette, &amp; la brauoure n’y <lb/>eſt pas plus hereditaire aux <lb/>maſles, que
+            la chaſteté aux fe<lb/>melles. <fw>C</fw>
+            <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f36.image"/>
+            <fw>26 George Dandin,</fw>Mr DE SOTENVILLE.<lb/>Nous auons eu vne Iacqueli<lb/>ne de la
+            Prudoterie qui ne vou<lb/>lut iamais eſtre la Maiſtreſſe <lb/>d’vn Duc &amp; Pair,
+            Gouuerneur <lb/>de noſtre Prouince. Mr DE SOTENVILLE.<lb/>Il y a eu vne Mathurine de
+            <lb/>Sotenuille qui refuſa vingt <lb/>mille écus d'vn Fauory du <lb/>Roy, qui ne luy
+            demandoit <lb/>ſeulement que la faueur de luy <lb/>parler. GEORGE DANDIN.<lb/>Ho bien
+            voſtre fille n’eſt pas <lb/>ſi difficile que cela, &amp; elle s’eſt <lb/>appriuoiſée
+            depuis qu'elle eſt <lb/>chez moy. Mr DE SOTENVILLE.<lb/>Expliquez vous, mon gendre, <pb
+                n="27" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f37.image"/>
+            <fw>Comedie. 27</fw>
+            <lb/>nous ne ſommes point gens à <lb/>la ſupporter dans de mauuai<lb/>ſes actions, &amp;
+            nous ſerons les <lb/>premiers, ſa mere &amp; moy, à <lb/>vous en faire la iuſtice. Mr DE
+            SOTENVILLE.<lb/>Nous n’entendons point rail<lb/>lerie ſur les matieres de
+            l'hon<lb/>neur, &amp; nous l’auons éleuée <lb/>dans toute la ſeuerité poſſible. GEORGE
+            DANDIN.<lb/>Tout ce que ie vous puis dire, <lb/>c’eſt qu’il y a icy vn certain
+            <lb/>Courtiſan que vous auez veu, <lb/>qui eſt amoureux d’elle à ma <lb/>barbe, &amp;
+            qui luy a fait faire <lb/>des proteſtations d’amour, qu’<lb/>elle a tres-humainement
+            eſ<lb/>coutées. <fw>C ii</fw>
+            <pb n="28" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f38.image"/>
+            <fw>28 George Dandin,</fw>Mr DE SOTENVILLE.<lb/>Iour de Dieu, ie l'étrangle<lb/>rois de
+            mes propres mains, s’il <lb/>falloit qu’elle forlignaſt de <lb/>l’honneſteté de ſa
+            mere.Mr DE SOTENVILLE.<lb/>Corbleu, ie luy paſſerois mon <lb/>épée au trauers du corps,
+            à elle <lb/>&amp; au galant, ſi elle auoit forfait <lb/>à ſon honneur. GEORGE
+            DANDIN.<lb/>Ie vous ay dit ce qui ſe paſſe <lb/>pour vous faire mes plaintes, &amp;
+            <lb/>ie vous demande raiſon de cet<lb/>te affaire là. Mr DE SOTENVILLE.<lb/>Ne vous
+            tourmentez point, ie <lb/>vous la feray de tous deux, &amp; <lb/>ie ſuis homme pour
+            ſerrer le <lb/>bouton à qui que ce puiſſe <lb/>eſtre. Mais eſtes-vous pas bien <pb
+                n="29" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f39.image"/>
+            <fw>Comedie. 29</fw>
+            <lb/>ſeur auſſi de ce que vous nous <lb/>dites. GEORGE DANDIN.<lb/>Tres-ſeur. Mr DE
+            SOTENVILLE.<lb/>Prenez bien garde au moins, <lb/>car entre Gentilshommes, ce <lb/>ſont
+            des choſes chatoüilleuſes, <lb/>&amp; il n'eſt pas queſtion d’aller <lb/>faire icy vn
+            pas de Clerc. GEORGE DANDIN.<lb/>Ie ne vous ay rien dit, vous <lb/>dis-ie, qui ne ſoit
+            veritable. Mr DE SOTENVILLE.<lb/>Mamour, allez-vous en par<lb/>ler à voſtre fille,
+            tandis qu’a<lb/>uec mon gendre i’iray parler à <lb/>l'homme. Mr DE SOTENVILLE.<lb/>Se
+            pourroit il, mon fils, qu'el<lb/>
+            <fw>C iij</fw>
+            <pb n="30" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f40.image"/>
+            <fw>30 George Dandin,</fw>
+            <lb/>le s’oubliaſt de la ſorte, apres <lb/>le ſage exemple que vous ſça<lb/>uez
+            vous-meſme que ie luy ay <lb/>donné. Mr DE SOTENVILLE.<lb/>Nous allons éclaircir
+            l’affai<lb/>re. Suiuez moy, mon gendre, <lb/>&amp; ne vous mettez pas en pei<lb/>ne,
+            vous verrez de quel bois <lb/>nous nous chauffons lors qu'õ <lb/>s’attaque à ceux qui
+            nous peu<lb/>uent appartenir. GEORGE DANDIN.<lb/>Le voicy qui vient vers nous. <pb
+                n="31" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f41.image"/>
+            <fw>Comedie, 31</fw>SCENE V.Mr DE SOTENVILLE, CLITANDRE GEORGE DANDIN.Mr DE
+            SOTENVILLE.<lb/>MOnſieur, ſuis-ie connu <lb/>de vous. CLITANDRE.<lb/>Non pas que ie
+            ſçache, Mon<lb/>ſieur. Mr DE SOTENVILLE.<lb/>Ie m'appelle le Baron de So<lb/>tenuille.
+            CLITANDRE.<lb/>Ie m'en réjoüis fort. Mr DE SOTENVILLE.<lb/>Mon nom eſt connu à la <pb
+                n="32" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f42.image"/>
+            <fw>32 George Dandin,</fw>
+            <lb/>Cour, &amp; i'eus l’honneur dans <lb/>ma ieuneſſe de me ſignaler des <lb/>premiers
+            à l’arriere-ban de <lb/>Nancy. CLITANDRE.<lb/>A la bonne heure. Mr DE
+            SOTENVILLE.<lb/>Monſieur, mon pere Iean- <lb/>Gilles de Sotenuille eut la gloi<lb/>re
+            d'aſſiſter en perſonne au <lb/>grand ſiege de Montauban. CLITANDRE.<lb/>I'en ſuis rauy.
+            Mr DE SOTENVILLE.<lb/>Et i’ay eu vn ayeul Bertrand <lb/>de Sotenuille, qui fut ſi
+            conſi<lb/>deré en ſon temps, que d'auoir <lb/>permiſſion de vendre tout ſon <lb/>bien
+            pour le voyage d'outre- <lb/>mer. <pb n="33"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f43.image"/>
+            <fw>Comedie. 33</fw>CLITANDRE.<lb/>Ie le veux croire. Mr DE SOTENVILLE.<lb/>Il m'a eſté
+            rapporté, Mon<lb/>ſieur, que vous aimez &amp; pour<lb/>ſuiuez vne ieune perſonne, qui
+            <lb/>eſt ma fille pour laquelle ie <lb/>m’intereſſe, &amp; pour l’homme <lb/>que vous
+            voyez, qui a l’hon<lb/>neur d’eſtre mon gendre. CLITANDRE.<lb/>Qui moy. Mr DE
+            SOTENVILLE.<lb/>Oüy. Et ie ſuis bien aiſe de <lb/>vous parler, pour tirer de vous,
+            <lb/>s’il vous plaiſt, vn éclairciſſe<lb/>ment de cette affaire. CLITANDRE.<lb/>Voila
+            vne étrange médiſan<lb/>ce. Qui vous a dit cela, Mon<lb/>ſieur. <pb n="34"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f44.image"/>
+            <fw>34 George Dandin,</fw>Mr DE SOTENVILLE.<lb/>Quelqu'vn qui croit le bien
+            <lb/>ſçauoir. CLITANDRE.<lb/>Ce quelqu'vn-là en a menty. <lb/>Ie ſuis honneſte homme. Me
+            <lb/>croyez-vous capable, Mon<lb/>ſieur, d’vne action auſſi laſche <lb/>que celle-là?
+            Moy aimer vne <lb/>ieune &amp; belle perſonne, qui a <lb/>l’honneur d’eſtre la fille de
+            <lb/>Monſieur le Baron de Soten<lb/>uille. Ie vous reuere trop pour <lb/>cela, &amp;
+            ſuis trop voſtre ſerui<lb/>teur. Quiconque vous l'a dit, <lb/>eſt vn ſot. Mr DE
+            SOTENVILLE.<lb/>Allons, mon gendre. GEORGE DANDIN.<lb/>Quoy. <pb n="35"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f45.image"/>
+            <fw>Comedie. 35</fw>CLITANDRE.<lb/>C’eſt vn coquin &amp; vn ma<lb/>raut. Mr DE
+            SOTENVILLE.<lb/>Répondez. GEORGE DANDIN.<lb/>Répondez vous-meſme. CLITANDRE.<lb/>Si ie
+            ſçauois qui ſe peut eſtre, <lb/>ie luy donnerois en voſtre <lb/>preſence de l’épée dans
+            le ven<lb/>tre. Mr DE SOTENVILLE.<lb/>Souſtenez donc la choſe. GEORGE DANDIN.<lb/>Elle
+            eſt toute ſouſtenuë, cela <lb/>eſt vray. CLITANDRE.<lb/>Eſt-ce voſtre gendre.
+            Mon<lb/>ſieur, qui... <pb n="36"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f46.image"/>
+            <fw>36 George Dandin,</fw>Mr DE SOTENVILLE.<lb/>Oüy, c’eſt luy-meſme qui <lb/>s’en eſt
+            plaint à moy. CLITANDRE.<lb/>Certes, il peut remercier <lb/>l’auantage qu’il a de vous
+            ap<lb/>partenir, &amp; ſans cela ie luy ap<lb/>prendrois bien à tenir de pa<lb/>reils
+            diſcours d’vne perſonne <lb/>comme moy. SCENE VI.Mr ET Me DE SOTENVILLE. ANGELIQVE.
+            CLITANDRE. GEORGE DANDIN. CLAVDINE.Mr DE SOTENVILLE.<lb/>POurce qui eſt de cela, la
+            <lb/>ialouſie eſt vne étrange <fw>choſe!</fw>
+            <pb n="37" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f47.image"/>
+            <fw>Comedie. 37</fw>
+            <lb/>choſe! I'amene icy ma fille <lb/>pour éclaircir l’affaire en pre<lb/>ſence de tout
+            le monde. CLITANDRE.<lb/>Eſt ce donc vous, Madame, <lb/>qui auez dit à voſtre mary que
+            <lb/>ie ſuis amoureux de vous. ANGELIQVE.<lb/>Moy, &amp; comment luy au<lb/>rois-ie dit?
+            Eſt-ce que cela eſt? <lb/>Ie voudrois bien le voir vray<lb/>ment que vous fuſſiez
+            amou<lb/>reux de moy. Ioüez vous-y, ie <lb/>vous en prie, vous trouuerez à <lb/>qui
+            parler. C'eſt vne choſe que <lb/>ie vous conſeille de faire. Ayés <lb/>recours pour voir
+            à tous les dé<lb/>tours des Amans. Eſſayez vn <lb/>peu par plaiſir à m'enuoyer des
+                <fw>D</fw>
+            <pb n="38" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f48.image"/>
+            <fw>38 George Dandin,</fw>
+            <lb/>ambaſſades, à m’écrire ſecret<lb/>temẽt de petits billets doux, à <lb/>épier les
+            momens que mon <lb/>mary n’y ſera pas, ou le temps <lb/>que ie ſortiray pour me parler
+            <lb/>de voſtre amour. Vous n’auez <lb/>qu'à y venir, ie vous promets <lb/>que vous ſerez
+            receu comme il <lb/>faut. CLITANDRE.<lb/>Hé là là, Madame, tout dou<lb/>cement. Il n’eſt
+            pas neceſſaire <lb/>de me faire tant de leçons, &amp; <lb/>de vous tant ſcandaliſer. Qui
+            <lb/>vous dit que ie ſonge à vous <lb/>aimer. ANGELIQVE.<lb/>Que ſçay-ie moy ce qu'on
+            <lb/>me vient conter icy. <pb n="39"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f49.image"/>
+            <fw>Comedie. 39</fw>CLITANDRE.<lb/>On dira ce que l’on voudra. <lb/>Mais vous ſçauez ſi
+            ie vous ay <lb/>parlé d’amour lors que ie vous <lb/>ay rencontrée. ANGELIQVE.<lb/>Vous
+            n’auiez qu'à le faire, <lb/>vous auriez eſté bien venu. CLITANDRE.<lb/>Ie vous aſſeure
+            qu’auec moy <lb/>vous n’auez rien à craindre. <lb/>Que ie ne ſuis point homme à
+            <lb/>donner du chagrin aux Belles, <lb/>&amp; que ie vous reſpecte trop, &amp; <lb/>vous
+            &amp; Meſſieurs vos parens, <lb/>pour auoir la penſée d’eſtre <lb/>amoureux de vous. Me
+            DE SOTENVILLE.<lb/>Hé bien vous le voyez. <fw>D ij</fw>
+            <pb n="40" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f59.image"/>
+            <fw>40 George Dandin,</fw>Mr DE SOTENVILLE.<lb/>Vous voila ſatisfait, mon gen<lb/>dre,
+            que dites-vous à cela. GEORGE DANDIN.<lb/>Ie dis que ce ſont là des con<lb/>tes à dormir
+            debout. Que ie <lb/>ſçay bien ce que ie ſçay, &amp; que <lb/>tantoſt, puiſqu'il faut
+            parler, <lb/>elle a receu vne ambaſſade de <lb/>ſa part. ANGELIQVE.<lb/>Moy, i’ay receu
+            vne ambaſſa<lb/>de. CLITANDRE.<lb/>I'ay enuoyé vne ambaſſade. ANGELIQVE.<lb/>Claudine.
+            CLITANDRE.<lb/>Eſt-il vray. CLAVDINE.<lb/>Par ma foy voila vne étrange <lb/>fauſſeté.
+                <pb n="41" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f51.image"/>
+            <fw>Comedie. 41</fw>GEORGE DANDIN.<lb/>Taiſez vous, carogne que <lb/>vous eſtes. Ie ſçay
+            de vos nou<lb/>uelles, &amp; c'eſt vous qui tantoſt <lb/>auez introduit le Courier.
+            CLAVDINE.<lb/>Qui moy. GEORGE DANDIN.<lb/>Oüy vous. Ne faites point <lb/>tant la ſucrée.
+            CLAVDINE.<lb/>Helas! que le monde aujour<lb/>d'huy eſt remply de meſchan<lb/>ceté, de
+            m’aller ſoupçonner <lb/>ainſi, moy qui ſuis l’innocen<lb/>ce meſme. GEORGE
+            DANDIN.<lb/>Taiſez-vous, bonne piece. <lb/>Vous faites la ſournoiſe. Mais <lb/>ie vous
+            connois il y a long- <fw>D iii</fw>
+            <pb n="42" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f52.image"/>
+            <fw>42 GEORGE DANDIN,</fw>
+            <lb/>temps, &amp; vous eſtes vne deſſa<lb/>lée. CLAVDINE.<lb/>Madame eſt-ce que...
+            GEORGE DANDIN.<lb/>Taiſez-vous, vous dis-ie, vous <lb/>pourriez bien porter la folle-
+            <lb/>enchere de tous les autres. Et <lb/>vous n’auez point de pere <lb/>Gentilhomme.
+            ANGELIQVE.<lb/>C’eſt vne impoſture ſi gran<lb/>de, &amp; qui me touche ſi fort au
+            <lb/>cœur, que ie ne puis pas meſ<lb/>me auoir la force d’y répondre; <lb/>cela eſt bien
+            horrible d’eſtre <lb/>accuſée par vn mary lors qu'on <lb/>ne luy fait rien qui ne ſoit à
+            <lb/>faire. Helas! ſi ie ſuis blaſmable <pb n="43"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f53.image"/>
+            <fw>Comedie. 43</fw>
+            <lb/>de quelque choſe, c’eſt d’en <lb/>vſer trop bien auec luy.
+            CLAVDINE.<lb/>Aſſeurément. ANGELIQVE.<lb/>Tout mon malheur eſt de le <lb/>trop
+            conſiderer, &amp; pluſt au <lb/>Ciel que ie fuſſe capable de <lb/>ſouffrir, comme il
+            dit, les ga<lb/>lanteries de quelqu’vn, ie ne <lb/>ſerois pas tant à plaindre.
+            A<lb/>dieu, ie me retire, &amp; ie ne puis <lb/>plus endurer qu’on m’outrage <lb/>de
+            cette ſorte. Mr DE SOTENVILLE.<lb/>Allez, vous ne meritez pas <lb/>l'honneſte femme
+            qu’on vous <lb/>a donnée. CLAVDINE.<lb/>Par ma foy, il meriteroit <lb/>qu’elle luy fiſt
+            dire vray, &amp; ſi <pb n="44"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f54.image"/>
+            <fw>44 George Dandin,</fw>
+            <lb/>i'eſtois en ſa place ie n’y mar<lb/>chanderois pas. Oüy, Mon<lb/>ſieur, vous deuez
+            pour le pu<lb/>nir, faire l’amour à ma Mai<lb/>ſtreſſe. Pouſſez, c’eſt moy qui <lb/>vous
+            le dy, ce ſera fort bien <lb/>employé, &amp; ie m’offre à vous <lb/>y ſeruir, puiſqu’il
+            m’en a deſia <lb/>taxée. Mr DE SOTENVILLE.<lb/>Vous meritez, mon gendre, <lb/>qu’on vous
+            diſe ces choſes là, <lb/>&amp; voſtre procedé met tout le <lb/>monde contre vous. Mr DE
+            SOTENVILLE.<lb/>Allez, ſongez à mieux trai<lb/>ter vne Demoiſelle bien née, <lb/>&amp;
+            prenez garde deſormais à <lb/>ne plus faire de pareilles be<lb/>ueuës. <pb n="45"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f55.image"/>
+            <fw>Comedie. 45</fw>GEORGE DANDIN.<lb/>I'enrage de bon cœur d’a<lb/>uoir tort, lors que
+            i’ay raiſon. CLITANDRE.<lb/>Monſieur, vous voyez com<lb/>me i’ay eſté fauſſement
+            accu<lb/>ſé. Vous eſtes homme qui ſça<lb/>uez les maximes du point <lb/>d’honneur, &amp;
+            ie vous de<lb/>mande raiſon de l'affront qui <lb/>m’a eſté fait. Mr DE
+            SOTENVILLE.<lb/>Cela eſt iuſte, &amp; c’eſt l’ordre <lb/>des procedez. Allons, mon
+            <lb/>gendre, faites ſatisfaction à <lb/>Monſieur. GEORGE DANDIN.<lb/>Comment
+            ſatisfaction. Mr DE SOTENVILLE.<lb/>Oüy. Cela ſe doit dans les <pb n="46"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f56.image"/>
+            <fw>46 George Dandin,</fw>
+            <lb/>regles pour l’auoir à tort accu<lb/>ſé. GEORGE DANDIN.<lb/>C’eſt vne choſe moy dont
+            <lb/>ie ne demeure pas d’accord de <lb/>l’auoir à tort accuſé, &amp; ie ſçay Mr DE
+            SOTENVILLE.<lb/>Il n’importe. Quelque pen<lb/>ſée qui vous puiſſe reſter, il a <lb/>nié,
+            c’eſt ſatisfaire les perſon<lb/>nes, &amp; l'on n'a nul droit de ſe <lb/>plaindre de
+            tout homme qui <lb/>ſe dédit. GEORGE DANDIN.<lb/>Si bien donc que ſi ie le trou<lb/>uois
+            couché auec ma femme, il <lb/>en ſeroit quitte pour ſe dédire. <pb n="47"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f57.image"/>
+            <fw>Comedie. 47</fw>Mr DE SOTENVILLE.<lb/>Point de raiſonnement. Fai<lb/>tes-luy les
+            excuſes que ie vous <lb/>dy. GEORGE DANDIN.<lb/>Moy, ie luy feray encore des
+            <lb/>excuſes apres... Mr DE SOTENVILLE.<lb/>Allons vous dy-ie. Il n’y a <lb/>rien à
+            balancer, &amp; vous n’auez <lb/>que faire d’auoir peur d'en trop <lb/>faire, puiſque
+            c’eſt moy qui <lb/>vous conduy. GEORGE DANDIN.<lb/>Ie ne ſçaurois... Mr DE
+            SOTENVILLE.<lb/>Corbleu, mon gendre, ne <lb/>m'échauffez pas la bile, ie me
+            <lb/>mettrois auec luy contre vous. <lb/>Allons. Laiſſez-vous gouuer<lb/>ner par moy.
+                <pb n="48" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f58.image"/>
+            <fw>48 George Dandin,</fw>GEORGE DANDIN.<lb/>Ah George Dandin. Mr DE
+            SOTENVILLE.<lb/>Voſtre bonnet à la main le <lb/>premier, Monſieur eſt Gentil<lb/>homme,
+            &amp; vous ne l'eſtes pas. GEORGE DANDIN.<lb/>I’enrage. Mr DE SOTENVILLE.<lb/>Repetez
+            apres moy. Mon<lb/>ſieur. GEORGE DANDIN.<lb/>Monſieur. Mr DE SOTENVILLE.Il voit que ſon
+            gendre fait difficulté de <lb/>luy obeyr.<lb/>Ie vous demande pardon. <lb/>Ah. GEORGE
+            DANDIN.<lb/>Ie vous demande pardon. <fw>Mr</fw>
+            <pb n="49" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f59.image"/>
+            <fw>Comédie. 49</fw>Mr DE SOTENVILLE.<lb/>Des mauuaiſes penſées que <lb/>i’ay euës de
+            vous. GEORGE DANDIN.<lb/>Des mauuaiſes penſées que <lb/>i’ay euës de vous. Mr DE
+            SOTENVILLE.<lb/>C’eſt que ie n’auois pas l’hon<lb/>neur de vous connoiſtre. GORGE
+            DANDIN.<lb/>C’eſt que ie n’auois pas l’hon<lb/>neur de vous connoiſtre. Mr DE
+            SOTENVILLE.<lb/>Et ie vous prie de croire. GEORGE DANDIN.<lb/>Et ie vous prie de croire.
+            Mr DE SOTENVILLE.<lb/>Que ie ſuis voſtre ſerui<lb/>teur. <fw>E</fw>
+            <pb n="50" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f60.image"/>
+            <fw>50 George Dandin,</fw>GEORGE DANDIN.<lb/>Voulez vous que ie ſois ſer<lb/>uiteur d’vn
+            homme qui me <lb/>veut faire cocu. Mr DE SOTENVILLE.il le menace encore.<lb/>Ah.
+            CLITANDRE.<lb/>Il ſuffit, Monſieur. Mr DE SOTENVILLE.<lb/>Non, ie veux qu’il acheue,
+            <lb/>&amp; que tout aille dans les for<lb/>mes. Que ie ſuis voſtre ſerui<lb/>teur.
+            GEORGE DANDIN.<lb/>Que ie ſuis voſtre ſerui<lb/>teur. CLITANDRE.<lb/>Monſieur, ie ſuis
+            le voſtre <lb/>de tout mon cœur, &amp; ie ne <pb n="51"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f61.image"/>
+            <fw>Comedie. 51</fw>
+            <lb/>ſonge plus à ce qui s’eſt paſſé. <lb/>Pour vous, Monſieur, ie vous <lb/>donne le
+            bonjour, &amp; ſuis faſ<lb/>ché du petit chagrin que vous <lb/>auez eu. Mr DE
+            SOTENVILLE.<lb/>Ie vous baiſe les mains, &amp; <lb/>quand il vous plaira ie vous
+            <lb/>donneray le diuertiſſement de <lb/>courre vn liévre. CLITANDRE.<lb/>C’eſt trop de
+            grace que vous <lb/>me faites. Mr DE SOTENVILLE.<lb/>Voila, mon gendre, comme <lb/>il
+            faut pouſſer les choſes. A<lb/>dieu. Sçachez que vous eſtes <lb/>entré dans vne famille
+            qui <lb/>vous donnera de l’appuy, &amp; <fw>E ij</fw>
+            <pb n="52" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f62.image"/>
+            <fw>52 George Dandin,</fw>
+            <lb/>ne ſouffrira point que l'on <lb/>vous faſſe aucun affront. SCENE VII.GEORGE
+            DANDIN.<lb/>Ah que le... vous l’auez <lb/>voulu, vous l'auez vou<lb/>lu, George Dandin,
+            vous l’auez <lb/>voulu, cela vous ſied fort <lb/>bien, &amp; vous voila ajuſté
+            <lb/>comme il faut, vous auez iu<lb/>ſtement ce que vous meritez. <lb/>Allons il s’agit
+            ſeulement de <lb/>deſabuſer le pere &amp; la mere, <lb/>&amp; ie pourray trouuer peut-
+            <lb/>eſtre quelque moyen d'y reüſ<lb/>ſir. <pb n="53"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f63.image"/>
+            <fw>Comedie. 53</fw>ACTE II.SCENE PREMIERE.CLAVDINE, LVBIN.CLAVDINE.<lb/>OVy i'ay bien
+            deuiné <lb/>qu'il falloit que cela <lb/>vinſt de toy, &amp; que <lb/>tu l'euſſes dit à
+            quelqu’vn qui LVBIN.<lb/>Par ma foy ie n’en ay tou<lb/>ché qu’vn petit mot en paſ<lb/>
+            <fw>E iij</fw>
+            <pb n="54" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f64.image"/>
+            <fw>54 George Dandin,</fw>
+            <lb/>ſant à vn homme, afin qu’il <lb/>ne diſt point qu’il m’auoit <lb/>veu ſortir, &amp;
+            il faut que les <lb/>gens en ce pays-cy ſoient de <lb/>grands babillards.
+            CLAVDINE.<lb/>Vrayment ce Monſieur le <lb/>Vicomte a bien choiſi ſon <lb/>monde que de
+            te prendre pour <lb/>ſon Ambaſſadeur, &amp; il s’eſt <lb/>allé ſeruir là d’vn homme
+            <lb/>bien chanceux. LVBIN.<lb/>Va, vne autre fois ie ſeray <lb/>plus fin, &amp; ie
+            prendray mieux <lb/>garde à moy. CLAVDINE.<lb/>Oüy, oüy, il ſera temps. <pb n="55"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f65.image"/>
+            <fw>Comedie. 55</fw>LVBIN.<lb/>Ne parlons plus de cela, <lb/>écoute. CLAVDINE.<lb/>Que
+            veux tu que i'écoute. LVBIN.<lb/>Tourne vn peu ton viſage <lb/>deuers moy.
+            CLAVDINE.<lb/>Hé bien qu’eſt-ce. LVBIN.<lb/>Claudine. CLAVDINE.<lb/>Quoy. LVBIN.<lb/>Hé
+            la, ne ſçais-tu pas bien <lb/>ce que ie veux dire. CLAVDINE.<lb/>Non. <pb n="56"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f66.image"/>
+            <fw>56 George Dandin,</fw>LVBIN.<lb/>Morgué je t’aime. CLAVDINE.<lb/>Tout de bon.
+            LVBIN.<lb/>Oüy le diable m’emporte, <lb/>tu me peux croire, puis que <lb/>i’en iure.
+            CLAVDINE.<lb/>A la bonne heure. LVBIN.<lb/>Ie me ſens tout triboüiller <lb/>le coeur
+            quand ie te regarde. CLAVDINE.<lb/>Ie m’en réjoüis. LVBIN.<lb/>Comment eſt-ce que tu
+            fais <lb/>pour eſtre ſi jolie. CLAVDINE.<lb/>Ie fais comme font les au<lb/>tres. <pb
+                n="57" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f67.image"/>
+            <fw>Comedie. 57</fw>LVBIN.<lb/>Vois tu, il ne faut point <lb/>tant de beurre pour faire
+            vn <lb/>quarteron. Si tu veux tu ſe<lb/>ras ma femme, ie ſeray ton <lb/>mary, &amp; nous
+            ſerons tous <lb/>deux mary &amp; femme. CLAVDINE.<lb/>Tu ſerois peut-eſtre ialoux
+            <lb/>comme noſtre Maiſtre. LVBIN.<lb/>Point. CLAVDINE.<lb/>Pour moy ie hais les
+            ma<lb/>ris ſoupçonneux, &amp; i’en veux <lb/>vn qui ne s’épouuante de rien, <lb/>vn ſi
+            plein de confiance, &amp; ſi <lb/>ſeur de ma chaſteté, qu’il me <lb/>viſt ſans
+            inquietude au mi<lb/>lieu de trente hommes. <pb n="58"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f68.image"/>
+            <fw>58 George Dandin,</fw>LVBIN.<lb/>Hé bien, ie ſeray tout com<lb/>me cela.
+            CLAVDINE.<lb/>C’eſt la plus ſotte choſe du <lb/>monde que de ſe deffier d'v<lb/>ne
+            femme, &amp; de la tourmen<lb/>ter. La verité de l’affaire eſt <lb/>qu’on n’y gagne rien
+            de bon. <lb/>cela nous fait ſonger à mal, <lb/>&amp; ce ſont ſouuent les marys <lb/>qui
+            auec leurs vacarmes ſe <lb/>font eux-meſmes ce qu’ils <lb/>ſont. LVBIN.<lb/>Hé bien, ie
+            te donneray la <lb/>liberté de faire tout ce qu’il <lb/>te plaira. <pb n="59"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f69.image"/>
+            <fw>Comedie. 59</fw>CLAVDINE.<lb/>Voila comme il faut faire <lb/>pour n’eſtre point
+            trompé. <lb/>Lors qu’vn mary ſe met à <lb/>noſtre diſcretion, nous ne <lb/>prenons de
+            liberté que ce <lb/>qu'il nous en faut, &amp; il en <lb/>eſt comme auec ceux qui
+            <lb/>nous ouurent leur bource &amp; <lb/>nous diſent, prenez. Nous <lb/>en vſons
+            honneſtement, &amp; <lb/>nous nous contentons de la <lb/>raiſon. Mais ceux qui nous
+            <lb/>chicanent, nous nous effor<lb/>çons de les tondre, &amp; nous <lb/>ne les épargnons
+            point. LVBIN.<lb/>Va. Ie feray de ceux qui <lb/>ouurent leur bource, &amp; tu <pb n="60"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f70.image"/>
+            <fw>60 George Dandin,</fw>
+            <lb/>n’as qu’à te marier auec moy. CLAVDINE.<lb/>Hé bien bien nous ver<lb/>rons.
+            LVBIN.<lb/>Vien donc icy, Claudine. CLAVDINE.<lb/>Que veux-tu. LVBIN.<lb/>Viens, te dis
+            je. CLAVDINE.<lb/>Ah! doucement. Ie n'aime <lb/>pas les patineurs. LVBIN.<lb/>Eh vn
+            petit brin d’amitié. CLAVDINE.<lb/>Laiſſe moy là, te dis-je, ie <lb/>n'entends pas
+            raillerie. LVBIN.<lb/>Claudine. <fw>CLAV<lb/>
+            </fw>
+            <pb n="61" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f71.image"/>
+            <fw>Comedie. 61</fw>CLAVDINE.<lb/>Ahy. LVBIN.<lb/>Ah! que tu es rude à pau<lb/>ures
+            gens. Fy, que cela eſt <lb/>mal honneſte de refuſer les <lb/>perſonnes. N'as-tu point de
+            <lb/>honte d’eſtre belle, &amp; de ne <lb/>vouloir pas qu’on te careſſe? <lb/>Eh-là.
+            CLAVDINE.<lb/>Ie te donneray ſur le nez. LVBIN.<lb/>Oh la farouche. La ſauua<lb/>ge. Fy
+            poüa la vilaine qui eſt <lb/>cruelle. CLAVDINE.<lb/>Tu t'émancipes trop.
+            LVBIN.<lb/>Qu'eſt-ce que cela te couſte<lb/>
+            <fw>F</fw>
+            <pb n="62" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f72.image"/>
+            <fw>62 George Dandin,</fw>
+            <lb/>roit de me laiſſer vn peu fai<lb/>re. CLAVDINE.<lb/>Il faut que tu te donnes
+            pa<lb/>tience. LVBIN.<lb/>Vn petit baiſer ſeulement <lb/>en rabattant ſur noſtre
+            ma<lb/>riage. CLAVDINE.<lb/>Ie ſuis voſtre Seruante. LVBIN.<lb/>Claudine, ie t’en prie,
+            ſur <lb/>l'et-tant-moins. CLAVDINE.<lb/>Eh que nenny. I'y ay deſia <lb/>eſté attrappée.
+            Adieu. Va-t'en, <lb/>&amp; dis à Monſieur le Vicom<lb/>te que i’auray ſoin de rendre
+            <lb/>ſon billet. <pb n="63"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f73.image"/>
+            <fw>Comedie. 63</fw>LVBIN.<lb/>Adieu beauté rude aſniere. CLAVDINE.<lb/>Le mot eſt
+            amoureux. LVBIN.<lb/>Adieu rocher, caillou, pier<lb/>re de taille, &amp; tout ce qu’il
+            <lb/>y a de plus dur au monde. CLAVDINE.<lb/>Ie vais remettre aux mains <lb/>de ma
+            Maiſtreſſe... Mais la <lb/>voicy auec ſon Mary, éloi<lb/>gnons-nous, &amp; attendons
+            <lb/>qu'elle ſoit ſeule. <pb n="64"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f74.image"/>
+            <fw>64 George Dandin.</fw>SCENE II.GEORGE DANDIN, ANGELIQVE, CLITANDRE.GEORGE
+            DANDIN.<lb/>NOn non, on ne m’abu<lb/>ſe pas auec tant de fa<lb/>cilité, &amp; ie ne ſuis
+            que trop <lb/>certain que le rapport que <lb/>l’on m’a fait eſt veritable. I'ay <lb/>de
+            meilleurs yeux qu’on ne <lb/>penſe, &amp; voſtre galimatias <lb/>ne m’a point tantoſt
+            ébloüy. CLITANDRE.<lb/>Ah la voila. Mais le mary <lb/>eſt auec elle. <pb n="65"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f75.image"/>
+            <fw>
+                <choice>
+                    <sic>59</sic>
+                    <corr>65</corr>
+                </choice> Comedie.</fw>GEORGE DANDIN.<lb/>Au trauers de toutes vos <lb/>grimaces,
+            i’ay veu la verité <lb/>de ce que l’on m’a dit, &amp; le peu <lb/>de reſpect que vous
+            auez pour <lb/>le nœud qui nous ioint. Mon <lb/>Dieu laiſſez là voſtre reue<lb/>rence,
+            ce n’eſt pas de ces ſor<lb/>tes de reſpect donc ie vous <lb/>parle, &amp; vous n’auez
+            que fai<lb/>re de vous moquer. ANGELIQVE.<lb/>Moy, me moquer! en au<lb/>cune façon.
+            GEORGE DANDIN.<lb/>Ie ſçay voſtre penſée, &amp; con<lb/>nois... Encore? ah ne raillons
+            <lb/>pas dauantage! ie n’ignore pas <lb/>qu'a cauſe de voſtre nobleſſe <fw>F iij</fw>
+            <pb n="66" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f76.image"/>
+            <fw>66 George Dandin,</fw>
+            <lb/>vous me tenez fort au deſ<lb/>ſous de vous, &amp; le reſpect <lb/>que ie vous veux
+            dire ne re<lb/>garde point ma perſonne. <lb/>I’entens parler de celuy que <lb/>vous
+            deuez à des nœuds auſſi <lb/>venerables que le ſont ceux <lb/>du mariage. Il ne faut
+            point <lb/>leuer les épaules, &amp; ie ne dis <lb/>point de ſottiſes. ANGELIQVE.<lb/>Qui
+            ſonge à leuer les épau<lb/>les. GEORGE DANDIN.<lb/>Mon Dieu nous voyons <lb/>clair. Ie
+            vous dis encore vne <lb/>fois que le mariage eſt vne <lb/>chaiſne à laquelle on doit
+            <lb/>porter toute ſorte de reſpect, <pb n="67"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f77.image"/>
+            <fw>67 <lb/>Comedie.</fw>
+            <lb/>&amp; que c’eſt fort mal fait à <lb/>vous d'en vſer comme vous <lb/>faites. Oüy oüy
+            mal-fait à <lb/>vous. &amp; vous n’auez que fai<lb/>re de hocher la teſte, &amp; de
+            <lb/>me faire la grimace. ANGELIQVE.<lb/>Moy! ie ne ſçay ce que vous <lb/>voulez dire.
+            GEORGE DANDIN.<lb/>Ie le ſçay fort bien moy, &amp; <lb/>vos mépris me ſont connus.
+            <lb/>Si ie ne ſuis pas né noble, au <lb/>moins ſuis ie d’vne race où <lb/>il n’y a point
+            de reproche, &amp; <lb/>la famille des Dandins... CLITANDRE.<lb/>Derriere Angelique ſans
+            eſtre apperceu de Dan<lb/>din. <lb/>Vn moment d’entretien. <fw>F iiij</fw>
+            <pb n="68" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f78.image"/>
+            <fw>George Dandin, 68</fw>GEORGE DANDIN.<lb/>Eh. ANGELIQVE.<lb/>Quoy? Ie ne dis mot.
+            GEORGE DANDIN.<lb/>Le voila qui vient roder au<lb/>tour de vous. ANGELIQVE.<lb/>Hé bien
+            eſt-ce ma faute? <lb/>Que voulez vous que i'y faſ<lb/>ſe. GEORGE DANDIN.<lb/>Ie veux que
+            vous y faſſiez <lb/>ce que fait vne femme qui <lb/>ne veut plaire qu'à ſon mary.
+            <lb/>Quoy qu’on en puiſſe dire, <lb/>les Galans n’obſedent iamais <lb/>que quand on le
+            veut bien, <lb/>il y a vn certain air douce<lb/>reux qui les attire ainſi que <pb n="69"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f79.image"/>
+            <fw>69 Comedie.</fw>
+            <lb/>le miel fait les mouches, &amp; <lb/>les honneſtes femmes ont des <lb/>manieres qui
+            les ſcauent chaſ<lb/>ſer d’abord. ANGELIQUVE.<lb/>Moy les chaſſer? &amp; par quel<lb/>le
+            raiſon, ie ne me ſcandali<lb/>ſe point qu’on me trouue <lb/>bien faite, &amp; cela me
+            fait du <lb/>plaiſir. GEORGE DANDIN.<lb/>Oüy. Mais quel perſonna<lb/>ge voulez-vous que
+            ioüe vn <lb/>mary pendant cette galante<lb/>rie. ANGELIQVE.<lb/>Le perſonnage d’vn
+            honne<lb/>ſte homme qui eſt bien aiſe <lb/>de voir ſa femme conſiderée. <pb n="70"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f80.image"/>
+            <fw>70 George Dandin,</fw>GEORGE DANDIN.<lb/>Ie ſuis voſtre valet. Ce n'eſt <lb/>pas là
+            mon conte, &amp; les Dan<lb/>dins ne ſont point accouſtu<lb/>mez à cette mode-là.
+            ANGELIQVE.<lb/>Oh les Dandins s’y accou<lb/>ſtumeront s’ils veulent. Car <lb/>pour moy
+            ie vous declare que <lb/>mon deſſein n'eſt pas de re<lb/>noncer au monde, &amp; de
+            m’en<lb/>terrer toute viue dans vn ma<lb/>ry. Comment, parce qu’vn <lb/>homme s’auiſe de
+            nous épou<lb/>ſer, il faut d’abord que toutes <lb/>choſes ſoient finies pour nous,
+            <lb/>&amp; que nous rompions tout <lb/>commerce auec les viuans? <lb/>c’eſt vne choſe
+            merueilleuſe <pb n="71" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f81.image"/>
+            <fw>Comedie. 71</fw>
+            <lb/>que cette tyrannie de Meſ<lb/>ſieurs les marys, &amp; ie les trou<lb/>ue bons de
+            vouloir qu’on ſoit <lb/>morte à tous les diuertiſſe<lb/>mens, &amp; qu’on ne viue que
+            <lb/>pour eux. Ie me moque de <lb/>cela, &amp; ne veux point mou<lb/>rir ſi ieune.
+            GEORGE DANDIN.<lb/>C’eſt ainſi que vous ſatisfai<lb/>tes aux engagemens de la foy
+            <lb/>que vous m’auez donnée pu<lb/>bliquement. ANGELIQVE.<lb/>Moy? ie ne vous l’ay point
+            <lb/>donnée de bon cœur, &amp; <lb/>vous me l’auez arrachée. M’a<lb/>uez-vous auant le
+            mariage de<lb/>mandé mon conſentement, <pb n="72"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f82.image"/>
+            <fw>George Dandin. 72</fw>
+            <lb/>&amp; ſi ie voulois bien de vous? <lb/>Vous n’auez conſulté pour ce<lb/>la que mon
+            pere, &amp; ma me<lb/>re, ce ſont eux proprement <lb/>qui vous ont épouſé, &amp; c'eſt
+            <lb/>pourquoy vous ferez bien de <lb/>vous plaindre touſiours à eux <lb/>des torts que
+            l’on pourra vous <lb/>faire. Pour moy qui ne vous <lb/>ay point dit de vous marier
+            <lb/>auec moy, &amp; que vous auez <lb/>priſe ſans conſulter mes ſen<lb/>timens, ie
+            pretens n'eſtre <lb/>point obligée à me ſoumet<lb/>tre en eſclaue à vos volontez,
+            <lb/>&amp; ie veux iouyr, s’il vous plaiſt, <lb/>de quelque nombre de beaux <lb/>iours
+            que m’offre la ieuneſſe; <lb/>prendre les douces libertez, <fw>que</fw>
+            <pb n="73" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f83.image"/>
+            <fw>Comedie. 73</fw>
+            <lb/>que l'âge me permet, voir <lb/>vn peu le beau monde, &amp; <lb/>gouſter le plaiſir
+            de m’ouyr <lb/>dire des douceurs. Preparez- <lb/>vous y pour voſtre punition, <lb/>&amp;
+            rendez graces au Ciel de ce <lb/>que ie ne ſuis pas capable de <lb/>quelque choſe de
+            pis. GEORGE DANDIN.<lb/>Oüy! c’eſt ainſi que vous <lb/>le prenez. Ie ſuis voſtre
+            ma<lb/>ry, &amp; ie vous dy que ie n’en<lb/>tens pas cela. ANGELIQVE.<lb/>Moy ie ſuis
+            voſtre femme, <lb/>&amp; ie vous dy que ie l’entens. GEORGE DANDIN.<lb/>Il me prend des
+            tentations <lb/>d’accommoder tout ſon viſa<lb/>
+            <fw>G</fw>
+            <pb n="74" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f84.image"/>
+            <fw>74 George Dandin,</fw>
+            <lb/>ge à la compoſte, &amp; le met<lb/>tre en eſtat de ne plaire de ſa <lb/>vie aux
+            diſeurs de fleurettes. <lb/>Ah! allons, George Dandin, <lb/>ie ne pourrois me retenir,
+            <lb/>&amp; il vaut mieux quitter la <lb/>place. SCENE III.CLAVDINE,
+            ANGELIQVE.CLAVDINE.<lb/>I'Auois, Madame, impa<lb/>tience qu’il s’en allaſt pour
+            <lb/>vous rendre ce mot de la part <lb/>que vous ſçauez. <pb n="75"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f85.image"/>
+            <fw>Comedie. 75</fw>ANGELIQVE.<lb/>Voyons. CLAVDINE.<lb/>A ce que ie puis
+            remar<lb/>quer, ce qu’on luy dit ne luy <lb/>déplaiſt pas trop. ANGELIQVE.<lb/>Ah
+            Claudine que ce billet <lb/>s’explique d’vne façon galan<lb/>te! que dans tous leurs
+            diſ<lb/>cours, &amp; dans toutes leurs <lb/>actions les gens de Cour ont <lb/>vn air
+            agreable, &amp; qu’eſt-ce <lb/>que c’eſt aupres d’eux que nos <lb/>gens de Prouince.
+            CLAVDINE.<lb/>Ie croy qu’apres les auoir <lb/>veus, les Dandins ne vous <lb/>plaiſent
+            gueres. <fw>G ij</fw>
+            <pb n="76" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f86.image"/>
+            <fw>76 George Dandin,</fw>ANGELIQVE.<lb/>Demeure icy, ie m’en vais <lb/>faire la
+            réponſe. CLAVDINE.<lb/>Ie n'ay pas beſoin, que ie <lb/>penſe, de luy recommander de
+            <lb/>la faire agreable. Mais voicy... SCENE IV.CLITANDRE, LVBIN,
+            CLAVDINE.CLAVDINE.<lb/>VRayment, Monſieur, <lb/>vous auez pris là vn ha<lb/>bile
+            meſſager. CLITANDRE.<lb/>Ie n’ay pas oſé enuoyer de <pb n="77"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f87.image"/>
+            <fw>Comedie. 77</fw>
+            <lb/>mes gens, mais, ma pauure <lb/>Claudine, il faut que ie te re<lb/>compenſe des bons
+            offices que <lb/>ie ſçay que tu m’as rendus. CLAVDINE.<lb/>Eh! Monſieur il n'eſt pas
+            <lb/>neceſſaire. Non, Monſieur, <lb/>vous n’auez que faire de vous <lb/>donner cette
+            peine là, &amp; ie <lb/>vous rends ſeruice, parce que <lb/>vous le meritez, &amp; que ie
+            me <lb/>ſens au cœur de l’inclination <lb/>pour vous. CLITANDRE.<lb/>Ie te ſuis obligé.
+            LVBIN.<lb/>Puis que nous ſerons ma<lb/>riez, donne moy cela que ie <lb/>le mette auec le
+            mien. <fw>G iij</fw>
+            <pb n="78" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f88.image"/>
+            <fw>George Dandin, 78</fw>CLAVDINE.<lb/>Ie te le garde auſſi bien que <lb/>le baiſer.
+            CLITANDRE.<lb/>Dy-moy, as-tu rendu mon <lb/>billet à ta belle Maiſtreſſe.
+            CLAVDINE.<lb/>Oüy, elle eſt allée y répon<lb/>dre. CLITANDRE.<lb/>Mais, Claudine, n’y
+            a-t’il <lb/>pas moyen que ie la puiſſe <lb/>entretenir. CLAVDINE.<lb/>Oüy, venez auec
+            moy, ie <lb/>vous feray parler à elle. CLITANDRE.<lb/>Mais le trouuera-t’elle bon,
+            <lb/>&amp; n’y a-t’il rien a riſquer. CLAVDINE.<lb/>Non non, ſon mary n’eſt <pb n="79"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f89.image"/>
+            <fw>Comedie. 79</fw>
+            <lb/>pas au logis &amp; puis, ce n’eſt <lb/>pas luy qu'elle a le plus à <lb/>ménager,
+            c’eſt ſon pere &amp; ſa <lb/>mere, &amp; pourueu qu’ils ſoient <lb/>preuenus, tout le
+            reſte n’eſt <lb/>point a craindre. CLITANDRE.<lb/>Ie m’abandonne à ta con<lb/>duite.
+            LVBIN.<lb/>Teſtiguenne que i'auray là <lb/>vne habile femme, elle a de <lb/>l’eſprit
+            comme quatre. <pb n="80"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f90.image"/>
+            <fw>80 George Dandin,</fw>SCENE III.GEORGE DANDIN, LVBIN.GEORGE DANDIN.<lb/>VOicy mon
+            homme de <lb/>tantoſt. Pluſt au Ciel <lb/>qu’il puſt ſe reſoudre à vouloir <lb/>rendre
+            témoignage au pere <lb/>&amp; à la mere de ce qu’ils ne <lb/>veulent point croire.
+            LVBIN.<lb/>Ah vous voila, Monſieur <lb/>le babillard, à qui i’auois tant <lb/>recommandé
+            de ne point par<lb/>ler, &amp; qui me l’aviez tant pro<lb/>
+            <pb n="81" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f91.image"/>
+            <fw>Comedie. 81</fw>
+            <lb/>mis. Vous eſtes donc vn cau<lb/>ſeur, &amp; vous allez redire ce <lb/>que l’on vous
+            dit en ſecret. GEORGE DANDIN.<lb/>Moy. LVBIN.<lb/>Ouy. Vous auez eſté tout <lb/>raporter
+            au mary. Et vous <lb/>eſtes cauſe qu’il a fait du va<lb/>carme. Ie ſuis bien ayſe de
+            <lb/>ſçauoir que vous auez de la <lb/>langue, &amp; cela m’apprendra <lb/>à ne vous plus
+            rien dire. GEORGE DANDIN.<lb/>Ecoute, mon amy. LVBIN.<lb/>Si vous n’auiez point
+            ba<lb/>billé, ie vous aurois conté <lb/>ce qui ſe paſſe à cette heure, <pb n="82"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f92.image"/>
+            <fw>George Dandin, 82</fw>
+            <lb/>mais pour voſtre punition <lb/>vous ne ſçaurez rien du tout. GEORGE
+            DANDIN.<lb/>Comment. Qu’eſt-ce qui ſe <lb/>paſſe. LVBIN.<lb/>Rien, rien. Voila ce que
+            <lb/>c’eſt d’auoir cauſé, vous n’en <lb/>taſterez plus, &amp; ie vous laiſ<lb/>ſe ſur la
+            bonne bouche. GEORGE DANDIN.<lb/>Arreſte vn peu. LVBIN.<lb/>Point. GEORGE DANDIN.<lb/>Ie
+            ne te veux dire qu’vn <lb/>mot. LVBIN.<lb/>Nennin, nennin, vous a<lb/>uez enuie de me
+            tirer les vers <lb/>du nez. <pb n="83"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f93.image"/>
+            <fw>Comedie. 83</fw>GEORGE DANDIN.<lb/>Non, ce n'eſt pas cela. LVBIN.<lb/>Eh quelque
+            ſot. Ie vous vois <lb/>venir. GEORGE DANDIN.<lb/>C’eſt autre choſe. Ecoute.
+            LVBIN.<lb/>Point d’affaire. Vous vou<lb/>driez que ie vous diſſe que <lb/>Monſieur le
+            Vicomte vient <lb/>de donner de l’argent à Clau<lb/>dine, &amp; qu’elle l’a mené chez ſa
+            <lb/>Maiſtreſſe. Mais ie ne ſuis pas <lb/>ſi beſte. GEORGE DANDIN.<lb/>De grace.
+            LVBIN.<lb/>Non. <pb n="84"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f94.image"/>
+            <fw>George Dandin, 84</fw>GEORGE DANDIN.<lb/>Ie te donneray... LVBIN.<lb/>Tarare. SCENE
+            VI.GEORGE DANDIN.<lb/>JE n’ay pû me ſeruir auec <lb/>cét innocent de la penſée <lb/>que
+            i’auois. Mais le nouuel <lb/>auis qui luy eſt échapé feroit <lb/>la meſme choſe, &amp;
+            ſi le Ga<lb/>lant eſt chez moy, ce ſeroit <lb/>pour auoir raiſon aux yeux du <lb/>pere
+            &amp; de la mere, &amp; le <lb/>conuaincre pleinement de l’ef<lb/>
+            <fw>fron</fw>
+            <pb n="85" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f95.image"/>
+            <fw> Comedie. 85</fw>
+            <lb/>fronterie de leur fille. Le mal <lb/>de tout cecy c'eſt que ie ne <lb/>ſçay comment
+            faire pour pro<lb/>fiter d’vn tel auis. Si ie rentre <lb/>chez moy, ie feray éuader le
+            <lb/>droſle, &amp; quelque choſe que <lb/>ie puiſſe voir moy-meſme de <lb/>mon
+            des-honneur, ie n’en ſe<lb/>ray point creu à mon ſerment, <lb/>&amp; l’on me dira que ie
+            reſve. <lb/>Si d’autre part ie vay querir <lb/>beau pere &amp; belle-mere ſans
+            <lb/>eſtre ſeur de trouuer chez moy <lb/>le Galant, ce ſera la meſme <lb/>choſe, &amp;
+            ie retomberay dans <lb/>l’incõuenient de tantoſt. Pour<lb/>rois-ie point m’éclaircir
+            dou<lb/>cement s’il y eſt encore? Ah <lb/>Ciel! il n’en faut plus douter <pb n="86"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f96.image"/>
+            <fw>H George Dandin, 86</fw>
+            <lb/>&amp; ie viens de l’aperceuoir par le <lb/>trou de la porte. Le ſort me <lb/>donne
+            icy dequoy confon<lb/>dre ma partie, &amp; pour ache<lb/>uer l’auanture il fait venir à
+            <lb/>point nommé les Iuges dont <lb/>i’auois beſoin. SCENE VII.MONSIEVR ET MADAME DE
+            SOTENVILLE, GEORGE DANDIN.GEORGE DANDIN.<lb/>ENfin vous ne m’auez pas <lb/>voulu croire
+            tantoſt, &amp; <lb/>voſtre fille l’a emporté ſur <lb/>moy. Mais i’ay en main de<lb/>
+            <pb n="87" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f97.image"/>
+            <fw>Comedie. 87</fw>
+            <lb/>quoy vous faire voir comme <lb/>elle m’accommode, &amp; Dieu <lb/>mercy mon
+            des-honneur eſt <lb/>ſi clair maintenant, que vous <lb/>n’en pourrez plus douter. Mr DE
+            SOTENVILLE.<lb/>Comment, mon Gendre, <lb/>vous en eſtes encore là deſ<lb/>ſus. GEORGE
+            DANDIN.<lb/>Ouy i’y ſuis, &amp; iamais ie <lb/>n’eus tant de ſuiet d’y eſtre. Mr DE
+            SOTENVILLE.<lb/>Vous nous venez encore <lb/>étourdir la teſte. GEORGE DANDIN.<lb/>Ouy,
+            Madame, &amp; l’on fait <lb/>bien pis à la mienne. Mr DE SOTENVILLE.<lb/>Ne vous
+            laſſez-vous point <fw>H ij</fw>
+            <pb n="88" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f98.image"/>
+            <fw>George Dandin, <lb/>88</fw>
+            <lb/>de vous rendre importun. GEORGE DANDIN.<lb/>Non. Mais ie me laſſe fort <lb/>d’eſtre
+            pris pour dupe. Mr DE SOTENVILLE.<lb/>Ne voulez vous point vous <lb/>defaire de vos
+            penſées extra<lb/>uagantes. GEORGE DANDIN.<lb/>Non, Madame, mais ie <lb/>voudrois bien
+            me defaire d’vne <lb/>femme qui me des-honore. Mr DE SOTENVILLE.<lb/>Iour de Dieu,
+            noſtre gen<lb/>dre, apprenez à parler. Mr DE SOTENVILLE.<lb/>Corbleu cherchez des termes
+            <lb/>moins offençans que ceux-là. GEORGE DANDIN.<lb/>Marchand qui perd ne peut
+            <lb/>rire. <pb n="89" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f99.image"/>
+            <fw>Comedie. 89</fw>Mr DE SOTENVILLE.<lb/>Souuenez-vous que vous <lb/>auez épouſé vne
+            Demoiſelle. GEORGE DANDIN.<lb/>Ie m'en ſouuiens aſſez, &amp; <lb/>ne m’en ſouuiendray
+            que trop. Mr DE SOTENVILLE.<lb/>Si vous vous en ſouuenez, <lb/>ſongez donc à parler
+            d’elle <lb/>auec plus de reſpect. GEORGE DANDIN.<lb/>Mais que ne ſonge-t'elle
+            <lb/>plutoſt à me traitter plus hon<lb/>neſtement? Quoy parce quel<lb/>le eſt
+            Demoiſelle, il faut qu’<lb/>elle ait la liberté de me faire <lb/>ce qui luy plaiſt, ſans
+            que <lb/>i’oſe ſouffler. Mr DE SOTENVILLE.<lb/>Qu’auez vous donc, &amp; que <fw>H
+                iij</fw>
+            <pb n="90" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f100.image"/>
+            <fw>George Dandin, <lb/>90</fw>
+            <lb/>pouuez-vous dire? n’auez<lb/>vous pas veu ce matin qu'elle <lb/>s’eſt deffenduë de
+            connoiſtre <lb/>celuy dont vous m’eſtiez ve<lb/>nu parler. GEORGE DANDIN.<lb/>Ouy. Mais
+            vous, que pour<lb/>rez-vous dire, ſi ie vous fais <lb/>voir maintenant que le
+            Ga<lb/>lant eſt auec elle. Mr DE SOTENVILLE.<lb/>Auec elle. GEORGE DANDIN.<lb/>Ouy auec
+            elle, &amp; dans ma <lb/>maiſon. Mr DE SOTENVILLE.<lb/>Dans voſtre maiſon. GEORGE
+            DANDIN.<lb/>Ouy. Dans ma propre mai<lb/>ſon. <pb n="91"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f101.image"/>
+            <fw>Comedie. 91</fw>Mr DE SOTENVILLE.<lb/>Si cela eſt, nous ſerons <lb/>pour vous
+            contr’elle. Mr DE SOTENVILLE.<lb/>Ouy. L’honneur de noſtre <lb/>famille nous eſt plus
+            cher que <lb/>toute choſe, &amp; ſi vous dites <lb/>vray, nous la renoncerons <lb/>pour
+            noſtre ſang, &amp; l’aban<lb/>donnerons à voſtre colere. GEORGE DANDIN.<lb/>Vous n’auez
+            qu'à me ſui<lb/>ure. Mr DE SOTENVILLE.<lb/>Gardez de vous tromper. Mr DE
+            SOTENVILLE.<lb/>N’allez pas faire comme <lb/>tantoſt. GEORGE DANDIN<lb/>Mon Dieu, vous
+            allez voir. <fw>H iiij</fw>
+            <pb n="92" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f102.image"/>
+            <fw>George Dandin, 92</fw>
+            <lb/>Tenez. Ay-je menty. SCENE VIII.ANGELIQVE, CLITANDRE, CLAVDINE, MI &amp; Me DE
+            SOTENVILLE, GEORGE DANDIN.ANGELIQVE.<lb/>Dieu. I’ay peur qu’on <lb/>vous ſurprenne icy,
+            &amp; <lb/>i'ay quelques meſures à gar<lb/>der. CLITANDRE.<lb/>Promettez-moy donc,
+            Ma<lb/>dame, que ie pourray vous <lb/>parler cette nuit. ANGELIQVE<lb/>I’y feray mes
+            efforts. <pb n="93" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f103.image"/>
+            <fw>Comedie. <choice>
+                    <sic>95</sic>
+                    <corr>93</corr>
+                </choice>
+            </fw>GEORGE DANDIN.<lb/>Approchons doucement par <lb/>derriere, &amp; taſchons de
+            n’eſtre <lb/>point veus. CLAVDINE.<lb/>Ah! Madame, tout eſt per<lb/>du. Voila voſtre
+            pere, &amp; vo<lb/>ſtre mere accompagnez de <lb/>voſtre mary. CLITANDRE.<lb/>Ah Ciel.
+            ANGELIQVE.<lb/>Ne faites pas ſemblant de <lb/>rien, &amp; me laiſſez faire tous
+            <lb/>deux. Quoy vous oſez en v<lb/>ſer de la ſorte, apres l'af<lb/>faire de tantoſt,
+            &amp; c'eſt <lb/>ainſi que vous diſſimulez vos <lb/>ſentimens? On me vient ra<lb/>porter
+            que vous auez de l’a<lb/>
+            <pb n="94" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f104.image"/>
+            <fw>George Dandin, <choice>
+                    <sic>96</sic>
+                    <corr>94</corr>
+                </choice>
+            </fw>
+            <lb/>mour pour moy, &amp; que vous <lb/>faites des deſſeins de me ſol<lb/>liciter. I’en
+            témoigne mon <lb/>dépit, &amp; m'explique à vous <lb/>clairement en preſence de
+            <lb/>tout le monde. Vous niez <lb/>hautement la choſe, &amp; me <lb/>donnez parole de
+            n’auoir au<lb/>cune penſée de m’offencer, <lb/>&amp; cependant le meſme iour <lb/>vous
+            prenez la hardieſſe de <lb/>venir chez moy me rendre <lb/>viſite. De me dire que vous
+            <lb/>m’aimez, &amp; de me faire cent <lb/>ſots contes pour me perſuader <lb/>de répondre
+            à vos extrauagan<lb/>ces; comme ſi i’eſtois femme <lb/>à violer la foy que i’ay
+            don<lb/>née à vn mary, &amp; m’éloigner <pb n="95"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f105.image"/>
+            <fw>Comedie. <choice>
+                    <sic>97</sic>
+                    <corr>95</corr>
+                </choice>
+            </fw>
+            <lb/>jamais de la vertu que mes <lb/>parens m’ont enſeignée. Si <lb/>mon pere ſçauoit
+            cela, il <lb/>vous apprendroit bien à ten<lb/>ter de ces entrepriſes. Mais <lb/>vne
+            honneſte femme n’ayme <lb/>point les éclats. Ie n’ay gar<lb/>de de luy en rien dire,
+            &amp; ie <lb/>veux vous montrer que toute <lb/>femme que ie ſuis, i’ay aſſez <lb/>de
+            courage pour me vanger <lb/>moy-meſme des offences que <lb/>l’on me fait. L’action que
+            <lb/>vous auez faite n'eſt pas d’vn <lb/>Gentil homme, &amp; ce n'eſt pas <lb/>en Gentil
+            homme auſſi que <lb/>ie veux vous traitter. Elle prend vn baton, &amp; bat ſon mari au
+            lieu de <lb/>Clitandre qui ſe met entre deux. <pb n="96"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f106.image"/>
+            <fw>George Dandin, <choice>
+                    <sic>98</sic>
+                    <corr>96</corr>
+                </choice>
+            </fw>CLITANDRE.<lb/>Ah, ah, ah, ah, ah. Dou<lb/>cement. CLAVDINE.<lb/>Fort, Madame,
+            frapez com<lb/>me il faut. ANGELIQVE.<lb/>S’il vous demeure quelque <lb/>choſe ſur le
+            cœur, ie ſuis pour <lb/>vous répondre. CLAVDINE.<lb/>Aprenez à qui vous vous <lb/>ioüez.
+            ANGELIQVE.<lb/>Ah mon pere vous eſtes <lb/>là. Mr DE SOTENVILLE.<lb/>Ouy, ma fille,
+            &amp; ie voy <lb/>qu’en ſageſſe, &amp; en courage <lb/>tu te montres vn digne re<lb/>
+            <fw>
+                <lb/>jetton de</fw>
+            <pb n="97" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f107.image"/>
+            <fw>Comedie. 97</fw>
+            <lb/>ietton de la maiſon de Soten<lb/>uille. Vien-ça, approche toy <lb/>que ie
+            t'embraſſe. Mr DE SOTENVILLE.<lb/>Embraſſe moy auſſi ma fil<lb/>le. Las! ie pleure de
+            ioye, &amp; <lb/>rconnois mon ſang aux cho<lb/>ſes que tu viens de faire. Mr DE
+            SOTENVILLE.<lb/>Mon gendre, que vous deuez <lb/>eſtre rauy &amp; que cette auan<lb/>ture
+            eſt pour vous pleine de <lb/>douceurs. Vous auiez vn iuſte <lb/>ſuiet de vous allarmer,
+            mais <lb/>vos ſoupçons ſe trouuent diſſi<lb/>pez le plus auantageuſement <lb/>du monde.
+            Mr DE SOTENVILLE.<lb/>Sans doute, noſtre gendre, <fw>I</fw>
+            <pb n="98" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f108.image"/>
+            <fw>George Dandin, <lb/>98</fw>
+            <lb/>&amp; vous deuez maintenant e<lb/>ſtre le plus content des hom<lb/>mes.
+            CLAVDINE.<lb/>Aſſeurément. Voila vne <lb/>femme celle-là, vous eſtes <lb/>trop heureux
+            de l’auoir, &amp; <lb/>vous deuriez baiſer les pas où <lb/>elle paſſe. GEORGE
+            DANDIN.<lb/>Euh traiſtreſſe. Mr DE SOTENVLLE.<lb/>Qu'eſt ce, mon gendre? Que <lb/>ne
+            remerciez vous vn peu vo<lb/>ſtre femme, de l’amitié que <lb/>vous voyez qu'elle montre
+            <lb/>pour vous. ANGELIQVE.<lb/>Non non, mon pere, il n’eſt <lb/>pas neceſſaire. Il ne
+            m’a aucu<lb/>
+            <pb n="99" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f109.image"/>
+            <fw>Comedie. 99</fw>
+            <lb/>ne obligation de ce qu’il vient <lb/>de voir, &amp; tout ce que i’en <lb/>fais
+            n’eſt que pour l’amour <lb/>de moy-meſme. Mr DE SOTENVILLE.<lb/>Où allez vous, ma fille.
+            ANGELIQVE.<lb/>Ie me retire, mon pere, pour <lb/>ne me voir point obligée à
+            CLAVDINE.<lb/>Elle a raiſon d’eſtre en co<lb/>lere. C’eſt vne femme qui me<lb/>rite
+            d’eſtre adorée, &amp; vous ne <lb/>la traittez pas comme vous <lb/>deuriez. GEORGE
+            DANDIN.<lb/>Scelerate. Mr DE SOTENVILLE.<lb/>C’eſt vn petit reſſentiment <fw>I iij</fw>
+            <pb n="100" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f110.image"/>
+            <fw>George Dandin. 100</fw>
+            <lb/>de l’affaire de tantoſt, &amp; ce<lb/>la ſe paſſera auec vn peu de <lb/>careſſe que
+            vous luy ferez <lb/>Adieu, mon gendre, vous <lb/>voila en eſtat de ne vous plus
+            <lb/>inquieter. Allez vous en faire <lb/>la paix enſemble, &amp; taſchez <lb/>de
+            l’apaiſer par des excuſes de <lb/>voſtre emportement. Mr DE SOTENVILLE.<lb/>Vous deuez
+            conſiderer que <lb/>c’eſt vne ieune fille éleuée à <lb/>la vertu, &amp; qui n’eſt point
+            <lb/>accouſtumée à ſe voir ſoup<lb/>çonner d’aucune vilaine a<lb/>ction. Adieu. Ie ſuis
+            rauie de <lb/>voir vos deſordres finis &amp; des <lb/>tranſports de ioye que vous
+            <lb/>doit donner ſa conduite. <pb n="101"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f111.image"/>
+            <fw>101 Comedie.</fw>GEORGE DANDIN.<lb/>Ie ne dis mot. Car ie ne <lb/>gagnerois rien à
+            parler, &amp; ia<lb/>mais il ne s’eſt rien veu d’é<lb/>gal à ma diſgrace, Ouy,
+            i’ad<lb/>mire mon mal-heur, &amp; la <lb/>ſubtile adreſſe de ma carogne <lb/>de femme
+            pour ſe donner <lb/>touſiours raiſon, &amp; me faire <lb/>auoir tort. Eſt-il poſſible
+            que <lb/>toujours i'auray du deſſous auec <lb/>elle, que les apparences tou<lb/>jours
+            tourneront contre moy, <lb/>&amp; que ie ne paruiendray point <lb/>à conuaincre mon
+            effrontee? <lb/>ô Ciel! ſeconde mes deſſeins, <lb/>&amp; m’accorde la grace de faire
+            <lb/>voir aux gens que l’on me <lb/>deshonore. <fw>I iij</fw>
+            <pb n="102" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f112.image"/>
+            <fw>George Dandin, 102</fw>ACTE III.SCENE PREMIERECLITANDRE. LVBIN.CLITANDRE.<lb/>LA
+            nuit eſt auancée, &amp; <lb/>i’ay peur qu’il ne ſoit <lb/>trop tard. Ie ne voy point à
+            <lb/>me conduire. Lubin. LVBIN.<lb/>Monſieur. CLITANDRE.<lb/>Eſt-ce par icy. <pb n="103"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f113.image"/>
+            <fw>Comedie. 103</fw>LVBIN.<lb/>Ie penſe que ouy. Morgué <lb/>voila vne ſotte nuit,
+            d’eſtre ſi <lb/>noire que cela. CLITANDRE.<lb/>Elle a tort aſſeurément. Mais <lb/>ſi
+            d’vn coſté elle nous empeſ<lb/>che de voir, elle empeſche de <lb/>l’autre que nous ne
+            ſoyons <lb/>veus. LVBIN.<lb/>Vous auez raiſon. Elle n’a <lb/>pas tant de tort. Ie
+            voudrois <lb/>bien ſçauoir, Monſieur, vous <lb/>qui eſtes ſçauant, pourquoy il <lb/>ne
+            fait point iour la nuit. CLITANDRE.<lb/>C’eſt vne grande queſtion, <lb/>&amp; qui eſt
+            difficile. Tu es cu<lb/>rieux, Lubin. <fw>I iiii</fw>
+            <pb n="104" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f114.image"/>
+            <fw>George Dandin, 104</fw>LVBIN.<lb/>Ouy. Si i’auois eſtudié, i’au<lb/>rois eſté ſonger
+            à des choſes <lb/>où on n’a iamais ſongé. CLITANDRE.<lb/>Ie le croy. Tu as la mine
+            <lb/>d’auoir l’eſprit ſubtil &amp; péné<lb/>trant. LVBIN.<lb/>Cela eſt vray. Tenez.
+            l’ex<lb/>plique du Latin, quoy que ia<lb/>mais ie ne l'aye appris, &amp; <lb/>voyant
+            l’autre iour ecrit ſur <lb/>vne grande porte Collegium, ie <lb/>deuinay que cela vouloit
+            dire <lb/>College. CLITANDRE.<lb/>Cela eſt admirable! Tu ſçais <lb/>donc lire, Lubin.
+                <pb n="105" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f115.image"/>
+            <fw>105 Comedie.</fw>LVBIN.<lb/>Ouy. Ie ſçay lire la lettre <lb/>moulée, mais ie n’ay
+            iamais <lb/>ſceu apprendre à lire l’écritu<lb/>re. CLITANDRE.<lb/>Nous voicy contre la
+            mai<lb/>ſon. C’eſt le ſignal que m'a <lb/>donné Claudine. LVBIN<lb/>Par ma foy c’eſt vne
+            fille <lb/>qui vaut de l’argent, &amp; ie l’ai<lb/>me de tout mon cœur.
+            CLITANDRE.<lb/>Aussi t’ai-ie amené avec moi <lb/>pour l’entretenir. LVBIN.<lb/>Monſieur,
+            ie vous ſuis... CLITANDRE.<lb/>Chut. I’entens quelque bruit. <pb n="106"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f116.image"/>
+            <fw>106 George Dandin,</fw>SCENE II.ANGELIQVE CLAVDINE CLITANDRE,
+            LVBIN.ANGELIQVE.<lb/>CLaudine. CLAVDINE.<lb/>Hé bien. ANGELIQVE.<lb/>Laiſſe la porte
+            entre-ouuer<lb/>te. CLAVDINE.<lb/>Voila qui eſt fait. CLITANDRE.<lb/>Ce ſont elles. St.
+                <pb n="107" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f117.image"/>
+            <fw>Comedie. 107</fw>ANGELIQVE.<lb/>St. LVBIN.<lb/>St. CLAVDINE.<lb/>St. CLITANDRE.A
+            Claudine.<lb/>Madame. ANGELIQVE.A Lubin.<lb/>Quoy. LVBIN.A Angelique.<lb/>Claudine.
+            CLAVDINE.<lb/>Qu'eſt ce. CLITANDRE.A Claudine.<lb/>Ah! Madame, que i'ay de <lb/>ioye.
+                <pb n="108" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f118.image"/>
+            <fw>George Dandin, 108</fw>LVBIN.A Angelique.<lb/>Claudine, ma pauure Clau<lb/>
+            <lb/>dine. CLAVDINE.A Clitandre.<lb/>Doucement, Monſieur. ANGELIQVE.A Lubin.<lb/>Tout
+            beau, Lubin. CLITANDRE.<lb/>Eſt-ce toy, Claudine. CLAVDINE.<lb/>Ouy. LVBIN.<lb/>Eſt-ce
+            vous, Madame. ANGELIQVE.<lb/>Ouy. CLAVDINE.<lb/>Vous auez pris l’vne pour <lb/>l’autre.
+                <fw>LV</fw>
+            <pb n="109" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f119.image"/>
+            <fw>Comedie. 109</fw>LVBIN.<lb/>Ma foy la nuit on n’y voit <lb/>goute. ANGELIQUE<lb/>Eſt
+            ce pas vous, Clitandre. CLITANDRE.<lb/>Ouy, Madame. ANGELIQVE.<lb/>Mon mary ronfle comme
+            il <lb/>faut, &amp; i’ay pris ce temps <lb/>pour nous entretenir icy.
+            CLITANDRE.<lb/>cherchons quelque lieu pour <lb/>nous aſſeoir. CLAVDINE.<lb/>C'eſt fort
+            bien auiſé. Il vont s'aſſeoir aufond du theatre.LVBIN.<lb/>Claudine, où eſt-ce que tu
+            <lb/>es. <fw>K</fw>
+            <pb n="110" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f120.image"/>
+            <fw>George Dandin, 110</fw>SCENE III.GEORGE DANDIN, LVBIN.GEORGE DANDIN.<lb/>I'Ay
+            entendu deſcendre ma <lb/>femme, &amp; ie me ſuis viſte <lb/>habillé pour deſcendre
+            apres <lb/>elle. Où peut-elle eſtre allée? <lb/>Seroit-elle ſortie. LVBIN.Il prend
+            George Dandin pour Claudine.<lb/>Où es-tu donc, Claudine? <lb/>Ah te voila. Par ma foy
+            ton <lb/>Maiſtre eſt plaiſamment at<lb/>trapé, &amp; ie trouue cecy auſſi <lb/>droſle
+            que les coups de baſton <pb n="111"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f121.image"/>
+            <fw>Comedie. 111</fw>
+            <lb/>de tantoſt dont on m’a fait re<lb/>cit. Ta Maiſtreſſe dit qu’il ron<lb/>fle à cette
+            heure comme tous <lb/>les diantres, &amp; il ne ſcait pas <lb/>que Monſieur le Vicomte
+            &amp; <lb/>elle ſont enſemble pendant <lb/>qu’il dort. Ie voudrois bien <lb/>ſçauoir
+            quel ſonge il fait main<lb/>tenant. Cela eſt tout à fait <lb/>riſible! Dequoy
+            s’auiſe-t’il <lb/>auſſi d’eſtre ialoux de ſa fem<lb/>me, &amp; de vouloir qu’elle ſoit
+            <lb/>à luy tout ſeul? C’eſt vn im<lb/>pertinent, &amp; Monſieur le Vi<lb/>comte luy fait
+            trop d’honneur. <lb/>Tu ne dis mot, Claudine. Al<lb/>lons, ſuiuons les, &amp; me
+            don<lb/>de ta petite menotte que ie <lb/>la baiſe. Ah que cela eſt doux. <fw>K iij</fw>
+            <pb n="112" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f122.image"/>
+            <fw>George Dandin, 112</fw>
+            <lb/>Il me ſemble que ie mange <lb/>des confitures. <lb/>Comme il baiſe la main de
+            Dandin, Dandin la <lb/>luy pouſſe rudement au viſage. <lb/>Tubleu, comme vous, y
+            <lb/>allez. Voila vne petite menot<lb/>te qui eſt vn peu bien rude. GEORGE
+            DANDIN.<lb/>Qui va là. LVBIN.<lb/>Perſonne. GEORGE DANDIN.<lb/>Il fuit, &amp; me laiſſe
+            infor<lb/>mé de la nouuelle perfidie de <lb/>ma coquine. Allons, il faut <lb/>que ſans
+            tarder, i'enuoye ap<lb/>peller ſon pere &amp; ſa mere, &amp; <lb/>que cette auanture me
+            ſerue <lb/>à me faire ſeparer d’elle. Ho<lb/>la, Colin, Colin. <pb n="113"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f123.image"/>
+            <fw>Comedie. 113</fw>SCENE IV.COLIN. GEORGE DANDIN.COLIN.A la feneſtre.<lb/>MOnſieur.
+            GEORGE DANDIN.<lb/>Allons, viſte, icy bas. COLIN.<lb/>En ſautant par la feneſtre.
+            <lb/>M’y voila. On ne peut pas <lb/>plus viſte. GEORGE DANDIN.<lb/>Tu es la. <fw>K
+                iij</fw>
+            <pb n="114" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f124.image"/>
+            <fw>George Dandin, 114</fw>COLIN.<lb/>Ouy, Monſieur. <lb/>Pendant qu'il les voit parler
+            d'vn costé, Colin va <lb/>de l’autre. <lb/>Doucement. Parle bas. E<lb/>
+            <lb/>coute. Va-t’en chez mon beau<lb/>
+            <lb/>pere, &amp; ma belle mere, &amp; <lb/>dy que ie les prie tres inſtam<lb/>
+            <lb/>ment de venir tout à l’heure <lb/>icy. Entens tu? Eh? Colin, <lb/>Colin. COLIN. De
+            l’autre coſté. <lb/>Monſieur. GEORGE DANDIN.<lb/>Où diable es-tu. COLIN.<lb/>Icy. <pb
+                n="115" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f125.image"/>
+            <fw>Comedie. 115</fw>GEORGE DANDIN.<lb/>Comme ils ſe vont tous deux chercher, l'vn paſſe
+            <lb/>d'vn coſté, &amp; l’autre de l’autre. <lb/>Peſte ſoit du maroufle qui
+            <lb/>s’éloigne de moy. Ie te dis <lb/>que tu ailles de ce pas trou<lb/>uer mon
+            beau-pere, &amp; ma <lb/>belle-mere, &amp; leur dire que <lb/>ie les coniure de ſe
+            rendre <lb/>icy tout à l’heure. M’entens- <lb/>tu bien? Reſpon. Colin, Co<lb/>lin.
+            COLIN.De l'autre coſté.<lb/>Monſieur. GEORGE DANDIN.<lb/>Voila vn pandard qui me
+            <lb/>fera enrager, vien-t’en à moy. Ils ſe cognent. <lb/>Ah le traiſtre! il m’a eſtro<lb/>
+            <fw>K iiij</fw>
+            <pb n="116" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f126.image"/>
+            <fw>George Dandin, 116</fw>
+            <lb/>pié. Où eſt ce que tu es? ap<lb/>
+            <lb/>proche que ie te donne mille <lb/>coups. Ie penſe qu’il me fuit.
+            COLIN.<lb/>Aſſeurément. GEORGE DANDIN.<lb/>Veux-tu venir? COLIN.<lb/>Nenny ma foy.
+            GEORGE DANDIN.<lb/>Vien, te dis-ie. COLIN.<lb/>Point, vous me voulez bat<lb/>tre. GEORGE
+            DANDIN.<lb/>Hé bien non. Ie ne te feray <lb/>rien. COLIN.<lb/>Aſſeurément. <pb n="117"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f127.image"/>
+            <fw>Comedie. 117</fw>GEORGE DANDIN.<lb/>Ouy. Approche. Bon. Tu es <lb/>bien heureux de
+            ce que i’ay <lb/>beſoin de toy. Va t’en viſte <lb/>de ma part prier mon beau- <lb/>pere
+            &amp; ma belle-mere de ſe <lb/>rendre icy le plutoſt qu’ils <lb/>pourront, &amp; leur
+            dis que c’eſt <lb/>pour vne affaire de la dernie<lb/>re conſequence. Et s’ils
+            fai<lb/>ſoient quelque difficulté à cau<lb/>ſe de l’heure, ne manque pas <lb/>de les
+            preſſer, &amp; de leur bien <lb/>faire entendre qu’il eſt tres <lb/>important qu’ils
+            viennent, en <lb/>quelque eſtat qu’ils ſoient. Tu <lb/>m’entens bien maintenant.
+            COLIN.<lb/>Ouy, Monſieur. <pb n="118"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f128.image"/>
+            <fw>George Dandin, 118</fw>GEORGE DANDIN.<lb/>Va viſte, &amp; revien de meſ<lb/>me. Et
+            moy ie vay rentrer <lb/>dans ma maiſon attendant <lb/>que... Mais i’entens
+            quel<lb/>qu’vn. Ne ſeroit-ce point ma <lb/>femme? Il faut que i'écoute, <lb/>&amp; me
+            ſerue de l’obſcurité qu’il <lb/>fait. SCENE V.CLITANDRE, ANGELIQVE, GEORGE DANDIN,
+            CLAVDINE, LVBIN.ANGELIQVE.<lb/>ADieu. Il eſt temps de ſe <lb/>retirer. <pb n="119"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f129.image"/>
+            <fw>Comedie. 119</fw>CLITANDRE.ANGELIQVE.<lb/>Nous nous ſommes aſſez <lb/>entretenus.
+            CLITANDRE.<lb/>Ah! Madame, puis-ie aſſez <lb/>vous entretenir, &amp; trouuer en <lb/>ſi
+            peu de temps toutes les pa<lb/>roles dont i’ay beſoin? Il me <lb/>faudroit des iournées
+            entieres <lb/>pour me bien expliquer à vous <lb/>de tout ce que ie ſens; &amp; ie
+            <lb/>ne vous ay pas dit encore la <lb/>moindre partie de ce que i'ay <lb/>à vous dire.
+            ANGELIQVE.<lb/>Nous en écouterons vne <lb/>autre fois dauantage. <pb n="120"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f130.image"/>
+            <fw>George Dandin, 120</fw>CLITANDRE.<lb/>Helas! de quel coup me <lb/>percez vous l'ame,
+            lors que <lb/>vous parlez de vous retirer, <lb/>&amp; auec combien de chagrins
+            <lb/>m’allez-vous laiſſer mainte<lb/>nant. ANGELIQVE.<lb/>Nous trouuerons moyen de
+            <lb/>nous reuoir. CLITANDRE.<lb/>Ouy. Mais ie ſonge qu’en me <lb/>quittant, vous allez
+            trouuer <lb/>vn mary. Cette penſée m’aſ<lb/>ſaſſine, &amp; les priuileges qu’ont
+            <lb/>les marys ſont des choſes <lb/>cruelles pour vn Amant qui <lb/>aime bien.
+            ANGELIQVE.<lb/>Serez vous aſſez fort pour <fw>auoir</fw>
+            <pb n="121" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f131.image"/>
+            <fw>Comedie. 121</fw>
+            <lb/>auoir cette inquietude, &amp; <lb/>penſez vous qu’on ſoit capa<lb/>ble d’aimer de
+            certains marys <lb/>qu’il y a. On les prend, parce <lb/>qu’on ne s’en peut deffendre,
+            <lb/>&amp; que l’on dépend de parens <lb/>qui n’ont des yeux que pour <lb/>le bien, mais
+            on ſçait leur <lb/>rendre iuſtice, &amp; l’on ſe moc<lb/>que fort de les conſiderer au
+            <lb/>delà de ce qu’ils meritent. GEORGE DANDIN.<lb/>Voila nos carognes de fem<lb/>mes.
+            CLITANDRE.<lb/>Ah! qu'il faut auoüer que <lb/>celuy qu’on vous a donné <lb/>eſtoit peu
+            digne de l’honneur <fw>L</fw>
+            <pb n="122" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f132.image"/>
+            <fw>122 George Dandin,</fw>
+            <lb/>qu’il a receu, &amp; que c’eſt vne <lb/>étrange choſe que l'aſſembla<lb/>ge qu’on a
+            fait d’vne perſon<lb/>ne comme vous auec vn hom<lb/>me comme luy. GEORGE DANDIN.A
+            part.<lb/>Pauures marys! Voila com<lb/>me on vous traitte. CLITANDRE.<lb/>Vous meritez
+            ſans doute vne <lb/>toute autre deſtinée, &amp; le Ciel <lb/>ne vous a point faite pour
+            <lb/>eſtre la femme d’vn payſan. GEORGE DANDIN.<lb/>Pluſt au Ciel! fut elle la
+            <lb/>tienne, tu changerois bien de <lb/>langage. Rentrons. C’en eſt <lb/>aſſez. Il
+            entre, &amp; ferme la porte.<pb n="123"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f133.image"/>
+            <fw>Comedie. 123</fw>CLAVDINE.<lb/>Madame, ſi vous auez à di<lb/>re du mal de voſtre
+            mary, de<lb/>peſchez viſte, car il eſt tard. CLITANDRE.<lb/>Ah, Claudine, que tu es
+            <lb/>cruelle. ANGELIQVE.<lb/>Elle a raiſon. Séparons- <lb/>nous. CLITANDRE.<lb/>Il faut
+            donc s’y reſoudre <lb/>puis que vous le voulez. Mais <lb/>au moins ie vous conjure de
+            <lb/>me plaindre vn peu, des mé<lb/>chans momens que ie vais paſ<lb/>ſer.
+            ANGELIQVE.<lb/>Adieu. <fw>L ij</fw>
+            <pb n="124" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f134.image"/>
+            <fw>George Dandin, 124</fw>LVBIN.<lb/>Où es tu, Claudine que ie te <lb/>donne le
+            bonſoir. CLAVDINE.<lb/>Va, va, ie le reçois de loin, <lb/>&amp; ie t’en renuoye autant.
+            SCENE VI.ANGELIQUE, CLAVDINE, GEORGE DANDIN.ANGELIQVE.<lb/>REntrons ſans faire de
+            <lb/>bruit. CLAVDINE.<lb/>La porte s’eſt fermée. <pb n="125"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f135.image"/>
+            <fw>Comedie. 125</fw>ANGELIQUE.<lb/>I’ay le paſſe-par-tout. CLAVDINE.<lb/>Ouurez donc
+            doucement. ANGELIQVE.<lb/>On a fermé en dedans, &amp; <lb/>ie ne ſçay comment nous
+            fe<lb/>rons. CLAVDINE.<lb/>Appellez le garçon qui cou<lb/>che là. ANGELIQVE.<lb/>Colin,
+            Colin, Colin. GEORGE DANDIN.Mettant la teſte à ſa feneſtre.<lb/>Colin, Colin? Ah ie vous
+            <lb/>y prens donc, Madame ma <lb/>femme, &amp; vous faites des eſ<lb/>campatiuos pendant
+            que ie <lb/>dors. Ie ſuis bien ayſe de ce<lb/>
+            <fw>L iij</fw>
+            <pb n="126" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f136.image"/>
+            <fw>126 George Dandin,</fw>
+            <lb/>la, &amp; de vous voir dehors à <lb/>l’heure qu’il eſt. ANGELIQVE.<lb/>Hé bien,
+            quel grand mal <lb/>eſt ce qu’il y a à prendre le <lb/>frais de la nuit. GEORGE
+            DANDIN.<lb/>Ouy, ouy. L’heure eſt bon<lb/>ne à prendre le frais. C’eſt bien <lb/>plutoſt
+            le chaud, Madame la <lb/>Coquine; &amp; nous ſçauons <lb/>toute l’intrigue du rendez-
+            <lb/>vous, &amp; du Damoiſeau. Nous <lb/>auons entendu voſtre galant <lb/>entretien,
+            &amp; les beaux vers à <lb/>ma loüange que vous auez dits <lb/>l’vn &amp; l’autre. Mais
+            ma con<lb/>ſolation c'eſt que ie vais <lb/>eſtre vangé, &amp; que voſtre <pb n="127"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f137.image"/>
+            <fw>Comedie. 127</fw>
+            <lb/>pere &amp; voſtre mere ſeront <lb/>conuaincus maintenant de la <lb/>iuſtice de mes
+            plaintes, &amp; du <lb/>dereglement de voſtre con<lb/>duite. Ie les ay enuoyé querir,
+            <lb/>&amp; ils vont eſtre icy dans vn <lb/>moment. ANGELIQVE.<lb/>Ah Ciel.
+            CLAVDINE.<lb/>Madame. GEORGE DANDIN.<lb/>Voila vn coup ſans doute <lb/>où vous ne vous
+            attendiez <lb/>pas. C’eſt maintenant que ie <lb/>triomphe, &amp; i’ay dequoy met<lb/>tre
+            à bas voſtre orgueil, &amp; <lb/>détruire vos artifices. Iuſques <lb/>icy vous auez ioüé
+            mes accuſa<lb/>
+            <pb n="128" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f138.image"/>
+            <fw>128 George Dandin,</fw>
+            <lb/>tions, éblouy vos parens &amp; pla<lb/>ſtré vos maluerſations. I'ay eu <lb/>beau
+            voir, &amp; beau dire, &amp; vo<lb/>ſtre adreſſe toujours l’a em<lb/>porté ſur mon bon
+            droit, &amp; <lb/>touſiours vous auez trouué <lb/>moyen d’auoir raiſon. Mais à
+            <lb/>cette fois, Dieu mercy, les cho<lb/>ſes vont eſtre éclaircies, &amp; vo<lb/>ſtre
+            effronterie ſera pleinement <lb/>confonduë. ANGELIQVE.<lb/>Hé ie vous prie, faites moy
+            <lb/>ouurir la porte. GEORGE DANDIN.<lb/>Non, non il faut attendre <lb/>la venuë de ceux
+            que i’ay man<lb/>dez, &amp; ie veux qu’ils vous <lb/>trouuent dehors à la belle heu<lb/>
+            <pb n="129" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f139.image"/>
+            <fw>129 Comedie.</fw>
+            <lb/>re qu’il eſt. En attendant qu’ils <lb/>viennent, ſongez, ſi vous vou<lb/>lez à
+            chercher dans voſtre teſte <lb/>quelque nouueau détour pour <lb/>vous tirer de cette
+            affaire. A in<lb/>uenter quelque moyen de r’ha<lb/>biller voſtre eſcapade. A
+            trou<lb/>uer quelque belle ruſe pour elu<lb/>der icy les gens &amp; paroiſtre
+            in<lb/>nocente. Quelque pretexte ſpe<lb/>cieux de pelerinage nocturne, <lb/>ou d’amie en
+            trauail d’enfant <lb/>que vous veniez de ſecourir. ANGELIQVE.<lb/>Non, mon intention
+            n’eſt <lb/>pas de vous rien déguiſer. Ie <lb/>ne pretens point me deffen<lb/>dre, ny
+            vous nier les choſes, <lb/>puis que vous les ſçauez. <pb n="130"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f140.image"/>
+            <fw>130 George Dandin,</fw>GEORGE DANDIN.<lb/>C'eſt que vous voyez bien <lb/>que tous
+            les moyens vous en <lb/>ſont fermez, &amp; que dans cet<lb/>te affaire vous ne ſçauriez
+            in<lb/>uenter d’excuſe qu’il ne me <lb/>ſoit facile de conuaincre de <lb/>fauſſeté.
+            ANGELIQVE.<lb/>Ouy. Ie confeſſe que i’ay tort, <lb/>&amp; que vous auez ſuiet de vous
+            <lb/>plaindre. Mais ie vous deman<lb/>de par grace de ne m'expoſer <lb/>point maintenant
+            à la mau<lb/>uaiſe humeur de mes parens, <lb/>&amp; de me faire promptement <lb/>ouurir.
+            GEORGE DANDIN.<lb/>Ie vous baiſe les mains. <pb n="131"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f141.image"/>
+            <fw>Comedie. 131</fw>ANGELIQVE.<lb/>Eh mon pauure petit ma<lb/>ry. Ie vous en coniure.
+            GEORGE DANDIN.<lb/>Ah mon pauure petit ma<lb/>ry? Ie ſuis voſtre petit mary
+            <lb/>maintenant, parce que vous <lb/>vous ſentez priſe. Ie ſuis bien <lb/>aiſe de cela,
+            &amp; vous ne vous <lb/>eſtiez iamais auiſée de me dire <lb/>de ces douceurs.
+            ANGELIQVE.<lb/>Tenez. Ie vous promets de <lb/>ne vous plus donner aucun <lb/>ſuiet de
+            déplaiſir, &amp; de me... GEORGE DANDIN.<lb/>Tout cela n’eſt rien. Ie ne <lb/>veux point
+            perdre cette auan<lb/>ture, &amp; il m’importe qu’on <pb n="132"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f142.image"/>
+            <fw>132 George Dandin,</fw>
+            <lb/>ſoit vne fois éclaircy à fond <lb/>de vos deportemens. ANGELIQVE.<lb/>De grace,
+            laiſſez moy vous <lb/>dire. Ie vous demande vn <lb/>moment d’audience. GEORGE
+            DANDIN<lb/>Hé bien quoy. ANGELIQVE.<lb/>Il eſt vray que i’ay failly, <lb/>ie vous
+            l’auoüe encore vne <lb/>fois: &amp; que voſtre reſſenti<lb/>ment eſt iuſte. Que i’ay
+            pris <lb/>le temps de ſortir pendant <lb/>que vous dormiez, &amp; que <lb/>cette ſortie
+            eſt vn rendez-vous <lb/>que i’auois donné à la perſon<lb/>ne que vous dites. Mais enfin
+            <lb/>ce ſont des actions que vous <lb/>deuez <fw>deuez</fw>
+            <pb n="133" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f143.image"/>
+            <fw>Comedie. 133</fw>
+            <lb/>deuez pardonner à mon âge; <lb/>des emportemens de ieune <lb/>perſonne qui n’a
+            encore rien <lb/>veu, &amp; ne fait que d'entrer <lb/>au monde. Des libertez où
+            <lb/>l'on s’abandonne ſans y pen<lb/>ſer de mal, &amp; qui ſans doute <lb/>dans le fond
+            n’ont rien de GEORGE DANDIN.<lb/>Ouy vous le dites, &amp; ce ſont <lb/>de ces choſes qui
+            ont beſoin <lb/>qu’on les croye pieuſement. ANGELIQVE.<lb/>Ie ne veux point m'excuſer
+            <lb/>par là d’eſtre coupable enuers <lb/>vous, &amp; ie vous prie ſeule<lb/>ment
+            d’oublier vne offenſe, <lb/>dont ie vous demande pardon <lb/>de tout mon cœur; &amp; de m’é<lb/>
+            <fw>M</fw>
+            <pb n="134" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f144.image"/>
+            <fw>George Dandin, 134</fw>
+            <lb/>pargner en cette rencontre le <lb/>déplaiſir que me pourroient <lb/>cauſer les
+            reproches faſcheux <lb/>de mon pere &amp; de ma mere. <lb/>Si vous m’accordez
+            genereu<lb/>ſement la grace que ie vous <lb/>demande; ce procedé obli<lb/>geant, cette
+            bonté que vous <lb/>me ferez voir, me gagnera en<lb/>tierement. Elle touchera tout
+            <lb/>a fait mon cœur, &amp; y fera <lb/>naiſtre pour vous ce que tout <lb/>le pouuoir de
+            mes parens &amp; <lb/>les liens du mariage n’auoient <lb/>pû y ietter. En vn mot, elle
+            <lb/>ſera cauſe que ie renonceray à <lb/>toutes les galanteries, &amp; n’au<lb/>ray de
+            l’attachement que pour <lb/>vous. Ouy, ie vous donne ma <pb n="135"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f145.image"/>
+            <fw>Comedie. 135</fw>
+            <lb/>parole que vous m’allez voir <lb/>deſormais la meilleure femme <lb/>du monde, &amp;
+            que ie vous té<lb/>moigneray tant d’amitié, tant <lb/>d’amitié que vous en ſerez
+            ſa<lb/>tisfait. GEORGE DANDIN.<lb/>Ah! Crocodile qui flate <lb/>les gens pour les
+            étrangler. ANGELIQVE.<lb/>Accordez-moy cette faueur. GEORGE DANDIN.<lb/>Point
+            d’affaires. Ie ſuis ine<lb/>xorable. ANGELIQVE.<lb/>Montrez vous genereux. GEORGE
+            DANDIN.<lb/>Non. ANGELIQVE.<lb/>De grace. <fw>M ij</fw>
+            <pb n="136" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f146.image"/>
+            <fw>George Dandin, 136</fw>GEORGE DANDIN.<lb/>Point. ANGELIQVE.<lb/>Ie vous en coniure
+            de tout <lb/>mon cœur. GEORGE DANDIN.<lb/>Non, non, non. Ie veux qu’on <lb/>ſoit
+            détrompé de vous, &amp; que <lb/>voſtre confuſion éclate. ANGELIQVE.<lb/>Hé bien ſi vous
+            me redui<lb/>ſez au deſeſpoir, ie vous auer<lb/>tis qu'vne femme en cét eſtat <lb/>eſt
+            capable de tout, &amp; que ie <lb/>feray quelque choſe icy dont <lb/>vous vous
+            repentirez. GEORGE DANDIN.<lb/>Et que ferez-vous, s’il vous <lb/>plaiſt. <pb n="137"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f147.image"/>
+            <fw>Comedie. 137</fw>ANGELIQVE.<lb/>Mon cœur ſe portera iuſ<lb/>qu’aux extremes
+            reſolutions, <lb/>&amp; de ce couſteau que voicy <lb/>ie me tueray ſur la place. GEORGE
+            DANDIN.<lb/>Ah! ah! à la bonne heure. ANGELIQVE.<lb/>Pas tant à la bonne heure <lb/>pour
+            vous, que vous vous <lb/>imaginez. On ſçait de tous <lb/>coſtez nos differends, &amp;
+            les <lb/>chagrins perpetuels que vous <lb/>conceuez contre moy. Lors <lb/>qu’on me
+            trouuera morte, il <lb/>n’y aura perſonne qui mette <lb/>en doute que ce ne ſoit vous
+            <lb/>qui m’aurez tuée; &amp; mes pa<lb/>rens ne ſont pas gens aſſeu<lb/>
+            <fw>M iij</fw>
+            <pb n="138" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f148.image"/>
+            <fw>George Dandin, 138</fw>
+            <lb/>rément à laiſſer cette mort <lb/>impunie, &amp; ils en feront ſur <lb/>voſtre
+            perſonne toute la pu<lb/>nition que leur pourront of<lb/>frir, &amp; les pourſuites de
+            la Iu<lb/>ſtice, &amp; la chaleur de leur reſ<lb/>ſentiment. C’eſt par là que ie
+            <lb/>trouueray moyen de me van<lb/>ger de vous, &amp; ie ne ſuis pas <lb/>la premiere
+            qui ait ſceu re<lb/>courir à de pareilles vangean<lb/>ces, qui n’ait pas fait
+            difficul<lb/>té de ſe donner la mort, pour <lb/>perdre ceux qui ont la cruau<lb/>té de
+            nous pouſſer à la der<lb/>niere extremité. GEORGE DANDIN.<lb/>Ie ſuis voſtre valet. On
+            ne <lb/>s’auiſe plus de ſe tuer ſoy-meſ<lb/>
+            <pb n="139" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f149.image"/>
+            <fw>139 Comedie.</fw>
+            <lb/>me, &amp; la mode en eſt paſſée <lb/>il y a long-temps. ANGELIQVE.<lb/>C’eſt vne
+            choſe dont vous <lb/>pouuez vous tenir ſeur, &amp; ſi <lb/>vous perſiſtez dans voſtre
+            re<lb/>fus, ſi vous ne me faites ou<lb/>urir, ie vous iure que tout à <lb/>l’heure ie
+            vais vous faire voir <lb/>iuſques où peut aller la reſo<lb/>lution d’vne perſonne qu’on
+            <lb/>met au deſeſpoir. GEORGE DANDIN.<lb/>Bagatelles, bagatelles. C’eſt <lb/>pour me
+            faire peur. ANGELIQVE.<lb/>Hé bien puis qu’il le faut, <lb/>voicy qui nous contentera
+            tous <lb/>deux, &amp; montrera ſi ie me <fw>M iiij</fw>
+            <pb n="140" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f150.image"/>
+            <fw>140 George Dandin,</fw>
+            <lb/>moque. Ah! c’en eſt fait. Faſ<lb/>ſe le Ciel que ma mort ſoit <lb/>vangée comme ie
+            le ſouhaite, <lb/>&amp; que celuy qui en eſt cauſe, <lb/>reçoiue vn iuſte chaſtiment
+            <lb/>de la dureté qu’il a euë pour <lb/>moy. GEORGE DANDIN.<lb/>Oüais! ſeroit-elle bien
+            ſi <lb/>malicieuſe que de s’eſtre tuée <lb/>pour me faire pendre? Prenons <lb/>vn bout
+            de chandelle pour <lb/>aller voir. ANGELIQVE.<lb/>St. Paix. Rangeons-nous <lb/>chacune
+            immediatement con<lb/>tre vn des coſtez de la porte. GEORGE DANDIN.<lb/>La méchanceté
+            d’vne fem<lb/>
+            <pb n="141" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f151.image"/>
+            <fw>141 Comedie.</fw>
+            <lb/>me iroit-elle bien iuſques là? <lb/>Il ſort auec vn bout de chandelle ſans les
+            apperce<lb/>uoir, elles entrent, auſſi toſt elles ferment la porte. <lb/>Il n’y a
+            perſonne. Eh ie m’en <lb/>eſtois bien douté, &amp; la pen<lb/>darde s’eſt retirée,
+            voyant <lb/>qu’elle ne gagnoit rien apres <lb/>moy, ny par prieres ny par <lb/>menaces.
+            Tant mieux cela ren<lb/>dra ſes affaires encore plus mau<lb/>uaiſes, &amp; le pere &amp;
+            la mere <lb/>qui vont venir en verront <lb/>mieux ſon crime. Ah ah la <lb/>porte s’eſt
+            fermée. Hola ho <lb/>quelqu’vn. Qu’on m’ouure <lb/>promptement. ANGELIQVE.<lb/>A la
+            feneſtre auec Claudine. <lb/>Comment c’eſt toy! d’où <lb/>viens tu bon pendart? eſt-il
+                <pb n="142" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f152.image"/>
+            <fw>142 George Dandin,</fw>
+            <lb/>l’heure de reuenir chez ſoy, <lb/>quand le iour eſt preſt de pa<lb/>roiſtre, &amp;
+            cette maniere de <lb/>vie est-elle celle que doit ſui<lb/>ure vn honneſte mary.
+            CLAVDINE.<lb/>Cela eſt-il beau d’aller yuro<lb/>gner toute la nuit? &amp; de
+            laiſ<lb/>ſer ainſi toute ſeule vne pau<lb/>ure ieune femme dans la mai<lb/>ſon. GEORGE
+            DANDIN.<lb/>Comment vous auez.... ANGELIQVE.<lb/>Va va, traiſtre, ie ſuis laſſe <lb/>de
+            tes déportemens, &amp; ie m’en <lb/>veux plaindre ſans plus tarder <lb/>à mon pere &amp;
+            à ma mere. <pb n="143" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f153.image"/>
+            <fw>Comedie. 143</fw>GEORGE DANDIN.<lb/>Quoy c’eſt ainſi que vous <lb/>oſez. SCENE
+            VII.Mr ET Me DE SOTENVILLE, CO<lb/> LIN, CLAVDINE, ANGELIQVE, GEORGE DANDIN.ANGELIQVE.Mr
+            &amp; Me de Sotenuille ſont en des habits de nuit <lb/>&amp; conduits par Colin, qui
+            porte vne lanterne.<lb/>AProchez de grace, &amp; <lb/>venez me faire raiſon de
+            <lb/>l'inſolence la plus grande du <lb/>monde, d’vn mary à qui le vin <lb/>&amp; la
+            ialouſie ont troublé de <pb n="144"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f154.image"/>
+            <fw>George Dandin, 144</fw>
+            <lb/>telle ſorte la ceruelle, qu'i <lb/>ne ſçait plus ny ce qu’il dit, <lb/>ny ce qu’il
+            fait, &amp; vous a luy- <lb/>meſme enuoyé querir pour <lb/>vous faire témoin de
+            l’extra<lb/>uagance la plus étrange dont <lb/>on ait iamais ouy parler. Le <lb/>voila
+            qui reuient comme vous <lb/>voyez, apres s’eſtre fait atten<lb/>dre toute la nuit, &amp;
+            ſi vous <lb/>voulez l’écouter, il vous dira <lb/>qu’il a les plus grandes plain<lb/>tes
+            du monde à vous faire de <lb/>moy; que durant qu’il dor<lb/>moit, ie me ſuis derobée
+            d’au<lb/>prés de luy pour m’en aller <lb/>courir, &amp; cent autres contes de <lb/>meſme
+            nature qu’il eſt allé reſ<lb/>ver. <fw>GEOR</fw>
+            <pb n="145" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f155.image"/>
+            <fw>Comedie. <choice>
+                    <sic>147</sic>
+                    <corr>145</corr>
+                </choice>
+            </fw>GEORGE DANDIN.<lb/>Voila vne méchante carogne. CLAVDINE.<lb/>Oüy, il nous a voulu
+            faire accroi<lb/>re qu’il eſtoit dans la maiſon, &amp; que <lb/>nous en eſtions dehors,
+            &amp; c’eſt vne <lb/>folie qu’il n’y a pas moyen de luy <lb/>oſter de la teſte. Mr DE
+            SOTENVILLE.<lb/>Comment, qu’eſt-ce à dire cela? Mr DE SOTENVILLE.<lb/>Voila vne furieuſe
+            impudence <lb/>que de nous envoyer querir. GEORGE DANDIN.<lb/>Iamais.
+            ANGELIQUE.<lb/>Non, mon pere, ie ne puis plus <lb/>ſouffrir vn mary de la ſorte. Ma
+            pa<lb/>tience eſt pouſſée à bout, &amp; il vient <lb/>de me dire cent paroles
+            iniurieuſes. Mr DE SOTENVILLE.<lb/>Corbleu vous eſtes vn mal hon<lb/>neſte homme.
+                <fw>N</fw>
+            <pb n="146" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f156.image"/>
+            <fw>George Dandin, <choice>
+                    <sic>148</sic>
+                    <corr>146</corr>
+                </choice>
+            </fw>
+            <lb/>C’eſt vne conſcience de voir vne <lb/>pauure ieune femme traittée de la <lb/>façon,
+            &amp; cela crie vengeance au <lb/>Ciel. GEORGE DANDIN.<lb/>Peut-on.... Mr DE
+            SOTENVILLE.<lb/>Allez, vous deuriez mourir de <lb/>honte. GEORGE DANDIN.<lb/>Laiſſez moy
+            vous dire deux mots. ANGELIQVE.<lb/>Vous n’auez qu’à l'ecouter, il va <lb/>vous en
+            conter de belles. GEORGE DANDIN.<lb/>Ie deſeſpere. CLAVDINE<lb/>Il a tant beu, que ie ne
+            penſe pas <lb/>qu’on puiſſe durer contre luy, &amp; l’o<lb/>deur du vin qu’il ſouffle
+            eſt montée <lb/>iuſqu’à nous. GEORGE DANDIN.<lb/>Monſieur mon beau pere, ie vous
+            <lb/>coniure... <pb n="147"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f157.image"/>
+            <fw>Comedie. <choice>
+                    <sic>149</sic>
+                    <corr>147</corr>
+                </choice>
+            </fw>Mr DE SOTENVLLE.<lb/>Retirez-vous. Vous puez le vin à <lb/>pleine bouche. GEORGE
+            DANDIN.<lb/>Madame, ie vous prie... Mr DE SOTENVILLE.<lb/>Fy ne m’approchez pas. Voſtre
+            <lb/>haleine eſt empeſtée. GEORGE DANDIN.<lb/>Souffrez que ie vous... Mr DE
+            SOTENVILLE.<lb/>Retirez-vous, vous dis-je. On ne <lb/>peut vous ſouffrir. GEORGE
+            DANDIN.<lb/>Permettez de grace que. Mr DE SOTENVILLE.<lb/>Poüas, vous m’engloutiſſez le
+            <lb/>cœur. Parlez de loin, ſi vous voulez. GEORGE DANDIN.<lb/>Hé bien ouy, ie parle de
+            loin. Ie <lb/>vous iure que ie n’ay bougé de chez <lb/>moy, &amp; que c’eſt elle qui eſt
+            ſortie. ANGELIQVE.<lb/>Ne voila pas ce que ie vous ay dit. <fw>N ii</fw>
+            <pb n="148" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f158.image"/>
+            <fw>George Dandin, <choice>
+                    <sic>150</sic>
+                    <corr>148</corr>
+                </choice>
+            </fw>CLAVDINE.<lb/>Vous voyez quelle apparence il y a. Mr DE SOTENVILLE.<lb/>Allez. Vous
+            vous mocquez des <lb/>gens. Deſcendez, ma fille, &amp; venez <lb/>icy. GEORGE
+            DANDIN.<lb/>I’ateſte le Ciel, que i’eſtois dans la <lb/>maiſon, &amp; que... Mr DE
+            SOTENVILLE.<lb/>Taiſez vous, c’eſt vne extrauagan<lb/>ce qui n'eſt pas ſuportable.
+            GEORGE DANDIN.<lb/>Que la foudre m’écraſe tout à <lb/>l’heure, ſi... Mr DE
+            SOTENVILLE.<lb/>Ne nous rompez pas dauantage la <lb/>teſte &amp; ſongez à demander
+            pardon <lb/>à voſtre femme GEORGE DANDIN.<lb/>Moy demander pardon. Mr DE
+            SOTENVLLE.<lb/>Ouy pardon, &amp; ſur le champ. GEORGE DANDIN.<lb/>Quoy ie.... <pb
+                n="149" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f161.image"/>
+            <fw>
+                <choice>
+                    <sic>151</sic>
+                    <corr>149</corr>
+                </choice> Comedie.</fw>Mr DE SOTENVILLE.<lb/>Corbleu ſi vous me repliquez. Ie
+            <lb/>vous apprendray ce que c'eſt que <lb/>de vous ioüer à nous. GEORGE DANDIN.<lb/>Ah
+            George Dandin. Mr DE SOTENVILLE.<lb/>Allons, venez ma fille, que voſtre <lb/>mary vous
+            demande pardon. ANGELIQVE. Deſcenduë <lb/>Moy? luy pardonner tout ce qu’il <lb/>m’a dit?
+            Non, non mon pere, il m’eſt <lb/>impoſſible de m'y reſoudre, &amp; ie vous <lb/>prie de
+            me ſeparer d’vn mary auec <lb/>lequel ie ne ſçaurois plus viure. CLAVDINE.<lb/>Le moyen
+            d’y reſiſter. Mr DE SOTENVILLE.<lb/>Ma ſille, de ſemblables ſeparations <lb/>ne ſe font
+            point ſans grand ſcandale, <lb/>&amp; vous deuez vous montrer plus ſa<lb/>ge que luy,
+            &amp; patienter encore cet<lb/>te fois. <fw>N iij</fw>
+            <pb n="150" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f160.image"/>
+            <fw>George Dandin, <choice>
+                    <sic>152</sic>
+                    <corr>150</corr>
+                </choice>
+            </fw>ANGELIQVE.<lb/>Comment patienter apres de telles <lb/>indignitez? non, mon pere,
+            c’eſt vne <lb/>choſe où ie ne puis conſentir. Mr DE SOTENVILLE.<lb/>Il le faut, ma
+            fille, &amp; c’eſt moy <lb/>qui vous le commande. ANGELIQVE.<lb/>Ce mot me ferme la
+            bouche, &amp; vous a<lb/>uez ſur moy vne puiſſance abſoluë. CLAVDINE.<lb/>Quelle
+            douceur. ANGELIQVE.<lb/>Il eſt faſcheux d’eſtre contrainte d’ou<lb/>blier de telles
+            iniures, mais quelle violen<lb/>ce que ie me faſſe, c’eſt à moy de vous o<lb/>beïr.
+            CLAVDINE.<lb/>Pauure mouton. Mr DE SOTENVILLE.<lb/>Approchez. ANGELIQVE.<lb/>Tout ce que
+            vous me faites faire ne ſer<lb/>uira de rien, &amp; vous verrez que ce ſera dés
+            <lb/>demain à recommencer. Mr DE SOTENVILLE.<lb/>Nous y donnerons ordre. Allons, met<lb/>
+            <pb n="151" facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f161.image"/>
+            <fw>Comedie. <choice>
+                    <sic>153</sic>
+                    <corr>151</corr>
+                </choice>
+            </fw>
+            <lb/>tez vous à genoux. GEORGE DANDIN.<lb/>A genoux. Mr DE SOTENVILLE.<lb/>Ouy à genoux,
+            &amp; ſans tarder. GEORGE DANDIN. &gt;Il ſe met à genoux. <lb/>O Ciel! Que faut-il dire?
+            Mr DE SOTENVILLE.<lb/>Madame, ie vous prie de me pardonner. GEORGE DANDIN.<lb/>Madame,
+            ie vous prie de me pardonner. Mr DE SOTENVILLE.<lb/>L’extrauagance que i’ay faite.
+            GEORGE DANDIN.<lb/>L’extrauagance que i’ay faite. <lb/>A part. <lb/>De vous épouſer. Mr
+            DE SOTENVILLE.<lb/>Et ie vous promets de mieux viure à l’a<lb/>uenir. GEORGE
+            DANDIN.<lb/>Et ie vous promets de mieux viure à l’a<lb/>uenir. Mr DE
+            SOTENVILLE.<lb/>Prenez-y garde, &amp; ſçachez que c’eſt icy <lb/>la derniere de vos
+            impertinences que nous <lb/>ſouffrirons. <pb n="152"
+                facs="https://gallica.bnf.fr/ark:/12148/btv1b8610793w/f102.image"/>
+            <fw>George Dandin, <choice>
+                    <sic>155</sic>
+                    <corr>152</corr>
+                </choice>
+            </fw>Mr DE SOTENVILLE.<lb/>Iour de Dieu, ſi vous y retournez, on <lb/>vous apprendra le
+            reſpect que vous de<lb/>uez à voſtre femme; &amp; à ceux de qui elle <lb/>ſort. Mr DE
+            SOTENVILLE.<lb/>Voila le iour qui va paroiſtre. Adieu. <lb/>Rentrez chez vous, &amp;
+            ſongez bien à eſtre <lb/>sage. Et nous, mamour, allons nous met<lb/>tre au lit. SCENE
+            VIII.GEORGE DANDIN.<lb/>AH! ie le quitte maintenant, &amp; ie n’y <lb/>voy plus de
+            remede, lors qu’on a <lb/>comme moy épouſé vne méchante fem<lb/>me, le meilleur party
+            qu’on puiſſe pren<lb/>dre, c’eſt de s’aller ietter dans l’eau la teſte <lb/>la premiere.
+            FIN.</p>
+    </body>
+</text>

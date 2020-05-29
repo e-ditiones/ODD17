@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<teiHeader  xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
    <fileDesc>
       <titleStmt>
          <title type="main">Deuxiesme partie des Contes et nouvelles en vers</title>
@@ -38,7 +38,7 @@
       </sourceDesc>
    </fileDesc>
    <revisionDesc>
-      <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding according to the new ODD</change>
+      <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding
+         according to the new ODD</change>
    </revisionDesc>
 </teiHeader>
-

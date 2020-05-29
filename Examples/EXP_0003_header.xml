@@ -4,36 +4,24 @@
 <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
         <titleStmt>
-            <title>La Comédie des académistes</title>
-            <author>Saint-Évremond</author>
-            <editor>Simon Gabay</editor>
+            <title type="main">La Comédie des académistes</title>
+            <title type="sub">E-Ditiones</title>
+            <author ref="isni:0000000118337670">Sorel, Charles</author>
+            <author ref="isni:0000000356744298">Saint-Évremond</author>
+            <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
-        <extent>
-            <measure></measure>
-        </extent>
-        <editionStmt>
-            <edition>
-                <date>05/05/2020</date>
-            </edition>
-            <respStmt>
-                <resp>Encodeur</resp>
-                <persName>Simon Gabay</persName>
-            </respStmt>
-        </editionStmt>
-        <extent></extent>
         <publicationStmt>
-            <authority>E-Ditiones project</authority>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
             <availability status="restricted" n="cc-by">
-                <licence target="https://creativecommons.org/licenses/by/4.0">
-                    <p>Attribution 4.0 International (CC BY 4.0)</p>
-                </licence>
+                <licence target="https://creativecommons.org/licenses/by/4.0"/>
             </availability>
         </publicationStmt>
         <sourceDesc>
             <bibl>
-                <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k1524645t"/>
-                <publisher> gallica.bnf.fr / Bibliothèque nationale de France</publisher>
-                <author>Sorel, Charles (1582?-1674)</author>
+                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1524645t"/>
+                <author ref="isni:0000000118337670">Sorel, Charles</author>
+                <author ref="isni:0000000356744298">Saint-Évremond</author>
                 <title>La Comédie des académistes pour la réformation de la langue françoise , pièce
                     comique avec le roole des présentations, faites aux grands jours de ladite
                     Académie </title>

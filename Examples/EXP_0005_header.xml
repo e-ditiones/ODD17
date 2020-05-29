@@ -3,23 +3,22 @@
 <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
    <fileDesc>
       <titleStmt>
-         <title>Ode</title>
-         <author>Tristan L'Hermite</author>
-         <editor>Simon Gabay</editor>
+         <title type="main">Ode</title>
+         <title type="sub">E-Ditiones</title>
+         <author ref="isni:0000000120310178">Tristan L'Hermite</author>
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
       </titleStmt>
       <publicationStmt>
-         <authority>E-Ditiones project</authority>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
          <availability status="restricted" n="cc-by">
-            <licence target="https://creativecommons.org/licenses/by/4.0">
-               <p>Attribution 4.0 International (CC BY 4.0)</p>
-            </licence>
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
          </availability>
       </publicationStmt>
       <sourceDesc>
          <bibl>
-            <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k15110763"/>
-            <publisher>gallica.bnf.fr / Bibliothèque nationale de France</publisher>
-            <author>Tristan L'Hermite (1601-1655)</author>
+            <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k15110763"/>
+            <author ref="isni:0000000120310178">L'Hermite, Tristan</author>
             <title>Ode</title>
             <date when="1641">1641</date>
          </bibl>

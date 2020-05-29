@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<text  xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0013">
    <front>
       <div type="titlePage">
          <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f9"/>
          <p>
-            <lb/>DEVXIESME PARTIE
-            <lb/>DES
-            <lb/>CONTES
-            <lb/>ET NOVVELLES
-            <lb/>ENVERS
-            <lb/>De M. DE LA FONTAINE.
-            <lb/>A PARIS,
-            <lb/>Chez CLAVDE BARBIN, au Palais,
-            <lb/>ſur le ſecond Perron de la Ste Chapelle.
-            <lb/>M. DC. XLVI.
-         </p>
+            <lb/>DEVXIESME PARTIE <lb/>DES <lb/>CONTES <lb/>ET NOVVELLES <lb/>ENVERS <lb/>De M. DE
+            LA FONTAINE. <lb/>A PARIS, <lb/>Chez CLAVDE BARBIN, au Palais, <lb/>ſur le ſecond Perron
+            de la Ste Chapelle. <lb/>M. DC. XLVI. </p>
          <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f10"/>
          <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f11"/>
       </div>
@@ -25,166 +17,127 @@
       <div type="liminal">
          <head><lb/>PREFACE</head>
          <p>
-            <lb/>OICY les derniers ou¬<lb break="no"/>urages de cette nature
-            <lb/>qui partiront des mains
-            <lb/>de l'Auteur; &amp; par con¬<lb break="no"/>ſequent la derniere occaſion de iu¬<lb break="no"/>ſtifier ſes hardieſſes;, &amp; les licences
-            <lb/>qu'il s'eſt données. Nous ne parlons
-            <lb/>point desmauuaiſes rimes, des vers
-            <lb/>qui eniambent, des deux voyelles
-            <lb/>ſans eliſion; ny en general de ces
-            <lb/>ſortes de negligences qu’il ne ſe par¬<lb break="no"/>donneroit pas luy-meſme en vn au¬<lb break="no"/>tre genre de Poëſie; mais qui ſont
-            <lb/>inſeparables, pour ainſi dire, de ce¬<lb break="no"/>luy-cy. Le trop grand ſoin de les:
-            <lb/>euiter ietteroit vn faiſeur de contess
-            <fw><lb/>ã ij
-               <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f12"/>
+            <lb/>OICY les derniers ou¬<lb break="no"/>urages de cette nature <lb/>qui partiront des
+            mains <lb/>de l'Auteur; &amp; par con¬<lb break="no"/>ſequent la derniere occaſion de
+               iu¬<lb break="no"/>ſtifier ſes hardieſſes;, &amp; les licences <lb/>qu'il s'eſt
+            données. Nous ne parlons <lb/>point desmauuaiſes rimes, des vers <lb/>qui eniambent, des
+            deux voyelles <lb/>ſans eliſion; ny en general de ces <lb/>ſortes de negligences qu’il
+            ne ſe par¬<lb break="no"/>donneroit pas luy-meſme en vn au¬<lb break="no"/>tre genre de
+            Poëſie; mais qui ſont <lb/>inſeparables, pour ainſi dire, de ce¬<lb break="no"/>luy-cy.
+            Le trop grand ſoin de les: <lb/>euiter ietteroit vn faiſeur de contess <fw><lb/>ã ij <pb
+                  n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f12"/>
                <lb/>4 PREFACE.</fw>
-            <lb/>en de longs détours, en des recits außi
-            <lb/>froids que beaux, en des contrain¬<lb break="no"/>tes fort inutiles; &amp; luy feroit ne¬<lb break="no"/>gliger lé plaiſir du cœur pour trã¬<lb break="no"/>uailler-à la ſatisfaction de l’oreille.
-            <lb/>Il faut laiſſer les narrations eſtu¬<lb break="no"/>diées pour les grands ſuiets, &amp; ne
-            <lb/>pas faire vn Poëme Epique des auan¬<lb break="no"/>tures de Renaud d'Aſt. Quand celuy
-            <lb/>qui a rimé ces nouuelles y auroit
-            <lb/>apporté tout le ſoin &amp; l'exactitude
-            <lb/>qu’on luy demande; outre que ce ſoin
-            <lb/>s’y remarqueroit d’autant plus qu’il
-            <lb/>y eſt moins neceſſaire, &amp; que celà
-            <lb/>contreuient aux preceptes de Quin¬<lb break="no"/>tilien; encore l'Autheur n'auroit-il
-            <lb/>pas ſatisfait au principal poinct, qui
-            <lb/>eſt d'atacher le Lecteur, de le réioüir,
-            <lb/>d’attirer mal gré luy ſon attention,
-            <lb/>de luy plaire enfin. Car c'omme
-            <lb/>l'on ſçait, le ſecret de plaire ne con¬<lb break="no"/>ſiſte pas touſiours en l'aiuſtement;
-            <lb/>ny meſme en la regulari té: Il faut
-            <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f13"/>
+            <lb/>en de longs détours, en des recits außi <lb/>froids que beaux, en des contrain¬<lb
+               break="no"/>tes fort inutiles; &amp; luy feroit ne¬<lb break="no"/>gliger lé plaiſir
+            du cœur pour trã¬<lb break="no"/>uailler-à la ſatisfaction de l’oreille. <lb/>Il faut
+            laiſſer les narrations eſtu¬<lb break="no"/>diées pour les grands ſuiets, &amp; ne
+            <lb/>pas faire vn Poëme Epique des auan¬<lb break="no"/>tures de Renaud d'Aſt. Quand
+            celuy <lb/>qui a rimé ces nouuelles y auroit <lb/>apporté tout le ſoin &amp;
+            l'exactitude <lb/>qu’on luy demande; outre que ce ſoin <lb/>s’y remarqueroit d’autant
+            plus qu’il <lb/>y eſt moins neceſſaire, &amp; que celà <lb/>contreuient aux preceptes de
+               Quin¬<lb break="no"/>tilien; encore l'Autheur n'auroit-il <lb/>pas ſatisfait au
+            principal poinct, qui <lb/>eſt d'atacher le Lecteur, de le réioüir, <lb/>d’attirer mal
+            gré luy ſon attention, <lb/>de luy plaire enfin. Car c'omme <lb/>l'on ſçait, le ſecret
+            de plaire ne con¬<lb break="no"/>ſiſte pas touſiours en l'aiuſtement; <lb/>ny meſme en
+            la regulari té: Il faut <pb n=""
+               facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f13"/>
             <fw><lb/>PREFACE. 5</fw>
-            <lb/>du piquant &amp; de l'agreable, ſi l’on
-            <lb/>veut toucher: combien voyons nous
-            <lb/>de ces beautez regulieres qui ne
-            <lb/>touchent point, &amp; dont perſonne
-            <lb/>n'eſt amoureux? nous ne voulons pas
-            <lb/>oſter aux modernes la loümge qu’ils
-            <lb/>ont meritée. Le beau tour de vers,
-            <lb/>le beau langage, la iuſteſſe, les bon¬<lb break="no"/>nes rimes ſont des perfections en
-            <lb/>vn Poëte; cependant que l'on conſi¬<lb break="no"/>dere quelques-vnes de nos Epigram¬<lb break="no"/>mes ou tout cela ſe rencontre; peut¬<lb break="no"/>eſtre y trouuera-t-on beaucoup moins
-            <lb/>de ſel, i'oſerois dire encore, bien
-            <lb/>moins de grace, qu'en celles de Ma¬<lb break="no"/>rot &amp; de Saint Gélais; quoy que
-            <lb/>les ouurages de ces derniers ſoient
-            <lb/>preſque tout pleins de ces meſmes
-            <lb/>fautes qu'on nous impute. On dira
-            <lb/>que ce n'eſtoient pas des fautes en
-            <lb/>leur ſiécle, &amp; que c'en ſont de tres-
-            <lb/>grandes au noſtré. A cela nous re¬<lb break="no"/>pondons par vn meſme raiſonne¬<lb break="no"/>
-            <fw><lb/>ã iij
-               <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f14"/>
+            <lb/>du piquant &amp; de l'agreable, ſi l’on <lb/>veut toucher: combien voyons nous
+            <lb/>de ces beautez regulieres qui ne <lb/>touchent point, &amp; dont perſonne
+            <lb/>n'eſt amoureux? nous ne voulons pas <lb/>oſter aux modernes la loümge qu’ils
+            <lb/>ont meritée. Le beau tour de vers, <lb/>le beau langage, la iuſteſſe, les bon¬<lb
+               break="no"/>nes rimes ſont des perfections en <lb/>vn Poëte; cependant que l'on
+               conſi¬<lb break="no"/>dere quelques-vnes de nos Epigram¬<lb break="no"/>mes ou tout
+            cela ſe rencontre; peut¬<lb break="no"/>eſtre y trouuera-t-on beaucoup moins <lb/>de
+            ſel, i'oſerois dire encore, bien <lb/>moins de grace, qu'en celles de Ma¬<lb break="no"
+            />rot &amp; de Saint Gélais; quoy que <lb/>les ouurages de ces derniers ſoient
+            <lb/>preſque tout pleins de ces meſmes <lb/>fautes qu'on nous impute. On dira <lb/>que
+            ce n'eſtoient pas des fautes en <lb/>leur ſiécle, &amp; que c'en ſont de tres-
+            <lb/>grandes au noſtré. A cela nous re¬<lb break="no"/>pondons par vn meſme raiſonne¬<lb
+               break="no"/>
+            <fw><lb/>ã iij <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f14"/>
                <lb/>6 PREFACE.</fw>
-            <lb/>ment, &amp; diſons, comme nous auonss
-            <lb/>deſia dit, que cen ſeroient en effet
-            <lb/>dans vn autre genre de Poëſie, mais
-            <lb/>que ce n'en ſont point dans celuy-cy.
-            <lb/>Feu Monſieur de Voiture en eſt le
-            <lb/>garend. Il ne faut que lire ceux de ſes
-            <lb/>ouurages où il fait reuiure le cara¬<lb break="no"/>ctere de Marot. Car noſtre Au¬<lb break="no"/>theur ne pretend pas que la gloire
-            <lb/>luy en ſoit deue, ny qu'il ayt meri¬<lb break="no"/>te non plus de grands applaudiſſe¬<lb break="no"/>mens du public pour auoir rime quel¬<lb break="no"/>ques contes. Il s'eſt veritablement
-            <lb/>engage dans vne carriere toute nou¬<lb break="no"/>uelle, &amp; l’a fournié le mieux qu’il
-            <lb/>a pus prenant tantoſt vn chemin,
-            <lb/>tantoſt l’autre; &amp; marchant tou¬<lb break="no"/>iours plus aſſeurément quand il a
-            <lb/>ſuiuy la maniere de nos vieux Poë¬<lb break="no"/>tes, Quorum in hac re imitari.
-            <lb/>neglegentiam exoptat, potius
-            <lb/>quam iſtorum diligentiam. Mais
-            <lb/>en diſant que nous voulions paſſer
-            <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f15"/>
+            <lb/>ment, &amp; diſons, comme nous auonss <lb/>deſia dit, que cen ſeroient en effet
+            <lb/>dans vn autre genre de Poëſie, mais <lb/>que ce n'en ſont point dans celuy-cy.
+            <lb/>Feu Monſieur de Voiture en eſt le <lb/>garend. Il ne faut que lire ceux de ſes
+            <lb/>ouurages où il fait reuiure le cara¬<lb break="no"/>ctere de Marot. Car noſtre
+               Au¬<lb break="no"/>theur ne pretend pas que la gloire <lb/>luy en ſoit deue, ny qu'il
+            ayt meri¬<lb break="no"/>te non plus de grands applaudiſſe¬<lb break="no"/>mens du
+            public pour auoir rime quel¬<lb break="no"/>ques contes. Il s'eſt veritablement
+            <lb/>engage dans vne carriere toute nou¬<lb break="no"/>uelle, &amp; l’a fournié le
+            mieux qu’il <lb/>a pus prenant tantoſt vn chemin, <lb/>tantoſt l’autre; &amp; marchant
+               tou¬<lb break="no"/>iours plus aſſeurément quand il a <lb/>ſuiuy la maniere de nos
+            vieux Poë¬<lb break="no"/>tes, Quorum in hac re imitari. <lb/>neglegentiam exoptat,
+            potius <lb/>quam iſtorum diligentiam. Mais <lb/>en diſant que nous voulions paſſer <pb
+               n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f15"/>
             <fw><lb/>PREFACE. 7</fw>
-            <lb/>ce poinct-là, nous nou ſommes in¬<lb break="no"/>ſenſiblemẽt engagés à l'examiner: &amp;
-            <lb/>poßible n'a-ce pas eſté inutilement;
-            <lb/>car il n’y a rien qui reſſemble mieux
-            <lb/>à des fautes que ces licences. Ve¬<lb break="no"/>nons à la liberte que l'Auteur ſe
-            <lb/>donné de tailler dans le bien d’au¬<lb break="no"/>truy ainſisque dans le ſien propre,
-            <lb/>ſans qu’il en excepte les nouuelles
-            <lb/>meſme les plus connuës, ne s’en
-            <lb/>trouuant point d'inuiolable pour luy.
-            <lb/>Il retranche, il amplifie, il change
-            <lb/>les incidens &amp; les circonſtances
-            <lb/>quelquefois le principal euenement
-            <lb/>&amp; la ſuite: enfin ce n'eſt plus la
-            <lb/>meſme choſe; c'est proprement vne
-            <lb/>nouuelle nouuelle; &amp; celuy qui l’a¬<lb break="no"/>inuentée auroit bien de la peine à
-            <lb/>reconnoiſtre ſon propre ouurage.
-            <lb/>Non ſic decet contaminari fa¬<lb break="no"/>bulas, diront les Critiques. Et com¬<lb break="no"/>ment ne le diroient-ils pas? ils ont
-            <lb/>bien fait le meſme reproche à Te¬<lb break="no"/>
+            <lb/>ce poinct-là, nous nou ſommes in¬<lb break="no"/>ſenſiblemẽt engagés à l'examiner:
+            &amp; <lb/>poßible n'a-ce pas eſté inutilement; <lb/>car il n’y a rien qui reſſemble
+            mieux <lb/>à des fautes que ces licences. Ve¬<lb break="no"/>nons à la liberte que
+            l'Auteur ſe <lb/>donné de tailler dans le bien d’au¬<lb break="no"/>truy ainſisque dans
+            le ſien propre, <lb/>ſans qu’il en excepte les nouuelles <lb/>meſme les plus connuës, ne
+            s’en <lb/>trouuant point d'inuiolable pour luy. <lb/>Il retranche, il amplifie, il
+            change <lb/>les incidens &amp; les circonſtances <lb/>quelquefois le principal euenement
+            <lb/>&amp; la ſuite: enfin ce n'eſt plus la <lb/>meſme choſe; c'est proprement vne
+            <lb/>nouuelle nouuelle; &amp; celuy qui l’a¬<lb break="no"/>inuentée auroit bien de la
+            peine à <lb/>reconnoiſtre ſon propre ouurage. <lb/>Non ſic decet contaminari fa¬<lb
+               break="no"/>bulas, diront les Critiques. Et com¬<lb break="no"/>ment ne le
+            diroient-ils pas? ils ont <lb/>bien fait le meſme reproche à Te¬<lb break="no"/>
             <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f16"/>
             <fw><lb/>8 PREFACE.</fw>
-            <lb/>rence; mais Terence s'eſt moqué
-            <lb/>d’eux; &amp; à prétendu auoir droit
-            <lb/>d'en vſer ainſi. Il a meſté du ſien
-            <lb/>parmy les ſuiets qu’il a tirez de
-            <lb/>Menandre, eomme Sophocle &amp; Eu¬<lb break="no"/>ripide ont meſlé du leur parmy ceux
-            <lb/>qu’ils ont tirez des Eſcriuains qui
-            <lb/>les precedoient, n'epargnant hiſtoire
-            <lb/>ny fable où il s'agiſſoit de la bien¬<lb break="no"/>ſeance &amp; des regles du Dramati¬<lb break="no"/>que. Ce priuilege ceſſera-t-il à l'é¬<lb break="no"/>gard des contes faits a plaiſir?
-            <lb/>faudra-t-il auoir d’oreſnauant plus
-            <lb/>de reſpect, &amp; plus de Religion, s’il
-            <lb/>eſt permis d'ainſi dire, pour le men¬<lb break="no"/>ſonge, que les anciens n'en ont eu
-            <lb/>pour la verité? Iamais ce qu'on
-            <lb/>appelle vn bon conte ne paſſe d’vne
-            <lb/>main à l’autre ſans receuoir quelque
-            <lb/>nouuel embellißement. D’ou vient
-            <lb/>donc, ncus pourra-t’on dire, qu'en
-            <lb/>beau coup d'endrois l'Auteur retrâché:
-            <lb/>au lieu d'encherir? nous en demeus¬<lb break="no"/>
+            <lb/>rence; mais Terence s'eſt moqué <lb/>d’eux; &amp; à prétendu auoir droit <lb/>d'en
+            vſer ainſi. Il a meſté du ſien <lb/>parmy les ſuiets qu’il a tirez de <lb/>Menandre,
+            eomme Sophocle &amp; Eu¬<lb break="no"/>ripide ont meſlé du leur parmy ceux <lb/>qu’ils
+            ont tirez des Eſcriuains qui <lb/>les precedoient, n'epargnant hiſtoire <lb/>ny fable où
+            il s'agiſſoit de la bien¬<lb break="no"/>ſeance &amp; des regles du Dramati¬<lb
+               break="no"/>que. Ce priuilege ceſſera-t-il à l'é¬<lb break="no"/>gard des contes
+            faits a plaiſir? <lb/>faudra-t-il auoir d’oreſnauant plus <lb/>de reſpect, &amp; plus de
+            Religion, s’il <lb/>eſt permis d'ainſi dire, pour le men¬<lb break="no"/>ſonge, que les
+            anciens n'en ont eu <lb/>pour la verité? Iamais ce qu'on <lb/>appelle vn bon conte ne
+            paſſe d’vne <lb/>main à l’autre ſans receuoir quelque <lb/>nouuel embellißement. D’ou
+            vient <lb/>donc, ncus pourra-t’on dire, qu'en <lb/>beau coup d'endrois l'Auteur
+            retrâché: <lb/>au lieu d'encherir? nous en demeus¬<lb break="no"/>
             <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f17"/>
             <fw><lb/>PREFACE. 9</fw>
-            <lb/>vons d’accord; &amp; il le fait pour euiter
-            <lb/>la longueur où l'obſcurité, deu de¬<lb break="no"/>fauts intolerables dans ces matieres,
-            <lb/>le dernier ſur tout: car ſi la clarte eſt
-            <lb/>recomandable en tous les ouurages de
-            <lb/>l'eſprit, on peut dire qu'elle eſt neceſ¬<lb break="no"/>ſaire dans les recits, ou vne choſe,
-            <lb/>la pluſpart du temps, eſt la ſuite
-            <lb/>la dépendance d'vne autre, ou le
-            <lb/>moindre fonde quelquefois le plus
-            <lb/>important; en ſorté que ſi le fil vient
-            <lb/>vne fois à ſe rompre, il eſt impoſ¬<lb break="no"/>ſible au Lecleur de le renoüer. D'ail¬<lb break="no"/>leurs, comme les narrations en veys
-            <lb/>ſont tres-malaiſées, il ſe faut char.
-            <lb/>ger de circonſtances le moins qu’on
-            <lb/>peut. Par ce moyen vous vous ſou¬<lb break="no"/>lagez vous-meſme, &amp; vous ſoula¬<lb break="no"/>gez außi le Lecteur à qui l'on ne
-            <lb/>ſçauroit manquerd’appreſter des plai¬<lb break="no"/>ſirs ſans peine. Que ſi l'Auteur à
-            <lb/>change quelques incidens, &amp; meſ¬<lb break="no"/>me quelque cataſtrophe; ce qui pre¬<lb break="no"/>
+            <lb/>vons d’accord; &amp; il le fait pour euiter <lb/>la longueur où l'obſcurité, deu
+               de¬<lb break="no"/>fauts intolerables dans ces matieres, <lb/>le dernier ſur tout:
+            car ſi la clarte eſt <lb/>recomandable en tous les ouurages de <lb/>l'eſprit, on peut
+            dire qu'elle eſt neceſ¬<lb break="no"/>ſaire dans les recits, ou vne choſe, <lb/>la
+            pluſpart du temps, eſt la ſuite <lb/>la dépendance d'vne autre, ou le <lb/>moindre fonde
+            quelquefois le plus <lb/>important; en ſorté que ſi le fil vient <lb/>vne fois à ſe
+            rompre, il eſt impoſ¬<lb break="no"/>ſible au Lecleur de le renoüer. D'ail¬<lb
+               break="no"/>leurs, comme les narrations en veys <lb/>ſont tres-malaiſées, il ſe faut
+            char. <lb/>ger de circonſtances le moins qu’on <lb/>peut. Par ce moyen vous vous ſou¬<lb
+               break="no"/>lagez vous-meſme, &amp; vous ſoula¬<lb break="no"/>gez außi le Lecteur à
+            qui l'on ne <lb/>ſçauroit manquerd’appreſter des plai¬<lb break="no"/>ſirs ſans peine.
+            Que ſi l'Auteur à <lb/>change quelques incidens, &amp; meſ¬<lb break="no"/>me quelque
+            cataſtrophe; ce qui pre¬<lb break="no"/>
             <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f18"/>
             <fw><lb/>10 PREFACE,</fw>
-            <lb/>paroit cette cataſtrophe &amp; la neceſ¬<lb break="no"/>ſité de la rendre heureuſe l’y ont
-            <lb/>contraint. Il a cru que dans ces
-            <lb/>ſortes de contes chacun deuoit eſtre
-            <lb/>content à la fin: cela plaiſt tou¬<lb break="no"/>iours au Lecteur; à moins qu'on ne
-            <lb/>luy ayt rendu les perſonnes trop
-            <lb/>odieuſes: mais il n'en faut point
-            <lb/>venir là ſi l'on peut, ny faire ri¬<lb break="no"/>re &amp; pleurer dans vne meſme nou¬<lb break="no"/>uelle. Cette bigarrure déplaiſt ià
-            <lb/>Horace ſur toutes choſes: il ne
-            <lb/>veut pas que nos compoſitions reſ¬<lb break="no"/>ſemblent aux croteſques, &amp; que
-            <lb/>nous faßions vn ouurage moitte
-            <lb/>N'ayade moitie poiſſon. Ce ſont les
-            <lb/>raiſons generales que l'Autheur à
-            <lb/>euës; on en pourroit encore alleguer
-            <lb/>de particulieres, &amp; deffendre cha¬<lb break="no"/>que endroit; mais il faut laiſſer
-            <lb/>quelque choſe à faire à l’habileté &amp;
-            <lb/>à l'indulgence des Lecteurs: Ils ſe
-            <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f19"/>
+            <lb/>paroit cette cataſtrophe &amp; la neceſ¬<lb break="no"/>ſité de la rendre heureuſe
+            l’y ont <lb/>contraint. Il a cru que dans ces <lb/>ſortes de contes chacun deuoit eſtre
+            <lb/>content à la fin: cela plaiſt tou¬<lb break="no"/>iours au Lecteur; à moins qu'on
+            ne <lb/>luy ayt rendu les perſonnes trop <lb/>odieuſes: mais il n'en faut point
+            <lb/>venir là ſi l'on peut, ny faire ri¬<lb break="no"/>re &amp; pleurer dans vne meſme
+               nou¬<lb break="no"/>uelle. Cette bigarrure déplaiſt ià <lb/>Horace ſur toutes choſes:
+            il ne <lb/>veut pas que nos compoſitions reſ¬<lb break="no"/>ſemblent aux croteſques,
+            &amp; que <lb/>nous faßions vn ouurage moitte <lb/>N'ayade moitie poiſſon. Ce ſont les
+            <lb/>raiſons generales que l'Autheur à <lb/>euës; on en pourroit encore alleguer <lb/>de
+            particulieres, &amp; deffendre cha¬<lb break="no"/>que endroit; mais il faut laiſſer
+            <lb/>quelque choſe à faire à l’habileté &amp; <lb/>à l'indulgence des Lecteurs: Ils ſe
+               <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f19"/>
             <fw><lb/>PREFACE. 11</fw>
-            <lb/>contenteront donc de ces raiſons-cy:
-            <lb/>Nous les aurions miſes vn peu plus
-            <lb/>en iour, &amp; fait valoir dauantage,
-            <lb/>ſi l'eſtenduë des Prefaces l'auoit
-            <lb/>permis.
-         </p>
+            <lb/>contenteront donc de ces raiſons-cy: <lb/>Nous les aurions miſes vn peu plus
+            <lb/>en iour, &amp; fait valoir dauantage, <lb/>ſi l'eſtenduë des Prefaces l'auoit
+            <lb/>permis. </p>
       </div>
       <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f20"/>
       <pb n="1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f21"/>
       <fw><lb/>1</fw>
       <div type="part">
-         <p><lb/>LE FAISEVR
-            <lb/>DOREILLES,
-            <lb/>ET LE
-            <lb/>RACOMMODEVR
-            <lb/>DE MOVLES.</p>
-         <p> <lb/>Nouuelle tirée des cent Nouuelles
-            <lb/>Nouuelles, &amp; d'vn conte de
+         <p><lb/>LE FAISEVR <lb/>DOREILLES, <lb/>ET LE <lb/>RACOMMODEVR <lb/>DE MOVLES.</p>
+         <p>
+            <lb/>Nouuelle tirée des cent Nouuelles <lb/>Nouuelles, &amp; d'vn conte de
             <lb/>Bocace</p>
          <lg>
             <l>IRE Guillaume allant en <lb/>marchandiſe,</l>
@@ -192,8 +145,7 @@
             <l>Simple, ieunette, &amp; d’aſſez bonne <lb/>guiſe,</l>
             <l>Nommée Alix, du pays champenois.</l>
             <l>Cõpere André l’alloit voir quelquefois:</l>
-            <fw><lb/>A
-               <pb n="2" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f22"/>
+            <fw><lb/>A <pb n="2" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f22"/>
                <lb/>2 NOVVELLES.</fw>
             <l>A quel deſſein, beſoin n’eſt de le dire,</l>
             <l>EtDieu le ſçait: c’eſtoit vn maiſtre ſire;</l>
@@ -238,9 +190,8 @@
             <l>Madame Alix, que le ieu ne luy pluſl.</l>
             <l>Philoſopher ne faut pour cette affaire.</l>
             <l>André vaquoit de grande aaffection</l>
-            <fw><lb/>A ij
-               <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f24"/>
-               4 NOVVELLES.</fw>
+            <fw><lb/>A ij <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f24"/> 4
+               NOVVELLES.</fw>
             <l>A ſon trauail; faiſant ore vn tendon,</l>
             <l>Ore vn reply, puis quelque cartilage;</l>
             <l>Et n’y plaignant l’étofe &amp; la façon.</l>
@@ -266,7 +217,7 @@
             <l>Rien, rien, dit-il, à cela i’ay ſoigné;</l>
             <l>Iamais ne faux en rencontres pareilles.</l>
             <pb n="5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f25"/>
-            <fw><lb/>NOVVELLES.  5</fw>
+            <fw><lb/>NOVVELLES. 5</fw>
             <l>Sur le métier l’oreille eſtoit encor</l>
             <l>Quand le mary reuient de ſon voyage?</l>
             <l>Careſſe Alix, qui du premier abord,</l>
@@ -376,9 +327,8 @@
             <l>Parquoy, deuãt que vous ſortiez d’icy,</l>
             <l>Ie luy rendray ſi ie puis la pareille.</l>
             <l>En mon abſence il a fait vne oreille:</l>
-            <fw><lb/>A V.
-               <pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f30"/>
-               10 NOVVELLES.</fw>
+            <fw><lb/>A V. <pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f30"/> 10
+               NOVVELLES.</fw>
             <l>Au fruit d’Alix: ie veux d’vn ſi bon</l>
             <l>tour</l>
             <l>Me reuancher, &amp; ie penſe vne choſe.</l>
@@ -418,8 +368,7 @@
       <div type="part">
          <pb n="12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f32"/>
          <fw><lb/>12 NOVVELLES.</fw>
-         <head><lb/>LE
-            <lb/>BERCEAV.</head>
+         <head><lb/>LE <lb/>BERCEAV.</head>
          <lg>
             <l>Nouuelle tirée de Bocace.</l>
             <l>On loin de Rome vn Hoſte¬<lb break="no"/>lier eſtoit,</l>
@@ -538,9 +487,8 @@
             <l>Remiſe au lict en chemiſe ainſi nuë:</l>
             <l>C’eſtoit pour faire vn bon chariuary.</l>
             <l>Dieu ſoit loüé que ce berceau me <lb/>monſtre.</l>
-            <fw><lb/>B
-               <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f38"/>
-               18 NOVVELLES.</fw>
+            <fw><lb/>B <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f38"/> 18
+               NOVVELLES.</fw>
             <l>Que c’eſt icy qu’eſt couché mon mary.</l>
             <l>Diſant ces mots, auprés de cét amy</l>
             <l>Elle ſe met. Fol ne fut n’étourdy</l>
@@ -606,7 +554,8 @@
             <l>En démeurer quitte à ſi bon marché?</l>
             <l>Quoy! ne tient-il qu’à honnir des fa¬<lb break="no"/>milles?</l>
             <l>Pour vos ébats nous nourrirons nos <lb/>filles,</l>
-            <l>I’en ſuis d’auis. Sortez de ma maiſon:¬<lb break="no"/>Ie jure Dieu que j’en auray raiſon.</l>
+            <l>I’en ſuis d’auis. Sortez de ma maiſon:¬<lb break="no"/>Ie jure Dieu que j’en auray
+               raiſon.</l>
             <l>Et toy coquine, il faut que ie te tuë.</l>
             <l>A ce diſcours proferé bruſquement,</l>
             <l>Pinuçio plus froid qu’vne ſtatuë,</l>
@@ -652,8 +601,7 @@
       <div type="part">
          <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f44"/>
          <fw><lb/>24 NOVVELLE</fw>
-         <head><lb/>LE MVLETIER.
-            <lb/>N'ouuelle tiréé de Bocace.</head>
+         <head><lb/>LE MVLETIER. <lb/>N'ouuelle tiréé de Bocace.</head>
          <lg>
             <l>N Roy Lombard (les Roys de <lb/>ce pays</l>
             <l>Viennent ſouuent s’offrir à ma <lb/>memoire)</l>
@@ -668,9 +616,8 @@
             <l>A Teudelingue; &amp; la couche Royale</l>
             <l>De part &amp; d’autre eſtoit aſſeurément</l>
             <l>Auſſi complette, autant bien aſſortie</l>
-            <fw><lb/>Qu'elle
-            <pb n="25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f45"/>
-            NOVVELLES. 25</fw>
+            <fw><lb/>Qu'elle <pb n="25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f45"/>
+               NOVVELLES. 25</fw>
             <l>Qu’elle fut onc. Quand Meſſer Cu¬<lb break="no"/>pidon</l>
             <l>En badinant fit choir de ſon brandon</l>
             <l>Chez Agiluf, droit deſſus l’écurie:</l>
@@ -689,9 +636,8 @@
             <l>Que Cupidon; l’ame la moins ſubtile</l>
             <l>Sous ſa ferule apprend plus en vn iour</l>
             <l>Qu'vn Maiſtre es Arts en dix ans aux <lb/>écoles.</l>
-            <fw><lb/>C
-            <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f46"/>
-            26 NOVVELLES.</fw>
+            <fw><lb/>C <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f46"/> 26
+               NOVVELLES.</fw>
             <l>Aux plus groſſiers par vn chemin bien <lb/>court</l>
             <l>Il ſçait monſtrer les tours &amp; les paroles.</l>
             <l>Le preſent conte en eſt vn bon témoin.</l>
@@ -735,9 +681,8 @@
             <l>Vn autre poinct, outre ce qu’auons dit,</l>
             <l>C’eſt qu’Agiluf, s’il auoit en l’eſprit</l>
             <l>Quelque chagrin, ſoit touchant ſon</l>
-            <fw><lb/>Empire, C ij
-            <pb n="28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f48"/>
-            28 NOVVELLES.</fw>
+            <fw><lb/>Empire, C ij <pb n="28"
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f48"/> 28 NOVVELLES.</fw>
             <l>Ou ſa famille, ou pour quelque autre <lb/>cas,</l>
             <l>Ne ſonnoit mot en prenant ſes ébats.</l>
             <l>A tout cela Teudelingue eſtoit faite.</l>
@@ -781,9 +726,8 @@
             <l>Se connoiſtroit au batement du poulx.</l>
             <l>Pas ne faillit dedans ſa conjecture:</l>
             <l>Et le ſecond qu’il taſta d’auanture</l>
-            <fw><lb/>C iij.
-            <pb n="30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f50"/>
-            30 NOVVELLES.</fw>
+            <fw><lb/>C iij. <pb n="30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f50"/>
+               30 NOVVELLES.</fw>
             <l>Eſtoit ſon homme; à qui d’émotion,</l>
             <l>Soit pour la peur, ou ſoit pour l’action,</l>
             <l>Le cœur batoit, &amp; le poulx tout en¬<lb break="no"/>ſemble.</l>
@@ -817,9 +761,8 @@
          </lg>
       </div>
       <div type="poem">
-            <fw><lb/>C iiij
-               <pb n="32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f52"/>
-               32 NOVVELLES.</fw>
+         <fw><lb/>C iiij <pb n="32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f52"/> 32
+            NOVVELLES.</fw>
          <head>REGNAVLD D’AST.</head>
          <head>N'ouuelle tirée de Bocace.</head>
          <lg>
@@ -967,7 +910,7 @@
             <l>Pour nous mater: témoin les auantu¬<lb break="no"/>FeS- TIVV INNIe</l>
             <l>Qu'eut cette nuit Renaud qui n’ar¬<lb break="no"/>riua,</l>
             <pb n="40" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f60"/>
-           <fw><lb/>40 NOVVELLES.</fw>
+            <fw><lb/>40 NOVVELLES.</fw>
             <l>Qu’vne heure apres qu’on eut fermé <lb/>la porte.</l>
             <l>Du pied du mur enfin il s’approcha.</l>
             <l>Dire comment, ie n’en ſçais pas la ſorte.</l>
@@ -986,8 +929,7 @@
             <l>Au deſeſpoir bien-toſt il s’abandonne,</l>
             <l>Claque des dents, ſe plaint, tremble, &amp; <lb/>friſſonne,</l>
             <l>Si hautemẽt que quelqu’vn l’entendit.</l>
-            <fw><lb/>Ce
-               <pb n="41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f61"/>
+            <fw><lb/>Ce <pb n="41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f61"/>
                <lb/>NOVVELLES. 41</fw>
             <l>Ce quelqu’vn-là c’eſtoit vne ſeruante;</l>
             <l>Et ſa maiſtreſſe vne veuve galante,</l>
@@ -1008,8 +950,7 @@
             <l>Où noſtre Iob ſur la paille eſtendu</l>
             <l>Tenoit deſia ſa fin toute aſſeurée,</l>
             <l>Monſieur eſtoit de Madame âttendu:</l>
-            <fw><lb/>D
-            <pb n="42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f62"/>
+            <fw><lb/>D <pb n="42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f62"/>
                <lb/>42 NOVVELLES.</fw>
             <l>Le ſoupé preſt, la chambre bien parée,</l>
             <l>Bons reſtaurans, champignons, &amp; ra¬<lb break="no"/>gouſts;</l>
@@ -1096,8 +1037,7 @@
             <l>En vn habit à donner de l’Amour.</l>
             <l>La negligence à mon gré ſi requiſe,</l>
             <l>Pour cette fois fut ſa Dame d’Atour.</l>
-            <fw><lb/>C iij.
-               <pb n="46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f66"/>
+            <fw><lb/>C iij. <pb n="46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f66"/>
                <lb/>46 NOVVELLES.</fw>
             <l>Point de clinquant, juppe ſimple <lb/>modeſte,</l>
             <l>Ajuſtement moins ſuperbe que leſte;</l>
@@ -1134,7 +1074,10 @@
             <l>Lequel vaut mieux? la belle l’arreſtant,</l>
             <l>S’humilia pour eſtre contredite.</l>
             <pb n="48" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f68"/>
-            <fw><lb/><choice><sic>49</sic><corr>48</corr></choice> NOVVELLES.</fw>
+            <fw><lb/><choice>
+                  <sic>49</sic>
+                  <corr>48</corr>
+               </choice> NOVVELLES.</fw>
             <l>C’eſt vne adreſſe à mon ſens non pe¬<lb break="no"/>tité.</l>
             <l>Renaud pourſuit: loüant par le menu</l>
             <l>Tout ce qu’il void, tout ce qu’il n’a <lb/>point veu,</l>
@@ -1219,9 +1162,8 @@
             <l>Des Oraiſons, dira quelqu’vn de ceux</l>
             <l>Dont j’ay parlé, trois gens par deuers <lb/>eux</l>
             <l>Ont vn rouſſin, &amp; nombre de piſtoles:</l>
-            <fw><lb/>E ij
-               <pb n="52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f72"/>
-               52 NOVVELLES</fw>
+            <fw><lb/>E ij <pb n="52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f72"/> 52
+               NOVVELLES</fw>
             <l>Qui n’auroit cru ces gens là fort chan¬<lb break="no"/>ceux?</l>
             <l>Auſſi font ils florés &amp; caprioles</l>
             <l>(Mauuais preſage) &amp; tout gais &amp; <lb/>joyeux</l>
@@ -1238,12 +1180,10 @@
          </lg>
       </div>
       <div type="part">
-            <pb n="53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f73"/>
-            <fw><lb/>NOVVELLES. 53</fw>
-            <head>LA SERVANTE
-               IVSTIFIE’E.</head>
-         <head>Nouuelle tirée des contes de la Reyne
-            de Nauarre.</head>
+         <pb n="53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f73"/>
+         <fw><lb/>NOVVELLES. 53</fw>
+         <head>LA SERVANTE IVSTIFIE’E.</head>
+         <head>Nouuelle tirée des contes de la Reyne de Nauarre.</head>
          <lg>
             <l>Ocace n’eſt le ſeul qui me <lb/>fournit.</l>
             <l>Ie vas par fois en vne autre <lb/>boutique.</l>
@@ -1254,9 +1194,8 @@
             <l>Vieux, des plus vieux; ou nouuelles <lb/>nouuelles</l>
             <l>Sont juſqu'à cent; bien déduites &amp; <lb/>belles</l>
             <l>Pour la pluſpart, &amp; de tres-bonne main.</l>
-            <fw><lb/>E iij
-               <pb n="54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f74"/>
-            54 NOVVELLES.</fw>
+            <fw><lb/>E iij <pb n="54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f74"/> 54
+               NOVVELLES.</fw>
             <l>Pour cette fois la Reyne de Nauarre,</l>
             <l>D’vn c’eſtoit moy na ïf’autant que rare</l>
             <l>Entretiendra dans ces vers le Lecteut.</l>
@@ -1299,9 +1238,8 @@
             <l>Noſtre voiline eſt languarde &amp; mé¬<lb break="no"/>chante.</l>
             <l>Mais ne ſoyez en crainte aucunement.</l>
             <l>Il va trouuer ſa femme en ce moment</l>
-            <fw><lb/>E iiij
-               <pb n="56" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f76"/>
-            56 NOVVELLES.</fw>
+            <fw><lb/>E iiij <pb n="56" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f76"/>
+               56 NOVVELLES.</fw>
             <l>Puis fait ſi bien que s’eſtant éueillée</l>
             <l>Elle ſe leue; &amp; ſur l’heure habillée,</l>
             <l>Il continuë à joüer ſon rollet:</l>
@@ -1353,13 +1291,13 @@
             <l>Ils ſont paſſez: apres quelques façons</l>
             <l>A pleine main l’on les a laiſſez prendre.</l>
          </sp>
-            <pb n="58" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f78"/>
-            <fw><lb/>58 NOVVELLES.</fw>
+         <pb n="58" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f78"/>
+         <fw><lb/>58 NOVVELLES.</fw>
          <sp>
             <speaker>La femme.</speaker>
             <l>Et pourquoy non? c’eſtoit moy: voſtre <lb/>époux</l>
             <l>N’a-t-il pas donc les meſmes droits ſur <lb/>vous?</l>
-            </sp>
+         </sp>
          <sp>
             <speaker>La voiſine.</speaker>
             <l>Céte perſonne enfin ſur l’herbe tendre</l>
@@ -1412,11 +1350,8 @@
       <div type="poem">
          <pb n="60" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f80"/>
          <fw><lb/>60 NOVVELLES.</fw>
-         <head><lb/>LA
-            <lb/>GAGEVRE
-            <lb/>DES TROIS COMMERES.</head>
-         <head><lb/>Où ſont deux Nouuelles tirées de
-            <lb/>Bocace</head>
+         <head><lb/>LA <lb/>GAGEVRE <lb/>DES TROIS COMMERES.</head>
+         <head><lb/>Où ſont deux Nouuelles tirées de <lb/>Bocace</head>
          <lg>
             <l>Pres bon vin, trois Comme¬<lb break="no"/>res vn iour</l>
             <l>S’entretenoient de leurs tours <lb/>&amp; proüeſſes.</l>
@@ -1445,7 +1380,7 @@
             <l>Qui vous vantez d’eſtre ſi bien loties,</l>
             <l>Auoir troqué de galand ny d’eſpoux.</l>
             <pb n="62" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f82"/>
-           <fw><lb/>62 NOVVELLES.</fw>
+            <fw><lb/>62 NOVVELLES.</fw>
             <l>Sur ce debat la troiſieſme commere</l>
             <l>es mit d’accord; car elle fut d’auis</l>
             <l>Qu’amour ſe plaiſt auec les bos maris,</l>
@@ -1511,8 +1446,7 @@
             <l>I’aurois chez moy touſiours eu des ten¬<lb break="no"/>drons.</l>
             <l>De celuy-cy pour certaines raiſons</l>
             <l>Vous faut paſſer; cherchez autre auan¬<lb break="no"/></l>
-            <fw>ture.
-               <pb n="65" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f85"/>
+            <fw>ture. <pb n="65" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f85"/>
                NOVVELLES. 65</fw>
             <l>ture.</l>
             <l>Et vous, la belle au deſſein ſi gaillard,</l>
@@ -1530,9 +1464,8 @@
             <l>Viſte, marchons, que du lict où ie cou¬<lb break="no"/>che</l>
             <l>Sans marchander on prenne le chemins</l>
             <l>Vous chercherez vos beſognes de¬<lb break="no"/>main.</l>
-            <fw><lb/>F
-               <pb n="66" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f86"/>
-               66 NOVVELLES.</fw>
+            <fw><lb/>F <pb n="66" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f86"/> 66
+               NOVVELLES.</fw>
             <l>Si ce n’eſtoit le ſcandale &amp; la honte,)</l>
             <l>Ie vous mettrois dehors en cét eſtat.</l>
             <l>Mais ie ſuis bonne, &amp; ne veux point <lb/>d’éclat:</l>
@@ -1570,9 +1503,8 @@
             <l>De ce fruit là: Guillot, monte, &amp; ſe¬<lb break="no"/>couë</l>
             <l>Noſtre poirier. Guillot monte à l’in¬<lb break="no"/>ſtant.</l>
             <l>Grimpé qu’il eſt, le droſſe fait ſemblant</l>
-            <fw><lb/>F ij
-               <pb n="68" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f88"/>
-               68 NOVVELLES.</fw>
+            <fw><lb/>F ij <pb n="68" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f88"/> 68
+               NOVVELLES.</fw>
             <l>Qu'il luy paroiſt que le mari ſe jouë</l>
             <l>Auec la femme: auſſi-toſt le valet</l>
             <l>Frotant ſes yeux comme eſtonné du <lb/>fait,</l>
@@ -1583,7 +1515,8 @@
             <l>Cecy me cauſe vne ſurpriſe extreme.</l>
             <l>Deuãt les gens prendre ainſi vos ébats.</l>
             <l>Si d’vn valet vous ne faites nul cas,</l>
-            <l>Vous vous deuez du reſpect à vous meſ¬<lb break="no"/>me¬<lb break="no"/>Cuel raon vous point? attendez à tan¬<lb break="no"/>toſt:</l>
+            <l>Vous vous deuez du reſpect à vous meſ¬<lb break="no"/>me¬<lb break="no"/>Cuel raon
+               vous point? attendez à tan¬<lb break="no"/>toſt:</l>
             <l>Ces priuautez en ſeront plus friandes;</l>
             <l>Tout auſſi bien, pour le temps qu’il <lb/>vous faut,</l>
             <l>Les nuits d’eſté ſont encore aſſez gran¬<lb break="no"/>des.</l>
@@ -1623,8 +1556,8 @@
             <l>Tout de ce pas par mon ordre on le</l>
             <l>mette.</l>
          </sp>
-            <pb n="70" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f90"/>
-            <l>70 NOVVELLES.</l>
+         <pb n="70" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f90"/>
+         <l>70 NOVVELLES.</l>
          <sp>
             <speaker>Guillot.</speaker>
             <l>Eſt-ce eſtre fou que de voir ce qu’on <lb/>void?</l>
@@ -1718,8 +1651,7 @@
             <l>Cours au logis; dy qu’on le vienne <lb/>abatre.</l>
             <l>Ie ne veux plus que cét arbre maudit</l>
             <l>Trompe les gens. Le valet obeit.</l>
-            <fw><lb/>Sur
-               <pb n="73" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f93"/>
+            <fw><lb/>Sur <pb n="73" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f93"/>
                NOVVELLES. 73</fw>
             <l>Sur le pauure arbre ils ſe mettent à <lb/>quatre,</l>
             <l>Se demandant l’vn l’autre ſourdement,</l>
@@ -1738,9 +1670,8 @@
             <l>S’il n’eſtoit libre, à la Dame propoſe</l>
             <l>De ſe trouuer ſeuls enſemble vne nuit.</l>
             <l>Deux, luy dit-elle, &amp; pour ſi peu de <lb/>choſe</l>
-            <fw><lb/>G
-               <pb n="74" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f94"/>
-            74 NOVVELLES.</fw>
+            <fw><lb/>G <pb n="74" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f94"/> 74
+               NOVVELLES.</fw>
             <l>Vous ne ſerez nullement éconduit.</l>
             <l>Ia de par moy ne manquera l’affaire.</l>
             <l>De mon mary ie ſçauray me défaire</l>
@@ -1786,9 +1717,8 @@
             <l>Pour attraper quiconqne tirera)</l>
             <l>Le brin de fil. Or le Lecteur ſçaura</l>
             <l>Que ce logis auoit ſur le derriere</l>
-            <fw><lb/>G ij
-               <pb n="76" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f96"/>
-               76 NOVVELLES.</fw>
+            <fw><lb/>G ij <pb n="76" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f96"/> 76
+               NOVVELLES.</fw>
             <l>Dequoy pouuoir introduire l’amy:</l>
             <l>Il le fut donc par vne chambriere.</l>
             <l>Tout domeſtique en trompant le mary</l>
@@ -1860,12 +1790,9 @@
          </lg>
       </div>
       <div type="poem">
-         <fw><lb/>G iiij
-            <pb n="80" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f100"/>
-            80 NOVVELLES.</fw>
-         <head><lb/>LE
-            <lb/>CALENDRIER
-            <lb/>DES VIEILLARDS.</head>
+         <fw><lb/>G iiij <pb n="80" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f100"/> 80
+            NOVVELLES.</fw>
+         <head><lb/>LE <lb/>CALENDRIER <lb/>DES VIEILLARDS.</head>
          <head><lb/>Nouuelle tirée de Bocace.</head>
          <lg>
             <l>Lus d’vne fois ie me ſuis eſton¬<lb break="no"/>né,</l>
@@ -1924,8 +1851,7 @@
             <l>Et bien ſouuent faiſoit venir en ieu!</l>
             <l>Sainct qui ne fut iamais dans la le¬<lb break="no"/>
                <pb n="83" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f103"/>
-               <fw><lb/>NOVVELLES. 83</fw>
-               gende.</l>
+               <fw><lb/>NOVVELLES. 83</fw> gende.</l>
             <l>Le Vendredy, diſoit-il, nous demande</l>
             <l>D’autres penſers, ainſi que chacun <lb/>ſçait:</l>
             <l>Pareillement il faut que l’on retranche</l>
@@ -1974,7 +1900,8 @@
             <l>Ils y couchoient tous les huit iours ſans <lb/>faute.</l>
             <l>Là quelquefois ſur la mer ils montoiẽt,</l>
             <l>Et le plaiſir de la peſche gouſtoient,</l>
-            <l>Sans s’éloigner que bien peu de la rade¬<lb break="no"/>Arriue donc, qu’vn iour de promenade,</l>
+            <l>Sans s’éloigner que bien peu de la rade¬<lb break="no"/>Arriue donc, qu’vn iour de
+               promenade,</l>
             <l>Bartolomee &amp; Meſſer le Docteur,</l>
             <l>Prennent chacun vne barque à peſ¬<lb break="no"/>cheur,</l>
             <l>Sortent ſur mer; ils auoient fait ga¬<lb break="no"/>geure,</l>
@@ -2068,9 +1995,8 @@
             <l>Déuant ſes yeux void ſon mary pa¬<lb break="no"/>roiſtre,</l>
             <l>Sans témoigner ſeulement le con¬<lb break="no"/>noiſtre,</l>
             <l>Non plus qu’vn homme arriué du Pe¬<lb break="no"/>rou</l>
-            <fw><lb/>H
-               <pb n="90" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f110"/>
-               90 NOVVELLES.</fw>
+            <fw><lb/>H <pb n="90" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f110"/> 90
+               NOVVELLES.</fw>
             <l>Voyez, dit-il, la pauurette eſt hon¬<lb break="no"/>teuſe</l>
             <l>Deuant les gens; &amp; ſa joye amou¬<lb break="no"/>reuſe</l>
             <l>N’oſe éclater: ſoyez ſeur, qu’à mon <lb/>cou,</l>
@@ -2088,8 +2014,7 @@
             <l>T’ay-ie iamais refuſé nulle choſe,</l>
             <l>Soit pour ton ieu, ſoit pour tes veſte¬<lb break="no"/>
                <pb n="91" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f111"/>
-               <fw><lb/>NOVVELLES. 91</fw>
-               mens?</l>
+               <fw><lb/>NOVVELLES. 91</fw> mens?</l>
             <l>En eſtoit-il quelqu’vne de plus braue?</l>
             <l>De ton vouloir ne me rendois-ie eſ¬<lb break="no"/>claue?</l>
             <l>Tu le ſeras eſtant auec ces gens.</l>
@@ -2106,9 +2031,8 @@
             <l>De ces plaiſirs, que i’en eſtois capa¬<lb break="no"/>ble.</l>
             <l>Oreſt le cas a elle d’autre façon.</l>
             <l>I’ay pris mari qui pour toute chanſon</l>
-            <fw><lb/>H ij
-               <pb n="92" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f112"/>
-               92 NOVVELLES.</fw>
+            <fw><lb/>H ij <pb n="92" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f112"/> 92
+               NOVVELLES.</fw>
             <l>N’a iamais eu que ſes iours de ferie,</l>
             <l>Mais Pagamin, ſi toſt qu’il m’eut <lb/>rauie,</l>
             <l>Me ſçeut donner bien vne autre le¬<lb break="no"/>çon.</l>
@@ -2160,8 +2084,7 @@
       <div type="poem">
          <pb n="95" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f115"/>
          <fw><lb/>NOVVELLES. 95</fw>
-         <head><lb/>A FEMME AVARE
-            <lb/>galand eſcroc.</head>
+         <head><lb/>A FEMME AVARE <lb/>galand eſcroc.</head>
          <head><lb/>Nouuelle tirée de Bocace.</head>
          <lg>
             <l>V’vn homme ſoit plumé par¬<lb break="no"/>des coquetes,</l>
@@ -2196,8 +2119,7 @@
             <l>Celuy là parle vne langue barbare</l>
             <l>Qui l’or en main n’explique ſes deſirs.</l>
             <l>Le jeu, la jupe, &amp; l’amour des plai¬<lb break="no"/>ſirs.</l>
-            <fw><lb/>ſont
-               <pb n="97" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f117"/>
+            <fw><lb/>ſont <pb n="97" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f117"/>
                NOVVELLES. 97</fw>
             <l>Sont les reſſorts que Cupidon em¬<lb break="no"/>ploye:</l>
             <l>De leur boutique il ſort chez les Fran¬<lb break="no"/>çois</l>
@@ -2217,9 +2139,8 @@
             <l>Voila, dit-il, deux cens écus contans,</l>
             <l>Qu’à voſtre époux vous donnerez, <lb/>Madame,</l>
             <l>La belle crut qu’il auõit dit cela</l>
-            <fw><lb/>I
-               <pb n="98" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f118"/>
-               98 NOVVELLES.</fw>
+            <fw><lb/>I <pb n="98" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f118"/> 98
+               NOVVELLES.</fw>
             <l>Par politique, &amp; pour joüer ſon <lb/>rôle.</l>
             <l>Le lendemain elle le regala</l>
             <l>Tout de ſon mieux, en femme de pa¬<lb break="no"/>role.</l>
@@ -2250,10 +2171,8 @@
       <div type="poem">
          <pb n="100" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f120"/>
          <fw><lb/>100 NOVVELLES.</fw>
-         <head><lb/>ON NE S’AVISE
-            <lb/>iamais de tout.</head>
-         <head><lb/>Conte tiré des cent Nouuelles
-            <lb/>nouuelles.</head>
+         <head><lb/>ON NE S’AVISE <lb/>iamais de tout.</head>
+         <head><lb/>Conte tiré des cent Nouuelles <lb/>nouuelles.</head>
          <lg>
             <l>Ertain ialoux ne dormant que <lb/>d’vn œil,</l>
             <l>Interdiſoit tout commerce à ſa <lb/>femme.</l>
@@ -2288,9 +2207,8 @@
             <l>Ildiſoit bien; car on n’auoit jetté</l>
             <l>Cette immondice, &amp; la Dame gaſté,</l>
             <l>Qu’afin qu’elle euſt quelque valable <lb/>excuſe</l>
-            <fw><lb/>I iij
-            <pb n="102" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f122"/>
-            102 NOVVELLES.</fw>
+            <fw><lb/>I iij <pb n="102" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f122"/>
+               102 NOVVELLES.</fw>
             <l>Pour éloigner ſon dragon quelque¬<lb break="no"/>temps.</l>
             <l>Vn ſien galand amy de là dedans</l>
             <l>Tout auſſi-toſt profita de la ruſe.</l>
@@ -2301,12 +2219,10 @@
          </lg>
       </div>
       <div type="poem">
-            <pb n="103" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f123"/>
+         <pb n="103" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f123"/>
          <fw><lb/>NOVVELLES. 103</fw>
-         <head>lb/>LE VILLAGEOIS
-            <lb/>qui cherche ſon veau.</head>
-         <head><lb/>Conte tiré des cent Nouuelles
-            <lb/>Nouuelles.</head>
+         <head>lb/>LE VILLAGEOIS <lb/>qui cherche ſon veau.</head>
+         <head><lb/>Conte tiré des cent Nouuelles <lb/>Nouuelles.</head>
          <lg>
             <l>N villageaois ayant perdu ſon <lb/>veau,</l>
             <l>L’alla chercher dans la foreſt <lb/>prochaine:</l>
@@ -2317,9 +2233,8 @@
             <l>Et le galand, qui ſur l’herbe la couche,</l>
             <l>Crie en voyant ie ne ſçais quels appas.</l>
             <l>O Dieux, que vois-je, &amp; que ne vois¬<lb break="no"/>je pas!</l>
-            <fw><lb/>I iiij.
-               <pb n="104" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f124"/>
-               104 NOVVELLES,</fw>
+            <fw><lb/>I iiij. <pb n="104" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f124"
+               /> 104 NOVVELLES,</fw>
             <l>Sans dire quoy; car c’eſtoient lettres <lb/>cloſes.</l>
             <l>Lors le Manant les arreſtant tout coy.</l>
             <l>Homme de bien, qui voyez tant de <lb/>choſes,</l>
@@ -2329,9 +2244,9 @@
       <div type="poem">
          <pb n="105" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f125"/>
          <fw>NOVVELLES. 105</fw>
-         <head><lb/>L'ANNEAV
-            <lb/>d’Hans Caruel.</head>
-         <head> <l>Conte tiré de R.</l></head>
+         <head><lb/>L'ANNEAV <lb/>d’Hans Caruel.</head>
+         <head>
+            <l>Conte tiré de R.</l></head>
          <lg>
             <l>Ans Caruel prit ſur ſes <lb/>vieux ans</l>
             <l>Femme jeune en toute <lb/>maniere;</l>
@@ -2424,8 +2339,8 @@
             <l>Vn mary (de ceux-là que l’on perd <lb/>ſans pleurer,</l>
             <l>Vieux barbon qui laiſſoit d’écus plein <lb/>vne tonne)</l>
             <l>En mille endroits de ſa perſonne</l>
-            <l>La belle auoit dequoy mettre vn Gaſ¬
-               <pb n="110" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f130"/>
+            <l>La belle auoit dequoy mettre vn Gaſ¬ <pb n="110"
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f130"/>
                <fw><lb/>110 NOVVELLES.</fw>
                <lb break="no"/>con aux Cieux,</l>
             <l>Des attraits par deſſus les yeux,</l>
@@ -2483,9 +2398,8 @@
             <l>C’eſt qu’il craignoit qu’enfin vn capri¬<lb break="no"/>ce amoureux!</l>
             <l>Ne priſt à ce mary: tels cas ſont dan¬<lb break="no"/>gereux,</l>
             <l>Lors que l’vn des conjoints ſe ſent pri¬<lb break="no"/>ué du ſomme.</l>
-            <fw><lb/>Touſiours
-               <pb n="113" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f133"/>
-               NOVVELLES. 113</fw>
+            <fw><lb/>Touſiours <pb n="113"
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f133"/> NOVVELLES. 113</fw>
             <l>Touſiours nouueaux ſujets alarmoient <lb/>le pauure homme.</l>
             <l>l’on étendoit vn pied; l’on approchoit <lb/>vn bras:</l>
             <l>Il crut meſme ſentir la barbe d’Eurilas.</l>
@@ -2522,10 +2436,9 @@
          </lg>
       </div>
       <div type="poem">
-            <pb n="115" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f135"/>
-            <fw><lb/>NOVVELLES. 115</fw>
-         <head><lb/>LA FIANCEE.
-            <lb/>du Roy de Garbe.</head>
+         <pb n="115" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f135"/>
+         <fw><lb/>NOVVELLES. 115</fw>
+         <head><lb/>LA FIANCEE. <lb/>du Roy de Garbe.</head>
          <head><lb/>Nouuelle.</head>
          <lg>
             <l>L n’eſt rien qu’on ne conte en</l>
@@ -2544,9 +2457,8 @@
             <l>On en pourra gloſer; on pourra me</l>
             <l>mécroire:</l>
             <l>Tout cela n’eſt pas vn grand mala</l>
-            <fw><lb/>K ij
-            <pb n="116" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f136"/>
-            116. NOVVELLES.</fw>
+            <fw><lb/>K ij <pb n="116" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f136"/>
+               116. NOVVELLES.</fw>
             <l>Alaciel &amp; ſa mémoire</l>
             <l>Ne ſçauroient guere perdre à tout ce <lb/>changement.</l>
             <l>I'ay ſuiuy mon Auteur en deux poincts <lb/>ſeulement:</l>
@@ -2565,10 +2477,9 @@
             <l>Ce n’eſtoit apres tout que bonne in¬<lb break="no"/>tention,</l>
             <l>Gratitude, ou compaſſion,</l>
             <l>Crainte de pis, honneſte excuſe.</l>
-            <l>Elle n’en plut pas moins aux yeux de
-               <pb n="117" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f137"/>
-               <fw><lb/>NOVVELLES. 117</fw>
-               ſon fiancé.</l>
+            <l>Elle n’en plut pas moins aux yeux de <pb n="117"
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f137"/>
+               <fw><lb/>NOVVELLES. 117</fw> ſon fiancé.</l>
             <l>Veuve de huit galans il la prit pour pu¬<lb break="no"/>celle,</l>
             <l>Et dans ſon erreur par la belle</l>
             <l>Apparemment il fut laiſſé.</l>
@@ -2585,8 +2496,7 @@
             <l>La rendoit d’autant eſtimable;</l>
             <l>En cela ie n’augmente point.</l>
             <l>Au bruit qui couroit d’elle en toutes ces <lb/>Prouinces,</l>
-            <fw><lb/>K iij
-               <pb n="118" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f138"/>
+            <fw><lb/>K iij <pb n="118" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f138"/>
                <lb/>118 NOVVELLES,</fw>
             <l>Mamolin Roy de Garbe en deuint <lb/>amoureux.</l>
             <l>Il la fit demander, &amp; fut aſſez heureux</l>
@@ -2638,11 +2548,9 @@
             <l>Faute d’auoir le temps de s’en mettre <lb/>en courroux.</l>
             <l>Le mal-heureux Corſaire emportant <lb/>cette proye,</l>
             <l>N’en eut pas long-temps de la joye.</l>
-            <l>Vn des vaiſſeaux, quoy qu’il fuſt
-               <fw><lb/>accro¬<lb break="no"/>
+            <l>Vn des vaiſſeaux, quoy qu’il fuſt <fw><lb/>accro¬<lb break="no"/>
                   <pb n="121" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f141"/>
-                  NOVVELLES. 121</fw>
-               accroché,</l>
+                  NOVVELLES. 121</fw> accroché,</l>
             <l>S’eſtant quelque peu détaché,</l>
             <l>Comme Grifonio paſſoit d’vn bord à <lb/>l’autre,</l>
             <l>Vn pied ſur ſon Nauire, vn ſur celuy <lb/>d’Hiſpal,</l>
@@ -2657,8 +2565,7 @@
             <l>Mal mené du combat, &amp; priué de Pi<corr>¬<lb break="no"/></corr><lb/>lote,</l>
             <l>Au gré d’Æole &amp; de Neptune flote.</l>
             <l>La mort fit laſcher priſe au geant pour<corr>¬<lb break="no"/></corr>fendu.</l>
-            <fw><lb/>L
-               <pb n="122" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f142"/>
+            <fw><lb/>L <pb n="122" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f142"/>
                <lb/>122 NOVVELLES.</fw>
             <l>L’Infante par ſa robe en tombant ſoû¬<lb break="no"/>tenuë,</l>
             <l>Fut bien-toſt d’Hiſpal ſecourue.</l>
@@ -2694,11 +2601,9 @@
             <l>D’adoucir l’aigreur de ſes coups;</l>
             <l>C’eſt tout ce qui nous reſte en ce mal¬<lb break="no"/>heur extreme.</l>
             <l>Se conſoler! dit-il, le peut-on quand <lb/>on ayme?</l>
-            <l>Ah ſi....... mais non, Madame, il n’eſt
-               <fw><lb/>L ij
-                  <pb n="124" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f144"/>
-                  <lb/>124 NOVVELLES.</fw>
-               pas à propos</l>
+            <l>Ah ſi....... mais non, Madame, il n’eſt <fw><lb/>L ij <pb n="124"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f144"/>
+                  <lb/>124 NOVVELLES.</fw> pas à propos</l>
             <l>Que vous aymiez; vous ſeriez trop <lb/>à plaindre.</l>
             <l>Ie braue à mon égard &amp; la faim &amp; les <lb/>flots:</l>
             <l>Mais jettant l’œil ſur vous, ie trouue <lb/>tout à craindre.</l>
@@ -2733,9 +2638,8 @@
             <l>Façon de nauiger nouuelle.</l>
             <l>Auec l’ayde du Ciel, &amp; de ces repo¬<lb break="no"/>ſoirs,</l>
             <l>Et du Dieu qui preſide aux liquides <lb/>manoirs,</l>
-            <l>Hiſpal n’en pouuant plus, de faim,
-               <fw><lb/>L iij
-                  <pb n="126" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f146"/>
+            <l>Hiſpal n’en pouuant plus, de faim, <fw><lb/>L iij <pb n="126"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f146"/>
                   <lb/>126 NOVVELLES.</fw>
                <lb/>de laſſitude,</l>
             <l>De trauail, &amp; d’inquietude,</l>
@@ -2834,7 +2738,10 @@
             <l>L’on ne ſçait pour qui l’on Ie garde.</l>
             <l>L’infante à ces raiſõs ſe rendant à demi,</l>
             <l>Vne pluye acheua l’affaire:</l>
-            <l>Il fallut ſe <choice><sic>metrre</sic><corr>mettre</corr></choice> à l’abri:</l>
+            <l>Il fallut ſe <choice>
+                  <sic>metrre</sic>
+                  <corr>mettre</corr>
+               </choice> à l’abri:</l>
             <pb n="131" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f151"/>
             <fw><lb/>NOVVELLES. 131</fw>
             <l>Ie laiſſe à penſer ou Le reſte du myſtere</l>
@@ -2859,7 +2766,8 @@
             <l>Si chaſteaux auoient vne langue.</l>
             <l>La choſe en vint au poinct, que las de <lb/>tant d’amour</l>
             <l>Nos amans à la fin regreterent la cour.</l>
-            <l>La belle s’en ouurit, &amp; voicy ſa haran¬<lb break="no"/>Vous m’eſtes cher, Hiſpal; i’aurois du</l>
+            <l>La belle s’en ouurit, &amp; voicy ſa haran¬<lb break="no"/>Vous m’eſtes cher, Hiſpal;
+               i’aurois du</l>
             <l>Si vous ne penſiez pas que touſiours ie <lb/>vous ayme.</l>
             <l>Mais qu'eſt ce qu’vn amour ſans crain¬<lb break="no"/>te &amp; ſans deſir?</l>
             <l>Ie vous le demande à vous-meſme.</l>
@@ -2891,8 +2799,8 @@
             <l>L’Infante pour zaïr le charge d’vne <lb/>lettre.</l>
             <l>Il s’embarque, il fait voile, il vogue, il <lb/>à bon vent;</l>
             <l>Il arriue à la cour, où chacun luy de¬<lb break="no"/>
-            <pb n="134" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f154"/>
-            <fw><lb/>134 NOVVELLES.</fw>
+               <pb n="134" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f154"/>
+               <fw><lb/>134 NOVVELLES.</fw>
                <lb/>mande,</l>
             <l>S’il eſt mort, s’il eſt viuant,</l>
             <l>Tant la ſurpriſe fut grande;</l>
@@ -2976,11 +2884,9 @@
             <l>S’accommoder à tout eſt choſe neceſ¬<lb break="no"/>ſaire.</l>
             <l>qu’on ne voudroit pas ſouuent il le <lb/>faut faire.</l>
             <l>Quand il plaiſt au deſtin que l’on en <lb/>vienne là.</l>
-            <l>Augmenter ſa ſoufrance eſt vne erreur
-            <fw><lb/>M
-               <pb n="138" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f158"/>
-               138 NOVVELLES.</fw>
-            extreme;</l>
+            <l>Augmenter ſa ſoufrance eſt vne erreur <fw><lb/>M <pb n="138"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f158"/> 138
+                  NOVVELLES.</fw> extreme;</l>
             <l>Si par pitié d’autruy la belle ſe força,</l>
             <l>Que ne point eſſayer par pitié de ſoy-<lb/>meſme!</l>
             <l>Elle ſe force donc, &amp; prend en gré le <lb/>tout,</l>
@@ -2996,10 +2902,9 @@
             <l>Le Seigneur d’vn chaſteau voiſin de <lb/>celuy-cy,</l>
             <l>Homme fort ami de la ioye,</l>
             <l>Sans nulle attache, &amp; ſans ſouci</l>
-            <l>Que de chercher touſiours quelque
-               <pb n="139" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f159"/>
-               <fw><lb/>NOVVELLES. 139</fw>
-               nouuelle proye,</l>
+            <l>Que de chercher touſiours quelque <pb n="139"
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f159"/>
+               <fw><lb/>NOVVELLES. 139</fw> nouuelle proye,</l>
             <l>Ayant eu le vent des beautez,</l>
             <l>Perfections, commoditez,</l>
             <l>Qu’en ſa voiſine on diſoit eſtre,</l>
@@ -3016,9 +2921,9 @@
             <l>Mais doucement, &amp; ſans donner <lb/>d’allarmes:</l>
             <l>Sous les auſpices de la nuict,</l>
             <l>Nous pourrons nous rendre ſans <lb/>bruit</l>
-            <l>Au pied de ce chaſteau, dés la petite<lb/>pointe <fw>M ij
-               <pb n="140" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f160"/>
-               <lb/>140 NOVVELLES.</fw>
+            <l>Au pied de ce chaſteau, dés la petite<lb/>pointe <fw>M ij <pb n="140"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f160"/>
+                  <lb/>140 NOVVELLES.</fw>
                <lb/>Du iour.</l>
             <l>La ſurpriſe à l’ombre eſtant jointe</l>
             <l>Nous rendra ſans hazard maiſtres de <lb/>ce ſejour,</l>
@@ -3055,8 +2960,7 @@
             <l>Du ſommeil à la mort n’ayant qu’vn <lb/>pas à faire</l>
             <l>Fut aſſommé ſans le ſentir.</l>
             <l>Le Chef pẽdu, l’on ameine l’Infante.</l>
-            <fw><lb/>M iij
-               <pb n="142" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f162"/>
+            <fw><lb/>M iij <pb n="142" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f162"/>
                <lb/>142 NOVVELLES.</fw>
             <l>Son peu d’amour pour le voleur;</l>
             <l>Sa ſurpriſe &amp; ſon épouuante,</l>
@@ -3118,8 +3022,7 @@
             <l>L’Infante aſſeurément agrêroit ſon ſer¬<lb break="no"/>uice.</l>
             <l>L’autre bie n’volontiers luy rendit cét <lb/>office.</l>
             <l>Le moyé qu’’vn ami puiſſe eſtre refuſé?</l>
-            <fw><lb/>A ce
-               <pb n="145" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f165"/>
+            <fw><lb/>A ce <pb n="145" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f165"/>
                <lb/>NOVVELLES. 145</fw>
             <l>A ce nouueau venu la voilà donc en <lb/>proye.</l>
             <l>Il ne put ſans parler contenir cette ioye.</l>
@@ -3140,8 +3043,7 @@
             <l>Que ſi l’amy s’en trouua bien,</l>
             <l>L’hoſte ne s’en tourmenta gueres.</l>
             <l>Et de cinq ſi i’ay bien conté.</l>
-            <fw><lb/>N
-               <pb n="146" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f166"/>
+            <fw><lb/>N <pb n="146" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f166"/>
                <lb/>146 NOVVELLES.</fw>
             <l>Le ſixieſme incident des trauaux de <lb/>l’Infante</l>
             <l>Par quelques-vns eſt rapporté</l>
@@ -3183,8 +3085,8 @@
             <l>Auoit de ce galand ſouuent greſlé l’eſ¬<lb break="no"/>poir.</l>
             <l>La crainte luy nuiſoit autant que le de¬<lb break="no"/>uoir.</l>
             <l>Cette fille l’auroit ſelon toute appa¬<lb break="no"/>rence</l>
-            <l>Fauoriſé,</l> <fw>N ij
-               <pb n="148" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f168"/>
+            <l>Fauoriſé,</l>
+            <fw>N ij <pb n="148" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f168"/>
                <lb/>148 NOVVELLES.</fw>
             <l>Si la belle euſt oſé.</l>
             <l>Se voyant craint de cette ſorte,</l>
@@ -3227,7 +3129,7 @@
             <l>Mais le galand ſe ſeroit laiſſé pendre,</l>
             <l>Plûtoſt que de cacher vn ſecret ſi plai¬<lb break="no"/>ſant;</l>
             <l>Et pour le diuulguer il ne voulut atten¬<lb break="no"/>dre</l>
-               <l>Que le temps qu’il falloit pour trouuer <lb/>ſeulement</l>
+            <l>Que le temps qu’il falloit pour trouuer <lb/>ſeulement</l>
             <l>Quelqu'vn qui le vouluſt enten¬<lb break="no"/>dre¬<lb break="no"/></l>
             <pb n="150" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f170"/>
             <fw><lb/>150 NOVVELLES.</fw>
@@ -3239,15 +3141,15 @@
             <l>Vn iour entre-autres que la belle</l>
             <l>Dans vn bois dormoit à l’écart,</l>
             <l>Il s’y rencontra par hazard</l>
-               <l>Vn Cheualier errant, grand chercheur <lb/>d’auantures,</l>
+            <l>Vn Cheualier errant, grand chercheur <lb/>d’auantures,</l>
             <l>De ces ſortes de gens que ſur des pale¬<lb break="no"/>frois</l>
             <l>Les belles ſuiuoient autrefois,</l>
             <l>Et paſſoient pour chaſtes &amp; pures.</l>
             <l>Celuy-cy qui donnoit à ſes deſirs l’eſſor,</l>
             <l>Comme faiſoiet iadis Rogel &amp; Galaor,</l>
             <l>N’eut veu la Princeſſe endormie,</l>
-               <l>Que de prendre vn baiſer il forma le <lb/>deſſein:</l>
-               <l>Tout preſt à faire choix de la bouche ou <lb/>du ſein,</l>
+            <l>Que de prendre vn baiſer il forma le <lb/>deſſein:</l>
+            <l>Tout preſt à faire choix de la bouche ou <lb/>du ſein,</l>
             <l>Il eſtoit ſur le poinct d’en paſſer ſon en¬<lb break="no"/>uie,</l>
             <l>Quãd tout d’vn coup il ſe ſouuint</l>
             <l>Des loix de la cheualerie.</l>
@@ -3258,23 +3160,22 @@
             <l>Toutes les puiſſances d’amour,</l>
             <l>Qu'il puſt courir en ce ſejour</l>
             <l>Quelque auanture auec la Dame.</l>
-               <l>L’Infante s’éueilla ſurpriſe au dernier <lb/>poinct.</l>
+            <l>L’Infante s’éueilla ſurpriſe au dernier <lb/>poinct.</l>
             <l>Non non, dit-il, ne craignez point;</l>
             <l>Ie ne ſuis geant ny ſauuage;</l>
             <l>Mais Cheualier, errant qui rends gra¬<lb break="no"/>ces aux Dieux,</l>
             <l>D’auoir trouue dans ce bocage</l>
-               <l>Ce qu’à peine on pourroit rencontrer <lb/>dans les Cieux.</l>
-               <l>Apres ce compliment, ſans plus longue <lb/>demeure</l>
-               <l>Il luy dit en deux mots l’ardeur qui <lb/>l’embraſoit;</l>
+            <l>Ce qu’à peine on pourroit rencontrer <lb/>dans les Cieux.</l>
+            <l>Apres ce compliment, ſans plus longue <lb/>demeure</l>
+            <l>Il luy dit en deux mots l’ardeur qui <lb/>l’embraſoit;</l>
             <l>C’eſtoit vn homme qui faiſoit</l>
             <l>Beaucoup de chemin en peu d’heure.</l>
-               <l>Le refrein fut d’offrir ſa perſonne &amp; <lb/>ſon bras,</l>
+            <l>Le refrein fut d’offrir ſa perſonne &amp; <lb/>ſon bras,</l>
             <l>Et tout ce qu’en ſemblables cas</l>
             <l>On a de couſtume de dire</l>
             <l>A celles pour qui l’on ſoûpire.</l>
             <l>Son offre fut receuë, &amp; la belle luy fit</l>
-            <fw><lb/>N iij.
-               <pb n="152" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f172"/>
+            <fw><lb/>N iij. <pb n="152" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f172"/>
                <lb/>152 NOVVELLES.</fw>
             <l>Vn longroman de ſon Hiſtoire,</l>
             <l>Supprimant, comme l’on peut <lb/>croire,</l>
@@ -3422,7 +3323,11 @@
             <l>Ce conte nous apprend que beaucoup <lb/>de maris,</l>
             <l>Qui ſe vantent de voir fort clair en leurs <lb/>affaires,</l>
             <l>N’y viennent bien ſouuent qu’apres le <lb/>fauoris,</l>
-            <l>Et tout ſçauans qu’ils ſont ne s’y con<choice><sic>t</sic><corr>¬<lb break="no"/></corr></choice> <lb/>noiſſent gueres.</l>
+            <l>Et tout ſçauans qu’ils ſont ne s’y con<choice>
+                  <sic>t</sic>
+                  <corr>¬<lb break="no"/></corr>
+               </choice>
+               <lb/>noiſſent gueres.</l>
             <l>Le plus ſeur toutefois eſt de ſe biẽ garder</l>
             <l>Craindre tout, ne rien hazarder.</l>
             <l>Filles maintenez vous; l’affaire eſt <lb/>d’importance.</l>
