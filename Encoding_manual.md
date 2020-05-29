@@ -6,11 +6,7 @@ There are 3 different levels
 
 ![100% center](Documentation/Encoding_levels.png)
 
-<<<<<<< HEAD
-There are 5 different levels
-=======
 There are 5 different schemas
->>>>>>> 3605574728e5f972601930efe13e0c4ae9a2280d
 
 ![80% center](Documentation/ODD-chaining.png)
 
@@ -93,7 +89,6 @@ Online version
 ```
 
 4. Level 2
-<<<<<<< HEAD
 
 Local version
 ```xml
@@ -108,22 +103,6 @@ Online version
 			type="application/xml"
 			schematypens="http://relaxng.org/ns/structure/1.0"?>
 ```
-=======
-
-Local version
-```xml
-<?xml-model href="/path/to/ODD-2.rng"
-			type="application/xml"
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-```
-
-Online version
-```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng"
-			type="application/xml"
-			schematypens="http://relaxng.org/ns/structure/1.0"?>
-```
->>>>>>> 3605574728e5f972601930efe13e0c4ae9a2280d
 5. Level 3
 
 Local version
@@ -384,8 +363,4 @@ We try to keep the `<lb/>` nested at the lowest granularity level, within the `<
 ```xml
 <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f10"/>
 <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k319141c/f11"/>
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 3605574728e5f972601930efe13e0c4ae9a2280d
