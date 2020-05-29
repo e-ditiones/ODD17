@@ -3,25 +3,25 @@
 <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
    <fileDesc>
       <titleStmt>
-         <title>L'Amadis de Gaule</title>
-         <author>Marcassus</author>
-         <editor>Simon Gabay</editor>
+         <title type="main">L'Amadis de Gaule</title>
+         <title ref="sub">E-Ditiones</title>
+         <author ref="isni:0000000122764667">Marcassus</author>
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
       </titleStmt>
       <publicationStmt>
          <publisher>E-Ditiones project</publisher>
          <ref target="https://github.com/e-ditiones"/>
          <availability status="restricted" n="cc-by">
             <licence target="https://creativecommons.org/licenses/by/4.0"/>
-         </availability>   
+         </availability>
       </publicationStmt>
       <sourceDesc>
          <bibl>
-            <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k15108932"/>
-            <publisher>gallica.bnf.fr / Bibliothèque nationale de France</publisher>
-            <author>Marcassus</author>
+            <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k15108932"/>
+            <author ref="isni:0000000122764667">Marcassus</author>
             <title>L'Amadis de Gaule</title>
-            <pubPlace>Paris</pubPlace>
-            <publisher>P. Rocolet</publisher>
+            <pubPlace ref="geonames:2988507">Paris</pubPlace>
+            <publisher ref="isni:0000000008903969">P. Rocolet</publisher>
             <date when="1629">1629</date>
          </bibl>
       </sourceDesc>

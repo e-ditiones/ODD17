@@ -4,29 +4,29 @@
 <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
         <titleStmt>
-            <title>L'Amour à la mode</title>
-            <author>Thomas Corneille</author>
-            <editor>Simon Gabay</editor>
+            <title type="main">L'Amour à la mode</title>
+            <title type="sub">E-Ditiones</title>
+            <author ref="isni:000000012281648X">Thomas Corneille</author>
+            <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
         <publicationStmt>
-            <authority>E-Ditiones project</authority>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
             <availability status="restricted" n="cc-by">
-                <licence target="https://creativecommons.org/licenses/by/4.0">
-                    <p>Attribution 4.0 International (CC BY 4.0)</p>
-                </licence>
+                <licence target="https://creativecommons.org/licenses/by/4.0"/>
             </availability>
         </publicationStmt>
         <sourceDesc>
             <bibl>
-                <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k12803338"/>
+                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k12803338"/>
                 <publisher>gallica.bnf.fr / Bibliothèque nationale de France</publisher>
-                <author>Corneille, Thomas (1625-1709)</author>
+                <author ref="isni:000000012281648X">Thomas Corneille</author>
                 <title>L'Amour à la mode, comédie</title>
-                <pubPlace>Rouen</pubPlace>
-                <publisher>L. Maurry</publisher>
-                <pubPlace>Paris</pubPlace>
-                <publisher>G. de Luynes</publisher>
-                <date>1653</date>
+                <pubPlace ref="geonames:2982652">Rouen</pubPlace>
+                <publisher ref="isni:0000000400054498">L. Maurry</publisher>
+                <pubPlace ref="geonames:2988507">Paris</pubPlace>
+                <publisher ref="isni:0000000360919281">G. de Luynes</publisher>
+                <date when="1653">1653</date>
             </bibl>
         </sourceDesc>
     </fileDesc>

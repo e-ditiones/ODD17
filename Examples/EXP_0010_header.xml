@@ -4,48 +4,35 @@
 <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
         <titleStmt>
-            <title>Scipion</title>
-            <author>Nicolas Pradon</author>
-            <editor>Simon Gabay</editor>
+            <title type="main">Scipion</title>
+            <title ref="sub">E-Ditiones</title>
+            <author ref="isni:0000000115726523">Nicolas Pradon</author>
+            <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
-        <extent>9458 words</extent>
+        <extent>
+            <measure n="9458" unit="words"/>
+            <measure n="79" unit="images"/>
+        </extent>
         <publicationStmt>
-            <authority>e-ditiones</authority>
-            <availability status="restricted">
-                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
+            <availability status="restricted" n="cc-by">
+                <licence target="https://creativecommons.org/licenses/by/4.0"/>
             </availability>
         </publicationStmt>
         <sourceDesc>
             <bibl status="draft">
-                <author>Nicolas Pradon</author>
+                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k857200c"/>
+                <author ref="isni:0000000115726523">Nicolas Pradon</author>
                 <title>Oeuvres</title>
-                <publisher>P. Ribou</publisher>
-                <pubPlace>Paris</pubPlace>
+                <publisher ref="isni:0000000081405798">J. Ribou</publisher>
+                <pubPlace ref="geonames:2988507">Paris</pubPlace>
                 <date when="1700">1700</date>
-                <ptr target="https://gallica.bnf.fr/ark:/12148/bpt6k857200c"/>
             </bibl>
         </sourceDesc>
     </fileDesc>
-    <encodingDesc>
-        <projectDesc>
-            <p>Creation of a NLP tools for 17th French</p>
-        </projectDesc>
-        <editorialDecl>
-            <correction method="silent">
-                <p>Very minor corrections, usually tagged.</p>
-            </correction>
-            <normalization method="silent">
-                <p>None</p>
-            </normalization>
-            <quotation>
-                <p>Original</p>
-            </quotation>
-            <punctuation>
-                <p>Original</p>
-            </punctuation>
-            <interpretation>
-                <p>None</p>
-            </interpretation>
-        </editorialDecl>
-    </encodingDesc>
+    <revisionDesc>
+        <change who="orcid:0000-0003-0850-8266" when="2020-05-26">Adaptation of the XML-TEI encoding
+            according to the new ODD</change>
+    </revisionDesc>
 </teiHeader>
