@@ -67,6 +67,17 @@
                      <attDef ident="n" mode="change" usage="rec"/>
                   </attList>
                </elementSpec>
+               
+               <elementSpec ident="hi" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="open">
+                           <valItem ident="italic"/>
+                           <valItem ident="initiale"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
 
             </schemaSpec>
          </div>
