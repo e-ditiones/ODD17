@@ -6,7 +6,7 @@ There are 3 different levels
 
 ![100% center](Documentation/Encoding_levels.png)
 
-There are 5 different levels
+There are 5 different schemas
 
 ![80% center](Documentation/ODD-chaining.png)
 
