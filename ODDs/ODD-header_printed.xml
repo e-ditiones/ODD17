@@ -246,18 +246,7 @@
                      <attDef ident="n" mode="delete"/>
                      <attDef ident="rend" mode="delete"/>
                   </attList>
-               </elementSpec>
-               
-               <elementSpec ident="title" mode="change">
-                  <attList>
-                     <attDef ident="type" mode="replace" usage="rec">
-                        <valList mode="add" type="closed">
-                           <valItem ident="main"/>
-                           <valItem ident="sub"/>
-                        </valList>
-                     </attDef>
-                  </attList>
-               </elementSpec>
+               </elementSpec>             
                
                <elementSpec ident="availability" mode="change">
                   <attList>
@@ -291,6 +280,17 @@
                      </sequence>
                      <elementRef key="date"/>
                   </content>
+               </elementSpec>
+               
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="replace" usage="rec">
+                        <valList mode="add" type="closed">
+                           <valItem ident="main"/>
+                           <valItem ident="sub"/>
+                        </valList>
+                     </attDef>
+                  </attList>
                </elementSpec>
                
                <elementSpec ident="pubPlace" mode="change">
