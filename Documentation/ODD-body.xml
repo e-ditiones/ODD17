@@ -3,7 +3,7 @@
 <body xmlns="http://www.tei-c.org/ns/1.0">
    <div>
       <figure>
-         <graphic url="../logo_e-ditiones.png" width="300px"/>
+         <graphic url="../images/logo_e-ditiones.png" width="300px"/>
       </figure>
       <head>Introduction</head>
       <p>This document provides the specific encoding principles for manuscripts and printed
@@ -25,7 +25,7 @@
          <p>Please note that we are still working on the best way to form a complete file.</p>
          <p>Another essential principle of the project is to use a minimal set of elements.</p>
          <figure>
-            <graphic url="../Documentation/ODD-chaining.png"/>
+            <graphic url="../images/ODD-chaining.png"/>
             <head>ODD-chaining</head>
             <figDesc>Representation of the use of ODD-chaining in the e-ditiones project </figDesc>
          </figure>
