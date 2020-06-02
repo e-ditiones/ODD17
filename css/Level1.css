@@ -1,0 +1,48 @@
+/* GLOBAL */
+
+p {
+    margin-top: 1Em;
+    margin-bottom: 1Em;
+    margin-left: 1Em;
+    margin-right: 1Em;
+    display: block;
+    background-color:#d2ced9;
+    counter-reset: page;
+}
+
+pb::before{
+    content: "Unnumbered page : ";
+    font-style: italic;
+    font-weight: bold;
+}
+
+pb[n]::before{
+    counter-increment: page;
+    content: "Page " counter(page) " : ";
+    font-style: italic;
+    font-weight: bold;
+}
+
+pb {
+    display: block;
+    margin-top: 0.5Em;
+    margin-bottom: 0.3Em;
+    content: attr(facs);
+}
+
+fw {
+    background-color: red;
+    display: block;
+}
+
+lb {
+    display: block;
+}
+
+sic {
+    color: red;
+}
+
+corr {
+    color: green;
+}
