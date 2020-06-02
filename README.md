@@ -16,7 +16,7 @@ The metadata and the transcriptions both have their own schemas.
 
 <br/>
 
-![Encoding-levels](Documentation/Encoding_levels.png)
+![Encoding-levels](images/Encoding_levels.png)
 
 <br/>
 <br/>
@@ -28,7 +28,7 @@ All these schemas are related to one another thanks to ODD-chaining.
 <br/>
 <br/>
 
-<img src="Documentation/ODD-chaining.png" width="80%">
+<img src="images/ODD-chaining.png" width="80%">
 
 <br/>
 
@@ -92,4 +92,4 @@ This repository is CC-BY-SA.
 
 Alexandre Bartz, Simon Gabay. 2019. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/e-ditiones/ODD17.
 
-<img src="logo_e-ditiones.png" width="40%">
+<img src="images/logo_e-ditiones.png" width="40%">
