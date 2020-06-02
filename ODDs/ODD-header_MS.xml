@@ -2,12 +2,15 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Encoding guidelines of the teiHeader for manuscripts</title>
+            <title>Encoding guidelines for the teiHeader of manuscripts</title>
             <author>Alexandre Bartz</author>
+            <author>Simon Gabay</author>
          </titleStmt>
          <publicationStmt>
             <authority>E-ditiones</authority>
@@ -18,6 +21,7 @@
       </fileDesc>
       <revisionDesc>
          <change when="2020-05-27">Add new elements and delete others.</change>
+         <change when="2020-05-31"> Complete correction+schematron rules</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -28,19 +32,671 @@
 
       <back>
          <div>
-            <schemaSpec ident="header_MS" source="../Mother-compiled.xml" start="teiHeader">
+            <schemaSpec ident="header_MS" source="../mother/Mother-compiled.xml" start="teiHeader">
                <moduleRef key="tei"/>
+               <!-- respStmt -->
                <moduleRef key="header"
-                  include="teiHeader fileDesc titleStmt sourceDesc editionStmt respStmt publicationStmt edition licence extent authority encodingDesc projectDesc 
-                  editorialDecl correction hyphenation normalization quotation punctuation interpretation segmentation revisionDesc change idno notesStmt availability"/>
+                  include="teiHeader fileDesc titleStmt sourceDesc editionStmt publicationStmt edition licence extent authority
+                  encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation
+                  segmentation revisionDesc change idno notesStmt availability profileDesc correspDesc correspAction handNote
+                  scriptNote langUsage language"/>
                <moduleRef key="core"
-                  include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ptr date name respStmt resp"/>
-               <moduleRef key="namesdates" include="forename surname persName country settlement"/>
+                  include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ref date name
+                  respStmt resp"/>
+               <moduleRef key="namesdates" include="forename surname persName country settlement placeName"/>
                <moduleRef key="msdescription"
-                  include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material foliation bindingDesc binding history additional surrogates msPart msContents msItem locus incipit explicit filiation height width condition decoNote"/>
+                  include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material
+                  foliation bindingDesc binding history additional surrogates msPart msContents msItem locus incipit explicit filiation
+                  height width condition handDesc scriptDesc decoDesc decoNote sealDesc accMat watermark provenance acquisition"/>
                <moduleRef key="textstructure" include="docDate"/>
             </schemaSpec>
+            
+            <!-- Attributs -->
+            
+            <classSpec ident="att.global.responsibility" type="atts" mode="delete"/> <!-- @cert @resp -->
+            
+            <classSpec ident="att.declarable" type="atts" mode="delete"/> <!-- @default -->
+            
+            <classSpec ident="att.declaring" type="atts" mode="delete"/> <!-- @decls -->
+            
+            <classSpec ident="att.cReferencing" type="atts" mode="delete"/> <!-- @cRef -->
+            
+            <classSpec ident="att.internetMedia" type="atts" mode="delete"/> <!-- @mimeType -->
+            
+            <classSpec ident="att.sortable" type="atts" mode="delete"/> <!-- @sortKey -->
+            
+            <classSpec ident="att.editLike" type="atts" mode="delete"/> <!-- @evidence @instant -->
+            
+            <classSpec ident="att.written" type="atts" mode="delete"/> <!-- @hand -->
+            
+            <classSpec ident="att.datable.iso" type="atts" mode="delete"/> <!-- @when-iso @notBefore-iso… -->
+            
+            <classSpec ident="att.datable.custom" type="atts" mode="delete"/> <!-- @when-custom @notBefore-custom @notAfter-custom… -->
+            
+            <classSpec  type="atts" ident="att.global" mode="change">         
+               <attList>
+                  <attDef ident="xml:base" mode="delete"/>
+                  <attDef ident="xml:space" mode="delete"/>
+                  <attDef ident="xml:lang" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <classSpec  type="atts" ident="att.global.rendition" mode="change">         
+               <attList>
+                  <attDef ident="rendition" mode="delete"/>
+                  <attDef ident="style" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <classSpec  type="atts" ident="att.ranging" mode="change">         
+               <attList>
+                  <attDef ident="atLeast" mode="delete"/>
+                  <attDef ident="atMost" mode="delete"/>
+                  <attDef ident="min" mode="delete"/>
+                  <attDef ident="max" mode="delete"/>
+                  <attDef ident="confidence" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <!-- root element -->
+            
+            <elementSpec ident="teiHeader" mode="change">
+               <constraintSpec ident="xmlid" scheme="schematron">
+                  <constraint>
+                     <sch:rule context="tei:teiHeader">
+                        <sch:let name="fileName" value="tokenize(document-uri(/), '/')[last()]"/>
+                        <sch:assert test="string(@xml:id) = substring-before($fileName, '.xml')" role="error">
+                           The xml:id of the TEI element should be equal to the name of the
+                           file, without the file extension. Currently the value of xml:id is "<sch:value-of select="@xml:id"/>" 
+                           whilst the file name is "<sch:value-of select="$fileName"/>"
+                        </sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <!-- global -->
+            
+            <elementSpec ident="p" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:p/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of p must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="part" mode="delete"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="ref" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="mimeType" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+               </attList>
+            </elementSpec>
+            
+            <!-- fileDesc -->
+            
+            <elementSpec ident="fileDesc" mode="change">
+               <content>
+                  <elementRef key="titleStmt"/>
+                  <elementRef key="extent"/>
+                  <elementRef key="publicationStmt"/>
+                  <elementRef key="sourceDesc"/>
+               </content>
+            </elementSpec>
+            
+            <!-- titleStmt -->
+            
+            <elementSpec ident="titleStmt" mode="change">
+               <content>
+                  <elementRef key="title" minOccurs="2" maxOccurs="2"/>
+                  <elementRef key="editor"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="title" mode="change">
+               <constraintSpec ident="titleType" scheme="schematron">
+                  <constraint>
+                     <sch:rule context="tei:titleStmt/tei:title">
+                        <sch:assert test="@type" role="error">Please add a @type attribute (value 'main' or 'sub')</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <constraintSpec ident="editionType" scheme="schematron">
+                  <constraint>
+                     <sch:rule context="tei:titleStmt/tei:title/@type[contains(., 'sub')]">
+                        <sch:assert test="../contains(.,'E-Ditiones edition')" role="error">The content of the element "title" @type='sub' must be "E-Ditiones edition"</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="level" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="type" mode="replace" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="main"/>
+                        <valItem ident="sub"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="editor" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="role" mode="delete"/>
+                  <attDef ident="ref" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <!-- extent -->
+            
+            <elementSpec ident="extent" mode="change">
+               <content>
+                  <elementRef key="measure" maxOccurs="unbounded"/>
+                  <elementRef key="height" minOccurs="0"/>
+                  <elementRef key="width" minOccurs="0"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="measure" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="not(text())" role="error">"measure" does not contain any text.</sch:assert>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="commodity" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="unit" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="bifolio"/>
+                        <valItem ident="folio"/>
+                        <valItem ident="page"/>
+                        <valItem ident="image"/>
+                        <valItem ident="word"/>
+                        <valItem ident="document"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="quantity" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="height" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="not(text())" role="error">There must be no text</sch:assert>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="unit" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="mm"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="quantity" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="width" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="not(text())" role="error">There must be no text</sch:assert>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="unit" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="mm"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="quantity" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <!-- publicationStmt -->
+            
+            <elementSpec ident="publicationStmt" mode="change">
+               <content>
+                  <elementRef key="publisher"/>
+                  <elementRef key="ref"/>
+                  <elementRef key="availability"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="publisher" mode="change">
+               <constraintSpec ident="editionType" scheme="schematron">
+                  <constraint>
+                     <sch:rule context="tei:publisher">
+                        <sch:assert test="contains(.,'E-Ditiones project')" role="error">The publisher is "E-Ditiones project"</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="availability" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="status" mode="change" usage="rec"/>
+                  <attDef ident="n" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="licence" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="notBefore" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="target" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <!-- sourceDesc -->
+            
+            <elementSpec ident="physDesc" mode="change">
+               <content>
+                  <alternate>
+                     <sequence>
+                        <elementRef key="objectDesc"/>
+                        <elementRef key="handDesc"/>
+                        <elementRef key="scriptDesc"/>
+                        <elementRef key="decoDesc"/>
+                        <elementRef key="sealDesc"/>
+                        <elementRef key="accMat"/>
+                     </sequence>
+                     <sequence>
+                        <elementRef key="objectDesc"/>
+                        <elementRef key="bindingDesc"/>
+                        <elementRef key="accMat"/>
+                     </sequence>
+                  </alternate>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="msPart" mode="change">
+               <content>
+                  <elementRef key="msIdentifier"/>
+                  <elementRef key="head"/>
+                  <elementRef key="msContents"/>
+                  <elementRef key="physDesc"/>
+                  <elementRef key="history"/>
+                  <elementRef key="additional"/>
+               </content>
+               <attList>
+                  <attDef ident="xml:id" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="provenance">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:provenance/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of p must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="acquisition">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:acquisition/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of p must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <!-- msItem -->
+            
+            <elementSpec ident="msItem" mode="change">
+               <content>
+                  <elementRef key="locus"/>
+                  <elementRef key="author" maxOccurs="unbounded"/>
+                  <elementRef key="docDate"/>
+                  <elementRef key="incipit"/>
+                  <elementRef key="explicit"/>
+                  <elementRef key="filiation"/>
+                  <elementRef key="note" minOccurs="0"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="locus" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="not(text())" role="error">There must be no text</sch:assert>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="target" mode="delete"/>
+                  <attDef ident="scheme" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="page"/>
+                        <valItem ident="folio"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="from" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                  </attDef>
+                  <attDef ident="to" mode="replace" usage="rec">
+                     <datatype>
+                        <dataRef key="teidata.numeric"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="filiation" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="text()" role="error">Please develop…</sch:assert>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="autograph"/>
+                        <valItem ident="copy"/>
+                        <valItem ident="draft"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>  
+            
+            <!-- physDesc -->
+            
+            <elementSpec ident="supportDesc" mode="change">
+               <content>
+                  <elementRef key="support"/>
+                  <elementRef key="extent"/>
+                  <elementRef key="foliation"/>
+                  <elementRef key="condition"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="support" mode="change">
+               <content>
+                  <elementRef key="objectType"/>
+                  <elementRef key="material" minOccurs="0"/>
+                  <elementRef key="watermark" minOccurs="0"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="objectType" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="composite"/>
+                        <valItem ident="mounted"/>
+                        <valItem ident="portfolio"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="material" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:material/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of material must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="paper"/>
+                        <valItem ident="parchment"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="watermark" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:watermark/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of watermark must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="watermark"/>
+                        <valItem ident="countermark"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="condition" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:condition/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of condition must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="text()" role="error">Please develop…</sch:assert>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="foliation" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:foliation/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of foliation must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="handNote" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:handNote/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of handNote must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="scriptNote" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:scriptNote/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of scriptNote must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <elementSpec ident="decoNote" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:rule context="tei:decoNote/text()">
+                        <sch:assert test="ends-with(.,'.')" role="error">The content of decoNote must end with a final stop.</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+            </elementSpec>
+            
+            <!-- additional -->
+            
+            <elementSpec ident="additional" mode="change">
+               <content>
+                  <elementRef key="surrogates"/>
+                  <elementRef key="listBibl"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="listBibl" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="type" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="catalogue"/>
+                        <valItem ident="L1"/>
+                        <valItem ident="L2"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="bibl" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="status" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <!-- profileDesc -->
 
+            <elementSpec ident="profileDesc" mode="change">
+               <content>
+                  <elementRef key="correspDesc" minOccurs="0" maxOccurs="unbounded"/>
+                  <elementRef key="langUsage" minOccurs="1"/>
+               </content>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="correspDesc" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="corresp" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="correspAction" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="type" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="persName" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="full" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="persName" mode="change">
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="full" mode="change" usage="rec"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="language" mode="change">
+               <constraintSpec scheme="schematron" ident="empty">
+                  <constraint>
+                     <sch:assert test="not(text())" role="error">"language" does not contain any text.</sch:assert>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="xml:id" mode="delete"/>
+                  <attDef ident="rend" mode="delete"/>
+                  <attDef ident="n" mode="delete"/>
+                  <attDef ident="ident" mode="change" usage="rec">
+                     <valList mode="add" type="closed">
+                        <valItem ident="fr"/>
+                        <valItem ident="it"/>
+                        <valItem ident="de"/>
+                        <valItem ident="la"/>
+                        <valItem ident="en"/>
+                        <valItem ident="grc"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
          </div>
       </back>
    </text>

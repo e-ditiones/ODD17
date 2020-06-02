@@ -4,11 +4,11 @@ How to encode documents according *E-ditiones* schemas.
 
 There are 3 different levels
 
-![100% center](Documentation/Encoding_levels.png)
+<img src="images/Encoding_levels.png" width="80%" style="display: block;margin-left: auto; margin-right: auto">
 
 There are 5 different schemas
 
-![80% center](Documentation/ODD-chaining.png)
+<img src="images/ODD-chaining.png" width="80%" style="display: block;margin-left: auto; margin-right: auto">
 
 ## Encoding logic
 
@@ -16,7 +16,7 @@ When encoding, we always have to correct small typos, etc. In order to prevent h
 1. Level 2 encoding is considered the last state of the document
 2. If, and only if, there is no level 2 encoding, it is the level 1 that is considered the master file.
 
-In order to prevent any inconsistency, when a document is entirely encoded in level 2, it is back-converted into level 1 thanks to the [`level2to1.xsl`](https://github.com/e-ditiones/ODD17/blob/master/level2to1.xsl).
+In order to prevent any inconsistency, when a document is entirely encoded in level 2, it is back-converted into level 1 thanks to the [`level2to1.xsl`](https://github.com/e-ditiones/ODD17/blob/master/xslt/level2to1.xsl).
 
 ## Using the schemas
 
@@ -26,18 +26,30 @@ Schemas can be downloaded and used locally by adjusting the `@href`
 <?xml-model href="/path/to/ODD-header_MS.rng"
             type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="/path/to/ODD-header_MS.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 It is also possible to link the `xml` file to the schemas online (validation against the schema will be be possible only if the computer is connected to the internet).
 
 ```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng"
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-header_MS.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-header_MS.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
+
+Do note that the `<xml-model>` is repeated twice:
+1. one for the relax NG schema (`schematypens="http://relaxng.org/ns/structure/1.0"`)
+2. one for the schematron rules (`schematypens="http://purl.oclc.org/dsdl/schematron"`).
 
 ### `<teiHeader>`
 
-For each level, there are five different `<?xml-model>`
+For each level, there are five different `<?xml-model>`.
+Only the two models for headers use schematron constraints.
 1. Manuscript header
 
 Local version
@@ -45,13 +57,20 @@ Local version
 ```xml
 <?xml-model href="/path/to/ODD-header_MS.rng"
             type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="/path/to/ODD-header_MS.rng"
+            type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 Online version
 ```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_MS.rng"
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-header_MS.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-header_MS.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 2. Print header
@@ -59,15 +78,21 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 Local version
 ```xml
 <?xml-model href="/path/to/ODD-header_printed.rng"
-			type="application/xml"
+			      type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="/path/to/ODD-header_printed.rng"
+            type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 Online version
 ```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-header_printed.rng"
-			type="application/xml"
-			schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-header_printed.rng"
+			      type="application/xml"
+			      schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-header_printed.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 ### `<text>`
@@ -77,15 +102,21 @@ Online version
 Local version
 ```xml
 <?xml-model href="/path/to/ODD-1.rng"
-			type="application/xml"
+			      type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="/path/to/ODD-1.rng"
+			      type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 Online version
 ```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-1.rng"
-			type="application/xml"
-			schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-1.rng"
+			      type="application/xml"
+			      schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-1.rng"
+			      type="application/xml"
+			      schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 4. Level 2
@@ -93,30 +124,42 @@ Online version
 Local version
 ```xml
 <?xml-model href="/path/to/ODD-2.rng"
-			type="application/xml"
+			      type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="/path/to/ODD-2.rng"
+			      type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 Online version
 ```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-2.rng"
-			type="application/xml"
-			schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-2.rng"
+			      type="application/xml"
+			      schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-2.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 5. Level 3
 
 Local version
 ```xml
 <?xml-model href="/path/to/ODD-3.rng"
-			type="application/xml"
+			      type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="/path/to/ODD-3.rng"
+            type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 Online version
 ```xml
-<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/out/ODD-3.rng"
-			type="application/xml"
-			schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-3.rng"
+			      type="application/xml"
+			      schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schema/ODD-3.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 
@@ -124,8 +167,9 @@ Online version
 
 We will take the example of Jean de La Fontaine, _Deuxiesme partie des Contes et nouvelles en vers, de M. de La Fontaine_, Paris: C. Barbin, 1666. The book is available online: [ark:/12148/bpt6k319141c](https://gallica.bnf.fr/ark:/12148/bpt6k319141c)
 
-![30%](Documentation/bpt6k319141c_f9.jpg) ![30%](Documentation/bpt6k319141c_f10.jpg) ![30%](Documentation/bpt6k319141c_f11.jpg)
-
+<img src="images/bpt6k319141c_f9.jpg" width="30%" >
+<img src="images/bpt6k319141c_f10.jpg" width="30%" >
+<img src="images/bpt6k319141c_f11.jpg" width="30%" >
 
 ---
 ### Encoding
@@ -320,7 +364,7 @@ Level 1 encoding
 
 ### A `<pb>`in the middle of a word
 
-![30%](Documentation/bpt6k3142288_f23.jpg)
+<img src="images/bpt6k3142288_f23.jpg" width="80%" >
 
 
 ```xml
@@ -343,7 +387,7 @@ Words **are not** reconstituted artificially
 ```
 ### Position of the `<lb/>`
 
-![30%](Documentation/bpt6k3142288_f23.jpg)
+<img src="images/bpt6k3142288_f23.jpg" width="80%">
 
 We try to keep the `<lb/>` nested at the lowest granularity level, within the `<fw>` for instance.
 
