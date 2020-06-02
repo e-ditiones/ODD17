@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- This file contains all ellements that wil be used in the encoding. In order to use ODD-chaining, a first XSL transformation is processed on this file, using oddbyexample.xml.
+      The output file is named `Mother-ODD`.
+   -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Princeton, C0710, vol. 3.</title>
+            <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+         </titleStmt>
+         <extent>
+            <measure>
+               <measure unit="image" quantity="000"/>
+               <measure unit="word" quantity="000"/>
+            </measure>
+         </extent>
+         <publicationStmt>
+            <publisher>E-Ditiones project  <ref target="https://github.com/e-ditiones"/>
+            </publisher>
+           
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Country</country>
+                  <settlement>Town</settlement>
+                  <institution>Library</institution>
+                  <repository>repository</repository>
+                  <collection>Collection</collection>
+                  <idno type="shelfmark">C0710, vol. 3</idno>
+               </msIdentifier>
+               <head/>
+               <msContents>
+                  <p/>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="composite"/>
+                           <material rend="paper"/>
+                           <watermark rend="countermark"/>
+                        </support>
+                        <extent>
+                           <measure unit="page" n="unk"/>
+                        </extent>
+                        <foliation>pages numbered?</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+                  <sealDesc>
+                     <seal>
+                        <p/>
+                     </seal>
+                  </sealDesc>
+                  <accMat>test</accMat>
+               </physDesc>
+               <history>
+                  <provenance source="someDoc" when="1000">collection of<persName ref="isni:0000000">Someone</persName></provenance>
+                  <acquisition when="1000">Bought by someone</acquisition>
+               </history>
+               <additional>
+                  <surrogates>
+                     <!-- add images here -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ptr type="other"
+                              target="http://findingaids.princeton.edu/collections"/>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="L1">
+                        <bibl>author, <title>title</title>, place and date of publication</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart xml:id="MS_000001_p81">
+                  <msIdentifier>
+                     <idno>Short shelfmark+page/doc number</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <locus scheme="page" n="n"/>
+                        <author>
+                           <persName ref="isni:0000000">Someone</persName>
+                        </author>
+                        <docDate when="0001-01-01">Somewhere</docDate>
+                        <incipit>beginning of document</incipit>
+                        <explicit>end of document</explicit>
+                        <filiation type="autograph">autograph? copy? draft?</filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <objectType rend="rend"/>
+                              <material rend="rend"/>
+                           </support>
+                           <extent>
+                              <measure unit="unit" n="0"/>
+                              <measure unit="unit" n="0"/>
+                              <height unit="unit" n="0"/>
+                              <width unit="unit" n="0"/>
+                           </extent>
+                           <condition>Bon.</condition>
+                        </supportDesc>
+                     </objectDesc>
+                     <accMat>accompanying material</accMat>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+            <bibl>
+               <ref target="https://catalogue.bnf.fr/ark:/12148/zzzzzz"/>
+               <title>title</title>
+               <author ref="isni:0000000">Someone</author>
+               <publisher ref="geonames:0000000">Someone</publisher>
+               <pubPlace ref="geonames:0000000">Somewhere</pubPlace>
+               <date when="1622">1622</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc corresp="#msPart1">
+            <correspAction type="sent">
+               <persName ref="isni:0000000">Someone</persName>
+               <placeName ref="geonames:0000000">Somewhere</placeName>
+               <date when="0001-01-01">Somewhen</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="isni:0000000">Someone</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p/>
+            </correction>
+            <hyphenation>
+               <p/>
+            </hyphenation>
+            <normalization>
+               <p/>
+            </normalization>
+            <quotation>
+               <p/>
+            </quotation>
+            <punctuation>
+               <p/>
+            </punctuation>
+            <interpretation>
+               <p/>
+            </interpretation>
+            <segmentation>
+               <p>
+                  <list>
+                     <item/>
+                  </list>
+               </p>
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding according to the new ODD</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>Blabla</p>
+      </front>
+      <body>
+         <div type="type" xml:id="idiv">
+            <head>head</head>
+            <div type="type">
+               <head>head</head>
+               <stage>Acteur.rice.s</stage>
+               <sp>
+                  <speaker>XY</speaker>
+                  <l n="n" xml:id="idL"><hi>B</hi>lablabla, <persName ref="A">A</persName> goes to <placeName ref="C">C</placeName></l>
+                  <p>Voici un premier <lb/>exemple <choice><sic>pos</sic><corr>pas</corr></choice> très ori-<lb break="no"/>nal. </p>
+                  <p>Exemple de note<ref>1</ref>
+                  <note>Contenu de la note</note></p>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <opener>From <persName>A</persName> to <persName>B</persName>,
+               <placeName>C</placeName></opener>
+            <list>
+               <item>1</item>
+               <item>2</item>
+            </list>
+            <p><orgName>Blabla</orgName></p>
+            <pb n="n" facs="url"/>
+            <closer>See you soon</closer>
+         </div>
+         <div>
+            <head>Roman</head>
+            <p  xml:id="idP">Blabla <fw>Poème</fw>
+               <lg>
+                  <l>Blabla</l>
+               </lg>
+            </p>
+         </div>
+         <div>
+            <p>
+               <choice>
+                  <orig><seg><w/></seg></orig>
+                  <reg><seg><w/></seg></reg>
+               </choice>
+            </p>
+         </div>
+      </body>
+      <back>
+         <p>Blabla final</p>
+      </back>
+   </text>
+</TEI>
