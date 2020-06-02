@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-header_MS.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-header_MS.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../css/MS.css"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0017">
+   <fileDesc>
+      <titleStmt>
+         <title type="main">Harvard, Lowell collection, MS 282</title>
+         <title type="sub">E-Ditiones edition</title>
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+      </titleStmt>
+      <extent>
+         <measure unit="image" quantity="189"/>
+         <measure unit="word" quantity="000"/>
+      </extent>
+      <publicationStmt>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <msDesc>
+            <msIdentifier>
+               <country>Etats-Unis</country>
+               <settlement>Cambridge (MA)</settlement>
+               <institution>Houghton library - Harvard College Library</institution>
+               <collection>Amy Lowell autograph collection, 1523-1930</collection>
+               <idno type="shelfmark">282</idno>
+            </msIdentifier>
+            <head>Lettre de Mme de Sévigné et sa fille à M. de Grignan</head>
+            <msContents>
+               <msItem>
+                  <locus scheme="page" from="3" to="6"/>
+                  <author>
+                     <persName ref="isni:0000000122780157">Madame de Sévigné</persName>
+                  </author>
+                  <docDate when="1690-07-12">17 juin 1671</docDate>
+                  <incipit>Si ma bonne santé peut vous consoler de n'avoir qu'une fille</incipit>
+                  <explicit>accouchée et qu'elle se porte parfaitement bien mais hélas c'est d'une fille.</explicit>
+                  <filiation type="autograph">autographe, document original.</filiation>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support>
+                        <objectType rend="portfolio">portefeuille.</objectType>
+                        <material>papier.</material>
+                     </support>
+                     <extent>
+                        <measure unit="page" quantity="6"/>
+                        <measure unit="document" quantity="1"/>
+                        <height unit="mm" quantity="228"/>
+                        <width unit="mm" quantity="168"/>
+                     </extent>
+                     <foliation>les pages ne sont pas numérotées.</foliation>
+                     <condition>Bon.</condition>
+                  </supportDesc>
+               </objectDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>pas de reliure.</p>
+                  </binding>
+               </bindingDesc>
+               <accMat/>
+            </physDesc>
+            <history>
+               <provenance when="1781-01-01">Acquisition par Mme Rosenhaguen à Monaco le 1er juillet 1781 aurpès du'une descendante de la marquise.</provenance>
+               <provenance>Collection d'Emma Colebrooke, épouse de Charles Bennet, 4th Earl of Tankerville.</provenance>
+               <provenance>Collection de Henry Grey Bennet, fils d'Emma Colebrooke.</provenance>
+               <provenance when="1816-05-18">Collection de Gertrude Frances, épouse de Henry Grey Bennet le 18 mai 1816.</provenance>
+               <provenance source="#CAT_000014_e26" when="1904">Vente Sotheby, Wilkinson &amp; Hodge (18/07/1904), lot n°26.</provenance>
+               <provenance>collection d'<persName ref="isni:0000000110514724">Amy Lowell</persName></provenance>
+               <acquisition>Bibliothèque de Harvard</acquisition>
+            </history>
+            <additional>
+               <surrogates>
+                  <graphic source="local" url="chemin"/>
+               </surrogates>
+               <listBibl>
+                  <listBibl type="catalogue">
+                     <bibl>
+                        <ref target="https://hollisarchives.lib.harvard.edu/repositories/24/archival_objects/761016"/>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="L1">
+                     <bibl><title>Lettres</title>, Monmerqué (éd.), 1862, t. II, p. 13, n°115. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63073197/f23.image"/></bibl>
+                     <bibl><title>Correspondance</title>, R. Duchêne (éd.), Paris: Gallimard, t. 1, p. 132.</bibl>
+                  </listBibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </sourceDesc>
+   </fileDesc>
+   <profileDesc>
+      <correspDesc>
+         <correspAction type="sent">
+            <persName ref="isni:0000000122780157">Madame de Sévigné</persName>
+            <persName ref="isni:0000000109133924">Madame de Grignan</persName>
+            <placeName ref="geonames:2988507">Paris</placeName>
+            <date when="1670-11-19">mercredi 19 novembre 1670</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="isni:0000000004477683">Monsieur de Grignan</persName>
+         </correspAction>
+      </correspDesc>
+      <langUsage>
+         <language ident="fr"/>
+      </langUsage>
+   </profileDesc>
+</teiHeader>

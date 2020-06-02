@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-header_MS.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-header_MS.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../css/MS.css"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0015">
+   <fileDesc>
+      <titleStmt>            
+         <title type="main">Princeton, C0710, vol. 3.</title>
+         <title type="sub">E-Ditiones edition</title>
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+      </titleStmt>
+      <extent>
+         <measure unit="image" quantity="189"/>
+         <measure unit="word" quantity="000"/>
+      </extent>
+      <publicationStmt>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <msDesc>
+            <msIdentifier>
+               <country>Etats-Unis</country>
+               <settlement>Princeton</settlement>
+               <institution>Princeton University Library</institution>
+               <repository>Manuscripts Division, Department of Rare Books and Special Collections</repository>
+               <collection>John Hinsdale Scheide Collection of Three Centuries of French History</collection>
+               <idno type="shelfmark">C0710, vol. 3</idno>
+            </msIdentifier>
+            <head/>
+            <msContents>
+               <p/>
+            </msContents>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support>
+                        <objectType rend="composite"/>
+                     </support>
+                     <extent>
+                        <measure unit="page" quantity="0"/>
+                     </extent>
+                     <foliation>Les pages ne sont pas numérotées.</foliation>
+                     <condition>Excellent état.</condition>
+                  </supportDesc>
+               </objectDesc>
+               <bindingDesc>
+                  <binding>
+                     <p/>
+                  </binding>
+               </bindingDesc>
+               <accMat/>
+            </physDesc>
+            <history>
+               <p>Ancienne collection John Hinsdale Scheide.</p>
+            </history>
+            <additional>
+               <surrogates>
+                  <!-- ajouter les images ici -->
+                  <graphic source="local" url="chemin"/>
+               </surrogates>
+               <listBibl>
+                  <listBibl type="catalogue">
+                     <bibl>
+                        <ref target="http://findingaids.princeton.edu/collections/C0710/c0241"/>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="L1">
+                     <bibl>La Fayette, <title>Œuvres complètes</title>, C. Esmein-Sarrazin (éd.), Paris: Gallimard, lettre n°70-1.</bibl>
+                  </listBibl>
+               </listBibl>
+            </additional>
+            <msPart xml:id="MS_000001_p81">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol.3, p. 81</idno>
+               </msIdentifier>
+               <head/>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" from="81"/>
+                     <author>
+                        <persName ref="isni:0000000114443046">Jean-Louis Guez de Balzac</persName>
+                     </author>
+                     <docDate when="0001-06-21">21 juin</docDate>
+                     <incipit>Vous recevrez à la fin ce que vous méritâtes le jour de votre naissance</incipit>
+                     <explicit>et que c'était avec respect qu'il faisait justice</explicit>
+                     <filiation type="autograph">autographe, probablement une copie.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material rend="paper"/>
+                        </support>
+                        <extent>
+                           <measure unit="bifolio" quantity="1"/>
+                           <measure unit="page" quantity="4"/>
+                           <height unit="mm" quantity="267"/>
+                           <width unit="mm" quantity="206"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msPart>
+         </msDesc>
+      </sourceDesc>
+   </fileDesc>
+   <profileDesc >
+      <correspDesc corresp="#msPart1">
+         <correspAction type="sent">
+            <persName ref="isni:0000000114443046">Jean-Louis Guez de Balzac</persName>
+            <date when="0001-06-21">21 juin</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="isni:0000000140143960">Louis de Nogaret de La Valette d'Épernon</persName>
+         </correspAction>
+      </correspDesc>
+      <langUsage>
+         <language ident="fr"/>
+      </langUsage>
+   </profileDesc>
+   <revisionDesc>
+      <change who="orcid:0000-0001-9094-4475" when="2020-06-01">Adaptation of the XML-TEI encoding according to the new ODD.</change>
+   </revisionDesc>
+</teiHeader>

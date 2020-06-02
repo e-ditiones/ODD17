@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0014-2">
+   <front>
+      <pb n="3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f17"/>
+      <fw>
+         <lb/>3</fw>
+      <div type="liminal">
+         <head>A LA REYNE.</head>
+         <head><hi>M</hi>ADAME,</head>
+         <p>
+            <lb/>Ceux qui s’aduiſerent de
+            <lb/>donner vn Soleil pour deuiſe
+            <lb/>au Roy voſtre Pere, auec ce
+            <lb/>mot, Il n'a point d’Occident pour moy, firent
+            <lb/>plus qu’ils ne penſoient: parce qu'en repreſen¬
+            <lb break="no"/>tans ſa grandeur qui voit preſque touſiours ce
+            <lb/>Prince des Aſtres ſur quelqu'vne de ſes terres,
+            <lb/>ſans interuale de nuict; ils rendirent la deui¬
+            <lb break="no"/>ſe hereditaire en voſtre Majeſté, preſageans
+            <lb/>vos vertus, &amp; de plus, la beatitude des Fran¬
+            <lb break="no"/>çois ſous voſtre Auguſte preſence. C'eſt diſie
+            <lb/>chez voſtre Majeſté, Madame, que la lumie¬
+            <lb break="no"/>re des vertus n'aura point d’Occident ny cõ¬
+            <lb break="no"/>ſequemment l'heur &amp; la felicité de nos Peu¬
+            <lb break="no"/>ples qu'elles eſclairerõt. Or comme vous eſtes
+            <lb/>en l’Orient de voſtre aage &amp; de vos vertus <fw>
+               <lb/>A ij
+               <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f18"/>
+               <lb/>4 Epiſtre à la Reyne.</fw>
+            <lb/>enſemble, Madame, daigneZ prendre cou¬
+            <lb break="no"/>rage d'arriuer en meſme point au midy de luy
+            <lb/>&amp; d’elles, ie dis de celles qui ne peuuent meurir
+            <lb/>que par temps &amp; culture: car il en eſt quel¬
+            <lb break="no"/>ques vnes des plus recommendables, entre
+            <lb/>autres la Religion, la charité vers les pauures,
+            <lb/>la chaſteté &amp; l'amour coniugale, dont vous
+            <lb/>aueZ touché le midy dés le matin. Mais cer¬
+            <lb break="no"/>tes il faut le courage requis à cet effort auſsi
+            <lb/>grand &amp; puiſſant que voſtre Royauté, pour
+            <lb/>grande &amp; puiſſante qu'elle ſoit: les Roys eſtãt
+            <lb/>battus de ce malheur, que la peſte infernale des
+            <lb/>flatteurs qui ſe gliſſent dans les Palais, leur
+            <lb/>rend la vertu &amp; la clair voyance ſa guide &amp;
+            <lb/>ſa nourrice, d’vn accez infiniment plus diffi¬
+            <lb break="no"/>cile qu'aux inferieurs. Ie ne ſcay qu'vn ſeur
+            <lb/>moyen à vous faire eſperer, d’atteindre ces
+            <lb/>deux midys en meſme inſtant: c'eſt qu’il plai¬
+            <lb break="no"/>ſe à V.M. ſe ietter viuement ſur les bons li¬
+            <lb break="no"/>ures de prudence &amp; de mœurs: car außi toſt
+            <lb/>qu'vn Prince s'eſt releué l'eſprit par cet exer¬
+            <lb break="no"/>cice, les flatteurs ſe trouuans les moins fins ne
+            <lb/>s'oſent plus iouër à luy. Et ne peuuent commu¬
+            <lb break="no"/>nemẽt les Puiſſans &amp; les Roys receuoir inſtru¬
+            <lb break="no"/>ction opportune que des mors: parce que les
+            <lb/>viuans eſtans partis en deux bandes, les foux
+            <lb/>&amp; meſchans, c'eſt à dire ces flateurs dont eſt
+            <pb n="5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f19"/>
+            <fw>
+               <lb/>Epiſtre à la Reyne. 5</fw>
+            <lb/>queſtion ne ſçauent ny veulent bien dire pres
+            <lb/>d'eux; les ſages gens de bien peuuent &amp;
+            <lb/>veulent, mais ils n'oſent. C'eſt en la vertu cer¬
+            <lb break="no"/>tes, MADAME, qu'il faut que les perſonnes de
+            <lb/>voſtre rang cherchent la vraye hauteſſe &amp; la
+            <lb/>Couronne des Couronnes: d'autant qu'ils ont
+            <lb/>puiſſance &amp; non droit de violer les loix &amp;
+            <lb/>l'equité, &amp; qu'ils trouuent autant de peril &amp;
+            <lb/>plus de honte que les autres hommes à faire ce
+            <lb/>coup. Außi nous apprend vn grand Roy luy
+            <lb/>meſme, que toute la gloire de la fille du Roy eſt
+            <lb/>par dedans. Quelle eſt cependant ma ruſticité,
+            <lb/>tous autres abordent leurs Princes Roys en
+            <lb/>adorant &amp; loüant, i'oſe aborder ma Reyne
+            <lb/>en preſchant? Pardonnez neantmoins à mon
+            <lb/>Zele, MADAME, qui meurt d'enuie d’ouyr
+            <lb/>la France crier ce mot, auec applaudiſſe¬
+            <lb break="no"/>ment, La lumiere n'a point d’Occident pour
+            <lb/>moy, par tout ou paſſera voſtre MAIESTE'
+            <lb/>nouueau Soleil des vertus: &amp; d’enuie enco¬
+            <lb break="no"/>re de tirer d'elle, ainſi que i'espere de ſes di¬
+            <lb break="no"/>gnes commencement, vne des plus fortes
+            <lb/>preuues du Traicté que i'offre à ſes pieds,
+            <lb/>pour maintenir l’egalité des hommes &amp; des
+            <lb/>femmes. Et non ſeulement veu la grandeur
+            <lb/>vnique qui vous eſt acquiſe par naiſſance &amp;
+            <lb/>par mariage, vous ſeruirez de miroir au ſexe <fw>
+               <lb/>A iij
+               <pb n="6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f20"/> 6 Epiſtre la
+               Reyne.</fw>
+            <lb/>&amp; de ſuiet d’emulation aux hommes encore,
+            <lb/>en l'eſtẽduë de l'Vniuers, ſi vous vous esleueZ
+            <lb/>au prix &amp; merite que ie vo9 propoſe: mais außi
+            <lb/>toſt, MADAME, que vous aurez pris reſolu¬
+            <lb break="no"/>tion de vouloir luyre de ce bel &amp; precieux eſ¬
+            <lb break="no"/>clat, on croira que tout le meſme ſexe eſclaire
+            <lb/>en la ſplendeur de vos rayons. Ie ſuis de vo¬
+            <lb break="no"/>ſtre Maieſté </p>
+         <closer>
+            <lb/>MADAME,
+            <lb/>Tres-humble &amp; Tres-obeiſſan¬
+            <lb break="no"/>te ſeruante &amp; ſubjecte.
+            <lb/>GOVRNAY. </closer>
+      </div>
+   </front>
+   <body>
+      <div type="undefined_part">
+         <pb n="7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f21"/>
+         <fw>
+            <lb/>7</fw>
+         <head>EGALITE' DES HOM¬
+            <lb break="no"/>MES ET DES FEMMES.</head>
+         <p>
+            <lb/><hi>L</hi>A pluſpart de ceux qui
+            <lb/>prennẽt la cauſe, des fem¬
+            <lb break="no"/>mes, contre cette orgueil¬
+            <lb break="no"/>leuſe preferance que les
+            <lb/>hommes s’attribuent, leur
+            <lb/>rendent le change entier: r’enuoyans la
+            <lb/>preferance vers elles. Moy qui fuys tou¬
+            <lb break="no"/>tes extremitez, ie me contente de les eſ¬
+            <lb break="no"/>galer aux hommes: la nature s’oppoſant
+            <lb/>pour ce regard autant à la ſuperiorité
+            <lb/>qu’à l’inferiorité. Que diſ-je, il ne ſuffit
+            <lb/>pas à quelques gens de leur preferer le
+            <lb/>ſexe maſculin, s’ils ne les confinoient
+            <lb/>encores d’vn arreſt irrefragable &amp; ne¬
+            <lb break="no"/>ceſſaire à la quenoüille, ouy meſme à la
+            <lb/>quenouille ſeule. Mais ce qui les peut
+            <lb/>conſoler contre ce meſpris, c’eſt qu’il
+            <pb n="8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f22"/>
+            <fw>
+               <lb/>8 Egalité des Hommes</fw>
+            <lb/>ne ſe faict que par ceux d’entre les hom¬
+            <lb break="no"/>mes auſquels elles voudroient moins
+            <lb/>reſſembler: perſonnes à donner vray
+            <lb/>ſemblance aux reproches qu’on pour¬
+            <lb break="no"/>roit voſmir ſur le ſexe feminin, s’ils en
+            <lb/>eſtoient, &amp; qui ſentent en leur cœur ne
+            <lb/>ſe pouuoir recommãder que par le cre¬
+            <lb break="no"/>dit de l’autre. D’autant qu’ils ont ouy
+            <lb/>trompetter par les ruës, que les femmes
+            <lb/>manquent de dignité, manquent auſſi
+            <lb/>de ſuffiſance, voire du temperament &amp;
+            <lb/>des organes pour arriuer à cette-cy, leur
+            <lb/>eloquence triomphe à preſcher ces ma¬
+            <lb break="no"/>ximes: &amp; tant plus opulemment, de ce
+            <lb/>que, dignité, ſuffiſance, organes &amp; tem¬
+            <lb break="no"/>perament ſont beaux mots: n’ayans
+            <lb/>pas appris d’autre part, que la premiere
+            <lb/>qualité d’vn mal habill’homme, c'eſt de
+            <lb/>cautionner les choſes ſoubs la foy po¬
+            <lb break="no"/>pulaire &amp; par ouyr dire. Voyez tels eſ¬
+            <lb break="no"/>prits comparer ces deux ſexes: la plus
+            <lb/>haute ſuffiſance à leur aduis où les fem¬
+            <lb break="no"/>mes puiſſent arriuer, c’eſt de reſſembler
+            <lb/>le commun des hommes: autant eſlon¬
+            <lb break="no"/>gnez d’imaginer, qu’vne grande femme
+            <lb/>ſe peuſt dire grandhomme, le ſexe chã¬
+            <lb break="no"/>ge, que de conſentir qu’vn homme ſe <fw>
+               <lb/>peuſt
+               <pb n="9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f23"/>
+               <lb/>Et des Femmes. 9</fw>
+            <lb/>peuſt eſleuer à l’eſtage d’vn Dieu. Gens
+            <lb/>plus braues qu’Hercules vrayement,
+            <lb/>qui ne desfit que douze monſtres en
+            <lb/>douze combats; tandis que d’vne ſeule
+            <lb/>parolle ils desfont la moitié du Mon¬
+            <lb break="no"/>de. Qui croira cependant, que ceux
+            <lb/>qui ſe ueulent eſleuer &amp; fortifier de la
+            <lb/>foibleſſe d’autruy, ſe puiſſent eſleuer ou
+            <lb/>fortifier de leur propre force? Et le bon
+            <lb/>eſt, qu’ils penſent eſtre quittes de leur
+            <lb/>effronterie à vilipender ce ſexe, vſants
+            <lb/>d’vne effronterie pareille à ſe loüer &amp; ſe
+            <lb/>dorer eux meſmes, ie dis par fois en par¬
+            <lb break="no"/>ticulier comme en general, voire à quel¬
+            <lb break="no"/>que tort que ce ſoit: comme ſi la verité
+            <lb/>de leur vãterie receuoit meſure &amp; qua¬
+            <lb break="no"/>lité de ſon impudence. Et Dieu ſçait ſi
+            <lb/>ie congnois de ces ioyeux vanteurs, &amp;
+            <lb/>dont les vanteries ſont tantoſt paſſées
+            <lb/>en prouerbe, entre les plus eſchauffez
+            <lb/>au meſpris des femmes. Mais quoy, s’ils
+            <lb/>prennent droict d’eſtre galans &amp; ſuffi¬
+            <lb break="no"/>ſans hommes, de ce qu’ils ſe déclarent
+            <lb/>tels cõme par Edict; pourquoy n’abe¬
+            <lb break="no"/>ſtiront ils les femmes par le contrepied
+            <lb/>d’vn autre Edict? Et ſi ie iuge bien, ſoit
+            <lb/>de la dignité, ſoit de la capacité des da¬
+            <lb break="no"/>
+            <fw>
+               <lb/>B
+               <pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f24"/>
+               <lb/>10 Egalite des Hommes</fw>
+            <lb/>mes, ie ne pretends pas à cette heure de
+            <lb/>le prouuer par raiſons, puiſque les opi¬
+            <lb break="no"/>niaſtres les pouroient debattre, ny par
+            <lb/>exemples, d’autant qu’ils ſont trop cõ¬
+            <lb break="no"/>muns; ains ſeulement par l’aucthorité
+            <lb/>de Dieu meſme, des arcſboutans de ſon
+            <lb/>Egliſe &amp; de ces grands hommes qui
+            <lb/>ont ſeruy de lumiere à l’Vniuers. Ren¬
+            <lb break="no"/>geons ces glorieux teſmoins en teſte,
+            <lb/>&amp; reſeruons Dieu, puis les Saincts Pe¬
+            <lb break="no"/>res de ſon Egliſe, au fonds, comme le
+            <lb/>treſor. </p>
+         <p>
+            <lb/>Platon à qui nul n’a debattu le tiltre
+            <lb/>de diuin, &amp; conſequemment Socrates
+            <lb/>ſon interprete &amp; Protecole en ſes Eſ¬
+            <lb break="no"/>cripts; (s’il n’eſt là meſme celuy de So¬
+            <lb break="no"/>crates, ſon plus diuin Precepteur) leur
+            <lb/>aſſignent meſmes droicts, facultez &amp;
+            <lb/>functions, en leurs Republiques &amp; par
+            <lb/>tout ailleurs. Les maintiennent, en ou¬
+            <lb break="no"/>tre, auoir ſurpaſſé maintefois tous les
+            <lb/>hommes de leur Patrie: comme en ef¬
+            <lb break="no"/>fect elles ont inuenté partie des plus
+            <lb/>beaux arts, ont excellé, voire enſeigné
+            <lb/>cathedralement &amp; ſouuerainement ſur
+            <lb/>tous les hommes en toutes ſortes de
+            <lb/>perfections &amp; vertus, dans les plus fa¬
+            <lb break="no"/>
+            <pb n="11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f25"/>
+            <fw>
+               <lb/>Et des Femmes. 11</fw>
+            <lb/>meuſes villes antiques entre autres Ale¬
+            <lb break="no"/>xandrie, premiere de l’Empire apres <note>
+               <lb/>Hypathia.</note>
+            <lb/>Rome. Dont il eſt arriué que ces deux
+            <lb/>Philoſophes, miracles de Nature, ont
+            <lb/>creu dõner plus de luſtre à des diſcours
+            <lb/>de grand poix, s’ils les prononçoient
+            <lb/>en leurs liures par la bouche de Dioti¬
+            <lb break="no"/>me &amp; d’Aſpaſie: Diotime que ce der¬
+            <lb break="no"/>nier ne craint point d’appeller ſa mai¬
+            <lb break="no"/>ſtreſſe &amp; Preceptrice, en quelques vnes
+            <lb/>des plus hautes ſciences, luy Precepteur
+            <lb/>&amp; maiſtre du genre humain. Ce que
+            <lb/>Theodoret releue ſi volontiers en l’O¬
+            <lb break="no"/>raiſon de la Foy, ce me ſemble; qu’il pa¬
+            <lb break="no"/>roiſt bien que l’opinion fauorable au
+            <lb/>ſexe luy eſtoit fort plauſible. Apres tous
+            <lb/>ces teſmoignages de Socrates, ſur le
+            <lb/><sic>ſaict</sic><corr>ſaict</corr> des dames; on void aſſez que s’il la¬
+            <lb break="no"/>che quelque mot au Sympoſe de Xeno¬
+            <lb break="no"/>phon contre leur prudence, à compa¬
+            <lb break="no"/>raiſon de celle des hommes, il les re¬
+            <lb break="no"/>garde ſelon l’ignorance &amp; l’inexperien¬
+            <lb break="no"/>ce où elles ſont nourries, ou bien au pis
+            <lb/>aller en general, laisſant lieu frequent
+            <lb/>&amp; ſpatieux aux exceptions: à quoy les
+            <lb/>deuiſeurs dont eſt queſtion ne s’enten¬
+            <lb break="no"/>dent point. </p>
+         <fw>
+            <lb/>B ij
+            <pb n="12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f26"/>
+            <lb/>12 Egalité des Hommes</fw>
+         <p>
+            <lb/>Que ſi les dames arriuẽt moins ſouuẽt
+            <lb/>que les hõmes, aux degrez d’excellence,
+            <lb/>c’eſt merueille que le deffaut de bonne
+            <lb/>inſtructiõ, voire l’affluẽce de la mauuaiſe
+            <lb/>expreſſe &amp; profeſſoire ne face pis, les
+            <lb/>gardant d’y pouuoir arriuer du tout. Se
+            <lb/>trouue til plus de difference des hom¬
+            <lb break="no"/>mes à elles que d’elles à elles meſmes, ſe¬
+            <lb break="no"/>lon l’inſtitution qu’elles ont prinſe, ſe¬
+            <lb break="no"/>lon qu’elles ſont eſleuées en ville ou vil¬
+            <lb break="no"/>lage, ou ſelon les Nations? Et pourquoy
+            <lb/>leur inſtitution ou nourriture aux affai¬
+            <lb break="no"/>res &amp; Lettres à l’égal des hommes, ne
+            <lb/>rempliroit elle ce vuide, qui paroiſt or¬
+            <lb break="no"/>dinairement entre les teſtes des meſmes
+            <lb/>hommes &amp; les leurs: puis que la nour¬
+            <lb break="no"/>riture eſt de telle importance qu’vn
+            <lb/>de ſes membres ſeulement, c’eſt à dire
+            <lb/>le commerce du monde, abondant aux
+            <lb/>Françoiſes &amp; aux Angloiſes, &amp; man¬
+            <lb break="no"/>quant aux Italiennes, celles cy ſont de
+            <lb/>gros en gros de ſi loing ſurpaſſées par
+            <lb/>celles là? Ie dis de gros en gros, car en
+            <lb/>detail les dames d’Italie triumphent par
+            <lb/>fois: &amp; nous en auons tiré deux Reynes
+            <lb/>à la prudence deſquelles la France a
+            <lb/>trop d’obligation. Pourquoy vrayment
+            <pb n="13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f27"/>
+            <fw>
+               <lb/>Et des Femmes. 13</fw>
+            <lb/>la nourriture ne frapperoit elle ce coup,
+            <lb/>de remplir la diſtance qui ſe void entre
+            <lb/>les entendemens des hommes &amp; des
+            <lb/>femmes; veu qu'en cet exemple icy le
+            <lb/>moins ſurmonte le plus, par l’aſſiſtance
+            <lb/>d’vne ſeule de ſes parcelles, ie dis ce cõ¬
+            <lb break="no"/>merce &amp; conuerſatiõ: l’air des Italiẽnes
+            <lb/>eſtant plus ſubtil &amp; propre à ſubtilizer
+            <lb/>les eſprits, comme il paroiſt en ceux de
+            <lb/>leurs hommes, confrontez commune¬
+            <lb break="no"/>ment contre ceux là des François &amp; des
+            <lb/>Anglois? Plutarque au Traicté des ver¬
+            <lb break="no"/>tueux faicts des femmes maintient; que
+            <lb/>la vertu de l’homme &amp; de la femme eſt
+            <lb/>meſme choſe. Seneque d’autre part
+            <lb/>publie aux Conſolations; qu’il faut
+            <lb/>croire que la Nature n’a point traicté
+            <lb/>les dames ingratement, ou reſtrainct &amp;
+            <lb/>racourcy leurs vertus &amp; leurs eſprits,
+            <lb/>plus que les vertus &amp; les eſprits des hõ¬
+            <lb break="no"/>mes: mais qu’elle les a doüées de pareil¬
+            <lb break="no"/>le vigueur &amp; de pareille faculté à tou¬
+            <lb break="no"/>te choſe honeſte &amp; loüable. Voyons
+            <lb/>ce qu’en iuge apres ces deux, le tiers
+            <lb/>chef du Triũuirat de la ſageſſe humai¬
+            <lb break="no"/>ne &amp; morale en ſes Eſſais. Il luy ſemble,
+            <lb/>dit il, &amp; ſi ne ſçait pourquoy, qu’il ſe <fw>
+               <lb/>B iij
+               <pb n="14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f28"/>
+               <lb/>14 Egalité des Hommes</fw>
+            <lb/>trouue rarement des femmes dignes
+            <lb/>de commander aux hommes. N'eſt ce
+            <lb/>pas les mettre en particulier à l'egale
+            <lb/>contrebalance des hommes, &amp; confeſ¬
+            <lb break="no"/>ſer, que s’il ne les y met en general il
+            <lb/>craint d’auoir tort: bien qu’il peuſt ex¬
+            <lb break="no"/>cuſer ſa reſtrinction, ſur la pauure &amp;
+            <lb/>diſgraciée nourriture de ce ſexe. N’ou¬
+            <lb break="no"/>bliant pas au reſte d’alleguer &amp; releuer
+            <lb/>en autre lieu de ſon meſme liure, cette
+            <lb/>authorité que Platon leur depart en ſa
+            <lb/>Republique: &amp; qu’Anthiſtenes nioit
+            <lb/>toute difference au talent &amp; en la vertu
+            <lb/>des deux ſexes. Quant au Philoſophe
+            <lb/>Ariſtote, puiſque remuant Ciel &amp; terre,
+            <lb/>il n’a point contredit en gros, que ie
+            <lb/>ſcache, l’opinion qui fauoriſe les dames,
+            <lb/>il l’a confirmée: s'en rapportant, sans
+            <lb/>doubte, aux ſentences de ſon pere &amp;
+            <lb/>grand pere ſpirituels, Socrates &amp; Platõ,
+            <lb/>comme à choſe conſtante &amp; fixe ſoubs
+            <lb/>le credit de tels perſonnages: par la
+            <lb/>bouche deſquels il faut aduoüer que le
+            <lb/>genre humain tout entier, &amp; la raiſon
+            <lb/>meſme, ont prononcé leur arreſt. Eſt il
+            <lb/>beſoing d’alleguer infinis autres anciens
+            <lb/>&amp; modernes de nom illuſtre, ou parmy <note>
+               <lb/>Eraſme E¬
+               <lb break="no"/>piſt: &amp; Col¬
+               <lb break="no"/>loq. Poli¬
+               <lb break="no"/></note>
+            <pb n="15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f29"/>
+            <fw>
+               <lb/>Et des Femmes.15</fw>
+            <note>
+               <lb/>tia: Epiſt.
+               <lb/>Agripa Pre¬
+               <lb break="no"/>cel: du ſexe
+               <lb/>feminin.
+               <lb/>Courtizan. </note>
+            <lb/>ces derniers, Eraſme, Politien, Agripa,
+            <lb/>ny cet honneſte &amp; pertinent Prece¬
+            <lb break="no"/>pteur des courtizans: outre tant de fa¬
+            <lb break="no"/>meux Poëtes ſi contrepoinctez tous en¬
+            <lb break="no"/>ſemble aux meſpriſeurs du ſexe femi¬
+            <lb break="no"/>nin, &amp; ſi partiſans de ſes aduantages
+            <lb/>aptitude &amp; diſpoſition à tout office
+            <lb/>tout exercice loüable &amp; digne? Les da¬
+            <lb break="no"/>mes en verité ſe conſolent, que ces deſ¬
+            <lb break="no"/>crieurs de leur merite ne ſe peuuent
+            <lb/>prouuer habiles gens, ſi tous ces eſprits
+            <lb/>le ſont: &amp; qu'vn homme fin ne dira pas,
+            <lb/>encores qu’il le creuſt, que le merite &amp;
+            <lb/>paſſedroit du ſexe feminin tire court,
+            <lb/>pres celuy du maſculin; iuſques à ce
+            <lb/>que par arreſt il ait faict declarer tous
+            <lb/>ceux là buffles, affin d’infirmer leur teſ¬
+            <lb break="no"/>moignage ſi contraire à tel decry. Et
+            <lb/>buffles faudroit il encores declarer des
+            <lb/>Peuples entiers &amp; des plus ſublins, en¬
+            <lb break="no"/>tre autres ceux de Smyrne en Tacitus:
+            <lb/>qui pour obtenir iadis à Rome preſſeã¬
+            <lb break="no"/>ce de nobleſſe ſur leurs voiſins, alle¬
+            <lb break="no"/>goient eſtre deſcendus, ou de Tantalus
+            <lb/>fils de Iupiter ou de Theſeus petit fils
+            <lb/>de Neptune ou d’vne Amazone, la¬
+            <lb break="no"/>quelle par ce moyen ils contrepeſoient
+            <pb n="16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f30"/>
+            <fw>
+               <lb/>16 Egalité des Hommes</fw>
+            <note>
+               <lb/>Hotman
+               <lb/>pour l’ety¬
+               <lb break="no"/>mologie
+               <lb/>des Pairs:
+               <lb/>du Tillet
+               <lb/>&amp; Math.
+               <lb/>Hiſt oire
+               <lb/>du Roy
+               <lb/>pour les
+               <lb/>Dames
+               <lb/>Rairreſſes. </note>
+            <note>
+               <lb/>Plut. </note>
+            <lb/>à ces Dieux. Pour le regard de la loy Sa¬
+            <lb break="no"/>lique, qui priue les femmes de la cou¬
+            <lb break="no"/>ronne, elle n’a lieu qu’en France. Et fut
+            <lb/>inuẽtée au temps de Pharamond, pour
+            <lb/>la ſeulle conſideration des guerres con¬
+            <lb break="no"/>tre l’Empire duquel nos Peres ſecoü¬
+            <lb break="no"/>oient le ioug: le ſexe feminin eſtant
+            <lb/>vray ſemblablement d’vn corps moins
+            <lb/>propre aux armes, par la neceſſité du
+            <lb/>port &amp; nourriture des enfans. Il faut ré¬
+            <lb break="no"/>marquer encores neantmoins, que les
+            <lb/>Pairs de France ayans eſté créez en pre¬
+            <lb break="no"/>miere intention comme vne eſpece de
+            <lb/>perſonniers des Roys, ainſi que leur
+            <lb/>nom le declare: les dames Pairaiſſes de
+            <lb/>leur chef ont ſeance, priuilege &amp; voix
+            <lb/>deliberatiue par tout où les Pairs en ont
+            <lb/>&amp; de meſme eſtenduë. Comme auſſi les
+            <lb/>Lacedemoniens ce braue &amp; genereux
+            <lb/>Peuple, conſultoit de toutes affaires
+            <lb/>priuées &amp; publiques auec ſes femmes.
+            <lb/>Bien a ſeruy cependant aux François,
+            <lb/>de trouuer l’inuention des Regentes,
+            <lb/>pour vn equiualent des Roys; car ſans
+            <lb/>cela combien y a <choice>
+               <sic/>
+               <corr>t</corr>
+            </choice> il que leur Eſtat fuſt
+            <lb/>par terre? Nous ſçaurions bien dire au¬
+            <lb break="no"/>iourd’huy par eſpreuue, quelle neceſſi
+            <lb rend="¬" break="no"/>
+            <fw>
+               <lb/>te
+               <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f31"/> Et des Femmes.
+               17</fw>
+            <lb/>té les minoritez des Roys ont de cette
+            <lb/>recepte. Les Germains ces belliqueux
+            <lb/>Peuples, dit Tacitus, qui apres plus de
+            <lb/>deux cens ans de guerre, furent pluſtoſt
+            <lb/>triumphéz que vaincus; portoient
+            <lb/>dot à leurs femmes, non au rebours. Ils
+            <lb/>auoient au ſurplus des Nations, qui n’e¬
+            <lb break="no"/>ſtoient iamais regies que par ce ſexe. Et
+            <lb/>quand Ænée preſente à Didon le ſce¬
+            <lb break="no"/>ptre d’Ilione, les ſcoliaſtes diſent, que
+            <lb/>cela prouient, de ce que les dames filles
+            <lb/>aiſnées, telle qu’eſtoit cette Princeſſe,
+            <lb/>regnoient anciennement aux maiſons
+            <lb/>Royalles. Veult-on deux plus beaux
+            <lb/>enuers à la loy Salique, ſi deux enuers
+            <lb/>elle peut ſouffrir? Si ne meſpriſoient
+            <lb/>pas les femmes nos anciens Gaulois, ny
+            <lb/>les Carthaginois auſſi; lors qu’eſtans
+            <lb/>vnis en l’armée d’Hanibal pour paſſer
+            <lb/>les Alpes, ils eſtablirent les dames Gau¬
+            <lb break="no"/>loiſes arbitres de leurs differends. Et
+            <lb/>quand les hommes deſroberoient à
+            <lb/>ce ſexe en pluſieurs lieux, part aux meil¬
+            <lb break="no"/>leurs aduantages; l’inegalité des forces
+            <lb/>corporelles plus que des ſpirituelles, ou
+            <lb/>du merite, peut facilement eſtre cauſe
+            <lb/>du larrecin &amp; de ſa ſouffrance: forces <fw>
+               <lb/>C
+               <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f32"/> 18 Egalité des
+               Hommes</fw>
+            <lb/>corporelles, qui ſont vertus ſi baſſes,
+            <lb/>que la beſte en tient plus par deſſus
+            <lb/>l’homme, que l’homme par deſſus la
+            <lb/>femme. Et ſi ce meſme Hiſtoriogra¬
+            <lb break="no"/>phe Latin nous apprend, qu’où la force
+            <lb/>regne, l'equité, la probité, la modeſtie
+            <lb/>meſme, ſont les attributs du vainqueur;
+            <lb/>s’eſtonnera<choice>
+               <sic/>
+               <corr>-t</corr>
+            </choice>-on, que la ſuffiſance &amp; les
+            <lb/>merites en general, ſoient ceux de nos
+            <lb/>hommes, priuatiuement aux femmes.
+            <lb/>Au ſurplus l’animal humain n'eſt
+            <lb/>homme ny femme, à le bien prendre,
+            <lb/>les ſexes eſtants faicts non ſimplement,
+            <lb/>mais ſecundum quid, comme parle l’Eſ¬
+            <lb break="no"/>chole: c’eſt à dire pour la ſeule propa¬
+            <lb break="no"/>gation. L’vnique forme &amp; difference de
+            <lb/>cet animal, ne conſiſte qu’en l’ame hu¬
+            <lb break="no"/>maine. Et s’il eſt permis de rire en paſſãt,
+            <lb/>le quolibet ne ſera pas hors de ſaisõ, nous
+            <lb/>apprenant; qu’il n’eſt rien plus ſemblable
+            <lb/>au chat ſur vne feneſtre, que la chatte.
+            <lb/>L’homme &amp; la femme ſont tellement
+            <lb/>vns, que ſi l’homme eſt plus que la
+            <lb/>femme, la femme eſt plus que l’homme.
+            <lb/>L’homme fut créé maſle &amp; femelle, dit
+            <lb/>l’Eſcriture, ne comptant ces deux que
+            <lb/>pour vn. Dont Ieſus-Chriſt eſt appellé
+            <pb n="19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f32"/>
+            <fw>
+               <lb/>Et des Femmes. 19</fw>
+            <lb/>fils de l’homme, bien qu’il ne le ſoit que
+            <lb/>de la femme. Ainſi parle apres le grãd
+            <lb/>Sainct Baſile: La vertu de l’homme &amp;
+            <lb/>de la femme eſt meſme choſe, puis que
+            <lb/>Dieu leur a decerné meſme creation &amp;
+            <lb/>meſme honneur: maſculum &amp; fœmi¬
+            <lb break="no"/>ninam fecit eos. Or en ceux de qui la Na¬
+            <lb break="no"/>ture eſt vne &amp; meſme, il faut que les a¬
+            <lb break="no"/>ctions auſſi le ſoient, &amp; que l’eſtime &amp;
+            <lb/>loyer en ſuitte ſoient pareils, où les œu¬
+            <lb break="no"/>ures ſont pareilles. Voila donc la de¬
+            <lb break="no"/>poſition de ce puiſſant pilier, &amp; venera¬
+            <lb break="no"/>ble teſmoing de l’Egliſe, Il n'eſt pas
+            <lb/>mauuais de ſe ſouuenir ſur ce poinct,
+            <lb/>que certains ergotiſtes anciens, ont
+            <lb/>paſſé iuſques à cette niaiſe arrogance,
+            <lb/>de debattre au ſexe feminin l’image de
+            <lb/>Dieu a difference de l’homme: laquelle
+            <lb/>image ils deuoient, ſelon ce calcul at¬
+            <lb break="no"/>tacher à la barbe. Il failloit de plus &amp; par
+            <lb/>conſequent, deſnier aux femmes l’ima¬
+            <lb break="no"/>ge de l’homme, ne pouuant luy reſſem¬
+            <lb break="no"/>bler, ſans qu’elles reſſemblaſſent à celuy
+            <lb/>auquel il reſſemble. Dieu meſme leur
+            <lb/>à departy les dons de Prophetie indif¬
+            <lb break="no"/>feramment auec les hommes, les ayant
+            <lb/>eſtablies auſſi pour Iuges, inſtructrices <note>
+               <lb/>Homil. 1.</note>
+            <note>
+               <lb/>Olda Debora.</note>
+            <fw>
+               <lb/>C ij
+               <pb n="20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f34"/>
+               <lb/>20 Egalité des Hommes</fw>
+            <lb/>&amp; conductrices de ſon Peuple fidelle
+            <lb/>en paix &amp; en guerre: &amp; qui plus eſt, ren¬
+            <lb break="no"/>du triumphantes auec luy des hautes
+            <lb/>victoires, qu’elles ont auſſi maintefois
+            <lb/>emportées &amp; arborées en diuers lieux
+            <lb/>du Monde: mais ſur quelles gens, à vo¬
+            <lb break="no"/>ſtre aduis? Cyrus &amp; Theſeus: à ces deux
+            <lb/>on adiouſte Hercules, lequel elles ont
+            <lb/>ſinon vaincu, du moins bien battu.
+            <lb/>Auſſi fut la cheute de Pentaſilée, cou¬
+            <lb break="no"/>ronnemẽt de la gloire d’Achilles: oyez
+            <lb/>Seneque &amp; Ronſard parlans de luy. <l>L'AmaZone il vainquit dernier effroy
+               <lb/>des Grecs.</l>
+            <l>Pentaſilée il rua ſur la poudre.</l>
+            <lb/>Ont elles au ſurplus, (ce mot par oc¬
+            <lb break="no"/>caſion) moins excellé de foy, qui com¬
+            <lb break="no"/>prend toutes les vertus principales, que
+            <lb/>de ſuffiſance &amp; de force magnanime &amp;
+            <lb/>guerriere? Paterculus nous apprend,
+            <lb/>qu’aux proſcription Romaines, la fide¬
+            <lb break="no"/>lité des enfãs fut nulle, des affranchis le¬
+            <lb break="no"/>gere, des femmes treſgrande. Que ſi
+            <lb/>Sainct Paul, ſuyuãt ma route des teſmoi¬
+            <lb break="no"/>gnages ſaincts, leur deffend le miniſte¬
+            <lb break="no"/>re &amp; leur commande le ſilence en l’E¬
+            <lb break="no"/>gliſe: il eſt euident que ce n’eſt point
+            <pb n="21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f35"/>
+            <fw>
+               <lb/>Et des Femmes. 21</fw>
+            <lb/>par aucun meſpris: ouy bien ſeulement,
+            <lb/>de crainte qu’elles n’eſmeuuent les ten¬
+            <lb break="no"/>tations, par cette montre ſi claire &amp; pu¬
+            <lb break="no"/>blique qu’il faudroit faire en miniſtrant
+            <lb/>&amp; preſchant, de ce qu’elles ont de gra¬
+            <lb break="no"/>ce &amp; de beauté plus que les hommes.
+            <lb/>Ie dis que l’exemption de meſpris eſt
+            <lb/>euidente, puiſque cet Apoſtre parle
+            <lb/>de Theſbé comme de ſa coadiutrice
+            <lb/>en l’œuure de noſtre Seigneur, ſans
+            <lb/>toucher le grand credit de Saincte Pe¬
+            <lb break="no"/>tronille vers ſainct Pierre: &amp; puis auſſi
+            <lb/>que la Magdeleine eſt nommée en l’E¬
+            <lb break="no"/>gliſe égale aux Apoſtres, par Apoſtolis. <note>
+               <lb/>Entre au¬
+               <lb break="no"/>tres au Ca¬
+               <lb break="no"/>lendrier
+               <lb/>des Grecs,
+               <lb/>publié par
+               <lb/>Genebrard. </note>
+            <lb/>Voire que l’Egliſe &amp; eux-meſmes ont
+            <lb/>permis vne exception de ceſte reigle de
+            <lb/>ſilence pour elle, qui preſcha trente ans
+            <lb/>en la Baume de Marſeille au rapport de
+            <lb/>toute la Prouence. Et ſi quelqu'vn im¬
+            <lb break="no"/>pugne ce teſmoignage de predications,
+            <lb/>on luy demandera que faiſoient les Si¬
+            <lb break="no"/>byles, ſinon preſcher l'Vniuers par di¬
+            <lb break="no"/>uine inſpiration, ſur l’euenement futur
+            <lb/>de Ieſus-Chriſt? Toutes les anciennes
+            <lb/>Nations cõcedoient la Preſtriſe aux fe¬
+            <lb break="no"/>mes, indifféremment auec les hommes.
+            <lb/>Et les Chreſtiens ſont au moins forcez <fw>
+               <lb/>C iij
+               <pb n="22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f36"/>
+               <lb/>22 Egalité des Hommes</fw>
+            <lb/>de conſentir, qu’elles ſoyent capables
+            <lb/>d’appliquer le Sacrement de Bapteſme:
+            <lb/>mais quelle faculté de diſtribuer les au¬
+            <lb break="no"/>tres leur peut eſtre iuſtement deniée; ſi
+            <lb/>celle de diſtribuer ceſtuy-là, leur eſt iu¬
+            <lb break="no"/>ſtement accordé? De dire que la neceſſi¬
+            <lb break="no"/>té des petits enfãs mourãs, ait forcé les
+            <lb/>Peres anciens d’eſtablir cet vſage en deſ¬
+            <lb break="no"/>pit d’eux: il eſt certain qu’ils n’auroient
+            <lb/>iamais creu que la neceſſité les peuſt diſ¬
+            <lb break="no"/>penſer de mal faire, iuſques aux termes
+            <lb/>de permettre violer &amp; diffamer l’appli¬
+            <lb break="no"/>cation d’vn Sacrement. Et partant con¬
+            <lb break="no"/>cedans ceſte faculté de diſtribution aux
+            <lb/>femmes, on void à clair qu’ils ne les ont
+            <lb/>interdites de diſtribuer les autres Sacre¬
+            <lb break="no"/>mẽs, que pour maintenir touſiours plus
+            <lb/>entiere l’auctorité des hommes; ſoit
+            <lb/>pour eſtre de leur ſexe, ſoit afin qu’à
+            <lb/>droit ou à tort, la paix fuſt plus aſſeurée
+            <lb/>entre les deux ſexes, par la foibleſſe &amp; <note>
+               <lb/>Epiſt.</note>
+            <lb/>rauallement de l’vn. Certes ſainct Ieroſ¬
+            <lb break="no"/>me eſcrit ſagement à noſtre propos;
+            <lb/>qu’en matiere du ſeruice de Dieu, l’eſ¬
+            <lb break="no"/>prit &amp; la doctrine doiuent eſtre conſi¬
+            <lb break="no"/>derez, non le ſexe. Sentence qu’on doit
+            <lb/>generaliſer, pour permettre aux Dames
+            <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f37"/>
+            <fw>
+               <lb/>Et des Femmes. 23</fw>
+            <lb/>à plus forte raiſon, toute action &amp; ſciẽ¬
+            <lb break="no"/>ce honneſte: &amp; cela ſuyuant auſſi les in¬
+            <lb break="no"/>tentions du meſme ſainct, qui de ſa part
+            <lb/>honnore &amp; auctoriſe bien fort leur ſexe.
+            <lb/>Dauantage ſainct Iean l’Aigle &amp; le plus
+            <lb/>chery des Euangeliſtes, ne meſpriſoit <note>
+               <lb/>Electra.</note>
+            <lb/>pas les fẽmes, non plus que ſainct Pier¬
+            <lb break="no"/>re, ſainct Paul &amp; ces deux Peres, i’en¬
+            <lb break="no"/>tends ſaint Baſile &amp; ſainct Ieroſme; puis
+            <lb/>qu’il leur addreſſe ſes Epiſtres particu¬
+            <lb break="no"/>lieremẽt: ſans parler d’infinis autres Ss:
+            <lb/>ou Peres, qui ſont pareille addreſſe de
+            <lb/>leurs Eſcrits. Quand au faict de Iudith
+            <lb/>ie n’en daignerois faire mention s’il
+            <lb/>eſtoit particulier, cela s'appelle depen¬
+            <lb break="no"/>dant du mouuement &amp; volonté de ſon
+            <lb/>auctrice: non plus que ie ne parle des
+            <lb/>autres de ce qualibre; bienqu’ils ſoient
+            <lb/>immenſes en quantité, comme ils ſont
+            <lb/>autant heroiques en qualité de toutes
+            <lb/>ſortes, que ceux qui couronnent les
+            <lb/>plus illuſtres hommes. Ie n’enregiſtre
+            <lb/>point les faicts priuez, de crainte qu’ils
+            <lb/>ſemblent, non aduantages &amp; dons du
+            <lb/>ſexe, ains boüillons d’vne vigueur pri¬
+            <lb break="no"/>uée &amp; ſpecialle. Mais celuy de Iudith
+            <lb/>merite place en ce lieu, parce qu’il eſt
+            <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f38"/>
+            <fw>
+               <lb/>24 Egalité des Hommes</fw>
+            <lb/>bien vray, que ſon deſſein tombant au
+            <lb/>cœur d’vne ieune dame, entre tant
+            <lb/>d’hommes laſches &amp; faillis de cœur, à
+            <lb/>tel beſoing, en ſi haulte &amp; ſi difficile
+            <lb/>entrepriſe, &amp; pour tel fruict, que le ſalut
+            <lb/>d’vn Peuple &amp; d’vne Cité fidelle à Dieu:
+            <lb/>ſemble pluſtoſt eſtre vne inſpiration &amp;
+            <lb/>prerogatiue diuine vers les femmes,
+            <lb/>qu'vn traict purement voluntaire. Com¬
+            <lb break="no"/>me auſſi le ſemble eſtre celuy de la Pu¬
+            <lb break="no"/>celle d’Orleans, accompagné de meſ¬
+            <lb break="no"/>mes circonſtances enuiron, mais de
+            <lb/>plus ample &amp; large vtilité, s’eſtendant
+            <lb/>iuſques au ſalut d’vn grand Royaume
+            <lb/>&amp; de ſon Prince. </p>
+         <note>
+            <lb/>Æneid. 1
+            <lb/>alluſion.</note>
+         <lg>
+            <l>Cette illuſtre AmaZone inſtruicte aux
+               <lb/>ſoins de Mars,</l>
+            <l>Fauche les eſcadrons &amp; braue les ha¬
+               <lb break="no"/>Zars:</l>
+            <l>Veſtant le dur plaſtron ſur ſa ronde
+               <lb/>mammelle,</l>
+            <l>Dont le bouton pourprè de graces eſtin¬
+               <lb break="no"/>celle:</l>
+            <l>Pour couronner ſon chef de gloire &amp;
+               <lb/>de lauriers,</l>
+            <l>Vierge elle oſe affronter les plus fameux
+               <lb/>guerriers.</l>
+         </lg>
+         <fw>
+            <lb/>Adjouſtons
+            <pb n="25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f39"/>
+            <lb/>Et des Femmes. 25</fw>
+         <p>
+            <lb/>Adjouſtons que la Magdelene eſt la
+            <lb/>ſeule ame, à qui le Redempteur ait ia¬
+            <lb break="no"/>mais prononcé ce mot, &amp; promis cette
+            <lb/>auguſte grace: En tous lieux où ſe preſ¬
+            <lb break="no"/>chera l’Euangile il ſera parlé de toy. Ie¬
+            <lb break="no"/>ſus-Chriſt d’autrepart, declara ſa tres
+            <lb/>heureuſe &amp; tres glorieuſe reſurrection
+            <lb/>aux dames les premieres, affin de les rẽ¬
+            <lb break="no"/>dre, dit vn venerable Pere ancien, Apo¬
+            <lb break="no"/>ſtreſſes aux propres Apoſtres: cela, cõ¬
+            <lb break="no"/>me lon ſçait, auec miſſion expreſſe: Va,
+            <lb/>dit il, à cette cy meſme, &amp; recite aux
+            <lb/>Apoſtres &amp; à Pierre ce que tu as veu.
+            <lb/>Surquoy il faut notter, qu’il manifeſta
+            <lb/>ſa nouuelle naiſſance eſgalement aux
+            <lb/>femmes qu’aux hommes, en la perſon¬
+            <lb break="no"/>ne d’Anne fille de <sic>Phannel</sic><corr>Phanuel</corr>, qui le re¬
+            <lb break="no"/>congneut en meſme inſtant, que le bon
+            <lb/>vieillard Sainct Simeon. Laquelle naiſ¬
+            <lb break="no"/>ſance, d’abondant, les Sybilles nom¬
+            <lb break="no"/>mées, ont predite ſeules entre les Gen¬
+            <lb break="no"/>tils, excellent priuilege du ſexe feminin<choice>
+               <sic/>
+               <corr>.</corr>
+            </choice>
+            <lb/>Quel honneur faict aux femmes auſſi,
+            <lb/>ce ſonge ſuruenu chez Pilate; s’addreſ¬
+            <lb break="no"/>ſant à l’vne d’elles priuatiuement à tous
+            <lb/>les hommes, &amp; en telle &amp; ſi haulte oc¬
+            <lb break="no"/>caſion. Et ſi les hommes ſe vantent, que <fw>
+               <lb/>D
+               <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f40"/>
+               <lb/>26 Egalité des Hommes</fw>
+            <lb/>Ieſus-Chriſt ſoit nay de leur ſexe, on
+            <lb/>reſpond, qu’il le failloit par neceſſaire
+            <lb/>bien ſceance, ne ſe pouuant pas ſans ſcan¬
+            <lb break="no"/>dale, meſler ieune &amp; à toutes les heures
+            <lb/>du iour &amp; de la nuict parmy les preſſes,
+            <lb/>aux fins de conuertir, ſecourir &amp; ſauuer
+            <lb/>le genre humain, s’il euſt eſté du ſexe
+            <lb/>des femmes: notamment en face de la
+            <lb/>malignité des Iuifs. Que ſi quelqu’vn
+            <lb/>au reſte eſt ſi fade; d’imaginer maſculin
+            <lb/>ou feminin en Dieu, bien que ſon nom
+            <lb/>ſemble ſonner le maſculin, ny conſe¬
+            <lb break="no"/>quemment beſoin d’acception d’vn ſe¬
+            <lb break="no"/>xe pluſtoſt que de l’autre, pour honno¬
+            <lb break="no"/>rer l’incarnation de ſon fils; cettuy cy
+            <lb/>monſtre à plein iour, qu’il eſt auſſi mau¬
+            <lb break="no"/>uais Philoſophe que Theologien.
+            <lb/>D’ailleurs, l'aduantage qu’ont les hom¬
+            <lb break="no"/>mes par ſon incarnation en leur ſexe;
+            <lb/>(s’ils en peuuent tirer vn aduantage,
+            <lb/>veu cette neceſſité remarquée) eſt cõ¬
+            <lb break="no"/>penſé par ſa conception tres precieuſe
+            <lb/>au corps d’vne femme, par l’entiere per¬
+            <lb break="no"/>fection de cette femme, vnique à por¬
+            <lb break="no"/>ter nom de parfaicte entre toutes les
+            <lb/>creatures purement humaines, depuis
+            <lb/>la cheute de nos premiers parens, &amp;
+            <pb n="27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f41"/>
+            <fw>
+               <lb/>Et des Femmes. 27</fw>
+            <lb/>par ſon aſſumption vnique en ſuiect
+            <lb/>humain auſſi. </p>
+         <p>
+            <lb/>Finalement ſi l’Eſcripture a declaré
+            <lb/>le mary, chef de la femme, la plus gran¬
+            <lb break="no"/>de ſottiſe que l’homme peuſt faire, c’eſt
+            <lb/>de prendre cela pour paſſedroict de di¬
+            <lb break="no"/>gnité. Car veu les exemples, aucthori¬
+            <lb break="no"/>tez &amp; raiſons nottées en ce diſcours,
+            <lb/>par où l’égalité des graces &amp; faueurs de
+            <lb/>Dieu vers les deux eſpeces ou ſexes eſt
+            <lb/>prouuée, voire leur vnité meſme, &amp;
+            <lb/>veu que Dieu prononce: Les deux ne ſe¬
+            <lb break="no"/>ront qu’vn: &amp; prononcé encores: L’hõ¬
+            <lb break="no"/>me quittera pere &amp; mere pour ſuiure
+            <lb/>ſa femme; il paroiſt que cette déclara¬
+            <lb break="no"/>tion n’eſt faicte que par le beſoin expres
+            <lb/>de nourrir paix en mariage. Lequel be¬
+            <lb break="no"/>ſoin requeroit, ſans doubte, qu’vne des
+            <lb/>parties cédaſt à l’autre, &amp; la preſtance
+            <lb/>des forces du maſle ne pouuoit pas
+            <lb/>ſouffrir que la ſoubmiſſiõ veĩt de ſa part.
+            <lb/>Et quand bien il ſeroit veritable,
+            <lb/>ſelon que quelques vns maintiennent,
+            <lb/>que cette ſoubmiſſion fut imposée à la
+            <lb/>femme pour chaſtiement du peché de
+            <lb/>la pomme: cela encores eſt bien eſloi¬
+            <lb break="no"/>gné de conclure à la pretendue prefe¬
+            <lb break="no"/>
+            <pb n="28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f42"/>
+            <fw>
+               <lb/>28 Egalité des Hommes</fw>
+            <lb/>rance de dignité en l’homme. Si lon
+            <lb/>croioit que l’Eſcripture luy commen¬
+            <lb break="no"/>daſt de ceder à l’homme, comme indi¬
+            <lb break="no"/>gne de le contrecarrer, voyez l’abſur¬
+            <lb break="no"/>dité qui ſuiuroit: la femme ſe treu¬
+            <lb break="no"/>ueroit digne d’eſtre faicte à l’image du
+            <lb/>Createur, de iouyr de la treſſaincte Eu¬
+            <lb break="no"/>cariſtie, des myſteres de la Redemptiõ,
+            <lb/>du Paradis &amp; de la viſion voire poſſeſ¬
+            <lb break="no"/>ſion de Dieu, non pas des aduantages
+            <lb/>et priuileges de l’homme: ſeroit ce pas
+            <lb/>déclarer l’homme plus precieux &amp; re¬
+            <lb break="no"/>leué que telles choſes, &amp; partant com¬
+            <lb break="no"/>mettre le plus grief des blaſphemes? </p>
+         <p>FIN.</p>
+      </div>
+   </body>
+   <back>
+      <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f43"/>
+      <head>
+         <lb/>L’IMPRIMEVR A RANGE'
+         <lb/>ces vers icy pour emplir le reſte
+         <lb/>de la feuille.</head>
+      <div type="poem">
+         <head>AVTHEVR INCERTAIN.</head>
+         <lg>
+            <l>LVmine Acron dextro captus, Leonilla ſiniſtro,</l>
+            <l>Et potis eſt forma vincere vterque Deos.</l>
+            <l>Blande puer, lumen quod habes concede ſorori:</l>
+            <l>Sic tu cæcus Amor, ſic erit illa Venus.</l>
+         </lg>
+         <lg>
+            <head>VERSION.</head>
+            <l>Lys &amp; ſa ieune mere außy beaux que les Dieux:</l>
+            <l>De deux coſtez diuers ont perdu l’vn des yeux.</l>
+            <l>Lys, donne ton bon œil à ta mere Argentine;</l>
+            <l>Tu ſeras Cupidon, elle ſera Cyprine.</l>
+         </lg>
+         <lg>
+            <head>AVTREMENT</head>
+            <l>Lyſe &amp; ſon petit Lys außy beaux que les Dieux,</l>
+            <l>De deux coſtez diuers ont perdu l’vn des yeux.</l>
+            <l>Si Lys donne l’autre œil à ſa mere admirée;</l>
+            <l>Il eſt l'aueugle Amour, &amp; Lyſe Cytherée.</l>
+         </lg>
+      </div>
+      <fw>
+         <lb/>ã</fw>
+      <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f44"/>
+      <div type="poem">
+         <head>
+            <lb/>EX HORATIO.
+            <lb/>DIAL.</head>
+         <lg>
+            <l>Onec gratus eram tibi,</l>
+            <l>Nec quiſquam potior brachia candidæ</l>
+            <l>Ceruici iuuenis dabat,</l>
+            <l>Perſarum vigui Rege beatior.</l>
+         </lg>
+         <lg>
+            <l>Donec non alia magis</l>
+            <l>Arſiſti, neque erat Lydia poſt Chloen,</l>
+            <l>Lydia multi nominis,</l>
+            <l>Romana vigui clarior Ilia.</l>
+         </lg>
+         <lg>
+            <l>Men unc Thraſſa Chloe regit,</l>
+            <l>Dulces docta modos &amp; Cytharæ ſciens:</l>
+            <l>Prô qua non metuam mori,</l>
+            <l>Si parcent animæ fata ſuperſtiti.</l>
+         </lg>
+         <lg>
+            <l>Me torret face mutua</l>
+            <l>Thurini Calais filius Orinthi:</l>
+            <l>Proquobis patiar mori,</l>
+            <l>Si parcent puero fata ſuperſtiti.</l>
+         </lg>
+         <lg>
+            <l>Quid ſi priſca redit Venus,</l>
+            <l>Diductoſque iugo cogit aheneo?</l>
+            <l>Si ſlaua excutitur Chloe</l>
+            <l>Reiectæque patet ianua Lydiæ?</l>
+         </lg>
+         <lg>
+            <l>Quanquam ſidere pulchrior</l>
+            <l>Ille eſt, tu leuior cortice &amp; improbo</l>
+            <l>Iracundior Adria;</l>
+            <l>Tecum viuere amem, tecum obeam libens.</l>
+         </lg>
+      </div>
+      <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f45"/>
+      <div type="poem">
+         <head>
+            <lb/>DIALOGVE D’HORACE ET
+            <lb/>DE LYDIE</head>
+         <lg>
+            <lg>
+               <l>Tandis que mon amour t'enflãmoit conſtãmẽt,</l>
+               <l>Pandis qu'vn ieune amy, brauãt ma ialouſie,</l>
+               <l>Ne preſſoit ton beau col d’vn mol embraſſement,</l>
+               <l>I'ay flory plus heureux qu'vn Monarque d'Aſie.</l>
+            </lg>
+            <lg>
+               <l>Deuant que ton eſprit briſaſt ſa loyauté,</l>
+               <l>Deuant qu'il euſt chery d’yne aueugle folie</l>
+               <l>Cloé plus que Lydie, illuſtre de beauté,</l>
+               <l>I'ay ſurmonté l'eſclat de la Romaine Ilie.</l>
+            </lg>
+            <lg>
+               <l>Cloé Greque ſans pair me poſſede à ſon tour</l>
+               <l>Par sõ luth &amp; ſa voix qui ſcait charmer l'oreille:</l>
+               <l>Et mourrois volontiers, victime de l'Amour,</l>
+               <l>Pour conſeruer mourant cette ieune merueille.</l>
+            </lg>
+            <lg>
+               <l>Calaïs Thurien épris de mes appas,</l>
+               <l>Par vn reuers g'entil de ſes attraits me bleſſe:</l>
+               <l>Et ſouffrirois deux fois la rigueur du trespas,</l>
+               <l>Pour ſauuer du tombeau cette belle ieuneße.</l>
+            </lg>
+            <lg>
+               <l>Quoy ſi l'amour premier reſſuſcitant ſon feu</l>
+               <l>Ramenoit ſoubs ton ioug mon ame reuoltée?</l>
+               <l>Quoy ſi mon cœur ſolide eterniſant ſon vœu,</l>
+               <l>Ma Lydie eſt reçeue &amp; Cloé rejettée?</l>
+            </lg>
+            <lg>
+               <l>Encor qu'il ſoit pl9 beau qu'vn aſtre au frõt des cieux,</l>
+               <l>Toy plus leger qu'vn liege &amp; plus mutin que l'õde;</l>
+               <l>Ie veux rouler mes iours aux priſons de tes yeux,</l>
+               <l>Ie yeux que mon cercueuil tes obſeques ſeconde.</l>
+            </lg>
+         </lg>
+      </div>
+      <pb n="" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3142288/f46"/>
+      <div type="poem">
+         <head>
+            <lb/>INCERTAIN SVR LHORLOGE
+            <lb/>DE SABLE.</head>
+         <lg>
+            <l><hi>E</hi>Xiguus vitro puluis qui diuidit horas,</l>
+            <l>Et leuis anguſtum ſepe recurrit iter,</l>
+            <l>Olim Alcipus erat:qui Marthæ vidit ocellos</l>
+            <l>Arſit, &amp; eſt ſubito factus abigne cinis.</l>
+            <l>Irrequiete cinis, miſeros teſtabere amantes,</l>
+            <l>More tuo, nulla poſſe quiete frui.</l>
+         </lg>
+         <lg>
+            <head>VERSION</head>
+            <l>Ce peu de poudre, helas! qui fîle en ces deux verres,</l>
+            <l>Courant &amp; recourant ſur ſes eſtroictes erres,</l>
+            <l>Affin de marquer l'heure &amp; meſurer le iour,</l>
+            <l>Eſtoit iadis Alcipe eſclaue de l'Amour.</l>
+            <l>Bruflè des yeux de Marthe il coula tout en cẽdre:</l>
+            <l>Et faut, cendre inquiete, en ton aſpect cõprendre:</l>
+            <l>Qu'vn miſerable eſprit bleſſé par vn bel œil</l>
+            <l>N’a iamais de repos s'il te manque au cercueil.</l>
+         </lg>
+      </div>
+   </back>
+</text>

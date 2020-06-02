@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0003-2">
+   <front>
+      <div type="titlePage" n="1" xml:id="EXP_0003-0-1">
+         <p xml:id="EXP_0003-0-1-1" n="1">
+            <pb n="1"/>
+            <lb/>LA
+            <lb/>COMEDIE
+            <lb/>DES
+            <lb/>ACADEMISTES,
+            <lb/>POVR
+            <lb/>LA REFORMATION.
+            <lb/>de la Langue Françoiſe.
+            <lb/>PIECE COMIQVE.</p>
+         <p xml:id="EXP_0003-0-1-2" n="2">
+            <lb/>AVEC LE ROOLE DES
+            <lb/>PRESENTATIONS, FAITES.
+            <lb/>aux grands Iours de ladite
+            <lb break="no" rend="¬"/>Academie.</p>
+         <p xml:id="EXP_0003-0-1-3" n="3">
+            <lb/>Imprimé l’An de la Reforme.</p>
+      </div>
+
+      <div type="liminal" xml:id="EXP_0003-0-2" n="2">
+         <p xml:id="EXP_0003-0-2-1" n="1">
+            <lb/>M
+            <lb/>1
+            <pb n="2"/>
+            <lb/>AVX AVTHEVRS DE
+            <lb/>l'Academie, qui ſe meſlent de
+            <lb/>reformer la Langue.
+            <lb/>ESSIEVRS,
+            <lb/>Il eſt trés iuſte de
+            <lb/>vous dedier cet ou
+            <lb break="no" rend="¬"/>urage, puis que vous auez fourny lé
+            <lb/>ſujet, &amp; qu’il n’y a point de gens au
+            <lb/>monde qui meritent le petit hon
+            <lb break="no" rend="¬"/>neur) ſi bien que vous ne vous laiſ
+            <lb break="no" rend="¬"/>ſez pas gagner aux exceſſiues loüan
+            <lb break="no" rend="¬"/>ges que ie vous donné: car eſtant
+            <lb/>genereux comme ie ſuis, il me faſ
+            <lb break="no" rend="¬"/>cheroit bien de corrompre l’integri
+            <lb break="no" rend="¬"/>L A ij
+            <pb n="3"/>
+            <lb/>Eonmaneiadie eddaue adiediee adLLLE
+            <lb/>Aux Autheüi;t
+            <lb/>té de mes iugés, &amp; d’obtenir par ma
+            <lb/>complaiſance vne approbation que
+            <lb/>ie n’aurois pas meritée: i’ay crau
+            <lb/>d’abord vous Voyant tellement en
+            <lb break="no" rend="¬"/>gagez que vous ſeriez préuenus de
+            <lb/>paſſion, Et ſur cette fantaiſie qui
+            <lb/>m’a trompé quelque temps, i’ay,
+            <lb/>conſulté des Autheurs dont le iuge
+            <lb break="no" rend="¬"/>ment deuoit eſtre d’autant plus ſain
+            <lb/>qu’il eſt plus deſintereſſé que le vo
+            <lb break="no" rend="¬"/>ſtre, quand i’ay çonſidéré leurs ou
+            <lb break="no" rend="¬"/>urages, i'y ay trouué de beaux ſen¬j
+            <lb/>timens, &amp; à dire vray i’eûſſe çon
+            <lb break="no" rend="¬"/>ſenty qu’on leur eûſt donné la repu
+            <lb break="no" rend="¬"/>tation qu’ils ont cherchéer: Mais ſi
+            <lb/>toſt que i'ay comparé ces Meſſieurs
+            <lb/>auec vous, i’ay cognu la foibleſſe de
+            <lb/>leurs ſens par la force de voſtre rai
+            <lb break="no" rend="¬"/>ſonnement, &amp; me ſuis eſtonné mille
+            <lb/>fois qu’on trouuaſt des beſtes &amp; des
+            <pb n="4"/>
+            <lb/>de l'Academie.
+            <lb/>Anges parmy des hommes, quelques
+            <lb/>intereſſez que vous puiſſiez eſtre
+            <lb/>i'aduoüe que vous eſtes ſeuls capa
+            <lb break="no" rend="¬"/>bles de bien iuger, comme vous
+            <lb/>auez l’eſprit excellent vous auez l’a
+            <lb break="no" rend="¬"/>me parfaitement belle, &amp; qui conſi
+            <lb break="no" rend="¬"/>dérera que vous auez paſſé des an
+            <lb break="no" rend="¬"/>nées toutes-entieres à la reforma
+            <lb break="no" rend="¬"/>tion d’vn mot ſe perſuadera aiſé
+            <lb break="no" rend="¬"/>ment que vous employez toute vo
+            <lb break="no" rend="¬"/>ſtre vie à combattre les mauuaiſes
+            <lb/>inclinations qui nous perdent, ie ne
+            <lb/>m’eſtonne point ſi voſtre eſprit ne
+            <lb/>trouue rien qui luy empeſche la li
+            <lb break="no" rend="¬"/>berté de ſes fonctions, vous eſtes ſi
+            <lb/>ſobres qu’il ne s’eſleue aucune va
+            <lb break="no" rend="¬"/>peur au cerueau, &amp; ſi chaſtes que
+            <lb/>vous conſeruez tous vos eſprits pour
+            <lb/>là continuelle méditation où vous
+            <lb/>viuez, auſſi n’eſt-ce pas vne mer
+            <lb break="no" rend="¬"/>
+            <pb n="5"/>Aux Autheurs
+            <lb/>ueille que vous ſoyez eſtimez ex
+            <lb break="no" rend="¬"/>cellens Prophetes, puis qu’outre la
+            <lb/>bonté du tempérament melanco
+            <lb break="no" rend="¬"/>lique vous auez encores ces deux
+            <lb/>qualitez que Balſac a tant deſirées
+            <lb/>pour la prophetié: mais ſeruez-vous
+            <lb/>des diuinations aux affaires que
+            <lb/>vous ſçauez ſi héureuſement pré
+            <lb break="no" rend="¬"/>dire, de moy ie ne veux que la
+            <lb/>cenſure où l’approbation du petit
+            <lb/>ouurage que ie vous offre, ie n’ay
+            <lb/>point voulu conſulter les mots, ny
+            <lb/>tirer des regles qu’ils nous ont laiſ
+            <lb break="no" rend="¬"/>ſées la ſatisfaction que i’attends, ie
+            <lb/>ne trouue point auſſi d’Autheurs à
+            <lb/>préſent (excepté vous) que ie vueil
+            <lb break="no" rend="¬"/>le croire, car de ſuiure le genie de
+            <lb/>Theophile, imiter les deſcriptions
+            <lb/>de S. Amand chercher l’Art de Mal
+            <lb break="no" rend="¬"/>herbe où l’eſgalité de Racan, c’eſt
+            <pb n="6"/>
+            <lb/>de l'Academie.
+            <lb/>vne choſe à mon aduis tres indigne
+            <lb/>d’vn honneſte homme, puis que
+            <lb/>vous effacez par les loüanges que
+            <lb/>vous meritez toute la gloire que ces
+            <lb/>Meſſieurs-là ont acquiſe: Mais pour
+            <lb/>ne plus parler couuertement, ie
+            <lb/>l ſuis de voſtre Reforme,
+            <lb/>Voſtre Seruiteur,
+            <lb/>DES CAVENETS.</p>
+      </div>
+
+      <div type="castList" n="3" xml:id="EXP_0003-0-3">
+         <list>
+            <head>
+               <lb/>LES ACTEVRS.</head>
+            <item>
+               <lb/><persName>TRISTAN</persName>.</item>
+            <item>
+               <lb/><persName>SAINE AMAND</persName>.</item>
+            <item>
+               <lb/><persName>GODEAV</persName>.</item>
+            <item>
+               <lb/><persName>COLLETET</persName>.</item>
+            <item>
+               <lb/><persName>CHAPEL'AIN</persName>.</item>
+            <item>
+               <lb/><persName>GOMBAVD</persName>.</item>
+            <item>
+               <lb/><persName>HABERT</persName>.</item>
+            <item>
+               <lb/><persName>L’ESTOILLE</persName>. </item>
+            <item>
+               <lb/><persName>LE MARQVIS DE BREVAL</persName>.</item>
+            <item>
+               <lb/><persName>LE PRESIDENT SERISY</persName>.</item>
+            <item>
+               <lb/><persName>BOISROBERT</persName>.</item>
+            <item>
+               <lb/><persName>SIELOIN</persName>.</item>
+            <item>
+               <lb/><persName>MADEMOISELLE DE GOVRNE’</persName>.</item>
+            <item>
+               <lb/><persName>BAVDOVIN</persName>.</item>
+            <item>
+               <lb/><persName>LE SERGEANT</persName>.</item>
+            <item>
+               <lb/><persName>LE GEOLIER</persName>.</item>
+            <item>
+               <lb/><persName>FARET</persName>.</item>
+            <item>
+               <lb/><persName>MONSIEVR LE CHANCELIER</persName>.</item>
+            <item>
+               <lb/><persName>LA TROVPPE</persName>.</item>
+         </list>
+      </div>
+      <fw>
+         <lb/>La Scene eſt à Paris.</fw>
+   </front>
+   <body>
+      <div type="play" n="1" xml:id="EXP_0003-1">
+         <div type="act" n="1" xml:id="EXP_0003-1-1">
+            <fw>
+               <lb/>ACTE PREMIER. ai</fw>
+            <div type="scene" n="1" xml:id="EXP_0003-1-1-1">
+               <head>
+                  <lb/>SGENE PREMIERE. 161</head>
+               <stage>
+                  <lb/><persName>TRISTAN</persName>, <persName>SAINT AMAND</persName>,
+                  <lb/>qui ſe mocquent de l’Academie.</stage>
+               <sp xml:id="EXP_0003-1-1-1-1" n="1">
+                  <speaker>
+                     <lb/>TRISTAN.</speaker>
+                  <p>
+                     <lb/>?
+                     <lb/>MT qui ne riroit de noſtre Aca
+                     <lb break="no" rend="¬"/>demie,
+                     <lb/>Mallet a'il iamais receu plus d’in
+                     <lb break="no" rend="¬"/>famie,
+                     <lb/>Qu'on en voit aujourd'huy dans ces petits
+                     <lb/>Autheurs,
+                     <lb/>Qui ſe font eſtimer comme rares Docteurs?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Sont-ce pas nos Meßieurs, qui reforment
+                     <lb/>la langue,
+                     <lb/>Dis-moy, quand finira leur derniere harangue?
+                     <lb/>Sont-ils venus à bout de leur auant-propos?
+                     <lb/>Reſponds-moy, cher Triſtan.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan.</speaker>
+                  <p>
+                     <lb/>par ma foy ſont des ſots,
+                     <lb/>Quoyyque bien peu ſçauans ils ont bien le
+                     <lb/>courage
+                     <lb/>De gloſer tous les iours deſſus noſtre langage:
+                     <lb/>Mais ils paſſent deux ans à reformer ſix mots.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Il faut pour les payer.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan.</speaker>
+                  <p>
+                     <lb/>Quoy?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>leur rompre les os,
+                     <lb/>Ces petits excroqueurs ont-ils pas bonne grace,
+                     <lb/>D'amuſer le public auecque leur grimace;
+                     <lb/>Faire vn petit Recueil, vne Traduction,
+                     <lb/>Compoſer quatre vers plains de deuotion:
+                     <lb/>Vn Sonnet pour vn grand, ou bien l'Epitalame
+                     <lb/>Adjouſter s’il ſe peut la petite Epigrame,
+                     <lb/>Reſuer cinq ou ſix mois ſur l'objet le plus beau,
+                     <lb/>Pour faire voir au iour quelque meſchant
+                     <lb/>Rondeau,
+                     <lb/>Mleſpriſer hautement les vers de Theophile,
+                     <lb/>ſey <fw>
+                        <lb/>8 COMEDIE. 3</fw>
+                     <lb/>Admirer en tous lieux la beauté de leur ſtile,
+                     <lb/>Se rauir les premiers de leurs inuentions,
+                     <lb/>C'eſt vrayſment meriter de bonnes penſions.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan.</speaker>
+                  <p>
+                     <lb/>La vanité chez eux n'eſt pas le plus grand
+                     <lb/>crime.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Ils font tous leurs efforts pour ſe metrre en
+                     <lb/>eſtime.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan</speaker>
+                  <lb break="no"/>
+                  <p>Sans mentir à leur gouſt rien n'eſt trouué
+                     <lb/>parfait,
+                     <lb/>Rien ne ſemble excellent de ce qu'ils n'ont pas
+                     <lb/>fait;
+                     <lb/>Molliere à leuraduis, ne fait pas bien en proſe,
+                     <lb/>Ta belle Solitude, &amp; ta Metamorphoſe,
+                     <lb/>Ta ioüyſſance außi, tes belles viſions,
+                     <lb/>Ont abusé le peuple ainſi qu'illuſions.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Qui de ſes grands Docteurs fait voir plus
+                     <lb/>d'inſolence,</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan</speaker>
+                  <p>
+                     <lb break="no"/>Pour moy ie n'en ſçay point qui garde le
+                     <lb/>ſulence;
+                     <lb/>L'orgueilleux Chappelain, l'Eſtoille auec
+                     <lb/>Godeau,
+                     <lb/>N'ont iamais pfu trouuer ouurage qui fuſt beaus,
+                     <lb/>Baudouin, Colletet, l'Estoille &amp; Ladreuille,?
+                     <lb/>Sont de ces grands Autheurs qui courent par
+                     <lb/>la ville,
+                     <lb/>Sans oublier pourtant le gentil Boiſrobert,
+                     <lb/>Gombaut la froide mine, &amp; le petit Habert</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Certes i'en ſouffrirois ſi leurs belles merueilles,
+                     <lb/>Contentoient nos eſprits &amp; charmoient nos
+                     <lb/>oreilles:
+                     <lb/>Mais Chapelain eſt rude en ſes vers amoureux
+                     <lb/>Il veut galantiſer le pauure malheureux;
+                     <lb/>Et faiſant le portraict de ſa chere Comteſſe,
+                     <lb/>Au lieu d'vn beau viſage il peint vne diableſſe
+                     <lb/>Godeau pour faire court ne vaut pas vn teſton,
+                     <lb/>Euſt-il touſiours ſur luy l'Orange &amp; le Citron:
+                     <lb/>Ladreuille dit-on fait aſſez, bien vn conte,
+                     <lb/>L'Estoille vn Madrigal, &amp; n'en a point de
+                     <lb/>honte,
+                     <lb/>Il fait de l'Eſprit doux, mais il eſt plat vn peu,
+                     <lb/>Gombaud pour vn chaſtré ne manque point de
+                     <lb/>ſeu;
+                     <lb/>Baudoüin fait des vers au deſſous des images,
+                     <lb/>Colletet pour cinq ſols vous fera des ouurages.
+                     <lb/>Boiſrobert eſt paſſable en matiere d'amour,
+                     <lb/>Il n'adjuſte point mal vn petit air de Cour,
+                     <lb/>Il ſe voudroit picquer de faire vne elegie,
+                     <lb/>Toutefois il n'a pas la plus fine magie;
+                     <lb/>Habert à tout le moins paſſera pour Autheur,
+                     <lb/>Et peutyeſtre eſtimé icune Predicateur.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan.</speaker>
+                  <p>
+                     <lb/>Tu ne me parles point du marquis ſans eſpée,
+                     <lb/>Sa verue en cet endroit ſeroit bien occupée,
+                     <lb/>Encor que dirois-tu du Seigneur de Breual?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Il ſeroit excellent, mais il rime à cheual.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan.</speaker>
+                  <p>
+                     <lb/>Dieux! qu’ils ſont bien deſpeints.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>en faut-il d'auantage?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Triſtan</speaker>
+                  <p>
+                     <lb break="no" rend="¬"/>Non, c'eſt aſſez parlé d'autheurs &amp; de
+                     langage.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>S. Amand.</speaker>
+                  <p>
+                     <lb/>Allons-nous-en trouuer le compere Faret,
+                     <lb/>Et reformer les mots dedans le Cabarei.</p>
+               </sp>
+            </div>
+
+            <div type="scene" n="2" xml:id="EXP_0003-1-2">
+               <head>
+                  <lb/>ACTE PREMIER.
+                  <lb/>Ldore SCENE II.</head>
+               <stage>
+                  <lb/><persName>GODEAV</persName>, <persName>COLLETET</persName>.</stage>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>HE quoy! chers nourriſſons, des filles
+                     <lb/>de memoire
+                     <lb/>Qui du ſiecle à venir obtiendrez la victoire,
+                     <lb/>Beaux mignons de Pallas, vrays fauoris des
+                     <lb/>Dieux,
+                     <lb/>Vous n'eſtes pas encores arriuez en ces lieux:
+                     <lb/>Auriez-vous bien ſi tard les pieds deſſous la
+                     <lb/>table?
+                     <lb/>Non, les plus doux feſtins n'ont pour vous rien
+                     <lb/>d'aimable,
+                     <lb/>Les Liéures, les Lappins, les Cailles, les
+                     <lb/>Perdrix,
+                     <lb/>Les Canars, les Faiſans, vous ſont tous à
+                     <lb/>meſpris, Ginfame;
+                     <lb/>Laiſſons-là ces ragouſts pour le bien d'vn
+                     <lb/>Et prenons les plaiſirs que trouue vne belle
+                     <lb/>ame:
+                     <lb/>Mais voicy Colletet qui haſte vn peu le pas
+                     <lb/>Ie l'ay touſiours cognu ſobre dans ſes repas.
+                     <lb/>Bon iour cher Colletet.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>grand Eueſque de grace;
+                     <lb/>Dites-moy s'il vous plaiſt, comme il faut que
+                     <lb/>ie faſſe,
+                     <lb/>Ne dois-je pas baiſer voſtre ſacré tallon?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Nous ſommes tous eſgaux eſtans fils d'Ap
+                     <lb break="no" rend="¬"/>pollen,
+                     <lb/>Leuez-vous Colletet.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>voſtre magnificence
+                     <lb/>Ne permet, Monſeigneur, vne telle licence.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Leuez-vous promptement, ie ſuis tout en cour
+                     <lb break="no" rend="¬"/>roux
+                     <lb/>De vous voir deuant moy ſi long temps à ge
+                     <lb break="no" rend="¬"/>noux.</p>
+               </sp>
+               <sp>
+                  <speaker>Colletet.</speaker>
+                  <p>
+                     <lb/>Tres reuerend Seigneur il vaut mieux vous
+                     <lb/>complaire.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Attendant nos Meßieurs que nous faudracil
+                     <lb/>faire?</p>
+               </sp>
+               <sp>
+                  <speaker>Colletet.</speaker>
+                  <p>
+                     <lb/>Ie ſuis preſt d'obeirà voſtre volonté.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Parlons comme autresfois auecques liberté,
+                     <lb/>Vous ſçauez Colletet à quel poinct ie vous
+                     <lb/>aime.</p>
+               </sp>
+               <sp>
+                  <speaker>Colletet.</speaker>
+                  <p>
+                     <lb/>Seigneur voſtre amitié m'eſt vn honneur ex
+                     <lb break="no" rend="¬"/>tréme.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Celletet ie vous aime &amp; chery ſur ma foy,
+                     <lb/>Souffrez, donc vn moment que ie parle de moy,
+                     <lb/>Auez-vous veu mes vers, ces beaux vers qu'on
+                     <lb/>adore?</p>
+               </sp>
+               <sp>
+                  <speaker>Colletet.</speaker>
+                  <p>
+                     <lb/>Ie les ay deſià leus, mais ie les lis encore,
+                     <lb/>C'eſt tout mon entretien dedans mon cabinet,
+                     <lb/>Tout en eſt excellent tout eſt beau, tout eſt net.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Manquay-je en quelque endroit à garder là
+                     <lb/>ceſure,
+                     <lb/>A-von veu dans mes vers vne ſeule rature?
+                     <lb/>Suis-je pas ſcrupuleux à bien choiſir les mots;
+                     <lb/>Ie ſuis tres-excellent, quoy que diſent les ſots.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet</speaker>
+                  <p>
+                     <lb/>Colleéet.
+                     <lb/>Vrayſment vn enuieux ſeroit bien miſerable,
+                     <lb/>Qui ne vous trouueroît par tout incomparable:
+                     <lb/>Ie ſçay bien, Monſeigneur, que les plus meſ
+                     <lb break="no" rend="¬"/>S’ils liſent vos eſcrits deuiendront complai
+                     <lb break="no" rend="¬"/>ſants,</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Non pas, cher Colletet, cette meſchante race,
+                     <lb/>Peut dire que mes vers ſont froids comme là
+                     <lb/>Shaice.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet. </speaker>
+                  <p>
+                     <lb/>Ils ſe feront mocquer.SR</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>vray)ment ils ont beau ieü,</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Ils ſçauent voſtre ardeur</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>ie ſuis tout plein de feu; Mon s'eiafil estyras Colſetet!
+                     <lb/>gagV.
+                     <lb/>c'eſt à tort qu’on
+                     <lb/>m'accuſe
+                     <lb/>S'attaquer à Godeau; c'eſt ſe prendre à là
+                     <lb/>muſe. C
+                     <lb/>Et qui m'accuſera de la ſterilité,
+                     <lb/>N'a qu'à lire vne fois mon Benedioité:
+                     <lb/>O l'ouurage excellent!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>ô la piece admirable!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Chef-d'œuure precieux!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>à merueille adorable!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Que peut-on deſirer apres vn tel effort.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Qui ne ſera content aura ma foy grand
+                     <lb/>ge
+                     <lb/>Mais ſans parler de moy trop à mon aduantage,
+                     <lb/>Suis-je pas, Monſeigneur, vn tres grand per
+                     <lb break="no" rend="¬"/>ſornage?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Colletet mon amy vous ne faites pas mal.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Quoy? ie pretens traiter tout le monde d'eſ
+                     <lb break="no" rend="¬"/>gal
+                     <lb/>I'ay bien plus de vigueur que n'auoit Théo
+                     <lb break="no" rend="¬"/>phile,
+                     <lb/>Ie crois fort approcher du bon pere Virgile,
+                     <lb/>Que pourriez-vous encor reprendre dans mes
+                     <lb/>veys?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Colletet tes diſcours ſont vn peu trop couuerts;</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Il eſt certain que i'ay le ſtile magnifique.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Vous parlez vn peu mieux qu'vn garçon de
+                     <lb/>Jl</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Ha, le reſpect m'eſchappe, &amp; mieux que vous
+                     <lb/>außi.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Parlez bas Colletet quand vous parlez ainſi.</p>
+               </sp>
+               <sp>
+                  <lb/>
+                  <speaker>Colletet.</speaker>
+                  <lb/>
+                  <p>C'eſt vous, Monſieur Godeau qui me faites</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Me voulez-vous contraindre à loüer voſtre
+                     <lb/>VNil le meritoit bien.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Ie le trouue fort plat pour ſt vous celer rien.
+                     <lb/>ttoinonqre.</p>
+               </sp>
+               <sp>
+                  <speaker>Godeau.</speaker>
+                  <p>
+                     <lb/>Si vous en parlez mal, vous eſtes en colere.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Si i'en ay dit du bien c'eſtoit pour vous com
+                     <lb break="no" rend="¬"/></p>
+               </sp>
+               <sp>
+                  <speaker>Godeau.</speaker>
+                  <p>
+                     <lb/>Colletet, ie vous treuue vnt gentil violon.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>Nous ſommes tous eſgaux eſtans fils d'Apol
+                     <lb break="no" rend="¬"/>lon.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Godeau.</speaker>
+                  <p>
+                     <lb/>Retirez-vous d’icy, ſortez, donc groſſe beſte.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <lb/>Colletet.</speaker>
+                  <p>
+                     <lb/>ouy, ie m'en vay ſortir vous me rompez la
+                     <lb/>teſte.</p>
+               </sp>
+               <sp>
+                  <speaker>Godeau</speaker>
+                  <p>
+                     <lb break="no" rend="¬"/>Sur mon Dieu ce maraut me mettroit en peché
+                     <lb/>Si i'eſtois auec luy plus long temps attaché;
+                     <lb/>C'eſt vn gueux, vn coquin, il ne dit rien qui
+                     <lb/>vaille,
+                     <lb/>Ha! Dieu ie ne veux plus de pareille canatuë.</p>
+               </sp>
+            </div>
+         </div>
+      </div>
+   </body>
+</text>

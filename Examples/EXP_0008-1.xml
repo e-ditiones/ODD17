@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0008-1">
+   <body>
+      <p>
+         <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f10.image"/>ACTEURS DU
+         PROLOGUEMERCURE,MELPOMENE, Muſe de la Tra
+         <lb/>gedie,TERPSICORE', Muſe de la Muſique.THALIE. Muſe de la Comedie.Troupe de Genies qui
+         ſuivent Melpomene.Troupe de Génies qui ſuivent Terpſicoré.Troupe de Génies qui ſuivent
+            Thalie.JUPITER.<pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f11.image"/>PROLOGUE.
+         <lb/>LE Theatre repreſente un lieu propre
+         <lb/>à donner des ſpectacles, &amp; qui peut
+         <lb/>convenir à la Tragedie &amp; à la Comedie:
+         <lb/>Ce lieu n’a plus la magnificence qu’il pa
+         <lb/>
+         <lb/>roiſt avoir eu autrefois, il eſt même preſ
+         <lb/>
+         <lb/>que détruit &amp; ruiné. On y voit Melpo
+         <lb/>
+         <lb/>mene, Terpſicoré &amp; Thalie ſans aucune
+         <lb/>ſuite. Mercure deſcend du Ciel. MERCURE, MELPOMENE, TERPSICORE’, THALIE. MERCURE.
+         SCavantes Sœurs, arbitres de la Scene, Quel accident funeſte a fait ceſſer vos Ieux? Ie ne
+         voy plus icy vôtre appareil pompeux, <pb
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f12.image"/>
+         <fw>PROLOGUE.</fw> Et je ne reconnais qu’à peine, Thalie, &amp; Melpomene; Et vous dont les
+         charmans Concerts, En ces lieux autrefois, raiſonnoient dans les Airs; Quel trouble, ou
+         quelle indifference Cauſe aujourd’huy vôtre ſilence? MELPOMENE. Ignorez-vous, que le plus
+         grand des Rois Etendant chaque jour ſes conquêtes Et ſignalant ſon bras, par de nouveaux
+         Exploits A négligé nos plus ſuperbes Fêtes? THALIE. Depuis ce fatal moment, Nos Spectacles
+         privez de leur magnificence, Ne ſçauroient plus avoir l'éclat &amp; l’agrément Qu’ils ne
+         devoient qu'à ſa preſence. TERPSICORE’. La triſteſſe regne en ces lieux, Nous rougiſſons de
+         ne pouvoir luy plaire; Hélas! ne ſçaurions-nous rien faire Digne de paroître à ſes yeux?
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f13.image"/>MELPOMENE, THALIE,
+         TERPSICORE’. Hélas! ne ſcaurions-nous rien faire Digne de paroître à ſes yeux?
+            <fw>PROLOGUE.</fw>MERCURE. Terminez, vos regrets, que vôtre douleur ceſſe, Dans vôtre
+         ſort Jupiter s’intereſſe, Et veut icy revoir, dés ce même moment Un ſpectacle charmant,
+         Qu'un changement favorable Redonne à ces triſtes lieux Tout ce qu'ils ont eû d'aimable:
+         C'eſt l'Ordre irrevocable Du Souverain des Dieux. Ce lieu deſert &amp; détruit reprend tout
+         d’un coup
+         <lb/>ſa premiere magnificence. MELPOMENE. Vous, ſecourables Genies, Si neceſſaires à nos
+         Jeux, Hâtez-vous, ſecondez nos vœux; Venez, &amp; prêtez-nous vos graces infinies.
+         MELPOMENE, TERPSICORE’. Animez d'une ardeur nouvelle, Venez remplir nos deſirs, Et faites
+         que nos plaiſirs Doivent leur charme à vôtre Zéle. <pb
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f14.image"/>
+         <fw>PROLOGUE.</fw>CHOEUR DE GENIES. AnimeZ d’une ardeur nouvelle Nous venons remplir vos
+         deſirs, Nous nous flatons que vos plaiſirs Devront leur charme a nôtre Zéle. THALIE. Vous
+         qui ſçavez ſi bien, par une heureuſe adreſſe Calmer les noirs chagrins, bannir les ſoins fâ
+         <lb/>cheux, Favoriſez mes Sœurs, &amp; mêlez dans leurs Jeux
+         <lb/>quelques traits de vôtre allegreſſe. MELPOMENE, THALIE, TERPSICORE’. Que nos Ieux vont
+         avoir de charmes! Tous nos chants vont inſpirer l’Amour. VeneZ tous, rendeZ-luy les armes,
+         Il eſt doux dans cét heureux ſejour. Que nos Ieux vont avoir de charmes! Tous nos chants
+         vont inſpirer l’Amour. Ce n’eſt plus le temps des allarmes, Les Plaiſirs ſont enfin de
+         retour. Que nos Ieux vont avoir de charmes! Tous nos chants vont inſpirer l’Amour. <pb
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f15.image"/>
+         <fw>PROLOGUE.</fw>MERCURE.Iupiter va paroître, RedoubleZ vos efforts pour plaire à vôtre
+         Maître. CHOEUR.Iupiter va paroiſtre, Redoublons nos efforts pour plaire a nôtre Maiſtre.
+         Dans ce moment JUPITER paroiſt dans ſon Char. JUPITER. Il ne manque aux apprêts de la Fête
+         nouvelle, Que Mercure a fait préparer, Que le choix du Heros qu’on y doit celebrer, Le ſoin
+         de le choiſir auprés de vous m’appelle. Renouvellez dans vos Ieux Le ſouvenir de
+         l’invincible Achile, Et rappelleZ dans une Cour tranquile, L'Hiſtoire &amp; les Combats de
+         ce Guerrier fa
+         <lb/>meux. MELPOMENE, TERPSICORE’, THALIE. Renouvellons dans nos Ieux Le ſouvenir de
+         l’invincible Achile, <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f16.image"/>
+         <fw>PRO6OGUE.</fw> Et rappellons dans une Cour tranquile, L'Hiſtoire &amp; les Combats de
+         ce Guerrier fameux. JUPITER. ConſacreZ tous vos Ieux au plus grand Roy du
+         <lb/>monde, Former ſur luy tous les Portraits De vos Heros les plus parfaits, Sa valeur, ſa
+         bonté, ſa ſageſſe profonde, Vous prêteront d'inimitables traits. CHOEUR. Conſacrons tous
+         nos Ieux au plus grand Roy du
+         <lb/>monde, Sa valeur, ſa bonté, ſa ſageſſe profonde Nous prêteront d’inimitables traits,
+         Conſacrons tous nos Ieux au plus grand Roy du
+         <lb/>monde. Fin du Prologue.<pb
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f17.image"/>ACTEURS DE LA
+         TRAGEDIE.ACHILE, Roy de Theſſalie.PATROCLE, Amy d'Achile.DIOMEDE, L’un des Chefs de l’Armée
+         des Grecs.VENUS. Les Craces, les Amours, &amp; les Plaiſis qui ſuivent VENUS.ARCAS,
+         Confident d’Achile.Troupe de Chefs, &amp; de Soldats Grecs.AGAMEMNON, Roy de Mycene, &amp;
+         d’Argos, Chef de tous les Grecs.PRIAM, Roy de Troye.ANDROMAQUE, veuve d’Hector fils de
+         Priam.POLIXENE, fille de Priam.BRISEIS, Princeſſe Priſonniere d’Achile.JUNON.La Hayne, la
+         Diſcorde, la Fureur, l’Envie.<pb
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f18.image"/>Suite de la
+         Diſcorde.Troupe de Troyens.Troupe de Troyennes.Troupe de Theſſaliens.<pb n="1"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f19.image"/>ACHILE, TRAGEDIE.ACTE PREMIER.
+         <lb/>Le Theatre repreſente fille de Tenede,
+         <lb/>où Achille s’eſt retiré auprès de ſes
+         <lb/>Vaiſſeaux depuis ſa querelle avec
+         <lb/>Agamemnon. SCENE PREMIERE.ACHILE, PATROCLE.PATROCLE. On, je ne ſçaurois plus me taire,
+         Je vous dois un conſeil ſincere; Ne rougiſſez-vous point d'un indigne repos? Quand les
+         Grecs agitez, de mortelles allarmes, <pb n="2"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f20.image"/>
+         <fw>A 2 ACHILE,</fw> Implorent à genoux le ſecours de vos armes, Contre Hector, aprés vous,
+         le plus grand des Heros. Tantôt ce guerrier terrible, Des Grecs épouventeZ, embraſe les
+         Vaiſſeaux; Tantôt ſon bras invincible, Fait rougir de leur ſang, &amp; la terre &amp; les
+         eaux, Il court de victoire en victoire, Chaque jour, le bruit de ſa gloire, Va remplir
+         l'Vnivers &amp; vole juſqu’a vous: Des honneurs qu'il obtient, n'eſtes vous point jaloux?
+         ACHILE. Je vois avec plaiſir les pertes de la Grece, La valeur d’Hector m’a vangé, Le fier
+         Agamemnon connoîtra ſa foibleſſe, Et ſe repentira de m’avoir outragé. PATROCLE. Dequoy ſert
+         à ce Roy coupable D’avoir osé vous ravir Briſeis? Son attentat reçoit un digne prix, Et
+         pour luy Briſeis paroiſt inexorable, Quand un rival puiſſant vient troubler nos amours, Si
+         l’objet de nos vœux luy reſiſte toujours, Eſt-il de plus douce vangeance Que de voir ce
+         rival aimer ſans eſperance? ACHILE. Connoy mieux les raiſons de mon juſte courroux, Ce
+         n'eſt point ſeulement par un depit jaloux, Que je refuſe aux Grecs un ſecours neceſſaire,
+            <pb n="3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f21.image"/>
+         <fw>TRAGEDIE. 3</fw> Ils ont marqué trop de mépris pour moy, Ils mont laiſſé ſubir la
+         violente Loy De leur Chef temeraire. Non, jamais leurs malheurs ne ſcauroient m'é
+         <lb/>mouvoir, Leurs Vaiſſeaux embraſeZ, leurs Troupes fugitives, Leur Camp détruit, tous
+         leurs Rois ſans pouvoir, Leurs corps épars ſur ces ſanglantes rives Seroient encor des
+         objets impuiſſans, Pour ſuſpendre un moment la fureur que je ſens. PATROCLE. Eh bien! d'un
+         œil content regardez nos allarmes; Mais quand vous nous mépriſez tous, Du moins
+         accordeZ-moy ces armes Que Vulcain prepara pour vous; J’iray combatre Hector, &amp; me
+         combler de gloire, Je remporteray la victoire, Ou j'expireray ſous ſes coups. ACHILE. Qu
+         oſes-tu propoſer? Dieux! que viens-je d’entẽdre? Je commence à trembler pour la premiere
+         fois, Quand je ſonge au combat que tu veux entreprendre. PATROCLE. Au nom d’une amitié qui
+         fut toujours ſi tendre, Permettez-moy d'imiter vos exploits. Je connois les perils où mon
+         deſſein m’engage, Tout ſemble m'annoncer les fers ou le trépas; Mais ſi j'en croy mon
+         courage, <fw>A ij</fw>
+         <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f22.image"/>
+         <fw>4 ACHILE,</fw> Ce ſuperbe ennemy ne triomphera pas. ACHILE. D'une vaine terreur je n'ay
+         plus l'ame atteinte, Va combattre; le Ciel prendra ſoin de ton ſort, Puiſque ton cœur eſt
+         ſans crainte, Ton bras ne ſera que trop fort. PATROCLE. Ie cours aſſûrer ma memoire, l'ay
+         tous les ſentimens &amp; les ſoins des Heros; Non, les jours les plus doux paſſez dans le
+         repos Ne valent pas un jour marqué par la victoire. SCENE SECONDE.ACHILE, ſeul. seul.
+         PAtrocle va combatre? &amp; j'ay pu conſentir Qu'il courût aux dangers qui menaſſent ſa
+         vie? Ah! je devois l'empêcher de partir, Hélas de quels regrets ſa mort ſerait ſuivie? Si
+         le fort irrité pour accabler mon cœur Le faiſoit expirer ſous le fer d’un vainqueur.
+         Prevenez juſtes Dieux, mon deſeſpoir funeſte! Cét amy genereux, eſt le ſeul qui me reſte,
+         Conſervez, ſes jours par pitié! On m'a privé de l'objet que j'adore, <pb n="5"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f23.image"/>
+         <fw>TRAGEDIE.</fw> Ce ſeroit trop d’horreur de me priver encore De l’objet de mon amitié.
+         SCENE TROISIE'ME.ACHILE, DIOMEDE.DIOMEDE. NE répondreZ-vous point aux deſirs de la Grece?
+         Il faut qu’en ſa faveur vôtre colere ceſſe, Elle ne peut ſans vous triompher des Troyens;
+         En vain nous aſſiegeons leur Ville, Nos Dieux ſont moins forts que les ſiens, Sa priſe eſt
+         reſervée à la valeur d’Achile. ACHILE. De quel employ vous chargez-vous? N’eſperez-pas de
+         fléchir mon courroux, Diomede, je veux achever ma vangeance: Vos Rois &amp; vos Peuples
+         ingrats, Auroient encor pour moy la même indifference, S’ils n'avoient beſoin de mon bras.
+         DIOMEDE. Quoy? leur prompt repentir ne peut vous ſatis
+         <lb/>faire? ACHILE. Ils ont pris trop de ſoin d’attirer ma colere. <fw>A ijj</fw>
+         <pb n="6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f24.image"/>
+         <fw>6 ACHILE,</fw>DIOMEDE. Mais pouvez-vous aimer un ſi triſte ſejour, Et languir en ces
+         lieux dans une vie obſcure? Vous? à qui les Deſtins promettoient chaque jour Quelque
+         glorieuſe avanture. ACHILE. Malgré mes cruels déplaiſirs, La Déeſſe de Cythere En faveur de
+         Thetis ma mere Interrompt mes regrets, &amp; ſuſpend mes ſoûpirs; Cette charmante Déeſſe
+         Vient en ces lieux tous les jours, Ie vois avec elle ſans ceſſe Les graces, les plaiſirs,
+         les jeux &amp; les amours; Leur preſence eſt d'un grand ſecours Contre la plus ſombre
+         triſteſſe. DIOMEDE. C'eſt pour ſervir nos ennemis Qu'on prend ces ſoins mortels à vôtre
+         gloire, Songez que de vous ſeul dépend nôtre victoire, Et que tout notre ſort en vos mains
+         eſt remis. Faut-il que vôtre cœur ſe livre A l'amour des vains plaiſirs? Quelque douceur
+         que l'on goûte à les ſuivre, Un Heros doit former de plus nobles deſirs. <pb n="7"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f25.image"/>
+         <fw>TRAGEDIE.</fw>ACHILE. La Déeſſe paroiſt; &amp; déja ſa preſence Donne à ces lieux mille
+         beautez, I'admire ſes bienfaits, j’admire ſa puiſſance, Trop heureux de jouïr, ſur ces
+         bords écartez des plaiſirs innocens qui me ſont preſentez, SCENE QUATRIE’ME.VENUS ACHILE.
+         <lb/>Venus paroiſt en l'air avec l’Amour; elle eſt accom
+         <lb/>pagnée des Graces, &amp; des Plaiſirs: le nüage qui
+         <lb/>les porte deſcend juſques au bas du Theatre,
+         <lb/>ils en ſortent tous, &amp; le nüage ſe va perdre
+         <lb/>dans les Airs. VENUS. J'abandonne les Cieux, je deſcends ſur la Terre, Pour finir de
+         tes maux le déplorable cours, En vain l’injuſte ſort t’a déclaré la guerre, Eſpere tout de
+         mon ſecours. Vous, Divinitez aimables, Du plus grand des Heros charmez le triſte cœur, Et
+         faites ſuccéder à ſa vive douleur Les plaiſirs les plus agreables.
+         <lb/>La Danſe
+         <lb/>de ce Diver
+         <lb/>tiſſement a
+         <lb/>eſté faite par
+         <lb/>Monſieur de
+         <lb/>Leſtang. <pb n="8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f26.image"/>
+         <fw>8 ACHILE,</fw>SCENE CINQUIE’ME.ACHILE, LES GRACES, LES PLAISIRS.UNE DES GRACES. GRand
+         Heros, le Ciel vous eſt propice, Vos vertus ſe font rendre juſtice, Tout conſpire
+         aujourd’huy A finir vôtre ennuy.
+         <lb/>La Danſe
+         <lb/>de ce Diver
+         <lb/>tiſſement a
+         <lb/>eſté faite par
+         <lb/>Monſieur de
+         <lb/>Leſtang. UN PLAISIR. Si l'Amour a cauſé vos allarmes, Ses faveurs en auront plus de
+         charmes; Préparez vôtre cœur Au plus parfait bonheur. DEUX GRACES ET UN PLAISIR, Quel
+         mortel oſa jamais prétendre Les ſoins qu'icy nous venons vous rendre? Qui veut les mériter
+         N’a qu’à vous imiter. UNE DES GRACES. C'eſt pour vous que Venus nous appelle, Profitez de
+         nôtre ardeur fidelle, Vous aurez en ces lieux Tous les plaiſirs des Dieux. <fw>UN</fw>
+         <pb n="9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f27.image"/>
+         <fw>9 TRAGEDIE.</fw>UN PLAISIR. C'eſt en vain que la haine &amp; l'envie Sont d'accord pour
+         troubler vôtre vie, Par nôtre heureux ſecours Vous en triompherez, toûjours. DEUX GRACES ET
+         UN PLAISIR. Puiſſiez-vous par nos ſoins favorables Me paſſer que des jours agreables!
+         Eſt-il rien de ſi doux Que de vivre avec nous? SCENE SIXIE’ME.ACHILE, LES GRACES, LES
+         PLAISIRS, ARCAS.ARCAS. O Déplorable coup du ſort! O malheur! ACHILE. Ie frémis, parle?
+         ARCAS.Patrocle eſt mort. ACHILE. Ciel! quelle affreuſe nouvelle! Laiſſez-moy, fuyez de ces
+         lieux, <fw>B</fw>
+         <pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f28.image"/>
+         <fw>10 ACHILE,</fw> Vos appas, vos Concerts, &amp; tous les ſoins des Dieux Ne ſçauroient
+         plus calmer ma triſteſſe mortelle. SCENE SEPTIE'ME.ACHILE, ARCAS. COurons vanger cét amy
+         que je pers, Que de ſang &amp; de morts tous ces champs ſoient
+         <lb/>couverts! Que ſon fir vainqueur periſſe! Ie dois a l'amitié ce juſte Sacrifice. Manes
+         de ce Guerrier dont je pleure le ſort, Ie vous promets une prompte vangeance, I'en atteſte
+         des Dieux la ſuprême puiſſance, Je cours chercher Hector, je cours hâter ſa mort, Dans
+         l'eternelle nuit ſon ombre va vous ſuivre, Ou moy-même aujourd’huy je ceſſeray de vivre.
+         Fin du premier Acte.<pb n="11"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f29.image"/>
+         <fw>11</fw>ACTE SECOND
+         <lb/>Le Theatre repreſente le Camp des Grecs
+         <lb/>devant Troye; cette ſuperbe Ville
+         <lb/>paroît dans l'éloignement. SCENE PREMIERE.AGAMEMNON, DIOMEDE.DIOMEDE. PUis qu Achile
+         combat, y nous allons triom
+         <lb/>pher Nôtre victoire eſt certaine, Ceſſez, de le haïr, hâtez-vous d'étouffer Le
+         malheureux Amour qui cauſe vôtre haine. Vous devez rendre à ce Heros Le charmant objet de
+         ſa flame. <fw>B ij</fw>
+         <pb n="12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f30.image"/>
+         <fw>12 ACHILE,</fw>AGAMEMNON. Ah, s'il faut à ce prix aſſûrer ſon repos, Dieux! qu'il en
+         coûtera de tourmens à mon ame! DIOMEDE. Si vous pouviez fléchir la cruelle beauté, Dont
+         vôtre cœur eſt enchanté, I'excuſerois une injuſtice Qui finiroit vôtre ſort rigoureux: Mais
+         je dois condamner un funeſte caprice Qui vous rend tout enſemble injuſte &amp; malheureux.
+         AGAMEMNON. Il eſt vray que j'attaque un cœur inexorable, Ie ne puis fléchir ſa rigueur;
+         Mais contez-vous pour rien la flateuſe douceur De rendre un rival miſerable? DIOMEDE. Le
+         malheur d'un rival flate-t'il vôtre ennuy, Quand vous eſtes encor plus malheureux que luy?
+         Rappellez, vôtre courage, Que la raiſon vous dégage De vos fatales Amours. AGAMEMNON. Que
+         peut de la raiſon le triſte &amp; vain ſecours Contre les traits vainqueurs d'une beauté
+         cruelle? Quand l'Amour à nos yeux viẽt l'offrir tous les jours <pb n="13"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f31.image"/>
+         <fw>TRAGEDIE. 13</fw> Avec quelque grace nouvelle. Ranimons toutefois mon courage abatu,
+         C'eſt nourrir trop long-temps une vaine tendreſſe, Surmontons ma foibleſſe Par un dernier
+         effort digne de ma vertu. DIOMEDE.Achile eſt triomphant, je le vois qui s'avance Suivy de
+         nos Soldats, charmez de ſa valeur. AGAMEMNON. Eloignons-nous, évitons ſa preſence, Ie ne
+         ſçaurois encor répondre de mon cœur. SCENE SECONDE.ACHILE, CHEFS ET SOLDATS GRECS.CHOEUR.
+         <lb/>La danſe de
+         <lb/>ce divertiſſe
+         <lb/>ment a eſté
+         <lb/>faite par Mr
+         <lb/>Pecourt. GUerrier terrible, Soyez toûjours invincible, Que vos Exploits Faſſent
+         trembler tous les Rois. Ciel équitable, Sois luy toûjours favorable, Que ſon bonheur Soit
+         égal à ſa valeur. Guerrier terrible &amp;c. <fw>B iij</fw>
+         <pb n="14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f32.image"/>
+         <fw>14 ACHILE,</fw> Quelle allegreſſe! Quel triomphe pour la Grece! Ses ennemis Luy ſeront
+         bien-tôt ſoûmis. Guerrier terrible Soyez toûjours invincible, Que vos Exploits Faſſent
+         trembler tous les Rois, DEUX CAPITAINES GRECS. Venez tous a l'envy ſeconder nôtre ardeur,
+         Honnorez vôtre heureux Defenſeur, Celebrez ſa victoire, Chantez ſa valeur &amp; ſa gloire,
+         Que tous nos Rois Charmez de ſez Exploits Soient fournis à ſes loix. CHOEUR. Suivons,
+         ſuivons ſans ceſſe Ce Heros, ce fameux vainqueur; C’eſt à ſon bras, que la Gréce Doit ſa
+         force &amp; ſon bonheur. CHOEUR. Chantons la valeur &amp; la gloire Du Heros qui nous a
+         ſauvez, Qu il jouiſſe, apres ſa victoire Des honneurs éclatans à luy ſeul reſervez; <pb
+            n="15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f33.image"/>
+         <fw>TRAGEDIE. 15</fw> Chantons la valeur &amp; la gloire Du Heros qui nous a ſauveZ. De ſes
+         heureux travaux cheriſſons la mémoire, Conſacrons-luy des jours qu’il nous a conſervez.
+         Chantons la valeur &amp; la gloire Du Heros qui nous a ſauvez. ACHILE. Allez, que chacun
+         coure où ſon devoir l’ap
+         <lb/>pelle, Vos ſoins pour moy feroient trop de jaloux, Et de mes ennemis la vangeance
+         cruelle Ne pouvant m'accabler retomberoit ſur vous. SCENE TROISIE'ME.ARCAS, PRIAM,
+         ANDROMAQUE, POLIXENE.ARCAS. VEneZ marchez ſans défiance, Les Grecs vous ont donné leur foy,
+         Achile eſt genereux, craignez moins ſa preſence, Et qu’une juſte eſperance Succéde à vôtre
+         effroy. <pb n="16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f34.image"/>
+         <fw>16 ACHILE,</fw>SCENE QUATRIE’ME.PRIAM, ANDROMAQUE, POLIXENE.PRIAM. REſtes infortunez du
+         plus beau ſang du monde, Polixene, ma fille, &amp; vous veuve d’Hector, Mêlez vos pleurs
+         aux miens, &amp; s’il ſe peut en
+         <lb/>cor, Que tout redouble icy nôtre douleur profonde. PRIAM. ANDROMAQUE, POLIXENE.
+         Puiſſions-nous attendrir le cœur De ce ſuperbe vainqueur! <fw>SCENE</fw>
+         <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f35.image"/>
+         <fw>TRAGEDIE. 17</fw>SCENE CINQVIE'ME.ACHILE, ARCAS, PRIAM, ANDROMAQUE, POLIXENE.PRIAM.
+         VOus voyeZ, Guerrier indomptable, Un Roy qui fut long-temps le plus puiſſant
+         <lb/>des Rois; C'eſt ce même Priam, qui tenoit ſous ſes loix Des Troyens renommeZ, l’Empire
+         redoutable; C'eſt luy que le dernier de vos fameux Exploits, Vient de rendre plus
+         miſerable, Qu'il ne fut heureux autrefois. ACHILE. Le ſort ne peut changer l'auguſte
+         caractere, Dont les Dieux vous ont revêtu, Je le reſpecte en vous, je plains vôtre vertu,
+         Je ſens expirer ma colere, le ceſſe de haïr mes plus grands ennemis, Sitôt que je les vois
+         ou vaincus ou ſoûmis. <fw>C</fw>
+         <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f36.image"/>
+         <fw>18 ACHILE,</fw>ANDROMAQUE. I'ay perdu mon époux dans un combat funeſte, Vôtre valeur me
+         l’a ravy; Mon amour, cheZ les morts, l’auroit déja ſuivy, Sans les ſoins que je dois au
+         ſeul fils qui me reſte, Vous le ſçavez, Dieux que j’atteſte, Au ſort de cét enfant, mon
+         ſort eſt aſſervy; Ie l’ay perdu cét époux que j’adore, Et pour comble d'horreur, je ſçay
+         qu'il eſt encore Indignement privé, par des ordres cruels D’un droit que le trépas donne à
+         tous les mortels: Souffrez, que je le rende aux murs qui l’ont vû naitre, Qu’un ſuperbe
+         Tombeau faſſe du moins connoître La ſplendeur de ſon ſang, ſon ſort &amp; mon amour: Ce
+         Tombeau ſervira de Temple à vôtre gloire, Puis que tout l’avenir y verra quelque jour
+         L’hiſtoire de nos maux &amp; de vôtre victoire. ACHILE. Quels regrets! quels triſtes
+         accens! Dieux! que ſa douleur eſt tendre! Que ſes ſoûpirs ſont puiſſans! Que je ſouffre à
+         les entendre! PRIAM. Par vos ſacreZ Ayeux, par le nom de Thetis, Laiſſez-moy recüeillir les
+         cendres de mon fils. <pb n="19"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f37.image"/>
+         <fw>19 TRAGEDIE.</fw> Pour m'accorder la grace que i'eſpere Souvenez-vous de vôtre Pere, Et
+         ſongeZ quel Amour il eut toûjours pour vous: Je ſentois pour mon fils une égale tendreſſe;
+         Ah! jugez par l’excés de cét Amour ſi doux Quel doit être aujourd'huy l'excés de ma
+         triſteſſe. POLIXENE. Que pourois-je eſperer du ſecours de mes pleurs, Si mon Pere &amp; ma
+         Sœur vous trouvent inflé
+         <lb/>xible! Si vous mépriſeZ leurs douleurs, A mes plaintes, hélas! ſereZ-vous plus
+         ſenſible? Sorty du ſang des Dieux imitez leur bonté, A nos ſoûpirs rendez-vous favorable,
+         N'augmentez-point l'excés de nôtre adverſité Par un refus impitoyable. ACHILE. Que peut-on
+         refuſer au pouvoir de vos yeux? Vous pouvez tout en ces lieux. Raſſûrez-vous, calmez la
+         douleur qui vous preſſe, Emportez dans vos murs ce Heros glorieux, Ne craignez-point les
+         efforts de la Grece, I'arrêteray ſes deſſeins furieux: Suivez l'ardeur qui vous anime,
+            <fw>C ij</fw>
+         <pb n="20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f38.image"/>
+         <fw>ACHILE, 20</fw> Rien ne vous troublera dans ce ſoin legitime: Je ne vais ſonger
+         déſormais Qu'à vous donner une éternelle paix. Fin du ſecond Acte. <pb n="21"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f39.image"/>
+         <fw>21</fw>ACTE TROISIE'ME. Le Theatre repreſente le Quartier d’Achile. SCENE
+         PREMIERE.ACHILE, ARCAS.ACHILE. C'En eſt fait, cher Arcas, j'adore Polixene, Quoy qu'il en
+         coûte enfin, je veux la poſ
+         <lb/>ſeder; C'eſt toy que j'ay choiſi pour l’aller de
+         <lb/>mander, Cours à Troye, il eſt temps de ſoulager ma peine.ARCAS. Son pere à vôtre Amour
+         voudra-t'il l'accorder? <fw>C iij</fw>
+         <pb n="22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f40.image"/>
+         <fw>22 ACHILE,</fw>ACHILE. Il ſera trop heureux de me donner ſa fille Et de me voir devenir
+         ſon époux; L’amitié que ce nœud ſera naître entre nous Soutiendra deſormais ſon Thrône
+         &amp; ſa famille. ARCAS. luſte Ciel! des Troyens vous deveneZ l’appuy? Loin de les accabler
+         vous vouleZ les défendre? ACHILE. Contre un Peuple abatu, que pourois-je entreprendre Aprés
+         ce que mon bras vient de faire aujourd’huy? Hector ſeul meritoit la gloire De mourir par
+         mes coups, Le reſte des Troyens aprés cette victoire Eſt indigne de mon courroux. SCENE
+         SECONDE.ACHILE. QUand aprés un cruel tourment L’hymen ſuccéde <pb n="23"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f41.image"/>
+         <fw>TRAGEDIE. 23</fw> Aux tendres deſirs d'un Amant, Que le trouble qui precéde Ce
+         bien-heureux moment Eſt doux &amp; charmant! Mais on vient en ces Lieux, ma ſurpriſe eſt ex
+         <lb/>trême; C'eſt Agamemnon luy-même. SCENE TROISIE'ME.ACHILE, AGAMEMNON.AGAMEMNON. JE ne
+         ſçaurois plus long-temps Conſerver contre vous mes chagrins &amp; ma haine, Aprés vos
+         Exploits éclatans, Un mouvement plus doux prés de vous me ramene: Avec les jours d'Hector
+         nos perils ſont paſſeZ.Troye a perdu le bras qui pouvoit la défendre.ACHILE. I'ay fait mon
+         devoir, c'eſt aſſeZ, Vous n'aveZ point de graces à me rendre: le n'ay point crû ſervir ceux
+         qui mont outragé, <pb n="24"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f42.image"/>
+         <fw>24 ACHILE,</fw> Et c'eſt Patrocle ſeul que mon bras a vangé.AGAMEMNON. Vôtre colere
+         dure encore, Elle éclate dans vos diſcours; Il faut pour en finir le cours Vous rendre la
+         beauté qui vous aime toûjours, Et que vôtre cœur adore. Venez, charmant objet, revoyez
+         vôtre amant. SCENE QVATRIE’ME.ACHILE, BRISEIS, AGAMEMNON, DIOMEDE.ACHILE. AH Ciel! ma
+         raiſon céde à mon étonne
+         <lb/>ment. &gt;AGAMEMNON. Mes reſpects, mes ſoupirs, les marques de flâme N'ont fait
+         qu'allumer ſon courroux; Ses conſtantes rigueurs m’ont appris que ſon ame <fw>Ne</fw>
+         <pb n="25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f43.image"/>
+         <fw>TRAGEDIE. 25</fw> Ne peut brûler que pour vous. DIOMEDE. IouïſſeZ du bonheur que
+         l'amour vous preſente, Que vôtre ardeur s’augmente De moment en moment! Que c'eſt un
+         plaiſir charmant Aprés une abſence cruelle De retrouver ſa Maîtreſſe fidele! SCENE
+         CINQUIE'ME ACHILE, BRISEIS.BRISEIS. QUel triſte acceüil, Dieux! qu'eſt-ce que je
+         <lb/>voy? Suis-je encor Briſeis? N'êtes-vous plus Achile? Pouvez-vous me revoir, &amp;
+         demeurer tranquile? Qu’eſt devenu l'Amour dont vous BrûlieZ pour
+         <lb/>moy? Vous ne répondez-point?.... ACHILE. Helas! <fw>D</fw>
+         <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f44.image"/>
+         <fw>ACHILE, 26</fw>BRISElS. Que me veut dire Ce regard, ce ſoupir échapé malgré vous? Ah!
+         que mon deſtin ſera doux Si c'eſt encor pour moy que vôtre cœur ſoupire! ACHILE. O Ciel!
+         que je ſuis malheureux! Dans quel temps venez-vous m'accabler de vo
+         <lb/>larmes? Que ne ſuis-je à mon gré le maître de mes vœux! Ie finirois bien-tôt vos
+         mortelles allarmes. Mais un charme fatal.... BRISEIS. Perfide, c'eſt aſſez. Ie voy toute
+         mon infortune, Un autre Amour te rend ma tendreſſe importune, Ie te fatigue enfin par mes
+         ſoins empreſſez: Le bruit de cette amour nouvelle Eſtoit venu juſques a moy, Mais je n'ay
+         pû le croire &amp; ſoupçonner ta foy. I'ay crû ton cœur trop grand pour n'être pas fidele.
+         C'en eſt donc fai? Ie ne dois plus penſer A l'hymen qui faiſoit toute mon eſperance, A ce
+         ſuprême honneur il me faut renoncer, <pb n="27"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f45.image"/>
+         <fw>TRAGEDIE. 27</fw> D'un Amour ſi parfait, funeſte recompenſe! Dieux! quelle eſt ma
+         douleur? Ie céde à ſon effort, Cruel, peux-tu la voir avec indifference? Et ne ſçais-tu pas
+         que ma mort Suivra de prés ton inconſtance? ACHILE. Ie ne puis entendre Une plainte ſi
+         tendre. Je ſouffre autant que vous les Dieux m'en ſont té
+         <lb/>moins, Faut-il vous immoler ma vie? Ordonnez, ce ſera le plus doux de mes ſoins De
+         ſatisfaire à vôtre envie: Mais calmez vos transports &amp; ne m'affligez plus Par des
+         reproches ſuperflus. Vous connoiſſez mon cœur incapable de feindre, Je ſuis moins criminel
+         que je ne ſuis à plaindre, Du ſort &amp; de l'Amour l'indispenſable loy M'entraîne ailleurs
+         malgré moy. <fw>D ij</fw>
+         <pb n="28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f46.image"/>
+         <fw>28 ACHILE,</fw>SCENE SIXIE’ME.BRISEIS. QUel Amant m'eſt ravy? ſa valeur, ſa nobleſſe
+         L’élevent au deſſus du reſte des mortels, La victoire le ſuit ſans ceſſe, Et ſes moindres
+         vertus meritent des Autels; Dans le haut rang où ſon deſtin l'appelle Il eût eſté parfait,
+         s'il eût eſté fidelle. Mais n'eſt-il pas quelque moyen De détourner l'Hymen où ſon cœur ſe
+         prepare? Ah! faiſons que Junon contre luy ſe declare, Elle haït tout le ſang Troyen, Et ne
+         ſouffrira pas que cét Hymen funeſte Sauve un peuple qu'elle deteſte. Puiſſante Reyne des
+         cieux! Eſcoûtez-moy, daignez jetter les yeux Sur le malheur qui me menaſſe, Prevenez ma
+         honte &amp; ma mort, En prennant pitié de mon ſort. Des perfides Troyens vous confondrez
+         l’audace, Mes vœux ſont exaucez, Junon deſcend des cieux, Et pour me ſecourir s'approche de
+         ces lieux. Junon deſcend ſur ſon Char. <pb n="29"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f47.image"/>
+         <fw>TRAGEDIE. 29</fw>SCENE SEPTIE'ME.JUNON, BRISEIS.JUNON. CAlme tes deplaiſirs, ne verſe
+         plus de larmes, L’Hymen qui cauſe tes allarmes Ne ſera jamais achevé. En vain Priam croit
+         ſon païs ſauvé, Son Throne doit tomber, &amp; de toute ſa gloire Il ne reſtera rien qu’une
+         triſte memoire. Ie vais évoquer des Enfers La Hayne, la Fureur, la Diſcorde &amp; l’Envie,
+         Leur preſence ſuivie De cent prodiges divers. Sortez de la nuit infernale Noires divinitez,
+         vos antres ſont ouvers.
+         <lb/>Dans le temps qu’elles ſortent des Enfers, tout
+         <lb/>le Theatre eſt obſcurcy. BRISEIS. L’horreur de leur Sejour, ſe répand dans les Airs!
+         JUNON. Volez, portez par tout vôtre rage fatale, Verſez dans tous les Cœurs vôtre mortel
+         poiſon, <fw>D iij</fw>
+         <pb n="30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f48.image"/>
+         <fw>30 ACHILE,</fw> ChaſſeZ la Paix de cette terre, Et faites y regner la Guerre, La
+         Vangeance, &amp; la Trahiſon. VerſeZ dans tous les Cœurs voſtre mortel poiſon. Junon
+         remonte dans ſon Char. Pourſuivez voſtre carriere Soleil, &amp; rendeZ-nous vôtre clarté
+         premiere BRISEIS. Favorable Déeſſe I'attens le ſuccés de vos ſoins.
+         <lb/>La danſe des
+         <lb/>Furies a eſté
+         <lb/>faite par Mr
+         <lb/>Leſtang JUNON. Avant la fin du jour tes yeux ſeront témoins De l'effet de ma promeſſe.
+         SCENE HUITIE’MEBRISEIS.JUnon pour moy vient de ſe declarer, Elle a fait à mes yeux éclater
+         ſa puiſſance, Ie doy tout eſperer De ſa divine aſſiſtance. <pb n="31"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f49.image"/>
+         <fw>TRAGEDIE. 31</fw> On entend un bruit de Haut-bois et de Flûtes. Mais quel bruit
+         harmonieux Se fait entendre dans ces lieux! Ah! je voy les Bergers que l'horreur de la
+         Guerre Avoit chaſſez de cette terre, La treve les r'appelle à leur premier Sejour, Et déja
+         leurs chanſons annoncent leur retour. Que leurs chants irritent la peine Et la douleur que
+         je ſens! Fuyons, je ne puis voir leurs plaiſirs innocens Puis-qu'ils ſont dûs à Polixene.
+         SCENE NEUFVIE’ME TROUPE DE BERGERS ET DE BERGERES. UN BERGER. APrés tant de trouble &amp;
+         de larmes Un doux repos ſuccéde à nos allarmes, Beniſſons à jamais Le genereux Vainqueur
+         qui nous donne la paix.
+         <lb/>La danſe de
+         <lb/>ce divertiſſe
+         <lb/>ment a eſté
+         <lb/>faite par Mr
+         <lb/>Pecourt. UN BERGER, ET UNE BERGERE. Cét heureux jour doit nous charmer, Dans ces
+         champs mille fleurs vont renaître, Recommençons d'aymer En les voyant paroître. <pb n="32"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f50.image"/>
+         <fw>32 ACHILE,</fw>TROIS BERGERS. Cherchons avec empreſſement Ces retraites, ces lieux
+         paiſibles Que le Ciel a fait ſeulement Pour le plaiſir des cœurs ſenſibles. UN BERGER, ET
+         UNE BERGERE. Tristes bocages Reprenez, vos feüillages, Servez-nous toûjours D'aZile à nos
+         Amours. Le Choeur. Triſtes bocages, &amp;c. UN BERGER ET UNE BERGERE. Paix adorable SoyeZ
+         toujours durable, Sans vous helas! Ces lieux n'ont point d’appas. Le Choeur. Paix adorable,
+         &amp;c. Le Choeur. Aprés tant de trouble &amp; de larmes Un doux repos ſuccéde à nos
+         allarmes, Beniſſons à jamais Le genereux Vainqueur qui nous donne la Paix. Fin du troiſiéme
+         Acte. <fw>ACTE</fw>
+         <pb n="33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f51.image"/>
+         <fw>33</fw>ACTE IV.
+         <lb/>Le Theatre repreſente le magnifique
+         <lb/>Palais de Priam. SCENE PREMIERE.POLIXENE, ſeule. ENfin je me voy ſeule, &amp; je puis
+         ſans
+         <lb/>contrainte Faire éclater les divers mouvemens Dont mon ame eſt atteinte, Et connoître
+         du moins quels ſont mes ſentimens. Depuis l'inſtant fatal où l’invincible Achile A daigné
+         par ſes ſoins ſoulager nôtre ennuy, Ie ſuis cent fois moins tranquile, Et je ſonge toûjours
+         à luy. <fw>E</fw>
+         <pb n="34" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f52.image"/>
+         <fw>34 ACHILE,</fw> Seroit-ce qu'en effet une indigne foibleſſe Me previendroit en ſa
+         faveur? Non, non, je me ſouviens ſans ceſſe Des maux que ma causé ſa funeſte valeur, Et le
+         vainqueur d’Hector, le vangeur de la Grece Ne peut avoir aucun droit ſur mon cœur. C'en eſt
+         fait je triomphe, &amp; dés ce moment même Ie ne veux plus m'en ſouvenir. Puiſſe, grands
+         Dieux, vôtre pouvoir ſuprême Me condamner &amp; me punir! Si jamais.... Ciel! que fais-je?
+         &amp; quel tranſport
+         <lb/>m'inſpire? Malheureuſe, qu'allois-je dire? Dois-je faire un ſerment pour ne le pas
+         tenir? Ie ſouffre trop dans les cruels combats, Qu'il m'en coûte pour me défendre! Et je
+         trouve mille appas A me rendre. Mais puis-je avouer ſans honte, Que l'Amour me ſurmonte?
+         N'écouteray-je plus ny raiſon ny devoir? Contre ce Dieu leur force eſt impuiſſante; Eſt-il
+         un cœur qui s'exempte De reconnoître ſon pouvoir? <pb n="35"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f53.image"/>
+         <fw>TRAGEDIE. 35</fw> Ie luy céde aujourd'huy. Tous mes efforts ſont vains. Je ne puis
+         reſiſter à l’ardeur qui m'enflame; Mais du moins, ſi l’Amour diſpoſe de mon ame, C'eſt en
+         faveur du plus grand des humains. SCENE SECONDE.ANDROMAQUE, POLIXENE.ANDROMAQUE. AH! ma
+         ſœur, ſçauez-vous qu’Achile Se flate qu'un hymen tranquile Avant la fin du jour doit vous
+         unir tous deux? Souffrirez-vous que ce nœud s'accompliſſe? Et pouvez-vous ſans injuſtice De
+         ce fier ennemy favoriſer les vœux? Auriez-vous oublié que ſa valeur barbare D'un frere tant
+         aymé pour jamais vous ſepare? D'un frere la terreur &amp; l’amour des mortels: Cette
+         ſanglante mort, cette affreuſe victoire Toûjours preſente à ma memoire A condamné mes yeux
+         à des pleurs éternels. <fw>E ij</fw>
+         <pb n="36" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f54.image"/>
+         <fw>36 ACHILE,</fw>POLIXENE. Eſt-ce de moy que mon ſort doit dépendre? Priam ſeul en peut
+         diſpoſer. ANDROMAQUE. Par ce détour croyez-vous m’abuſer? Non, non, je commence à
+         comprendre Quels ſont vos ſentimens ſecrets, Vos yeux timides &amp; diſtraits Ne me les
+         font que trop entendre. POLIXENE. Que voulez-vous me dire? &amp; que ſoupçonneZ-vous?
+         ANDROMAQUE. Que loin de ſeconder ma haine Vous verrez ſans peine Ce funeſte ennemy devenir
+         vôtre époux. Vous voulez jouïr de la gloire De triompher de ſa fierté, C'eſt une agreable
+         victoire Pour vôtre vanité. POLIXENE. Quand je voy ce Heros digne de mon eſtime. <pb n="37"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f55.image"/>
+         <fw>TRAGEDIE. 37</fw> Sentir pour moy l'Amour le plus parfait, Eſt-ce un grand crime De
+         m’en applaudir en ſecret? ANDROMAQUE. Aprés un tel aveu je n’ay plus rien à craindre, C'eſt
+         le dernier malheur que je puis redouter. Helas! que me ſert de me plaindre? Perſonne ne
+         veut m'écouter. Cher époux dont l'illuſtre vie Fut ſi digne d’envie, Tout ton ſang te
+         trahit pour plaire à ton Vainqueur, Ie pleure en vain ta mort, triſte effet de ſes armes,
+         Ie voy mépriſer mes larmes Et par ton pere &amp; par ta ſœur: Mais leur exemple au moins ne
+         peut rien ſur mon
+         <lb/>ame, Je ſens encor la même flame Et la même douleur. Le ſeul eſpoir dont mon cœur eſt
+         flaté, C'eſt qu'en donnant toûjours des pleurs a ta me
+         <lb/>moire, Ie rendray ma fidelité Auſſi fameuſe que ta gloire. <fw>E iij</fw>
+         <pb n="38" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f56.image"/>
+         <fw>38 ACHILE.</fw>SCENE TROISIE'ME.POLIXENE ſeule QUel reproche fatal! je rougis de
+         l’entendre, Il me fait ſouvenir des conſeils de Caſſandre: Elle me prédit chaque jour Que
+         ſi jamais mon cœur s’abandonne à l’Amour Ma foibleſſe ſera ſuivie D'éternelles douleurs;
+         Elle m’annonce enfin de ſi cruels malheurs Qu’ils pourront me coûter la vie: N'importe, je
+         ne puis changer de ſentiment, Mon cœur eſt occupé d’un objet trop charmant. Malgré les
+         conſeils qu’on me donne D’une plus vive ardeur je me ſans enflamer, Un cœur que le peril
+         eſtonne N’eſt pas digne d’aimer. <pb n="39"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f57.image"/>
+         <fw>TRAGEDIE. 39</fw>SCENE QUATRIE'ME.PRIAM, POLIXENE, ARCAS
+         <lb/>ſuite de PRIAM &amp; d’ARCAS.PRIAM. MA fille, il n'eſt plus temps de répandre des
+         <lb/>pleurs, Voicy le jour heureux qui finit nos malheurs: Le fier Achile rend les armes A
+         tes charmes, Et malgré tous les Grecs jaloux de ton bon-heur Il te donne aujourd'hui ſon
+         Empire &amp; ſon Cœur. ARCAS. Princeſſe, ce Heros ne cherche qu'à vous plaire Vous avez en
+         vos mains &amp; ſa vie &amp; ſa mort, C'eſt à vous de regler ſon ſort; Il a déja l'aveu de
+         vôtre pere, Mais pour aſſûrer ſon bonheur, Il veut ſçavoir ſi vôtre cœur A ſes tendres
+         deſirs ne ſera pas contraire. <pb n="40"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f58.image"/>
+         <fw>40 ACHILE,</fw>POLIXENE. C’eſt aſſeZ que le Roy m'ordonne d'obéïr, Ie connois mon
+         devoir, je ne le puis trahir. PRIAM. Quel changement favorable Flate aujourd'huy mes
+         deſirs! Aurois-je cru mon cœur encor capable De ſentir quelques plaiſirs? Malgré ce
+         changement un chagrin legitime En trouble la douceur &amp; s'oppoſe à la paix; Mais le ſoin
+         de l'Etat eſt le ſeul qui m'anime, Et je prefere à tout le bien de mes Sujets. Vous, que
+         vôtre ſort intereſſe Dans cét évenement heureux, Peuples, montrez vôtre allegreſſe, Par les
+         Jeux les plus pompeux. <fw>SCENE</fw>
+         <pb n="41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f59.image"/>
+         <fw>TRAGEDIE. 41</fw>SCENE CINQUIE’ME.POLIXENE, ARCAS, TROUPE DE TROYENS ET DE TROYENNES.UN
+         TROYEN. VOs beaux yeux, adorable Princeſſe, Ont détruit les deſſeins de la Grece, Un ſeul
+         de vos regards a rangé ſous vos loix Un Heros dont le nom fait trembler tous ſes Rois.
+         <lb/>La danſe de
+         <lb/>ce divertiſſe
+         <lb/>ment a eſté
+         <lb/>faite par Mr
+         <lb/>Pecourt. LE CHOEUR. Vos beaux yeux, adorable Princeſſe, &amp;c. UNE TROYENNE. Que ne
+         peuvent point vos charmes? Tout leur eſt ſoûmis, Ils arrachent les armes A nos ennemis. Que
+         ne peuvent point vos charmes? Tout leur eſt ſoûmis. LE CHOEUR. Que ne peuvent point vos
+         charmes, <fw>F</fw>
+         <pb n="42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f60.image"/>
+         <fw>42 ACHILE.</fw>DEUX TROYENS. Que l'Amour eſt puiſſant ſur les cœurs: Il enchaîne Sans
+         peine Les plus redoutables Vainqueurs. UNE TROYENNE. Qu'aprés une grande victoire Un
+         Guerrier eſt heureux, S'il ſçait mêler aux charmes de la gloire Le doux amuſement des
+         plaiſirs amoureux. UNE TROYENNE. Vous ſi long-temps bannis de ce ſacré ſejour, Ieux
+         charmans, revenez dans cette auguſte Cour. UN TROYEN. La Paix rameine icy l'abondance,
+         Faites voir vôtre magnificence, Par vos chants redoublez, celebrez ce grand jour, Et de
+         vôtre bonheur rendez grace à l'Amour. LE CHOEUR. La Paix rameine icy l’abondance, Faiſons
+         voir nôtre magnificence, Par nos chants redoublez, celebrons ce grand Iour, Et de nôtre
+         bonheur rendons grace à l'Amour. Fin du quatriéme Acte. <pb n="43"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f61.image"/>
+         <fw>
+            <corr>
+               <sic>34</sic>
+               <corr>43</corr>
+            </corr>
+         </fw>ACTE V.
+         <lb/>Le Theatre repreſente l’avenuë &amp; le
+         <lb/>Temple d’Apollon. SCENE PREMIERE.ACHILE. AH, que ſur moy l’Amour regne avec
+         <lb/>violence! Que de tranſports puiſſans mon cœur eſt
+         <lb/>agité! Mais j'apperçoy la divine beauté Qui cauſe mon impatience, Son Pere la conduit,
+         &amp; vient ſur ces Autels Entendre &amp; confirmer nos ſerment mutuels. <fw>F ij</fw>
+         <pb n="44" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f62.image"/>
+         <fw>44 ACHILE,</fw>SCENE SECONDE.ACHILE, ARCAS, POLIXENE, CHOEUR DE GRECS DE LA SUITE
+         D'ACHILE, CHOEUR DE TROYENS ET DE FILLES TROYENNES QUI SUIVENT PRIAM ET POLIXENE.ACHILE.
+         PRinceſſe enfin le Ciel répond à mon attente; Il aſſure à mon cœur la plaiſirs la plus
+         doux, Ah! que mon ſort doit faire de jaloux! Si l'Hymen dont l’eſpoir m'enchante N’eſt pat
+         un ſupplice pour vous. Quoy? ce tranſport ne ſert qu'à vous confondre? Craignez-vous de me
+         répondre? Pourquoy tourner vos yeux de toutes parts? N’oſez-vous ſur moy ſeul arrêter vos
+         regards? Parlez, beauté charmante, Le don de vôtre cœur ſuivra-t’il vôtre foy? <pb n="45"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f63.image"/>
+         <fw>TRAGEDIE. 45</fw>POLIXENE. Hélas! plus je vous voy, Et plus mon trouble s'augmente.
+         ACHILE. Puis-je du moins en ma faveur Expliquer ce profond ſilence? POLIXENE. Un Heros tel
+         que vous, quand il donne ſon cœur, N’eſt-il pas aſſûré de la reconnoiſſance? ACHILE, C'en
+         eſt trop; vos bontez paſſent mon eſperance. SCENE TROISIE'ME.ACHILE, PRIAM, POLIXENE,
+         ARCAS, TROUPE DE GRECS, TROUPE DE TROYENS ET DE TROYENNES.PRIAM. Commençons à jouïr en ce
+         jour Des plaiſirs que la paix nous rameine Les feux de la haine Cédent à ceux de l'Amour.
+            <fw>F iij</fw>
+         <pb n="46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f64.image"/>
+         <fw>46 ACHILE,</fw>PRIAM. ACHILE, POLIXENE. Commençons à jouïr en ce jour Des plaiſirs que
+         la paix nous rameine, Les feux de la haine Cédent à ceux de l'Amour. ACHILE. Peuples ſoûmis
+         à mes loix, Secondez les tranſports de mon ame; Joignez vos voix Pour chanter les beautez
+         de l'Objet qui m'en
+         <lb/>flâme. PRIAM. Peuples ſoûmis à mes loix, Vous joüiſſez d'un ſort tranquile, Joignez
+         vos voix Pour chanter les vertus &amp; le bonheur d'Achile.LE CHOEUR. Que tous ces lieux
+         retentiſſent Du nom de ces heureux époux, Que l'Amour &amp; l’Hymen les uniſſent De leurs
+         nœuds les plus doux.
+         <lb/>La Danſe
+         <lb/>de ce Diver
+         <lb/>tiſſement a
+         <lb/>eſté faite par
+         <lb/>Monſieur
+         <lb/>Leſtang. <pb n="47" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f65.image"/>
+         <fw>TRAGEDIE. 47</fw>UN GREC. Ah que vos chaînes ſont belles! Tendres Amans, que vous ſerez
+         heureux! Seuls dignes l’un de l'autre, &amp; pleins des mêmes
+         <lb/>feux, Egalement charmez, également fidelles, Tendres Amans, que vous ſerez heureux. LE
+         CHOEUR. Tendres Amans, que vous ſereZ heureux! UN GREC. ET DEUX TROYENNES. Chacun de vous
+         connoit le prix de ce qu'il aime, Et luy conſacre tous ſes vœux; Chacun de ſon Amour fait
+         ſa gloire ſuprême Tendres Amans, que vous ſerez heureux! LE CHOEUR. Tendres Amans, que vous
+         ſerez heureux. PRIAM. Ne perdons plus de précieux momens, Allons ſur les Autels conſacrer
+         les Sermens D’une paix éternelle. <pb n="48"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f66.image"/>
+         <fw>ACHILE, <choice>
+               <sic>46</sic>
+               <corr>48</corr>
+            </choice>
+         </fw>ACHILE, POLIXENE. Ne perdons plus de précieux momens, Allons ſur les Autels conſacrer
+         les Sermens, D'une paix éternelle, Et d'un Amour tendre &amp; fidele. SCENE
+         QUATRIE'ME.BRISEIS. QVe vois-je? c'en eſt fait, &amp; mon perfide
+         <lb/>Amant Epouſe en ce moment Sa nouvelle Maîtreſſe. Ah! Junon, eſt-ce ainſi que tu tiens
+         ta promeſſe? Eſt-ce ainſi que tu romps ces funeſtes liens, Qui vont cauſer ma mort &amp;
+         ſauver les Troyens? Un juſte deſeſpoir m'anime, Mon Amour outragé demande une victime,
+         Courons l'immoler ou perir; Si mes tranſports jaloux me font commettre un
+         <lb/>crime, Pour l'expier je ſuis prête à mourir. <fw>SCENE V.</fw>
+         <pb n="49" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f67.image"/>
+         <fw>TRAGEDIE. 49</fw>SCENE CINQUIE'ME.BRISEIS, Chœur de Grecs qui ſortent
+         <lb/>en deſordre du Temple d’Apollon, ARCAS.LE CHOEUR. FUyons une mort certaine, Nous
+         n'avons plus de deffenſeur. BRISElS. Où courez-vous? quelle terreur Loin de ces lieux vous
+         entraîne? ARCAS.Achile ne vit plus? BRISEIS. Ciel! quel eſt ſon vainqueur? ARCAS. L'indigne
+         raviſſeur d'Helene Par une trahiſon a terminé ſon ſort. BRISEIS. Quoy? le traiſtre Paris
+         eſt l'autheur de ſa mort?<fw>G</fw>
+         <pb n="50" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f68.image"/>
+         <fw>ACHILE, 50</fw>SCENE SIXIE’ME.POLIXENE, BRISEIS.POLIXENE. DIeux! quel horrible
+         ſpectacle! Le perfide Paris triomphe ſans obſtacle, Il joüit de ſon crime, &amp; ne me
+         permet pas D'embraſſer mon époux même aprés ſon trépas. D'un coup mortel j'ay vû fraper
+         Achile, J'ay retiré le trait dont il eſtoit percé; Helas! dans les douleurs dont mon cœur
+         eſt preſſé, Ce trait fatal peut m'eſtre utile. BRISEIS. Je vay preſſer nos Chefs &amp; nos
+         Soldats. De vanger le meurtre d’Achile. Oüy, dans mon deſeſpoir je conduiray leurs pas Sur
+         les remparts de vôtre Ville. Puiſſe le juſte Ciel ſe declarer pour nous! Et puiſſent
+         aujourd'huy les Toyens perir tous. <pb n="51"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f69.image"/>
+         <fw>TRAGEDIE. 51</fw>SCENE SEPTIE'ME. ET DERNIERE.&gt;POLIXENE. VA punir les Troyens, cours
+         hâter la van
+         <lb/>geance D'un Heros qu'on vient d'immoler Laiſſe-moy ſeule icy; ne vien plus me troubler
+         Par ton odieuſe préſence. Par ces ſoins éclatans va prouver ton Amour, Pourſuy Paris,
+         fais-luy ravir le jour, Au Heros que tu perds l’on te verra ſurvivre. Depuis qu’il ne vit
+         plus, rien ne plaiſt à mes yeux, Vne ſanglante mort va finir en ces lieux Les horribles
+         tourmens ou ſa perte me livre, Ah! n'eſt-il pas moins glorieux De le vanger que de le
+         ſuivre? Mais quel triſtes objets viennent s'offrir à moy? Dieux! quel ſaiſiſſemẽt! quels
+         tranſports! quel effroy! Ah! je voy mon Epoux ſur l'infernale rive I'entends les cris de
+         ſon ombre plaintive, Elle m'appelle, elle me tend les bras, Ciel! je voy dans ſes yeux
+         éclater ſa colere Chere ombre, attends, je vais te ſatisfaire S’il ne faut pour te plaire
+         Que courir au trépas. <pb n="52"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f70.image"/>
+         <fw>ACHILE, TRAGEDIE. 52</fw> Quel ſort d’une Amour ſi tendre! J'éprouve enfin tous les
+         malheurs Que Caſſandre cent fois pleine de ſes fureurs Voulût en vain me faire entendre. Et
+         toy qui teint encor du Sang de mon Epoux As paſſé dans mes mains pour terminer ma vie,
+         Funeſte trait, ſeconde mon envie, Que ton ſecours me ſera doux Si tu frapes mon cœur d’une
+         atteinte mortelle, Il s’avance luy même au devant de tes coups Trop heureux ſi tu m'es
+         fidelle. C'en eſt fait, le ſuccés répond à mon attente, Ie n'ay plus guere à ſouffrir, Ie
+         ſens que je vais mourir Et c'eſt aſſeZ pour me rendre contente. Reçoy mon Sang aprés mes
+         pleurs Achile; c'eſt à toy que je me ſacrifie;.... Sans toy je déteſte la vie,.... Oüy je
+         le jure.... helas.... je friſſonne... je meurs. Fin du cinquiéme, &amp; dernier Acte. </p>
+   </body>
+</text>

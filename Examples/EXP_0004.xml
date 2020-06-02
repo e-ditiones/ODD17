@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0004">
+    <fileDesc>
+        <titleStmt>
+            <title type="main">L'Amour à la mode</title>
+            <title type="sub">E-Ditiones edition</title>
+            <author ref="isni:000000012281648X">Thomas Corneille</author>
+            <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+        </titleStmt>
+        <extent>
+            <measure/>
+        </extent>
+        <publicationStmt>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
+            <availability status="restricted" n="cc-by">
+                <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl>
+                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k12803338"/>
+                <title>L'Amour à la mode, comédie</title>
+                <author ref="isni:000000012281648X">Thomas Corneille</author>
+                <publisher ref="isni:0000000400054498">L. Maurry</publisher>
+                <pubPlace ref="geonames:2982652">Rouen</pubPlace>
+                <publisher ref="isni:0000000360919281">G. de Luynes</publisher>
+                <pubPlace ref="geonames:2988507">Paris</pubPlace>
+                <date when="1653">1653</date>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>

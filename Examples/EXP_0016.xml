@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-header_MS.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-header_MS.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../css/MS.css"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0016">
+   <fileDesc>
+      <titleStmt>
+         <title type="main">Princeton, C0710, vol. 4.</title>
+         <title type="sub">E-Ditiones edition</title>
+         <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+      </titleStmt>
+      <extent>
+         <measure />
+      </extent>
+      <publicationStmt>
+         <publisher>E-Ditiones project</publisher>
+         <ref target="https://github.com/e-ditiones"/>
+         <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <msDesc>
+            <msIdentifier>
+               <country>Etats-Unis</country>
+               <settlement>Princeton</settlement>
+               <institution>Princeton University Library</institution>
+               <repository>Manuscripts Division, Department of Rare Books and Special Collections</repository>
+               <collection>John Hinsdale Scheide Collection of Three Centuries of French History</collection>
+               <idno type="shelfmark">C0710, vol. 4</idno>
+            </msIdentifier>
+            <head/>
+            <msContents>
+               <p/>
+            </msContents>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support>
+                        <objectType rend="composite"/>
+                     </support>
+                     <extent>
+                        <measure/>
+                     </extent>
+                     <foliation>Les pages sont numérotés sans que les chiffres correspondent exactement au nombre réel de page.</foliation>
+                     <condition>Bon.</condition>
+                  </supportDesc>
+               </objectDesc>
+               <bindingDesc>
+                  <binding>
+                     <p/>
+                  </binding>
+               </bindingDesc>
+               <accMat/>
+            </physDesc>
+            <history>
+               <p>Ancienne collection John Hinsdale Scheide, léguée à l'université de Princeton par William H. Scheide.</p>
+            </history>
+            <additional>
+               <surrogates>
+                  <!-- ajouter les images ici -->
+                  <graphic source="local" url="chemin"/>
+               </surrogates>
+               <listBibl>
+                  <listBibl type="catalogue">
+                     <bibl>
+                        <ref target="http://findingaids.princeton.edu/collections/C0710"/>
+                     </bibl>
+                  </listBibl>
+               </listBibl>
+            </additional>
+            <msPart xml:id="MS_000002_p53">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 53</idno>
+               </msIdentifier>
+               <head>Lettre de Mme de La Fayette à Huet.</head>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" n="53"/>
+                     <author>
+                        <persName ref="isni:0000000122831647">Marie-Madeleine Pioche de La Vergne, comtesse de La Fayette.</persName>
+                     </author>
+                     <docDate when="1670-09-19">19 septembre 1670.</docDate>
+                     <incipit>Puisque vous ne venez pas si tôt, ce n'est pas assez que Mr du Bois vous ai fait</incipit>
+                     <explicit>et que vous aurez toujours de l'amitié pour moi.</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material rend="paper"/>
+                           <watermark rend="countermark"/>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="4"/>
+                           <measure unit="bifolio" quantity="1"/>
+                           <height unit="mm" quantity="223"/>
+                           <width unit="mm" quantity="168"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p>Cachet en cire noire.</p>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates>
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0299"/>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="L1">
+                        <bibl>La Fayette, <title>Œuvres complètes</title>, C. Esmein-Sarrazin (éd.), Paris: Gallimard, lettre n°70-1.</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+            <msPart xml:id="MS_000002_p55">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 55</idno>
+               </msIdentifier>
+               <head>Quittance de Ninon de Lenclos.</head>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" n="55"/>
+                     <author>
+                        <persName ref="#PE1_000004">Anne « Ninon » de l'Enclos.</persName>
+                     </author>
+                     <docDate when="1682-03-04">4 mars 1682</docDate>
+                     <incipit>J'ai reçu de Monsieur le marquis</incipit>
+                     <explicit>fait le quatre de mars mille six cent quatre-vingts deux</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted">monté.</objectType>
+                           <material>papier.</material>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="4"/>
+                           <measure unit="bifolio" quantity="1"/>
+                           <height unit="mm" quantity="192"/>
+                           <width unit="mm" quantity="137"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates>
+                     <!-- ajouter les images ici -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0301"/>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="L1">
+                        <bibl>La Fayette, <title>Œuvres complètes</title>, C. Esmein-Sarrazin (éd.), Paris: Gallimard, lettre n°70-1.</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+            <msPart xml:id="MS_000002_p57">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 57</idno>
+               </msIdentifier>
+               <head>Lettre de Mme de Sévigné à sa fille.</head>
+               <msContents>
+                  <msItem defective="true">
+                     <locus scheme="page" n="57"/>
+                     <author>
+                        <persName ref="#PE1_000001">Marie de Rabutin-Chantal, marquise de Sévigné.</persName>
+                     </author>
+                     <author>
+                        <persName ref="Coulanges">de Coulanges.</persName>
+                     </author>
+                     <docDate when="1685-08-12">12 août 1685</docDate>
+                     <incipit>Mr et Me de Bouillon sont à Évreux, et qu'on a demandé la clef de son appartement à Versailles</incipit>
+                     <explicit>elles auraient leur mérite à Versailles, c'est tout vous dire.</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                     <note>Dernier fragment d'une lettre en trois parties.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material>papier.</material>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="5"/>
+                           <measure unit="bifolio" quantity="2"/>
+                           <height unit="mm" quantity="208"/>
+                           <width unit="mm" quantity="157"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history>
+                  <p>Acheté à Maggs Bros en 1938.</p>
+               </history>
+               <additional>
+                  <surrogates>
+                     <!-- ajouter les images ici -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0303"/>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="L1">
+                        <bibl>Sévigné, <title>Correspondance</title>, R. Duchêne (éd.), Paris: Gallimard, lettre n°922.</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+            <msPart xml:id="MS_000002_p59">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 59</idno>
+               </msIdentifier>
+               <head>Lettre de Mme de Grignan à M. Bayer.</head>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" n="59"/>
+                     <author>
+                        <persName ref="isni:0000000109133924">Françoise de Sévigné, comtesse de Grignan.</persName>
+                     </author>
+                     <docDate when="1690-06-13">13 juin 1690.</docDate>
+                     <incipit>Le procédé de XXX fait assez voir sa mauvaise intention</incipit>
+                     <explicit>je suis bien à vous</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material>papier.</material>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="4"/>
+                           <measure unit="bifolio" quantity="1"/>
+                           <height unit="mm" quantity="200"/>
+                           <width unit="mm" quantity="150"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates>
+                     <!-- ajouter les images ici -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0299"/>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="L1">
+                        <bibl>La Fayette, <title>Œuvres complètes</title>, C. Esmein-Sarrazin (éd.), Paris: Gallimard, lettre n°70-1.</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+            <msPart xml:id="MS_000002_p61">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 61</idno>
+               </msIdentifier>
+               <head>Lettre de M. de Grignan au maire de Marseille.</head>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" n="59"/>
+                     <author>
+                        <persName ref="isni:0000000004477683">François Adhémar de Monteil, comte de Grignan.</persName>
+                     </author>
+                     <docDate when="1712-05-12">12 mai 1712</docDate>
+                     <incipit>J'ai reçu la lettre que vous avez pris la peine</incipit>
+                     <explicit>jqui apprendra, en cette occasion, le respect que je vos dois</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material>papier.</material>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="4"/>
+                           <measure unit="bifolio" quantity="1"/>
+                           <height unit="mm" quantity="200"/>
+                           <width unit="mm" quantity="150"/>
+                        </extent> 
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates>
+                     <!-- ajouter les images ici -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0307"/>
+                        </bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+            <msPart xml:id="MS_000002_p63">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 63</idno>
+               </msIdentifier>
+               <head>Lettre de M. de Grignan</head>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" n="63"/>
+                     <author>
+                        <persName ref="#PE1_000008">Joseph de Castellane-Adhémar, chevalier de Grignan</persName>
+                     </author>
+                     <docDate when="1695-12-01">1er décembre 1695</docDate>
+                     <incipit>J'ai reçu la lettre que vous avez pris la peine</incipit>
+                     <explicit>qui apprendra, en cette occasion, le respect que je vos dois</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                     <note>Une note dans le manuscrit attribue la lettre à "F.A. chevalier de Grignan", et non à "Joseph".</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material>papier.</material>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="4"/>
+                           <measure unit="bifolio" quantity="1"/>
+                           <height unit="mm" quantity="0"/>
+                           <width unit="mm" quantity="0"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates>
+                     <!-- ajouter les images ici -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0307"/>
+                        </bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+            <msPart xml:id="MS_000002_p65">
+               <msIdentifier>
+                  <idno>Princeton, Scheide, vol. 4, p. 65</idno>
+               </msIdentifier>
+               <head>Reçu de Bussy-Rabutin</head>
+               <msContents>
+                  <msItem>
+                     <locus scheme="page" n="65"/>
+                     <author>
+                        <persName ref="isni:0000000110257852">Roger de Rabutin, comte de Bussy</persName>
+                     </author>
+                     <docDate when="1645-07-08">1645 July 8</docDate>
+                     <incipit>Je soussigné confesse avoir reçu de Madame de Toulonjon [Toulongeon]</incipit>
+                     <explicit>huit mille livres pour l'année mille six cent quarante et quatre</explicit>
+                     <filiation type="autograph">autographe.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType rend="mounted"/>
+                           <material>papier.</material>
+                        </support>
+                        <extent>
+                           <measure unit="page" quantity="1"/>
+                           <measure unit="folio" quantity="1"/>
+                           <height unit="mm" quantity="150"/>
+                           <width unit="mm" quantity="182"/>
+                        </extent>  
+                        <foliation/>
+                        <condition>Bon.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <sealDesc>
+                     <p/>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history/>
+               <additional>
+                  <surrogates>
+                     <!-- ajouter les images ici -->
+                     <graphic source="local" url="chemin"/>
+                  </surrogates>
+                  <listBibl>
+                     <listBibl type="catalogue">
+                        <bibl>
+                           <ref target="http://findingaids.princeton.edu/collections/C0710/c0310"/>
+                        </bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msPart>
+         </msDesc>
+      </sourceDesc>
+   </fileDesc>
+   <profileDesc>
+      <correspDesc corresp="#MS_000002_p53">
+         <correspAction type="sent">
+            <persName ref="isni:0000000122831647">Marie-Madeleine Pioche de La Vergne, comtesse de La Fayette.</persName>
+            <date when="1685-08-12">12 août 1685</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="isni:000000011020315X">Pierre-Daniel Huet.</persName>
+         </correspAction>
+      </correspDesc>
+      <correspDesc corresp="#MS_000002_p57">
+         <correspAction type="sent">
+            <persName ref="isni:0000000122780157">Marie de Rabutin-Chantal, marquise de Sévigné.</persName>
+            <date when="1685-08-12">12 août 1685</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName ref="isni:0000000109133924">Françoise de Sévigné, comtesse de Grignan.</persName>
+         </correspAction>
+      </correspDesc>
+      <correspDesc corresp="#MS_000002_p59">
+         <correspAction type="sent">
+            <persName ref="isni:0000000109133924">Françoise de Sévigné, comtesse de Grignan.</persName>
+            <date when="1690-06-13">13 juin 1690.</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName>M. Bayer.</persName>
+         </correspAction>
+      </correspDesc>
+      <correspDesc corresp="#MS_000002_p61">
+         <correspAction type="sent">
+            <persName ref="isni:0000000004477683">François Adhémar de Monteil, comte de Grignan.</persName>
+            <date when="1712-05-12">12 mai 1712</date>
+         </correspAction>
+         <correspAction type="received">
+            <persName>Maire et consul de Marseille</persName>
+         </correspAction>
+      </correspDesc>
+      <correspDesc corresp="#MS_000002_p63">
+         <correspAction type="sent">
+            <persName ref="#PE1_000008">Joseph de Castellane-Adhémar, chevalier de Grignan.</persName>
+            <date when="1695-12-01">1er décembre 1695</date>
+         </correspAction>
+      </correspDesc>
+      <langUsage>
+         <language ident="fr"/>
+      </langUsage>
+   </profileDesc>
+   <revisionDesc>
+      <change who="orcid:0000-0001-9094-4475" when="2020-06-01">Adaptation of the XML-TEI encoding according to the new ODD.</change>
+   </revisionDesc>
+</teiHeader>

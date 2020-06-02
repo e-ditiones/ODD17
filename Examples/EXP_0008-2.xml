@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-2.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0008-2">
+   <body>
+      <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f10.image"/>
+      <div type="castList">
+         <head>ACTEURS DU PROLOGUE</head>
+         <list>
+            <item>MERCURE,</item>
+            <item>MELPOMENE, Muſe de la Tra
+               <lb break="no" rend="¬"/>gedie,</item>
+            <item>TERPSICORE', Muſe de la Muſique.</item>
+            <item>THALIE. Muſe de la Comedie.</item>
+            <item>Troupe de Genies qui ſuivent Melpomene.</item>
+            <item>Troupe de Génies qui ſuivent Terpſicoré.</item>
+            <item>Troupe de Génies qui ſuivent Thalie.</item>
+            <item>JUPITER.</item>
+         </list>
+      </div>
+      <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f11.image"/>
+      <div type="liminal">
+         <head>PROLOGUE.</head>
+         <stage>
+            <lb/>LE Theatre repreſente un lieu propre
+            <lb/>à donner des ſpectacles, &amp; qui peut
+            <lb/>convenir à la Tragedie &amp; à la Comedie:
+            <lb/>Ce lieu n’a plus la magnificence qu’il pa
+            <lb break="no" rend="¬"/>
+            <lb/>roiſt avoir eu autrefois, il eſt même preſ
+            <lb break="no" rend="¬"/>
+            <lb/>que détruit &amp; ruiné. On y voit Melpo
+            <lb break="no" rend="¬"/>
+            <lb/>mene, Terpſicoré &amp; Thalie ſans aucune
+            <lb/>ſuite. Mercure deſcend du Ciel. </stage>
+         <stage> MERCURE, MELPOMENE, TERPSICORE’, THALIE. </stage>
+         <sp>
+            <speaker>MERCURE.</speaker>
+            <l n="1"> SCavantes Sœurs, arbitres de la Scene, </l>
+            <l n="2"> Quel accident funeſte a fait ceſſer vos Ieux? </l>
+            <l n="3"> Ie ne voy plus icy vôtre appareil pompeux, </l>
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f12.image"/>
+            <fw>PROLOGUE.</fw>
+            <l n="4"> Et je ne reconnais qu’à peine, </l>
+            <l n="5">
+               <persName>Thalie</persName>, &amp; <persName>Melpomene</persName>; </l>
+            <l n="6"> Et vous dont les charmans Concerts, </l>
+            <l n="7"> En ces lieux autrefois, raiſonnoient dans les Airs; </l>
+            <l n="8"> Quel trouble, ou quelle indifference </l>
+            <l n="9"> Cauſe aujourd’huy vôtre ſilence? </l>
+         </sp>
+         <sp>
+            <speaker>MELPOMENE.</speaker>
+            <l n="10"> Ignorez-vous, que le plus grand des Rois </l>
+            <l n="11"> Etendant chaque jour ſes conquêtes </l>
+            <l n="12"> Et ſignalant ſon bras, par de nouveaux Exploits </l>
+            <l n="13"> A négligé nos plus ſuperbes Fêtes? </l>
+         </sp>
+         <sp>
+            <speaker>THALIE.</speaker>
+            <l n="14"> Depuis ce fatal moment, </l>
+            <l n="15"> Nos Spectacles privez de leur magnificence, </l>
+            <l n="16"> Ne ſçauroient plus avoir l'éclat &amp; l’agrément </l>
+            <l n="17"> Qu’ils ne devoient qu'à ſa preſence. </l>
+         </sp>
+         <sp>
+            <speaker>TERPSICORE’.</speaker>
+            <l n="18"> La triſteſſe regne en ces lieux, </l>
+            <l n="19"> Nous rougiſſons de ne pouvoir luy plaire; </l>
+            <l n="20"> Hélas! ne ſçaurions-nous rien faire </l>
+            <l n="21"> Digne de paroître à ſes yeux? </l>
+         </sp>
+         <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f13.image"/>
+         <sp>
+            <speaker>MELPOMENE, THALIE, TERPSICORE’.</speaker>
+            <l n="22"> Hélas! ne ſcaurions-nous rien faire </l>
+            <l n="23"> Digne de paroître à ſes yeux? </l>
+         </sp>
+         <fw>PROLOGUE.</fw>
+         <sp>
+            <speaker>MERCURE.</speaker>
+            <l n="24"> Terminez, vos regrets, que vôtre douleur ceſſe, </l>
+            <l n="25"> Dans vôtre ſort <persName>Jupiter</persName> s’intereſſe, </l>
+            <l n="26"> Et veut icy revoir, dés ce même moment </l>
+            <l n="27"> Un ſpectacle charmant, </l>
+            <l n="28"> Qu'un changement favorable </l>
+            <l n="29"> Redonne à ces triſtes lieux </l>
+            <l n="30"> Tout ce qu'ils ont eû d'aimable: </l>
+            <l n="31"> C'eſt l'Ordre irrevocable </l>
+            <l n="32"> Du Souverain des Dieux. </l>
+         </sp>
+
+         <stage> Ce lieu deſert &amp; détruit reprend tout d’un coup
+            <lb/>ſa premiere magnificence. </stage>
+
+         <sp>
+            <speaker>MELPOMENE.</speaker>
+            <l n="33"> Vous, ſecourables Genies, </l>
+            <l n="34"> Si neceſſaires à nos Jeux, </l>
+            <l n="35"> Hâtez-vous, ſecondez nos vœux; </l>
+            <l n="36"> Venez, &amp; prêtez-nous vos graces infinies. </l>
+         </sp>
+         <sp>
+            <speaker>MELPOMENE, TERPSICORE’.</speaker>
+            <l n="37"> Animez d'une ardeur nouvelle, </l>
+            <l n="38"> Venez remplir nos deſirs, </l>
+            <l n="39"> Et faites que nos plaiſirs </l>
+            <l n="40"> Doivent leur charme à vôtre Zéle. </l>
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f14.image"/>
+         </sp>
+         <fw>PROLOGUE.</fw>
+         <sp>
+            <speaker>CHOEUR DE GENIES.</speaker>
+            <l n="41"> AnimeZ d’une ardeur nouvelle </l>
+            <l n="42"> Nous venons remplir vos deſirs, </l>
+            <l n="43"> Nous nous flatons que vos plaiſirs </l>
+            <l n="44"> Devront leur charme a nôtre Zéle. </l>
+         </sp>
+         <sp>
+            <speaker>THALIE.</speaker>
+            <l n="45"> Vous qui ſçavez ſi bien, par une heureuſe adreſſe </l>
+            <l n="46"> Calmer les noirs chagrins, bannir les ſoins fâ
+               <lb break="no" rend="¬"/>cheux, </l>
+            <l n="47"> Favoriſez mes Sœurs, &amp; mêlez dans leurs Jeux
+               <lb/>quelques traits de vôtre allegreſſe. </l>
+         </sp>
+         <sp>
+            <speaker>MELPOMENE, THALIE, TERPSICORE’.</speaker>
+            <l n="48"> Que nos Ieux vont avoir de charmes! </l>
+            <l n="49"> Tous nos chants vont inſpirer l’Amour. </l>
+            <l n="50"> VeneZ tous, rendeZ-luy les armes, </l>
+            <l n="51"> Il eſt doux dans cét heureux ſejour. </l>
+            <l n="52"> Que nos Ieux vont avoir de charmes! </l>
+            <l n="53"> Tous nos chants vont inſpirer l’Amour. </l>
+            <l n="54"> Ce n’eſt plus le temps des allarmes, </l>
+            <l n="55"> Les Plaiſirs ſont enfin de retour. </l>
+            <l n="56"> Que nos Ieux vont avoir de charmes! </l>
+            <l n="57"> Tous nos chants vont inſpirer l’Amour. </l>
+         </sp>
+         <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f15.image"/>
+         <fw>PROLOGUE.</fw>
+         <sp>
+            <speaker>MERCURE.</speaker>
+            <l n="58">
+               <persName>Iupiter</persName> va paroître, </l>
+            <l n="59"> RedoubleZ vos efforts pour plaire à vôtre Maître. </l>
+         </sp>
+         <sp>
+            <speaker>CHOEUR.</speaker>
+            <l n="60">
+               <persName>Iupiter</persName> va paroiſtre, </l>
+            <l n="61"> Redoublons nos efforts pour plaire a nôtre Maiſtre. </l>
+            <stage> Dans ce moment JUPITER paroiſt dans ſon Char. </stage>
+         </sp>
+         <sp>
+            <speaker>JUPITER.</speaker>
+            <l n="62"> Il ne manque aux apprêts de la Fête nouvelle, </l>
+            <l n="63"> Que <persName>Mercure</persName> a fait préparer, </l>
+            <l n="64"> Que le choix du Heros qu’on y doit celebrer, </l>
+            <l n="65"> Le ſoin de le choiſir auprés de vous m’appelle. </l>
+            <l n="66"> Renouvellez dans vos Ieux </l>
+            <l n="67"> Le ſouvenir de l’invincible <persName>Achile</persName>, </l>
+            <l n="68"> Et rappelleZ dans une Cour tranquile, </l>
+            <l n="69"> L'Hiſtoire &amp; les Combats de ce Guerrier fa
+               <lb break="no" rend="¬"/>meux. </l>
+         </sp>
+         <sp>
+            <speaker>MELPOMENE, TERPSICORE’, THALIE.</speaker>
+            <l n="70"> Renouvellons dans nos Ieux </l>
+            <l n="71"> Le ſouvenir de l’invincible <persName>Achile</persName>, </l>
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f16.image"/>
+            <fw>PRO6OGUE.</fw>
+            <l n="72"> Et rappellons dans une Cour tranquile, </l>
+            <l n="73"> L'Hiſtoire &amp; les Combats de ce Guerrier fameux. </l>
+         </sp>
+         <sp>
+            <speaker>JUPITER.</speaker>
+            <l n="74"> ConſacreZ tous vos Ieux au plus grand Roy du
+               <lb/>monde, </l>
+            <l n="75"> Former ſur luy tous les Portraits </l>
+            <l n="76"> De vos Heros les plus parfaits, </l>
+            <l n="77"> Sa valeur, ſa bonté, ſa ſageſſe profonde, </l>
+            <l n="78"> Vous prêteront d'inimitables traits. </l>
+         </sp>
+         <sp>
+            <speaker>CHOEUR.</speaker>
+            <l n="79"> Conſacrons tous nos Ieux au plus grand Roy du
+               <lb/>monde, </l>
+            <l n="80"> Sa valeur, ſa bonté, ſa ſageſſe profonde </l>
+            <l n="81"> Nous prêteront d’inimitables traits, </l>
+            <l n="82"> Conſacrons tous nos Ieux au plus grand Roy du
+               <lb/>monde. </l>
+         </sp>
+         <p>Fin du Prologue.</p>
+      </div>
+      <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f17.image"/>
+      <div type="castList">
+         <head>ACTEURS DE LA TRAGEDIE.</head>
+         <list>
+            <item>ACHILE, Roy de Theſſalie.</item>
+            <item>PATROCLE, Amy d'Achile.</item>
+            <item>DIOMEDE, L’un des Chefs de l’Armée des Grecs.</item>
+            <item>VENUS. Les Craces, les Amours, &amp; les Plaiſis qui ſuivent VENUS.</item>
+            <item>ARCAS, Confident d’Achile.</item>
+            <item>Troupe de Chefs, &amp; de Soldats Grecs.</item>
+            <item>AGAMEMNON, Roy de Mycene, &amp; d’Argos, Chef de tous les Grecs.</item>
+            <item>PRIAM, Roy de Troye.</item>
+            <item>ANDROMAQUE, veuve d’Hector fils de Priam.</item>
+            <item>POLIXENE, fille de Priam.</item>
+            <item>BRISEIS, Princeſſe Priſonniere d’Achile.</item>
+            <item>JUNON.</item>
+            <item>La Hayne, la Diſcorde, la Fureur, l’Envie.</item>
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f18.image"/>
+            <item>Suite de la Diſcorde.</item>
+            <item>Troupe de Troyens.</item>
+            <item>Troupe de Troyennes.</item>
+            <item>Troupe de Theſſaliens.</item>
+         </list>
+      </div>
+      <pb n="1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f19.image"/>
+      <div type="play">
+         <head>ACHILE, TRAGEDIE.</head>
+         <div type="act">
+            <head>ACTE PREMIER.</head>
+            <stage>
+               <lb/>Le Theatre repreſente fille de Tenede,
+               <lb/>où Achille s’eſt retiré auprès de ſes
+               <lb/>Vaiſſeaux depuis ſa querelle avec
+               <lb/>Agamemnon. </stage>
+            <div type="scene">
+               <head>SCENE PREMIERE.</head>
+               <stage>ACHILE, PATROCLE.</stage>
+               <sp>
+                  <stage>PATROCLE.</stage>
+                  <l n="83"> On, je ne ſçaurois plus me taire, </l>
+                  <l n="84"> Je vous dois un conſeil ſincere; </l>
+                  <l n="85"> Ne rougiſſez-vous point d'un indigne repos? </l>
+                  <l n="86"> Quand les Grecs agitez, de mortelles allarmes, </l>
+                  <pb n="2" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f20.image"/>
+                  <fw>A 2 ACHILE,</fw>
+                  <l n="87"> Implorent à genoux le ſecours de vos armes, </l>
+                  <l n="88"> Contre <persName>Hector</persName>, aprés vous, le plus grand des
+                     Heros. </l>
+                  <l n="89"> Tantôt ce guerrier terrible, </l>
+                  <l n="90"> Des Grecs épouventeZ, embraſe les Vaiſſeaux; </l>
+                  <l n="91"> Tantôt ſon bras invincible, </l>
+                  <l n="92"> Fait rougir de leur ſang, &amp; la terre &amp; les eaux, </l>
+                  <l n="93"> Il court de victoire en victoire, </l>
+                  <l n="94"> Chaque jour, le bruit de ſa gloire, </l>
+                  <l n="95"> Va remplir l'Vnivers &amp; vole juſqu’a vous: </l>
+                  <l n="96"> Des honneurs qu'il obtient, n'eſtes vous point jaloux? </l>
+               </sp>
+               <sp>
+                  <stage>ACHILE.</stage>
+                  <l n="97"> Je vois avec plaiſir les pertes de la <placeName>Grece</placeName>, </l>
+                  <l n="98"> La valeur d’<persName>Hector</persName> m’a vangé, </l>
+                  <l n="99"> Le fier <persName>Agamemnon</persName> connoîtra ſa foibleſſe, </l>
+                  <l n="100"> Et ſe repentira de m’avoir outragé. </l>
+               </sp>
+               <sp>
+                  <stage>PATROCLE.</stage>
+                  <l n="101"> Dequoy ſert à ce Roy coupable </l>
+                  <l n="102"> D’avoir osé vous ravir Briſeis? </l>
+                  <l n="103"> Son attentat reçoit un digne prix, </l>
+                  <l n="104"> Et pour luy Briſeis paroiſt inexorable, </l>
+                  <l n="105"> Quand un rival puiſſant vient troubler nos amours, </l>
+                  <l n="106"> Si l’objet de nos vœux luy reſiſte toujours, </l>
+                  <l n="107"> Eſt-il de plus douce vangeance </l>
+                  <l n="108"> Que de voir ce rival aimer ſans eſperance? </l>
+               </sp>
+               <sp>
+                  <stage>ACHILE.</stage>
+                  <l n="109"> Connoy mieux les raiſons de mon juſte courroux, </l>
+                  <l n="110"> Ce n'eſt point ſeulement par un depit jaloux, </l>
+                  <l n="111"> Que je refuſe aux Grecs un ſecours neceſſaire, </l>
+                  <pb n="3" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f21.image"/>
+                  <fw>TRAGEDIE. 3</fw>
+                  <l n="112"> Ils ont marqué trop de mépris pour moy, </l>
+                  <l n="113"> Ils mont laiſſé ſubir la violente Loy </l>
+                  <l n="114"> De leur Chef temeraire. </l>
+                  <l n="115"> Non, jamais leurs malheurs ne ſcauroient m'é
+                     <lb break="no" rend="¬"/>mouvoir, </l>
+                  <l n="116"> Leurs Vaiſſeaux embraſeZ, leurs Troupes fugitives, </l>
+                  <l n="117"> Leur Camp détruit, tous leurs Rois ſans pouvoir, </l>
+                  <l n="118"> Leurs corps épars ſur ces ſanglantes rives </l>
+                  <l n="119"> Seroient encor des objets impuiſſans, </l>
+                  <l n="120"> Pour ſuſpendre un moment la fureur que je ſens. </l>
+               </sp>
+               <sp>
+                  <stage>PATROCLE.</stage>
+                  <l n="121"> Eh bien! d'un œil content regardez nos allarmes; </l>
+                  <l n="122"> Mais quand vous nous mépriſez tous, </l>
+                  <l n="123"> Du moins accordeZ-moy ces armes </l>
+                  <l n="124"> Que Vulcain prepara pour vous; </l>
+                  <l n="125"> J’iray combatre <persName>Hector</persName>, &amp; me combler de
+                     gloire,</l>
+                  <l n="126"> Je remporteray la victoire, </l>
+                  <l n="127"> Ou j'expireray ſous ſes coups. </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="128"> Qu oſes-tu propoſer? Dieux! que viens-je d’entẽdre? </l>
+                  <l n="129"> Je commence à trembler pour la premiere fois, </l>
+                  <l n="130"> Quand je ſonge au combat que tu veux entreprendre. </l>
+               </sp>
+               <sp>
+                  <speaker>PATROCLE.</speaker>
+                  <l n="131"> Au nom d’une amitié qui fut toujours ſi tendre, </l>
+                  <l n="132"> Permettez-moy d'imiter vos exploits. </l>
+                  <l n="133"> Je connois les perils où mon deſſein m’engage, </l>
+                  <l n="134"> Tout ſemble m'annoncer les fers ou le trépas; </l>
+                  <l n="135"> Mais ſi j'en croy mon courage, </l>
+                  <fw>A ij</fw>
+                  <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f22.image"/>
+                  <fw>4 ACHILE,</fw>
+                  <l n="136"> Ce ſuperbe ennemy ne triomphera pas. </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="137"> D'une vaine terreur je n'ay plus l'ame atteinte, </l>
+                  <l n="138"> Va combattre; le Ciel prendra ſoin de ton ſort, </l>
+                  <l n="139"> Puiſque ton cœur eſt ſans crainte, </l>
+                  <l n="140"> Ton bras ne ſera que trop fort. </l>
+               </sp>
+               <sp>
+                  <speaker>PATROCLE.</speaker>
+                  <l n="141"> Ie cours aſſûrer ma memoire, </l>
+                  <l n="142"> l'ay tous les ſentimens &amp; les ſoins des Heros; </l>
+                  <l n="143"> Non, les jours les plus doux paſſez dans le repos </l>
+                  <l n="144"> Ne valent pas un jour marqué par la victoire. </l>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>SCENE SECONDE.</head>
+               <sp>
+                  <speaker>ACHILE,</speaker>
+                  <stage> ſeul. seul. </stage>
+                  <l n="145">
+                     <persName>PAtrocle</persName> va combatre? &amp; j'ay pu conſentir </l>
+                  <l n="146"> Qu'il courût aux dangers qui menaſſent ſa vie? </l>
+                  <l n="147"> Ah! je devois l'empêcher de partir, </l>
+                  <l n="148"> Hélas de quels regrets ſa mort ſerait ſuivie? </l>
+                  <l n="149"> Si le fort irrité pour accabler mon cœur </l>
+                  <l n="150"> Le faiſoit expirer ſous le fer d’un vainqueur. </l>
+                  <l n="151"> Prevenez juſtes Dieux, mon deſeſpoir funeſte! </l>
+                  <l n="152"> Cét amy genereux, eſt le ſeul qui me reſte, </l>
+                  <l n="153"> Conſervez, ſes jours par pitié! </l>
+                  <l n="154"> On m'a privé de l'objet que j'adore, </l>
+                  <pb n="5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f23.image"/>
+                  <fw>TRAGEDIE.</fw>
+                  <l n="155"> Ce ſeroit trop d’horreur de me priver encore </l>
+                  <l n="156"> De l’objet de mon amitié. </l>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>SCENE TROISIE'ME.</head>
+               <stage>ACHILE, DIOMEDE.</stage>
+               <sp>
+                  <speaker>DIOMEDE.</speaker>
+                  <l n="157"> NE répondreZ-vous point aux deſirs de la <placeName>Grece</placeName>? </l>
+                  <l n="158"> Il faut qu’en ſa faveur vôtre colere ceſſe, </l>
+                  <l n="159"> Elle ne peut ſans vous triompher des Troyens; </l>
+                  <l n="160"> En vain nous aſſiegeons leur Ville, </l>
+                  <l n="161"> Nos Dieux ſont moins forts que les ſiens, </l>
+                  <l n="162"> Sa priſe eſt reſervée à la valeur d’<persName>Achile</persName>. </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="163"> De quel employ vous chargez-vous? </l>
+                  <l n="164"> N’eſperez-pas de fléchir mon courroux, </l>
+                  <l n="165"> Diomede, je veux achever ma vangeance: </l>
+                  <l n="166"> Vos Rois &amp; vos Peuples ingrats, </l>
+                  <l n="167"> Auroient encor pour moy la même indifference, </l>
+                  <l n="168"> S’ils n'avoient beſoin de mon bras. </l>
+               </sp>
+               <sp>
+                  <speaker>DIOMEDE.</speaker>
+                  <l n="169"> Quoy? leur prompt repentir ne peut vous ſatis
+                     <lb break="no" rend="¬"/>faire? </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="170"> Ils ont pris trop de ſoin d’attirer ma colere. </l>
+               </sp>
+               <fw>A ijj</fw>
+               <pb n="6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f24.image"/>
+               <fw>6 ACHILE,</fw>
+               <sp>
+                  <speaker>DIOMEDE.</speaker>
+                  <l n="171"> Mais pouvez-vous aimer un ſi triſte ſejour, </l>
+                  <l n="172"> Et languir en ces lieux dans une vie obſcure? </l>
+                  <l n="173"> Vous? à qui les Deſtins promettoient chaque jour </l>
+                  <l n="174"> Quelque glorieuſe avanture. </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="175"> Malgré mes cruels déplaiſirs, </l>
+                  <l n="176"> La Déeſſe de <placeName>Cythere</placeName>
+                  </l>
+                  <l n="177"> En faveur de <persName>Thetis</persName> ma mere </l>
+                  <l n="178"> Interrompt mes regrets, &amp; ſuſpend mes ſoûpirs; </l>
+                  <l n="179"> Cette charmante Déeſſe </l>
+                  <l n="180"> Vient en ces lieux tous les jours, </l>
+                  <l n="181"> Ie vois avec elle ſans ceſſe </l>
+                  <l n="182"> Les graces, les plaiſirs, les jeux &amp; les amours; </l>
+                  <l n="183"> Leur preſence eſt d'un grand ſecours </l>
+                  <l n="184"> Contre la plus ſombre triſteſſe. </l>
+               </sp>
+               <sp>
+                  <speaker>DIOMEDE.</speaker>
+                  <l n="185"> C'eſt pour ſervir nos ennemis </l>
+                  <l n="186"> Qu'on prend ces ſoins mortels à vôtre gloire, </l>
+                  <l n="187"> Songez que de vous ſeul dépend nôtre victoire, </l>
+                  <l n="188"> Et que tout notre ſort en vos mains eſt remis. </l>
+                  <l n="189"> Faut-il que vôtre cœur ſe livre </l>
+                  <l n="190"> A l'amour des vains plaiſirs? </l>
+                  <l n="191"> Quelque douceur que l'on goûte à les ſuivre, </l>
+                  <l n="192"> Un Heros doit former de plus nobles deſirs. </l>
+               </sp>
+               <pb n="7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f25.image"/>
+               <fw>TRAGEDIE.</fw>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="193"> La Déeſſe paroiſt; &amp; déja ſa preſence </l>
+                  <l n="194"> Donne à ces lieux mille beautez, </l>
+                  <l n="195"> I'admire ſes bienfaits, j’admire ſa puiſſance, </l>
+                  <l n="196"> Trop heureux de jouïr, ſur ces bords écartez </l>
+                  <l n="197"> des plaiſirs innocens qui me ſont preſentez, </l>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>SCENE QUATRIE’ME.</head>
+               <stage>VENUS ACHILE.</stage>
+               <stage>
+                  <lb/>Venus paroiſt en l'air avec l’Amour; elle eſt accom
+                  <lb break="no" rend="¬"/>pagnée des Graces, &amp; des Plaiſirs: le nüage qui
+                  <lb/>les porte deſcend juſques au bas du Theatre,
+                  <lb/>ils en ſortent tous, &amp; le nüage ſe va perdre
+                  <lb/>dans les Airs. </stage>
+               <sp>
+                  <speaker>VENUS.</speaker>
+                  <l n="198"> J'abandonne les Cieux, je deſcends ſur la Terre, </l>
+                  <l n="199"> Pour finir de tes maux le déplorable cours, </l>
+                  <l n="200"> En vain l’injuſte ſort t’a déclaré la guerre, </l>
+                  <l n="201"> Eſpere tout de mon ſecours. </l>
+                  <l n="202"> Vous, Divinitez aimables, </l>
+                  <l n="203"> Du plus grand des Heros charmez le triſte cœur, </l>
+                  <l n="204"> Et faites ſuccéder à ſa vive douleur </l>
+                  <l n="205"> Les plaiſirs les plus agreables. </l>
+               </sp>
+               <note place="margin" anchored="true">
+                  <lb/>La Danſe
+                  <lb/>de ce Diver
+                  <lb break="no" rend="¬"/>tiſſement a
+                  <lb/>eſté faite par
+                  <lb/>Monſieur de
+                  <lb/>Leſtang. </note>
+            </div>
+            <pb n="8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f26.image"/>
+            <fw>8 ACHILE,</fw>
+            <div type="scene">
+               <head>SCENE CINQUIE’ME.</head>
+               <stage>ACHILE, LES GRACES, LES PLAISIRS.</stage>
+               <sp>
+                  <speaker>UNE DES GRACES.</speaker>
+                  <l n="206"> GRand Heros, le Ciel vous eſt propice, </l>
+                  <l n="207"> Vos vertus ſe font rendre juſtice, </l>
+                  <l n="208"> Tout conſpire aujourd’huy </l>
+                  <l n="209"> A finir vôtre ennuy. </l>
+               </sp>
+               <note place="margin" anchored="true">
+                  <lb/>La Danſe
+                  <lb/>de ce Diver
+                  <lb break="no" rend="¬"/>tiſſement a
+                  <lb/>eſté faite par
+                  <lb/>Monſieur de
+                  <lb/>Leſtang. </note>
+               <sp>
+                  <speaker>UN PLAISIR.</speaker>
+                  <l n="210"> Si l'Amour a cauſé vos allarmes, </l>
+                  <l n="211"> Ses faveurs en auront plus de charmes; </l>
+                  <l n="212"> Préparez vôtre cœur </l>
+                  <l n="213"> Au plus parfait bonheur. </l>
+               </sp>
+               <sp>
+                  <speaker>DEUX GRACES ET UN PLAISIR,</speaker>
+                  <l n="214"> Quel mortel oſa jamais prétendre </l>
+                  <l n="215"> Les ſoins qu'icy nous venons vous rendre? </l>
+                  <l n="216"> Qui veut les mériter </l>
+                  <l n="217"> N’a qu’à vous imiter. </l>
+               </sp>
+               <sp>
+                  <speaker>UNE DES GRACES.</speaker>
+                  <l n="218"> C'eſt pour vous que Venus nous appelle, </l>
+                  <l n="219"> Profitez de nôtre ardeur fidelle, </l>
+                  <l n="220"> Vous aurez en ces lieux </l>
+                  <l n="221"> Tous les plaiſirs des Dieux. </l>
+               </sp>
+               <fw>UN</fw>
+               <pb n="9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f27.image"/>
+               <fw>9 TRAGEDIE.</fw>
+               <sp>
+                  <speaker>UN PLAISIR.</speaker>
+                  <l n="222"> C'eſt en vain que la haine &amp; l'envie </l>
+                  <l n="223"> Sont d'accord pour troubler vôtre vie, </l>
+                  <l n="224"> Par nôtre heureux ſecours </l>
+                  <l n="225"> Vous en triompherez, toûjours. </l>
+               </sp>
+               <sp>
+                  <speaker>DEUX GRACES ET UN PLAISIR.</speaker>
+                  <l n="226"> Puiſſiez-vous par nos ſoins favorables </l>
+                  <l n="227"> Me paſſer que des jours agreables! </l>
+                  <l n="228"> Eſt-il rien de ſi doux </l>
+                  <l n="229"> Que de vivre avec nous? </l>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>SCENE SIXIE’ME.</head>
+               <stage>ACHILE, LES GRACES, LES PLAISIRS, ARCAS.</stage>
+               <sp>
+                  <speaker>ARCAS.</speaker>
+                  <l n="230"> O Déplorable coup du ſort! </l>
+                  <l n="231"> O malheur! </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n=""> Ie frémis, parle? </l>
+               </sp>
+               <sp>
+                  <speaker>ARCAS.</speaker>
+                  <l n="">
+                     <persName>Patrocle</persName> eſt mort. </l>
+               </sp>
+               <sp>
+                  <speaker>ACHILE.</speaker>
+                  <l n="232"> Ciel! quelle affreuſe nouvelle! </l>
+                  <l n="233"> Laiſſez-moy, fuyez de ces lieux, </l>
+                  <fw>B</fw>
+                  <pb n="10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f28.image"/>
+                  <fw>10 ACHILE,</fw>
+                  <l n="234"> Vos appas, vos Concerts, &amp; tous les ſoins des Dieux </l>
+                  <l n="235"> Ne ſçauroient plus calmer ma triſteſſe mortelle. </l>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>SCENE SEPTIE'ME.</head>
+               <sp>
+                  <speaker>ACHILE, ARCAS.</speaker>
+                  <l n="236"> COurons vanger cét amy que je pers, </l>
+                  <l n="237"> Que de ſang &amp; de morts tous ces champs ſoient
+                     <lb/>couverts! </l>
+                  <l n="238"> Que ſon fir vainqueur periſſe! </l>
+                  <l n="239"> Ie dois a l'amitié ce juſte Sacrifice. </l>
+                  <l n="240"> Manes de ce Guerrier dont je pleure le ſort, </l>
+                  <l n="241"> Ie vous promets une prompte vangeance, </l>
+                  <l n="242"> I'en atteſte des Dieux la ſuprême puiſſance, </l>
+                  <l n="243"> Je cours chercher <persName>Hector</persName>, je cours hâter ſa
+                     mort,</l>
+                  <l n="244"> Dans l'eternelle nuit ſon ombre va vous ſuivre, </l>
+                  <l n="245"> Ou moy-même aujourd’huy je ceſſeray de vivre. </l>
+               </sp>
+               <stage>Fin du premier Acte.</stage>
+            </div>
+            <pb n="11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f29.image"/>
+            <div type="act">
+               <fw>11</fw>
+               <head>ACTE SECOND</head>
+               <stage>
+                  <lb/>Le Theatre repreſente le Camp des Grecs
+                  <lb/>devant Troye; cette ſuperbe Ville
+                  <lb/>paroît dans l'éloignement. </stage>
+               <div type="scene">
+                  <head>SCENE PREMIERE.</head>
+                  <stage>AGAMEMNON, DIOMEDE.</stage>
+                  <sp>
+                     <speaker>DIOMEDE.</speaker>
+                     <l n="246"> PUis qu <persName>Achile</persName> combat, y nous allons triom
+                        <lb break="no" rend="¬"/>pher </l>
+                     <l n="247"> Nôtre victoire eſt certaine, </l>
+                     <l n="248"> Ceſſez, de le haïr, hâtez-vous d'étouffer </l>
+                     <l n="249"> Le malheureux Amour qui cauſe vôtre haine. </l>
+                     <l n="250"> Vous devez rendre à ce Heros </l>
+                     <l n="251"> Le charmant objet de ſa flame. </l>
+                  </sp>
+                  <fw>B ij</fw>
+                  <pb n="12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f30.image"/>
+                  <fw>12 ACHILE,</fw>
+                  <sp>
+                     <speaker>AGAMEMNON.</speaker>
+                     <l n="252"> Ah, s'il faut à ce prix aſſûrer ſon repos, </l>
+                     <l n="253"> Dieux! qu'il en coûtera de tourmens à mon ame! </l>
+                  </sp>
+                  <sp>
+                     <speaker>DIOMEDE.</speaker>
+                     <l n="254"> Si vous pouviez fléchir la cruelle beauté, </l>
+                     <l n="255"> Dont vôtre cœur eſt enchanté, </l>
+                     <l n="256"> I'excuſerois une injuſtice </l>
+                     <l n="257"> Qui finiroit vôtre ſort rigoureux: </l>
+                     <l n="258"> Mais je dois condamner un funeſte caprice </l>
+                     <l n="259"> Qui vous rend tout enſemble injuſte &amp; malheureux. </l>
+                  </sp>
+                  <sp>
+                     <speaker>AGAMEMNON.</speaker>
+                     <l n="260"> Il eſt vray que j'attaque un cœur inexorable, </l>
+                     <l n="261"> Ie ne puis fléchir ſa rigueur; </l>
+                     <l n="262"> Mais contez-vous pour rien la flateuſe douceur </l>
+                     <l n="263"> De rendre un rival miſerable? </l>
+                  </sp>
+                  <sp>
+                     <speaker>DIOMEDE.</speaker>
+                     <l n="264"> Le malheur d'un rival flate-t'il vôtre ennuy, </l>
+                     <l n="265"> Quand vous eſtes encor plus malheureux que luy? </l>
+                     <l n="266"> Rappellez, vôtre courage, </l>
+                     <l n="267"> Que la raiſon vous dégage </l>
+                     <l n="268"> De vos fatales Amours. </l>
+                  </sp>
+                  <sp>
+                     <speaker>AGAMEMNON.</speaker>
+                     <l n="269"> Que peut de la raiſon le triſte &amp; vain ſecours </l>
+                     <l n="270"> Contre les traits vainqueurs d'une beauté cruelle? </l>
+                     <l n="271"> Quand l'Amour à nos yeux viẽt l'offrir tous les jours </l>
+                     <pb n="13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f31.image"/>
+                     <fw>TRAGEDIE. 13</fw>
+                     <l n="272"> Avec quelque grace nouvelle. </l>
+                     <l n="273"> Ranimons toutefois mon courage abatu, </l>
+                     <l n="274"> C'eſt nourrir trop long-temps une vaine tendreſſe, </l>
+                     <l n="275"> Surmontons ma foibleſſe </l>
+                     <l n="276"> Par un dernier effort digne de ma vertu. </l>
+                  </sp>
+                  <sp>
+                     <speaker>DIOMEDE.</speaker>
+                     <l n="277">
+                        <persName>Achile</persName> eſt triomphant, je le vois qui s'avance </l>
+                     <l n="278"> Suivy de nos Soldats, charmez de ſa valeur. </l>
+                  </sp>
+                  <sp>
+                     <speaker>AGAMEMNON.</speaker>
+                     <l n="279"> Eloignons-nous, évitons ſa preſence, </l>
+                     <l n="280"> Ie ne ſçaurois encor répondre de mon cœur. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE SECONDE.</head>
+                  <stage>ACHILE, CHEFS ET SOLDATS GRECS.</stage>
+                  <sp>
+                     <speaker>CHOEUR.</speaker>
+                     <note place="margin" anchored="true">
+                        <lb/>La danſe de
+                        <lb/>ce divertiſſe
+                        <lb break="no" rend="¬"/>ment a eſté
+                        <lb/>faite par Mr
+                        <lb/>Pecourt. </note>
+                     <l n="281"> GUerrier terrible, </l>
+                     <l n="282"> Soyez toûjours invincible, </l>
+                     <l n="283"> Que vos Exploits </l>
+                     <l n="284"> Faſſent trembler tous les Rois. </l>
+                     <l n="285"> Ciel équitable, </l>
+                     <l n="286"> Sois luy toûjours favorable, </l>
+                     <l n="287"> Que ſon bonheur </l>
+                     <l n="288"> Soit égal à ſa valeur. </l>
+                     <l n="289"> Guerrier terrible &amp;c. </l>
+                     <fw>B iij</fw>
+                     <pb n="14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f32.image"/>
+                     <fw>14 ACHILE,</fw>
+                     <l n="293"> Quelle allegreſſe! </l>
+                     <l n="294"> Quel triomphe pour la <placeName>Grece</placeName>! </l>
+                     <l n="295"> Ses ennemis </l>
+                     <l n="296"> Luy ſeront bien-tôt ſoûmis. </l>
+                     <l n="297"> Guerrier terrible </l>
+                     <l n="298"> Soyez toûjours invincible, </l>
+                     <l n="299"> Que vos Exploits </l>
+                     <l n="300"> Faſſent trembler tous les Rois, </l>
+                  </sp>
+                  <sp>
+                     <speaker>DEUX CAPITAINES GRECS.</speaker>
+                     <l n="301"> Venez tous a l'envy ſeconder nôtre ardeur, </l>
+                     <l n="302"> Honnorez vôtre heureux Defenſeur, </l>
+                     <l n="303"> Celebrez ſa victoire, </l>
+                     <l n="304"> Chantez ſa valeur &amp; ſa gloire, </l>
+                     <l n="305"> Que tous nos Rois </l>
+                     <l n="306"> Charmez de ſez Exploits </l>
+                     <l n="307"> Soient fournis à ſes loix. </l>
+                  </sp>
+                  <sp>
+                     <speaker>CHOEUR.</speaker>
+                     <l n="308"> Suivons, ſuivons ſans ceſſe </l>
+                     <l n="309"> Ce Heros, ce fameux vainqueur; </l>
+                     <l n="310"> C’eſt à ſon bras, que la <placeName>Gréce</placeName>
+                     </l>
+                     <l n="311"> Doit ſa force &amp; ſon bonheur. </l>
+                  </sp>
+                  <sp>
+                     <speaker>CHOEUR.</speaker>
+                     <l n="312"> Chantons la valeur &amp; la gloire </l>
+                     <l n="313"> Du Heros qui nous a ſauvez, </l>
+                     <l n="314"> Qu il jouiſſe, apres ſa victoire </l>
+                     <l n="315"> Des honneurs éclatans à luy ſeul reſervez; </l>
+                     <pb n="15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f33.image"/>
+                     <fw>TRAGEDIE. 15</fw>
+                     <l n="316"> Chantons la valeur &amp; la gloire </l>
+                     <l n="317"> Du Heros qui nous a ſauveZ. </l>
+                     <l n="318"> De ſes heureux travaux cheriſſons la mémoire, </l>
+                     <l n="319"> Conſacrons-luy des jours qu’il nous a conſervez. </l>
+                     <l n="320"> Chantons la valeur &amp; la gloire </l>
+                     <l n="321"> Du Heros qui nous a ſauvez. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="322"> Allez, que chacun coure où ſon devoir l’ap
+                        <lb break="no" rend="¬"/>pelle, </l>
+                     <l n="323"> Vos ſoins pour moy feroient trop de jaloux, </l>
+                     <l n="324"> Et de mes ennemis la vangeance cruelle </l>
+                     <l n="325"> Ne pouvant m'accabler retomberoit ſur vous. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE TROISIE'ME.</head>
+                  <stage>ARCAS, PRIAM, ANDROMAQUE, POLIXENE.</stage>
+                  <sp>
+                     <speaker>ARCAS.</speaker>
+                     <l n="326"> VEneZ marchez ſans défiance, </l>
+                     <l n="327"> Les Grecs vous ont donné leur foy, </l>
+                     <l n="328">
+                        <persName>Achile</persName> eſt genereux, craignez moins ſa preſence, </l>
+                     <l n="329"> Et qu’une juſte eſperance </l>
+                     <l n="329"> Succéde à vôtre effroy. </l>
+                  </sp>
+               </div>
+               <pb n="16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f34.image"/>
+               <fw>16 ACHILE,</fw>
+               <div type="scene">
+                  <head>SCENE QUATRIE’ME.</head>
+                  <stage>PRIAM, ANDROMAQUE, POLIXENE.</stage>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="330"> REſtes infortunez du plus beau ſang du monde, </l>
+                     <l n="331">
+                        <persName>Polixene</persName>, ma fille, &amp; vous veuve
+                           d’<persName>Hector</persName>, </l>
+                     <l n="332"> Mêlez vos pleurs aux miens, &amp; s’il ſe peut en
+                        <lb break="no" rend="¬"/>cor, </l>
+                     <l n="333"> Que tout redouble icy nôtre douleur profonde. </l>
+                  </sp>
+                  <sp>
+                     <speaker>PRIAM. ANDROMAQUE, POLIXENE.</speaker>
+                     <l n="334"> Puiſſions-nous attendrir le cœur </l>
+                     <l n="335"> De ce ſuperbe vainqueur! </l>
+                  </sp>
+               </div>
+               <fw>SCENE</fw>
+               <pb n="17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f35.image"/>
+               <fw>TRAGEDIE. 17</fw>
+               <div type="scene">
+                  <head>SCENE CINQVIE'ME.</head>
+                  <stage>ACHILE, ARCAS, PRIAM, ANDROMAQUE, POLIXENE.</stage>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="336"> VOus voyeZ, Guerrier indomptable, </l>
+                     <l n="337"> Un Roy qui fut long-temps le plus puiſſant
+                        <lb/>des Rois; </l>
+                     <l n="338"> C'eſt ce même <persName>Priam</persName>, qui tenoit ſous ſes
+                        loix</l>
+                     <l n="339"> Des Troyens renommeZ, l’Empire redoutable; </l>
+                     <l n="340"> C'eſt luy que le dernier de vos fameux Exploits, </l>
+                     <l n="341"> Vient de rendre plus miſerable, </l>
+                     <l n="342"> Qu'il ne fut heureux autrefois. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="343"> Le ſort ne peut changer l'auguſte caractere, </l>
+                     <l n="344"> Dont les Dieux vous ont revêtu, </l>
+                     <l n="345"> Je le reſpecte en vous, je plains vôtre vertu, </l>
+                     <l n="346"> Je ſens expirer ma colere, </l>
+                     <l n="347"> le ceſſe de haïr mes plus grands ennemis, </l>
+                     <l n="348"> Sitôt que je les vois ou vaincus ou ſoûmis. </l>
+                  </sp>
+                  <fw>C</fw>
+                  <pb n="18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f36.image"/>
+                  <fw>18 ACHILE,</fw>
+                  <sp>
+                     <speaker>ANDROMAQUE.</speaker>
+                     <l n="349"> I'ay perdu mon époux dans un combat funeſte, </l>
+                     <l n="350"> Vôtre valeur me l’a ravy; </l>
+                     <l n="351"> Mon amour, cheZ les morts, l’auroit déja ſuivy, </l>
+                     <l n="352"> Sans les ſoins que je dois au ſeul fils qui me reſte, </l>
+                     <l n="353"> Vous le ſçavez, Dieux que j’atteſte, </l>
+                     <l n="354"> Au ſort de cét enfant, mon ſort eſt aſſervy; </l>
+                     <l n="355"> Ie l’ay perdu cét époux que j’adore, </l>
+                     <l n="356"> Et pour comble d'horreur, je ſçay qu'il eſt encore </l>
+                     <l n="357"> Indignement privé, par des ordres cruels </l>
+                     <l n="358"> D’un droit que le trépas donne à tous les mortels: </l>
+                     <l n="359"> Souffrez, que je le rende aux murs qui l’ont vû naitre, </l>
+                     <l n="360"> Qu’un ſuperbe Tombeau faſſe du moins connoître </l>
+                     <l n="361"> La ſplendeur de ſon ſang, ſon ſort &amp; mon amour: </l>
+                     <l n="362"> Ce Tombeau ſervira de Temple à vôtre gloire, </l>
+                     <l n="363"> Puis que tout l’avenir y verra quelque jour </l>
+                     <l n="364"> L’hiſtoire de nos maux &amp; de vôtre victoire. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="365"> Quels regrets! quels triſtes accens! </l>
+                     <l n="366"> Dieux! que ſa douleur eſt tendre! </l>
+                     <l n="367"> Que ſes ſoûpirs ſont puiſſans! </l>
+                     <l n="368"> Que je ſouffre à les entendre! </l>
+                  </sp>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="369"> Par vos ſacreZ Ayeux, par le nom de
+                        <persName>Thetis</persName>,</l>
+                     <l n="370"> Laiſſez-moy recüeillir les cendres de mon fils. </l>
+                     <pb n="19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f37.image"/>
+                     <fw>19 TRAGEDIE.</fw>
+                     <l n="371"> Pour m'accorder la grace que i'eſpere </l>
+                     <l n="372"> Souvenez-vous de vôtre Pere, </l>
+                     <l n="373"> Et ſongeZ quel Amour il eut toûjours pour vous: </l>
+                     <l n="374"> Je ſentois pour mon fils une égale tendreſſe; </l>
+                     <l n="375"> Ah! jugez par l’excés de cét Amour ſi doux </l>
+                     <l n="376"> Quel doit être aujourd'huy l'excés de ma triſteſſe. </l>
+                  </sp>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="377"> Que pourois-je eſperer du ſecours de mes pleurs, </l>
+                     <l n="378"> Si mon Pere &amp; ma Sœur vous trouvent inflé
+                        <lb break="no" rend="¬"/>xible! </l>
+                     <l n="379"> Si vous mépriſeZ leurs douleurs, </l>
+                     <l n="380"> A mes plaintes, hélas! ſereZ-vous plus ſenſible? </l>
+                     <l n="381"> Sorty du ſang des Dieux imitez leur bonté, </l>
+                     <l n="382"> A nos ſoûpirs rendez-vous favorable, </l>
+                     <l n="383"> N'augmentez-point l'excés de nôtre adverſité </l>
+                     <l n="384"> Par un refus impitoyable. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="385"> Que peut-on refuſer au pouvoir de vos yeux? </l>
+                     <l n="386"> Vous pouvez tout en ces lieux. </l>
+                     <l n="387"> Raſſûrez-vous, calmez la douleur qui vous preſſe, </l>
+                     <l n="388"> Emportez dans vos murs ce Heros glorieux, </l>
+                     <l n="389"> Ne craignez-point les efforts de la
+                        <placeName>Grece</placeName>,</l>
+                     <l n="390"> I'arrêteray ſes deſſeins furieux: </l>
+                     <l n="391"> Suivez l'ardeur qui vous anime, </l>
+                     <fw>C ij</fw>
+                     <pb n="20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f38.image"/>
+                     <fw>ACHILE, 20</fw>
+                     <l n="392"> Rien ne vous troublera dans ce ſoin legitime: </l>
+                     <l n="393"> Je ne vais ſonger déſormais </l>
+                     <l n="394"> Qu'à vous donner une éternelle paix. </l>
+                  </sp>
+                  <stage> Fin du ſecond Acte. </stage>
+               </div>
+            </div>
+            <pb n="21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f39.image"/>
+            <fw>21</fw>
+            <div type="act">
+               <head>ACTE TROISIE'ME.</head>
+               <stage> Le Theatre repreſente le Quartier d’Achile. </stage>
+               <div type="scene">
+                  <head>SCENE PREMIERE.</head>
+                  <stage>ACHILE, ARCAS.</stage>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="395"> C'En eſt fait, cher <persName>Arcas</persName>, j'adore
+                           <persName>Polixene</persName>,</l>
+                     <l n="396"> Quoy qu'il en coûte enfin, je veux la poſ
+                        <lb break="no" rend="¬"/>ſeder; </l>
+                     <l n="397"> C'eſt toy que j'ay choiſi pour l’aller de
+                        <lb break="no" rend="¬"/>mander, </l>
+                     <l n="398"> Cours à <placeName>Troye</placeName>, il eſt temps de ſoulager ma
+                        peine.</l>
+                  </sp>
+                  <sp>
+                     <speaker>ARCAS.</speaker>
+                     <l n="399"> Son pere à vôtre Amour voudra-t'il l'accorder? </l>
+                  </sp>
+                  <fw>C iij</fw>
+                  <pb n="22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f40.image"/>
+                  <fw>22 ACHILE,</fw>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="400"> Il ſera trop heureux de me donner ſa fille </l>
+                     <l n="401"> Et de me voir devenir ſon époux; </l>
+                     <l n="402"> L’amitié que ce nœud ſera naître entre nous </l>
+                     <l n="403"> Soutiendra deſormais ſon Thrône &amp; ſa famille. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ARCAS.</speaker>
+                     <l n="404"> luſte Ciel! des Troyens vous deveneZ l’appuy? </l>
+                     <l n="405"> Loin de les accabler vous vouleZ les défendre? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="406"> Contre un Peuple abatu, que pourois-je entreprendre </l>
+                     <l n="407"> Aprés ce que mon bras vient de faire aujourd’huy? </l>
+                     <l n="408">
+                        <persName>Hector</persName> ſeul meritoit la gloire </l>
+                     <l n="409"> De mourir par mes coups, </l>
+                     <l n="410"> Le reſte des Troyens aprés cette victoire </l>
+                     <l n="411"> Eſt indigne de mon courroux. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE SECONDE.</head>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="412"> QUand aprés un cruel tourment </l>
+                     <l n="413"> L’hymen ſuccéde </l>
+                     <pb n="23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f41.image"/>
+                     <fw>TRAGEDIE. 23</fw>
+                     <l n="414"> Aux tendres deſirs d'un Amant, </l>
+                     <l n="415"> Que le trouble qui precéde </l>
+                     <l n="416"> Ce bien-heureux moment </l>
+                     <l n="417"> Eſt doux &amp; charmant! </l>
+                     <l n="418"> Mais on vient en ces Lieux, ma ſurpriſe eſt ex
+                        <lb break="no" rend="¬"/>trême; </l>
+                     <l n="419"> C'eſt <persName>Agamemnon</persName> luy-même. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE TROISIE'ME.</head>
+                  <stage>ACHILE, AGAMEMNON.</stage>
+                  <sp>
+                     <speaker>AGAMEMNON.</speaker>
+                     <l n="420"> JE ne ſçaurois plus long-temps </l>
+                     <l n="421"> Conſerver contre vous mes chagrins &amp; ma haine, </l>
+                     <l n="422"> Aprés vos Exploits éclatans, </l>
+                     <l n="423"> Un mouvement plus doux prés de vous me ramene: </l>
+                     <l n="424"> Avec les jours d'<persName>Hector</persName> nos perils ſont
+                        paſſeZ.</l>
+                     <l n="425">
+                        <placeName>Troye</placeName> a perdu le bras qui pouvoit la défendre.</l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="426"> I'ay fait mon devoir, c'eſt aſſeZ, </l>
+                     <l n="427"> Vous n'aveZ point de graces à me rendre: </l>
+                     <l n="428"> le n'ay point crû ſervir ceux qui mont outragé, </l>
+                     <pb n="24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f42.image"/>
+                     <fw>24 ACHILE,</fw>
+                     <l n="429"> Et c'eſt <persName>Patrocle</persName> ſeul que mon bras a
+                        vangé.</l>
+                  </sp>
+                  <sp>
+                     <speaker>AGAMEMNON.</speaker>
+                     <l n="430"> Vôtre colere dure encore, </l>
+                     <l n="431"> Elle éclate dans vos diſcours; </l>
+                     <l n="432"> Il faut pour en finir le cours </l>
+                     <l n="433"> Vous rendre la beauté qui vous aime toûjours, </l>
+                     <l n="434"> Et que vôtre cœur adore. </l>
+                     <l n="435"> Venez, charmant objet, revoyez vôtre amant. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE QVATRIE’ME.</head>
+                  <stage>ACHILE, BRISEIS, AGAMEMNON, DIOMEDE.</stage>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="436"> AH Ciel! ma raiſon céde à mon étonne
+                        <lb break="no" rend="¬"/>ment. </l>
+                  </sp>
+                  <sp>
+                     <speaker>&gt;AGAMEMNON.</speaker>
+                     <l n="437"> Mes reſpects, mes ſoupirs, les marques de flâme </l>
+                     <l n="438"> N'ont fait qu'allumer ſon courroux; </l>
+                     <l n="439"> Ses conſtantes rigueurs m’ont appris que ſon ame </l>
+                     <fw>Ne</fw>
+                     <pb n="25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f43.image"/>
+                     <fw>TRAGEDIE. 25</fw>
+                     <l n="440"> Ne peut brûler que pour vous. </l>
+                  </sp>
+                  <sp>
+                     <speaker>DIOMEDE.</speaker>
+                     <l n="441"> IouïſſeZ du bonheur que l'amour vous preſente, </l>
+                     <l n="442"> Que vôtre ardeur s’augmente </l>
+                     <l n="443"> De moment en moment! </l>
+                     <l n="444"> Que c'eſt un plaiſir charmant </l>
+                     <l n="445"> Aprés une abſence cruelle </l>
+                     <l n="446"> De retrouver ſa Maîtreſſe fidele! </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE CINQUIE'ME</head>
+                  <stage> ACHILE, BRISEIS.</stage>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="447"> QUel triſte acceüil, Dieux! qu'eſt-ce que je
+                        <lb/>voy? </l>
+                     <l n="448"> Suis-je encor Briſeis? N'êtes-vous plus
+                        <persName>Achile</persName>?</l>
+                     <l n="449"> Pouvez-vous me revoir, &amp; demeurer tranquile? </l>
+                     <l n="450"> Qu’eſt devenu l'Amour dont vous BrûlieZ pour
+                        <lb/>moy? </l>
+                     <l n="451"> Vous ne répondez-point?.... </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n=""> Helas! </l>
+                  </sp>
+                  <fw>D</fw>
+                  <pb n="26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f44.image"/>
+                  <fw>ACHILE, 26</fw>
+                  <sp>
+                     <speaker>BRISElS.</speaker>
+                     <l n=""> Que me veut dire </l>
+                     <l n="452"> Ce regard, ce ſoupir échapé malgré vous? </l>
+                     <l n="453"> Ah! que mon deſtin ſera doux </l>
+                     <l n="454"> Si c'eſt encor pour moy que vôtre cœur ſoupire! </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="455"> O Ciel! que je ſuis malheureux! </l>
+                     <l n="456"> Dans quel temps venez-vous m'accabler de vo
+                        <lb/>larmes? </l>
+                     <!-- venez,-vous -->
+                     <l n="457"> Que ne ſuis-je à mon gré le maître de mes vœux! </l>
+                     <l n="458"> Ie finirois bien-tôt vos mortelles allarmes. </l>
+                     <l n="459"> Mais un charme fatal.... </l>
+                  </sp>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n=""> Perfide, c'eſt aſſez. </l>
+                     <l n="460"> Ie voy toute mon infortune, </l>
+                     <l n="461"> Un autre Amour te rend ma tendreſſe importune, </l>
+                     <l n="462"> Ie te fatigue enfin par mes ſoins empreſſez: </l>
+                     <l n="463"> Le bruit de cette amour nouvelle </l>
+                     <l n="464"> Eſtoit venu juſques a moy, </l>
+                     <l n="465"> Mais je n'ay pû le croire &amp; ſoupçonner ta foy. </l>
+                     <l n="466"> I'ay crû ton cœur trop grand pour n'être pas fidele. </l>
+                     <l n="467"> C'en eſt donc fai? Ie ne dois plus penſer </l>
+                     <l n="468"> A l'hymen qui faiſoit toute mon eſperance, </l>
+                     <l n="469"> A ce ſuprême honneur il me faut renoncer, </l>
+                     <pb n="27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f45.image"/>
+                     <fw>TRAGEDIE. 27</fw>
+                     <l n="470"> D'un Amour ſi parfait, funeſte recompenſe! </l>
+                     <l n="471"> Dieux! quelle eſt ma douleur? Ie céde à ſon effort, </l>
+                     <l n="472"> Cruel, peux-tu la voir avec indifference? </l>
+                     <l n="473"> Et ne ſçais-tu pas que ma mort </l>
+                     <l n="474"> Suivra de prés ton inconſtance? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="475"> Ie ne puis entendre </l>
+                     <l n="476"> Une plainte ſi tendre. </l>
+                     <l n="477"> Je ſouffre autant que vous les Dieux m'en ſont té
+                        <lb break="no" rend="¬"/>moins, </l>
+                     <l n="478"> Faut-il vous immoler ma vie? </l>
+                     <l n="479"> Ordonnez, ce ſera le plus doux de mes ſoins </l>
+                     <l n="480"> De ſatisfaire à vôtre envie: </l>
+                     <l n="481"> Mais calmez vos transports &amp; ne m'affligez plus </l>
+                     <l n="482"> Par des reproches ſuperflus. </l>
+                     <l n="483"> Vous connoiſſez mon cœur incapable de feindre, </l>
+                     <l n="484"> Je ſuis moins criminel que je ne ſuis à plaindre, </l>
+                     <l n="485"> Du ſort &amp; de l'Amour l'indispenſable loy </l>
+                     <l n="486"> M'entraîne ailleurs malgré moy. </l>
+                  </sp>
+               </div>
+               <fw>D ij</fw>
+               <pb n="28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f46.image"/>
+               <fw>28 ACHILE,</fw>
+               <div type="scene">
+                  <head>SCENE SIXIE’ME.</head>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="487"> QUel Amant m'eſt ravy? ſa valeur, ſa nobleſſe </l>
+                     <l n="488"> L’élevent au deſſus du reſte des mortels, </l>
+                     <l n="489"> La victoire le ſuit ſans ceſſe, </l>
+                     <l n="490"> Et ſes moindres vertus meritent des Autels; </l>
+                     <l n="491"> Dans le haut rang où ſon deſtin l'appelle </l>
+                     <l n="492"> Il eût eſté parfait, s'il eût eſté fidelle. </l>
+                     <l n="493"> Mais n'eſt-il pas quelque moyen </l>
+                     <l n="494"> De détourner l'Hymen où ſon cœur ſe prepare? </l>
+                     <l n="495"> Ah! faiſons que <persName>Junon</persName> contre luy ſe
+                        declare,</l>
+                     <l n="496"> Elle haït tout le ſang Troyen, </l>
+                     <l n="497"> Et ne ſouffrira pas que cét Hymen funeſte </l>
+                     <l n="498"> Sauve un peuple qu'elle deteſte. </l>
+                     <l n="499"> Puiſſante Reyne des cieux! </l>
+                     <l n="500"> Eſcoûtez-moy, daignez jetter les yeux </l>
+                     <l n="501"> Sur le malheur qui me menaſſe, </l>
+                     <l n="502"> Prevenez ma honte &amp; ma mort, </l>
+                     <l n="503"> En prennant pitié de mon ſort. </l>
+                     <l n="504"> Des perfides Troyens vous confondrez l’audace, </l>
+                     <l n="505"> Mes vœux ſont exaucez, <persName>Junon</persName> deſcend des
+                        cieux,</l>
+                     <l n="506"> Et pour me ſecourir s'approche de ces lieux. </l>
+                     <stage> Junon deſcend ſur ſon Char. </stage>
+                  </sp>
+               </div>
+               <pb n="29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f47.image"/>
+               <fw>TRAGEDIE. 29</fw>
+               <div type="scene">
+                  <head>SCENE SEPTIE'ME.</head>
+                  <stage>JUNON, BRISEIS.</stage>
+                  <sp>
+                     <speaker>JUNON.</speaker>
+                     <l n="507"> CAlme tes deplaiſirs, ne verſe plus de larmes, </l>
+                     <l n="508"> L’Hymen qui cauſe tes allarmes </l>
+                     <l n="509"> Ne ſera jamais achevé. </l>
+                     <l n="510"> En vain <persName>Priam</persName> croit ſon païs ſauvé, </l>
+                     <l n="511"> Son Throne doit tomber, &amp; de toute ſa gloire </l>
+                     <l n="512"> Il ne reſtera rien qu’une triſte memoire. </l>
+                     <l n="513"> Ie vais évoquer des Enfers </l>
+                     <l n="514"> La Hayne, la Fureur, la Diſcorde &amp; l’Envie, </l>
+                     <l n="515"> Leur preſence ſuivie </l>
+                     <l n="516"> De cent prodiges divers. </l>
+                     <l n="517"> Sortez de la nuit infernale </l>
+                     <l n="518"> Noires divinitez, vos antres ſont ouvers. </l>
+                     <stage>
+                        <lb/>Dans le temps qu’elles ſortent des Enfers, tout
+                        <lb/>le Theatre eſt obſcurcy. </stage>
+                  </sp>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="519"> L’horreur de leur Sejour, ſe répand dans les Airs! </l>
+                  </sp>
+                  <sp>
+                     <speaker>JUNON.</speaker>
+                     <l n="520"> Volez, portez par tout vôtre rage fatale, </l>
+                     <l n="521"> Verſez dans tous les Cœurs vôtre mortel poiſon, </l>
+                     <fw>D iij</fw>
+                     <pb n="30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f48.image"/>
+                     <fw>30 ACHILE,</fw>
+                     <l n="522"> ChaſſeZ la Paix de cette terre, </l>
+                     <l n="523"> Et faites y regner la Guerre, </l>
+                     <l n="524"> La Vangeance, &amp; la Trahiſon. </l>
+                     <l n="525"> VerſeZ dans tous les Cœurs voſtre mortel poiſon. </l>
+                     <stage> Junon remonte dans ſon Char. </stage>
+                     <l n="526"> Pourſuivez voſtre carriere </l>
+                     <l n="527"> Soleil, &amp; rendeZ-nous vôtre clarté premiere </l>
+                  </sp>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="528"> Favorable Déeſſe </l>
+                     <l n="529"> I'attens le ſuccés de vos ſoins. </l>
+                     <note place="margin" anchored="true">
+                        <lb/>La danſe des
+                        <lb/>Furies a eſté
+                        <lb/>faite par Mr
+                        <lb/>Leſtang </note>
+                  </sp>
+                  <sp>
+                     <speaker>JUNON.</speaker>
+                     <l n="530"> Avant la fin du jour tes yeux ſeront témoins </l>
+                     <l n="531"> De l'effet de ma promeſſe. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE HUITIE’ME</head>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="532">
+                        <persName>JUnon</persName> pour moy vient de ſe declarer, </l>
+                     <l n="533"> Elle a fait à mes yeux éclater ſa puiſſance, </l>
+                     <l n="534"> Ie doy tout eſperer </l>
+                     <l n="535"> De ſa divine aſſiſtance. </l>
+                     <pb n="31" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f49.image"/>
+                     <fw>TRAGEDIE. 31</fw>
+                     <stage> On entend un bruit de Haut-bois et de Flûtes. </stage>
+                     <l n="536"> Mais quel bruit harmonieux </l>
+                     <l n="537"> Se fait entendre dans ces lieux! </l>
+                     <l n="538"> Ah! je voy les Bergers que l'horreur de la Guerre </l>
+                     <l n="539"> Avoit chaſſez de cette terre, </l>
+                     <l n="540"> La treve les r'appelle à leur premier Sejour, </l>
+                     <l n="541"> Et déja leurs chanſons annoncent leur retour. </l>
+                     <l n="542"> Que leurs chants irritent la peine </l>
+                     <l n="543"> Et la douleur que je ſens! </l>
+                     <l n="544"> Fuyons, je ne puis voir leurs plaiſirs innocens </l>
+                     <l n="545"> Puis-qu'ils ſont dûs à <persName>Polixene</persName>. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE NEUFVIE’ME</head>
+                  <stage> TROUPE DE BERGERS ET DE BERGERES. </stage>
+                  <sp>
+                     <speaker>UN BERGER.</speaker>
+                     <l n="546"> APrés tant de trouble &amp; de larmes </l>
+                     <l n="547"> Un doux repos ſuccéde à nos allarmes, </l>
+                     <l n="548"> Beniſſons à jamais </l>
+                     <l n="549"> Le genereux Vainqueur qui nous donne la paix. </l>
+                  </sp>
+                  <note place="margin" anchored="true">
+                     <lb/>La danſe de
+                     <lb/>ce divertiſſe
+                     <lb break="no" rend="¬"/>ment a eſté
+                     <lb/>faite par Mr
+                     <lb/>Pecourt. </note>
+                  <sp>
+                     <speaker>UN BERGER, ET UNE BERGERE.</speaker>
+                     <l n="550"> Cét heureux jour doit nous charmer, </l>
+                     <l n="551"> Dans ces champs mille fleurs vont renaître, </l>
+                     <l n="552"> Recommençons d'aymer </l>
+                     <l n="553"> En les voyant paroître. </l>
+                  </sp>
+                  <pb n="32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f50.image"/>
+                  <fw>32 ACHILE,</fw>
+                  <sp>
+                     <speaker>TROIS BERGERS.</speaker>
+                     <l n="554"> Cherchons avec empreſſement </l>
+                     <l n="555"> Ces retraites, ces lieux paiſibles </l>
+                     <l n="556"> Que le Ciel a fait ſeulement </l>
+                     <l n="557"> Pour le plaiſir des cœurs ſenſibles. </l>
+                  </sp>
+                  <sp>
+                     <speaker>UN BERGER, ET UNE BERGERE.</speaker>
+                     <l n="558"> Tristes bocages </l>
+                     <l n="559"> Reprenez, vos feüillages, </l>
+                     <l n="560"> Servez-nous toûjours </l>
+                     <l n="561"> D'aZile à nos Amours. </l>
+                  </sp>
+                  <sp>
+                     <stage>Le Choeur.</stage>
+                     <l n="562"> Triſtes bocages, &amp;c. </l>
+                  </sp>
+                  <sp>
+                     <speaker>UN BERGER ET UNE BERGERE.</speaker>
+                     <l n="566"> Paix adorable </l>
+                     <l n="567"> SoyeZ toujours durable, </l>
+                     <l n="568"> Sans vous helas! </l>
+                     <l n="569"> Ces lieux n'ont point d’appas. </l>
+                  </sp>
+                  <sp>
+                     <stage>Le Choeur.</stage>
+                     <l n="570"> Paix adorable, &amp;c. </l>
+                  </sp>
+                  <sp>
+                     <stage>Le Choeur.</stage>
+                     <l n="574"> Aprés tant de trouble &amp; de larmes </l>
+                     <l n="575"> Un doux repos ſuccéde à nos allarmes, </l>
+                     <l n="576"> Beniſſons à jamais </l>
+                     <l n="577"> Le genereux Vainqueur qui nous donne la Paix. </l>
+                  </sp>
+                  <stage> Fin du troiſiéme Acte. </stage>
+               </div>
+            </div>
+            <fw>ACTE</fw>
+            <pb n="33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f51.image"/>
+            <fw>33</fw>
+            <div type="act">
+               <head>ACTE IV.</head>
+               <stage>
+                  <lb/>Le Theatre repreſente le magnifique
+                  <lb/>Palais de Priam. </stage>
+               <div type="scene">
+                  <head>SCENE PREMIERE.</head>
+                  <sp>
+                     <speaker>POLIXENE,</speaker>
+                     <stage> ſeule. </stage>
+                     <l n="578"> ENfin je me voy ſeule, &amp; je puis ſans
+                        <lb/>contrainte </l>
+                     <l n="579"> Faire éclater les divers mouvemens </l>
+                     <l n="580"> Dont mon ame eſt atteinte, </l>
+                     <l n="581"> Et connoître du moins quels ſont mes ſentimens. </l>
+                     <l n="582"> Depuis l'inſtant fatal où l’invincible
+                        <persName>Achile</persName></l>
+                     <l n="583"> A daigné par ſes ſoins ſoulager nôtre ennuy, </l>
+                     <l n="584"> Ie ſuis cent fois moins tranquile, </l>
+                     <l n="585"> Et je ſonge toûjours à luy. </l>
+                     <fw>E</fw>
+                     <pb n="34" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f52.image"/>
+                     <fw>34 ACHILE,</fw>
+                     <l n="586"> Seroit-ce qu'en effet une indigne foibleſſe </l>
+                     <l n="587"> Me previendroit en ſa faveur? </l>
+                     <l n="588"> Non, non, je me ſouviens ſans ceſſe </l>
+                     <l n="589"> Des maux que ma causé ſa funeſte valeur, </l>
+                     <l n="590"> Et le vainqueur d’<persName>Hector</persName>, le vangeur de la
+                           <placeName>Grece</placeName></l>
+                     <l n="591"> Ne peut avoir aucun droit ſur mon cœur. </l>
+                     <l n="592"> C'en eſt fait je triomphe, &amp; dés ce moment même </l>
+                     <l n="593"> Ie ne veux plus m'en ſouvenir. </l>
+                     <l n="594"> Puiſſe, grands Dieux, vôtre pouvoir ſuprême </l>
+                     <l n="595"> Me condamner &amp; me punir! </l>
+                     <l n="596"> Si jamais.... Ciel! que fais-je? &amp; quel tranſport
+                        <lb/>m'inſpire? </l>
+                     <l n="597"> Malheureuſe, qu'allois-je dire? </l>
+                     <l n="598"> Dois-je faire un ſerment pour ne le pas tenir? </l>
+                     <l n="599"> Ie ſouffre trop dans les cruels combats, </l>
+                     <l n="600"> Qu'il m'en coûte pour me défendre! </l>
+                     <l n="601"> Et je trouve mille appas </l>
+                     <l n="602"> A me rendre. </l>
+                     <l n="603"> Mais puis-je avouer ſans honte, </l>
+                     <l n="604"> Que l'Amour me ſurmonte? </l>
+                     <l n="605"> N'écouteray-je plus ny raiſon ny devoir? </l>
+                     <l n="606"> Contre ce Dieu leur force eſt impuiſſante; </l>
+                     <l n="607"> Eſt-il un cœur qui s'exempte </l>
+                     <l n="608"> De reconnoître ſon pouvoir? </l>
+                     <pb n="35" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f53.image"/>
+                     <fw>TRAGEDIE. 35</fw>
+                     <l n="609"> Ie luy céde aujourd'huy. Tous mes efforts ſont vains. </l>
+                     <l n="610"> Je ne puis reſiſter à l’ardeur qui m'enflame; </l>
+                     <l n="611"> Mais du moins, ſi l’Amour diſpoſe de mon ame, </l>
+                     <l n="612"> C'eſt en faveur du plus grand des humains. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE SECONDE.</head>
+                  <stage>ANDROMAQUE, POLIXENE.</stage>
+                  <sp>
+                     <speaker>ANDROMAQUE.</speaker>
+                     <l n="613"> AH! ma ſœur, ſçauez-vous qu’<persName>Achile</persName>
+                     </l>
+                     <l n="614"> Se flate qu'un hymen tranquile </l>
+                     <l n="615"> Avant la fin du jour doit vous unir tous deux? </l>
+                     <l n="616"> Souffrirez-vous que ce nœud s'accompliſſe? </l>
+                     <l n="617"> Et pouvez-vous ſans injuſtice </l>
+                     <l n="618"> De ce fier ennemy favoriſer les vœux? </l>
+                     <l n="619"> Auriez-vous oublié que ſa valeur barbare </l>
+                     <l n="620"> D'un frere tant aymé pour jamais vous ſepare? </l>
+                     <l n="621"> D'un frere la terreur &amp; l’amour des mortels: </l>
+                     <l n="622"> Cette ſanglante mort, cette affreuſe victoire </l>
+                     <l n="623"> Toûjours preſente à ma memoire </l>
+                     <l n="624"> A condamné mes yeux à des pleurs éternels. </l>
+                  </sp>
+                  <fw>E ij</fw>
+                  <pb n="36" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f54.image"/>
+                  <fw>36 ACHILE,</fw>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="625"> Eſt-ce de moy que mon ſort doit dépendre? </l>
+                     <l n="626">
+                        <persName>Priam</persName> ſeul en peut diſpoſer. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ANDROMAQUE.</speaker>
+                     <l n="627"> Par ce détour croyez-vous m’abuſer? </l>
+                     <l n="628"> Non, non, je commence à comprendre </l>
+                     <l n="629"> Quels ſont vos ſentimens ſecrets, </l>
+                     <l n="630"> Vos yeux timides &amp; diſtraits </l>
+                     <l n="631"> Ne me les font que trop entendre. </l>
+                  </sp>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="632"> Que voulez-vous me dire? &amp; que ſoupçonneZ-vous? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ANDROMAQUE.</speaker>
+                     <l n="633"> Que loin de ſeconder ma haine </l>
+                     <l n="634"> Vous verrez ſans peine </l>
+                     <l n="635"> Ce funeſte ennemy devenir vôtre époux. </l>
+                     <l n="636"> Vous voulez jouïr de la gloire </l>
+                     <l n="637"> De triompher de ſa fierté, </l>
+                     <l n="638"> C'eſt une agreable victoire </l>
+                     <l n="639"> Pour vôtre vanité. </l>
+                  </sp>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="640"> Quand je voy ce Heros digne de mon eſtime. </l>
+                     <pb n="37" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f55.image"/>
+                     <fw>TRAGEDIE. 37</fw>
+                     <l n="641"> Sentir pour moy l'Amour le plus parfait, </l>
+                     <l n="642"> Eſt-ce un grand crime </l>
+                     <l n="643"> De m’en applaudir en ſecret? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ANDROMAQUE.</speaker>
+                     <l n="644"> Aprés un tel aveu je n’ay plus rien à craindre, </l>
+                     <l n="645"> C'eſt le dernier malheur que je puis redouter. </l>
+                     <l n="646"> Helas! que me ſert de me plaindre? </l>
+                     <l n="647"> Perſonne ne veut m'écouter. </l>
+                     <l n="648"> Cher époux dont l'illuſtre vie </l>
+                     <l n="649"> Fut ſi digne d’envie, </l>
+                     <l n="650"> Tout ton ſang te trahit pour plaire à ton Vainqueur, </l>
+                     <l n="651"> Ie pleure en vain ta mort, triſte effet de ſes armes, </l>
+                     <l n="652"> Ie voy mépriſer mes larmes </l>
+                     <l n="653"> Et par ton pere &amp; par ta ſœur: </l>
+                     <l n="654"> Mais leur exemple au moins ne peut rien ſur mon
+                        <lb/>ame, </l>
+                     <l n="655"> Je ſens encor la même flame </l>
+                     <l n="656"> Et la même douleur. </l>
+                     <l n="657"> Le ſeul eſpoir dont mon cœur eſt flaté, </l>
+                     <l n="658"> C'eſt qu'en donnant toûjours des pleurs a ta me
+                        <lb break="no" rend="¬"/>moire, </l>
+                     <l n="659"> Ie rendray ma fidelité </l>
+                     <l n="660"> Auſſi fameuſe que ta gloire. </l>
+                  </sp>
+               </div>
+               <fw>E iij</fw>
+               <pb n="38" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f56.image"/>
+               <fw>38 ACHILE.</fw>
+               <div type="scene">
+                  <head>SCENE TROISIE'ME.</head>
+                  <sp>
+                     <speaker>POLIXENE</speaker>
+                     <stage> ſeule </stage>
+                     <l n="661"> QUel reproche fatal! je rougis de l’entendre, </l>
+                     <l n="662"> Il me fait ſouvenir des conſeils de
+                        <persName>Caſſandre</persName>:</l>
+                     <l n="663"> Elle me prédit chaque jour </l>
+                     <l n="664"> Que ſi jamais mon cœur s’abandonne à l’Amour </l>
+                     <l n="665"> Ma foibleſſe ſera ſuivie </l>
+                     <l n="666"> D'éternelles douleurs; </l>
+                     <l n="667"> Elle m’annonce enfin de ſi cruels malheurs </l>
+                     <l n="668"> Qu’ils pourront me coûter la vie: </l>
+                     <l n="669"> N'importe, je ne puis changer de ſentiment, </l>
+                     <l n="670"> Mon cœur eſt occupé d’un objet trop charmant. </l>
+                     <l n="671"> Malgré les conſeils qu’on me donne </l>
+                     <l n="672"> D’une plus vive ardeur je me ſans enflamer, </l>
+                     <l n="673"> Un cœur que le peril eſtonne </l>
+                     <l n="674"> N’eſt pas digne d’aimer. </l>
+                  </sp>
+               </div>
+               <pb n="39" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f57.image"/>
+               <fw>TRAGEDIE. 39</fw>
+               <div type="scene">
+                  <head>SCENE QUATRIE'ME.</head>
+                  <stage>PRIAM, POLIXENE, ARCAS
+                     <lb/>ſuite de PRIAM &amp; d’ARCAS.</stage>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="675"> MA fille, il n'eſt plus temps de répandre des
+                        <lb/>pleurs, </l>
+                     <l n="676"> Voicy le jour heureux qui finit nos malheurs: </l>
+                     <l n="677"> Le fier <persName>Achile</persName> rend les armes </l>
+                     <l n="678"> A tes charmes, </l>
+                     <l n="679"> Et malgré tous les Grecs jaloux de ton bon-heur </l>
+                     <l n="680"> Il te donne aujourd'hui ſon Empire &amp; ſon Cœur. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ARCAS.</speaker>
+                     <l n="681"> Princeſſe, ce Heros ne cherche qu'à vous plaire </l>
+                     <l n="682"> Vous avez en vos mains &amp; ſa vie &amp; ſa mort, </l>
+                     <l n="683"> C'eſt à vous de regler ſon ſort; </l>
+                     <l n="684"> Il a déja l'aveu de vôtre pere, </l>
+                     <l n="685"> Mais pour aſſûrer ſon bonheur, </l>
+                     <l n="686"> Il veut ſçavoir ſi vôtre cœur </l>
+                     <l n="687"> A ſes tendres deſirs ne ſera pas contraire. </l>
+                  </sp>
+                  <pb n="40" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f58.image"/>
+                  <fw>40 ACHILE,</fw>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="689"> C’eſt aſſeZ que le Roy m'ordonne d'obéïr, </l>
+                     <l n="690"> Ie connois mon devoir, je ne le puis trahir. </l>
+                  </sp>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="691"> Quel changement favorable </l>
+                     <l n="692"> Flate aujourd'huy mes deſirs! </l>
+                     <l n="693"> Aurois-je cru mon cœur encor capable </l>
+                     <l n="694"> De ſentir quelques plaiſirs? </l>
+                     <l n="695"> Malgré ce changement un chagrin legitime </l>
+                     <l n="696"> En trouble la douceur &amp; s'oppoſe à la paix; </l>
+                     <l n="697"> Mais le ſoin de l'Etat eſt le ſeul qui m'anime, </l>
+                     <l n="698"> Et je prefere à tout le bien de mes Sujets. </l>
+                     <l n="699"> Vous, que vôtre ſort intereſſe </l>
+                     <l n="700"> Dans cét évenement heureux, </l>
+                     <l n="701"> Peuples, montrez vôtre allegreſſe, </l>
+                     <l n="702"> Par les Jeux les plus pompeux. </l>
+                  </sp>
+               </div>
+               <fw>SCENE</fw>
+               <pb n="41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f59.image"/>
+               <fw>TRAGEDIE. 41</fw>
+               <div type="scene">
+                  <head>SCENE CINQUIE’ME.</head>
+                  <stage>POLIXENE, ARCAS, TROUPE DE TROYENS ET DE TROYENNES.</stage>
+                  <sp>
+                     <speaker>UN TROYEN.</speaker>
+                     <l n="703"> VOs beaux yeux, adorable Princeſſe, </l>
+                     <l n="704"> Ont détruit les deſſeins de la <placeName>Grece</placeName>, </l>
+                     <l n="705"> Un ſeul de vos regards a rangé ſous vos loix </l>
+                     <l n="706"> Un Heros dont le nom fait trembler tous ſes Rois. </l>
+                  </sp>
+                  <note anchored="true">
+                     <lb/>La danſe de
+                     <lb/>ce divertiſſe
+                     <lb break="no" rend="¬"/>ment a eſté
+                     <lb/>faite par Mr
+                     <lb/>Pecourt. </note>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="707"> Vos beaux yeux, adorable Princeſſe, &amp;c. </l>
+                  </sp>
+                  <sp>
+                     <speaker>UNE TROYENNE.</speaker>
+                     <l n="711"> Que ne peuvent point vos charmes? </l>
+                     <l n="712"> Tout leur eſt ſoûmis, </l>
+                     <l n="713"> Ils arrachent les armes </l>
+                     <l n="714"> A nos ennemis. </l>
+                     <l n="715"> Que ne peuvent point vos charmes? </l>
+                     <l n="716"> Tout leur eſt ſoûmis. </l>
+                  </sp>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="717"> Que ne peuvent point vos charmes, </l>
+                  </sp>
+                  <fw>F</fw>
+                  <pb n="42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f60.image"/>
+                  <fw>42 ACHILE.</fw>
+                  <sp>
+                     <speaker>DEUX TROYENS.</speaker>
+                     <l n="723"> Que l'Amour eſt puiſſant ſur les cœurs: </l>
+                     <l n="724"> Il enchaîne </l>
+                     <l n="725"> Sans peine </l>
+                     <l n="726"> Les plus redoutables Vainqueurs. </l>
+                  </sp>
+                  <sp>
+                     <speaker>UNE TROYENNE.</speaker>
+                     <l n="727"> Qu'aprés une grande victoire </l>
+                     <l n="728"> Un Guerrier eſt heureux, </l>
+                     <l n="729"> S'il ſçait mêler aux charmes de la gloire </l>
+                     <l n="730"> Le doux amuſement des plaiſirs amoureux. </l>
+                  </sp>
+                  <sp>
+                     <speaker>UNE TROYENNE.</speaker>
+                     <l n="731"> Vous ſi long-temps bannis de ce ſacré ſejour, </l>
+                     <l n="732"> Ieux charmans, revenez dans cette auguſte Cour. </l>
+                  </sp>
+                  <sp>
+                     <speaker>UN TROYEN.</speaker>
+                     <l n="733"> La Paix rameine icy l'abondance, </l>
+                     <l n="734"> Faites voir vôtre magnificence, </l>
+                     <l n="735"> Par vos chants redoublez, celebrez ce grand jour, </l>
+                     <l n="736"> Et de vôtre bonheur rendez grace à l'Amour. </l>
+                  </sp>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="737"> La Paix rameine icy l’abondance, </l>
+                     <l n="738"> Faiſons voir nôtre magnificence, </l>
+                     <l n="739"> Par nos chants redoublez, celebrons ce grand Iour, </l>
+                     <l n="740"> Et de nôtre bonheur rendons grace à l'Amour. </l>
+                  </sp>
+                  <stage> Fin du quatriéme Acte. </stage>
+               </div>
+            </div>
+            <pb n="43" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f61.image"/>
+            <fw>
+               <corr>
+                  <sic>34</sic>
+                  <corr>43</corr>
+               </corr></fw>
+            <div type="act">
+               <head>ACTE V.</head>
+               <stage>
+                  <lb/>Le Theatre repreſente l’avenuë &amp; le
+                  <lb/>Temple d’Apollon. </stage>
+               <div type="scene">
+                  <head>SCENE PREMIERE.</head>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="741"> AH, que ſur moy l’Amour regne avec
+                        <lb/>violence! </l>
+                     <l n="742"> Que de tranſports puiſſans mon cœur eſt
+                        <lb/>agité! </l>
+                     <l n="743"> Mais j'apperçoy la divine beauté </l>
+                     <l n="744"> Qui cauſe mon impatience, </l>
+                     <l n="745"> Son Pere la conduit, &amp; vient ſur ces Autels </l>
+                     <l n="746"> Entendre &amp; confirmer nos ſerment mutuels. </l>
+                  </sp>
+               </div>
+               <fw>F ij</fw>
+               <pb n="44" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f62.image"/>
+               <fw>44 ACHILE,</fw>
+               <div type="scene">
+                  <head>SCENE SECONDE.</head>
+                  <stage>ACHILE, ARCAS, POLIXENE, CHOEUR DE GRECS DE LA SUITE D'ACHILE, CHOEUR DE
+                     TROYENS ET DE FILLES TROYENNES QUI SUIVENT PRIAM ET POLIXENE.</stage>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="747"> PRinceſſe enfin le Ciel répond à mon attente; </l>
+                     <l n="748"> Il aſſure à mon cœur la plaiſirs la plus doux, </l>
+                     <l n="749"> Ah! que mon ſort doit faire de jaloux! </l>
+                     <l n="750"> Si l'Hymen dont l’eſpoir m'enchante </l>
+                     <l n="751"> N’eſt pat un ſupplice pour vous. </l>
+                     <l n="752"> Quoy? ce tranſport ne ſert qu'à vous confondre? </l>
+                     <l n="753"> Craignez-vous de me répondre? </l>
+                     <l n="754"> Pourquoy tourner vos yeux de toutes parts? </l>
+                     <l n="755"> N’oſez-vous ſur moy ſeul arrêter vos regards? </l>
+                     <l n="756"> Parlez, beauté charmante, </l>
+                     <l n="757"> Le don de vôtre cœur ſuivra-t’il vôtre foy? </l>
+                  </sp>
+                  <pb n="45" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f63.image"/>
+                  <fw>TRAGEDIE. 45</fw>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="758"> Hélas! plus je vous voy, </l>
+                     <l n="759"> Et plus mon trouble s'augmente. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="760"> Puis-je du moins en ma faveur </l>
+                     <l n="761"> Expliquer ce profond ſilence? </l>
+                  </sp>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="762"> Un Heros tel que vous, quand il donne ſon cœur, </l>
+                     <l n="763"> N’eſt-il pas aſſûré de la reconnoiſſance? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE,</speaker>
+                     <l n="764"> C'en eſt trop; vos bontez paſſent mon eſperance. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE TROISIE'ME.</head>
+                  <stage>ACHILE, PRIAM, POLIXENE, ARCAS, TROUPE DE GRECS, TROUPE DE TROYENS ET DE
+                     TROYENNES.</stage>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="765"> Commençons à jouïr en ce jour </l>
+                     <l n="766"> Des plaiſirs que la paix nous rameine </l>
+                     <l n="767"> Les feux de la haine </l>
+                     <l n="768"> Cédent à ceux de l'Amour. </l>
+                  </sp>
+                  <fw>F iij</fw>
+                  <pb n="46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f64.image"/>
+                  <fw>46 ACHILE,</fw>
+                  <sp>
+                     <speaker>PRIAM. ACHILE, POLIXENE.</speaker>
+                     <l n="769"> Commençons à jouïr en ce jour </l>
+                     <l n="770"> Des plaiſirs que la paix nous rameine, </l>
+                     <l n="771"> Les feux de la haine </l>
+                     <l n="772"> Cédent à ceux de l'Amour. </l>
+                  </sp>
+                  <sp>
+                     <speaker>ACHILE.</speaker>
+                     <l n="773"> Peuples ſoûmis à mes loix, </l>
+                     <l n="774"> Secondez les tranſports de mon ame; </l>
+                     <l n="775"> Joignez vos voix </l>
+                     <l n="776"> Pour chanter les beautez de l'Objet qui m'en
+                        <lb break="no" rend="¬"/>flâme. </l>
+                  </sp>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="777"> Peuples ſoûmis à mes loix, </l>
+                     <l n="778"> Vous joüiſſez d'un ſort tranquile, </l>
+                     <l n="779"> Joignez vos voix </l>
+                     <l n="780"> Pour chanter les vertus &amp; le bonheur
+                           d'<persName>Achile</persName>.</l>
+                  </sp>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="781"> Que tous ces lieux retentiſſent </l>
+                     <l n="782"> Du nom de ces heureux époux, </l>
+                     <l n="783"> Que l'Amour &amp; l’Hymen les uniſſent </l>
+                     <l n="784"> De leurs nœuds les plus doux. </l>
+                  </sp>
+                  <note anchored="true">
+                     <lb/>La Danſe
+                     <lb/>de ce Diver
+                     <lb break="no" rend="¬"/>tiſſement a
+                     <lb/>eſté faite par
+                     <lb/>Monſieur
+                     <lb/>Leſtang. </note>
+                  <pb n="47" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f65.image"/>
+                  <fw>TRAGEDIE. 47</fw>
+                  <sp>
+                     <speaker>UN GREC.</speaker>
+                     <l n="785"> Ah que vos chaînes ſont belles! </l>
+                     <l n="786"> Tendres Amans, que vous ſerez heureux! </l>
+                     <l n="787"> Seuls dignes l’un de l'autre, &amp; pleins des mêmes
+                        <lb/>feux, </l>
+                     <l n="788"> Egalement charmez, également fidelles, </l>
+                     <l n="789"> Tendres Amans, que vous ſerez heureux. </l>
+                  </sp>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="790"> Tendres Amans, que vous ſereZ heureux! </l>
+                  </sp>
+                  <sp>
+                     <speaker>UN GREC. ET DEUX TROYENNES.</speaker>
+                     <l n="791"> Chacun de vous connoit le prix de ce qu'il aime, </l>
+                     <l n="792"> Et luy conſacre tous ſes vœux; </l>
+                     <l n="793"> Chacun de ſon Amour fait ſa gloire ſuprême </l>
+                     <l n="794"> Tendres Amans, que vous ſerez heureux! </l>
+                  </sp>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="795"> Tendres Amans, que vous ſerez heureux. </l>
+                  </sp>
+                  <sp>
+                     <speaker>PRIAM.</speaker>
+                     <l n="796"> Ne perdons plus de précieux momens, </l>
+                     <l n="797"> Allons ſur les Autels conſacrer les Sermens </l>
+                     <l n="798"> D’une paix éternelle. </l>
+                  </sp>
+                  <pb n="48" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f66.image"/>
+                  <fw>ACHILE, <choice>
+                        <sic>46</sic>
+                        <corr>48</corr>
+                     </choice></fw>
+                  <sp>
+                     <speaker>ACHILE, POLIXENE.</speaker>
+                     <l n="799"> Ne perdons plus de précieux momens, </l>
+                     <l n="800"> Allons ſur les Autels conſacrer les Sermens, </l>
+                     <l n="801"> D'une paix éternelle, </l>
+                     <l n="802"> Et d'un Amour tendre &amp; fidele. </l>
+                  </sp>
+               </div>
+               <div type="scene">
+                  <head>SCENE QUATRIE'ME.</head>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="803"> QVe vois-je? c'en eſt fait, &amp; mon perfide
+                        <lb/>Amant </l>
+                     <l n="804"> Epouſe en ce moment </l>
+                     <l n="805"> Sa nouvelle Maîtreſſe. </l>
+                     <l n="806"> Ah! <persName>Junon</persName>, eſt-ce ainſi que tu tiens ta
+                        promeſſe?</l>
+                     <l n="807"> Eſt-ce ainſi que tu romps ces funeſtes liens, </l>
+                     <l n="808"> Qui vont cauſer ma mort &amp; ſauver les Troyens? </l>
+                     <l n="809"> Un juſte deſeſpoir m'anime, </l>
+                     <l n="810"> Mon Amour outragé demande une victime, </l>
+                     <l n="811"> Courons l'immoler ou perir; </l>
+                     <l n="812"> Si mes tranſports jaloux me font commettre un
+                        <lb/>crime, </l>
+                     <l n="813"> Pour l'expier je ſuis prête à mourir. </l>
+                  </sp>
+               </div>
+               <fw>SCENE V.</fw>
+               <pb n="49" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f67.image"/>
+               <fw>TRAGEDIE. 49</fw>
+               <div type="scene">
+                  <head>SCENE CINQUIE'ME.</head>
+                  <stage>BRISEIS, Chœur de Grecs qui ſortent
+                     <lb/>en deſordre du Temple d’Apollon, ARCAS.</stage>
+                  <sp>
+                     <speaker>LE CHOEUR.</speaker>
+                     <l n="814"> FUyons une mort certaine, </l>
+                     <l n="815"> Nous n'avons plus de deffenſeur. </l>
+                  </sp>
+                  <sp>
+                     <speaker>BRISElS.</speaker>
+                     <l n="816"> Où courez-vous? quelle terreur </l>
+                     <l n="817"> Loin de ces lieux vous entraîne? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ARCAS.</speaker>
+                     <l n="818">
+                        <persName>Achile</persName> ne vit plus? </l>
+                  </sp>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n=""> Ciel! quel eſt ſon vainqueur? </l>
+                  </sp>
+                  <sp>
+                     <speaker>ARCAS.</speaker>
+                     <l n="819"> L'indigne raviſſeur d'<persName>Helene</persName>
+                     </l>
+                     <l n="820"> Par une trahiſon a terminé ſon ſort. </l>
+                  </sp>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="821"> Quoy? le traiſtre <persName>Paris</persName> eſt l'autheur de ſa
+                        mort?</l>
+                  </sp>
+               </div>
+               <fw>G</fw>
+               <pb n="50" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f68.image"/>
+               <fw>ACHILE, 50</fw>
+               <div type="scene">
+                  <head>SCENE SIXIE’ME.</head>
+                  <stage>POLIXENE, BRISEIS.</stage>
+                  <sp>
+                     <speaker>POLIXENE.</speaker>
+                     <l n="822"> DIeux! quel horrible ſpectacle! </l>
+                     <l n="823"> Le perfide <persName>Paris</persName> triomphe ſans obſtacle, </l>
+                     <l n="824"> Il joüit de ſon crime, &amp; ne me permet pas </l>
+                     <l n="825"> D'embraſſer mon époux même aprés ſon trépas. </l>
+                     <l n="826"> D'un coup mortel j'ay vû fraper <persName>Achile</persName>, </l>
+                     <l n="827"> J'ay retiré le trait dont il eſtoit percé; </l>
+                     <l n="828"> Helas! dans les douleurs dont mon cœur eſt preſſé, </l>
+                     <l n="829"> Ce trait fatal peut m'eſtre utile. </l>
+                  </sp>
+                  <sp>
+                     <speaker>BRISEIS.</speaker>
+                     <l n="830"> Je vay preſſer nos Chefs &amp; nos Soldats. </l>
+                     <l n="831"> De vanger le meurtre d’<persName>Achile</persName>. </l>
+                     <l n="832"> Oüy, dans mon deſeſpoir je conduiray leurs pas </l>
+                     <l n="833"> Sur les remparts de vôtre Ville. </l>
+                     <l n="834"> Puiſſe le juſte Ciel ſe declarer pour nous! </l>
+                     <l n="835"> Et puiſſent aujourd'huy les Toyens perir tous. </l>
+                  </sp>
+               </div>
+               <pb n="51" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f69.image"/>
+               <fw>TRAGEDIE. 51</fw>
+               <div type="scene">
+                  <head>SCENE SEPTIE'ME. ET DERNIERE.</head>
+                  <sp>
+                     <speaker>&gt;POLIXENE.</speaker>
+                     <l n="836"> VA punir les Troyens, cours hâter la van
+                        <lb break="no" rend="¬"/>geance </l>
+                     <l n="837"> D'un Heros qu'on vient d'immoler </l>
+                     <l n="838"> Laiſſe-moy ſeule icy; ne vien plus me troubler </l>
+                     <l n="839"> Par ton odieuſe préſence. </l>
+                     <l n="840"> Par ces ſoins éclatans va prouver ton Amour, </l>
+                     <l n="841"> Pourſuy <persName>Paris</persName>, fais-luy ravir le jour, </l>
+                     <l n="842"> Au Heros que tu perds l’on te verra ſurvivre. </l>
+                     <l n="843"> Depuis qu’il ne vit plus, rien ne plaiſt à mes yeux, </l>
+                     <l n="844"> Vne ſanglante mort va finir en ces lieux </l>
+                     <l n="845"> Les horribles tourmens ou ſa perte me livre, </l>
+                     <l n="846"> Ah! n'eſt-il pas moins glorieux </l>
+                     <l n="847"> De le vanger que de le ſuivre? </l>
+                     <l n="848"> Mais quel triſtes objets viennent s'offrir à moy? </l>
+                     <l n="849"> Dieux! quel ſaiſiſſemẽt! quels tranſports! quel effroy! </l>
+                     <l n="850"> Ah! je voy mon Epoux ſur l'infernale rive </l>
+                     <l n="851"> I'entends les cris de ſon ombre plaintive, </l>
+                     <l n="852"> Elle m'appelle, elle me tend les bras, </l>
+                     <l n="853"> Ciel! je voy dans ſes yeux éclater ſa colere </l>
+                     <l n="854"> Chere ombre, attends, je vais te ſatisfaire </l>
+                     <l n="855"> S’il ne faut pour te plaire </l>
+                     <l n="856"> Que courir au trépas. </l>
+                     <pb n="52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k3118700/f70.image"/>
+                     <fw>ACHILE, TRAGEDIE. 52</fw>
+                     <l n="857"> Quel ſort d’une Amour ſi tendre! </l>
+                     <l n="858"> J'éprouve enfin tous les malheurs </l>
+                     <l n="859"> Que <persName>Caſſandre</persName> cent fois pleine de ſes
+                        fureurs</l>
+                     <l n="860"> Voulût en vain me faire entendre. </l>
+                     <l n="861"> Et toy qui teint encor du Sang de mon Epoux </l>
+                     <l n="862"> As paſſé dans mes mains pour terminer ma vie, </l>
+                     <l n="863"> Funeſte trait, ſeconde mon envie, </l>
+                     <l n="864"> Que ton ſecours me ſera doux </l>
+                     <l n="865"> Si tu frapes mon cœur d’une atteinte mortelle, </l>
+                     <l n="866"> Il s’avance luy même au devant de tes coups </l>
+                     <l n="867"> Trop heureux ſi tu m'es fidelle. </l>
+                     <l n="868"> C'en eſt fait, le ſuccés répond à mon attente, </l>
+                     <l n="869"> Ie n'ay plus guere à ſouffrir, </l>
+                     <l n="870"> Ie ſens que je vais mourir </l>
+                     <l n="871"> Et c'eſt aſſeZ pour me rendre contente. </l>
+                     <l n="872"> Reçoy mon Sang aprés mes pleurs </l>
+                     <l n="873">
+                        <persName>Achile</persName>; c'eſt à toy que je me ſacrifie;.... </l>
+                     <l n="874"> Sans toy je déteſte la vie,.... </l>
+                     <l n="875"> Oüy je le jure.... helas.... je friſſonne... je meurs. </l>
+                  </sp>
+                  <stage> Fin du cinquiéme, &amp; dernier Acte. </stage>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+
+</text>

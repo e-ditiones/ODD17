@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EXP_0009">
+    <fileDesc>
+        <titleStmt>
+            <title type="main">George Dandin</title>
+            <title type="sub">E-Ditiones edition</title>
+            <author ref="isni:0000000123197131">Molière</author>
+            <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
+        </titleStmt>
+        <extent>
+            <measure unit="words" quantity="17067"/>
+            <measure unit="images" quantity="169"/>
+        </extent>
+        <publicationStmt>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
+            <availability status="restricted" n="cc-by">
+                <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl>
+                <ref target="https://gallica.bnf.fr/ark:/12148/btv1b8610793w"/>
+                <title>George Dandin</title>
+                <author ref="isni:0000000123197131">Molière</author>
+                <publisher ref="isni:0000000081405798">J. Ribou</publisher>
+                <pubPlace ref="geonames:2988507">Paris</pubPlace>
+                <date when="1669">1669</date>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+        <change who="orcid:0000-0003-0850-8266" when="2020-05-26">Adaptation of the XML-TEI encoding
+            according to the new ODD.</change>
+    </revisionDesc>
+</teiHeader>
