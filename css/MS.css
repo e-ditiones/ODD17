@@ -1,0 +1,329 @@
+
+/* GLOBAL */
+
+extent::before{
+  content: "Taille: ";
+  font-weight: bold;
+}
+
+title{
+  font-style: italic;
+}
+
+persName{
+  display: inline-block;
+}
+
+note,extent{
+  margin-left:1Em;
+  display: block;
+}
+
+ref{
+  content:attr(target);
+}
+
+/* TITLE */
+
+titleStmt::before{
+  content: "Titre";
+  font-weight: bold;
+  font-size: larger;
+}
+
+titleStmt{
+  margin-bottom:1Em;
+  display: block;
+  background-color: lightblue;
+}
+
+title[type=long],title[type=short]{
+  margin-left: 1Em;
+  display: block;
+}
+
+editor{
+  margin-left: 1Em;
+  display: block;
+}
+
+editor::before{
+  content: "Editeur: ";
+  font-weight: bold;
+}
+
+/* PUBLICATON */
+
+publicationStmt::before{
+  content: "Publication";
+  font-weight: bold;
+  font-size: larger;
+}
+
+publicationStmt{
+  margin-top:1Em;
+  margin-bottom:1Em;
+  display: block;
+  background-color: pink;
+}
+
+publisher,availability{
+  display: block;
+  margin-left: 1Em;
+}
+
+publicationStmt > ref {
+  margin-left: 1Em;
+  }
+
+licence::before{
+  content: "Licence: ";
+  font-weight: bold;
+}
+
+/* EXTENT */
+
+note::before{
+  content: "Note: ";
+  font-weight: bold;
+}
+
+note{
+  display: block;
+}
+
+/* msDesc */
+
+msDesc{
+  margin-top:1Em;
+  display: block;
+  background-color: yellow;
+}
+
+msIdentifier::before{
+  content: "Identifiant";
+  display: block;
+  font-weight: bold;
+  font-size: larger;
+}
+
+msIdentifier{
+  display: block;
+}
+
+country::before{
+  content: "Pays: ";
+  font-weight: bold;
+}
+
+settlement::before{
+  content: "Ville: ";
+  font-weight: bold;
+}
+
+institution::before{
+  content: "Bibliothèque: ";
+  font-weight: bold;
+}
+
+repository::before{
+  content: "Département: ";
+  font-weight: bold;
+}
+
+collection::before{
+  content: "Collection: ";
+  font-weight: bold;
+}
+
+idno::before{
+  content: "Code: ";
+  font-weight: bold;
+}
+
+country,settlement,institution,repository,collection,idno{
+  text-indent: 1Em;
+  display: block;
+}
+
+head::before{
+  content: "Titre: ";
+  font-weight: bold;
+}
+
+head{
+  display: block;
+}
+
+/* msContents */
+
+locus,author,docDate,incipit,explicit,filiation{
+  display: block;
+  margin-left: 1Em;
+}
+
+msContents::before{
+  content: "Présentation: ";
+  font-weight: bold;
+}
+
+locus::before{
+  content: "Localisation: ";
+  font-weight: bold;
+}
+
+author::before{
+  content: "Auteur: ";
+  font-weight: bold;
+}
+
+docDate::before{
+  content: "Date d'écriture/publication: ";
+  font-weight: bold;
+}
+
+incipit::before{
+  content: "Incipit: ";
+  font-weight: bold;
+}
+
+explicit::before{
+  content: "Explicit: ";
+  font-weight: bold;
+}
+
+incipit,explicit{
+  font-style: italic;
+}
+
+filiation::before{
+  content: "Filiation: ";
+  font-weight: bold;
+}
+
+/* objectDesc */
+
+objectDesc::before{
+  content: "Objet: ";
+  font-weight: bold;
+}
+
+support,condition,sealDesc,scriptDesc{
+  display: block;
+  margin-left: 1Em;
+}
+
+support::before{
+  content: "Support: ";
+  font-weight: bold;
+}
+
+foliation::before{
+  content: "Foliotation/pagination: ";
+  font-weight: bold;
+}
+
+binding::before{
+  content: "Reliure: ";
+  font-weight: bold;
+}
+
+condition::before{
+  content: "Etat de conservation: ";
+  font-weight: bold;
+}
+
+scriptDesc::before{
+  content: "Main: ";
+  font-weight: bold;
+}
+
+sealDesc::before{
+  content: "Cachet: ";
+  font-weight: bold;
+}
+
+material,objectType{
+  content:attr(rend);
+}
+
+measure,height,width{
+  content:attr(n) " " attr(unit) ;
+}
+
+height::before{
+  content: "hauteur: ";
+}
+
+width::before{
+  content: "largeur: ";
+}
+
+
+/* history & additional */
+
+surrogates,listBibl{
+  display: block;
+}
+
+history::before{
+  content: "Histoire: ";
+  font-weight: bold;
+}
+
+surrogates::before{
+  content: "Images: ";
+  font-weight: bold;
+}
+
+listBibl::before{
+  content: "Bibliographie: ";
+  font-weight: bold;
+}
+
+msPart::before{
+  content: "msPart";
+  font-weight: bold;
+  font-size: larger;
+  display: block;
+}
+
+msPart{
+  margin: 1Em;
+  padding:0.5Em;
+  display: block;
+  background-color: lightgreen;
+}
+
+/* profileDesc */
+
+correspDesc::before{
+  content: "Echange épistolaire: ";
+  font-weight: bold;
+  display: block;
+}
+
+correspDesc{
+  display: block;
+  background-color: orange;
+  margin-top: 0.5Em;
+}
+
+correspAction[corresp=sent]::before{
+  content: "Envoi: ";
+}
+
+correspAction{
+  display: block;
+}
+
+language{
+  margin-top: 1Em;
+  display: block;
+}
+
+language::before{
+  content: "Langue: ";
+}
+
+/* CORRESPDESC */
