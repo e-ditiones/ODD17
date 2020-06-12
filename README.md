@@ -53,7 +53,7 @@ You will find six specific schemas, there are schemas for :
 
 ## Guidelines
 
-If you need more details, we wrote an [**encording manual**](ttps://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) which explains how to encode your file step by step.
+If you need more details, we wrote an [**encording manual**](https://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) which explains how to encode your file step by step.
 
 ### Documentation
 
@@ -64,7 +64,7 @@ You can find the XML version in the file [ODD-body.xml](https://github.com/e-dit
 
 Some examples are available in the folder [Examples](https://github.com/e-ditiones/ODD17/tree/master/Examples).
 
-Each file is named according to its content : `Identifier.xml` matches the header of the file and `Identifier_Level-of-encoding.xml` matches the text. For example, `EXP_0001-1.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
+Each file is named according to its content : `Identifier.xml` matches the header of the file and `Identifier_Level-of-encoding.xml` matches the text. For example, `EXP_0001-1.xml` matches with the text (as *transcription*) which has the identifier `EXP_0001` at level 1.
 
 
 **Please note that we are still working on the best way to form a complete file.**
