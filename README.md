@@ -44,16 +44,16 @@ You can learn more about the process on [wiki.tei-c.org](https://wiki.tei-c.org/
 This repository contains all the schemas of the _E-ditiones_ project in the RELAX NG language.
 
 You will find six specific schemas, there are schemas for :
-* [one for the header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-header_MS.rng) 
-* [one for the header of a printed document](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-header_printed.rng)
-* [one for the text at level 1](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-1.rng)
-* [one for the text at level 2](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-2.rng)
-* [one for the text at level 3](https://github.com/e-ditiones/ODD17/blob/master/out/ODD-3.rng)
-* [one for all the possible combinations of the previous schemas](https://github.com/e-ditiones/ODD17/blob/master/out/Mother-ODD.rng)
+* [one for the header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-header_MS.rng) 
+* [one for the header of a printed document](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-header_printed.rng)
+* [one for the text at level 1](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-1.rng)
+* [one for the text at level 2](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-2.rng)
+* [one for the text at level 3](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-3.rng)
+* [one for all the possible combinations of the previous schemas](https://github.com/e-ditiones/ODD17/blob/master/schemas/Mother-ODD.rng)
 
 ## Guidelines
 
-You can find [here](https://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) an **encoding manual** with more details.
+If you need more details, we wrote an [**encording manual**](ttps://github.com/e-ditiones/ODD17/blob/master/Encoding_manual.md) which explains how to encode your file step by step.
 
 ### Documentation
 
@@ -64,9 +64,8 @@ You can find the XML version in the file [ODD-body.xml](https://github.com/e-dit
 
 Some examples are available in the folder [Examples](https://github.com/e-ditiones/ODD17/tree/master/Examples).
 
-Each file is named according to its content : `Identifier_Level-of-encoding_Content.xml` or `Identifier_header.xml`. For example, `EXP_0001_level_1-text.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
+Each file is named according to its content : `Identifier.xml` matches the header of the file and `Identifier_Level-of-encoding.xml` matches the text. For example, `EXP_0001-1.xml` matches with the text (as *transcription*) wich has the identifier `EXP_0001` at level 1.
 
-The folder [file](https://github.com/e-ditiones/ODD17/tree/master/Examples/Files) contains final files (metadata and transcription).
 
 **Please note that we are still working on the best way to form a complete file.**
 
@@ -90,6 +89,6 @@ This repository is CC-BY-SA.
 
 ## Cite this repository
 
-Alexandre Bartz, Simon Gabay. 2019. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/e-ditiones/ODD17.
+Alexandre Bartz, Simon Gabay. 2020. _Encoding principles for French modern manuscripts and printed documents_. Retrieved from https://github.com/e-ditiones/ODD17.
 
 <img src="images/logo_e-ditiones.png" width="40%">
