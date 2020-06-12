@@ -402,6 +402,36 @@
                </attList>
             </elementSpec>
             
+            <!-- msIdentifier -->
+            
+            <elementSpec ident="msIdentifier" mode="change">
+               <content>
+                  <elementRef key="country"/>
+                  <elementRef key="settlement"/>
+                  <elementRef key="institution"/>
+                  <elementRef key="collection"/>
+                  <elementRef key="idno"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="country" mode="change">
+               <attList>
+                  <attDef ident="ref" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="settlement" mode="change">
+               <attList>
+                  <attDef ident="ref" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="institution" mode="change">
+               <attList>
+                  <attDef ident="ref" mode="change" usage="req"/>
+               </attList>
+            </elementSpec>
+            
             <!-- msItem -->
             
             <elementSpec ident="msItem" mode="change">
