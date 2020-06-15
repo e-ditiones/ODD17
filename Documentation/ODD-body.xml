@@ -71,10 +71,10 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <teiHeader>
                <fileDesc>
-                  <!-- informations about the encoded document -->
+                  <!-- information about the encoded document -->
                </fileDesc>
                <revisionDesc>
-                  <!-- revision informations  -->
+                  <!-- revision information  -->
                </revisionDesc>
             </teiHeader>
          </egXML>
@@ -151,7 +151,7 @@
                   <p>As already said, there is a particularity when the text encoded is a
                      manuscript. To describe the document, we have to use the <gi>msDesc</gi>
                      element. To ensure a good encoding, severals elements are recommanded : <list>
-                        <item><p><gi>msIdentifier</gi> which contains informations used to properly
+                        <item><p><gi>msIdentifier</gi> which contains information used to properly
                               identify the manuscript</p><egXML
                               xmlns="http://www.tei-c.org/ns/Examples">
                               <msIdentifier>
@@ -166,9 +166,9 @@
                               </msIdentifier>
                            </egXML>
                         </item>
-                        <item><gi>msContent</gi> which contains informations about the intellectual
+                        <item><gi>msContent</gi> which contains information about the intellectual
                            content of the manuscript</item>
-                        <item><p><gi>physDesc</gi>which contains informations about the physical
+                        <item><p><gi>physDesc</gi>which contains information about the physical
                               description of the document such as the <gi>objectDesc</gi> or the
                                  <gi>bindingDesc</gi></p><egXML
                               xmlns="http://www.tei-c.org/ns/Examples">
@@ -194,10 +194,10 @@
                               </physDesc>
                            </egXML>
                         </item>
-                        <item><gi>history</gi> which contains informations about the history of the
+                        <item><gi>history</gi> which contains information about the history of the
                            manuscript</item>
-                        <item><p><gi>additional</gi>which contains more informations about the
-                              document, such as <gi>surrogates</gi> or bibliographical informations
+                        <item><p><gi>additional</gi>which contains more information about the
+                              document, such as <gi>surrogates</gi> or bibliographical information
                                  (<gi>bibl</gi>)</p><egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <additional>
                                  <surrogates>
@@ -236,8 +236,8 @@
          <head>Text encoding</head>
          <p>After the OCR of the text, its encoding will be completed in three phases : <list>
                <item>Level 1 : the encoding will distinguish form and content</item>
-               <item>Level 2 : we will add semantic informations</item>
-               <item>Level 3 : we will add linguistical informations</item>
+               <item>Level 2 : we will add semantic information</item>
+               <item>Level 3 : we will add linguistical information</item>
             </list>
          </p>
          <p>Please note that at each level, all existing elements are still used and new elements
@@ -249,19 +249,19 @@
                contain a <gi>text</gi> element with the following namespace :
                @xmlns="http://www.tei-c.org/ns/1.0". It checks the validation of the TEI schema.</p>
             <p>Then, at this level of encoding, we use <gi>front</gi>, <gi>body</gi> and
-                  <gi>back</gi> with <gi>p</gi> inside. Some informations are added at this point :
-               concerning the content of the text, the element <gi>fw</gi> contains informations
-               such as title, pagination or editor's notes. The other informations added are about
-               the form of the text. We decided to employ the elements <gi>pb</gi> and <gi>lb</gi>.
-               The first one, <gi>pb</gi>, which marks the point where a new page begins, is useful
-               in the way that it can be used to check the transcription but also to compare our
-               edition with a reference edition. The second one, <gi>lb</gi>, which marks the point
-               where a new line begins, provides graphical informations and can be used for an
-               automatic encoding process. It has two required attributes : <att>break</att> and
-                  <att>rend</att>. If a word is cut at the end of a line, <att>break</att> with the
-               value "no" is useful in that the complete word can be establish again and be
-               considere as a token. <att>rend</att> shows which mark is used (a dash or an hyphen
-               for example).</p>
+                  <gi>back</gi> with <gi>p</gi> inside. Some information are added at this point :
+               concerning the content of the text, the element <gi>fw</gi> contains information
+               such as title, pagination or editor's notes. <gi>hi</gi> is used for any graphic
+               distinction. The other information added are about the form of the text. We decided
+               to employ the elements <gi>pb</gi> and <gi>lb</gi>. The first one, <gi>pb</gi>, which
+               marks the point where a new page begins, is useful in the way that it can be used to
+               check the transcription but also to compare our edition with a reference edition. The
+               second one, <gi>lb</gi>, which marks the point where a new line begins, provides
+               graphical information and can be used for an automatic encoding process. It has two
+               required attributes : <att>break</att> and <att>rend</att>. If a word is cut at the
+               end of a line, <att>break</att> with the value "no" is useful in that the complete
+               word can be establish again and be considere as a token. <att>rend</att> shows which
+               mark is used (a dash or an hyphen for example).</p>
             <p>If there is any type of error, it's possible to correct it with <gi>choice</gi>,
                   <gi>sic</gi> and <gi>corr</gi>.</p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -285,7 +285,7 @@
          </div>
          <div>
             <head>Second level</head>
-            <p>At this level of encoding, we add manually some semantic informations. Considering
+            <p>At this level of encoding, we add manually some semantic information. Considering
                that we want to use, as mentioned before, a minimal set of elements, we decided to
                only employ common elements. Despite this, in the case of texts such as plays or
                letters, the use of a few specific elements is recommended.</p>
@@ -463,7 +463,7 @@
          <div>
             <head>Third level</head>
             <p>This level of encoding is automaticaly done. In order to add some linguistical
-               informations, the original version of the text is normalized with the following
+               information, the original version of the text is normalized with the following
                elements : <gi>choice</gi>, <gi>orig</gi> and <gi>reg</gi>. Then, in order to process
                tokenization and lemmatization on the text, we decided to split it with <gi>seg</gi>
                and <gi>w</gi>. The first one, <gi>seg</gi> is used to represent any segmentation of
@@ -648,6 +648,14 @@
                <row role="data">
                   <cell>collection</cell>
                   <cell>used for any type of collection</cell>
+               </row>
+               <row role="data">
+                  <cell>poem</cell>
+                  <cell>used for any type of poem</cell>
+               </row>
+               <row role="data">
+                  <cell>undefined_part</cell>
+                  <cell>used for any other type of division</cell>
                </row>
             </table>
          </div>
