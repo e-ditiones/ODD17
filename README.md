@@ -49,7 +49,6 @@ You will find six specific schemas, there are schemas for :
 * [one for the text at level 1](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-1.rng)
 * [one for the text at level 2](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-2.rng)
 * [one for the text at level 3](https://github.com/e-ditiones/ODD17/blob/master/schemas/ODD-3.rng)
-* [one for all the possible combinations of the previous schemas](https://github.com/e-ditiones/ODD17/blob/master/schemas/Mother-ODD.rng)
 
 ## Guidelines
 
@@ -70,11 +69,11 @@ Each file is named according to its content : `Identifier.xml` matches the heade
 **Please note that we are still working on the best way to form a complete file.**
 
 Click here to see an exemple of an encoding following each schemas : 
-* [header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0007_header.xml)
-* [header of a print](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0003_header.xml)
-* [text at level 1](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0002_level-1_text.xml)
-* [text at level 2](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0002_level-2_text.xml)
-* text at level 3
+* [header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0007.xml)
+* [header of a print](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008.xml)
+* [text at level 1](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008-1.xml)
+* [text at level 2](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008-2.xml)
+* [text at level 3](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008-2.xml)
 
 
 ## Credits
