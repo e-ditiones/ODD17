@@ -69,7 +69,7 @@ Each file is named according to its content : `Identifier.xml` matches the heade
 **Please note that we are still working on the best way to form a complete file.**
 
 Click here to see an exemple of an encoding following each schemas : 
-* [header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0007.xml)
+* [header of a manuscript](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0015.xml)
 * [header of a print](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008.xml)
 * [text at level 1](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008-1.xml)
 * [text at level 2](https://github.com/e-ditiones/ODD17/blob/master/Examples/EXP_0008-2.xml)
