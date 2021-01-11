@@ -20,9 +20,9 @@
             </measure>
          </extent>
          <publicationStmt>
-            <publisher>E-Ditiones project  <ref target="https://github.com/e-ditiones"/>
+            <publisher>E-Ditiones project <ref target="https://github.com/e-ditiones"/>
             </publisher>
-           
+
             <availability status="restricted" n="cc-by">
                <licence target="https://creativecommons.org/licenses/by/4.0"/>
             </availability>
@@ -77,7 +77,8 @@
                   <accMat>test</accMat>
                </physDesc>
                <history>
-                  <provenance source="someDoc" when="1000">collection of<persName ref="isni:0000000">Someone</persName></provenance>
+                  <provenance source="someDoc" when="1000">collection of<persName ref="isni:0000000"
+                        >Someone</persName></provenance>
                   <acquisition when="1000">Bought by someone</acquisition>
                </history>
                <additional>
@@ -88,8 +89,7 @@
                   <listBibl>
                      <listBibl type="catalogue">
                         <bibl>
-                           <ptr type="other"
-                              target="http://findingaids.princeton.edu/collections"/>
+                           <ptr type="other" target="http://findingaids.princeton.edu/collections"/>
                         </bibl>
                      </listBibl>
                      <listBibl type="L1">
@@ -191,7 +191,8 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI encoding according to the new ODD</change>
+         <change who="orcid:0000-0001-9094-4475" when="2020-05-26">Adaptation of the XML-TEI
+            encoding according to the new ODD</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -206,10 +207,16 @@
                <stage>Acteur.rice.s</stage>
                <sp>
                   <speaker>XY</speaker>
-                  <l n="n" xml:id="idL"><hi>B</hi>lablabla, <persName ref="A">A</persName> goes to <placeName ref="C">C</placeName></l>
-                  <p>Voici un premier <lb/>exemple <choice><sic>pos</sic><corr>pas</corr></choice> très ori-<lb break="no"/>nal. </p>
+                  <l n="n" xml:id="idL"><hi>B</hi>lablabla, <persName ref="A">A</persName> goes to
+                        <placeName ref="C">C</placeName></l>
+                  <p>Voici un premier
+                     <lb/>exemple <choice>
+                        <sic>pos</sic>
+                        <corr>pas</corr>
+                     </choice> très ori-
+                     <lb break="no"/>nal. </p>
                   <p>Exemple de note<ref>1</ref>
-                  <note>Contenu de la note</note></p>
+                     <note>Contenu de la note</note></p>
                </sp>
             </div>
          </div>
@@ -226,7 +233,7 @@
          </div>
          <div>
             <head>Roman</head>
-            <p  xml:id="idP">Blabla <fw>Poème</fw>
+            <p xml:id="idP">Blabla <fw>Poème</fw>
                <lg>
                   <l>Blabla</l>
                </lg>
@@ -235,8 +242,26 @@
          <div>
             <p>
                <choice>
-                  <orig><seg><w/></seg></orig>
-                  <reg><seg><w/></seg></reg>
+                  <orig>
+                     <seg>
+                        <orig>
+                           <w/>
+                        </orig>
+                        <reg>
+                           <w>Test</w>
+                        </reg>
+                     </seg>
+                  </orig>
+                  <reg>
+                     <seg>
+                        <orig>
+                           <w>Test</w>
+                        </orig>
+                        <reg>
+                           <w>Test</w>
+                        </reg>
+                     </seg>
+                  </reg>
                </choice>
             </p>
          </div>

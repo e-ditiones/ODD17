@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="21.1">
+<project version="21.0">
     <meta>
         <filters directoryPatterns="" filePatterns="\QODD17.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="21.1" xml:space="preserve">
+            <serialized version="21.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>mother/source/Mother.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>oddByExample</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>mother/Mother-ODD.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>odd2odd</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>../../Downloads/ODD17-master%202/ODDs/Mother.xml</String>
@@ -60,6 +30,36 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>oddByExample</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>mother/source/Mother.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>oddByExample</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>mother/Mother-ODD.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>odd2odd</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -115,6 +115,9 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/mother/Mother-compiled.xml</String>
@@ -255,6 +258,9 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/mother/Mother-ODD.xml</String>

@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 1 files in /Users/gabaysimon/Downloads/ODD17-master 2/ODDs</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 1 files in file:/Users/alexandrebartz/Stage/ODD17/mother/source/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -400,10 +400,8 @@
             <classSpec ident="att.lexicographic" type="atts" mode="change">
                <attList>
                   <attDef ident="expand" mode="delete"/>
-                  <attDef ident="norm" mode="delete"/>
                   <attDef ident="split" mode="delete"/>
                   <attDef ident="value" mode="delete"/>
-                  <attDef ident="orig" mode="delete"/>
                   <attDef ident="location" mode="delete"/>
                   <attDef ident="mergedIn" mode="delete"/>
                   <attDef ident="opt" mode="delete"/>
@@ -1085,7 +1083,6 @@
                   <attDef ident="facs" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
-                  <attDef ident="corresp" mode="replace"/>
                </attList>
             </elementSpec>
             <elementSpec ident="correspAction" mode="change">
@@ -1172,6 +1169,8 @@
                </attList>
             </classSpec>
             <!--Checking module analysis-->
+            <classRef key="att.linguistic"/>
+            <moduleRef key="analysis" include="w"/>
             <elementSpec ident="w" mode="change">
                <attList>
                   <attDef ident="corresp" mode="delete"/>
@@ -1185,6 +1184,15 @@
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
+            <classSpec ident="att.linguistic" type="atts" mode="change">
+               <attList>
+                  <attDef ident="lemma" mode="delete"/>
+                  <attDef ident="lemmaRef" mode="delete"/>
+                  <attDef ident="pos" mode="delete"/>
+                  <attDef ident="msd" mode="delete"/>
+                  <attDef ident="join" mode="delete"/>
+               </attList>
+            </classSpec>
             <!--Checking module textstructure-->
             <moduleRef key="textstructure"
                        include="TEI text body div opener closer docDate front back"/>
