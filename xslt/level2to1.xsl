@@ -20,9 +20,7 @@
     </xsl:template>
 
     <xsl:template match="lb">
-        <xsl:copy>
-            <xsl:apply-templates/>
-        </xsl:copy>
+        <xsl:copy-of select="."/>
     </xsl:template>
 
     <xsl:template match="pb">
