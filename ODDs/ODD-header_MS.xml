@@ -28,7 +28,7 @@
 
       <!-- The body contains the documentation. -->
 
-      <xi:include href="../Documentation/ODD-body.xml"/>
+      <xi:include href="../documentation/ODD-body.xml"/>
 
       <back>
          <div>
@@ -186,7 +186,7 @@
                   <attDef ident="n" mode="delete"/>
                   <attDef ident="ref" mode="delete"/>
                   <attDef ident="rend" mode="delete"/>
-                  <attDef ident="type" mode="replace" usage="rec">
+                  <attDef ident="type" mode="change" usage="req">
                      <valList mode="add" type="closed">
                         <valItem ident="main"/>
                         <valItem ident="sub"/>
@@ -260,7 +260,7 @@
                         <valItem ident="mm"/>
                      </valList>
                   </attDef>
-                  <attDef ident="quantity" mode="replace" usage="rec">
+                  <attDef ident="quantity" mode="change" usage="rec">
                      <datatype>
                         <dataRef key="teidata.numeric"/>
                      </datatype>
@@ -283,7 +283,7 @@
                         <valItem ident="mm"/>
                      </valList>
                   </attDef>
-                  <attDef ident="quantity" mode="replace" usage="rec">
+                  <attDef ident="quantity" mode="change" usage="rec">
                      <datatype>
                         <dataRef key="teidata.numeric"/>
                      </datatype>

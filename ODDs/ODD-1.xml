@@ -27,7 +27,7 @@
       
       <!-- The body contains the documentation. -->
 
-      <xi:include  href="../Documentation/ODD-body.xml"/>
+      <xi:include  href="../documentation/ODD-body.xml"/>
 
       <back>
          <div>
