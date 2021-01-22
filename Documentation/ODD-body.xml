@@ -40,7 +40,8 @@
                project, an underscore and a four digit serial number. So, the identifier of the
                first text encoded will be <code>EDI_0001</code>.</p>
             <list>
-               <item><code>EDI_0001</code> matches the header of the file</item>
+               <item><code>EDI_0001</code> matches the merged file (header, levels 1, 2 and 3)</item>
+               <item><code>EDI_0001_header</code> matches the header of the file</item>
                <item><code>EDI_0001-1</code> matches the text of first level</item>
                <item><code>EDI_0001-2</code> matches the text of second level</item>
                <item><code>EDI_0001-3</code> matches the text of third level</item>
