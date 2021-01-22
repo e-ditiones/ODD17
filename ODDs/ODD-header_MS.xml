@@ -186,7 +186,7 @@
                   <attDef ident="n" mode="delete"/>
                   <attDef ident="ref" mode="delete"/>
                   <attDef ident="rend" mode="delete"/>
-                  <attDef ident="type" mode="change" usage="req">
+                  <attDef ident="type" mode="add" usage="rec">
                      <valList mode="add" type="closed">
                         <valItem ident="main"/>
                         <valItem ident="sub"/>
