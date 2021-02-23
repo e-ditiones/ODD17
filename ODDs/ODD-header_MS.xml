@@ -39,10 +39,10 @@
                   include="teiHeader fileDesc titleStmt sourceDesc editionStmt publicationStmt edition licence extent authority
                   encodingDesc projectDesc editorialDecl correction hyphenation normalization quotation punctuation interpretation
                   segmentation revisionDesc change idno notesStmt availability profileDesc correspDesc correspAction handNote
-                  scriptNote langUsage language"/>
+                  scriptNote langUsage language noteStmt"/>
                <moduleRef key="core"
                   include="listBibl bibl editor list item p title author pubPlace publisher note head graphic measure ref date name
-                  respStmt resp"/>
+                  respStmt resp ptr"/>
                <moduleRef key="namesdates" include="forename surname persName country settlement placeName"/>
                <moduleRef key="msdescription"
                   include="msDesc msIdentifier institution repository collection physDesc objectDesc supportDesc support objectType material
