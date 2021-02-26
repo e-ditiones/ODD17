@@ -33,9 +33,8 @@ All these schemas are related to one another thanks to ODD-chaining.
 <br/>
 
 All the documents used to create the sub-schemas are available in this repo.
-1. `Mother.xml` contains all the elements that are used in the sub-sechemas. 
-2. `Mother-ODD.xml`: `Mother.xml` transformed with `oddbyexample.xsl`
-3. `Mother-compiled.xml`: `Mother-ODD.xml` transformed with `odd2odd.xsl`
+1. `Mother-ODD.xml`: the ODD containing all the elements that can be used.
+2. `Mother-compiled.xml`: `Mother-ODD.xml` transformed with `odd2odd.xsl`
 
 You can learn more about the process on [wiki.tei-c.org](https://wiki.tei-c.org/index.php/ODD_chaining) or with this [tutorial](https://github.com/TEIC/TEI/tree/e375991d8155fe619f429be5774e3c75022e1e87/Documents/pureODD) by Lou Burnard.
 
@@ -60,6 +59,8 @@ The documentation of this project is available in the folder [Documentation](htt
 You can find the XML version in the file [ODD-body.xml](https://github.com/e-ditiones/ODD17/blob/master/Documentation/ODD-body.xml).
 
 ### Examples
+
+**The encoding may have changed. Click [here](https://github.com/e-ditiones/CORPUS17/tree/master/data) to see most recent examples.**
 
 Some examples are available in the folder [Examples](https://github.com/e-ditiones/ODD17/tree/master/Examples).
 
